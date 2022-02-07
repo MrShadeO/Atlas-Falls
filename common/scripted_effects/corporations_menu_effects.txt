@@ -287,7 +287,37 @@ increase_investment_tier_benefits = {
                 compare = equals
             }
         }
-
+        if = {
+            limit = { has_idea = corporation_8_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_4
+                add_idea = corporation_8_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_3
+                add_idea = corporation_8_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_2
+                add_idea = corporation_8_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_1
+                add_idea = corporation_8_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_8_tier_1
+        }
     }
 }
 

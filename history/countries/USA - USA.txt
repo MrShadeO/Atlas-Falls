@@ -7,7 +7,28 @@ set_convoys = 420
 
 set_country_flag = has_president
 set_country_flag = is_federal_republic
-set_country_flag = has_government_lower_house
+
+add_to_array = { lower_chamber_seat_array = 0 } # Anarchism
+add_to_array = { lower_chamber_seat_array = 0 } # Totalism
+add_to_array = { lower_chamber_seat_array = 1 } # Socialism
+add_to_array = { lower_chamber_seat_array = 2 } # Social Democracy
+add_to_array = { lower_chamber_seat_array = 225 } # Liberalism
+add_to_array = { lower_chamber_seat_array = 207 } # Conservatism
+add_to_array = { lower_chamber_seat_array = 0 } # Authoritarianism
+add_to_array = { lower_chamber_seat_array = 0 } # Ultranationalism
+
+add_to_array = { upper_chamber_seat_array = 0 } # Anarchism
+add_to_array = { upper_chamber_seat_array = 0 } # Totalism
+add_to_array = { upper_chamber_seat_array = 0 } # Socialism
+add_to_array = { upper_chamber_seat_array = 1 } # Social Democracy
+add_to_array = { upper_chamber_seat_array = 53 } # Liberalism
+add_to_array = { upper_chamber_seat_array = 42 } # Conservatism
+add_to_array = { upper_chamber_seat_array = 0 } # Authoritarianism
+add_to_array = { upper_chamber_seat_array = 0 } # Ultranationalism
+
+d_parliament_gui_initial = yes
+initialize_parties_array = yes
+create_scale_graph = yes
 
 #Monro
 give_guarantee = CAN
@@ -313,12 +334,12 @@ create_navy_leader = {
 	}
 	set_popularities = {
 		anarchism_ideology = 0
-		totalism_ideology = 3
-		socialism_ideology = 7
+		totalism_ideology = 0
+		socialism_ideology = 5
 		social_democracy_ideology = 10
-		liberalism_ideology = 40
-		conservatism_ideology = 30
-		authoritarianism_ideology = 10
+		liberalism_ideology = 45
+		conservatism_ideology = 40
+		authoritarianism_ideology = 0
 		ultranationalism_ideology = 0
 	}
 

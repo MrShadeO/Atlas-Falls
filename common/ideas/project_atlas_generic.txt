@@ -203,15 +203,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
-			}
-
-			on_add = {
-				tax_revenue_decrease_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_1 = yes
+				tax_revenue = -1
 			}
 		}
 
@@ -320,15 +312,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes
+				tax_revenue = -2
 			}
 		}
 
@@ -829,6 +813,7 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.10
 				stability_factor = -0.10
+				tax_revenue = 3
 			}
 			
 			cancel_if_invalid = no
@@ -854,11 +839,6 @@ ideas = {
 					limit = { has_idea = very_high_tax_rate }
 					remove_ideas = very_high_tax_rate
 				}
-				tax_revenue_increase_3 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_3 = yes
 			}
         }
 
@@ -868,6 +848,7 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.20
 				stability_factor = -0.20
+				tax_revenue = 6
 			}
 			
 			cancel_if_invalid = no
@@ -893,11 +874,6 @@ ideas = {
 					limit = { has_idea = very_high_tax_rate }
 					remove_ideas = very_high_tax_rate
 				}
-				tax_revenue_increase_6 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_6 = yes
 			}
         }
 
@@ -907,6 +883,7 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.30
 				stability_factor = -0.30
+				tax_revenue = 9
 			}
 			
 			cancel_if_invalid = no
@@ -932,11 +909,6 @@ ideas = {
 					limit = { has_idea = very_high_tax_rate }
 					remove_ideas = very_high_tax_rate
 				}
-				tax_revenue_increase_9 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_9 = yes
 			}
         }
 
@@ -946,6 +918,7 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.40
 				stability_factor = -0.40
+				tax_revenue = 12
 			}
 			
 			cancel_if_invalid = no
@@ -971,11 +944,6 @@ ideas = {
 					limit = { has_idea = very_high_tax_rate }
 					remove_ideas = very_high_tax_rate
 				}
-				tax_revenue_increase_12 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_12 = yes
 			}
         }
 
@@ -985,6 +953,7 @@ ideas = {
 			modifier = {
                 consumer_goods_factor = 0.50
 				stability_factor = -0.50
+				tax_revenue = 15
 			}
 			
 			cancel_if_invalid = no
@@ -1010,11 +979,6 @@ ideas = {
 					limit = { has_idea = high_tax_rate }
 					remove_ideas = high_tax_rate
 				}
-				tax_revenue_increase_15 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_15 = yes
 			}
         }
 
@@ -1042,20 +1006,12 @@ ideas = {
 
 		social_democracy_idea = { 
 			removal_cost = -1
-			
+
 			modifier = {
-                
+                tax_revenue = 3
 			}
 			
 			cancel_if_invalid = no
-
-			on_add = {
-				tax_revenue_increase_3 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_3 = yes
-			}
         }
 	}
 
@@ -1120,6 +1076,119 @@ ideas = {
 
 			research_bonus = {
 				armor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		universal_healthcare_idea = {
+			picture = generic_research_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.25
+				stability_factor = 0.10
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				conscription_factor = 0.10
+				tax_revenue = -3
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		anarchist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		totalist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		socialist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		social_democratic_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		liberal_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		conservative_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		authoritarian_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		ultranationalist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
 			}
 			
 			cancel_if_invalid = no

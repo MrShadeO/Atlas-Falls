@@ -19,6 +19,8 @@ scripted_gui = {
                 clr_country_flag = display_corporations_tab
                 clr_country_flag = display_government_tab
 
+                clr_country_flag = upper_chamber_view
+
                 #Needed for Finance tab to function properly!!
                 set_variable = {
                     var = curr_tax_rate_var

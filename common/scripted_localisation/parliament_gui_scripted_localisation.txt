@@ -71,7 +71,125 @@ defined_text = {
 
 defined_text = {
 	name = GetFirstChamberName
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = "House of Representatives"
+	}
+	text = {
+		trigger = {
+			has_elections = no
+		}
+		localization_key = "We do not have a Lower Chamber."
+	}
     text = {
 		localization_key = DEFAULT_PARLIAMENT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondChamberName
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = "Senate"
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = has_government_upper_house }
+		}
+		localization_key = "We do not have an Upper Chamber."
+	}
+    text = {
+		localization_key = DEFAULT_PARLIAMENT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetPoliticalPartiesNames
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = FIND_ANARCHIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 2
+				compare = equals
+			}
+		}
+		localization_key = FIND_TOTALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 3
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 4
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 5
+				compare = equals
+			}
+		}
+		localization_key = FIND_LIBERAL_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 6
+				compare = equals
+			}
+		}
+		localization_key = FIND_CONSERVATIVE_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 7
+				compare = equals
+			}
+		}
+		localization_key = FIND_AUTHORITARIAN_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 8
+				compare = equals
+			}
+		}
+		localization_key = FIND_ULTRANATIONALIST_PARTY_KEY
+	}
+    text = {
+		localization_key = ERROR
 	}
 }

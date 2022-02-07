@@ -1,0 +1,170 @@
+alerts_and_warnings_category = {
+    over_division_limit_warning_initial = {
+        allowed = { always = yes }
+
+        activation = {
+            has_war = no
+            is_ai = no
+            check_variable = {
+                var = num_divisions
+                value = division_limit
+                compare = greater_than
+            }
+            NOT = { has_country_flag = post_war_buffer_flag }
+            NOT = {
+                has_idea = over_division_limit_tier_1
+                has_idea = over_division_limit_tier_2
+                has_idea = over_division_limit_tier_3
+            }
+            date > 1924.01.03
+        }
+
+        available = {
+            OR = {
+                custom_trigger_tooltip = {
+                    tooltip = over_division_limit_warning_tt
+                    check_variable = {
+                        var = num_divisions
+                        value = division_limit
+                        compare = less_than_or_equals
+                    }
+                }
+                has_war = yes
+            }
+        }
+
+        is_good = no
+        selectable_mission = no
+        days_mission_timeout = 10
+
+        timeout_effect = {
+            add_ideas = over_division_limit_tier_1
+			country_event = generic.26
+        }
+    }
+
+    over_division_limit_warning_round_2 = {
+        allowed = { always = yes }
+
+        activation = {
+            has_war = no
+            is_ai = no
+            check_variable = {
+                var = num_divisions
+                value = division_limit
+                compare = greater_than
+            } 
+            has_idea = over_division_limit_tier_1
+            NOT = { has_country_flag = post_war_buffer_flag }
+            NOT = { 
+                has_idea = over_division_limit_tier_2 
+                has_idea = over_division_limit_tier_3
+            }
+            date > 1924.01.03
+        }
+
+        available = {
+            OR = {
+                custom_trigger_tooltip = {
+                    tooltip = over_division_limit_warning_tt
+                    check_variable = {
+                        var = num_divisions
+                        value = division_limit
+                        compare = less_than_or_equals
+                    }
+                }
+                has_war = yes
+            }
+        }
+
+        is_good = no
+        selectable_mission = no
+        days_mission_timeout = 10
+
+        timeout_effect = {
+            swap_ideas = {
+                remove_idea = over_division_limit_tier_1
+                add_idea = over_division_limit_tier_2
+            }
+        }
+
+        complete_effect = {
+            remove_ideas = over_division_limit_tier_1
+            if = {
+                limit = { has_war = yes }
+                country_event = generic.28
+            }
+            else_if = {
+                limit = {
+                    check_variable = {
+                        var = num_divisions
+                        value = division_limit
+                        compare = less_than_or_equals
+                    }
+                }
+                country_event = generic.27
+            }
+        }
+    }
+
+    over_division_limit_warning_round_3 = {
+        allowed = { always = yes }
+
+        activation = {
+            has_war = no
+            is_ai = no
+            check_variable = {
+                var = num_divisions
+                value = division_limit
+                compare = greater_than
+            } 
+            has_idea = over_division_limit_tier_2
+            NOT = { has_country_flag = post_war_buffer_flag }
+            NOT = { has_idea = over_division_limit_tier_3 }
+            date > 1924.01.03
+        }
+
+        available = {
+            OR = {
+                custom_trigger_tooltip = {
+                    tooltip = over_division_limit_warning_tt
+                    check_variable = {
+                        var = num_divisions
+                        value = division_limit
+                        compare = less_than_or_equals
+                    }
+                }
+                has_war = yes
+            }
+        }
+
+        is_good = no
+        selectable_mission = no
+        days_mission_timeout = 10
+
+        timeout_effect = {
+            swap_ideas = {
+                remove_idea = over_division_limit_tier_2
+                add_idea = over_division_limit_tier_3
+            }
+        }
+
+        complete_effect = {
+            remove_ideas = over_division_limit_tier_2
+            if = {
+                limit = { has_war = yes }
+                country_event = generic.28
+            }
+            else_if = {
+                limit = {
+                    check_variable = {
+                        var = num_divisions
+                        value = division_limit
+                        compare = less_than_or_equals
+                    }
+                }
+                country_event = generic.27
+            }
+        }
+    }
+}

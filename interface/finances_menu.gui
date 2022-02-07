@@ -42,14 +42,22 @@ guiTypes = {
 
 		buttonType = {
 			name = "finances_tab_help_button"
-			position = { x = -90 y = 9 }
-			spriteType ="GFX_icon_atlas_cog"
+			position = { x = -94 y = 6 }
+			spriteType ="GFX_basic_circle_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over
 			pdx_tooltip = "FINANCES_TUTORIAL_KEY"
+		}
+
+		iconType = {
+			name ="finances_tab_help_button_icon"
+			spriteType = "GFX_icon_atlas_cog"
+			position = { x = -85 y = 14 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
 		}
 
 		containerWindowType = {

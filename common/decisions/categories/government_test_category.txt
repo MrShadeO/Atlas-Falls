@@ -1,5 +1,0 @@
-government_test_decisions = {
-    visible = {
-        is_debug = yes
-    }
-}

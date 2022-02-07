@@ -297,19 +297,19 @@ create_navy_leader = {
 	set_politics={
 		ruling_party = conservatism_ideology
 		last_election = "1923.7.1"
-		election_frequency = 48 
+		election_frequency = 72 
 		elections_allowed = yes 
 	}
 	
 	set_popularities = {
 		anarchism_ideology = 0
-		totalism_ideology = 2
-		socialism_ideology = 6
-		social_democracy_ideology = 14
+		totalism_ideology = 5
+		socialism_ideology = 10
+		social_democracy_ideology = 25
 		liberalism_ideology = 10
-		conservatism_ideology = 28
-		authoritarianism_ideology = 25
-		ultranationalism_ideology = 15
+		conservatism_ideology = 30
+		authoritarianism_ideology = 10
+		ultranationalism_ideology = 10
 	}
 
 	add_ideas = {	

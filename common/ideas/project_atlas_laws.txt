@@ -52,24 +52,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				custom_modifier_tooltip = standing_army_increase_6_tt
+				standing_army_limit = 6
                 consumer_goods_factor = 0.05
 				production_speed_buildings_factor = -0.10
                 industrial_capacity_factory = -0.075
                 industrial_capacity_dockyard = -0.075
                 local_resources_factor = -0.10
                 monthly_population = -0.15
-				custom_modifier_tooltip = tax_plus_two
-			}
-
-			on_add = {
-				tax_revenue_increase_2 = yes
-				add_to_variable = { standing_army_limit = 6 }
-			}
-
-			on_remove = {
-				tax_revenue_decrease_2 = yes
-				subtract_from_variable = { standing_army_limit = 6 }
+				tax_revenue = 2
 			}
 			
 			cancel_if_invalid = no
@@ -96,19 +86,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				custom_modifier_tooltip = standing_army_increase_12_tt
+				standing_army_limit = 12
                 consumer_goods_factor = 0.10
-				custom_modifier_tooltip = tax_plus_four
-			}
-
-			on_add = {
-				tax_revenue_increase_4 = yes
-				add_to_variable = { standing_army_limit = 12 }
-			}
-
-			on_remove = {
-				tax_revenue_decrease_4 = yes
-				subtract_from_variable = { standing_army_limit = 12 }
+				tax_revenue = 4
 			}
 			
 			cancel_if_invalid = no
@@ -133,24 +113,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				custom_modifier_tooltip = standing_army_increase_18_tt
+				standing_army_limit = 18
                 consumer_goods_factor = 0.15
                 production_speed_buildings_factor = 0.10
                 industrial_capacity_factory = 0.075
                 industrial_capacity_dockyard = 0.075
                 local_resources_factor = 0.10
                 monthly_population = 0.15
-				custom_modifier_tooltip = tax_plus_six
-			}
-
-			on_add = {
-				tax_revenue_increase_6 = yes
-				add_to_variable = { standing_army_limit = 18 }
-			}
-
-			on_remove = {
-				tax_revenue_decrease_6 = yes
-				subtract_from_variable = { standing_army_limit = 18 }
+				tax_revenue = 6
 			}
 			
 			cancel_if_invalid = no
@@ -175,24 +145,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				custom_modifier_tooltip = standing_army_increase_24_tt
+				standing_army_limit = 24
                 consumer_goods_factor = 0.20
                 production_speed_buildings_factor = 0.20
                 industrial_capacity_factory = 0.15
                 industrial_capacity_dockyard = 0.15
                 local_resources_factor = 0.20
                 monthly_population = 0.30
-				custom_modifier_tooltip = tax_plus_eight
-			}
-
-			on_add = {
-				tax_revenue_increase_8 = yes
-				add_to_variable = { standing_army_limit = 24 }
-			}
-
-			on_remove = {
-				tax_revenue_decrease_8 = yes
-				subtract_from_variable = { standing_army_limit = 24 }
+				tax_revenue = 8
 			}
 			
 			cancel_if_invalid = no
@@ -221,16 +181,8 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-				custom_modifier_tooltip = tax_minus_one
+				tax_revenue = -1
 			}
-
-            on_add = {
-                tax_revenue_decrease_1 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_1 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -243,18 +195,10 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_two
+                tax_revenue = -2
 				stability_factor = 0.10
                 intelligence_agency_defense = 0.50
 			}
-
-            on_add = {
-                tax_revenue_decrease_2 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_2 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -265,18 +209,10 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_three
+                tax_revenue = -3
 				stability_factor = 0.20
                 intelligence_agency_defense = 1.0
 			}
-
-            on_add = {
-                tax_revenue_decrease_3 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_3 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -287,18 +223,10 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_four
+                tax_revenue = -4
 				stability_factor = 0.40
                 intelligence_agency_defense = 1.0
 			}
-
-            on_add = {
-                tax_revenue_decrease_4 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_4 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -331,17 +259,9 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_one
+                tax_revenue = -1
                 consumer_goods_factor = 0.05
 			}
-
-            on_add = {
-                tax_revenue_decrease_1 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_1 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -352,20 +272,12 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_two
+                tax_revenue = -2
                 research_speed_factor = 0.05
                 industrial_capacity_factory = 0.05
                 industrial_capacity_dockyard = 0.05
                 consumer_goods_factor = 0.10
 			}
-
-            on_add = {
-                tax_revenue_decrease_2 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_2 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -376,20 +288,12 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_three
+                tax_revenue = -3
                 research_speed_factor = 0.10
                 industrial_capacity_factory = 0.10
                 industrial_capacity_dockyard = 0.10
                 consumer_goods_factor = 0.15
 			}
-
-            on_add = {
-                tax_revenue_decrease_3 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_3 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -400,20 +304,12 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                custom_modifier_tooltip = tax_minus_four
+                tax_revenue = -4
                 research_speed_factor = 0.15
                 industrial_capacity_factory = 0.15
                 industrial_capacity_dockyard = 0.15
                 consumer_goods_factor = 0.20
 			}
-
-            on_add = {
-                tax_revenue_decrease_4 = yes
-            }
-
-            on_remove = {
-                tax_revenue_increase_4 = yes
-            }
 			
 			cancel_if_invalid = no
 		}
@@ -854,16 +750,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_two
+				tax_revenue = -2
 				custom_modifier_tooltip = urban_focus_tt
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -875,16 +763,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_two
+				tax_revenue = -2
 				custom_modifier_tooltip = suburban_focus_tt
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -896,16 +776,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_two
+				tax_revenue = -2
 				custom_modifier_tooltip = rural_focus_tt
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -917,16 +789,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_one
+				tax_revenue = -1
 				custom_modifier_tooltip = capitol_focus_tt
-			}
-
-			on_add = {
-				tax_revenue_decrease_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_1 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -1044,17 +908,9 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_three
+				tax_revenue = -3
 				compliance_growth = 0.33
 				non_core_manpower = 0.02
-			}
-
-			on_add = {
-				tax_revenue_decrease_3 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_3 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1066,16 +922,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_one
+				tax_revenue = -1
 				compliance_growth = 0.33
-			}
-
-			on_add = {
-				tax_revenue_decrease_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_1 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -1087,16 +935,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_one
+				tax_revenue = -1
 				non_core_manpower = 0.02
-			}
-
-			on_add = {
-				tax_revenue_decrease_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_1 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1132,16 +972,8 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_plus_two
+				tax_revenue = 2
 				compliance_growth = -0.25
-			}
-
-			on_add = {
-				tax_revenue_increase_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_2 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -1174,18 +1006,10 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_plus_two
+				tax_revenue = 2
 				compliance_growth = -0.25
 				local_resources_factor = 0.15
 				non_core_manpower = -0.01
-			}
-
-			on_add = {
-				tax_revenue_increase_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_2 = yes 
 			}
 			
 			cancel_if_invalid = no
@@ -1200,16 +1024,8 @@ ideas = {
 			level = 1
 
 			modifier = {
-				custom_modifier_tooltip = tax_plus_four
+				tax_revenue = 4
 				political_power_factor = -0.20
-			}
-
-			on_add = {
-				tax_revenue_increase_4 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_4 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1219,16 +1035,8 @@ ideas = {
 			level = 2
 
 			modifier = {
-				custom_modifier_tooltip = tax_plus_two
+				tax_revenue = 2
 				political_power_factor = -0.10
-			}
-
-			on_add = {
-				tax_revenue_increase_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_2 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1258,16 +1066,8 @@ ideas = {
 			level = 4
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_two
+				tax_revenue = -2
 				political_power_factor = 0.15
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1277,16 +1077,8 @@ ideas = {
 			level = 5
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_four
+				tax_revenue = -4
 				political_power_factor = 0.30
-			}
-
-			on_add = {
-				tax_revenue_decrease_4 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_4 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1325,17 +1117,9 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = tax_plus_one
+				tax_revenue = -1
 				civilian_intel_to_others = -10
 				local_resources_factor = -0.10
-			}
-
-			on_add = {
-				tax_revenue_increase_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_decrease_1 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1557,16 +1341,8 @@ ideas = {
 			level = 1
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_three
+				tax_revenue = -3
 				stability_factor = 0.05
-			}
-
-			on_add = {
-				tax_revenue_decrease_3 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_3 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1576,17 +1352,9 @@ ideas = {
 			level = 2
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_two
+				tax_revenue = -2
 				stability_factor = -0.05
 				monthly_population = 0.10
-			}
-
-			on_add = {
-				tax_revenue_decrease_2 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_2 = yes
 			}
 			
 			cancel_if_invalid = no
@@ -1598,17 +1366,9 @@ ideas = {
 			level = 3
 
 			modifier = {
-				custom_modifier_tooltip = tax_minus_one
+				tax_revenue = -1
 				stability_factor = -0.10
 				monthly_population = 0.20
-			}
-
-			on_add = {
-				tax_revenue_decrease_1 = yes
-			}
-
-			on_remove = {
-				tax_revenue_increase_1 = yes
 			}
 			
 			cancel_if_invalid = no
