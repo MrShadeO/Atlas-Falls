@@ -2,10 +2,11 @@ scripted_gui = {
 	scale_graph_sg = {
 		context_type = player_context
 		window_name = "scale_graph_container"
-		parent_window_name = government_tab_window
+		parent_window_token = politics_tab
 
 		visible = {
 			is_ai = no
+			has_country_flag = display_government_tab
 			check_variable = {
 				var = gov_menu_pages_array^gov_menu_current_page
 				value = 1

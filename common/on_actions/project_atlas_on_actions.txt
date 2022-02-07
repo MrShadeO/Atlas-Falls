@@ -232,6 +232,9 @@ on_actions = {
 
 	on_daily = {
 		effect = {
+			#This helps with the Elections menu
+			add_to_variable = { last_update_date = 1 }
+
 			#This helps with the Action Button/Menu
 			if = {
 				limit = { has_variable = cooldown_duration_remaining }

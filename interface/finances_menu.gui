@@ -2,7 +2,7 @@ guiTypes = {
 
     containerWindowType = {
 		name = "finances_tab_window"
-		position = { x = 719 y = 80 }	
+		position = { x = 725 y = 2 }	
 		size = { width= 549 height=535 }
 		show_sound = open_sub_window
 

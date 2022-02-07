@@ -2,9 +2,10 @@ scripted_gui = {
 	parliament_gui = {
 		context_type = player_context
 		window_name = "parliament_gui_container"
-		parent_window_name = government_tab_window
+		parent_window_token = politics_tab
 		
 		visible = {
+			has_country_flag = display_government_tab
 			check_variable = {
 				var = gov_menu_pages_array^gov_menu_current_page
 				value = 1

@@ -2,6 +2,7 @@ scripted_gui = {
     display_government_tab_gui = {
         window_name = "government_tab_window"
         context_type = player_context
+        parent_window_token = politics_tab
 
         effects = {
             government_tab_close_btn_click = {

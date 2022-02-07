@@ -32,40 +32,8 @@ guiTypes = {
 	}
 
     containerWindowType = {
-        name = "finances_button_container"
-        position = { x = 543 y = 100 }
-
-        buttonType = {
-            name = "show_finances_button"
-            position = { x = 0 y = 0 }
-            quadTextureSprite = "GFX_government_button"
-            buttonFont = "hoi_16mbs"
-            Orientation = "UPPER_RIGHT"
-            pdx_tooltip = FINANCES_TAB_TOOLTIP
-            pdx_tooltip_delayed = FINANCES_TAB_DELAYED_TOOLTIP
-        }
-
-        instantTextboxType = {
-            name = "show_finances_button_text"
-            position = { x = 34 y = 9 }
-            font = "hoi_16mbs"
-            text = "FINANCES"
-            Orientation = "CENTER"
-            maxWidth = 123
-            alwaystransparent = yes
-            format = center
-        }
-
-        iconType = {
-			name = "icon_finances_button"
-			spriteType = "GFX_icon_finances_button"
-			position = { x = 6 y = 4 }
-		}
-    }
-
-    containerWindowType = {
         name = "elections_button_container"
-        position = { x = 543 y = 141 }
+        position = { x = 543 y = 100 }
 
         buttonType = {
             name = "show_elections_button"
@@ -91,6 +59,38 @@ guiTypes = {
         iconType = {
 			name = "icon_elections_button"
 			spriteType = "GFX_icon_elections_button"
+			position = { x = 6 y = 4 }
+		}
+    }
+
+    containerWindowType = {
+        name = "finances_button_container"
+        position = { x = 543 y = 141 }
+
+        buttonType = {
+            name = "show_finances_button"
+            position = { x = 0 y = 0 }
+            quadTextureSprite = "GFX_government_button"
+            buttonFont = "hoi_16mbs"
+            Orientation = "UPPER_RIGHT"
+            pdx_tooltip = FINANCES_TAB_TOOLTIP
+            pdx_tooltip_delayed = FINANCES_TAB_DELAYED_TOOLTIP
+        }
+
+        instantTextboxType = {
+            name = "show_finances_button_text"
+            position = { x = 34 y = 9 }
+            font = "hoi_16mbs"
+            text = "FINANCES"
+            Orientation = "CENTER"
+            maxWidth = 123
+            alwaystransparent = yes
+            format = center
+        }
+
+        iconType = {
+			name = "icon_finances_button"
+			spriteType = "GFX_icon_finances_button"
 			position = { x = 6 y = 4 }
 		}
     }

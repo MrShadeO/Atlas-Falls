@@ -871,7 +871,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -908,7 +911,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -945,7 +951,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -982,7 +991,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -1019,7 +1031,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -1056,7 +1071,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -1093,7 +1111,10 @@ legislation_decisions_category = {
 
 		available = {
             has_elections = yes
-            get_lower_house_required_seats_40_percent = yes
+            OR = { 
+                get_lower_house_required_seats_40_percent = yes
+                get_upper_house_required_seats_40_percent = yes
+            }
 		}
 
 		cost = 100
@@ -1874,7 +1895,30 @@ legislation_decisions_category = {
         }
 
 		available = {
-			ruling_party_support_over_60 = yes
+			OR = {
+                AND = {
+                    has_elections = yes
+                    no_upper_chamber = yes
+                    get_lower_house_required_seats_60_percent = yes
+                }
+                AND = {
+                    has_elections = yes
+                    has_upper_chamber = yes
+                    get_lower_house_required_seats_60_percent = yes
+                    get_upper_house_required_seats_60_percent = yes
+                }
+                AND = {
+                    has_elections = no
+                    custom_trigger_tooltip = {
+                        tooltip = ruling_party_has_60_popularity
+                        check_variable = {
+                            var = party_popularity@ruling_party
+                            value = 0.60
+                            compare = greater_than_or_equals
+                        }
+                    }
+                }
+            }
 		}
 
 		cost = 75

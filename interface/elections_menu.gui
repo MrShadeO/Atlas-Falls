@@ -2,8 +2,8 @@ guiTypes = {
 
     containerWindowType = {
 		name = "elections_tab_window"
-		position = { x = 719 y = 80 }	
-		size = { width= 549 height=600 }
+		position = { x = 725 y = 2 }	
+		size = { width= 549 height=640 }
 		show_sound = open_sub_window
 
 		background = {
@@ -62,7 +62,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "update_election_polls_btn"
-			position = { x = 35 y = 538 }
+			position = { x = 35 y = 578 }
 			spriteType ="GFX_action_btn"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -73,7 +73,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "update_election_polls_text"
-			position = { x = 56 y = 552 }
+			position = { x = 56 y = 592 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "UPDATE_ELECTION_POLLS_TEXT_KEY"
@@ -85,7 +85,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "toggle_view_btn"
-			position = { x = 330 y = 538 }
+			position = { x = 330 y = 578 }
 			spriteType ="GFX_action_btn"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -96,7 +96,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "toggle_view_text"
-			position = { x = 376 y = 552 }
+			position = { x = 376 y = 592 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "TOGGLE_VIEW_TEXT_KEY"
@@ -109,7 +109,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "elections_summary_container"
 			position = { x = 10 y = 40 }	
-			size = { width = 518 height = 500 }
+			size = { width = 518 height = 540 }
 
 			background = {
 				name = "Background"		
@@ -128,8 +128,19 @@ guiTypes = {
 			}
 
 			instantTextboxType = {
+				name = "last_update_text"
+				position = { x = 0 y = 60 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "LAST_UPDATE_TEXT"
+				maxWidth = 517
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
 				name = "elections_labels"
-				position = { x = 21 y = 65 }
+				position = { x = 21 y = 105 }
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS_LABELS_KEY"
@@ -140,7 +151,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "elections_parties_main_grid"
-				position = { x = 27 y = 105 }
+				position = { x = 27 y = 145 }
 				size = { width = 0 height = 0 }
 				slotsize = { width = 0 height = 50 }
 				add_horizontal = no

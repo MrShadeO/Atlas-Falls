@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "scale_graph_container"
-		position = { x = 0 y = 0 }
+		position = { x = 725 y = 0 }
 		clipping = no
 
 		containerWindowType = {

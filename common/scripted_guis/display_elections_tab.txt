@@ -2,6 +2,7 @@ scripted_gui = {
     display_elections_tab = {
         window_name = "elections_tab_window"
         context_type = player_context
+        parent_window_token = politics_tab
 
         visible = {
             has_country_flag = display_elections_tab

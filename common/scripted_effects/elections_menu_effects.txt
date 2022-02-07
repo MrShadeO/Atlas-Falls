@@ -10,6 +10,7 @@ initialize_parties_array = {
 }
 
 update_election_polls = {
+	update_last_update_date = yes
 	update_lower_chamber_poll = yes
 	if = {
 		limit = {
@@ -17,6 +18,10 @@ update_election_polls = {
 		}
 		update_upper_chamber_poll = yes
 	}
+}
+
+update_last_update_date = {
+	set_variable = { last_update_date = 0 }
 }
 
 #Helper 1 is the unrounded variable, Helper 2 is the rounded variable. Helper 2 needs to be less than Helper 1 so that the remainder can be extracted correctly. Don't worry, the code already accounts for if Helper 2 is bigger than Helper 1, and fixes things accordingly.
