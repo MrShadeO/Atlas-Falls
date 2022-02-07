@@ -1,0 +1,14 @@
+No Taxes: +0
+Very Low Taxes: +2
+Low Taxes: +4
+Medium Taxes: +6
+High Taxes: +8
+Very High Taxes: +10
+
+Social Democracy Ideology: +2
+Liberalism Ideology: -1 
+
+#Scripted effect commands to change Net Tax Revenue
+tax_revenue_increase_& = yes #replace & with a number between 1 and 10
+
+tax_revenue_decrease_& = yes #replace & with a number between 1 and 10
