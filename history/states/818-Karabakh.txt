@@ -1,0 +1,16 @@
+state = {
+	id = 818
+	name = "STATE_818"
+	manpower = 500000
+	state_category = rural
+	provinces = { 1467 4660 8035 8061 9715 11708 }
+
+	history = {
+		victory_points = { 8061 2 }
+		owner = GEO
+		add_core_of = GEO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

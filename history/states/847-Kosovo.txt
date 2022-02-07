@@ -1,0 +1,18 @@
+
+state = {
+	id = 847
+	name = "STATE_847"
+	manpower = 980000
+	state_category = rural
+	provinces = { 9849 9874 6940 6953 }
+
+	history = {
+		victory_points = { 9874 2 }
+		owner = SER
+		add_core_of = SER
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

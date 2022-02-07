@@ -1,0 +1,17 @@
+state = {
+	id = 876
+	name = "STATE_876"
+	manpower = 7090000
+	state_category = rural 
+	provinces = { 4896 7101 7201 7279 7434 10006 10822 12086 }
+
+	history = {
+		victory_points = { 7101 10 }
+		owner = HNC
+		add_core_of = HNC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

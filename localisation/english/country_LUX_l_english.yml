@@ -1,0 +1,60 @@
+﻿l_english:
+#Countries, Leaders, Factions
+GRAND_DUCHESS_TITLE:0 "Grand Duchess"
+LUX_EMILE_REUTER:0 "Émile Reuter"
+
+LUX_anarchism_ideology:0 "Free State of Luxembourg"
+LUX_anarchism_ideology_DEF:0 "the Free State of Luxembourg"
+LUX_totalism_ideology:0 "Socialist Republic of Luxembourg"
+LUX_totalism_ideology_DEF:0 "the Socialist Republic of Luxembourg"
+LUX_socialism_ideology:0 "Socialist Republic of Luxembourg"
+LUX_socialism_ideology_DEF:0 "the Socialist Republic of Luxembourg"
+LUX_social_democracy_ideology:0 "Grand Duchy of Luxembourg"
+LUX_social_democracy_ideology_DEF:0 "the Grand Duchy of Luxembourg"
+LUX_liberalism_ideology:0 "Grand Duchy of Luxembourg"
+LUX_liberalism_ideology_DEF:0 "the Grand Duchy of Luxembourg"
+LUX_conservatism_ideology:0 "Grand Duchy of Luxembourg"
+LUX_conservatism_ideology_DEF:0 "the Grand Duchy of Luxembourg"
+LUX_authoritarianism_ideology:0 "Grand Duchy of Luxembourg"
+LUX_authoritarianism_ideology_DEF:0 "the Grand Duchy of Luxembourg"
+LUX_ultranationalism_ideology:0 "Grand Duchy of Luxembourg"
+LUX_ultranationalism_ideology_DEF:0 "the Grand Duchy of Luxembourg"
+LUX_anarchism_ideology_ADJ:0 "Luxembourgish"
+LUX_totalism_ideology_ADJ:0 "Luxembourgish"
+LUX_socialism_ideology_ADJ:0 "Luxembourgish"
+LUX_social_democracy_ideology_ADJ:0 "Luxembourgish"
+LUX_liberalism_ideology_ADJ:0 "Luxembourgish"
+LUX_conservatism_ideology_ADJ:0 "Luxembourgish"
+LUX_authoritarianism_ideology_ADJ:0 "Luxembourgish"
+LUX_ultranationalism_ideology_ADJ:0 "Luxembourgish"
+LUX:0 "Luxembourg"
+LUX_DEF:0 "Luxembourg"
+LUX_ADJ:0 "Luxembourgish"
+#Political Parties
+LUX_totalism_ideology_party:0 "KPL"
+LUX_totalism_ideology_party_long:0 "Communist Party of Luxembourg"
+LUX_socialism_ideology_party:0 "SdP-L"
+LUX_socialism_ideology_party_long:0 "Social Democratic Party (Left Wing)"
+LUX_social_democracy_ideology_party:0 "SdP-R"
+LUX_social_democracy_ideology_party_long:0 "Social Democratic Party (Right Wing)"
+LUX_liberalism_ideology_party:0 "Liberal League"
+LUX_liberalism_ideology_party_long:0 "Liberal League"
+LUX_conservatism_ideology_party:0 "PD"
+LUX_conservatism_ideology_party_long:0 "Party of the Right"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

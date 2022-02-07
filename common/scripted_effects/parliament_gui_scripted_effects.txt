@@ -1,0 +1,109 @@
+# The following scripted effect sets-up the parliament at game start.
+d_parliament_gui_initial = {
+	# parliament_member_array stores the list of parties
+	add_to_array = { parliament_member_array = 1 } # Anarchism
+	add_to_array = { parliament_member_array = 2 } # Totalism
+	add_to_array = { parliament_member_array = 3 } # Socialism
+	add_to_array = { parliament_member_array = 4 } # Social Democracy
+	add_to_array = { parliament_member_array = 5 } # Liberalism
+	add_to_array = { parliament_member_array = 6 } # Conservatism
+	add_to_array = { parliament_member_array = 7 } # Authoritarianism
+	add_to_array = { parliament_member_array = 8 } # Ultranationalism
+
+	reload_parliament_arrays = yes
+}
+
+# This effect should be used anytime a change is made to either chamber's seat array.
+# The following sets up all necessary arrays for parliament mechanics
+reload_parliament_arrays = {
+	#The following assists some triggers
+	set_variable = { lower_chamber_total_seats = 0 }
+
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^0 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^1 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^2 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^3 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^4 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^5 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^6 }
+	add_to_variable = { lower_chamber_total_seats = lower_chamber_seat_array^7 }
+
+	set_variable = { lower_chamber_required_seats_10_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_20_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_30_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_40_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_50_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_60_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_70_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_80_var = lower_chamber_total_seats }
+	set_variable = { lower_chamber_required_seats_90_var = lower_chamber_total_seats }
+
+	multiply_variable = { lower_chamber_required_seats_10_var = 0.10 }
+	multiply_variable = { lower_chamber_required_seats_20_var = 0.20 }
+	multiply_variable = { lower_chamber_required_seats_30_var = 0.30 }
+	multiply_variable = { lower_chamber_required_seats_40_var = 0.40 }
+	multiply_variable = { lower_chamber_required_seats_50_var = 0.50 }
+	multiply_variable = { lower_chamber_required_seats_60_var = 0.60 }
+	multiply_variable = { lower_chamber_required_seats_70_var = 0.70 }
+	multiply_variable = { lower_chamber_required_seats_80_var = 0.80 }
+	multiply_variable = { lower_chamber_required_seats_90_var = 0.90 }
+	
+	round_variable = lower_chamber_required_seats_10_var
+	round_variable = lower_chamber_required_seats_20_var
+	round_variable = lower_chamber_required_seats_30_var
+	round_variable = lower_chamber_required_seats_40_var
+	round_variable = lower_chamber_required_seats_50_var
+	round_variable = lower_chamber_required_seats_60_var
+	round_variable = lower_chamber_required_seats_70_var
+	round_variable = lower_chamber_required_seats_80_var
+	round_variable = lower_chamber_required_seats_90_var
+
+	if = {
+		limit = {
+			has_upper_chamber = yes
+		}
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^0 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^1 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^2 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^3 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^4 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^5 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^6 }
+		add_to_variable = { upper_chamber_total_seats = upper_chamber_seat_array^7 }
+
+		set_variable = { upper_chamber_required_seats_10_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_20_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_30_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_40_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_50_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_60_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_70_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_80_var = upper_chamber_total_seats }
+		set_variable = { upper_chamber_required_seats_90_var = upper_chamber_total_seats }
+
+		multiply_variable = { upper_chamber_required_seats_10_var = 0.10 }
+		multiply_variable = { upper_chamber_required_seats_20_var = 0.20 }
+		multiply_variable = { upper_chamber_required_seats_30_var = 0.30 }
+		multiply_variable = { upper_chamber_required_seats_40_var = 0.40 }
+		multiply_variable = { upper_chamber_required_seats_50_var = 0.50 }
+		multiply_variable = { upper_chamber_required_seats_60_var = 0.60 }
+		multiply_variable = { upper_chamber_required_seats_70_var = 0.70 }
+		multiply_variable = { upper_chamber_required_seats_80_var = 0.80 }
+		multiply_variable = { upper_chamber_required_seats_90_var = 0.90 }
+		
+		round_variable = upper_chamber_required_seats_10_var
+		round_variable = upper_chamber_required_seats_20_var
+		round_variable = upper_chamber_required_seats_30_var
+		round_variable = upper_chamber_required_seats_40_var
+		round_variable = upper_chamber_required_seats_50_var
+		round_variable = upper_chamber_required_seats_60_var
+		round_variable = upper_chamber_required_seats_70_var
+		round_variable = upper_chamber_required_seats_80_var
+		round_variable = upper_chamber_required_seats_90_var
+	}
+	
+	#Assigns Coalition partner, if applicable
+	form_coalition = yes
+}
+
+

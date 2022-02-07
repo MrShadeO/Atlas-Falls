@@ -1,0 +1,19 @@
+state = {
+	id = 598
+	name = "STATE_598"
+	manpower = 3665000
+	state_category = town
+	provinces = { 1029 1076 4005 4031 4082 4123 7025 7142 7181 7200 9953 9956 10095 12055 12067 13144 }
+
+	history = {
+		victory_points = { 12055 2 }
+		victory_points = { 12067 1 }
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+}

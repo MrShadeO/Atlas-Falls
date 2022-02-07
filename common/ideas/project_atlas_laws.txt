@@ -1,0 +1,1540 @@
+ideas = {
+
+    industrialization_law = {
+        law = yes
+		use_list_view = yes
+        
+        agrarian_industry = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+			}
+
+            cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.20
+                industrial_capacity_factory = -0.15
+                industrial_capacity_dockyard = -0.15
+                local_resources_factor = -0.20
+                monthly_population = -0.30
+			}
+			
+			cancel_if_invalid = no
+        }
+
+        early_industrialization = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+			}
+
+            cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				standing_army_limit = 6
+                consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.10
+                industrial_capacity_factory = -0.075
+                industrial_capacity_dockyard = -0.075
+                local_resources_factor = -0.10
+                monthly_population = -0.15
+				tax_revenue = 2
+			}
+			
+			cancel_if_invalid = no
+        }
+
+        modern_industrialization = {
+			default = yes
+			
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+			}
+
+            cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				standing_army_limit = 12
+                consumer_goods_factor = 0.10
+				tax_revenue = 4
+			}
+			
+			cancel_if_invalid = no
+        }
+
+        advanced_industrialization = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+			}
+
+            cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				standing_army_limit = 18
+                consumer_goods_factor = 0.15
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.075
+                industrial_capacity_dockyard = 0.075
+                local_resources_factor = 0.10
+                monthly_population = 0.15
+				tax_revenue = 6
+			}
+			
+			cancel_if_invalid = no
+        }
+
+        peak_industrialization = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_industrialization
+                    always = no
+                }
+			}
+        
+            cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				standing_army_limit = 24
+                consumer_goods_factor = 0.20
+                production_speed_buildings_factor = 0.20
+                industrial_capacity_factory = 0.15
+                industrial_capacity_dockyard = 0.15
+                local_resources_factor = 0.20
+                monthly_population = 0.30
+				tax_revenue = 8
+			}
+			
+			cancel_if_invalid = no
+        }
+    }
+
+    policing_law = {
+        law = yes
+		use_list_view = yes
+
+        volunteer_militias = {
+			level = 1
+
+			cost = 100
+			
+			modifier = {
+				stability_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        underfunded_police = {
+			level = 2
+
+			cost = 100
+			
+			modifier = {
+				tax_revenue = -1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        professional_police = {
+            default = yes
+
+			level = 3
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -2
+				stability_factor = 0.10
+                intelligence_agency_defense = 0.50
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        secret_police = {
+			level = 4
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -3
+				stability_factor = 0.20
+                intelligence_agency_defense = 1.0
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        police_state = {
+			level = 5
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -4
+				stability_factor = 0.40
+                intelligence_agency_defense = 1.0
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    education_law = {
+        law = yes
+		use_list_view = yes
+
+        aristocrats_only = {
+			level = 1
+
+			cost = 100
+			
+			modifier = {
+                research_speed_factor = -0.10
+                industrial_capacity_factory = -0.10
+                industrial_capacity_dockyard = -0.10
+                political_power_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        primary_education = {
+            default = yes
+
+			level = 2
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -1
+                consumer_goods_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+        
+        lower_secondary_education = {
+			level = 3
+			
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -2
+                research_speed_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+                consumer_goods_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        upper_secondary_education = {
+			level = 4
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -3
+                research_speed_factor = 0.10
+                industrial_capacity_factory = 0.10
+                industrial_capacity_dockyard = 0.10
+                consumer_goods_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        free_universities = {
+			level = 5
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -4
+                research_speed_factor = 0.15
+                industrial_capacity_factory = 0.15
+                industrial_capacity_dockyard = 0.15
+                consumer_goods_factor = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    religion_law = {
+        law = yes
+        
+        aetheism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = -0.10
+                research_speed_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        secularism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = 0.10
+			}
+
+            default = yes
+			
+			cancel_if_invalid = no
+		}
+
+        catholicism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        protestantism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        orthodoxy = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        islam = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        judaism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        shintoism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        buddhism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        hinduism = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_religion
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    womens_rights_law = {
+        law = yes
+		use_list_view = yes
+        
+        traditional = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                stability_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        limited_rights_women = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = -0.05
+                research_speed_factor = 0.025
+			}
+
+            default = yes
+			
+			cancel_if_invalid = no
+		}
+
+        full_equality_women = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_women
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = -0.05
+                research_speed_factor = 0.025
+                conscription = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    minority_rights_law = {
+        law = yes
+		use_list_view = yes
+        
+        no_citizenship = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        limited_rights_minorities = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                non_core_manpower = 0.02
+			}
+
+            default = yes
+			
+			cancel_if_invalid = no
+		}
+
+        full_equality_minorities = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_minorities
+                    always = no
+                }
+			}
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+                research_speed_factor = 0.025
+                non_core_manpower = 0.04
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    development_focus = {
+		law = yes
+		use_list_view = yes
+
+		urban_focus = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -2
+				custom_modifier_tooltip = urban_focus_tt
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		suburban_focus = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -2
+				custom_modifier_tooltip = suburban_focus_tt
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		rural_focus = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -2
+				custom_modifier_tooltip = rural_focus_tt
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		capitol_focus = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -1
+				custom_modifier_tooltip = capitol_focus_tt
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		no_focus = {
+			default = yes
+
+			available = {
+				
+			}
+
+			cost = 50
+
+			modifier = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	economy_type = {
+		law = yes
+		use_list_view = yes
+
+		traditional_economy = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_economic_system
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				stability_factor = 0.15
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		command_economy = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_economic_system
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		market_economy = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_economic_system
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.075
+				production_factory_efficiency_gain_factor = 0.075
+				trade_opinion_factor = 0.25
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		mixed_economy = {
+			default = yes
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_economic_system
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	colonial_policy = {
+		law = yes
+		use_list_view = yes
+
+		colonial_synergy = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -3
+				compliance_growth = 0.33
+				non_core_manpower = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		colonial_development = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -1
+				compliance_growth = 0.33
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		colonial_troops = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -1
+				non_core_manpower = 0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		balanced_colonial_policy = {
+			default = yes
+
+			available = {
+				
+			}
+
+			cost = 50
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		tax_the_natives = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = 2
+				compliance_growth = -0.25
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		exploit_the_natives = {
+			available = {
+				
+			}
+
+			modifier = {
+				local_resources_factor = 0.15
+				non_core_manpower = -0.01
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		colonial_exploitation = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = 2
+				compliance_growth = -0.25
+				local_resources_factor = 0.15
+				non_core_manpower = -0.01
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	tax_system = {
+		law = yes
+		use_list_view = yes
+
+		set_maximum_income = {
+			level = 1
+
+			modifier = {
+				tax_revenue = 4
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		wealth_tax = {
+			level = 2
+
+			modifier = {
+				tax_revenue = 2
+				political_power_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		weighted_tax_rate = {
+			default = yes
+
+			level = 3
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		flat_tax_rate = {
+			level = 4
+
+			modifier = {
+				tax_revenue = -2
+				political_power_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		no_wealth_tax = {
+			level = 5
+
+			modifier = {
+				tax_revenue = -4
+				political_power_factor = 0.30
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	natural_resources = {
+		law = yes
+		use_list_view = yes
+
+		private_ownership = {
+			default = yes 
+
+			available = {
+				
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		state_ownership = {
+			available = {
+				
+			}
+
+			modifier = {
+				tax_revenue = -1
+				civilian_intel_to_others = -10
+				local_resources_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		corporate_ownership = {
+			available = {
+				
+			}
+
+			modifier = {
+				local_resources_factor = 0.10
+				political_power_factor = 0.05
+				stability_factor = -0.10
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		nature_preserves = {
+			available = {
+				
+			}
+
+			modifier = {
+				local_resources_factor = -0.20
+				stability_factor = 0.15
+				research_speed_factor = 0.02
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	suffrage_law = {
+		law = yes
+		use_list_view = yes
+
+		rigged_elections = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = 0.33
+				consumer_goods_factor = 0.15
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		no_voting = {
+			default = yes
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				political_power_factor = 0.25
+				consumer_goods_factor = 0.15
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		aristocratic_suffrage = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				political_power_factor = 0.15
+				consumer_goods_factor = 0.10
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		census_suffrage = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				political_power_factor = 0.075
+				consumer_goods_factor = 0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		male_suffrage = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		universal_suffrage = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_suffrage
+					always = no
+				}
+			}
+
+            cost = 0
+
+			modifier = {
+				political_power_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	immigration_law = {
+		law = yes
+		use_list_view = yes
+
+		closed_borders = {
+			level = 1
+
+			modifier = {
+				tax_revenue = -3
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		refugees_only = {
+			level = 2
+
+			modifier = {
+				tax_revenue = -2
+				stability_factor = -0.05
+				monthly_population = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		limited_immigration = {
+            default = yes
+
+			level = 3
+
+			modifier = {
+				tax_revenue = -1
+				stability_factor = -0.10
+				monthly_population = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		open_borders = {
+			level = 4
+
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = 0.30
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	workers_rights_law = {
+		law = yes
+		use_list_view = yes
+
+		legalized_child_labor = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_workers
+					always = no
+				}
+			}
+
+			cost = 0
+
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		no_workers_rights = {
+			default = yes 
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_workers
+					always = no
+				}
+			}
+
+			cost = 0
+
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		minimum_wage = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_workers
+					always = no
+				}
+			}
+
+			cost = 0
+
+			modifier = {
+				stability_factor = 0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		legalized_trade_unions = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_workers
+					always = no
+				}
+			}
+
+			cost = 0
+
+			modifier = {
+				stability_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		eight_hour_workday = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = custom_trg_workers
+					always = no
+				}
+			}
+
+			cost = 0
+
+			modifier = {
+				stability_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+			}
+
+			on_add = {
+				
+			}
+
+			on_remove = {
+				
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

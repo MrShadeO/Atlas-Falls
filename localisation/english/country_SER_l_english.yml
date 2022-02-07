@@ -1,0 +1,62 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SER_NIKOLA_PASIC:0 "Nikola Pašić"
+
+SER_anarchism_ideology:0 "Serbian Free State"
+SER_anarchism_ideology_DEF:0 "the Serbian Free State"
+SER_totalism_ideology:0 "Serbian Peoples' Republic"
+SER_totalism_ideology_DEF:0 "the Serbian Peoples' Republic"
+SER_socialism_ideology:0 "Serbian Peoples' Republic"
+SER_socialism_ideology_DEF:0 "the Serbian Peoples' Republic"
+SER_social_democracy_ideology:0 "Kingdom of Serbia"
+SER_social_democracy_ideology_DEF:0 "the Kingdom of Serbia"
+SER_liberalism_ideology:0 "Kingdom of Serbia"
+SER_liberalism_ideology_DEF:0 "the Kingdom of Serbia"
+SER_conservatism_ideology:0 "Kingdom of Serbia"
+SER_conservatism_ideology_DEF:0 "the Kingdom of Serbia"
+SER_authoritarianism_ideology:0 "Kingdom of Serbia"
+SER_authoritarianism_ideology_DEF:0 "the Kingdom of Serbia"
+SER_ultranationalism_ideology:0 "Kingdom of Serbia"
+SER_ultranationalism_ideology_DEF:0 "the Kingdom of Serbia"
+SER_anarchism_ideology_ADJ:0 "Serbian"
+SER_totalism_ideology_ADJ:0 "Serbian"
+SER_socialism_ideology_ADJ:0 "Serbian"
+SER_social_democracy_ideology_ADJ:0 "Serbian"
+SER_liberalism_ideology_ADJ:0 "Serbian"
+SER_conservatism_ideology_ADJ:0 "Serbian"
+SER_authoritarianism_ideology_ADJ:0 "Serbian"
+SER_ultranationalism_ideology_ADJ:0 "Serbian"
+SER:0 "Serbia"
+SER_DEF:0 "Serbia"
+SER_ADJ:0 "Serbian"
+
+#Political Parties
+SER_socialism_ideology_party:0 "SSDP-L"
+SER_socialism_ideology_party_long:0 "Serbian Social Democratic Party (Left Wing)"
+SER_social_democracy_ideology_party:0 "SSDP-R"
+SER_social_democracy_ideology_party_long:0 "Serbian Social Democratic Party (Right Wing)"
+SER_liberalism_ideology_party:0 "SNS"
+SER_liberalism_ideology_party_long:0 "Serbian Progressive Party"
+SER_conservatism_ideology_party:0 "NRS"
+SER_conservatism_ideology_party_long:0 "People's Radical Party"
+SER_authoritarianism_ideology_party:0 "Royalists"
+SER_authoritarianism_ideology_party_long:0 "Royalists"
+SER_ultranationalism_ideology_party:0 "Black Hand"
+SER_ultranationalism_ideology_party_long:0 "Black Hand"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

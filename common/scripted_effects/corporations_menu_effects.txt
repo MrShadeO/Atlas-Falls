@@ -1,0 +1,645 @@
+increase_investment_tier_benefits = {
+    if = { #Generic Construction Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 1
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_1_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_4
+                add_idea = corporation_1_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_3
+                add_idea = corporation_1_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_2
+                add_idea = corporation_1_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_1
+                add_idea = corporation_1_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_1_tier_1
+        }
+    }
+    else_if = { #Generic Electronics Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 2
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_2_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_4
+                add_idea = corporation_2_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_3
+                add_idea = corporation_2_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_2
+                add_idea = corporation_2_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_1
+                add_idea = corporation_2_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_2_tier_1
+        }
+    }
+    else_if = { #Generic Arms Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 3
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_3_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_4
+                add_idea = corporation_3_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_3
+                add_idea = corporation_3_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_2
+                add_idea = corporation_3_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_1
+                add_idea = corporation_3_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_3_tier_1
+        }
+    }
+    else_if = { #Generic Artillery Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 4
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_4_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_4
+                add_idea = corporation_4_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_3
+                add_idea = corporation_4_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_2
+                add_idea = corporation_4_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_1
+                add_idea = corporation_4_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_4_tier_1
+        }
+    }
+    else_if = { #Generic Truck Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 5
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_5_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_4
+                add_idea = corporation_5_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_3
+                add_idea = corporation_5_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_2
+                add_idea = corporation_5_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_1
+                add_idea = corporation_5_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_5_tier_1
+        }
+    }
+    else_if = { #Generic Aircraft Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 6
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_6_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_4
+                add_idea = corporation_6_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_3
+                add_idea = corporation_6_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_2
+                add_idea = corporation_6_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_1
+                add_idea = corporation_6_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_6_tier_1
+        }
+    }
+    else_if = { #Generic Shipbuilding Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 7
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_7_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_4
+                add_idea = corporation_7_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_3
+                add_idea = corporation_7_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_2
+                add_idea = corporation_7_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_1
+                add_idea = corporation_7_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_7_tier_1
+        }
+    }
+    else_if = { #Generic Tank Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 8
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_8_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_4
+                add_idea = corporation_8_tier_5
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_3
+                add_idea = corporation_8_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_2
+                add_idea = corporation_8_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_1 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_1
+                add_idea = corporation_8_tier_2
+            }
+        }
+        else = {
+            add_ideas = corporation_8_tier_1
+        }
+    }
+}
+
+decrease_investment_tier_benefits = {
+    if = { #Generic Construction Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 1
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_1_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_5
+                add_idea = corporation_1_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_4
+                add_idea = corporation_1_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_3
+                add_idea = corporation_1_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_1_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_1_tier_2
+                add_idea = corporation_1_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_1_tier_1
+        }
+    }
+    else_if = { #Generic Electronics Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 2
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_2_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_5
+                add_idea = corporation_2_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_4
+                add_idea = corporation_2_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_3
+                add_idea = corporation_2_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_2_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_2_tier_2
+                add_idea = corporation_2_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_2_tier_1
+        }
+    }
+    else_if = { #Generic Arms Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 3
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_3_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_5
+                add_idea = corporation_3_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_4
+                add_idea = corporation_3_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_3
+                add_idea = corporation_3_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_3_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_3_tier_2
+                add_idea = corporation_3_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_3_tier_1
+        }
+    }
+    else_if = { #Generic Artillery Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 4
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_4_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_5
+                add_idea = corporation_4_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_4
+                add_idea = corporation_4_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_3
+                add_idea = corporation_4_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_4_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_4_tier_2
+                add_idea = corporation_4_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_4_tier_1
+        }
+    }
+    else_if = { #Generic Truck Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 5
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_5_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_5
+                add_idea = corporation_5_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_4
+                add_idea = corporation_5_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_3
+                add_idea = corporation_5_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_5_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_5_tier_2
+                add_idea = corporation_5_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_5_tier_1
+        }
+    }
+    else_if = { #Generic Aircraft Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 6
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_6_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_5
+                add_idea = corporation_6_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_4
+                add_idea = corporation_6_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_3
+                add_idea = corporation_6_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_6_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_6_tier_2
+                add_idea = corporation_6_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_6_tier_1
+        }
+    }
+    else_if = { #Generic Shipbuilding Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 7
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_7_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_5
+                add_idea = corporation_7_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_4
+                add_idea = corporation_7_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_3
+                add_idea = corporation_7_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_7_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_7_tier_2
+                add_idea = corporation_7_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_7_tier_1
+        }
+    }
+    else_if = { #Generic Tank Corporation
+        limit = { 
+            check_variable = {
+                var = temp_corporation_target
+                value = 8
+                compare = equals
+            }
+        }
+        if = {
+            limit = { has_idea = corporation_8_tier_5 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_5
+                add_idea = corporation_8_tier_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_4 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_4
+                add_idea = corporation_8_tier_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_3 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_3
+                add_idea = corporation_8_tier_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = corporation_8_tier_2 }
+            swap_ideas = {
+                remove_idea = corporation_8_tier_2
+                add_idea = corporation_8_tier_1
+            }
+        }
+        else = {
+            remove_ideas = corporation_8_tier_1
+        }
+    }
+}

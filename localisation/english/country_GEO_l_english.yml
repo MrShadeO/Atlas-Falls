@@ -1,0 +1,85 @@
+﻿l_english:
+#Countries, Leaders, Factions
+GEO_AKAKI_CHKHENKELI:0 "Akaki Chkhenkeli"
+
+GEO_anarchism_ideology:0 "Georgian Free State"
+GEO_anarchism_ideology_DEF:0 "the Georgian Free State"
+GEO_totalism_ideology:0 "Democratic Republic of Georgia"
+GEO_totalism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_socialism_ideology:0 "Democratic Republic of Georgia"
+GEO_socialism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_social_democracy_ideology:0 "Democratic Republic of Georgia"
+GEO_social_democracy_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_liberalism_ideology:0 "Democratic Republic of Georgia"
+GEO_liberalism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_conservatism_ideology:0 "Democratic Republic of Georgia"
+GEO_conservatism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_authoritarianism_ideology:0 "Democratic Republic of Georgia"
+GEO_authoritarianism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_ultranationalism_ideology:0 "Democratic Republic of Georgia"
+GEO_ultranationalism_ideology_DEF:0 "the Democratic Republic of Georgia"
+GEO_anarchism_ideology_ADJ:0 "Georgian"
+GEO_totalism_ideology_ADJ:0 "Georgian"
+GEO_socialism_ideology_ADJ:0 "Georgian"
+GEO_social_democracy_ideology_ADJ:0 "Georgian"
+GEO_liberalism_ideology_ADJ:0 "Georgian"
+GEO_conservatism_ideology_ADJ:0 "Georgian"
+GEO_authoritarianism_ideology_ADJ:0 "Georgian"
+GEO_ultranationalism_ideology_ADJ:0 "Georgian"
+GEO:0 "Georgia"
+GEO_DEF:0 "Georgia"
+GEO_ADJ:0 "Georgian"
+
+GEO_TRANSCAUCASUS_anarchism_ideology:0 "Transcaucasian Free State"
+GEO_TRANSCAUCASUS_anarchism_ideology_DEF:0 "the Transcaucasian Free State"
+GEO_TRANSCAUCASUS_totalism_ideology:0 "Transcaucasian Soviet Republic"
+GEO_TRANSCAUCASUS_totalism_ideology_DEF:0 "the Transcaucasian Soviet Republic"
+GEO_TRANSCAUCASUS_socialism_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_socialism_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_social_democracy_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_social_democracy_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_liberalism_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_liberalism_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_conservatism_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_conservatism_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_authoritarianism_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_authoritarianism_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_ultranationalism_ideology:0 "Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_ultranationalism_ideology_DEF:0 "the Transcaucasian Federative Republic"
+GEO_TRANSCAUCASUS_anarchism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_totalism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_socialism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_social_democracy_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_liberalism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_conservatism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_authoritarianism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS_ultranationalism_ideology_ADJ:0 "Transcaucasian"
+GEO_TRANSCAUCASUS:0 "Transcaucasus"
+GEO_TRANSCAUCASUS_DEF:0 "Transcaucasus"
+GEO_TRANSCAUCASUS_ADJ:0 "Transcaucasian"
+#Political Parties
+GEO_totalism_ideology_party:0 "Bolsheviks"
+GEO_totalism_ideology_party_long:0 "Bolsheviks"
+GEO_socialism_ideology_party:0 "ARF"
+GEO_socialism_ideology_party_long:0 "Armenian Revolutionary Federation"
+GEO_social_democracy_ideology_party:0 "Mensheviks"
+GEO_social_democracy_ideology_party_long:0 "Georgian Mensheviks"
+GEO_liberalism_ideology_party:0 "Musavat"
+GEO_liberalism_ideology_party_long:0 "Musavat Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

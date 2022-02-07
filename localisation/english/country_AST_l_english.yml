@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+AST_BILLY_HUGHES:0 "Billy Hughes"
+
+AST_anarchism_ideology:0 "Australian Free State"
+AST_anarchism_ideology_DEF:0 "the Australian Free State"
+AST_totalism_ideology:0 "Australian Socialist Republic"
+AST_totalism_ideology_DEF:0 "the Australian Socialist Republic"
+AST_socialism_ideology:0 "Australian Socialist Republic"
+AST_socialism_ideology_DEF:0 "the Australian Socialist Republic"
+AST_social_democracy_ideology:0 "Commonwealth of Australia"
+AST_social_democracy_ideology_DEF:0 "the Commonwealth of Australia"
+AST_liberalism_ideology:0 "Commonwealth of Australia"
+AST_liberalism_ideology_DEF:0 "the Commonwealth of Australia"
+AST_conservatism_ideology:0 "Commonwealth of Australia"
+AST_conservatism_ideology_DEF:0 "the Commonwealth of Australia"
+AST_authoritarianism_ideology:0 "Commonwealth of Australia"
+AST_authoritarianism_ideology_DEF:0 "the Commonwealth of Australia"
+AST_ultranationalism_ideology:0 "Commonwealth of Australia"
+AST_ultranationalism_ideology_DEF:0 "the Commonwealth of Australia"
+AST_anarchism_ideology_ADJ:0 "Australian"
+AST_totalism_ideology_ADJ:0 "Australian"
+AST_socialism_ideology_ADJ:0 "Australian"
+AST_social_democracy_ideology_ADJ:0 "Australian"
+AST_liberalism_ideology_ADJ:0 "Australian"
+AST_conservatism_ideology_ADJ:0 "Australian"
+AST_authoritarianism_ideology_ADJ:0 "Australian"
+AST_ultranationalism_ideology_ADJ:0 "Australian"
+AST:0 "Australia"
+AST_DEF:0 "Australia"
+AST_ADJ:0 "Australian"
+#Political Parties
+AST_totalism_ideology_party:0 "MLP-R"
+AST_totalism_ideology_party_long:0 "Majority Labor Party (Radical)"
+AST_socialism_ideology_party:0 "MLP-M"
+AST_socialism_ideology_party_long:0 "Majority Labor Party (Moderate)"
+AST_social_democracy_ideology_party:0 "ALP"
+AST_social_democracy_ideology_party_long:0 "Australian Labor Party"
+AST_liberalism_ideology_party:0 "NP"
+AST_liberalism_ideology_party_long:0 "National Liberal Party"
+AST_conservatism_ideology_party:0 "Nationalist Party"
+AST_conservatism_ideology_party_long:0 "Nationalist Party"
+AST_authoritarianism_ideology_party:0 "Military Junta"
+AST_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

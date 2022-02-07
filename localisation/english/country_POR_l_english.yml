@@ -1,0 +1,64 @@
+﻿l_english:
+#Countries, Leaders, Factions
+POR_ALVARO_CASTRO:0 "Álvaro de Castro"
+
+POR_anarchism_ideology:0 "Free State of Portugal"
+POR_anarchism_ideology_DEF:0 "the Free State of Portugal"
+POR_totalism_ideology:0 "Portuguese Socialist Republic"
+POR_totalism_ideology_DEF:0 "the Portuguese Socialist Republic"
+POR_socialism_ideology:0 "Portuguese Republic"
+POR_socialism_ideology_DEF:0 "the Portuguese Republic"
+POR_social_democracy_ideology:0 "Portuguese Republic"
+POR_social_democracy_ideology_DEF:0 "the Portuguese Republic"
+POR_liberalism_ideology:0 "Portuguese Republic"
+POR_liberalism_ideology_DEF:0 "the Portuguese Republic"
+POR_conservatism_ideology:0 "Portuguese Republic"
+POR_conservatism_ideology_DEF:0 "the Portuguese Republic"
+POR_authoritarianism_ideology:0 "Portuguese Republic"
+POR_authoritarianism_ideology_DEF:0 "the Portuguese Republic"
+POR_ultranationalism_ideology:0 "Portuguese Republic"
+POR_ultranationalism_ideology_DEF:0 "the Portuguese Republic"
+POR_anarchism_ideology_ADJ:0 "Portuguese"
+POR_totalism_ideology_ADJ:0 "Portuguese"
+POR_socialism_ideology_ADJ:0 "Portuguese"
+POR_social_democracy_ideology_ADJ:0 "Portuguese"
+POR_liberalism_ideology_ADJ:0 "Portuguese"
+POR_conservatism_ideology_ADJ:0 "Portuguese"
+POR_authoritarianism_ideology_ADJ:0 "Portuguese"
+POR_ultranationalism_ideology_ADJ:0 "Portuguese"
+SER:0 "Portugal"
+POR_DEF:0 "Portugal"
+POR_ADJ:0 "Portuguese"
+
+#Political Parties
+POR_anarchism_ideology_party:0 "FMP"
+POR_anarchism_ideology_party_long:0 "Portuguese Maximalist Federation"
+POR_totalism_ideology_party:0 "PCP"
+POR_totalism_ideology_party_long:0 "Portuguese Communist Party"
+POR_socialism_ideology_party:0 "PSP"
+POR_socialism_ideology_party_long:0 "Partido Socialista Português"
+POR_social_democracy_ideology_party:0 "PRED"
+POR_social_democracy_ideology_party_long:0 "Democratic Leftwing Republican Party"
+POR_liberalism_ideology_party:0 "PRP"
+POR_liberalism_ideology_party_long:0 "Portuguese Republican Party"
+POR_conservatism_ideology_party:0 "PRN"
+POR_conservatism_ideology_party_long:0 "Nationalist Republican Party"
+POR_authoritarianism_ideology_party:0 "CM"
+POR_authoritarianism_ideology_party_long:0 "Monarchist Cause"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

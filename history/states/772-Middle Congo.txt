@@ -1,0 +1,20 @@
+
+state = {
+	id = 772
+	name = "STATE_772"
+	manpower = 746415
+	state_category = pastoral
+	provinces = { 2192 6008 8193 12975 }
+	resources = {
+		rubber = 1
+	}
+
+	history = {
+		victory_points = { 8193 1 }
+		owner = GER
+		add_core_of = RCG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

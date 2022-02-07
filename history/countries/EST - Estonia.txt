@@ -1,0 +1,97 @@
+capital = 13
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_country_flag = has_chairman
+set_country_flag = is_provisional_government
+
+create_country_leader = {
+	name = "Karl Säre" 
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = totalism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" 
+	picture = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds" 
+	expire = "1939.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+set_politics = {
+	ruling_party = conservatism_ideology
+	last_election = "1910.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}
+set_popularities = {
+    anarchism_ideology = 0
+	totalism_ideology = 16
+	socialism_ideology = 18
+	social_democracy_ideology = 23
+	liberalism_ideology = 8
+	conservatism_ideology = 34
+	authoritarianism_ideology = 1
+	ultranationalism_ideology = 0
+}	
+
+1924.1.1 = {
+	add_ideas = {
+		very_low_tax_rate
+		limited_conscription
+		partial_economic_mobilisation
+		early_industrialization
+		state_ownership
+		army_untrained
+		navy_untrained
+		navy_minimal_funding
+		air_untrained
+		air_minimal_funding
+	}
+}

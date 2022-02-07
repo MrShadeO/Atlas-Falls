@@ -1,0 +1,20 @@
+
+state = {
+	id = 735
+	name = "STATE_735"
+	manpower = 738333
+	state_category = town
+	provinces = { 778 6609 9603 9745 11573 }
+
+	history = {
+		victory_points = { 778 1 }
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9745 = { bunker = 2 }
+		}
+	}
+}

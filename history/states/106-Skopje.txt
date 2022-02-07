@@ -1,0 +1,23 @@
+
+state = {
+	id = 106
+	name = "STATE_106"
+	manpower = 1375420
+	state_category = rural
+	provinces = { 833 867 3882 11832 }
+	resources = {
+		chromium = 3
+		aluminium = 2
+	}
+
+	history = {
+		victory_points = { 3882 1 }
+		owner = SER
+		add_core_of = SER
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

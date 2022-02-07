@@ -1,0 +1,60 @@
+﻿l_english:
+#Countries, Leaders, Factions
+MEX_PRES_CHAMBER_OF_DEP_TITLE:0 "President of the Chamber of Deputies"
+MEX_ALFREDO_ROMO:0 "Alfredo Romo"
+
+MEX_anarchism_ideology:0 "Mexican Free State"
+MEX_anarchism_ideology_DEF:0 "the Mexican Free State"
+MEX_totalism_ideology:0 "Mexican Socialist Republic"
+MEX_totalism_ideology_DEF:0 "the Mexican Socialist Republic"
+MEX_socialism_ideology:0 "Mexican Socialist Republic"
+MEX_socialism_ideology_DEF:0 "the Mexican Socialist Republic"
+MEX_social_democracy_ideology:0 "United Mexican States"
+MEX_social_democracy_ideology_DEF:0 "the United Mexican States"
+MEX_liberalism_ideology:0 "United Mexican States"
+MEX_liberalism_ideology_DEF:0 "the United Mexican States"
+MEX_conservatism_ideology:0 "United Mexican States"
+MEX_conservatism_ideology_DEF:0 "the United Mexican States"
+MEX_authoritarianism_ideology:0 "United Mexican States"
+MEX_authoritarianism_ideology_DEF:0 "the United Mexican States"
+MEX_ultranationalism_ideology:0 "United Mexican States"
+MEX_ultranationalism_ideology_DEF:0 "the United Mexican States"
+MEX_anarchism_ideology_ADJ:0 "Mexican"
+MEX_totalism_ideology_ADJ:0 "Mexican"
+MEX_socialism_ideology_ADJ:0 "Mexican"
+MEX_social_democracy_ideology_ADJ:0 "Mexican"
+MEX_liberalism_ideology_ADJ:0 "Mexican"
+MEX_conservatism_ideology_ADJ:0 "Mexican"
+MEX_authoritarianism_ideology_ADJ:0 "Mexican"
+MEX_ultranationalism_ideology_ADJ:0 "Mexican"
+MEX:0 "Mexico"
+MEX_DEF:0 "Mexico"
+MEX_ADJ:0 "Mexican"
+#Political Parties
+MEX_anarchism_ideology_party:0 "FRZ"
+MEX_anarchism_ideology_party_long:0 "Zapatist Revolutionary Front"
+MEX_totalism_ideology_party:0 "PCM"
+MEX_totalism_ideology_party_long:0 "Mexican Communist Party"
+MEX_social_democracy_ideology_party:0 "PLM"
+MEX_social_democracy_ideology_party_long:0 "Mexican Laborist Party"
+MEX_liberalism_ideology_party:0 "PCP"
+MEX_liberalism_ideology_party_long:0 "Progressive Constitutionalist Party"
+MEX_authoritarianism_ideology_party:0 "Military Junta"
+MEX_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,87 @@
+﻿capital = 300
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader={ 
+	name = "José Serrato" 
+	picture="" 
+	expire="1939.1.1" 
+	ideology=liberalism_sub 
+	traits = {}
+}
+
+create_corps_commander={  
+	name = "Viera" 
+	 traits={   } 
+	 skill=2
+ }
+create_corps_commander={ 
+	 name = "Buquet" 
+	 traits={   } 
+	 skill=2 
+ }
+create_corps_commander={  
+	name = "Maeso"
+	 traits={   } 
+	 skill=2 
+ }
+create_corps_commander={  
+	name = "Pereira"
+	 traits={   } 
+	 skill=2
+ }
+create_corps_commander={  
+	name = "Fabregat"
+	 traits={   } 
+	skill=2 
+}
+create_corps_commander={  
+	name = "Cantón"
+	traits={   } 
+	skill=2 
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+	    ruling_party = liberalism_ideology
+	    last_election = "1923.3.1"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+
+	set_popularities = {
+	    anarchism_ideology = 0
+		totalism_ideology = 1
+		socialism_ideology = 1
+		social_democracy_ideology = 1
+		liberalism_ideology = 97
+		conservatism_ideology = 0
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		very_low_tax_rate
+		agrarian_industry
+		aristocrats_only
+		traditional
+		eight_hour_workday
+		state_ownership
+		universal_suffrage
+		army_minimal_funding
+		navy_minimal_funding
+		air_minimal_funding
+		air_untrained
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 893
+	name = "STATE_893"
+	manpower = 706000
+	state_category = pastoral
+	provinces = { 1257 2045 4375 4403 5193 9966 10132 10787 10903 }
+
+	history = {
+		owner = SCC
+		add_core_of = SCC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

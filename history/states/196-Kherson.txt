@@ -1,0 +1,19 @@
+state = {
+	id = 196
+	name = "STATE_196"
+	manpower = 828363
+	state_category = city
+	provinces = { 568 588 721 737 767 3573 3767 6596 6771 9571 9712 9729 11700}
+	resources = {
+		chromium = 14
+	}
+
+	history = {
+		owner = RUS
+		add_core_of = UKR
+		add_core_of = VLN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

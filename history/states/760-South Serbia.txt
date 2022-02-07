@@ -1,0 +1,16 @@
+state = {
+	id = 760
+	name = "STATE_760"
+	manpower = 830000
+	state_category = pastoral 
+	provinces = { 3922 3939 }
+
+	history = {
+		victory_points = { 3939 1 }
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

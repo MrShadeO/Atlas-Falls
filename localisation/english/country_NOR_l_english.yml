@@ -1,0 +1,59 @@
+﻿l_english:
+#Countries, Leaders, Factions
+NOR_ABRAHAM_BERGE:0 "Abraham Berge"
+
+NOR_anarchism_ideology:0 "Norwegian Free State"
+NOR_anarchism_ideology_DEF:0 "the Norwegian Free State"
+NOR_totalism_ideology:0 "Norwegian Socialist Republic"
+NOR_totalism_ideology_DEF:0 "the Norwegian Socialist Republic"
+NOR_socialism_ideology:0 "Norwegian Socialist Republic"
+NOR_socialism_ideology_DEF:0 "the Norwegian Socialist Republic"
+NOR_social_democracy_ideology:0 "Kingdom of Norway"
+NOR_social_democracy_ideology_DEF:0 "the Kingdom of Norway"
+NOR_liberalism_ideology:0 "Kingdom of Norway"
+NOR_liberalism_ideology_DEF:0 "the Kingdom of Norway"
+NOR_conservatism_ideology:0 "Kingdom of Norway"
+NOR_conservatism_ideology_DEF:0 "the Kingdom of Norway"
+NOR_authoritarianism_ideology:0 "Kingdom of Norway"
+NOR_authoritarianism_ideology_DEF:0 "the Kingdom of Norway"
+NOR_ultranationalism_ideology:0 "Kingdom of Norway"
+NOR_ultranationalism_ideology_DEF:0 "the Kingdom of Norway"
+NOR_anarchism_ideology_ADJ:0 "Norwegian"
+NOR_totalism_ideology_ADJ:0 "Norwegian"
+NOR_socialism_ideology_ADJ:0 "Norwegian"
+NOR_social_democracy_ideology_ADJ:0 "Norwegian"
+NOR_liberalism_ideology_ADJ:0 "Norwegian"
+NOR_conservatism_ideology_ADJ:0 "Norwegian"
+NOR_authoritarianism_ideology_ADJ:0 "Norwegian"
+NOR_ultranationalism_ideology_ADJ:0 "Norwegian"
+NOR:0 "Norway"
+NOR_DEF:0 "Norway"
+NOR_ADJ:0 "Norwegian"
+#Political Parties
+NOR_socialism_ideology_party:0 "RF"
+NOR_socialism_ideology_party_long:0 "Radical People's Party"
+NOR_social_democracy_ideology_party:0 "A/Ap"
+NOR_social_democracy_ideology_party_long:0 "Labour Party"
+NOR_liberalism_ideology_party:0 "V"
+NOR_liberalism_ideology_party_long:0 "Liberal Party"
+NOR_conservatism_ideology_party:0 "H/FV"
+NOR_conservatism_ideology_party_long:0 "Conservative/Free-minded Liberal Coalition"
+NOR_authoritarianism_ideology_party:0 "House Glücksburg"
+NOR_authoritarianism_ideology_party_long:0 "House Glücksburg Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

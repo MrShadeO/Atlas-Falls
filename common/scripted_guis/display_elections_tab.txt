@@ -1,0 +1,59 @@
+scripted_gui = {
+    display_elections_tab = {
+        window_name = "elections_tab_window"
+        context_type = player_context
+
+        visible = {
+            has_country_flag = display_elections_tab
+        }
+
+        dynamic_lists = {
+			elections_parties_main_grid = {
+				array = elections_parties_array
+				index = elections_parties_index
+				change_scope = no
+				entry_container = elections_party_entry
+			}
+		}
+
+        effects = {
+            elections_tab_close_button_click = {
+                clr_country_flag = display_elections_tab
+                set_variable = {
+                    var = curr_tax_rate_var
+                    value = 0
+                }
+            }
+
+            toggle_view_btn_click = {
+                if = {
+                    limit = { has_country_flag = upper_chamber_view }
+                    clr_country_flag = upper_chamber_view
+                }
+                else = {
+                    set_country_flag = upper_chamber_view
+                }
+            }
+
+            update_election_polls_btn_click = {
+                update_election_polls = yes
+            }
+		}
+
+        triggers = {
+            toggle_view_btn_click_enabled = {
+                has_upper_chamber = yes
+            }
+
+            update_election_polls_btn_click_enabled = {
+                has_political_power > 24
+            }
+        }
+
+        properties = {
+			party_color_icon = {
+                frame = elections_parties_array^elections_parties_index
+			}
+        }
+    }
+}

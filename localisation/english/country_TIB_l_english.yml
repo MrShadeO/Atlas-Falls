@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+TIB_DALAI_LAMA_TITLE:0 "Dalai Lama"
+TIB_KASHAG_TITLE:0 "The Kashag"
+TIB_FOUR_KALONS:0 "The Four Kalöns"
+
+TIB_anarchism_ideology:0 "Tibetan Free State"
+TIB_anarchism_ideology_DEF:0 "the Tibetan Free State"
+TIB_totalism_ideology:0 "Tibetan Socialist Republic"
+TIB_totalism_ideology_DEF:0 "the Tibetan Socialist Republic"
+TIB_socialism_ideology:0 "Tibetan Socialist Republic"
+TIB_socialism_ideology_DEF:0 "the Tibetan Socialist Republic"
+TIB_social_democracy_ideology:0 "Tibet"
+TIB_social_democracy_ideology_DEF:0 "the Tibet"
+TIB_liberalism_ideology:0 "Tibet"
+TIB_liberalism_ideology_DEF:0 "the Tibet"
+TIB_conservatism_ideology:0 "Tibet"
+TIB_conservatism_ideology_DEF:0 "the Tibet"
+TIB_authoritarianism_ideology:0 "Tibet"
+TIB_authoritarianism_ideology_DEF:0 "the Tibet"
+TIB_ultranationalism_ideology:0 "Tibet"
+TIB_ultranationalism_ideology_DEF:0 "the Tibet"
+TIB_anarchism_ideology_ADJ:0 "Tibetan"
+TIB_totalism_ideology_ADJ:0 "Tibetan"
+TIB_socialism_ideology_ADJ:0 "Tibetan"
+TIB_social_democracy_ideology_ADJ:0 "Tibetan"
+TIB_liberalism_ideology_ADJ:0 "Tibetan"
+TIB_conservatism_ideology_ADJ:0 "Tibetan"
+TIB_authoritarianism_ideology_ADJ:0 "Tibetan"
+TIB_ultranationalism_ideology_ADJ:0 "Tibetan"
+TIB:0 "Tibet"
+TIB_DEF:0 "Tibet"
+TIB_ADJ:0 "Tibetan"
+#Political Parties
+ 
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

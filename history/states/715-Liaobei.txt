@@ -1,0 +1,16 @@
+
+state = {
+	id = 715
+	name = "STATE_715"
+	manpower = 4270000
+	state_category = town
+	provinces = { 916 930 1499 1558 1627 1638 3877 4561 4633 4642 7812 9831 11836 11903 12337 }
+
+	history = {
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

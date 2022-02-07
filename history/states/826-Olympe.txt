@@ -1,0 +1,15 @@
+state = {
+	id = 826
+	name = "STATE_826" 
+	manpower = 100000
+	state_category = rural
+	provinces = { 3844 6930 }
+
+	history = {
+		owner = GRE
+		add_core_of = GRE				
+		buildings = {
+			infrastructure = 1
+		}
+	}	
+}

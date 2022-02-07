@@ -1,0 +1,182 @@
+﻿capital = 110
+
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 80
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = {
+	name = "Johan Castberg"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = socialism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = authoritarianism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	picture="" 
+	expire="1939.1.1" 
+	ideology = ultranationalism_sub
+	traits = {} 
+}
+
+create_field_marshal = {
+	name = "Haakon VII"
+	id = 1110
+	picture = "NOR_haakon_vii.dds"
+	traits = { politically_connected inspirational_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Wilhelm Olssøn"
+	
+	traits = { politically_connected old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ole Hansen"
+	
+	traits = { trait_mountaineer old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Henrik Angell"
+	
+	traits = { winter_specialist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Birger Fredrik Sinding-Larsen"
+	
+	traits = { winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Johan Christopher Ræder"
+	
+	traits = { trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Alfred Berglund"
+	
+	traits = { old_guard_navy craven }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Christian Sparre"
+	
+	traits = { navy_media_personality gentlemanly }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Karl Friedrich Griffin Dawes"
+	
+	traits = { navy_media_personality gunnery_expert gentlemanly }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+1924.1.1 = {
+	set_politics = {
+	    ruling_party = conservatism_ideology
+	    last_election = "1921.10.24"
+	    election_frequency = 36
+	    elections_allowed = yes
+	}
+
+	set_popularities = {
+	    anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 11
+		social_democracy_ideology = 21
+		liberalism_ideology = 13
+		conservatism_ideology = 55
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		lower_secondary_education
+		protestantism
+		universal_suffrage
+		legalized_trade_unions
+		limited_conscription
+		army_poor_funding
+		air_poor_funding
+	}
+
+}

@@ -1,0 +1,79 @@
+guiTypes = {
+    containerWindowType = {
+		name = "action_menu_container"
+		position = { x = -263 y = -157}	
+		size = { width = 527 height = 315 }
+		moveable = yes
+		click_to_front = yes
+		orientation= center	
+		
+        background = {
+			name = "Background"		
+			spriteType ="GFX_generic_diplo_action_bg"
+		}
+
+        instantTextboxType = {
+			name = "title"
+			position = { x = 0 y = 29 }
+			font = "hoi_24header"
+			text = "ACTION_BTN_KEY"
+			maxWidth = 530
+			maxHeight = 20
+			format = center
+		}
+
+        instantTextboxType = {
+			name = "description"
+			position = { x = 31 y = 100 }
+			font = "hoi_18mbs"
+			text = "ACTION_MENU_DESC"
+			maxWidth = 470
+			maxHeight = 300
+			format = center
+		}
+
+        buttonType = {
+			name = "cancel_button"
+			position = { x = 22 y = -58 }
+			shortcut = "ESCAPE"
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			Orientation = "LOWER_LEFT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "option_3"
+			position = { x = 120 y = -60 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "LOWER_LEFT"
+			buttonText = "OPTION_3_TEXT"
+			clicksound = click_close
+			pdx_tooltip = "ACTION_CHOICES_TOOLTIP"
+		}
+
+		buttonType = {
+			name = "option_2"
+			position = { x = 250 y = -60 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "LOWER_LEFT"
+			buttonText = "OPTION_2_TEXT"
+			clicksound = click_close
+			pdx_tooltip = "ACTION_CHOICES_TOOLTIP"
+		}
+
+		buttonType = {
+			name = "option_1"
+			position = { x = 380 y = -60 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "LOWER_LEFT"
+			buttonText = "OPTION_1_TEXT"
+			clicksound = click_close
+			pdx_tooltip = "ACTION_CHOICES_TOOLTIP"
+		}
+    }
+}

@@ -1,0 +1,85 @@
+﻿capital = 302
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 0
+
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = {
+	name = "Bautista Saavedra"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Hans Kundt"
+	portrait_path = "gfx/leaders/BOL/BOL_hans_kundt.dds"
+	traits = {
+		career_officer
+		adaptable
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Bautista Saavedra"
+	portrait_path = "gfx/leaders/BOL/BOL_bautista_saavedra.dds"
+	traits = {
+		politically_connected
+		old_guard
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+# oob = "BOL_1910"
+
+set_politics = {
+	ruling_party = conservatism_ideology
+	last_election = "1921.1.28"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 10
+	conservatism_ideology = 90
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	very_low_tax_rate
+	agrarian_industry
+	aristocrats_only
+	corporate_ownership
+	underfunded_police
+	legalized_child_labor
+	traditional
+	census_suffrage
+	army_poor_funding
+	navy_minimal_funding
+	navy_untrained
+	air_minimal_funding
+	air_untrained
+}
+

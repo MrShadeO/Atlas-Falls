@@ -1,0 +1,60 @@
+﻿l_english:
+#Countries, Leaders, Factions
+YUN_MILITARY_COUNCIL_TITLE:0 "Military Council"
+YUN_YUNNAN_CLIQUE:0 "Yunnan Clique"
+
+YUN_anarchism_ideology:0 "Chinese Free State"
+YUN_anarchism_ideology_DEF:0 "the Chinese Free State"
+YUN_totalism_ideology:0 "Yunnan Clique"
+YUN_totalism_ideology_DEF:0 "the Yunnan Clique"
+YUN_socialism_ideology:0 "Yunnan Clique"
+YUN_socialism_ideology_DEF:0 "the Yunnan Clique"
+YUN_social_democracy_ideology:0 "Yunnan Clique"
+YUN_social_democracy_ideology_DEF:0 "the Yunnan Clique"
+YUN_liberalism_ideology:0 "Yunnan Clique"
+YUN_liberalism_ideology_DEF:0 "the Yunnan Clique"
+YUN_conservatism_ideology:0 "Yunnan Clique"
+YUN_conservatism_ideology_DEF:0 "the Yunnan Clique"
+YUN_authoritarianism_ideology:0 "Yunnan Clique"
+YUN_authoritarianism_ideology_DEF:0 "the Yunnan Clique"
+YUN_ultranationalism_ideology:0 "Yunnan Clique"
+YUN_ultranationalism_ideology_DEF:0 "the Yunnan Clique"
+YUN_anarchism_ideology_ADJ:0 "Chinese"
+YUN_totalism_ideology_ADJ:0 "Chinese"
+YUN_socialism_ideology_ADJ:0 "Chinese"
+YUN_social_democracy_ideology_ADJ:0 "Chinese"
+YUN_liberalism_ideology_ADJ:0 "Chinese"
+YUN_conservatism_ideology_ADJ:0 "Chinese"
+YUN_authoritarianism_ideology_ADJ:0 "Chinese"
+YUN_ultranationalism_ideology_ADJ:0 "Chinese"
+CHI:0 "Yunnan"
+YUN_DEF:0 "Yunnan"
+YUN_ADJ:0 "Chinese"
+#Political Parties
+YUN_socialism_ideology_party:0 "LK"
+YUN_socialism_ideology_party_long:0 "Left-Kuomintang"
+YUN_social_democracy_ideology_party:0 "MLK"
+YUN_social_democracy_ideology_party_long:0 "Moderate Left-Kuomintang"
+YUN_liberalism_ideology_party:0 "CK"
+YUN_liberalism_ideology_party_long:0 "Centre-Kuomintang"
+YUN_conservatism_ideology_party:0 "MRK"
+YUN_conservatism_ideology_party_long:0 "Moderate Right-Kuomintang"
+YUN_authoritarianism_ideology_party:0 "RK"
+YUN_authoritarianism_ideology_party_long:0 "Right-Kuomintang"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

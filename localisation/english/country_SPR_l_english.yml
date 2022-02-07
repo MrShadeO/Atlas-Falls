@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SPR_MIGUEL_RIVERA:0 "Miguel Primo de Rivera"
+
+SPR_anarchism_ideology:0 "Spanish Communes"
+SPR_anarchism_ideology_DEF:0 "the Spanish Communes"
+SPR_totalism_ideology:0 "Spanish Socialist Republic"
+SPR_totalism_ideology_DEF:0 "the Spanish Socialist Republic"
+SPR_socialism_ideology:0 "Spanish Socialist Republic"
+SPR_socialism_ideology_DEF:0 "the Spanish Socialist Republic"
+SPR_social_democracy_ideology:0 "Kingdom of Spain"
+SPR_social_democracy_ideology_DEF:0 "the Kingdom of Spain"
+SPR_liberalism_ideology:0 "Kingdom of Spain"
+SPR_liberalism_ideology_DEF:0 "the Kingdom of Spain"
+SPR_conservatism_ideology:0 "Kingdom of Spain"
+SPR_conservatism_ideology_DEF:0 "the Kingdom of Spain"
+SPR_authoritarianism_ideology:0 "Kingdom of Spain"
+SPR_authoritarianism_ideology_DEF:0 "the Kingdom of Spain"
+SPR_ultranationalism_ideology:0 "Kingdom of Spain"
+SPR_ultranationalism_ideology_DEF:0 "the Kingdom of Spain"
+SPR_anarchism_ideology_ADJ:0 "Spanish"
+SPR_totalism_ideology_ADJ:0 "Spanish"
+SPR_socialism_ideology_ADJ:0 "Spanish"
+SPR_social_democracy_ideology_ADJ:0 "Spanish"
+SPR_liberalism_ideology_ADJ:0 "Spanish"
+SPR_conservatism_ideology_ADJ:0 "Spanish"
+SPR_authoritarianism_ideology_ADJ:0 "Spanish"
+SPR_ultranationalism_ideology_ADJ:0 "Spanish"
+SPR:0 "Italy"
+SPR_DEF:0 "Italy"
+SPR_ADJ:0 "Spanish"
+
+#Political Parties
+SPR_anarchism_ideology_party:0 "CNT"
+SPR_anarchism_ideology_party_long:0 "National Confederation of Labour"
+SPR_totalism_ideology_party:0 "PCE-L"
+SPR_totalism_ideology_party_long:0 "Communist Party of Spain (Left-Wing)"
+SPR_socialism_ideology_party:0 "PCE-R"
+SPR_socialism_ideology_party_long:0 "Communist Party of Spain (Right-Wing)"
+SPR_social_democracy_ideology_party:0 "PSOE"
+SPR_social_democracy_ideology_party_long:0 "Spanish Socialist Workers' Party"
+SPR_liberalism_ideology_party:0 "PLD"
+SPR_liberalism_ideology_party_long:0 "Liberal Democratic Party"
+SPR_conservatism_ideology_party:0 "PLC"
+SPR_conservatism_ideology_party_long:0 "Liberal Conservative Party"
+SPR_authoritarianism_ideology_party:0 "UPE"
+SPR_authoritarianism_ideology_party_long:0 "Spanish Patriotic Union"
+SPR_ultranationalism_ideology_party:0 "CNSL"
+SPR_ultranationalism_ideology_party_long:0 "National Confederation of Free Trade Unions"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,91 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SAF_JAN_SMUTS:0 "Jan Smuts"
+
+SAF_CAP_anarchism_ideology:0 "South African Free State"
+SAF_CAP_anarchism_ideology_DEF:0 "the South African Free State"
+SAF_CAP_totalism_ideology:0 "South African Socialist Republic"
+SAF_CAP_totalism_ideology_DEF:0 "the South African Socialist Republic"
+SAF_CAP_socialism_ideology:0 "Union of South Africa"
+SAF_CAP_socialism_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_social_democracy_ideology:0 "Union of South Africa"
+SAF_CAP_social_democracy_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_liberalism_ideology:0 "Union of South Africa"
+SAF_CAP_liberalism_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_conservatism_ideology:0 "Union of South Africa"
+SAF_CAP_conservatism_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_authoritarianism_ideology:0 "Union of South Africa"
+SAF_CAP_authoritarianism_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_ultranationalism_ideology:0 "Union of South Africa"
+SAF_CAP_ultranationalism_ideology_DEF:0 "the Union of South Africa"
+SAF_CAP_anarchism_ideology_ADJ:0 "South African"
+SAF_CAP_totalism_ideology_ADJ:0 "South African"
+SAF_CAP_socialism_ideology_ADJ:0 "South African"
+SAF_CAP_social_democracy_ideology_ADJ:0 "South African"
+SAF_CAP_liberalism_ideology_ADJ:0 "South African"
+SAF_CAP_conservatism_ideology_ADJ:0 "South African"
+SAF_CAP_authoritarianism_ideology_ADJ:0 "South African"
+SAF_CAP_ultranationalism_ideology_ADJ:0 "South African"
+SAF_CAP:0 "South Africa"
+SAF_CAP_DEF:0 "South Africa"
+SAF_CAP_ADJ:0 "South African"
+
+SAF_anarchism_ideology:0 "South African Free State"
+SAF_anarchism_ideology_DEF:0 "the South African Free State"
+SAF_totalism_ideology:0 "South African Socialist Republic"
+SAF_totalism_ideology_DEF:0 "the South African Socialist Republic"
+SAF_socialism_ideology:0 "Republic of South Africa"
+SAF_socialism_ideology_DEF:0 "the Republic of South Africa"
+SAF_social_democracy_ideology:0 "Republic of South Africa"
+SAF_social_democracy_ideology_DEF:0 "the Republic of South Africa"
+SAF_liberalism_ideology:0 "Republic of South Africa"
+SAF_liberalism_ideology_DEF:0 "the Republic of South Africa"
+SAF_conservatism_ideology:0 "Republic of South Africa"
+SAF_conservatism_ideology_DEF:0 "the Republic of South Africa"
+SAF_authoritarianism_ideology:0 "Republic of South Africa"
+SAF_authoritarianism_ideology_DEF:0 "the Republic of South Africa"
+SAF_ultranationalism_ideology:0 "Republic of South Africa"
+SAF_ultranationalism_ideology_DEF:0 "the Republic of South Africa"
+SAF_anarchism_ideology_ADJ:0 "South African"
+SAF_totalism_ideology_ADJ:0 "South African"
+SAF_socialism_ideology_ADJ:0 "South African"
+SAF_social_democracy_ideology_ADJ:0 "South African"
+SAF_liberalism_ideology_ADJ:0 "South African"
+SAF_conservatism_ideology_ADJ:0 "South African"
+SAF_authoritarianism_ideology_ADJ:0 "South African"
+SAF_ultranationalism_ideology_ADJ:0 "South African"
+SAF:0 "South Africa"
+SAF_DEF:0 "South Africa"
+SAF_ADJ:0 "South African"
+#Political Parties
+SAF_totalism_ideology_party:0 "SACP"
+SAF_totalism_ideology_party_long:0 "South African Communist Party"
+SAF_socialism_ideology_party:0 "SALP"
+SAF_socialism_ideology_party_long:0 "South African Labour Party"
+SAF_social_democracy_ideology_party:0 "ANC"
+SAF_social_democracy_ideology_party_long:0 "African National Congress"
+SAF_liberalism_ideology_party:0 "South African Party"
+SAF_liberalism_ideology_party_long:0 "South African Party"
+SAF_conservatism_ideology_party:0 "NP"
+SAF_conservatism_ideology_party_long:0 "National Party"
+SAF_authoritarianism_ideology_party:0 "Military Junta"
+SAF_authoritarianism_ideology_party_long:0 "Military Junta"
+SAF_ultranationalism_ideology_party:0 "Afrikaner Alliance"
+SAF_ultranationalism_ideology_party_long:0 "Afrikaner Alliance"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

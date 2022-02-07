@@ -1,0 +1,283 @@
+﻿capital = 47
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 10
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = {
+	name = "Pandelis Pouliopoulos"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = totalism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Dimitris Stratis"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = socialism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = authoritarianism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = ""
+	expire = "1935.1.1"
+	ideology = ultranationalism_sub
+	traits = {} 
+}
+
+create_corps_commander={  
+	name = "Panagiótis Danglís" 
+	portrait_path="gfx/leaders/GRE/GRE_panagiotis_danglis.dds" 
+	traits={ old_guard inflexible_strategist trait_engineer } 
+	skill=3 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Nikolaos Trikoupis" 
+	portrait_path="gfx/leaders/GRE/GRE_nikolaos_trikoupis.dds" 
+	traits={   } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Víctor Doúsmanis" 
+	portrait_path="gfx/leaders/GRE/GRE_victor_dousmanis.dds" 
+	traits={ politically_connected media_personality skilled_staffer }
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Emmanouil Zymvrakakis"  
+	portrait_path="gfx/leaders/GRE/GRE_emmanouil_zymvrakakis.dds" 
+	traits={   } 
+	skill=3 
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3 
+}
+create_corps_commander={
+	name = "Konstantinos Nider" 
+	portrait_path="gfx/leaders/GRE/GRE_nider.dds" 
+	traits={ infantry_officer trait_reckless hill_fighter }
+	skill=3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2 
+}
+create_corps_commander={
+	name = "Anastasios Papoulas" 
+	portrait_path="gfx/leaders/GRE/GRE_papoulas.dds" 
+	traits={ old_guard brilliant_strategist career_officer }
+	skill=2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander={  
+	name = "Leonídas Paraskevópoulos" 
+	portrait_path="gfx/leaders/GRE/GRE_paraskevopoulos.dds" 
+	traits={ trait_cautious }
+	skill=2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 	
+}
+create_corps_commander={  
+	name = "Georgios Hatzianestis" 
+	portrait_path="gfx/leaders/GRE/GRE_hatzianestis.dds" 
+	traits={ old_guard } 
+	skill=2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1 
+}
+create_corps_commander={  
+	name = "Konstantinos Sapountzakis" 
+	portrait_path="gfx/leaders/GRE/GRE_sapountzakis.dds" 
+	traits={ old_guard trait_cautious career_officer } 
+	skill=2 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1 
+}
+create_corps_commander={  
+	name = "Prince Andreas" 
+	id=35028 
+	portrait_path="gfx/leaders/GRE/GRE_prince_andreas.dds" 
+	traits={ politically_connected media_personality } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1 
+}
+create_corps_commander = {
+	name = "Theodoros Pangalos"
+	portrait_path="gfx/leaders/GRE/GRE_theodoros_pangalos.dds" 
+	traits={ politically_connected infantry_officer } 
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Konstantinos Mazarakis" 
+	portrait_path="gfx/leaders/GRE/GRE_mazarakis.dds" 
+	traits={ } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander={  
+	name = "Alexandros Othonaios" 
+	portrait_path="gfx/leaders/GRE/GRE_othonaios.dds" 
+	traits={ infantry_officer } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Georgios Kondylis" 
+	portrait_path="gfx/leaders/GRE/GRE_kondylis.dds" 
+	traits={ trait_reckless trickster hill_fighter } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 
+}
+create_corps_commander={  
+	name = "Nikólaos Plastíras" 
+	portrait_path="gfx/leaders/GRE/GRE_plastiras.dds" 
+	traits={ politically_connected career_officer infantry_officer } 
+	skill=4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_field_marshal={  
+	name = "Constantine of the Hellenes" 
+	id=35002 
+	portrait_path="gfx/leaders/GRE/GRE_constantine_i.dds" 
+	traits={ offensive_doctrine politically_connected media_personality } 
+	skill=3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2 	
+}
+
+### Naval Leaers ###
+create_navy_leader={  
+	name = "Kountouriotis" 
+	traits={ superior_tactician gunnery_expert } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader={  
+	name = "Hatzikiriakos" 
+	traits={ gentlemanly navy_career_officer } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+create_navy_leader={  name = "Kountouriotis" traits={ superior_tactician spotter } skill=3 }
+create_navy_leader={  name = "Hatzikiriakos" traits={   } skill=2 }
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = liberalism_ideology
+		last_election = "1923.12.16" 
+		election_frequency = 36 
+		elections_allowed = yes
+	}	
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 8
+		socialism_ideology = 2
+		social_democracy_ideology = 5
+		liberalism_ideology = 50
+		conservatism_ideology = 23
+		authoritarianism_ideology = 2
+		ultranationalism_ideology = 10
+	}
+
+	add_ideas = {
+		medium_tax_rate
+		limited_conscription
+		early_industrialization
+		orthodoxy
+		male_suffrage
+		air_poor_funding
+	}
+	
+}

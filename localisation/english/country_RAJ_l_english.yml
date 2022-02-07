@@ -1,0 +1,86 @@
+﻿l_english:
+#Countries, Leaders, Factions
+RAJ_VICEROY_TITLE:0 "Viceroy"
+RAJ_RUFUS_ISAACS:0 "Rufus Isaacs"
+
+RAJ_anarchism_ideology:0 "Indian Free State"
+RAJ_anarchism_ideology_DEF:0 "the Indian Free State"
+RAJ_totalism_ideology:0 "Indian Socialist Republic"
+RAJ_totalism_ideology_DEF:0 "the Indian Socialist Republic"
+RAJ_socialism_ideology:0 "Indian Socialist Republic"
+RAJ_socialism_ideology_DEF:0 "the Indian Socialist Republic"
+RAJ_social_democracy_ideology:0 "British Raj"
+RAJ_social_democracy_ideology_DEF:0 "the British Raj"
+RAJ_liberalism_ideology:0 "British Raj"
+RAJ_liberalism_ideology_DEF:0 "the British Raj"
+RAJ_conservatism_ideology:0 "British Raj"
+RAJ_conservatism_ideology_DEF:0 "the British Raj"
+RAJ_authoritarianism_ideology:0 "British Raj"
+RAJ_authoritarianism_ideology_DEF:0 "the British Raj"
+RAJ_ultranationalism_ideology:0 "British Raj"
+RAJ_ultranationalism_ideology_DEF:0 "the British Raj"
+RAJ_anarchism_ideology_ADJ:0 "Indian"
+RAJ_totalism_ideology_ADJ:0 "Indian"
+RAJ_socialism_ideology_ADJ:0 "Indian"
+RAJ_social_democracy_ideology_ADJ:0 "Indian"
+RAJ_liberalism_ideology_ADJ:0 "Indian"
+RAJ_conservatism_ideology_ADJ:0 "Indian"
+RAJ_authoritarianism_ideology_ADJ:0 "Indian"
+RAJ_ultranationalism_ideology_ADJ:0 "Indian"
+RAJ:0 "India"
+RAJ_DEF:0 "India"
+RAJ_ADJ:0 "Indian"
+
+RAJ_UK_anarchism_ideology:0 "Indian Free State"
+RAJ_UK_anarchism_ideology_DEF:0 "the Indian Free State"
+RAJ_UK_totalism_ideology:0 "Indian Socialist Republic"
+RAJ_UK_totalism_ideology_DEF:0 "the Indian Socialist Republic"
+RAJ_UK_socialism_ideology:0 "British Raj"
+RAJ_UK_socialism_ideology_DEF:0 "the British Raj"
+RAJ_UK_social_democracy_ideology:0 "British Raj"
+RAJ_UK_social_democracy_ideology_DEF:0 "the British Raj"
+RAJ_UK_liberalism_ideology:0 "British Raj"
+RAJ_UK_liberalism_ideology_DEF:0 "the British Raj"
+RAJ_UK_conservatism_ideology:0 "British Raj"
+RAJ_UK_conservatism_ideology_DEF:0 "the British Raj"
+RAJ_UK_authoritarianism_ideology:0 "British Raj"
+RAJ_UK_authoritarianism_ideology_DEF:0 "the British Raj"
+RAJ_UK_ultranationalism_ideology:0 "British Raj"
+RAJ_UK_ultranationalism_ideology_DEF:0 "the British Raj"
+RAJ_UK_anarchism_ideology_ADJ:0 "Indian"
+RAJ_UK_totalism_ideology_ADJ:0 "Indian"
+RAJ_UK_socialism_ideology_ADJ:0 "Indian"
+RAJ_UK_social_democracy_ideology_ADJ:0 "Indian"
+RAJ_UK_liberalism_ideology_ADJ:0 "Indian"
+RAJ_UK_conservatism_ideology_ADJ:0 "Indian"
+RAJ_UK_authoritarianism_ideology_ADJ:0 "Indian"
+RAJ_UK_ultranationalism_ideology_ADJ:0 "Indian"
+RAJ_UK:0 "India"
+RAJ_UK_DEF:0 "India"
+RAJ_UK_ADJ:0 "Indian"
+#Political Parties
+RAJ_social_democracy_ideology_party:0 "Swaraj Party"
+RAJ_social_democracy_ideology_party_long:0 "Swaraj Party"
+RAJ_liberalism_ideology_party:0 "Indian Liberal Party"
+RAJ_liberalism_ideology_party_long:0 "Liberal Party of India"
+RAJ_conservatism_ideology_party:0 "Loyalists"
+RAJ_conservatism_ideology_party_long:0 "Loyalist Party"
+RAJ_authoritarianism_ideology_party:0 "Imperial Legislative Council"
+RAJ_authoritarianism_ideology_party_long:0 "Imperial Legislative Council"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

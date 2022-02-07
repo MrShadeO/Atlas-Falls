@@ -1,0 +1,53 @@
+﻿l_english:
+#Countries, Leaders, Factions
+URG_anarchism_ideology:0 "Uruguayan Free State"
+URG_anarchism_ideology_DEF:0 "the Uruguayan Free State"
+URG_totalism_ideology:0 "Socialist Republic of Uruguay"
+URG_totalism_ideology_DEF:0 "the Socialist Republic of Uruguay"
+URG_socialism_ideology:0 "Socialist Republic of Uruguay"
+URG_socialism_ideology_DEF:0 "the Socialist Republic of Uruguay"
+URG_social_democracy_ideology:0 "Oriental Republic of Uruguay"
+URG_social_democracy_ideology_DEF:0 "the Oriental Republic of Uruguay"
+URG_liberalism_ideology:0 "Oriental Republic of Uruguay"
+URG_liberalism_ideology_DEF:0 "the Oriental Republic of Uruguay"
+URG_conservatism_ideology:0 "Oriental Republic of Uruguay"
+URG_conservatism_ideology_DEF:0 "the Oriental Republic of Uruguay"
+URG_authoritarianism_ideology:0 "Oriental Republic of Uruguay"
+URG_authoritarianism_ideology_DEF:0 "the Oriental Republic of Uruguay"
+URG_ultranationalism_ideology:0 "Oriental Republic of Uruguay"
+URG_ultranationalism_ideology_DEF:0 "the Oriental Republic of Uruguay"
+URG_anarchism_ideology_ADJ:0 "Uruguayan"
+URG_totalism_ideology_ADJ:0 "Uruguayan"
+URG_socialism_ideology_ADJ:0 "Uruguayan"
+URG_social_democracy_ideology_ADJ:0 "Uruguayan"
+URG_liberalism_ideology_ADJ:0 "Uruguayan"
+URG_conservatism_ideology_ADJ:0 "Uruguayan"
+URG_authoritarianism_ideology_ADJ:0 "Uruguayan"
+URG_ultranationalism_ideology_ADJ:0 "Uruguayan"
+URG:0 "Uruguay"
+URG_DEF:0 "Uruguay"
+URG_ADJ:0 "Uruguayan"
+#Political Parties
+URG_totalism_ideology_party:0 "PCU"
+URG_totalism_ideology_party_long:0 "Communist Party of Uruguay"
+URG_social_democracy_ideology_party:0 "PSU"
+URG_social_democracy_ideology_party_long:0 "Socialist Party of Uruguay"
+URG_liberalism_ideology_party:0 "PC"
+URG_liberalism_ideology_party_long:0 "Colorado Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

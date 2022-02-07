@@ -1,0 +1,18 @@
+  
+state = {
+	id = 293
+	name = "STATE_293"
+	manpower = 1089500
+	state_category = rural
+	provinces = { 1920 1973 4924 }
+
+	history = {
+		victory_points = { 1973 3 }
+		add_core_of = YEM
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+}

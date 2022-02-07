@@ -1,0 +1,813 @@
+scripted_gui = { #THIS GUI IS AN EXAMPLE OF WHY YOU SHOULD USE ARRAYS AND NOT HARDCODE IT ALL :c
+    display_great_purge_menu_gui = {
+        window_name = "great_purge_menu_container"
+        context_type = player_context
+
+        effects = {
+            cancel_button_click = {
+                clr_country_flag = display_great_purge_menu
+            }
+
+            accept_button_click = {
+                clr_country_flag = display_great_purge_menu
+                add_timed_idea = {
+                    idea = great_purge_cooldown
+                    days = 365
+                }
+                set_variable = { cooldown_duration_remaining = 365 }
+                if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 8
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_8
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 7
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_7
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 6
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_6
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 5
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_5
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 4
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_4
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 3
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_3
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 2
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_2
+                        days = 365
+                    }
+                }
+                else_if = {
+                    limit = {
+                        count_triggers = {
+                            amount = 1
+                            check_variable = {
+                                var = agriculture_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = commerce_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = defense_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = education_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = energy_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = foreign_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = industry_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                            check_variable = {
+                                var = justice_checkbox_var
+                                value = 2
+                                compare = equals
+                            }
+                        }
+                    }
+                    add_timed_idea = {
+                        idea = great_purge_bonus_1
+                        days = 365
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = agriculture_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_agriculture_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = commerce_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_commerce_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = defense_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_defense_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = education_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_education_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = energy_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_energy_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = foreign_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_foreign_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = industry_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_industry_minister }
+                        retire = yes
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = justice_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    every_character = {
+                        limit = { has_character_flag = is_justice_minister }
+                        retire = yes
+                    }
+                }
+            }
+
+            agriculture_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = agriculture_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { agriculture_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = agriculture_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { agriculture_checkbox_var = 1 }
+                }
+            }
+
+            commerce_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var =  commerce_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { commerce_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var =  commerce_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { commerce_checkbox_var = 1 }
+                }
+            }
+
+            defense_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = defense_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { defense_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = defense_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { defense_checkbox_var = 1 }
+                }
+            }
+
+            education_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = education_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { education_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = education_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { education_checkbox_var = 1 }
+                }
+            }
+
+            energy_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = energy_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { energy_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = energy_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { energy_checkbox_var = 1 }
+                }
+            }
+
+            foreign_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = foreign_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { foreign_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = foreign_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { foreign_checkbox_var = 1 }
+                }
+            }
+
+            industry_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = industry_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { industry_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = industry_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { industry_checkbox_var = 1 }
+                }
+            }
+
+            justice_checkbox_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = justice_checkbox_var
+                            value = 1
+                            compare = equals
+                        }
+                    }
+                    set_variable = { justice_checkbox_var = 2 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = {
+                            var = justice_checkbox_var
+                            value = 2
+                            compare = equals
+                        }
+                    }
+                    set_variable = { justice_checkbox_var = 1 }
+                }
+            }
+		}
+
+        triggers = {
+            agriculture_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_agriculture_minister
+                    is_country_leader = no
+                }
+            }
+
+            commerce_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_commerce_minister
+                    is_country_leader = no
+                }
+            }
+
+            defense_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_defense_minister
+                    is_country_leader = no
+                }
+            }
+
+            education_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_education_minister
+                    is_country_leader = no
+                }
+            }
+
+            energy_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_energy_minister
+                    is_country_leader = no
+                }
+            }
+
+            foreign_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_foreign_minister
+                    is_country_leader = no
+                }
+            }
+
+            industry_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_industry_minister
+                    is_country_leader = no
+                }
+            }
+
+            justice_checkbox_visible = {
+                any_character = {
+                    has_character_flag = is_justice_minister
+                    is_country_leader = no
+                }
+            }
+        }
+
+        properties = {
+            agriculture_checkbox = {
+                frame = agriculture_checkbox_var
+            }
+
+            commerce_checkbox = {
+                frame = commerce_checkbox_var
+            }
+
+            defense_checkbox = {
+                frame = defense_checkbox_var
+            }
+
+            education_checkbox = {
+                frame = education_checkbox_var
+            }
+
+            energy_checkbox = {
+                frame = energy_checkbox_var
+            }
+
+            foreign_checkbox = {
+                frame = foreign_checkbox_var
+            }
+
+            industry_checkbox = {
+                frame = industry_checkbox_var
+            }
+
+            justice_checkbox = {
+                frame = justice_checkbox_var
+            }
+        }
+
+        visible = {
+            has_country_flag = display_great_purge_menu
+        }
+    }
+}

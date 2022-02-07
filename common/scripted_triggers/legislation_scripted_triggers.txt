@@ -1,0 +1,359 @@
+ruling_party_support_over_10 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_10_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.10
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.10
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.10
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.10
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.10
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.10
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.10
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.10
+            }
+        }
+    }
+}
+
+ruling_party_support_over_20 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_20_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.20
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.20
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.20
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.20
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.20
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.20
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.20
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.20
+            }
+        }
+    }
+}
+
+ruling_party_support_over_30 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_30_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.30
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.30
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.30
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.30
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.30
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.30
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.30
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.30
+            }
+        }
+    }
+}
+
+ruling_party_support_over_40 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_40_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.40
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.40
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.40
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.40
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.40
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.40
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.40
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.40
+            }
+        }
+    }
+}
+
+ruling_party_support_over_50 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_50_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.50
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.50
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.50
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.50
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.50
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.50
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.50
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.50
+            }
+        }
+    }
+}
+
+ruling_party_support_over_60 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_60_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.60
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.60
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.60
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.60
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.60
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.60
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.60
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.60
+            }
+        }
+    }
+}
+
+ruling_party_support_over_70 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_70_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.70
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.70
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.70
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.70
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.70
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.70
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.70
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.70
+            }
+        }
+    }
+}
+
+ruling_party_support_over_80 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_80_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.80
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.80
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.80
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.80
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.80
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.80
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.80
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.80
+            }
+        }
+    }
+}
+
+ruling_party_support_over_90 = {
+    custom_trigger_tooltip = {
+        tooltip = ruling_party_support_over_90_tt
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                anarchism_ideology > 0.90
+            }
+            AND = {
+                has_government = totalism_ideology
+                totalism_ideology > 0.90
+            }
+            AND = {
+                has_government = socialism_ideology
+                socialism_ideology > 0.90
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                social_democracy_ideology > 0.90
+            }
+            AND = {
+                has_government = liberalism_ideology
+                liberalism_ideology > 0.90
+            }
+            AND = {
+                has_government = conservatism_ideology
+                conservatism_ideology > 0.90
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                authoritarianism_ideology > 0.90
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                ultranationalism_ideology > 0.90
+            }
+        }
+    }
+}

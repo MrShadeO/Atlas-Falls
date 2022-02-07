@@ -1,0 +1,21 @@
+
+state = {
+	id = 539
+	name = "STATE_539"
+	manpower = 3500000
+	state_category = rural
+	provinces = { 2080 5036 5054 7963 9137 11194 }
+	resources = {
+		rubber = 1
+	}
+
+	history = {
+		victory_points = { 2080 1 }
+		owner = GER
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 1
+			5036 = { naval_base = 1 }
+		}
+	}	
+}

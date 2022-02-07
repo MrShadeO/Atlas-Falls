@@ -1,0 +1,16 @@
+state = {
+	id = 885
+	name = "STATE_885"
+	manpower = 201000
+	state_category=pastoral
+	provinces = { 4407 5102 10856 }
+
+	history = {
+		victory_points = { 5102 1 }
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

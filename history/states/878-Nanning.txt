@@ -1,0 +1,18 @@
+state = {
+	id = 878
+	name = "STATE_878"
+	manpower = 4357000
+	state_category = town
+	provinces = { 1597 4028 4134 7095 7137 7650 10039 10431 12436 }
+
+	history = {
+		victory_points = { 7137 10 }
+		owner = GXC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+}

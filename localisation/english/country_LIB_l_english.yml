@@ -1,0 +1,55 @@
+﻿l_english:
+#Countries, Leaders, Factions
+LIB_HENRY_WESLEY:0 "Henry Wesley"
+
+LIB_anarchism_ideology:0 "Liberian Free State"
+LIB_anarchism_ideology_DEF:0 "the Liberian Free State"
+LIB_totalism_ideology:0 "Liberian Socialist Republic"
+LIB_totalism_ideology_DEF:0 "the Liberian Socialist Republic"
+LIB_socialism_ideology:0 "Liberian Socialist Republic"
+LIB_socialism_ideology_DEF:0 "the Liberian Socialist Republic"
+LIB_social_democracy_ideology:0 "Republic of Liberia"
+LIB_social_democracy_ideology_DEF:0 "the Republic of Liberia"
+LIB_liberalism_ideology:0 "Republic of Liberia"
+LIB_liberalism_ideology_DEF:0 "the Republic of Liberia"
+LIB_conservatism_ideology:0 "Republic of Liberia"
+LIB_conservatism_ideology_DEF:0 "the Republic of Liberia"
+LIB_authoritarianism_ideology:0 "Republic of Liberia"
+LIB_authoritarianism_ideology_DEF:0 "the Republic of Liberia"
+LIB_ultranationalism_ideology:0 "Republic of Liberia"
+LIB_ultranationalism_ideology_DEF:0 "the Republic of Liberia"
+LIB_anarchism_ideology_ADJ:0 "Liberian"
+LIB_totalism_ideology_ADJ:0 "Liberian"
+LIB_socialism_ideology_ADJ:0 "Liberian"
+LIB_social_democracy_ideology_ADJ:0 "Liberian"
+LIB_liberalism_ideology_ADJ:0 "Liberian"
+LIB_conservatism_ideology_ADJ:0 "Liberian"
+LIB_authoritarianism_ideology_ADJ:0 "Liberian"
+LIB_ultranationalism_ideology_ADJ:0 "Liberian"
+LIB:0 "Liberia"
+LIB_DEF:0 "Liberia"
+LIB_ADJ:0 "Liberian"
+#Political Parties
+LIB_liberalism_ideology_party:0 "Republican Party"
+LIB_liberalism_ideology_party_long:0 "Republican Party"
+LIB_conservatism_ideology_party:0 "TWP"
+LIB_conservatism_ideology_party_long:0 "True Whig Party"
+LIB_authoritarianism_ideology_party:0 "TWP"
+LIB_authoritarianism_ideology_party_long:0 "True Whig Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

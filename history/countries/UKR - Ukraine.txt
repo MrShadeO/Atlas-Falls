@@ -1,0 +1,76 @@
+﻿capital = 202
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 10
+
+set_country_flag = has_president
+set_country_flag = is_provisional_government
+
+add_ideas = {
+	very_low_tax_rate
+	limited_conscription
+	partial_economic_mobilisation
+	early_industrialization
+	legalized_trade_unions
+	state_ownership
+	army_untrained
+	navy_untrained
+	navy_minimal_funding
+	air_poor_funding
+	air_untrained
+}
+
+set_politics = {
+	ruling_party = social_democracy_ideology
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 20
+	socialism_ideology = 30
+	social_democracy_ideology = 50
+	liberalism_ideology = 0
+	conservatism_ideology = 0
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+#LEADERS
+recruit_character = UKR_mykhailo_hrushevsky
+
+#ARMY
+recruit_character = UKR_viktor_zelinsky #Field Marshal
+recruit_character = UKR_pavlo_skoropadskyi #Field Marshal
+recruit_character = UKR_konstantin_prisovsky
+recruit_character = UKR_oleksander_hrekov
+recruit_character = UKR_myron_tarnavsky
+recruit_character = UKR_andriy_melnyk
+recruit_character = UKR_mykhailo_pavlenko
+recruit_character = UKR_gustav_tsiritz
+recruit_character = UKR_volodymyr_sinclair
+recruit_character = UKR_ivan_pavlenko
+recruit_character = UKR_volodymyr_salsky
+recruit_character = UKR_osip_mykytka
+recruit_character = UKR_petrov_vsevolod
+recruit_character = UKR_viktor_kurmanovych
+recruit_character = UKR_petro_bolbochan
+recruit_character = UKR_yevhen_konovalets
+recruit_character = UKR_sviatoslav_shramchenko
+recruit_character = UKR_semen_hryzlo
+recruit_character = UKR_hryhoriy_kossak
+recruit_character = UKR_dmytro_vitovsky
+recruit_character = UKR_hnat_stefaniv
+recruit_character = UKR_arkhip_kmeta
+
+#NAVY
+recruit_character = UKR_andriy_pokrovskiy
+recruit_character = UKR_sviatoslav_shramchenko_navy
+
+
+
+	
+

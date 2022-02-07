@@ -1,0 +1,21 @@
+state = {
+	id = 615
+	name = "STATE_615"
+	manpower = 7000000
+	state_category = town
+	provinces = { 1034 1531 1575 4074 4174 4634 7571 10367 10507 12300 12432 }
+	resources = {
+		steel = 1
+	}
+	
+	history = {
+		victory_points = { 4174 3 }
+		owner = SHX
+		add_core_of = SHX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+}

@@ -1,0 +1,400 @@
+leader_traits = {
+    environmentalist = {
+		stability_factor = 0.10
+        production_speed_industrial_complex_factor = -0.05
+		
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    food_inspector = {
+		monthly_population = 0.10
+        consumer_goods_factor = 0.025
+		
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    productive_farmer = {
+        production_speed_infrastructure_factor = 0.05
+        conscription_factor = 0.05
+        political_power_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    agrarian_tycoon = {
+        production_speed_industrial_complex_factor = 0.05
+        consumer_goods_factor = -0.025
+        stability_factor = -0.075
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    tax_collector = {
+        consumer_goods_factor = -0.075
+        stability_factor = -0.10
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    welfare_enthusiast = {
+        stability_factor = 0.10
+        consumer_goods_factor = 0.025
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    corrupt_lobbyist = {
+        political_power_factor = 0.10
+        production_speed_buildings_factor = -0.10
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    modern_innovator = {
+        research_speed_factor = 0.05
+        industrial_capacity_dockyard = -0.05
+        industrial_capacity_factory = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    war_hawk_minister = {
+        war_support_factor = 0.10
+        stability_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    bean_counter = {
+        consumer_goods_factor = -0.05
+        army_attack_factor = -0.05
+        army_defence_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    old_general = {
+        political_power_factor = -0.05
+        army_org_factor = 0.05
+        attrition = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    shipbuilder = {
+        consumer_goods_factor = 0.05
+        industrial_capacity_dockyard = 0.10
+        naval_defense_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    propagandist = {
+        stability_factor = 0.075
+        war_support_factor = 0.075
+        research_speed_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    devoted_teacher = {
+        research_speed_factor = 0.05
+        consumer_goods_factor = 0.025
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    practical_instructor = {
+        research_speed_factor = -0.025
+        industrial_capacity_dockyard = 0.05
+        industrial_capacity_factory = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    private_school_elitist = {
+        research_speed_factor = -0.05
+        consumer_goods_factor = -0.05
+        political_power_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    oil_baron = {
+        max_fuel = 0.15
+        stability_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    chemical_engineer = {
+        research_speed_factor = 0.01
+        base_fuel_gain_factor = 0.10
+        consumer_goods_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    nuclear_engineer = {
+        production_speed_nuclear_reactor_factor = 0.10
+        nuclear_production_factor = 0.05
+        consumer_goods_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    conservationist = {
+        stability_factor = 0.10
+        base_fuel_gain_factor = -0.05
+        max_fuel = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    smooth_talker = {
+        opinion_gain_monthly_factor = 0.10
+        opinion_gain_monthly_same_ideology_factor = 0.10
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    bank_executive = {
+        trade_opinion_factor = 0.20
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    spymaster = {
+        operative_slot = 1
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    submissive_diplomat = {
+        enemy_justify_war_goal_time = 0.25
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    captain_of_industry_minister = {
+        production_speed_industrial_complex_factor = 0.15
+        production_speed_arms_factory_factor = -0.075
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    arms_salesman = {
+        production_speed_arms_factory_factor = 0.15
+        production_speed_industrial_complex_factor = -0.075
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    keynesian_economist = {
+        industrial_capacity_dockyard = 0.075
+        industrial_capacity_factory = 0.075
+        stability_factor = 0.05
+        consumer_goods_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    laissez_faire_economist = {
+        consumer_goods_factor = -0.05
+        trade_opinion_factor = 0.10
+        production_speed_buildings_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    sympathetic_judge = {
+        stability_factor = 0.10
+        political_power_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    tough_cop = {
+        intelligence_agency_defense = 1.0
+        stability_factor = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    hotheaded_prosecutor = {
+        political_power_factor = 0.10
+        consumer_goods_factor = 0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    civil_liberties_lawyer = {
+        political_power_factor = 0.05
+        stability_factor = 0.05
+        industrial_capacity_factory = -0.05
+        industrial_capacity_dockyard = -0.05
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    gun_manufacturer = {
+        equipment_bonus = {
+			infantry_equipment = {
+				reliability = 0.10
+			}
+		}
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    artillery_manufacturer = {
+        equipment_bonus = {
+			artillery_equipment = {
+				reliability = 0.10
+			}
+		}
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    motorized_manufacturer = {
+        equipment_bonus = {
+            motorized_equipment = {
+				reliability = 0.10
+			}
+		}
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    mechanized_manufacturer = {
+        equipment_bonus = {
+            mechanized_equipment = {
+				reliability = 0.10
+			}
+		}
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+    armored_car_manufacturer = {
+        equipment_bonus = {
+            armored_car_equipment = {
+				reliability = 0.10
+			}
+		}
+
+        random = no
+		ai_will_do = {
+			factor = 1
+		}
+    }
+}

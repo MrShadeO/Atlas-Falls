@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SWE_HJALMAR_BRANTING:0 "Hjalmar Branting"
+
+SWE_anarchism_ideology:0 "Swedish Free State"
+SWE_anarchism_ideology_DEF:0 "the Swedish Free State"
+SWE_totalism_ideology:0 "Swedish Socialist Republic"
+SWE_totalism_ideology_DEF:0 "the Swedish Socialist Republic"
+SWE_socialism_ideology:0 "Swedish Socialist Republic"
+SWE_socialism_ideology_DEF:0 "the Swedish Socialist Republic"
+SWE_social_democracy_ideology:0 "Kingdom of Sweden"
+SWE_social_democracy_ideology_DEF:0 "the Kingdom of Sweden"
+SWE_liberalism_ideology:0 "Kingdom of Sweden"
+SWE_liberalism_ideology_DEF:0 "the Kingdom of Sweden"
+SWE_conservatism_ideology:0 "Kingdom of Sweden"
+SWE_conservatism_ideology_DEF:0 "the Kingdom of Sweden"
+SWE_authoritarianism_ideology:0 "Kingdom of Sweden"
+SWE_authoritarianism_ideology_DEF:0 "the Kingdom of Sweden"
+SWE_ultranationalism_ideology:0 "Kingdom of Sweden"
+SWE_ultranationalism_ideology_DEF:0 "the Kingdom of Sweden"
+SWE_anarchism_ideology_ADJ:0 "Swedish"
+SWE_totalism_ideology_ADJ:0 "Swedish"
+SWE_socialism_ideology_ADJ:0 "Swedish"
+SWE_social_democracy_ideology_ADJ:0 "Swedish"
+SWE_liberalism_ideology_ADJ:0 "Swedish"
+SWE_conservatism_ideology_ADJ:0 "Swedish"
+SWE_authoritarianism_ideology_ADJ:0 "Swedish"
+SWE_ultranationalism_ideology_ADJ:0 "Swedish"
+SWE:0 "Sweden"
+SWE_DEF:0 "Sweden"
+SWE_ADJ:0 "Swedish"
+#Political Parties
+SWE_totalism_ideology_party:0 "SKP"
+SWE_totalism_ideology_party_long:0 "Communist Party of Sweden"
+SWE_socialism_ideology_party:0 "SSV"
+SWE_socialism_ideology_party_long:0 "Communist Party of Germany"
+SWE_social_democracy_ideology_party:0 "S/SAP"
+SWE_social_democracy_ideology_party_long:0 "Swedish Social Democratic Party"
+SWE_liberalism_ideology_party:0 "FL"
+SWE_liberalism_ideology_party_long:0 "Free-minded National Association"
+SWE_conservatism_ideology_party:0 "AV"
+SWE_conservatism_ideology_party_long:0 "General Electoral League"
+SWE_authoritarianism_ideology_party:0 "House Bernadotte"
+SWE_authoritarianism_ideology_party_long:0 "House Bernadotte Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

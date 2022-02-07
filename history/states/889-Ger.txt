@@ -1,0 +1,16 @@
+state = {
+	id = 889
+	name = "STATE_889"
+	manpower = 1705000
+	state_category = rural 
+	provinces = { 1961 5094 8029 10802 12801 }
+
+	history = {
+		victory_points = { 1961 1 }
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

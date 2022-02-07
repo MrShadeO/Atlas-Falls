@@ -1,0 +1,150 @@
+﻿capital = 6
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.05
+set_convoys = 80
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = { 
+	name = "Eduard Van Overstraeten" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}   
+}
+
+create_country_leader = { 
+	name = "Albert I" 
+	picture = "gfx/leaders/BEL/Portrait_BEL_Albert_I.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}   
+}
+
+
+
+create_field_marshal = {
+	name = "Albert I" 
+	id=9009
+	portrait_path = "gfx/leaders/BEL/BEL_albert_general.dds"
+	traits = { offensive_doctrine politically_connected media_personality }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gérard Leman"
+	portrait_path="gfx/leaders/BEL/BEL_gerard_leman.dds" 
+	traits = { trait_engineer old_guard trait_cautious } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = { 
+	name = "Léon de Witte"
+	portrait_path="gfx/leaders/BEL/BEL_leon_de_witte.dds" 
+	traits = { cavalry_officer } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {  
+	name = "Charles Tombeur"
+	portrait_path="gfx/leaders/BEL/tombeur2.dds" 
+	traits = { jungle_rat } 
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Albert van Rode"
+	portrait_path="gfx/leaders/BEL/BEL_albert_van_rode.dds" 
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism_ideology
+		last_election = "1921.5.24"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 1
+		socialism_ideology = 10
+		social_democracy_ideology = 30
+		liberalism_ideology = 20
+		conservatism_ideology = 34
+		authoritarianism_ideology = 5
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		lower_secondary_education
+		catholicism
+		navy_minimal_funding
+		exploit_the_natives
+		male_suffrage
+		legalized_trade_unions
+	}
+}

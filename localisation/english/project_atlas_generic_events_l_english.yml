@@ -1,0 +1,18 @@
+﻿l_english:
+generic.26.t:0 "Oversized Standing Army"
+generic.26.d:0 "Our peacetime army has become far too large and this has begun negatively impacting the nation. Our people are angered by excessive military spending, and businesses are facing a labor shortage as workers become enlisted in the military instead. We can solve this issue by either increasing our Standing Army Limit or by disbanding enough divisions to bring us below our Standing Army Limit.\n\nIf we do nothing to fix this within 7 days, the severity of the penalties will increase."
+generic.26.a:0 "We will need to address this, immediately!"
+generic.27.t:0 "Oversized Standing Army - Resolved"
+generic.27.d:0 "Fortunately, it seems we have been able to get our Standing Army size under control. Our people's anger has faded and the capitol bureaucrats have stopped harassing the Defense Ministry."
+generic.27.a:0 "Everyone can finally get off my back about this..."
+generic.28.t:0 "Oversized Standing Army - War!"
+generic.28.d:0 "In a sudden turn of events, our nation has found itself at war with a foreign power, and the people are no longer angry about the size of the military. In fact, quite the opposite is now true. Funny how the doves become silent about miltary spending when the nation becomes embroiled in a military conflict."
+generic.28.a:0 "Everyone can finally get off my back about this..."
+generic.29.t:0 "Peacetime Demobilization"
+generic.29.d:0 "Finally, our people are able to enjoy peace once more. We will bury our heroes and comfort their widows. Military uniforms will be replaced with civilian attire. Factories will stop making machines of war and return to making domestic goods like toys and automobiles. It may take some time, but our people will learn to live without war again. To that end, we must begin the process of demobilization. The question is, how many active divisions should we keep?"
+generic.29.a:0 "Completely demobilize."
+generic.29.b:0 "We will play it safe, for now."
+generic.29.c:0 "The world is a dangerous place..."
+
+division_limit_warning_tt:0 "\n§RWarning! Selecting this option will set our §YStanding Army§! Limit below our current number of divisions. We must immediately disband enough divisions to bring us below our limit, or we will begin suffering negative penalties.§!"
+division_limit_safe_tt:0 "\n§GOur §YStanding Army§! will be below our division limit, if we select this option.§!"

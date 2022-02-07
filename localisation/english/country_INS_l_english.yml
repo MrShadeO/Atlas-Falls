@@ -1,0 +1,81 @@
+﻿l_english:
+#Countries, Leaders, Factions
+INS_DIRK_FOCK:0 "Dirk Fock"
+
+INS_anarchism_ideology:0 "Indonesian Free State"
+INS_anarchism_ideology_DEF:0 "the Indonesian Free State"
+INS_totalism_ideology:0 "Indonesian Socialist Republic"
+INS_totalism_ideology_DEF:0 "the Indonesian Socialist Republic"
+INS_socialism_ideology:0 "Indonesian Socialist Republic"
+INS_socialism_ideology_DEF:0 "the Indonesian Socialist Republic"
+INS_social_democracy_ideology:0 "Republic of Indonesia"
+INS_social_democracy_ideology_DEF:0 "the Republic of Indonesia"
+INS_liberalism_ideology:0 "Republic of Indonesia"
+INS_liberalism_ideology_DEF:0 "the Republic of Indonesia"
+INS_conservatism_ideology:0 "Republic of Indonesia"
+INS_conservatism_ideology_DEF:0 "the Republic of Indonesia"
+INS_authoritarianism_ideology:0 "Republic of Indonesia"
+INS_authoritarianism_ideology_DEF:0 "the Republic of Indonesia"
+INS_ultranationalism_ideology:0 "Republic of Indonesia"
+INS_ultranationalism_ideology_DEF:0 "the Republic of Indonesia"
+INS_anarchism_ideology_ADJ:0 "Indonesian"
+INS_totalism_ideology_ADJ:0 "Indonesian"
+INS_socialism_ideology_ADJ:0 "Indonesian"
+INS_social_democracy_ideology_ADJ:0 "Indonesian"
+INS_liberalism_ideology_ADJ:0 "Indonesian"
+INS_conservatism_ideology_ADJ:0 "Indonesian"
+INS_authoritarianism_ideology_ADJ:0 "Indonesian"
+INS_ultranationalism_ideology_ADJ:0 "Indonesian"
+INS:0 "Indonesia"
+INS_DEF:0 "Indonesia"
+INS_ADJ:0 "Indonesian"
+
+INS_HOL_anarchism_ideology:0 "Indonesian Free State"
+INS_HOL_anarchism_ideology_DEF:0 "the Indonesian Free State"
+INS_HOL_totalism_ideology:0 "Indonesian Socialist Republic"
+INS_HOL_totalism_ideology_DEF:0 "the Indonesian Socialist Republic"
+INS_HOL_socialism_ideology:0 "Indonesian Socialist Republic"
+INS_HOL_socialism_ideology_DEF:0 "the Indonesian Socialist Republic"
+INS_HOL_social_democracy_ideology:0 "Dutch East Indies"
+INS_HOL_social_democracy_ideology_DEF:0 "the Dutch East Indies"
+INS_HOL_liberalism_ideology:0 "Dutch East Indies"
+INS_HOL_liberalism_ideology_DEF:0 "the Dutch East Indies"
+INS_HOL_conservatism_ideology:0 "Dutch East Indies"
+INS_HOL_conservatism_ideology_DEF:0 "the Dutch East Indies"
+INS_HOL_authoritarianism_ideology:0 "Dutch East Indies"
+INS_HOL_authoritarianism_ideology_DEF:0 "the Dutch East Indies"
+INS_HOL_ultranationalism_ideology:0 "Dutch East Indies"
+INS_HOL_ultranationalism_ideology_DEF:0 "the Dutch East Indies"
+INS_HOL_anarchism_ideology_ADJ:0 "Indonesian"
+INS_HOL_totalism_ideology_ADJ:0 "Indonesian"
+INS_HOL_socialism_ideology_ADJ:0 "Indonesian"
+INS_HOL_social_democracy_ideology_ADJ:0 "Indonesian"
+INS_HOL_liberalism_ideology_ADJ:0 "Indonesian"
+INS_HOL_conservatism_ideology_ADJ:0 "Indonesian"
+INS_HOL_authoritarianism_ideology_ADJ:0 "Indonesian"
+INS_HOL_ultranationalism_ideology_ADJ:0 "Indonesian"
+INS_HOL:0 "Indonesia"
+INS_HOL_DEF:0 "Indonesia"
+INS_HOL_ADJ:0 "Indonesian"
+#Political Parties
+INS_conservatism_ideology_party:0 "Volksraad"
+INS_conservatism_ideology_party_long:0 "Volksraad"
+INS_authoritarianism_ideology_party:0 "Dutch Loyalists"
+INS_authoritarianism_ideology_party_long:0 "Dutch Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

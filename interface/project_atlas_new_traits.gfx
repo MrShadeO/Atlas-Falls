@@ -1,0 +1,11 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_trait_artillery_expert"
+		texturefile = "gfx/interface/traits/trait_artillery_expert.dds"
+	}
+
+    spriteType = {
+		name = "GFX_trait_artillery_leader"
+		texturefile = "gfx/interface/traits/trait_artillery_leader.dds"
+	}
+}

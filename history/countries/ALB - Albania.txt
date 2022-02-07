@@ -1,0 +1,80 @@
+﻿capital = 44
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 5
+
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = {
+	name = "Fan Noli"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Ahmed Zogolli"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}
+}
+
+create_corps_commander = {
+	name = "Prenk Bib Doda"
+	portrait_path = "gfx/leaders/ALB/ALB_prenk_pasha.dds" 
+	traits={ } 
+	skill = 1 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Esat Toptani"
+	portrait_path = "gfx/leaders/ALB/ALB_esat_toptani.dds" 
+	traits={ } 
+	skill = 2 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+1924.1.1 = {
+	
+	set_politics={
+		ruling_party = liberalism_ideology
+		last_election = "1923.12.27" 
+		election_frequency = 48 
+		elections_allowed = yes 
+	}	
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 0
+		social_democracy_ideology = 0
+		liberalism_ideology = 60
+		conservatism_ideology = 40
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		agrarian_industry
+		aristocrats_only
+		army_poor_funding
+		navy_minimal_funding
+		navy_untrained
+		air_minimal_funding
+		air_untrained
+		census_suffrage
+	}
+}

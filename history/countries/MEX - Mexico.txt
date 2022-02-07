@@ -1,0 +1,161 @@
+﻿capital = 277
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 62
+
+set_country_flag = monroe_doctrine
+set_country_flag = is_federal_republic 
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = social_democracy_ideology
+		last_election = "1920.12.1" 
+		election_frequency = 48 
+		elections_allowed = yes 
+	}	
+	
+	set_popularities = {
+		anarchism_ideology = 10
+		totalism_ideology = 5
+		socialism_ideology = 5
+		social_democracy_ideology = 70
+		liberalism_ideology = 10
+		conservatism_ideology = 0
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+	
+	add_ideas = {
+		early_industrialization
+		navy_minimal_funding
+		air_poor_funding
+		state_ownership
+		male_suffrage
+		eight_hour_workday
+		very_low_tax_rate
+	}
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = social_democracy_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = liberalism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = conservatism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	picture = "" 
+	expire = "1939.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}
+}
+
+
+create_corps_commander = {
+	name = "Victoriano Huerta"
+	traits={ politically_connected } 
+	skill=3 
+	portrait_path = "gfx/leaders/MEX/MEX_victoriano_huerta_general.dds"
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Álvaro Obregón"
+	traits={ politically_connected fortress_buster } 
+	skill=2 
+	portrait_path = "gfx/leaders/MEX/MEX_alvaro_obregon.dds"
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander={  
+	name = "Lorenzo Vázquez Herrera" 
+	traits={   } 
+	skill=1 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander={  
+	name = "Salvador Alvarado" 
+	traits={   } 
+	skill=1 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander={  
+	name = "Plutarco Elías Calles" 
+	traits={ politically_connected } 
+	skill=2 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander={  
+	name = "Cándido Aguilar"
+	traits={ } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_navy_leader={  
+	name = "Azueta" 
+	traits={   } 
+	skill=1 
+}
+create_navy_leader={  
+	name = "Malpica" 
+	traits={   } 
+	skill=1 
+}
+create_navy_leader={  
+	name = "Hilario"   
+	traits={   } 
+	skill=1 
+}
+create_navy_leader={  
+	name = "Salinas Camiña"   
+	traits={   } 
+	skill=1 
+}
+
+
+

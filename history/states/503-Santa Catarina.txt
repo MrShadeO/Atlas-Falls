@@ -1,0 +1,20 @@
+
+state = {
+	id = 503
+	name = "STATE_503"
+    manpower = 921752
+	state_category = rural
+	provinces = { 1529 4533 4548 10405 12466 }
+	resources = {
+		tungsten = 1
+	}
+	
+	history = {
+		victory_points = { 10405 1 }
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

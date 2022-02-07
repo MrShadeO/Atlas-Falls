@@ -1,0 +1,19 @@
+﻿capital=800 #Gyeongseong
+
+set_politics = {
+	ruling_party = authoritarianism_ideology
+	last_election = "1910.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 0
+	conservatism_ideology = 0
+	authoritarianism_ideology = 100
+	ultranationalism_ideology = 0
+}

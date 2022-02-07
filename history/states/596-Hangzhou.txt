@@ -1,0 +1,20 @@
+
+state = {
+	id = 596
+	name = "STATE_596"
+	manpower = 15200000
+	state_category = town
+	provinces = { 1096 4042 7058 7191 10014 10101 11991 }
+
+	history = {
+		victory_points = { 7191 2 }
+		owner = ANC
+		add_core_of = ANC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			7191 = { naval_base = 1 }
+		}
+	}
+}

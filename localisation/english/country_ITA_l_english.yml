@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ITA_GIOVANNI_GIOLITTI:0 "Giovanni Giolitti"
+
+ITA_anarchism_ideology:0 "Italian Workers' Commune"
+ITA_anarchism_ideology_DEF:0 "the Italian Workers' Commune"
+ITA_totalism_ideology:0 "Italian Socialist Republic"
+ITA_totalism_ideology_DEF:0 "the Italian Socialist Republic"
+ITA_socialism_ideology:0 "Kingdom of Italy"
+ITA_socialism_ideology_DEF:0 "the Kingdom of Italy"
+ITA_social_democracy_ideology:0 "Kingdom of Italy"
+ITA_social_democracy_ideology_DEF:0 "the Kingdom of Italy"
+ITA_liberalism_ideology:0 "Kingdom of Italy"
+ITA_liberalism_ideology_DEF:0 "the Kingdom of Italy"
+ITA_conservatism_ideology:0 "Kingdom of Italy"
+ITA_conservatism_ideology_DEF:0 "the Kingdom of Italy"
+ITA_authoritarianism_ideology:0 "Kingdom of Italy"
+ITA_authoritarianism_ideology_DEF:0 "the Kingdom of Italy"
+ITA_ultranationalism_ideology:0 "Kingdom of Italy"
+ITA_ultranationalism_ideology_DEF:0 "the Kingdom of Italy"
+ITA_anarchism_ideology_ADJ:0 "Italian"
+ITA_totalism_ideology_ADJ:0 "Italian"
+ITA_socialism_ideology_ADJ:0 "Italian"
+ITA_social_democracy_ideology_ADJ:0 "Italian"
+ITA_liberalism_ideology_ADJ:0 "Italian"
+ITA_conservatism_ideology_ADJ:0 "Italian"
+ITA_authoritarianism_ideology_ADJ:0 "Italian"
+ITA_ultranationalism_ideology_ADJ:0 "Italian"
+ITA:0 "Italy"
+ITA_DEF:0 "Italy"
+ITA_ADJ:0 "Italian"
+
+#Political Parties
+ITA_anarchism_ideology_party:0 "USI"
+ITA_anarchism_ideology_party_long:0 "Italian Workers' Union"
+ITA_totalism_ideology_party:0 "PCd'I"
+ITA_totalism_ideology_party_long:0 "Communist Party of Italy"
+ITA_socialism_ideology_party:0 "PSI"
+ITA_socialism_ideology_party_long:0 "Italian Socialist Party"
+ITA_social_democracy_ideology_party:0 "PSRI"
+ITA_social_democracy_ideology_party_long:0 "Italian Reformist Socialist Party"
+ITA_liberalism_ideology_party:0 "Liberal Union"
+ITA_liberalism_ideology_party_long:0 "Liberal Union"
+ITA_conservatism_ideology_party:0 "PPI"
+ITA_conservatism_ideology_party_long:0 "Italian People's Party"
+ITA_authoritarianism_ideology_party:0 "ANI-M"
+ITA_authoritarianism_ideology_party_long:0 "Italian Nationalist Association (Monarchist-Wing)"
+ITA_ultranationalism_ideology_party:0 "ANI-C"
+ITA_ultranationalism_ideology_party_long:0 "Italian Nationalist Association (Corporatist-Wing)"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,167 @@
+﻿capital = 276
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 56
+set_cosmetic_tag = CAN_UK
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+#Leaders
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+
+#Army
+create_field_marshal = {
+	name = "Julian Byng"
+	portrait_path = "gfx/leaders/CAN/CAN_julian_byng.dds" 
+	traits = { old_guard politically_connected cavalry_officer } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Samuel Hughes"
+	portrait_path = "gfx/leaders/CAN/CAN_sam_hughes.dds" 
+	traits = { politically_connected inflexible_strategist } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Edwin Alderson"
+	portrait_path = "gfx/leaders/CAN/CAN_edwin_alderson.dds" 
+	traits = { old_guard politically_connected } 
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Arthur Currie"
+	portrait_path = "gfx/leaders/CAN/CAN_arthur_currie.dds" 
+	traits = { inflexible_strategist brilliant_strategist } 
+	skill = 4
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Louis Lipsett"
+	portrait_path = "gfx/leaders/CAN/CAN_louis_lipsett.dds" 
+	traits = { brilliant_strategist } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Richard Turner"
+	portrait_path = "gfx/leaders/CAN/CAN_richard_turner.dds" 
+	 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Malcolm Mercer"
+	portrait_path = "gfx/leaders/CAN/CAN_malcom_mercer.dds" 
+	traits = { trait_reckless } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Herbert Cyril Thacker"
+	portrait_path = "gfx/leaders/CAN/CAN_herbert_thacker.dds" 
+	 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1921.10.26" 
+	election_frequency = 60 
+	elections_allowed = yes
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 25
+	liberalism_ideology = 45
+	conservatism_ideology = 30
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	medium_tax_rate
+	lower_secondary_education
+	male_suffrage
+	eight_hour_workday
+}

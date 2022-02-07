@@ -1,0 +1,106 @@
+﻿capital = 305
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader={ 
+    name = "José Luis Tamayo" 
+	picture="" 
+	expire="1939.1.1" 
+	ideology = liberalism_sub 
+	traits = {}
+}
+
+create_field_marshal={  
+    name = "Eloy Alfaro" 
+	id=27002 
+	portrait_path="gfx/leaders/ECU/ECU_eloy_alfaro.dds" 
+	traits = {
+		inflexible_strategist
+		old_guard
+		media_personality
+		inspirational_leader
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Leónidas Plaza"
+	portrait_path = "gfx/leaders/ECU/ECU_leonidas_plaza_gutierrez_general.dds"
+	id=27005
+	traits = {
+		politically_connected
+		media_personality
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Flavio Alfaro"
+	portrait_path = "gfx/leaders/ECU/ECU_flavio_alfaro.dds"
+	id=27003
+	traits = {
+		politically_connected
+		career_officer
+	}
+	skill = 1
+}
+create_corps_commander = {
+	name = "Pedro Jacinto Montero"
+	portrait_path = "gfx/leaders/ECU/ECU_pedro_jacinto_montero.dds"
+	id=27004
+	traits = {
+		trait_reckless
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1920.1.11" 
+	election_frequency = 48 
+	elections_allowed = yes 
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 95
+	conservatism_ideology = 5
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	low_tax_rate
+	agrarian_industry
+	aristocrats_only
+	corporate_ownership
+	traditional
+	legalized_child_labor
+	underfunded_police
+	universal_suffrage
+	limited_conscription
+	army_lavish_funding
+	navy_poor_funding
+	air_minimal_funding
+	air_untrained
+}

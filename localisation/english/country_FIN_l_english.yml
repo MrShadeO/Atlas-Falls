@@ -1,0 +1,62 @@
+﻿l_english:
+#Countries, Leaders, Factions
+FIN_GOVERNOR_GENERAL_TITLE:0 "Governor-General"
+FIN_CARL_GUSTAV_MANNERHEIM:0 "C. G. Mannerheim"
+
+FIN_anarchism_ideology:0 "Finnish Free State"
+FIN_anarchism_ideology_DEF:0 "the Finnish Free State"
+FIN_totalism_ideology:0 "Finnish Socialist Republic"
+FIN_totalism_ideology_DEF:0 "the Finnish Socialist Republic"
+FIN_socialism_ideology:0 "Finnish Socialist Republic"
+FIN_socialism_ideology_DEF:0 "the Finnish Socialist Republic"
+FIN_social_democracy_ideology:0 "Grand Duchy of Finland"
+FIN_social_democracy_ideology_DEF:0 "the Grand Duchy of Finland"
+FIN_liberalism_ideology:0 "Grand Duchy of Finland"
+FIN_liberalism_ideology_DEF:0 "the Grand Duchy of Finland"
+FIN_conservatism_ideology:0 "Grand Duchy of Finland"
+FIN_conservatism_ideology_DEF:0 "the Grand Duchy of Finland"
+FIN_authoritarianism_ideology:0 "Grand Duchy of Finland"
+FIN_authoritarianism_ideology_DEF:0 "the Grand Duchy of Finland"
+FIN_ultranationalism_ideology:0 "Grand Duchy of Finland"
+FIN_ultranationalism_ideology_DEF:0 "the Grand Duchy of Finland"
+FIN_anarchism_ideology_ADJ:0 "Finnish"
+FIN_totalism_ideology_ADJ:0 "Finnish"
+FIN_socialism_ideology_ADJ:0 "Finnish"
+FIN_social_democracy_ideology_ADJ:0 "Finnish"
+FIN_liberalism_ideology_ADJ:0 "Finnish"
+FIN_conservatism_ideology_ADJ:0 "Finnish"
+FIN_authoritarianism_ideology_ADJ:0 "Finnish"
+FIN_ultranationalism_ideology_ADJ:0 "Finnish"
+FIN:0 "Finland"
+FIN_DEF:0 "Finland"
+FIN_ADJ:0 "Finnish"
+#Political Parties
+FIN_totalism_ideology_party:0 "Red Guards"
+FIN_totalism_ideology_party_long:0 "Red Guards"
+FIN_socialism_ideology_party:0 "SDP-L"
+FIN_socialism_ideology_party_long:0 "Social Democratic Party of Finland (Left-Wing)"
+FIN_social_democracy_ideology_party:0 "SDP-R"
+FIN_social_democracy_ideology_party_long:0 "Social Democratic Party of Finland (Right-Wing)"
+FIN_liberalism_ideology_party:0 "NP-L"
+FIN_liberalism_ideology_party_long:0 "Young Finnish Party (Left-Wing)"
+FIN_conservatism_ideology_party:0 "NP-R"
+FIN_conservatism_ideology_party_long:0 "Young Finnish Party (Right-Wing)"
+FIN_authoritarianism_ideology_party:0 "Military Junta"
+FIN_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

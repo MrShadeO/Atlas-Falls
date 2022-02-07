@@ -1,0 +1,631 @@
+defined_text = {
+	name = GetActionBtnText
+    text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+		}
+		localization_key = "Bully Pulpit"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_parliamentary_republic
+		}
+		localization_key = "Snap Elections"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_oligarchy
+		}
+		localization_key = "Embezzlement"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_socialist_republic
+		}
+		localization_key = "Nationalized Industry"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_constitutional_monarchy
+		}
+		localization_key = "Snap Elections"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = "Royal Decree"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_dictatorship
+		}
+		localization_key = "Great Purge"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_one_party_state
+		}
+		localization_key = "Secret Police"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_communist
+		}
+		localization_key = "Liberty or Death"
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_capitalist
+		}
+		localization_key = "No Gods or Kings"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = "Emergency Powers"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = "Colonial Wealth"
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetActionCooldown
+    text = {
+		trigger = {
+			OR = {
+				has_idea = bully_pulpit_cooldown
+				has_idea = snap_elections_cooldown
+				has_idea = embezzlement_cooldown
+				has_idea = nationalized_industry_cooldown
+				has_idea = royal_decree_cooldown
+				has_idea = great_purge_cooldown
+				has_idea = secret_police_cooldown
+				has_idea = liberty_or_death_cooldown
+				has_idea = no_gods_or_kings_cooldown
+				has_idea = emergency_powers_cooldown
+				has_idea = colonial_wealth_cooldown
+			}
+		}
+		localization_key = DISPLAY_COOLDOWN_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetActionDesc
+    text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+		}
+		localization_key = FEDERAL_REPUBLIC_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_parliamentary_republic
+		}
+		localization_key = PARLIAMENTARY_REPUBLIC_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_oligarchy
+		}
+		localization_key = OLIGARCHY_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_socialist_republic
+		}
+		localization_key = SOCIALIST_REPUBLIC_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_constitutional_monarchy
+		}
+		localization_key = CONSTITUTIONAL_MONARCHY_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = ABSOLUTE_MONARCHY_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_dictatorship
+		}
+		localization_key = DICTATORSHIP_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_one_party_state
+		}
+		localization_key = ONE_PARTY_STATE_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_communist
+		}
+		localization_key = ANARCHO_COMMUNIST_ACTION
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_capitalist
+		}
+		localization_key = ANARCHO_CAPITALIST_ACTION
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = PROVISIONAL_GOVERNMENT_ACTION
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = COLONIAL_GOVERNMENT_ACTION
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetActionBonus
+    text = {
+		trigger = {
+			has_country_flag = is_oligarchy
+		}
+		localization_key = OLIGARCHY_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_socialist_republic
+		}
+		localization_key = SOCIALIST_REPUBLIC_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = ABSOLUTE_MONARCHY_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_dictatorship
+		}
+		localization_key = DICTATORSHIP_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_one_party_state
+		}
+		localization_key = ONE_PARTY_STATE_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_communist
+		}
+		localization_key = ANARCHO_COMMUNIST_BONUS
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_anarcho_capitalist
+		}
+		localization_key = ANARCHO_CAPITALIST_BONUS
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = PROVISIONAL_GOVERNMENT_BONUS
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = COLONIAL_GOVERNMENT_BONUS
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+		}
+		localization_key = PARLIAMENTARY_REPUBLIC_BONUS
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetOptionOneText
+    text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_federal_republic
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_oligarchy
+				has_country_flag = is_constitutional_monarchy
+				has_country_flag = is_dictatorship
+				has_country_flag = is_anarcho_communist
+				has_country_flag = is_anarcho_capitalist
+			}
+		}
+		localization_key = "Activate"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_socialist_republic
+		}
+		localization_key = "Military"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = "Mobilization"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_one_party_state
+		}
+		localization_key = "Resistance"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = "Factory"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = "Construction"
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetOptionTwoText
+    text = {
+		trigger = {
+			has_country_flag = is_socialist_republic
+		}
+		localization_key = "Civilian"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = "War Support"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_one_party_state
+		}
+		localization_key = "Stability"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = "Manpower"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = "Resources"
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetOptionThreeText
+	text = {
+		trigger = {
+			has_country_flag = is_absolute_monarchy
+		}
+		localization_key = "Stability"
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+		}
+		localization_key = "Political Power"
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetActionChoicesTooltip
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					OR = {
+						has_country_flag = is_parliamentary_republic
+						has_country_flag = is_constitutional_monarchy
+					}
+					has_political_power < 149
+				}
+				AND = {
+					has_country_flag = is_socialist_republic
+					has_political_power < 49
+				}
+				AND = {
+					has_country_flag = is_absolute_monarchy
+					has_political_power < 49
+				}
+				AND = {
+					has_country_flag = is_one_party_state
+					has_political_power < 49
+				}
+				AND = {
+					has_country_flag = is_anarcho_communist
+					has_political_power < 99
+				}
+				AND = {
+					has_country_flag = is_anarcho_capitalist
+					has_political_power < 49
+				}
+				AND = {
+					has_country_flag = is_colonial_government
+					has_political_power > 74
+				}
+			}
+		}
+		localization_key = ACTION_INSUFFICIENT_PP_KEY
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_dictatorship
+			NOT = {
+				any_character = {
+					OR = {
+						has_character_flag = is_agriculture_minister
+						has_character_flag = is_commerce_minister
+						has_character_flag = is_defense_minister
+						has_character_flag = is_education_minister
+						has_character_flag = is_energy_minister
+						has_character_flag = is_foreign_minister
+						has_character_flag = is_industry_minister
+						has_character_flag = is_justice_minister
+					}
+				}
+			}
+		}
+		localization_key = ACTION_NO_MINISTERS_KEY
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_provisional_government
+            has_stability > 0.05
+		}
+		localization_key = ACTION_INSUFFICIENT_STABILITY_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetAgricultureMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_agriculture_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_AGRICULTURE_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_agriculture_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetCommerceMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_commerce_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_COMMERCE_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_commerce_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetDefenseMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_defense_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_DEFENSE_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_defense_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetEducationMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_education_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_EDUCATION_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_education_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetEnergyMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_energy_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_ENERGY_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_energy_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetForeignMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_foreign_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_FOREIGN_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_foreign_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetIndustryMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_industry_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_INDUSTRY_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_industry_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetJusticeMinisterName
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_justice_minister
+				is_country_leader = no
+			}
+		}
+		localization_key = SHOW_JUSTICE_MINISTER_NAME
+	}
+	text = {
+		trigger = {
+			any_character = {
+				has_character_flag = is_justice_minister
+				is_country_leader = yes
+			}
+		}
+		localization_key = SHOW_CANNOT_TARGET_COUNTRY_LEADER
+	}
+    text = {
+		localization_key = SHOW_VACANCY
+	}
+}

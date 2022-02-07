@@ -1,0 +1,211 @@
+scripted_gui = {
+    display_corporations_tab = {
+        window_name = "corporations_tab_window"
+        context_type = player_context
+
+        visible = {
+            has_country_flag = display_corporations_tab
+        }
+
+        dynamic_lists = {
+			corporation_grid = {
+				array = corporations_array
+				index = corporations_index
+				change_scope = no
+				entry_container = corporation_entry
+			}
+
+            investment_icon_grid = {
+				array = circle_grid
+				index = circle_index
+				change_scope = no
+				entry_container = investment_icons_list
+			}
+		}
+
+        effects = {
+            corporations_tab_close_button_click = {
+                clr_country_flag = display_corporations_tab
+            }
+
+            increase_investment_btn_click = {
+                add_to_variable = { investment_array^corporations_index = 1 }
+
+                #The following turns the "cost" into a negative value to correctly subtract political power
+                set_temp_variable = { temp_actual_cost = corp_investment_cost_var }
+                add_to_temp_variable = { temp_actual_cost = 1 }
+                set_temp_variable = { temp_subtraction_val = temp_actual_cost }
+                multiply_temp_variable = { temp_subtraction_val = 2 }
+                subtract_from_temp_variable = { temp_actual_cost = temp_subtraction_val }
+
+                add_political_power = temp_actual_cost
+
+                #The following updates the player's current available investment points and the cost of the next investment
+                subtract_from_variable = { current_investment_points = investment_point_cost_array^corporations_index }
+                add_to_variable = { investment_point_cost_array^corporations_index = 1 }
+
+                #The following updates the benefits of the corporation being invested in.
+                add_to_variable = { investment_benefits_array^corporations_index = investment_benefits_scaling_array^corporations_index }
+
+                #Updates the background code to actually change the benefits' modifiers
+                set_temp_variable = { temp_corporation_target = corporations_array^corporations_index }
+                increase_investment_tier_benefits = yes
+            }
+
+            decrease_investment_btn_click = {
+                add_to_variable = { investment_array^corporations_index = -1 }
+
+                #The following turns the "cost" into a negative value to correctly subtract political power
+                set_temp_variable = { temp_actual_cost = corp_investment_cost_var }
+                add_to_temp_variable = { temp_actual_cost = 1 }
+                set_temp_variable = { temp_subtraction_val = temp_actual_cost }
+                multiply_temp_variable = { temp_subtraction_val = 2 }
+                subtract_from_temp_variable = { temp_actual_cost = temp_subtraction_val }
+
+                add_political_power = temp_actual_cost
+
+                #The following updates the player's current available investment points and the cost of the next investment
+                subtract_from_variable = { investment_point_cost_array^corporations_index = 1 }
+                add_to_variable = { current_investment_points = investment_point_cost_array^corporations_index }
+
+                #The following updates the benefits of the corporation being invested in.
+                subtract_from_variable = { investment_benefits_array^corporations_index = investment_benefits_scaling_array^corporations_index }
+
+                #Updates the background code to actually change the benefits' modifiers
+                set_temp_variable = { temp_corporation_target = corporations_array^corporations_index }
+                decrease_investment_tier_benefits = yes
+            }
+		}
+
+        triggers = {
+            decrease_investment_btn_click_enabled = {
+                has_political_power > corp_investment_cost_var
+                check_variable = {
+                    var = investment_array^corporations_index
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            increase_investment_btn_click_enabled = {
+                has_political_power > corp_investment_cost_var
+                check_variable = {
+                    var = current_investment_points
+                    value = investment_point_cost_array^corporations_index
+                    compare = greater_than_or_equals
+                }
+                check_variable = {
+                    var = investment_array^corporations_index
+                    value = 5
+                    compare = less_than
+                }
+            }
+
+            investment_icon_full_visible = {
+                check_variable = {
+                    var = investment_array^corporations_index
+                    value = circle_index
+                    compare = greater_than
+                }
+            }
+
+            investment_icon_empty_visible = {
+                NOT = {
+                    check_variable = {
+                        var = investment_array^corporations_index
+                        value = circle_index
+                        compare = greater_than
+                    }
+                }
+            }
+
+            investment_icon_unavailable_visible = {
+                always = no
+            }
+        }
+
+        properties = {
+            corporation_logo = {
+				image = "[ROOT.GetCorporationLogo]"
+			}
+        }
+
+        #AI STUFF
+        #ai_enabled = {
+        #    always = yes
+        #}
+#
+        #ai_test_interval = 2
+        #ai_test_variance = 0.2
+        #ai_max_weight_taken_per_test = 100 
+#
+        #ai_check = {
+        #    has_country_flag = display_corporations_tab
+#
+        #    #The following must be true for the AI to even open the corporations tab.
+        #    #check_variable = {
+        #    #    var = current_investment_points
+        #    #    value = 1
+        #    #    compare = greater_than_or_equals
+        #    #}
+        #    #OR = {
+        #    #    AND = {
+        #    #        has_government = liberalism_ideology
+        #    #        has_political_power > 14
+        #    #    }
+        #    #    AND = {
+        #    #        NOT = { has_government = liberalism_ideology }
+        #    #        has_political_power > 29
+        #    #    }
+        #    #}
+        #    #taxes_are_all_in_order = yes
+        #}
+#
+        #ai_weights = {
+        #    increase_investment_btn_click = {
+        #        ai_will_do = {
+        #            base = 1
+        #        }
+        #    }
+#
+        #    #Trying to code the AI to know when to reduce investment and place it elsewhere would be very tricky. For now, the AI should only need to be able to increase investments. Might return to optimize this later.
+        #    #decrease_investment_btn_click_enabled = {
+        #    #    ai_will_do = {
+        #    #        
+        #    #    }
+        #    #}
+#
+        #    corporations_tab_close_button_click = {
+        #        ai_will_do = {
+        #            base = 0
+#
+        #            modifier = {
+        #                add = 100
+#
+        #                OR = {
+        #                    all_of = {
+        #                        array = investment_point_cost_array
+        #                        value = v
+        #                        index = i
+#
+        #                        check_variable = {
+        #                            var = current_investment_points
+        #                            value = v
+        #                            compare = less_than
+        #                        }
+        #                    }
+        #                    AND = {
+        #                        has_government = liberalism_ideology
+        #                        has_political_power < 14
+        #                    }
+        #                    AND = {
+        #                        NOT = { has_government = liberalism_ideology }
+        #                        has_political_power < 29
+        #                    }
+        #                }
+        #            }
+        #        }
+        #    }
+        #}
+    }
+}

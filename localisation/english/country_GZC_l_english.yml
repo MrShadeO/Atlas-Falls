@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+GZC_GUIZHOU_CLIQUE:0 "Guizhou Clique"
+
+GZC_anarchism_ideology:0 "Chinese Free State"
+GZC_anarchism_ideology_DEF:0 "the Chinese Free State"
+GZC_totalism_ideology:0 "Guizhou Clique"
+GZC_totalism_ideology_DEF:0 "the Guizhou Clique"
+GZC_socialism_ideology:0 "Guizhou Clique"
+GZC_socialism_ideology_DEF:0 "the Guizhou Clique"
+GZC_social_democracy_ideology:0 "Guizhou Clique"
+GZC_social_democracy_ideology_DEF:0 "the Guizhou Clique"
+GZC_liberalism_ideology:0 "Guizhou Clique"
+GZC_liberalism_ideology_DEF:0 "the Guizhou Clique"
+GZC_conservatism_ideology:0 "Guizhou Clique"
+GZC_conservatism_ideology_DEF:0 "the Guizhou Clique"
+GZC_authoritarianism_ideology:0 "Guizhou Clique"
+GZC_authoritarianism_ideology_DEF:0 "the Guizhou Clique"
+GZC_ultranationalism_ideology:0 "Guizhou Clique"
+GZC_ultranationalism_ideology_DEF:0 "the Guizhou Clique"
+GZC_anarchism_ideology_ADJ:0 "Chinese"
+GZC_totalism_ideology_ADJ:0 "Chinese"
+GZC_socialism_ideology_ADJ:0 "Chinese"
+GZC_social_democracy_ideology_ADJ:0 "Chinese"
+GZC_liberalism_ideology_ADJ:0 "Chinese"
+GZC_conservatism_ideology_ADJ:0 "Chinese"
+GZC_authoritarianism_ideology_ADJ:0 "Chinese"
+GZC_ultranationalism_ideology_ADJ:0 "Chinese"
+GZC:0 "Guizhou"
+GZC_DEF:0 "Guizhou"
+GZC_ADJ:0 "Chinese"
+#Political Parties
+GZC_authoritarianism_ideology_party:0 "Guizhou Clique"
+GZC_authoritarianism_ideology_party_long:0 "Guizhou Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

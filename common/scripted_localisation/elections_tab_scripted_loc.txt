@@ -1,0 +1,1240 @@
+defined_text = {
+    name = GetPartyName
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            has_government = anarchism_ideology
+		}
+		localization_key = FIND_ANARCHIST_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+            has_government = totalism_ideology
+		}
+		localization_key = FIND_TOTALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+            has_government = socialism_ideology
+		}
+		localization_key = FIND_SOCIALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+            has_government = social_democracy_ideology
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+            has_government = liberalism_ideology
+		}
+		localization_key = FIND_LIBERALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+            has_government = conservatism_ideology
+		}
+		localization_key = FIND_CONSERVATISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+            has_government = authoritarianism_ideology
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+            has_government = ultranationalism_ideology
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_1
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = FIND_ANARCHIST_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = FIND_TOTALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = FIND_SOCIALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = FIND_LIBERALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = FIND_CONSERVATISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_2
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetPartyPopularity
+	text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@anarchism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@totalism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@socialism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@social_democracy_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@liberalism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@conservatism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@authoritarianism_ideology|%0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = [?party_popularity@ultranationalism_ideology|%0]
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+
+
+defined_text = {
+    name = GetSeatForecast
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = UPPER_CHAMBER_SEAT_FORECAST_KEY
+	}
+    text = {
+		localization_key = LOWER_CHAMBER_SEAT_FORECAST_KEY
+	}
+}
+
+defined_text = {
+    name = GetLowerChamberSeatForecast
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            check_variable = {
+                var = lower_chamber_anarchist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ANARCHIST_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_totalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = TOTALIST_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_socialist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIALIST_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_social_democrat_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIAL_DEMOCRAT_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_liberal_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = LIBERAL_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_conservative_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = CONSERVATIVE_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_authoritarian_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = AUTHORITARIAN_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+
+            check_variable = {
+                var = lower_chamber_ultranationalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ULTRANATIONALIST_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetUpperChamberSeatForecast
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            check_variable = {
+                var = upper_chamber_anarchist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ANARCHIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_totalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = TOTALIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_socialist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIALIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_social_democrat_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIAL_DEMOCRAT_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_liberal_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = LIBERAL_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_conservative_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = CONSERVATIVE_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_authoritarian_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = AUTHORITARIAN_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_ultranationalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ULTRANATIONALIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetSeatResults
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = UPPER_CHAMBER_RESULTS_KEY
+	}
+    text = {
+		localization_key = LOWER_CHAMBER_RESULTS_KEY
+	}
+}
+
+defined_text = {
+    name = GetLowerChamberSeatResults
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_anarchist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_totalist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_socialist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_social_democrat_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_liberal_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_conservative_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_authoritarian_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = [?lower_chamber_ultranationalist_seats|0]
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetUpperChamberSeatResults
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_anarchist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_totalist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_socialist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_social_democrat_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_liberal_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_conservative_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_authoritarian_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_ultranationalist_seats|0]
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetLeadingParty
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            OR = {
+                AND = { #We are looking at the upper chamber, so we want to use upper chamber info
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_anarchist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = { #and this is for the lower chamber.
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_anarchist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_totalist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_totalist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_socialist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_socialist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_social_democrat_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_social_democrat_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_liberal_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_liberal_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_conservative_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_conservative_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_authoritarian_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_authoritarian_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_ultranationalist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_ultranationalist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+            }
+		}
+		localization_key = BESTOW_CROWN
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetPartyName
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            has_government = anarchism_ideology
+		}
+		localization_key = FIND_ANARCHIST_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+            has_government = totalism_ideology
+		}
+		localization_key = FIND_TOTALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+            has_government = socialism_ideology
+		}
+		localization_key = FIND_SOCIALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+            has_government = social_democracy_ideology
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+            has_government = liberalism_ideology
+		}
+		localization_key = FIND_LIBERALISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+            has_government = conservatism_ideology
+		}
+		localization_key = FIND_CONSERVATISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+            has_government = authoritarianism_ideology
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_1
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+            has_government = ultranationalism_ideology
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_1
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = FIND_ANARCHIST_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = FIND_TOTALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = FIND_SOCIALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = FIND_LIBERALISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = FIND_CONSERVATISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_2
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_2
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetElectionTooltip
+	text = {
+		trigger = {
+            has_elections = yes
+		}
+		localization_key = ELECTIONS_TAB_AVAILABLE
+	}
+    text = {
+		trigger = {
+            has_elections = no
+		}
+		localization_key = ELECTIONS_TAB_NOT_AVAILABLE
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetElectionDelayedTooltip
+	text = {
+		trigger = {
+            has_elections = yes
+		}
+		localization_key = ELECTIONS_TAB_DELAYED_AVAILABLE
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetElectionsIcon
+	text = {
+		trigger = {
+            has_elections = yes
+		}
+		localization_key = "GFX_icon_elections_button"
+	}
+    text = {
+		localization_key = "GFX_icon_elections_off_button"
+	}
+}
+
+defined_text = {
+    name = GetToggleBtnTT
+	text = {
+		trigger = {
+            has_upper_chamber = no
+		}
+		localization_key = NO_UPPER_CHAMBER_WARNING_KEY
+	}
+    text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = TOGGLE_TO_UPPER_CHAMBER_KEY
+	}
+    text = {
+		localization_key = TOGGLE_TO_LOWER_CHAMBER_KEY
+	}
+}
+
+defined_text = {
+    name = GetChamberName
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = GET_SECOND_CHAMBER_KEY
+	}
+    text = {
+		localization_key = GET_FIRST_CHAMBER_KEY
+	}
+}
+
+defined_text = {
+    name = GetPollsUpdateCost
+	text = {
+		trigger = {
+            has_political_power > 24
+		}
+		localization_key = CAN_AFFORD_UPDATE_KEY
+	}
+    text = {
+		localization_key = CANNOT_AFFORD_UPDATE_KEY
+	}
+}
+
+defined_text = {
+    name = GetUpdateElectionPollsTT
+	text = {
+		trigger = {
+            has_political_power > 24
+		}
+		localization_key = CAN_AFFORD_UPDATE_TT_KEY
+	}
+    text = {
+		localization_key = CANNOT_AFFORD_UPDATE_TT_KEY
+	}
+}

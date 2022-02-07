@@ -1,0 +1,23 @@
+﻿capital = 206
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = social_democracy_ideology
+	last_election = "1910.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}	
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 10
+	socialism_ideology = 10
+	social_democracy_ideology = 50
+	liberalism_ideology = 10
+	conservatism_ideology = 10
+	authoritarianism_ideology = 5
+	ultranationalism_ideology = 5
+}
+
+
+

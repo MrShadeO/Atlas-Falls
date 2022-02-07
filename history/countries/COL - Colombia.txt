@@ -1,0 +1,90 @@
+﻿capital = 306
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 34
+
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = {
+	name = "Pedro Nel Ospina"
+	picture = "gfx/leaders/COL/COL_ramon_gonzalez_valencia.dds"
+	expire = "1935.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Valencia"
+	id = 17003
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Holguín"
+	id = 17005
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Briceño"
+	id = 17006
+	traits = {
+	}
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Nel Ospina"
+	id = 17001
+	traits = {
+	}
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Restrepo"
+	id = 17004
+	traits = {
+	}
+	skill = 2
+}
+
+set_politics = {
+	ruling_party = conservatism_ideology
+	last_election = "1922.8.7"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 40
+	conservatism_ideology = 60
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	low_tax_rate
+	early_industrialization
+	traditional
+	male_suffrage
+	legalized_child_labor
+	corporate_ownership
+	navy_poor_funding
+	air_minimal_funding
+	air_untrained
+}

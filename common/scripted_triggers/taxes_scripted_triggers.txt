@@ -1,0 +1,14 @@
+taxes_are_all_in_order = { #Taxes are not unnecessarily high and we are not going bankrupt.
+    NOT = {
+        check_variable = {
+            var = net_tax_var
+            value = 3
+            compare = greater_than_or_equals
+        }
+        check_variable = {
+            var = net_tax_var
+            value = 0
+            compare = less_than
+        }
+    }
+}

@@ -1,0 +1,63 @@
+﻿l_english:
+#Countries, Leaders, Factions
+PER_HASSAN_PIRNIA:0 "Hassan Pirnia"
+
+PER_anarchism_ideology:0 "Persian Free State"
+PER_anarchism_ideology_DEF:0 "the Persian Free State"
+PER_totalism_ideology:0 "Socialist Republic of Persia"
+PER_totalism_ideology_DEF:0 "the Socialist Republic of Persia"
+PER_socialism_ideology:0 "Socialist Republic of Persia"
+PER_socialism_ideology_DEF:0 "the Socialist Republic of Persia"
+PER_social_democracy_ideology:0 "Sublime State of Persia"
+PER_social_democracy_ideology_DEF:0 "the Sublime State of Persia"
+PER_liberalism_ideology:0 "Sublime State of Persia"
+PER_liberalism_ideology_DEF:0 "the Sublime State of Persia"
+PER_conservatism_ideology:0 "Sublime State of Persia"
+PER_conservatism_ideology_DEF:0 "the Sublime State of Persia"
+PER_authoritarianism_ideology:0 "Sublime State of Persia"
+PER_authoritarianism_ideology_DEF:0 "the Sublime State of Persia"
+PER_ultranationalism_ideology:0 "Sublime State of Persia"
+PER_ultranationalism_ideology_DEF:0 "the Sublime State of Persia"
+PER_anarchism_ideology_ADJ:0 "Persian"
+PER_totalism_ideology_ADJ:0 "Persian"
+PER_socialism_ideology_ADJ:0 "Persian"
+PER_social_democracy_ideology_ADJ:0 "Persian"
+PER_liberalism_ideology_ADJ:0 "Persian"
+PER_conservatism_ideology_ADJ:0 "Persian"
+PER_authoritarianism_ideology_ADJ:0 "Persian"
+PER_ultranationalism_ideology_ADJ:0 "Persian"
+PER:0 "Persia"
+PER_DEF:0 "Persia"
+PER_ADJ:0 "Persian"
+#Political Parties
+PER_totalism_ideology_party:0 "Communist Party"
+PER_totalism_ideology_party_long:0 "Communist Party of Persia"
+PER_socialism_ideology_party:0 "Socialist Party"
+PER_socialism_ideology_party_long:0 "Socialist Party"
+PER_social_democracy_ideology_party:0 "Democrat Party"
+PER_social_democracy_ideology_party_long:0 "Democrat Party"
+PER_liberalism_ideology_party:0 "Progressives"
+PER_liberalism_ideology_party_long:0 "Society for the Progress of Iran"
+PER_conservatism_ideology_party:0 "Moderate Socialists"
+PER_conservatism_ideology_party_long:0 "Moderate Socialists"
+PER_authoritarianism_ideology_party:0 "Qajar Dynasty"
+PER_authoritarianism_ideology_party_long:0 "Qajar Dynasty Loyalists"
+PER_ultranationalism_ideology_party:0 "Learned Council"
+PER_ultranationalism_ideology_party_long:0 "Learned Council"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

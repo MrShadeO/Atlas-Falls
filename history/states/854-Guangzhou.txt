@@ -1,0 +1,21 @@
+state = {
+	id = 854
+	name = "STATE_854"
+	manpower = 1070000
+	state_category = city
+	provinces = { 1047 }
+
+	history = {
+		victory_points = { 1047 5 }
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			1047 = { naval_base = 5 }
+		}
+	}
+}

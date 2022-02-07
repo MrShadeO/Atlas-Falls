@@ -1,0 +1,195 @@
+﻿capital = 41
+
+set_research_slots = 3
+set_stability = 0.52
+set_convoys = 150
+
+set_country_flag = has_king
+set_country_flag = is_dictatorship
+
+create_country_leader={ 
+	name = "Workers Council" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = anarchism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Antonio García Quejido" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Antonio García Quejido" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Alfonso XIII" 
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Alfonso XIII" 
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Alfonso XIII" 
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Alfonso XIII" 
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits={} 
+}
+
+create_country_leader={ 
+	name = "Alfonso XIII" 
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits={} 
+}
+
+create_corps_commander = {  
+    name = "Dámaso Berenguer" 
+    id=86009 
+    traits={ } 
+	skill=2 
+}
+
+create_corps_commander={  
+    name = "José Cavalcanti" 
+    id=86011 
+    traits={ old_guard } 
+	skill=3 
+}
+
+create_corps_commander={  
+    name = "Francisco Gómez-Jordana" 
+	id=86015 
+    traits={ politically_connected } 
+    skill=1 
+}
+
+create_corps_commander={  
+    name = "Eduardo López Ochoa" 
+	id = 86017 
+     
+	skill = 2
+}
+
+create_corps_commander={  
+    name = "Severiano Martínez Anido" 
+	id=86021 
+    traits={ harsh_leader } 
+	skill= 2
+}
+
+create_field_marshal={  
+    name = "Fernando Primo de Rivera"
+    id=86029 
+    traits={ old_guard  } 
+	skill=2 
+}
+
+create_corps_commander={  
+    name = "Miguel Primo de Rivera" 
+	id=86030 
+    portrait_path = "gfx/leaders/SPR/SPR_miguel_primo_de_rivera.dds" 
+    traits={   } 
+	skill=3 
+}
+
+create_corps_commander={  
+    name = "Gonzalo Queipo de Llano" 
+    portrait_path = "gfx/leaders/SPR/SPR_gonzalo_queipo_de_llano.dds"
+    id=86031 
+    traits={ trait_engineer  } 
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Miguel Cabanellas"
+	id = 86032
+	portrait_path = "gfx/leaders/SPR/SPR_miguel_cabanellas.dds"
+	traits = { cavalry_officer  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+ 
+create_navy_leader={  
+    name = "Juan Bautista Aznar-Cabañas" 
+	id=86042 
+	traits={ blockade_runner  } 
+	skill=2 
+}
+
+create_navy_leader={  
+    name = "Augusto Miranda y Godoy" 
+	id=86049 
+	portrait_path="gfx/leaders/Europe/portrait_europe_generic_navy_15.dds"
+    traits={ old_guard  } 
+	skill=2 
+}
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = authoritarianism_ideology
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		anarchism_ideology = 5
+		totalism_ideology = 5
+		socialism_ideology = 5
+		social_democracy_ideology = 10
+		liberalism_ideology = 20
+		conservatism_ideology = 30
+		authoritarianism_ideology = 20
+		ultranationalism_ideology = 5
+	}
+
+	add_ideas = {
+		medium_tax_rate
+		early_industrialization
+		catholicism
+		traditional
+		colonial_troops
+		state_ownership
+		air_poor_funding
+	}
+
+}
+

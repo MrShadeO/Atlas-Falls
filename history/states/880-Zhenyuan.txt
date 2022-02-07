@@ -1,0 +1,15 @@
+state = {
+	id = 880
+	name = "STATE_880"
+	manpower = 3010000
+	state_category = pastoral
+	provinces = { 1474 7521 7549 7577 }
+
+	history = {
+		owner = GZC
+		add_core_of = GZC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

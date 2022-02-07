@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_slot_agriculture_minister"
+		textureFile = "gfx/interface/officer_corp/agriculture_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_commerce_minister"
+		textureFile = "gfx/interface/officer_corp/commerce_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_defense_minister"
+		textureFile = "gfx/interface/officer_corp/defense_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_education_minister"
+		textureFile = "gfx/interface/officer_corp/education_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_energy_minister"
+		textureFile = "gfx/interface/officer_corp/energy_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_foreign_minister"
+		textureFile = "gfx/interface/officer_corp/foreign_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_industry_minister"
+		textureFile = "gfx/interface/officer_corp/industry_advisor.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_slot_justice_minister"
+		textureFile = "gfx/interface/officer_corp/justice_advisor.dds"
+	}
+}

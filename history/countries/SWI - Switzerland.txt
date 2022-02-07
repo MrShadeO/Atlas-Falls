@@ -1,0 +1,91 @@
+﻿capital = 3
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+
+set_country_flag = has_executive
+set_country_flag = has_legislature
+set_country_flag = is_federal_republic
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub	
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub	
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub	
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub	
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub	
+}
+
+create_country_leader = { 
+	name = "Federal Council" 
+	picture = "Portrait_Switzerland_Federal_council.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub	
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+	    ruling_party = liberalism_ideology
+	    last_election = "1922.10.29"
+	    election_frequency = 36
+	    elections_allowed = yes
+	}
+
+	set_popularities = {
+	    anarchism_ideology = 0
+		totalism_ideology = 2
+		socialism_ideology = 13
+		social_democracy_ideology = 20
+		liberalism_ideology = 38
+		conservatism_ideology = 22
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 5
+	}
+
+	add_ideas = {
+		very_low_tax_rate
+		lower_secondary_education
+		navy_minimal_funding
+		navy_untrained
+		air_poor_funding
+		state_ownership
+		census_suffrage
+		legalized_child_labor
+	}
+
+}

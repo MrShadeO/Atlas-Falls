@@ -1,0 +1,63 @@
+﻿l_english:
+#Countries, Leaders, Factions
+LIT_AUGUSTINAS_MOLDEMARAS:0 "Augustinas Voldemaras"
+
+LIT_anarchism_ideology:0 "Lithuanian Free State"
+LIT_anarchism_ideology_DEF:0 "the Lithuanian Free State"
+LIT_totalism_ideology:0 "Lithuanian Socialist Republic"
+LIT_totalism_ideology_DEF:0 "the Lithuanian Socialist Republic"
+LIT_socialism_ideology:0 "Republic of Lithuania"
+LIT_socialism_ideology_DEF:0 "the Republic of Lithuania"
+LIT_social_democracy_ideology:0 "Republic of Lithuania"
+LIT_social_democracy_ideology_DEF:0 "the Republic of Lithuania"
+LIT_liberalism_ideology:0 "Republic of Lithuania"
+LIT_liberalism_ideology_DEF:0 "the Republic of Lithuania"
+LIT_conservatism_ideology:0 "Republic of Lithuania"
+LIT_conservatism_ideology_DEF:0 "the Republic of Lithuania"
+LIT_authoritarianism_ideology:0 "Republic of Lithuania"
+LIT_authoritarianism_ideology_DEF:0 "the Republic of Lithuania"
+LIT_ultranationalism_ideology:0 "Republic of Lithuania"
+LIT_ultranationalism_ideology_DEF:0 "the Republic of Lithuania"
+LIT_anarchism_ideology_ADJ:0 "Lithuanian"
+LIT_totalism_ideology_ADJ:0 "Lithuanian"
+LIT_socialism_ideology_ADJ:0 "Lithuanian"
+LIT_social_democracy_ideology_ADJ:0 "Lithuanian"
+LIT_liberalism_ideology_ADJ:0 "Lithuanian"
+LIT_conservatism_ideology_ADJ:0 "Lithuanian"
+LIT_authoritarianism_ideology_ADJ:0 "Lithuanian"
+LIT_ultranationalism_ideology_ADJ:0 "Lithuanian"
+LIT:0 "Lithuania"
+LIT_DEF:0 "Lithuania"
+LIT_ADJ:0 "Lithuanian"
+#Political Parties
+LIT_totalism_ideology_party:0 "KP"
+LIT_totalism_ideology_party_long:0 "Communist Party"
+LIT_socialism_ideology_party:0 "US"
+LIT_socialism_ideology_party_long:0 "Farmer's Association"
+LIT_social_democracy_ideology_party:0 "LSDP"
+LIT_social_democracy_ideology_party_long:0 "Social Democratic Party"
+LIT_liberalism_ideology_party:0 "LDF"
+LIT_liberalism_ideology_party_long:0 "Labour Federation"
+LIT_conservatism_ideology_party:0 "LVLS"
+LIT_conservatism_ideology_party_long:0 "Popular Peasant's Union"
+LIT_authoritarianism_ideology_party:0 "TPP"
+LIT_authoritarianism_ideology_party_long:0 "Party of National Progress"
+LIT_ultranationalism_ideology_party:0 "LTS"
+LIT_ultranationalism_ideology_party_long:0 "Nationalist Union"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

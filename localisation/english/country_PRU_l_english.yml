@@ -1,0 +1,59 @@
+﻿l_english:
+#Countries, Leaders, Factions
+PRU_JULIO_AGUIRRE:0 "Julio Aguirre"
+
+PRU_anarchism_ideology:0 "Peruvian Free State"
+PRU_anarchism_ideology_DEF:0 "the Peruvian Free State"
+PRU_totalism_ideology:0 "Peruvian Socialist Republic"
+PRU_totalism_ideology_DEF:0 "the Peruvian Socialist Republic"
+PRU_socialism_ideology:0 "Peruvian Socialist Republic"
+PRU_socialism_ideology_DEF:0 "the Peruvian Socialist Republic"
+PRU_social_democracy_ideology:0 "Republic of Peru"
+PRU_social_democracy_ideology_DEF:0 "the Republic of Peru"
+PRU_liberalism_ideology:0 "Republic of Peru"
+PRU_liberalism_ideology_DEF:0 "the Republic of Peru"
+PRU_conservatism_ideology:0 "Republic of Peru"
+PRU_conservatism_ideology_DEF:0 "the Republic of Peru"
+PRU_authoritarianism_ideology:0 "Republic of Peru"
+PRU_authoritarianism_ideology_DEF:0 "the Republic of Peru"
+PRU_ultranationalism_ideology:0 "Republic of Peru"
+PRU_ultranationalism_ideology_DEF:0 "the Republic of Peru"
+PRU_anarchism_ideology_ADJ:0 "Peruvian"
+PRU_totalism_ideology_ADJ:0 "Peruvian"
+PRU_socialism_ideology_ADJ:0 "Peruvian"
+PRU_social_democracy_ideology_ADJ:0 "Peruvian"
+PRU_liberalism_ideology_ADJ:0 "Peruvian"
+PRU_conservatism_ideology_ADJ:0 "Peruvian"
+PRU_authoritarianism_ideology_ADJ:0 "Peruvian"
+PRU_ultranationalism_ideology_ADJ:0 "Peruvian"
+PRU:0 "Peru"
+PRU_DEF:0 "Peru"
+PRU_ADJ:0 "Peruvian"
+#Political Parties
+PRU_totalism_ideology_party:0 "PCP"
+PRU_totalism_ideology_party_long:0 "Peruvian Communist Party"
+PRU_socialism_ideology_party:0 "APRE"
+PRU_socialism_ideology_party_long:0 "American Popular Revolutionary Alliance"
+PRU_liberalism_ideology_party:0 "PC"
+PRU_liberalism_ideology_party_long:0 "Civilista Party"
+PRU_conservatism_ideology_party:0 "PD"
+PRU_conservatism_ideology_party_long:0 "Democratic Party"
+PRU_authoritarianism_ideology_party:0 "PDR"
+PRU_authoritarianism_ideology_party_long:0 "Reformist Democratic Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

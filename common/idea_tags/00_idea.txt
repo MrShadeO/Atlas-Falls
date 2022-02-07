@@ -1,0 +1,237 @@
+idea_categories = {
+	# ledger can be define for idea > idea slot > idea category
+	# first one overrides the others
+	# multiple ledgers can be defined, in that case will show on all
+	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
+	
+	
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	cabinet = {
+		character_slot = agriculture_minister
+		character_slot = commerce_minister
+		character_slot = defense_minister
+		character_slot = education_minister
+		character_slot = energy_minister
+		character_slot = foreign_minister
+		character_slot = industry_minister
+		character_slot = justice_minister
+
+		ledger = civilian
+
+		cost = 0
+		removal_cost = 100
+	}
+	
+	economy_category = {
+		slot = industrialization_law
+		slot = economy_type
+		slot = trade_laws
+		slot = economy
+		slot = development_focus
+		slot = colonial_policy
+		slot = tax_system
+		slot = natural_resources
+		
+		ledger = civilian
+		
+		cost = 100
+		removal_cost = 0
+	}
+
+	laws_category = {
+		slot = suffrage_law
+		slot = religion_law
+		slot = workers_rights_law
+		slot = womens_rights_law
+		slot = minority_rights_law
+		slot = immigration_law
+		slot = policing_law
+		slot = education_law
+		
+		ledger = civilian
+		
+		cost = 100
+		removal_cost = 0
+	}
+	
+	military_staff = {
+		slot = mobilization_laws
+		slot = pensions
+		slot = army_funding_law
+		slot = troop_quality
+		slot = navy_funding_law
+		slot = sailor_quality
+		slot = air_funding_law
+		slot = pilot_quality
+		
+		ledger = invalid # must be overridden
+		
+		cost = 100
+		removal_cost = 0
+	}
+
+	academy_spirit = {
+		type = army_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+
+		slot = academy_spirit
+	}
+
+	army_spirit = {
+		type = army_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = army_spirit
+	}
+
+	division_command_spirit = {
+		type = army_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = division_command_spirit
+	}
+
+	naval_academy_spirit = {
+		type = navy_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_academy_spirit
+	}
+
+	navy_spirit = {
+		type = navy_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = navy_spirit
+	}
+
+	naval_command_spirit = {
+		type = navy_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_command_spirit
+	}
+
+	air_force_academy_spirit = {
+		type = air_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_academy_spirit
+	}
+
+	air_force_spirit = {
+		type = air_spirit
+
+		cost = 0
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_spirit
+	}
+
+	air_force_command_spirit = {
+		type = air_spirit
+		
+		politics_tab = no
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+		slot = air_force_command_spirit
+	}
+
+	hidden_core_ideas = {
+		character_slot = army_chief 
+		character_slot = navy_chief
+		character_slot = air_chief
+		character_slot = theorist
+		character_slot = high_command
+		character_slot = high_command
+		character_slot = high_command
+
+		hidden = yes
+
+		politics_tab = no
+	
+		cost = 100
+		removal_cost = -1
+		
+		ledger = invalid
+	}
+}
+
+
+slot_ledgers = {
+	army_chief = army
+	navy_chief = navy
+	air_chief = air
+	pensions = civilian
+	army_funding_law = army
+	troop_quality = army
+	navy_funding_law = navy
+	sailor_quality = navy
+	air_funding_law = air
+	pilot_quality = air
+	
+	theorist = invalid # must be overridden
+	high_command = invalid # must be overridden
+	
+	
+	mobilization_laws = civilian
+}

@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+COL_anarchism_ideology:0 "Colombian Free State"
+COL_anarchism_ideology_DEF:0 "the Colombian Free State"
+COL_totalism_ideology:0 "Colombian Socialist Republic"
+COL_totalism_ideology_DEF:0 "the Colombian Socialist Republic"
+COL_socialism_ideology:0 "Colombian Socialist Republic"
+COL_socialism_ideology_DEF:0 "the Colombian Socialist Republic"
+COL_social_democracy_ideology:0 "Republic of Colombia"
+COL_social_democracy_ideology_DEF:0 "the Republic of Colombia"
+COL_liberalism_ideology:0 "Republic of Colombia"
+COL_liberalism_ideology_DEF:0 "the Republic of Colombia"
+COL_conservatism_ideology:0 "Republic of Colombia"
+COL_conservatism_ideology_DEF:0 "the Republic of Colombia"
+COL_authoritarianism_ideology:0 "Republic of Colombia"
+COL_authoritarianism_ideology_DEF:0 "the Republic of Colombia"
+COL_ultranationalism_ideology:0 "Republic of Colombia"
+COL_ultranationalism_ideology_DEF:0 "the Republic of Colombia"
+COL_anarchism_ideology_ADJ:0 "Colombian"
+COL_totalism_ideology_ADJ:0 "Colombian"
+COL_socialism_ideology_ADJ:0 "Colombian"
+COL_social_democracy_ideology_ADJ:0 "Colombian"
+COL_liberalism_ideology_ADJ:0 "Colombian"
+COL_conservatism_ideology_ADJ:0 "Colombian"
+COL_authoritarianism_ideology_ADJ:0 "Colombian"
+COL_ultranationalism_ideology_ADJ:0 "Colombian"
+COL:0 "Colombia"
+COL_DEF:0 "Colombia"
+COL_ADJ:0 "Colombian"
+#Political Parties
+COL_liberalism_ideology_party:0 "PLC"
+COL_liberalism_ideology_party_long:0 "Colombian Liberal Party"
+COL_conservatism_ideology_party:0 "PCC"
+COL_conservatism_ideology_party_long:0 "Colombian Conservative Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

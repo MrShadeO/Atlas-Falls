@@ -1,0 +1,185 @@
+scripted_gui = {
+    display_finances_tab = {
+        window_name = "finances_tab_window"
+        context_type = player_context
+
+        visible = {
+            has_country_flag = display_finances_tab
+        }
+
+        effects = {
+            finances_tab_close_button_click = {
+                clr_country_flag = display_finances_tab
+                set_variable = {
+                    var = curr_tax_rate_var
+                    value = 0
+                }
+                clr_country_flag = ai_flag_edited_tax
+            }
+
+            increase_tax_btn_click = {
+                add_to_variable = {
+                    var = curr_tax_rate_var
+                    value = 1
+                }
+                add_to_variable = {
+                    var = net_tax_var_display
+                    value = 3
+                }
+                set_country_flag = ai_flag_edited_tax
+            }
+
+            decrease_tax_btn_click = {
+                subtract_from_variable = {
+                    var = curr_tax_rate_var
+                    value = 1
+                }
+                subtract_from_variable = {
+                    var = net_tax_var_display
+                    value = 3
+                }
+                set_country_flag = ai_flag_edited_tax
+            }
+
+            finalize_btn_click = {
+                add_political_power = -50
+                update_finances = yes
+                check_surplus_deficit = yes
+                clr_country_flag = ai_flag_edited_tax
+            }
+		}
+
+        triggers = {
+            increase_tax_btn_click_enabled = {
+                check_variable = {
+                    var = curr_tax_rate_var
+                    value = 6
+                    compare = less_than
+                }
+            }
+
+            decrease_tax_btn_click_enabled = {
+                check_variable = {
+                    var = curr_tax_rate_var
+                    value = 1
+                    compare = greater_than
+                }
+            }
+
+            finalize_btn_click_enabled = {
+                has_political_power > 49
+                check_variable = {
+                    var = curr_tax_rate_var
+                    value = static_curr_tax_rate_var
+                    compare = not_equals
+                }
+            }
+        }
+
+        #AI STUFF
+        ai_enabled = {
+            always = yes
+        }
+
+        ai_test_interval = 2
+        ai_test_variance = 0.2
+        ai_max_weight_taken_per_test = 100 
+
+        ai_check = {
+            has_country_flag = display_finances_tab
+
+            #The following must be true for the AI to even open the finances tab.
+            #has_political_power > 49
+            #OR = {
+            #    check_variable = {
+            #        var = net_tax_var
+            #        value = 3
+            #        compare = greater_than_or_equals
+            #    }
+            #    check_variable = {
+            #        var = net_tax_var
+            #        value = 0
+            #        compare = less_than
+            #    }
+            #}
+        }
+
+        ai_weights = {
+            increase_tax_btn_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = {
+                        add = 1000
+
+                        check_variable = {
+                            var = curr_tax_rate_var
+                            value = 6
+                            compare = less_than
+                        }
+                        check_variable = {
+                            var = net_tax_var_display
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                }
+            }
+
+            decrease_tax_btn_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = {
+                        add = 1000
+
+                        check_variable = {
+                            var = curr_tax_rate_var
+                            value = 1
+                            compare = greater_than
+                        }
+                        check_variable = {
+                            var = net_tax_var_display
+                            value = 2
+                            compare = greater_than
+                        }
+                    }
+                }
+            }
+
+            finalize_btn_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = {
+                        add = 300
+
+                        has_political_power > 49
+                        has_country_flag = ai_flag_edited_tax
+                    }
+                } 
+            }
+
+            finances_tab_close_button_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = {
+                        add = 100
+
+                        check_variable = {
+                            var = net_tax_var
+                            value = 0
+                            compare = greater_than_or_equals
+                        }
+                        check_variable = {
+                            var = net_tax_var
+                            value = 3
+                            compare = less_than
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 865
+	name = "STATE_865"
+	manpower = 2310000
+	state_category = rural 
+	provinces = { 1588 1645 1693 1847 4506 4592 4649 7526 7582 7613 7767 7897 10698 12485 12548 12618 }
+
+	history = {
+		victory_points = { 1588 2 }
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 603
+	name = "STATE_603" # Guizhou
+	manpower = 6520000
+	state_category = town
+	provinces = { 1010 1884 4192 4325 4504 4532 8095 10616 10763 11972 }
+
+	history = {
+		victory_points  =  { 4504 3 }
+		owner = GZC
+		add_core_of = GZC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+}

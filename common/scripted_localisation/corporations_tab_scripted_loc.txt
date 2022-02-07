@@ -1,0 +1,710 @@
+defined_text = {
+	name = GetCorporationLogo
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_industry_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_electronics_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_arms_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_arms_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_artillery_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_vehicle_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_aircraft_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_ship_corporation"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = "GFX_generic_tank_corporation"
+	}
+	text = {
+		localization_key = "GFX_corporation_unknown"
+	}
+}
+
+defined_text = {
+	name = GetCorporationName
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = "Construction Company"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = "Electronics Company"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = "Arms Manufacturer"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = "Artillery Manufacturer"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = "Vehicle Manufacturer"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = "Aircraft Manufacturer"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = "National Shipyards"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = "Tank Manufacturer"
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetCorporationType
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = "Industrial"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = "Electronics"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = "Arms"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = "Artillery"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = "Vehicle"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = "Aircraft"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = "Naval"
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = "Tank"
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetCorporationBenefits
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 1
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = INDUSTRIAL_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 1
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = INDUSTRIAL_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 2
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = ELECTRONICS_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 2
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = ELECTRONICS_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = ARMS_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 3
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = ARMS_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 4
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = ARTILLERY_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 4
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = ARTILLERY_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 5
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = VEHICLE_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 5
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = VEHICLE_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 6
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = AIRCRAFT_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 6
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = AIRCRAFT_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 7
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = NAVAL_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 7
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = NAVAL_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 8
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = TANK_CORPORATION_BENEFITS_UNINVESTED
+	}
+	text = {
+		trigger = {
+            check_variable = {
+                var = corporations_array^corporations_index
+                value = 8
+                compare = equals
+            }
+			check_variable = {
+                var = investment_array^corporations_index
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = TANK_CORPORATION_BENEFITS_INVESTED
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetInvestmentCostInfo
+	text = {
+		trigger = {
+			check_variable = {
+				var = investment_array^corporations_index
+				value = 5
+				compare = less_than
+			}
+		}
+		localization_key = NOT_FULLY_INVESTED_KEY
+	}
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = investment_array^corporations_index
+					value = 5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = FULLY_INVESTED_KEY
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetInvestmentPPCost
+	text = {
+		trigger = {
+			set_temp_variable = {
+				var = temp_corp_investment_actual_cost
+				value = corp_investment_cost_var
+			}
+			add_to_temp_variable = { temp_corp_investment_actual_cost = 1 }
+
+			has_political_power > corp_investment_cost_var
+		}
+		localization_key = STANDARD_INVESTMENT_COST_CAN_AFFORD
+	}
+	text = {
+		trigger = {
+			NOT = { has_political_power > corp_investment_cost_var }
+		}
+		localization_key = STANDARD_INVESTMENT_COST_CANNOT_AFFORD
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetInvestmentPointCost
+	text = {
+		trigger = {
+			check_variable = {
+				var = current_investment_points
+				value = investment_point_cost_array^corporations_index
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = INVESTMENT_POINT_COST_CAN_AFFORD
+	}
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = current_investment_points
+					value = investment_point_cost_array^corporations_index
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = INVESTMENT_POINT_COST_CANNOT_AFFORD
+	}
+	text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+	name = GetPPCheckDecrease
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = investment_array^corporations_index
+					value = 0
+					compare = equals
+				}
+			}
+			set_temp_variable = {
+				var = temp_corp_investment_actual_cost
+				value = corp_investment_cost_var
+			}
+			add_to_temp_variable = { temp_corp_investment_actual_cost = 1 }
+
+			has_political_power < corp_investment_cost_var
+		}
+		localization_key = INSUFFICENT_POLITICAL_POWER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetUninvestedCheck
+	text = {
+		trigger = {
+			check_variable = {
+				var = investment_array^corporations_index
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = CANNOT_LOWER_INVESTMENT_ANYMORE
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetPPCheckIncrease
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = investment_array^corporations_index
+					value = 5
+					compare = equals
+				}
+			}
+			set_temp_variable = {
+				var = temp_corp_investment_actual_cost
+				value = corp_investment_cost_var
+			}
+			add_to_temp_variable = { temp_corp_investment_actual_cost = 1 }
+
+			has_political_power < corp_investment_cost_var
+		}
+		localization_key = INSUFFICENT_POLITICAL_POWER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetInvestmentPointCheck
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = investment_array^corporations_index
+					value = 5
+					compare = equals
+				}
+			}
+			check_variable = {
+				var = current_investment_points
+				value = investment_point_cost_array^corporations_index
+				compare = less_than
+			}
+		}
+		localization_key = INSUFFICENT_INVESTMENT_POINTS
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetFullyInvestedCheck
+	text = {
+		trigger = {
+			check_variable = {
+				var = investment_array^corporations_index
+				value = 5
+				compare = equals
+			}
+		}
+		localization_key = CANNOT_INCREASE_INVESTMENT_ANYMORE
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

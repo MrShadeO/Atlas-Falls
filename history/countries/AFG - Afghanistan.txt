@@ -1,0 +1,112 @@
+﻿capital = 267
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 0
+
+set_country_flag = has_emir
+set_country_flag = is_absolute_monarchy
+
+create_country_leader = {
+	name = "Amanullah Khan"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Habibullāh Kalakāni"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = ultranationalism_sub
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Amanullah Khan"
+	portrait_path = "gfx/leaders/AFG/AFG_amanullah_khan.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nadir Shah Mohamad"
+	portrait_path = "gfx/leaders/AFG/AFG_nadir_khan.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Muhammad Umar Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdul Wakil Nuristani"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+		ruling_party = authoritarianism_ideology
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 0
+		social_democracy_ideology = 0
+		liberalism_ideology = 0
+		conservatism_ideology = 0
+		authoritarianism_ideology = 70
+		ultranationalism_ideology = 30
+	}
+
+	add_ideas = {
+		low_tax_rate
+		agrarian_industry
+		islam
+		traditional
+		traditional_economy
+		state_ownership
+		underfunded_police
+		legalized_child_labor
+		navy_minimal_funding
+		navy_untrained
+		air_minimal_funding
+		air_untrained
+	}
+}

@@ -1,0 +1,59 @@
+﻿capital = 307
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.2
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 100
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_dictatorship
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader = {
+	name = "Juan Vicente Gómez"
+	picture = "gfx/leaders/VEN/VEN_juan_vicente_gomez.dds"
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {
+		
+	}
+}
+
+1924.1.1 = {
+	# oob = "VEN_1910"
+	set_politics = {
+		ruling_party = authoritarianism_ideology
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 0
+		social_democracy_ideology = 10
+		liberalism_ideology = 5
+		conservatism_ideology = 5
+		authoritarianism_ideology = 80
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		early_industrialization
+		traditional
+		rigged_elections
+		legalized_child_labor
+		underfunded_police
+		corporate_ownership
+		navy_poor_funding
+		air_minimal_funding
+		air_untrained
+	}
+}

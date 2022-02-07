@@ -1,0 +1,1002 @@
+units = {		
+	division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+	division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+    division= {	
+		name = "Test Division"
+		location = 3151
+		division_template = "Russian Test Division"
+	}
+}

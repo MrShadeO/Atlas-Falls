@@ -1,0 +1,58 @@
+﻿capital = 278
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 68
+
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_federal_republic
+
+create_country_leader = { 
+	name = "Marcelo Torcuato de Alvear" 
+	picture="" 
+	expire="1939.1.1" 
+	ideology = liberalism_sub
+	traits = {}
+}
+
+create_corps_commander = {
+	name = "José Félix Uriburu"
+	portrait_path="gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = { career_officer } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1922.10.12"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 5
+	socialism_ideology = 10
+	social_democracy_ideology = 25
+	liberalism_ideology = 40
+	conservatism_ideology = 20
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	low_tax_rate
+	traditional
+	limited_conscription
+	male_suffrage
+	legalized_trade_unions
+	air_minimal_funding
+	air_untrained
+}
+

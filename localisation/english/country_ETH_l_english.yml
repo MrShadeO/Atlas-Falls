@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ETH_HABTE_GIYORGIS:0 "Habte Giyorgis"
+
+ETH_anarchism_ideology:0 "Ethiopian Free State"
+ETH_anarchism_ideology_DEF:0 "the Ethiopian Free State"
+ETH_totalism_ideology:0 "Ethiopian Socialist Republic"
+ETH_totalism_ideology_DEF:0 "the Ethiopian Socialist Republic"
+ETH_socialism_ideology:0 "Ethiopian Socialist Republic"
+ETH_socialism_ideology_DEF:0 "the Ethiopian Socialist Republic"
+ETH_social_democracy_ideology:0 "Ethiopian Empire"
+ETH_social_democracy_ideology_DEF:0 "the Ethiopian Empire"
+ETH_liberalism_ideology:0 "Ethiopian Empire"
+ETH_liberalism_ideology_DEF:0 "the Ethiopian Empire"
+ETH_conservatism_ideology:0 "Ethiopian Empire"
+ETH_conservatism_ideology_DEF:0 "the Ethiopian Empire"
+ETH_authoritarianism_ideology:0 "Ethiopian Empire"
+ETH_authoritarianism_ideology_DEF:0 "the Ethiopian Empire"
+ETH_ultranationalism_ideology:0 "Ethiopian Empire"
+ETH_ultranationalism_ideology_DEF:0 "the Ethiopian Empire"
+ETH_anarchism_ideology_ADJ:0 "Ethiopian"
+ETH_totalism_ideology_ADJ:0 "Ethiopian"
+ETH_socialism_ideology_ADJ:0 "Ethiopian"
+ETH_social_democracy_ideology_ADJ:0 "Ethiopian"
+ETH_liberalism_ideology_ADJ:0 "Ethiopian"
+ETH_conservatism_ideology_ADJ:0 "Ethiopian"
+ETH_authoritarianism_ideology_ADJ:0 "Ethiopian"
+ETH_ultranationalism_ideology_ADJ:0 "Ethiopian"
+ETH:0 "Ethiopia"
+ETH_DEF:0 "Ethiopia"
+ETH_ADJ:0 "Ethiopian"
+#Political Parties
+ETH_authoritarianism_ideology_party:0 "Solomonic Dynasty"
+ETH_authoritarianism_ideology_party_long:0 "Solomonic Dynasty Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

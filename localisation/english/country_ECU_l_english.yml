@@ -1,0 +1,53 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ECU_anarchism_ideology:0 "Ecuadorian Free State"
+ECU_anarchism_ideology_DEF:0 "the Ecuadorian Free State"
+ECU_totalism_ideology:0 "Socialist Republic of Ecuador"
+ECU_totalism_ideology_DEF:0 "the Socialist Republic of Ecuador"
+ECU_socialism_ideology:0 "Socialist Republic of Ecuador"
+ECU_socialism_ideology_DEF:0 "the Socialist Republic of Ecuador"
+ECU_social_democracy_ideology:0 "Republic of Ecuador"
+ECU_social_democracy_ideology_DEF:0 "the Republic of Ecuador"
+ECU_liberalism_ideology:0 "Republic of Ecuador"
+ECU_liberalism_ideology_DEF:0 "the Republic of Ecuador"
+ECU_conservatism_ideology:0 "Republic of Ecuador"
+ECU_conservatism_ideology_DEF:0 "the Republic of Ecuador"
+ECU_authoritarianism_ideology:0 "Republic of Ecuador"
+ECU_authoritarianism_ideology_DEF:0 "the Republic of Ecuador"
+ECU_ultranationalism_ideology:0 "Republic of Ecuador"
+ECU_ultranationalism_ideology_DEF:0 "the Republic of Ecuador"
+ECU_anarchism_ideology_ADJ:0 "Ecuadorian"
+ECU_totalism_ideology_ADJ:0 "Ecuadorian"
+ECU_socialism_ideology_ADJ:0 "Ecuadorian"
+ECU_social_democracy_ideology_ADJ:0 "Ecuadorian"
+ECU_liberalism_ideology_ADJ:0 "Ecuadorian"
+ECU_conservatism_ideology_ADJ:0 "Ecuadorian"
+ECU_authoritarianism_ideology_ADJ:0 "Ecuadorian"
+ECU_ultranationalism_ideology_ADJ:0 "Ecuadorian"
+ECU:0 "Ecuador"
+ECU_DEF:0 "Ecuador"
+ECU_ADJ:0 "Ecuadorian"
+#Political Parties
+ECU_liberalism_ideology_party:0 "PLRE"
+ECU_liberalism_ideology_party_long:0 "Ecuadorian Radical Liberal Party"
+ECU_conservatism_ideology_party:0 "PC"
+ECU_conservatism_ideology_party_long:0 " Conservative Party"
+ECU_authoritarianism_ideology_party:0 "Military Junta"
+ECU_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

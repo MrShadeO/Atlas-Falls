@@ -1,0 +1,65 @@
+﻿l_english:
+#Countries, Leaders, Factions
+AUH_MINISTER_PRESIDENT_TITLE:0 "Minister-President"
+AUH_IGNAZ_SEIPEL:0 "Ignaz Seipel"
+
+AUH_anarchism_ideology:0 "Danubian Free State"
+AUH_anarchism_ideology_DEF:0 "the Danubian Free State"
+AUH_totalism_ideology:0 "United Socialist Danubian Republics"
+AUH_totalism_ideology_DEF:0 "the United Socialist Danubian Republics"
+AUH_socialism_ideology:0 "Austria-Hungary"
+AUH_socialism_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_social_democracy_ideology:0 "Austria-Hungary"
+AUH_social_democracy_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_liberalism_ideology:0 "Austria-Hungary"
+AUH_liberalism_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_conservatism_ideology:0 "Austria-Hungary"
+AUH_conservatism_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_authoritarianism_ideology:0 "Austria-Hungary"
+AUH_authoritarianism_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_ultranationalism_ideology:0 "Austria-Hungary"
+AUH_ultranationalism_ideology_DEF:0 "the Austro-Hungarian Empire"
+AUH_anarchism_ideology_ADJ:0 "Danubian"
+AUH_totalism_ideology_ADJ:0 "Danubian"
+AUH_socialism_ideology_ADJ:0 "Austro-Hungarian"
+AUH_social_democracy_ideology_ADJ:0 "Austro-Hungarian"
+AUH_liberalism_ideology_ADJ:0 "Austro-Hungarian"
+AUH_conservatism_ideology_ADJ:0 "Austro-Hungarian"
+AUH_authoritarianism_ideology_ADJ:0 "Austro-Hungarian"
+AUH_ultranationalism_ideology_ADJ:0 "Austro-Hungarian"
+AUH:0 "Austria-Hungary"
+AUH_DEF:0 "Austria-Hungary"
+AUH_ADJ:0 "Austro-Hungarian"
+
+#Political Parties
+AUH_totalism_ideology_party:0 "KPDÖ"
+AUH_totalism_ideology_party_long:0 "Communist Party of German-Austria"
+AUH_socialism_ideology_party:0 "SDAPÖ-L"
+AUH_socialism_ideology_party_long:0 "Social Democratic Party of Austria (Left Wing)"
+AUH_social_democracy_ideology_party:0 "SDAPÖ-R"
+AUH_social_democracy_ideology_party_long:0 "Social Democratic Party of Austria (Right Wing)"
+AUH_liberalism_ideology_party:0 "DN"
+AUH_liberalism_ideology_party_long:0 "German National Association"
+AUH_conservatism_ideology_party:0 "CS-L"
+AUH_conservatism_ideology_party_long:0 "Christian Social Party (Left-Wing)"
+AUH_authoritarianism_ideology_party:0 "CS-R"
+AUH_authoritarianism_ideology_party_long:0 "Christian Social Party (Right-Wing)"
+AUH_ultranationalism_ideology_party:0 "DAP"
+AUH_ultranationalism_ideology_party_long:0 "German Workers' Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

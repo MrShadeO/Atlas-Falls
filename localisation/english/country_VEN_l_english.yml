@@ -1,0 +1,49 @@
+﻿l_english:
+#Countries, Leaders, Factions
+VEN_anarchism_ideology:0 "Venezuelan Free State"
+VEN_anarchism_ideology_DEF:0 "the German Free State"
+VEN_totalism_ideology:0 "Socialist Republic of Venezuela"
+VEN_totalism_ideology_DEF:0 "the Socialist Republic of Venezuela"
+VEN_socialism_ideology:0 "Socialist Republic of Venezuela"
+VEN_socialism_ideology_DEF:0 "the Socialist Republic of Venezuela"
+VEN_social_democracy_ideology:0 "United States of Venezuela"
+VEN_social_democracy_ideology_DEF:0 "the United States of Venezuela"
+VEN_liberalism_ideology:0 "United States of Venezuela"
+VEN_liberalism_ideology_DEF:0 "the United States of Venezuela"
+VEN_conservatism_ideology:0 "United States of Venezuela"
+VEN_conservatism_ideology_DEF:0 "the United States of Venezuela"
+VEN_authoritarianism_ideology:0 "United States of Venezuela"
+VEN_authoritarianism_ideology_DEF:0 "the United States of Venezuela"
+VEN_ultranationalism_ideology:0 "United States of Venezuela"
+VEN_ultranationalism_ideology_DEF:0 "the United States of Venezuela"
+VEN_anarchism_ideology_ADJ:0 "Venezuelan"
+VEN_totalism_ideology_ADJ:0 "Venezuelan"
+VEN_socialism_ideology_ADJ:0 "Venezuelan"
+VEN_social_democracy_ideology_ADJ:0 "Venezuelan"
+VEN_liberalism_ideology_ADJ:0 "Venezuelan"
+VEN_conservatism_ideology_ADJ:0 "Venezuelan"
+VEN_authoritarianism_ideology_ADJ:0 "Venezuelan"
+VEN_ultranationalism_ideology_ADJ:0 "Venezuelan"
+VEN:0 "Venezuela"
+VEN_DEF:0 "Venezuela"
+VEN_ADJ:0 "Venezuelan"
+#Political Parties
+VEN_authoritarianism_ideology_party:0 "Gómez's Regime"
+VEN_authoritarianism_ideology_party_long:0 "Gómez's Regime"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

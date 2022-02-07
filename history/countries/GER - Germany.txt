@@ -1,0 +1,551 @@
+﻿capital = 64
+
+set_research_slots = 4
+
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 207
+
+set_country_flag = has_kaiser
+set_country_flag = is_constitutional_monarchy
+
+#LEADERS 
+create_country_leader = { 
+	name = "Erich Mühsam"
+	picture = "" 
+	expire = "1935.1.1" 
+	ideology = anarchism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Friedrich Ebert"
+	picture = "" 
+	expire = "1935.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Karl Liebknecht"
+	picture = "" 
+	expire = "1935.1.1" 
+	ideology = totalism_sub 
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Wilhelm II" 
+	desc= POLITICS_WILHELM_II_DESC
+	picture="gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds" 
+	expire="1935.1.1" 
+	ideology = social_democracy_sub 
+	traits={} 
+}
+
+create_country_leader = {
+	name = "Wilhelm II" 
+	desc= POLITICS_WILHELM_II_DESC 
+	picture="gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds" 
+	expire="1935.1.1" 
+	ideology = liberalism_sub 
+	traits={} 
+}
+
+create_country_leader = {
+	name = "Wilhelm II" 
+	desc= POLITICS_WILHELM_II_DESC 
+	picture="gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds" 
+	expire="1935.1.1" 
+	ideology = conservatism_sub
+	traits={} 
+}
+
+create_country_leader = {
+	name = "Wilhelm II" 
+	desc= POLITICS_WILHELM_II_DESC
+	picture="gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds" 
+	expire="1935.1.1" 
+	ideology = authoritarianism_sub
+	traits={} 
+}
+
+create_country_leader = {
+	name = "Wilhelm II" 
+	desc= POLITICS_WILHELM_II_DESC
+	picture="gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds" 
+	expire="1935.1.1" 
+	ideology = ultranationalism_sub
+	traits={} 
+}
+
+#Rupprecht has an ID of 127 for some Scottish related events
+#ARMY
+create_field_marshal = {
+	name = "Alfred von Schlieffen" 
+	id=1488
+	portrait_path="gfx/leaders/GER/GER_alfred_von_schlieffen.dds" 
+	traits={ brilliant_strategist war_hero organizer offensive_doctrine thorough_planner } 
+	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Albrecht von Wurttemberg" #
+	id=34337
+	portrait_path="gfx/leaders/GER/GER_albrecht_von_wurttemberg.dds" 
+	traits={ thorough_planner politically_connected } 
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {  
+	name = "Rupprecht von Wittelsbach" 
+	portrait_path="gfx/leaders/GER/GER_rupprecht_von_wittelsbach.dds" 
+	traits = { politically_connected } 
+	skill=3 
+	id = 127
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_field_marshal = {  
+	name = "Wilhelm von Hohenzollern" 
+	id=34548 
+	portrait_path="gfx/leaders/GER/GER_wilhelm_iii.dds" 
+	traits={ media_personality politically_connected trait_cautious } 
+	skill=2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2		
+}
+create_field_marshal = {
+	name = "Colmar von der Goltz" 
+	id = 34260
+	portrait_path="gfx/leaders/GER/GER_colmar_von_goltz.dds" 
+	traits = { old_guard politically_connected } 
+	skill = 3 
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Lepold von Bayern" 
+	portrait_path="gfx/leaders/GER/GER_leopold_von_bayern.dds" 
+	id=34316
+	traits = { old_guard politically_connected } 
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Paul von Hindenburg" 
+	id=34315 
+	portrait_path="gfx/leaders/GER/GER_paul_von_hindenburg.dds" 
+	traits={ media_personality politically_connected career_officer brilliant_strategist } 
+	skill= 5 
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "August von Mackensen" 
+	id=34485 
+	portrait_path="gfx/leaders/GER/GER_august_von_mackensen.dds" 
+	traits={ old_guard media_personality career_officer cavalry_officer } 
+	skill = 5 
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Erich Ludendorff" 
+	id=34046 
+	portrait_path="gfx/leaders/GER/GER_erich_ludendorff.dds" 
+	traits={ harsh_leader brilliant_strategist career_officer trickster } 
+	skill=4 
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 3
+}
+create_corps_commander = { 
+	name = "Paul von Lettow-Vorbeck" 
+	id=34052 
+	portrait_path="gfx/leaders/GER/GER_paul_lettow_vorbeck.dds" 
+	traits={ trait_reckless trickster jungle_rat } 
+	skill=4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5	
+}
+create_corps_commander = {  
+	name = "Erich von Falkenhayn" 
+	id=34040 
+	portrait_path="gfx/leaders/GER/GER_erich_falkenhayn.dds" 
+	traits={ career_officer politically_connected brilliant_strategist } 
+	skill=4 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3	
+}
+create_corps_commander = {  
+	name = "Karl von Bulow" 
+	id=34332 
+	portrait_path="gfx/leaders/GER/GER_karl_bulow.dds" 
+	traits={ fortress_buster career_officer politically_connected harsh_leader } 
+	skill=4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2	
+}
+create_corps_commander = {  
+	name = "Hermann von Eichhorn" 
+	portrait_path = "gfx/leaders/GER/GER_hermann_eichhorn.dds" 
+	traits = { old_guard career_officer  } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Remus von Woyrsch" 
+	portrait_path="gfx/leaders/GER/GER_remus_woyrsch.dds" 
+	traits={ career_officer trait_cautious inflexible_strategist } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Karl von Einem" 
+	id = 34043
+	portrait_path="gfx/leaders/GER/GER_karl_einem.dds" 
+	traits = { politically_connected trait_cautious } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {  
+	name = "Alexander von Kluck"
+	portrait_path="gfx/leaders/GER/GER_alexander_kluck.dds" 
+	traits = { infantry_officer } 
+	skill = 3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Oskar von Hutier"  
+	portrait_path="gfx/leaders/GER/GER_oskar_hutier.dds" 
+	 
+	skill= 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2	
+}
+create_corps_commander = {  
+	name = "Georg von der Marwitz"
+	portrait_path="gfx/leaders/GER/GER_georg_marwitz.dds" 
+	traits={ cavalry_officer } 
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {  
+	name = "Otto von Below" 
+	portrait_path = "gfx/leaders/GER/GER_otto_below.dds" 
+	 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {  
+	name = "Friedrich Sixt von Armin" 
+	portrait_path="gfx/leaders/GER/GER_sixt_von_armin.dds" 
+	 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Hermann von Francois" 
+	id = 34037 
+	portrait_path="gfx/leaders/GER/GER_hermann_francois.dds" 
+	traits = { trait_reckless inflexible_strategist } 
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Maximilian von Prittwitz" 
+	id = 34036 
+	portrait_path="gfx/leaders/GER/GER_maximilian_prittwitz.dds" 
+	traits = { old_guard } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Walther von Luttwitz" 
+	#portrait_path="gfx/leaders/GER/GER_walter_luttwitz.dds" 
+	traits = { politically_connected } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Otto Liman von Sanders" 
+	id=333444
+	portrait_path="gfx/leaders/GER/GER_liman_von_sanders.dds" 
+	traits={ career_officer skilled_staffer organizer } 
+	skill=2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Max von Gallwitz" 
+	portrait_path="gfx/leaders/GER/GER_max_gallwitz.dds" 
+	traits={ thorough_planner inflexible_strategist } 
+	skill=3 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Karl Litzmann"
+	#portrait_path="gfx/leaders/GER/GER_karl_litzmann.dds" 
+	traits = { harsh_leader } 
+	skill = 2 
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "Karl Ludwig d'Elsa"
+	#portrait_path="gfx/leaders/GER/GER_karl_delsa.dds" 
+	 
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2	
+}
+create_corps_commander = {
+	name = "Max Hoffmann" 
+	#portrait_path="gfx/leaders/GER/GER_max_hoffman.dds" 
+	traits = { career_officer } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2	
+}
+
+
+#NAVY
+create_navy_leader={  
+	name = "Alfred von Tirpitz"
+	id = 34321
+	portrait_path="gfx/leaders/GER/GER_alfred_tirpitz.dds" 
+	traits={ navy_media_personality naval_lineage superior_tactician } 
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader={  
+	name = "Franz von Hipper"
+	portrait_path="gfx/leaders/GER/GER_franz_hipper.dds" 
+	traits={ navy_media_personality gunnery_expert spotter } 
+	skill=3
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 2
+}
+create_navy_leader={  
+	name = "Reinhard Scheer" 
+	portrait_path="gfx/leaders/GER/GER_reinhard_scheer.dds" 
+	traits={ superior_tactician gentlemanly } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 2
+	coordination_skill = 4
+}
+#Spee has ID for Ostasien related events
+create_navy_leader={  
+	name = "Maximilian von Spee" #died 1914
+	portrait_path="gfx/leaders/GER/GER_maximilian_spee.dds" 
+	traits={ navy_career_officer superior_tactician fleet_protector } 
+	id = 19141
+	skill=3 
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 3
+}
+create_navy_leader = {  
+	name = "Albert Wilhelm Heinrich" 
+	#portrait_path="gfx/leaders/GER/GER_albert_wilhelm_heinrich.dds" 
+	traits={ gentlemanly navy_media_personality } 
+	id = 34038 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 3
+}
+create_navy_leader = {  
+	name = "Henning von Holtzendorff"
+	portrait_path="gfx/leaders/GER/GER_henning_holtzendorff.dds" 
+	traits={ blockade_runner } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 2
+}
+create_navy_leader = {  
+	name = "Georg von Muller"
+	portrait_path="gfx/leaders/GER/GER_georg_muller.dds" 
+	traits={ navy_career_officer gentlemanly } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader={  
+	name = "Friedrich von Baudissin"
+	portrait_path="gfx/leaders/GER/GER_friedrich_baudissin.dds" 
+	traits={ navy_career_officer } 
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader={  
+	name = "Curt von Prittwitz" 
+	portrait_path="gfx/leaders/GER/GER_curt_prittwitz.dds" 
+	traits={ naval_lineage navy_media_personality } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader={  
+	name = "Max von Fischel" 
+	portrait_path="gfx/leaders/GER/GER_max_fischel.dds" 
+	traits={   } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader={  
+	name = "Ludwig von Schröder" 
+	#portrait_path="gfx/leaders/GER/GER_ludwig_schroder.dds" 
+	 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader = {  
+	name = "Eduard von Capelle"
+	#portrait_path = "gfx/leaders/GER/GER_eduard_capelle.dds" 
+	traits = { superior_tactician spotter } 
+	skill = 2 
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {  
+	name = "Friedrich von Ingenohl"
+	#portrait_path="gfx/leaders/GER/GER_friedrich_ingenohl.dds" 
+	traits = { superior_tactician } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+
+1924.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism_ideology 
+		last_election = "1922.1.1" 
+		election_frequency = 60 
+		elections_allowed = yes 
+	}	
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 8
+		socialism_ideology = 15
+		social_democracy_ideology = 15
+		liberalism_ideology = 10
+		conservatism_ideology = 40
+		authoritarianism_ideology = 7
+		ultranationalism_ideology = 5
+	}
+
+	add_ideas = {
+		medium_tax_rate
+		limited_conscription
+		low_economic_mobilisation
+		lower_secondary_education
+		basic_pensions
+		army_lavish_funding
+		army_veteran
+		navy_poor_funding
+		male_suffrage
+		legalized_trade_unions
+	}
+}

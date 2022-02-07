@@ -1,0 +1,17 @@
+state = {
+	id = 836
+	name = "STATE_836"
+	manpower = 1285771
+	state_category = city
+	provinces = { 1965 7913 8089 13260 13261 }
+
+	history = {
+		victory_points = { 13261 4 }
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+}

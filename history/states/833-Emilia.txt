@@ -1,0 +1,21 @@
+
+state = {
+	id = 833
+	name = "STATE_833"
+	manpower = 1339500
+	state_category = town
+	provinces = { 3773 3976 6790 6985 9752 }
+    resources = {
+		aluminium = 4
+	}
+
+	history = {
+		victory_points = { 9752 1 }
+		victory_points = { 6790 1 }
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

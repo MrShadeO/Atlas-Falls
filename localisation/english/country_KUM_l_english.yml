@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+KUM_BAIG_TITLE:0 "Baig"
+KUM_YULBARS_KHAN:0 "Yulbars Khan"
+
+KUM_anarchism_ideology:0 "Kumullik Free State"
+KUM_anarchism_ideology_DEF:0 "the Kumullik Free State"
+KUM_totalism_ideology:0 "Kumul Khanate"
+KUM_totalism_ideology_DEF:0 "the Kumul Khanate"
+KUM_socialism_ideology:0 "Kumul Khanate"
+KUM_socialism_ideology_DEF:0 "the Kumul Khanate"
+KUM_social_democracy_ideology:0 "Kumul Khanate"
+KUM_social_democracy_ideology_DEF:0 "the Kumul Khanate"
+KUM_liberalism_ideology:0 "Kumul Khanate"
+KUM_liberalism_ideology_DEF:0 "the Kumul Khanate"
+KUM_conservatism_ideology:0 "Kumul Khanate"
+KUM_conservatism_ideology_DEF:0 "the Kumul Khanate"
+KUM_authoritarianism_ideology:0 "Kumul Khanate"
+KUM_authoritarianism_ideology_DEF:0 "the Kumul Khanate"
+KUM_ultranationalism_ideology:0 "Kumul Khanate"
+KUM_ultranationalism_ideology_DEF:0 "the Kumul Khanate"
+KUM_anarchism_ideology_ADJ:0 "Kumullik"
+KUM_totalism_ideology_ADJ:0 "Kumullik"
+KUM_socialism_ideology_ADJ:0 "Kumullik"
+KUM_social_democracy_ideology_ADJ:0 "Kumullik"
+KUM_liberalism_ideology_ADJ:0 "Kumullik"
+KUM_conservatism_ideology_ADJ:0 "Kumullik"
+KUM_authoritarianism_ideology_ADJ:0 "Kumullik"
+KUM_ultranationalism_ideology_ADJ:0 "Kumullik"
+KUM:0 "Kumul"
+KUM_DEF:0 "Kumul"
+KUM_ADJ:0 "Kumullik"
+#Political Parties
+KUM_authoritarianism_ideology_party:0 "Kumul Khanate"
+KUM_authoritarianism_ideology_party_long:0 "Kumul Khanate"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

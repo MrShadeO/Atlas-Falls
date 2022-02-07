@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+CAN_MACKENZIE_KING:0 "W. L. Mackenzie King"
+
+CAN_anarchism_ideology:0 "Canadian Free State"
+CAN_anarchism_ideology_DEF:0 "the German Free State"
+CAN_totalism_ideology:0 "Canadian Socialist Republic"
+CAN_totalism_ideology_DEF:0 "the Canadian Socialist Republic"
+CAN_socialism_ideology:0 "Canadian Socialist Republic"
+CAN_socialism_ideology_DEF:0 "the Canadian Socialist Republic"
+CAN_social_democracy_ideology:0 "Canada"
+CAN_social_democracy_ideology_DEF:0 "Canada"
+CAN_liberalism_ideology:0 "Canada"
+CAN_liberalism_ideology_DEF:0 "Canada"
+CAN_conservatism_ideology:0 "Canada"
+CAN_conservatism_ideology_DEF:0 "Canada"
+CAN_authoritarianism_ideology:0 "Canada"
+CAN_authoritarianism_ideology_DEF:0 "Canada"
+CAN_ultranationalism_ideology:0 "Canada"
+CAN_ultranationalism_ideology_DEF:0 "Canada"
+CAN_anarchism_ideology_ADJ:0 "Canadian"
+CAN_totalism_ideology_ADJ:0 "Canadian"
+CAN_socialism_ideology_ADJ:0 "Canadian"
+CAN_social_democracy_ideology_ADJ:0 "Canadian"
+CAN_liberalism_ideology_ADJ:0 "Canadian"
+CAN_conservatism_ideology_ADJ:0 "Canadian"
+CAN_authoritarianism_ideology_ADJ:0 "Canadian"
+CAN_ultranationalism_ideology_ADJ:0 "Canadian"
+CAN:0 "Canada"
+CAN_DEF:0 "Canada"
+CAN_ADJ:0 "Canadian"
+#Political Parties
+CAN_totalism_ideology_party:0 "Communist Party"
+CAN_totalism_ideology_party_long:0 "Communist Party of Canada"
+CAN_socialism_ideology_party:0 "SPC"
+CAN_socialism_ideology_party_long:0 "Socialist Party of Canada"
+CAN_social_democracy_ideology_party:0 "Progressive Party"
+CAN_social_democracy_ideology_party_long:0 "Progressive Party of Canada"
+CAN_liberalism_ideology_party:0 "LPC"
+CAN_liberalism_ideology_party_long:0 "Liberal Party of Canada"
+CAN_conservatism_ideology_party:0 "Conservative Party"
+CAN_conservatism_ideology_party_long:0 "Conservative Party of Canada"
+CAN_authoritarianism_ideology_party:0 "Military Junta"
+CAN_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

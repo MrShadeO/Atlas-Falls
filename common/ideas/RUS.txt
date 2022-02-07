@@ -1,0 +1,156 @@
+ideas = {
+    country = {
+        RUS_dummy_agriculture_1_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+        RUS_dummy_agriculture_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+        RUS_dummy_commerce_1_idea = {
+
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_defense_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_education_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_energy_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_foreign_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_industry_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+
+        RUS_dummy_justice_1_idea = {
+            
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+        }
+    }
+}

@@ -1,0 +1,96 @@
+﻿capital = 335 #Jakarta
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 15
+
+set_country_flag = has_queen
+set_country_flag = is_colonial_government
+
+set_cosmetic_tag = INS_HOL
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 0
+	conservatism_ideology = 10
+	authoritarianism_ideology = 90
+	ultranationalism_ideology = 0
+}
+
+set_politics = {
+	ruling_party = authoritarianism_ideology
+	last_election = "1910.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}
+
+add_ideas = {
+	very_low_tax_rate
+	early_industrialization
+	aristocrats_only
+	corporate_ownership
+	traditional
+	legalized_child_labor
+	navy_minimal_funding
+	navy_untrained
+	air_minimal_funding
+	air_untrained
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = social_democracy_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = liberalism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = conservatism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {}   
+}
+
+create_field_marshal = {
+	name = "A.W.F. Idenburg"
+	portrait_path = "gfx/leaders/INS/INS_frederik_idenburg.dds"
+	traits = {  trait_cautious politically_connected logistics_wizard} 
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Frits van Daalen"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { harsh_leader trait_reckless logistics_wizard } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+

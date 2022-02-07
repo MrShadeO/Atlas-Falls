@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+HNC_HUNAN_CLIQUE:0 "Hunan Clique"
+
+HNC_anarchism_ideology:0 "Chinese Free State"
+HNC_anarchism_ideology_DEF:0 "the Chinese Free State"
+HNC_totalism_ideology:0 "Hunan Clique"
+HNC_totalism_ideology_DEF:0 "the Hunan Clique"
+HNC_socialism_ideology:0 "Hunan Clique"
+HNC_socialism_ideology_DEF:0 "the Hunan Clique"
+HNC_social_democracy_ideology:0 "Hunan Clique"
+HNC_social_democracy_ideology_DEF:0 "the Hunan Clique"
+HNC_liberalism_ideology:0 "Hunan Clique"
+HNC_liberalism_ideology_DEF:0 "the Hunan Clique"
+HNC_conservatism_ideology:0 "Hunan Clique"
+HNC_conservatism_ideology_DEF:0 "the Hunan Clique"
+HNC_authoritarianism_ideology:0 "Hunan Clique"
+HNC_authoritarianism_ideology_DEF:0 "the Hunan Clique"
+HNC_ultranationalism_ideology:0 "Hunan Clique"
+HNC_ultranationalism_ideology_DEF:0 "the Hunan Clique"
+HNC_anarchism_ideology_ADJ:0 "Chinese"
+HNC_totalism_ideology_ADJ:0 "Chinese"
+HNC_socialism_ideology_ADJ:0 "Chinese"
+HNC_social_democracy_ideology_ADJ:0 "Chinese"
+HNC_liberalism_ideology_ADJ:0 "Chinese"
+HNC_conservatism_ideology_ADJ:0 "Chinese"
+HNC_authoritarianism_ideology_ADJ:0 "Chinese"
+HNC_ultranationalism_ideology_ADJ:0 "Chinese"
+HNC:0 "Hunan"
+HNC_DEF:0 "Hunan"
+HNC_ADJ:0 "Chinese"
+#Political Parties
+HNC_authoritarianism_ideology_party:0 "Hunan Clique"
+HNC_authoritarianism_ideology_party_long:0 "Hunan Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

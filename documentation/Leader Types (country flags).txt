@@ -1,0 +1,23 @@
+#Assign country flag in history file for starting leader.
+
+Tsar - has_tsar
+President - has_president
+Kaiser - has_kaiser
+King - has_king
+Queen - has_queen
+Sultan - has_sultan
+Emperor - has_emperor
+Executive - has_executive
+Grand Duchess - has_grand_duchess
+Chief of State - has_chief_of_state
+Commander in Chief - has_commander_in_chief
+Grand Duke - has_grand_duke
+Chairman - has_chairman
+Maharajadhiraja - has_maharajadhiraja
+Dragon King - has_dragon_king
+Dalai Lama - has_dalai_lama
+Khan - has_khan
+Emir - has_emir
+Shah - has_shah
+Military Governor - has_military_governor
+Warlord - has_warlord

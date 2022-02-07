@@ -1,0 +1,195 @@
+# Gets the loc to be displayed based on what the current v (value) of the element in the array is (the value corresponds to the party id set in the scripted effect).
+defined_text = {
+	name = GetParliamentPartyName
+
+	###GENERIC###
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = anarchism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = totalism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = socialism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = social_democracy_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = liberalism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = conservatism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = authoritarianism_ideology
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = ultranationalism_ideology
+	}
+	text = {
+		localization_key = "Error"
+	}
+}
+
+# Since index starts as 0, i can get the current seat number by jut adding it by one and then displaying it.
+defined_text = {
+	name = GetParliamentSeatName
+	text = {
+		trigger = {
+			set_temp_variable = { temp_seat = parliament_main_index }
+			add_to_temp_variable = { temp_seat = 1 }
+			check_variable = { temp_seat > 0 }
+		}
+		localization_key = parliament_seat_text
+	}
+}
+
+defined_text = {
+	name = GetFirstChamberName
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = "House of Representatives"
+	}
+	text = {
+		trigger = {
+			has_elections = no
+		}
+		localization_key = "We do not have a Lower Chamber."
+	}
+    text = {
+		localization_key = DEFAULT_PARLIAMENT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondChamberName
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = "Senate"
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = has_government_upper_house }
+		}
+		localization_key = "We do not have an Upper Chamber."
+	}
+    text = {
+		localization_key = DEFAULT_PARLIAMENT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetPoliticalPartiesNames
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = FIND_ANARCHIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 2
+				compare = equals
+			}
+		}
+		localization_key = FIND_TOTALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 3
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 4
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 5
+				compare = equals
+			}
+		}
+		localization_key = FIND_LIBERAL_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 6
+				compare = equals
+			}
+		}
+		localization_key = FIND_CONSERVATIVE_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 7
+				compare = equals
+			}
+		}
+		localization_key = FIND_AUTHORITARIAN_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = parliament_member_array^parliament_member_index
+				value = 8
+				compare = equals
+			}
+		}
+		localization_key = FIND_ULTRANATIONALIST_PARTY_KEY
+	}
+    text = {
+		localization_key = ERROR
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 872
+	name = "STATE_872"
+	manpower = 1350000
+	state_category = rural 
+	provinces = { 1066 1110 1153 4038 4185 7007 7054 9984 11961 13141 }
+
+	history = {
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

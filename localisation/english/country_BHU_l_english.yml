@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+BHU_DRAGON_KING:0 "Dragon King"
+BHU_TOPGAY_DORJI:0 "Topgay Dorji"
+
+BHU_anarchism_ideology:0 "Bhutanese Free State"
+BHU_anarchism_ideology_DEF:0 "the Bhutanese Free State"
+BHU_totalism_ideology:0 "Socialist Republic of Bhutan"
+BHU_totalism_ideology_DEF:0 "the Socialist Republic of Bhutan"
+BHU_socialism_ideology:0 "Socialist Republic of Bhutan"
+BHU_socialism_ideology_DEF:0 "the Socialist Republic of Bhutan"
+BHU_social_democracy_ideology:0 "Kingdom of Bhutan"
+BHU_social_democracy_ideology_DEF:0 "the Kingdom of Bhutan"
+BHU_liberalism_ideology:0 "Kingdom of Bhutan"
+BHU_liberalism_ideology_DEF:0 "the Kingdom of Bhutan"
+BHU_conservatism_ideology:0 "Kingdom of Bhutan"
+BHU_conservatism_ideology_DEF:0 "the Kingdom of Bhutan"
+BHU_authoritarianism_ideology:0 "Kingdom of Bhutan"
+BHU_authoritarianism_ideology_DEF:0 "the Kingdom of Bhutan"
+BHU_ultranationalism_ideology:0 "Kingdom of Bhutan"
+BHU_ultranationalism_ideology_DEF:0 "the Kingdom of Bhutan"
+BHU_anarchism_ideology_ADJ:0 "Bhutanese"
+BHU_totalism_ideology_ADJ:0 "Bhutanese"
+BHU_socialism_ideology_ADJ:0 "Bhutanese"
+BHU_social_democracy_ideology_ADJ:0 "Bhutanese"
+BHU_liberalism_ideology_ADJ:0 "Bhutanese"
+BHU_conservatism_ideology_ADJ:0 "Bhutanese"
+BHU_authoritarianism_ideology_ADJ:0 "Bhutanese"
+BHU_ultranationalism_ideology_ADJ:0 "Bhutanese"
+BHU:0 "Bhutan"
+BHU_DEF:0 "Bhutan"
+BHU_ADJ:0 "Bhutanese"
+#Political Parties
+BHU_authoritarianism_ideology_party:0 "Wangchuck Dynasty"
+BHU_authoritarianism_ideology_party_long:0 "Wangchuck Dynasty"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+LAT_KARLIS_ULMANIS:0 "Kārlis Ulmanis"
+
+LAT_anarchism_ideology:0 "Latvian Free State"
+LAT_anarchism_ideology_DEF:0 "the Latvian Free State"
+LAT_totalism_ideology:0 "Latvian Socialist Republic"
+LAT_totalism_ideology_DEF:0 "the Latvian Socialist Republic"
+LAT_socialism_ideology:0 "Republic of Latvia"
+LAT_socialism_ideology_DEF:0 "the Republic of Latvia"
+LAT_social_democracy_ideology:0 "Republic of Latvia"
+LAT_social_democracy_ideology_DEF:0 "the Republic of Latvia"
+LAT_liberalism_ideology:0 "Republic of Latvia"
+LAT_liberalism_ideology_DEF:0 "the Republic of Latvia"
+LAT_conservatism_ideology:0 "Republic of Latvia"
+LAT_conservatism_ideology_DEF:0 "the Republic of Latvia"
+LAT_authoritarianism_ideology:0 "Republic of Latvia"
+LAT_authoritarianism_ideology_DEF:0 "the Republic of Latvia"
+LAT_ultranationalism_ideology:0 "Republic of Latvia"
+LAT_ultranationalism_ideology_DEF:0 "the Republic of Latvia"
+LAT_anarchism_ideology_ADJ:0 "Latvian"
+LAT_totalism_ideology_ADJ:0 "Latvian"
+LAT_socialism_ideology_ADJ:0 "Latvian"
+LAT_social_democracy_ideology_ADJ:0 "Latvian"
+LAT_liberalism_ideology_ADJ:0 "Latvian"
+LAT_conservatism_ideology_ADJ:0 "Latvian"
+LAT_authoritarianism_ideology_ADJ:0 "Latvian"
+LAT_ultranationalism_ideology_ADJ:0 "Latvian"
+LAT:0 "Latvia"
+LAT_DEF:0 "Latvia"
+LAT_ADJ:0 "Latvian"
+#Political Parties
+LAT_totalism_ideology_party:0 "LKP"
+LAT_totalism_ideology_party_long:0 "Communist Party"
+LAT_socialism_ideology_party:0 "SDML"
+LAT_socialism_ideology_party_long:0 "Mensheviks and Rural Workers' Party"
+LAT_social_democracy_ideology_party:0 "LSDSP"
+LAT_social_democracy_ideology_party_long:0 "Social Democratic Workers' Party"
+LAT_liberalism_ideology_party:0 "JS"
+LAT_liberalism_ideology_party_long:0 "Farmer's Union"
+LAT_conservatism_ideology_party:0 "PMK"
+LAT_conservatism_ideology_party_long:0 "Party for Peace and Order"
+LAT_authoritarianism_ideology_party:0 "NA"
+LAT_authoritarianism_ideology_party_long:0 "National Union"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

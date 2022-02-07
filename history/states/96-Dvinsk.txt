@@ -1,0 +1,17 @@
+
+state = {
+	id = 96
+	name = "STATE_96"
+	manpower = 540000
+	state_category = rural
+	provinces = { 222 310 319 341 6459 7482 9275 }
+
+	history = {
+		victory_points = { 310 1 }
+		owner = RUS
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

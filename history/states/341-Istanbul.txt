@@ -1,0 +1,17 @@
+
+state = {
+	id = 341
+	name = "STATE_341"
+	manpower = 404509
+	state_category = rural
+	provinces = { 849 3879 6895 }
+
+	history = {
+		victory_points = { 849 1 }
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

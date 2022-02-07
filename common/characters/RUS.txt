@@ -1,0 +1,917 @@
+characters = {
+    #COUNTRY LEADERS
+    RUS_nicholas_ii = {
+		name = "Nicholas II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+	RUS_dummy_agriculture_1 = {
+		name = "Agriculture Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = agriculture_minister
+			idea_token = RUS_dummy_agriculture_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				environmentalist
+			}
+			on_add = {
+				set_variable = { agriculture_minister_pointer = token:RUS_dummy_agriculture_1_idea }
+				RUS_dummy_agriculture_1 = {
+					set_character_flag = is_agriculture_minister
+				}
+			}
+			on_remove = {
+				clear_variable = agriculture_minister_pointer
+				RUS_dummy_agriculture_1 = {
+					clr_character_flag = is_agriculture_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_agriculture_2 = {
+		name = "Agriculture Minister Dummy 2"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = agriculture_minister
+			idea_token = RUS_dummy_agriculture_2_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				food_inspector
+			}
+			on_add = {
+				set_variable = { agriculture_minister_pointer = token:RUS_dummy_agriculture_2_idea }
+				RUS_dummy_agriculture_2 = {
+					set_character_flag = is_agriculture_minister
+				}
+			}
+			on_remove = {
+				clear_variable = agriculture_minister_pointer
+				RUS_dummy_agriculture_2 = {
+					clr_character_flag = is_agriculture_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_commerce_1 = {
+		name = "Commerce Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = commerce_minister
+			idea_token = RUS_dummy_commerce_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				tax_collector
+			}
+			on_add = {
+				set_variable = { commerce_minister_pointer = token:RUS_dummy_commerce_1_idea }
+				RUS_dummy_commerce_1 = {
+					set_character_flag = is_commerce_minister
+				}
+			}
+			on_remove = {
+				clear_variable = commerce_minister_pointer
+				RUS_dummy_commerce_1 = {
+					clr_character_flag = is_commerce_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_defense_1 = {
+		name = "Defense Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = defense_minister
+			idea_token = RUS_dummy_defense_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				war_hawk_minister
+			}
+			on_add = {
+				set_variable = { defense_minister_pointer = token:RUS_dummy_defense_1_idea }
+				RUS_dummy_defense_1 = {
+					set_character_flag = is_defense_minister
+				}
+			}
+			on_remove = {
+				clear_variable = defense_minister_pointer
+				RUS_dummy_defense_1 = {
+					clr_character_flag = is_defense_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_education_1 = {
+		name = "Education Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = education_minister
+			idea_token = RUS_dummy_education_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				devoted_teacher
+			}
+			on_add = {
+				set_variable = { education_minister_pointer = token:RUS_dummy_education_1_idea }
+				RUS_dummy_education_1 = {
+					set_character_flag = is_education_minister
+				}
+			}
+			on_remove = {
+				clear_variable = education_minister_pointer
+				RUS_dummy_education_1 = {
+					clr_character_flag = is_education_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_energy_1 = {
+		name = "Energy Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = energy_minister
+			idea_token = RUS_dummy_energy_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				oil_baron
+			}
+			on_add = {
+				set_variable = { energy_minister_pointer = token:RUS_dummy_energy_1_idea }
+				RUS_dummy_energy_1 = {
+					set_character_flag = is_energy_minister
+				}
+			}
+			on_remove = {
+				clear_variable = energy_minister_pointer
+				RUS_dummy_energy_1 = {
+					clr_character_flag = is_energy_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_foreign_1 = {
+		name = "Foreign Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = foreign_minister
+			idea_token = RUS_dummy_foreign_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				smooth_talker
+			}
+			on_add = {
+				set_variable = { foreign_minister_pointer = token:RUS_dummy_foreign_1_idea }
+				RUS_dummy_foreign_1 = {
+					set_character_flag = is_foreign_minister
+				}
+			}
+			on_remove = {
+				clear_variable = foreign_minister_pointer
+				RUS_dummy_foreign_1 = {
+					clr_character_flag = is_foreign_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_industry_1 = {
+		name = "Industry Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = industry_minister
+			idea_token = RUS_dummy_industry_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				captain_of_industry_minister
+			}
+			on_add = {
+				set_variable = { industry_minister_pointer = token:RUS_dummy_industry_1_idea }
+				RUS_dummy_industry_1 = {
+					set_character_flag = is_industry_minister
+				}
+			}
+			on_remove = {
+				clear_variable = industry_minister_pointer
+				RUS_dummy_industry_1 = {
+					clr_character_flag = is_industry_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	RUS_dummy_justice_1 = {
+		name = "Justice Minister Dummy 1"
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = justice_minister
+			idea_token = RUS_dummy_justice_1_token
+			cost = 25
+			allowed = {
+				original_tag = RUS
+			}
+			visible = {
+				is_debug = yes
+			}
+			traits = {
+				tough_cop
+			}
+			on_add = {
+				set_variable = { justice_minister_pointer = token:RUS_dummy_justice_1_idea }
+				RUS_dummy_justice_1 = {
+					set_character_flag = is_justice_minister
+				}
+			}
+			on_remove = {
+				clear_variable = justice_minister_pointer
+				RUS_dummy_justice_1 = {
+					clr_character_flag = is_justice_minister
+				}
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+	#THEORISTS
+
+    #ARMY
+    RUS_alexander_lukomsky = {
+		name = "Alexander Lukomsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Alexander_Lukomsky.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { old_guard organizer organisational_leader } 
+            skill = 4
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 4
+		}
+	}
+
+    RUS_lavr_kornilov = {
+		name = "Lavr Kornilov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Lavr_Kornilov.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { trait_reckless harsh_leader } 
+            skill = 3
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+	RUS_pyotr_wrangel = {
+		name = "Pyotr Wrangel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { brilliant_strategist cavalry_leader } 
+            skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	RUS_anton_denikin = {
+		name = "Anton Denikin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Anton_Denikin.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { inflexible_strategist organizer } 
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_pyotr_popov = {
+		name = "Pyotr Popov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Popov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer cavalry_leader } 
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+
+	RUS_abram_dragomirov = {
+		name = "Abram Dragomirov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Abram_Dragomirov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader guerilla_fighter } 
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_mikhail_diterikhs = {
+		name = "Mikhail Diterikhs"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Diterikhs.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer skilled_staffer commando } 
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_vladimir_marushevsky = {
+		name = "Vladimir Marushevsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Marushevsky.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_leader trait_engineer } 
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
+	RUS_yevgeny_miller = {
+		name = "Yevgeny Miller"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Yevgeny_Miller.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { old_guard harsh_leader } 
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	RUS_mikhail_drozdovsky = {
+		name = "Mikhail Drozdovsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Drozdovsky.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { brilliant_strategist career_officer infantry_leader } 
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	RUS_vladimir_kappel = {
+		name = "Vladimir Kappel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer trait_reckless winter_specialist } 
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+	RUS_fedor_abramov = {
+		name = "Fedor Abramov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Fedor_Abramov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader organizer } 
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	RUS_pyotr_pisarev = {
+		name = "Pyotr Pisarev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Pisarev.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { winter_specialist } 
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_isaac_bykadorov = {
+		name = "Isaac Bykadorov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Isaac_Bykadorov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_reckless cavalry_officer } 
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_vladimir_vitkovsky = {
+		name = "Vladimir Vitkovsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Vitkovsky.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { guerilla_fighter } 
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	RUS_michael_alexandrovich = {
+		name = "Michael Alexandrovich"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Michael_Alexandrovich.dds"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Michael_Alexandrovich.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { politically_connected artillery_leader inspirational_leader } 
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	RUS_sergey_markov = {
+		name = "Sergey Markov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Sergei_Markov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer brilliant_strategist } 
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+	RUS_pavel_shatilov = {
+		name = "Pavel Shatilov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pavel_Shatilov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer organizer } 
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	RUS_konstantin_nechaev = {
+		name = "Konstantin Nechaev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Konstantin_Nechaev.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_officer } 
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RUS_alexander_rodzyanko = {
+		name = "Alexander Rodzyanko"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Alexander_Rodzyanko.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_officer } 
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RUS_andrei_shkuro = {
+		name = "Andrei Shkuro"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Andrei_Shkuro.dds"
+			}
+		}
+		corps_commander = {	
+			traits = { trait_reckless trickster cavalry_leader } 
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	RUS_boris_shteifon = {
+		name = "Boris Shteifon"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Boris_Shteifon.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { war_hero infantry_leader } 
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+	RUS_anton_turkul = {
+		name = "Anton Turkul"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Anton_Turkul.dds"
+			}
+		}
+		corps_commander = {	
+			traits = { trait_reckless infantry_officer } 
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	RUS_pavel_avalov = {
+		name = "Pavel Avalov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pavel_Avalov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	RUS_grigory_semyonov = {
+		name = "Grigory Semyonov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Semyonov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trickster } 
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RUS_anatoly_pepelyayev = {
+		name = "Anatoly Pepelyayev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Pepelyayev.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { winter_specialist } 
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	RUS_vladimir_von_manstein = {
+		name = "Vladimir von Manstein"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vladimir_von_Manstein.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_reckless } 
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    #NAVY
+	RUS_nikolai_kolomeitsev = {
+		name = "Nikolai Kolomeitsev"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Kolomeitsev.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { arctic_water_expert destroyer_leader crisis_magician }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+
+	RUS_mikhail_kedrov = {
+		name = "Mikhail Kedrov"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Kedrov.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { ironside big_guns_expert }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+
+	RUS_alexander_kolchak = {
+		name = "Alexander Kolchak"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Alexander_Kolchak.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { blockade_runner mine_layer arctic_water_expert green_water_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	RUS_mikhail_berens = {
+		name = "Mikhail Berens"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Berens.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { fleet_protector }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+}
+

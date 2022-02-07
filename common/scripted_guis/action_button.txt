@@ -1,0 +1,186 @@
+scripted_gui = {
+    action_btn_gui = {
+        window_name = "action_btn_container"
+        context_type = player_context
+        parent_window_token = politics_tab
+
+        effects = {
+            action_btn_click = {
+                if = {
+                    limit = {
+                        has_country_flag = display_action_menu
+                    }
+                    clr_country_flag = display_action_menu
+                }
+                else = {
+                    set_country_flag = display_action_menu
+                }
+            }
+		}
+
+        triggers = {
+            action_btn_text_visible = {
+                NOT = {
+                    has_country_flag = is_socialist_republic #This is so that the text fits.
+                }
+            }
+
+            action_btn_text_small_visible = {
+                has_country_flag = is_socialist_republic #This is so that the text fits.
+            }
+
+            action_btn_click_enabled = {
+                NOT = {
+                    has_idea = bully_pulpit_cooldown
+                    has_idea = snap_elections_cooldown
+                    has_idea = embezzlement_cooldown
+                    has_idea = nationalized_industry_cooldown
+                    has_idea = royal_decree_cooldown
+                    has_idea = great_purge_cooldown
+                    has_idea = secret_police_cooldown
+                    has_idea = liberty_or_death_cooldown
+                    has_idea = no_gods_or_kings_cooldown
+                    has_idea = emergency_powers_cooldown
+                    has_idea = emergency_powers_cooldown 
+                    has_country_flag = display_great_purge_menu
+                }
+            }
+        }
+
+        properties = {
+            
+        }
+
+        #AI STUFF
+        ai_enabled = {
+            always = yes
+        }
+
+        ai_test_interval = 24
+        ai_test_variance = 0.2
+        ai_max_weight_taken_per_test = 1
+
+        ai_check = {
+            NOT = { has_country_flag = display_action_menu }
+            OR = {
+                #Federal Republic check
+                AND = {
+                    has_country_flag = is_federal_republic
+                    has_political_power > 49
+                    OR = {
+                        AND = {
+                            has_government = anarchism_ideology
+                            anarchism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = totalism_ideology
+                            totalism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = socialism_ideology
+                            socialism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = social_democracy_ideology
+                            social_democracy_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = liberalism_ideology
+                            liberalism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = conservatism_ideology
+                            conservatism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = authoritarianism_ideology
+                            authoritarianism_ideology > 0.40
+                        }
+                        AND = {
+                            has_government = ultranationalism_ideology
+                            ultranationalism_ideology > 0.40
+                        }
+                    }
+                }
+                #Oligarchy check
+                AND = {
+                    has_country_flag = is_oligarchy
+                    check_variable = {
+                        var = net_tax_var
+                        value = 2
+                        compare = equals
+                    }
+                    has_political_power < 100
+                }
+                #Socialist Republic check
+                AND = {
+                    has_country_flag = is_socialist_republic
+                    has_political_power > 49
+                }
+                #Absolute Monarchy check
+                AND = {
+                    has_country_flag = is_absolute_monarchy
+                    has_political_power > 49
+                    OR = {
+                        has_stability < 0.50
+                        has_war_support < 0.50
+                        has_war = yes
+                    }
+                }
+                #One-Party State check
+                AND = {
+                    has_country_flag = is_one_party_state
+                    has_political_power > 49
+                    OR = {
+                        has_stability < 0.50
+                        has_war = yes
+                    }
+                }
+                #Anarcho-Communist check
+                AND = {
+                    has_country_flag = is_anarcho_communist
+                    has_political_power > 99
+                }
+                #Anarcho-Capitalist check
+                AND = {
+                    has_country_flag = is_anarcho_capitalist
+                    has_political_power > 49
+                }
+                #Provisional Government check
+                AND = {
+                    has_country_flag = is_provisional_government
+                    OR = {
+                        has_stability > 0.90
+                        AND = {
+                            has_war = yes
+                            has_stability > 0.50
+                        }
+                        AND = {
+                            has_war = yes
+                            has_manpower < 10000
+                        }
+                    }
+                }
+                #Colonial Government check
+                AND = {
+                    has_country_flag = is_colonial_government
+                    has_political_power > 74
+                }
+
+                #Constitutional Monarchy / Parliamentary Republic check
+                    #Might script this one in the future for specific countries, but this would be incredibly difficult to code dynamically.
+
+                #Dictatorship check
+                    #Might script this one in the future for specific countries, but this would be incredibly difficult to code dynamically. The AI might kill off ministers that it really shouldn't.
+            }
+        }
+
+        ai_weights = {
+            action_btn_click = {
+                ai_will_do = {
+                    base = 1
+                }
+            }
+        }
+    }
+}

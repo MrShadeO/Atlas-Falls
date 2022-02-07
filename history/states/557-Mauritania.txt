@@ -1,0 +1,19 @@
+
+state = {
+	id = 557
+	name = "STATE_557" # Mauritania
+	manpower = 225000
+	state_category = pastoral
+	provinces = { 5034 5077 7992 8058 10814 }
+
+	history = {
+		victory_points = { 5034 1 }
+		victory_points = { 7992 1 }
+		owner = FRA
+		add_core_of = MRT
+		buildings = {
+			infrastructure = 1
+			7992 = { naval_base = 1 }
+		}
+	}
+}

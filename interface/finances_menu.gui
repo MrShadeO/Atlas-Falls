@@ -1,0 +1,258 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "finances_tab_window"
+		position = { x = 719 y = 80 }	
+		size = { width= 549 height=535 }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+
+        iconType ={
+			name ="finances_tab_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "finances_title"
+			position = { x = 37 y = 5 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "FINANCES_TAB_HEADER"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+		}
+
+		buttonType = {
+			name = "finances_tab_close_button"
+			position = { x = -41 y = 7 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "finances_tab_help_button"
+			position = { x = -94 y = 6 }
+			spriteType ="GFX_basic_circle_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "FINANCES_TUTORIAL_KEY"
+		}
+
+		iconType = {
+			name ="finances_tab_help_button_icon"
+			spriteType = "GFX_icon_atlas_cog"
+			position = { x = -85 y = 14 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "tax_summary_container"
+			position = { x = 10 y = 40 }	
+			size = { width = 517 height = 100 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_plain_bg"
+			}
+
+			instantTextboxType = {
+				name = "net_tax_title"
+				position = { x = 30 y = 15 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "NET_TAX_TITLE"
+				format = left
+			}
+
+			iconType ={
+				name ="net_tax_bg"
+				spriteType = "GFX_generic_box_smallest"
+				position = { x = 56 y = 45 }
+			}
+
+			instantTextboxType = {
+				name = "net_tax_revenue_val"
+				position = { x = -10 y = 47 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "NET_TAX_VALUE"
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "tax_rate_title"
+				position = { x = 240 y = 15 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "TAX_RATE_TITLE"
+				format = left
+			}
+
+			iconType ={
+				name ="current_tax_bg"
+				spriteType = "GFX_generic_box_125"
+				position = { x = 210 y = 44 }
+			}
+
+			instantTextboxType = {
+				name = "current_tax_rate"
+				position = { x = 171 y = 47 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "CURR_TAX_RATE"
+				format = center
+			}
+
+			buttonType = {
+				name = "increase_tax_btn"
+				position = { x = 332 y = 41 }
+				spriteType ="GFX_production_line_arrow_up"
+				buttonText = ""
+				buttonFont = "Main_14_black"
+				clicksound = click_ok
+				pdx_tooltip = "INCREASE_TAX_RATE"
+			}
+
+			buttonType = {
+				name = "decrease_tax_btn"
+				position = { x = 183 y = 41 }
+				spriteType ="GFX_production_line_arrow_down"
+				buttonText = ""
+				buttonFont = "Main_14_black"
+				clicksound = click_ok
+				pdx_tooltip = "DECREASE_TAX_RATE"
+			}
+
+			instantTextboxType = {
+				name = "finalize_changes_title"
+				position = { x = 400 y = 15 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "FINALIZE_CHANGES"
+				format = left
+			}
+
+			buttonType = {
+				name = "finalize_btn"
+				position = { x = 412 y = 41 }
+				spriteType ="GFX_checkbox_small_green"
+				buttonText = ""
+				buttonFont = "Main_14_black"
+				clicksound = click_ok
+				pdx_tooltip = "FINALIZE_TT"
+			}
+
+			instantTextboxType = {
+				name = "finalize_changes_cost"
+				position = { x = 450 y = 47 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "FINALIZE_COST"
+				format = left
+			}
+		}
+
+		containerWindowType = {
+			name = "tax_breakdown_container"
+			position = { x = 35 y = 160 }	
+			size = { width = 220 height = 340 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_plain_bg"
+			}
+
+			instantTextboxType = {
+				name = "tax_breakdown_title"
+				position = { x = 37 y = 5 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "TAX_BREAKDOWN_TITLE_KEY"
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "tax_breakdown_display"
+				position = { x = 15 y = 40 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "TAX_BREAKDOWN_DISPLAY_KEY"
+				format = left
+				maxHeight = 1000
+			}
+		}
+
+		containerWindowType = {
+			name = "tax_effects_display_container"
+			position = { x = 283 y = 160 }	
+			size = { width = 220 height = 160 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_plain_bg"
+			}
+
+			instantTextboxType = {
+				name = "tax_effects_title"
+				position = { x = 48 y = 5 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "TAX_EFFECTS_TITLE_KEY"
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "tax_effects_display"
+				position = { x = 15 y = 40 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "TAX_EFFECTS_DISPLAY_KEY"
+				format = left
+			}
+		}
+
+		containerWindowType = {
+			name = "surplus_deficit_display_container"
+			position = { x = 283 y = 340 }	
+			size = { width = 220 height = 160 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_plain_bg"
+			}
+
+			instantTextboxType = {
+				name = "surplus_deficit_title"
+				position = { x = 26 y = 5 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "SURPLUS_DEFICIT_TITLE_KEY"
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "surplus_deficit_display"
+				position = { x = 15 y = 40 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "SURPLUS_DEFICIT_DISPLAY_KEY"
+				format = left
+			}
+		}
+    }
+}

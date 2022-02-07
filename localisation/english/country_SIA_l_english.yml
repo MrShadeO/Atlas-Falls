@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+
+SIA_anarchism_ideology:0 "Siamese Free State"
+SIA_anarchism_ideology_DEF:0 "the Siamese Free State"
+SIA_totalism_ideology:0 "Siamese Socialist Republic"
+SIA_totalism_ideology_DEF:0 "the Siamese Socialist Republic"
+SIA_socialism_ideology:0 "Siamese Socialist Republic"
+SIA_socialism_ideology_DEF:0 "the Siamese Socialist Republic"
+SIA_social_democracy_ideology:0 "Siam"
+SIA_social_democracy_ideology_DEF:0 "Siam"
+SIA_liberalism_ideology:0 "Siam"
+SIA_liberalism_ideology_DEF:0 "Siam"
+SIA_conservatism_ideology:0 "Siam"
+SIA_conservatism_ideology_DEF:0 "Siam"
+SIA_authoritarianism_ideology:0 "Siam"
+SIA_authoritarianism_ideology_DEF:0 "Siam"
+SIA_ultranationalism_ideology:0 "Siam"
+SIA_ultranationalism_ideology_DEF:0 "Siam"
+SIA_anarchism_ideology_ADJ:0 "Siamese"
+SIA_totalism_ideology_ADJ:0 "Siamese"
+SIA_socialism_ideology_ADJ:0 "Siamese"
+SIA_social_democracy_ideology_ADJ:0 "Siamese"
+SIA_liberalism_ideology_ADJ:0 "Siamese"
+SIA_conservatism_ideology_ADJ:0 "Siamese"
+SIA_authoritarianism_ideology_ADJ:0 "Siamese"
+SIA_ultranationalism_ideology_ADJ:0 "Siamese"
+GER:0 "Siam"
+SIA_DEF:0 "Siam"
+SIA_ADJ:0 "Siamese"
+#Political Parties
+SIA_conservatism_ideology_party:0 "People's Party"
+SIA_conservatism_ideology_party_long:0 "People's Party"
+SIA_authoritarianism_ideology_party:0 "Chakri Dynasty"
+SIA_authoritarianism_ideology_party_long:0 "Chakri Dynasty Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

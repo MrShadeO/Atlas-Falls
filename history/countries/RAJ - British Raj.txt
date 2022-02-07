@@ -1,0 +1,168 @@
+﻿capital=439
+
+set_cosmetic_tag = RAJ_UK
+
+set_politics = {
+    ruling_party = authoritarianism_ideology
+    last_election = "1910.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 30
+	liberalism_ideology = 20
+	conservatism_ideology = 5
+	authoritarianism_ideology = 45
+	ultranationalism_ideology = 0
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_country_flag = has_emperor
+set_country_flag = is_colonial_government
+
+add_ideas = {
+	low_tax_rate
+	agrarian_industry
+	corporate_ownership
+	male_suffrage
+	legalized_child_labor
+	navy_minimal_funding
+	navy_untrained
+	air_minimal_funding
+	air_untrained
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+
+#ID range is 401-499
+#Anglo Unit Leaders- Royalists
+create_field_marshal = {
+	name = "Arthur Barrett" 
+	portrait_path = "gfx/leaders/RAJ/RAJ_arthur_barrett.dds" 
+	traits = { trait_mountaineer  }
+	skill = 3
+	id = 401
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = { #Was originally a Field Marshal, but upon further research made more sense to make him a general
+	name = "Charles Townshend"
+	portrait_path = "gfx/leaders/RAJ/RAJ_Charles_Townshend.dds"
+	traits = { desert_fox career_officer trait_reckless  }
+	skill = 3
+	id = 402
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_field_marshal = { #Was originally a General, but upon further research made more sense to make him a field marshal
+	name = "John Nixon" 
+	portrait_path = "gfx/leaders/RAJ/RAJ_john_eccles_nixon.dds" 
+	traits = { aggressive_assaulter  } 
+	skill = 3
+	id = 403
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "James Willcocks" 
+	portrait_path = "gfx/leaders/RAJ/RAJ_james_wilcocks.dds" 
+	traits = { politically_connected  } 
+	skill = 2 
+	id = 404
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Havelock Hudson" 
+	portrait_path = "gfx/leaders/RAJ/RAJ_Havelock_Hudson.dds" 
+	traits = { old_guard politically_connected brilliant_strategist cavalry_officer  } 
+	skill = 2 
+	id = 405
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Walter Braithwaite" 
+	portrait_path = "gfx/leaders/RAJ/RAJ_walter_braithwaite.dds" 
+	traits = { old_guard inflexible_strategist harsh_leader  } 
+	skill = 1
+	id = 406
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+ 	name = "Reginald Dyer" 
+	portrait_path="gfx/leaders/RAJ/RAJ_reginald_dyer.dds" 
+	traits={ harsh_leader trait_reckless  } 
+	id = 407
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

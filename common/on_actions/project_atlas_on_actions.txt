@@ -1,0 +1,338 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			###PARLIAMENT SETUP - Make sure to add an entry below for a country getting cusom content
+			#Make sure that each country has seats assigned to all 8 ideologies, even if some of them have 0 seats
+			every_country = {
+				limit = {
+					NOT = { tag = USA }
+				}
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@anarchism_ideology } # Anarchism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@totalism_ideology } # Totalism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@socialism_ideology } # Socialism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@social_democracy_ideology } # Social Democracy
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@liberalism_ideology } # Liberalism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@conservatism_ideology } # Conservatism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@authoritarianism_ideology } # Authoritarianism
+				add_to_array = { lower_chamber_seat_array = party_popularity_100@ultranationalism_ideology } # Ultranationalism
+				d_parliament_gui_initial = yes
+				initialize_parties_array = yes #Initialize Election Polls menu
+				create_scale_graph = yes
+			}
+
+			###STARTING IDEAS###
+			every_country = {
+				if = {
+					limit = { has_country_flag = is_federal_republic }
+					add_ideas = federal_republic_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_parliamentary_republic }
+					add_ideas = parliamentary_republic_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_socialist_republic }
+					add_ideas = socialist_republic_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_constitutional_monarchy }
+					add_ideas = constitutional_monarchy_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_absolute_monarchy }
+					add_ideas = absolute_monarchy_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_dictatorship }
+					add_ideas = dictatorship_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_oligarchy }
+					add_ideas = oligarchy_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_one_party_state }
+					add_ideas = one_party_state_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_anarcho_communist }
+					add_ideas = anarcho_communist_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_anarcho_capitalist }
+					add_ideas = anarcho_capitalist_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_provisional_government }
+					add_ideas = provisional_government_idea
+				}
+				else_if = {
+					limit = { has_country_flag = is_colonial_government }
+					add_ideas = colonial_government_idea
+				}
+			}
+
+			###CORPORATIONS###
+			#Generic corporations are automatically added for countries with no custom content
+			every_country = {
+				if = {
+					limit = { has_government = liberalism_ideology }
+					set_variable = {
+						var = corp_investment_cost_var
+						value = 14
+					}
+				}
+				else = {
+					set_variable = {
+						var = corp_investment_cost_var
+						value = 29
+					}
+				}
+
+				set_variable = {
+					var = current_investment_points
+					value = 0
+				}
+
+				set_variable = {
+					var = total_investment_points
+					value = 0
+				}
+
+				set_variable = {
+					var = spent_investment_points
+					value = 0
+				}
+
+				#All countries need this, regardless of custom content. There MUST BE 5 entries.
+				add_to_array = { circle_grid = 0 }
+				add_to_array = { circle_grid = 0 }
+				add_to_array = { circle_grid = 0 }
+				add_to_array = { circle_grid = 0 }
+				add_to_array = { circle_grid = 0 }
+
+				#IDs are assigned to each corporation. IDs MUST BE UNIQUE ACROSS THE ENTIRE MOD!! Check Documentation for a list of all Corporation IDs.
+				add_to_array = { corporations_array = 1 } #Generic Construction Corporation
+				add_to_array = { corporations_array = 2 } #Generic Electronics Corporation
+				add_to_array = { corporations_array = 3 } #Generic Arms Corporation
+				add_to_array = { corporations_array = 4 } #Generic Artillery Corporation
+				add_to_array = { corporations_array = 5 } #Generic Truck Corporation
+				add_to_array = { corporations_array = 6 } #Generic Aircraft Corporation
+				add_to_array = { corporations_array = 7 } #Generic Shipbuilding Corporation
+				add_to_array = { corporations_array = 8 } #Generic Tank Corporation
+
+				#Investment quantity (from 0 - 5) is tracked by this array. The index for each entry MUST MATCH those of the corporation's ID.
+				add_to_array = { investment_array = 0 } #Generic Construction Corporation
+				add_to_array = { investment_array = 0 } #Generic Electronics Corporation
+				add_to_array = { investment_array = 0 } #Generic Arms Corporation
+				add_to_array = { investment_array = 0 } #Generic Artillery Corporation
+				add_to_array = { investment_array = 0 } #Generic Truck Corporation
+				add_to_array = { investment_array = 0 } #Generic Aircraft Corporation
+				add_to_array = { investment_array = 0 } #Generic Shipbuilding Corporation
+				add_to_array = { investment_array = 0 } #Generic Tank Corporation
+
+				#This array tracks the cost in "investment points" for each corporation. The index for each entry MUST MATCH those of the corporation's ID.
+				add_to_array = { investment_point_cost_array = 1 } #Generic Construction Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Electronics Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Arms Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Artillery Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Truck Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Aircraft Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Shipbuilding Corporation
+				add_to_array = { investment_point_cost_array = 1 } #Generic Tank Corporation
+
+				#This array tracks the current benefits amount for each corporation. The index for each entry MUST MATCH those of the corporation's ID.
+				add_to_array = { investment_benefits_array = 0 } #Generic Construction Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Electronics Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Arms Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Artillery Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Truck Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Aircraft Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Shipbuilding Corporation
+				add_to_array = { investment_benefits_array = 0 } #Generic Tank Corporation
+
+				#This array tracks the scaling of benefits amount for each corporation. Values typically should NOT change. The index for each entry MUST MATCH those of the corporation's ID.
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Construction Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Electronics Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Arms Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Artillery Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Truck Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Aircraft Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Shipbuilding Corporation
+				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Tank Corporation
+			}
+
+			#Tax, Division Limit, election polls, and government menu initialization
+			every_country = {
+				set_variable = { division_limit = modifier@standing_army_limit }
+				set_variable = { division_limit_x_position = 23 }
+
+				set_variable = { net_tax_var = modifier@tax_revenue }
+
+				#Each entry into the following array should be a "page id"
+				add_to_array = { gov_menu_pages_array = 0 } #Government Info Page
+				add_to_array = { gov_menu_pages_array = 1 } #Legislature Page
+				set_variable = { gov_menu_current_page = 0 } #Index for gov_menu_pages_array
+
+				update_election_polls = yes
+			}
+		}
+	}
+
+	on_ruling_party_change = {
+		effect = {
+			if = {
+				limit = { 
+					has_government = social_democracy_ideology 
+					NOT = { has_idea = social_democracy_idea }
+				}
+				add_ideas = social_democracy_idea
+			}
+			if = {
+				limit = { 
+					NOT = { has_government = social_democracy_ideology }
+					has_idea = social_democracy_idea
+				}
+				remove_ideas = social_democracy_idea
+			}
+			if = {
+				limit = { 
+					has_government = liberalism_ideology 
+					check_variable = {
+						var = corp_investment_cost_var
+						value = 14
+						compare = not_equals
+					}
+				}
+				set_variable = {
+					var = corp_investment_cost_var
+					value = 14
+				}
+			}
+			else_if = {
+				limit = { 
+					NOT = { has_government = liberalism_ideology }
+					check_variable = {
+						var = corp_investment_cost_var
+						value = 29
+						compare = not_equals
+					}
+				}
+				set_variable = {
+					var = corp_investment_cost_var
+					value = 29
+				}
+			}
+		}
+	}
+
+	on_new_term_election = {
+		
+	}
+
+	on_daily = {
+		effect = {
+			#This helps with the Action Button/Menu
+			if = {
+				limit = { has_variable = cooldown_duration_remaining }
+				subtract_from_variable = { cooldown_duration_remaining = 1 }
+			}
+
+			#Keeps track of how many investment points have been spentand the total investment points
+			set_variable = { total_investment_points = current_investment_points }
+			set_variable = { spent_investment_points = 0 }
+
+			for_each_loop = {
+				array = investment_array
+                value = v
+                index = i
+                
+                add_to_variable = { spent_investment_points = v }
+			}
+
+			add_to_variable = { total_investment_points = spent_investment_points }
+
+			#Counts down the time until the over division limit penalty increases in severity.
+			if = {
+				limit = { has_variable = over_division_limit_countdown }
+				subtract_from_variable = { over_division_limit_countdown = 1 }
+			}
+
+			#Updates tax revenue, then checks for nations having a surplus or deficit in their tax revenue.
+			set_variable = { net_tax_var = modifier@tax_revenue }
+			check_surplus_deficit = yes
+
+			#Initialize and update division limit. If a player has gone over their limit and incurred penalties, the following will remove all penalties if the player goes to war or brings their total divisions below the limit.
+			set_variable = { division_limit = modifier@standing_army_limit }
+			if = {
+				limit = { #If true, removes all penalties
+					has_war = no
+					is_ai = no
+					check_variable = {
+						var = num_divisions
+						value = division_limit
+						compare = less_than_or_equals
+					}
+					OR = {
+						has_idea = over_division_limit_tier_1
+						has_idea = over_division_limit_tier_2
+						has_idea = over_division_limit_tier_3
+					}
+				}
+				remove_ideas = {
+					over_division_limit_tier_1
+					over_division_limit_tier_2
+					over_division_limit_tier_3
+				}
+				country_event = generic.27
+			}
+			else_if = {
+				limit = { #If true, removes all penalties
+					is_ai = no
+					has_war = yes
+					OR = {
+						has_idea = over_division_limit_tier_1
+						has_idea = over_division_limit_tier_2
+						has_idea = over_division_limit_tier_3
+					}
+				}
+				remove_ideas = {
+					over_division_limit_tier_1
+					over_division_limit_tier_2
+					over_division_limit_tier_3
+				}
+				country_event = generic.28
+			}
+
+			#Adjust the position of the division limit info on the topbar if the value is negative (this prevents the number from clipping outside its area.)
+			set_temp_variable = { temp_available_divisions = division_limit }
+			set_temp_variable = { temp_number_divisions = num_divisions }
+			subtract_from_temp_variable = { temp_available_divisions = temp_number_divisions }
+			if = {
+				limit = {
+					check_variable = {
+						var = temp_available_divisions
+						value = 0
+						compare = less_than
+					}
+				}
+				set_variable = { division_limit_x_position = 20 }
+			}
+			else = {
+				set_variable = { division_limit_x_position = 23 }
+			}
+		}
+	}
+
+	on_war = {
+		effect = {
+			set_country_flag = post_war_buffer_flag #This prevents the player from being hit with negative modifiers for being over their division limit at the very end of a war. This buffer lasts until the player picks an option from event generic.29 (an option will be automatically chosen 13 days after receiving the event, meaning the player has up to 13 days from the end of a war to demobilize their military).
+		}
+	}
+
+	on_peace = {
+		effect = {
+			country_event = generic.29
+		}
+	}
+}

@@ -1,0 +1,59 @@
+﻿l_english:
+#Countries, Leaders, Factions
+CHI_VICE_CHAIRMAN_TITLE:0 "Vice-Chairman"
+
+CHI_anarchism_ideology:0 "Chinese Free State"
+CHI_anarchism_ideology_DEF:0 "the Chinese Free State"
+CHI_totalism_ideology:0 "Kuomintang"
+CHI_totalism_ideology_DEF:0 "the Kuomintang"
+CHI_socialism_ideology:0 "Kuomintang"
+CHI_socialism_ideology_DEF:0 "the Kuomintang"
+CHI_social_democracy_ideology:0 "Kuomintang"
+CHI_social_democracy_ideology_DEF:0 "the Kuomintang"
+CHI_liberalism_ideology:0 "Kuomintang"
+CHI_liberalism_ideology_DEF:0 "the Kuomintang"
+CHI_conservatism_ideology:0 "Kuomintang"
+CHI_conservatism_ideology_DEF:0 "the Kuomintang"
+CHI_authoritarianism_ideology:0 "Kuomintang"
+CHI_authoritarianism_ideology_DEF:0 "the Kuomintang"
+CHI_ultranationalism_ideology:0 "Kuomintang"
+CHI_ultranationalism_ideology_DEF:0 "the Kuomintang"
+CHI_anarchism_ideology_ADJ:0 "Chinese"
+CHI_totalism_ideology_ADJ:0 "Chinese"
+CHI_socialism_ideology_ADJ:0 "Chinese"
+CHI_social_democracy_ideology_ADJ:0 "Chinese"
+CHI_liberalism_ideology_ADJ:0 "Chinese"
+CHI_conservatism_ideology_ADJ:0 "Chinese"
+CHI_authoritarianism_ideology_ADJ:0 "Chinese"
+CHI_ultranationalism_ideology_ADJ:0 "Chinese"
+CHI:0 "China"
+CHI_DEF:0 "China"
+CHI_ADJ:0 "Chinese"
+#Political Parties
+CHI_socialism_ideology_party:0 "LK"
+CHI_socialism_ideology_party_long:0 "Left-Kuomintang"
+CHI_social_democracy_ideology_party:0 "MLK"
+CHI_social_democracy_ideology_party_long:0 "Moderate Left-Kuomintang"
+CHI_liberalism_ideology_party:0 "CK"
+CHI_liberalism_ideology_party_long:0 "Centre-Kuomintang"
+CHI_conservatism_ideology_party:0 "MRK"
+CHI_conservatism_ideology_party_long:0 "Moderate Right-Kuomintang"
+CHI_authoritarianism_ideology_party:0 "RK"
+CHI_authoritarianism_ideology_party_long:0 "Right-Kuomintang"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,75 @@
+﻿l_english:
+#Countries, Leaders, Factions
+RUS_NIKOLAI_MARKOV:0 "Nikolai Markov"
+POLITICS_NICHOLAS_II_DESC:0 ""
+
+RUS_anarchism_ideology:0 "Disunited Russian Communes"
+RUS_anarchism_ideology_DEF:0 "the Disunited Russian Communes"
+RUS_totalism_ideology:0 "Soviet Union"
+RUS_totalism_ideology_DEF:0 "the Soviet Union"
+RUS_socialism_ideology:0 "Russian Empire"
+RUS_socialism_ideology_DEF:0 "the Russian Empire"
+RUS_social_democracy_ideology:0 "Russian Empire"
+RUS_social_democracy_ideology_DEF:0 "the Russian Empire"
+RUS_liberalism_ideology:0 "Russian Empire"
+RUS_liberalism_ideology_DEF:0 "the Russian Empire"
+RUS_conservatism_ideology:0 "Russian Empire"
+RUS_conservatism_ideology_DEF:0 "the Russian Empire"
+RUS_authoritarianism_ideology:0 "Russian Empire"
+RUS_authoritarianism_ideology_DEF:0 "the Russian Empire"
+RUS_ultranationalism_ideology:0 "Russian Empire"
+RUS_ultranationalism_ideology_DEF:0 "the Russian Empire"
+RUS_anarchism_ideology_ADJ:0 "Russian"
+RUS_totalism_ideology_ADJ:0 "Russian"
+RUS_socialism_ideology_ADJ:0 "Russian"
+RUS_social_democracy_ideology_ADJ:0 "Russian"
+RUS_liberalism_ideology_ADJ:0 "Russian"
+RUS_conservatism_ideology_ADJ:0 "Russian"
+RUS_authoritarianism_ideology_ADJ:0 "Russian"
+RUS_ultranationalism_ideology_ADJ:0 "Russian"
+RUS:0 "Russia"
+RUS_DEF:0 "Russia"
+RUS_ADJ:0 "Russian"
+
+#Political Parties
+RUS_anarchism_ideology_party:0 "Peasant Unions"
+RUS_anarchism_ideology_party_long:0 "Agrarian Socialist Communes"
+RUS_totalism_ideology_party:0 "Maximalists"
+RUS_totalism_ideology_party_long:0 "Socialist-Revolutionary Maximalists"
+RUS_socialism_ideology_party:0 "Popular Socialists"
+RUS_socialism_ideology_party_long:0 "Labourist Popular-Socialist Party"
+RUS_social_democracy_ideology_party:0 "Trudoviks"
+RUS_social_democracy_ideology_party_long:0 "Labour Group"
+RUS_liberalism_ideology_party:0 "Kadets"
+RUS_liberalism_ideology_party_long:0 "Constitutional Democratic Party"
+RUS_conservatism_ideology_party:0 "Octobrists"
+RUS_conservatism_ideology_party_long:0 "Union of October 17"
+RUS_authoritarianism_ideology_party:0 "Royalists"
+RUS_authoritarianism_ideology_party_long:0 "Imperial Inner Circle"
+RUS_ultranationalism_ideology_party:0 "Black-Hundredists"
+RUS_ultranationalism_ideology_party_long:0 "Union of the Russian People"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+RUS_dummy_agriculture_1_idea:0 "Agriculture Minister Dummy 1"
+RUS_dummy_agriculture_2_idea:0 "Agriculture Minister Dummy 2"
+RUS_dummy_commerce_1_idea:0 "Commerce Minister Dummy 1"
+RUS_dummy_defense_1_idea:0 "Defense Minister Dummy 1"
+RUS_dummy_education_1_idea:0 "Education Minister Dummy 1"
+RUS_dummy_energy_1_idea:0 "Energy Minister Dummy 1"
+RUS_dummy_foreign_1_idea:0 "Foreign Minister Dummy 1"
+RUS_dummy_industry_1_idea:0 "Industry Minister Dummy 1"
+RUS_dummy_justice_1_idea:0 "Justice Minister Dummy 1"
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

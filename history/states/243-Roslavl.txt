@@ -1,0 +1,17 @@
+
+state = {
+	id = 243
+	name = "STATE_243"
+	manpower = 2076210
+	state_category = rural
+	provinces = { 289 6233 6344 6354 9247 9371 9396 11220 11230 11271 11290 11355 11383 }
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

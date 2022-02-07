@@ -1,0 +1,95 @@
+﻿capital = 314
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_cosmetic_tag = ELS_FRCA
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_federal_republic
+
+create_country_leader = {
+	name = "Jorge Ramirez"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = social_democracy_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jorge Ramirez"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = liberalism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jorge Ramirez"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jorge Ramirez"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jorge Ramirez"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = ultranationalism_sub
+	traits = {
+		
+	}
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1910.3.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 10
+	socialism_ideology = 30
+	social_democracy_ideology = 10
+	liberalism_ideology = 20
+	conservatism_ideology = 20
+	authoritarianism_ideology = 5
+	ultranationalism_ideology = 5
+}
+
+add_ideas = {
+	low_tax_rate
+	early_industrialization
+	aristocrats_only
+	traditional
+	army_poor_funding
+	navy_minimal_funding
+	navy_untrained
+	air_minimal_funding
+	air_untrained
+	corporate_ownership
+	male_suffrage
+}
+
+# oob = "ELS_1910"

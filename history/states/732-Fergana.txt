@@ -1,0 +1,20 @@
+
+state = {
+	id = 732
+	name = "STATE_732"
+	manpower = 1781351
+	state_category = wasteland
+	provinces = { 1483 2058 4467 4923 7041 10187 10408 10488 10530 12581 12805 }
+
+	history = {
+		victory_points = { 2058 1 }
+		victory_points = { 12581 3 }
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

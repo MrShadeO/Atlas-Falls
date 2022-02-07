@@ -1,0 +1,217 @@
+characters = {
+    #COUNTRY LEADERS
+    GEO_nikolay_chkheidze = {
+		name = "Nikolay Chkheidze"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Nikolay_Chkheidze.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    GEO_joseph_stalin = {
+		name = "Joseph Stalin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Joseph_Stalin.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+
+	#THEORISTS
+
+    #ARMY
+    GEO_giorgi_kvinitadze = {
+		name = "Giorgi Kvinitadze"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Kvinitadze.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { old_guard inflexible_strategist }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+		}
+	}
+
+    GEO_samad_bey_mehmandarov = {
+		name = "Samad bey Mehmandarov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Samad_bey_Mehmandarov.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { old_guard artillery_leader fortress_buster }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 2
+		}
+	}
+
+	GEO_andranik_ozanian = {
+		name = "Andranik Ozanian"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Andranik_Ozanian.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_mountaineer trickster }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    GEO_movses_silikyan = {
+		name = "Movses Silikyan"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Movses_Silikyan.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { war_hero infantry_leader organizer }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+		}
+	}
+
+    GEO_ali_agha_shikhlinski = {
+		name = "Ali-Agha Shikhlinski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Ali-Agha_Shikhlinski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { artillery_leader }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+	GEO_georgy_mazniashvili = {
+		name = "Georgy Mazniashvili"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Georgy_Mazniashvili.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 1
+		}
+	}
+
+    GEO_kristapor_araratian = {
+		name = "Kristapor Araratian"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Kristapor_Araratian.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_engineer }
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+
+	GEO_garegin_nzhdeh = {
+		name = "Garegin Nzhdeh"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Garegin_Nzhdeh.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trickster }
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+    GEO_abdulhamid_bey_gaytabashi = {
+		name = "Abdulhamid bey Gaytabashi"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEO/Portrait_GEO_Abdulhamid_bey_Gaytabashi.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_officer }
+            skill = 1
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+		}
+	}
+
+    #NAVY
+	
+}
+

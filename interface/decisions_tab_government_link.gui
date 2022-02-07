@@ -1,0 +1,23 @@
+guiTypes = {
+    containerWindowType = {
+		name = "government_button_link_container"
+		position = { x = 450 y = 8 }
+
+		buttonType = {
+			name = "government_link_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_basic_circle_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+            pdx_tooltip = GOVERNMENT_TAB_TOOLTIP_ALT
+            pdx_tooltip_delayed = GOVERNMENT_TAB_DELAYED_TOOLTIP
+		}
+
+        iconType = {
+			name = "icon_government_button"
+			spriteType = "GFX_icon_government_button"
+			position = { x = 7 y = 5 }
+            alwaystransparent = yes
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 887
+	name = "STATE_887"
+	manpower = 20000
+	state_category=pastoral
+	provinces = { 4914 4964 12899 }
+
+	history = {
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

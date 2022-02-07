@@ -1,0 +1,76 @@
+scripted_gui = {
+    open_corporations_tab = {
+        window_name = "corporations_button_container"
+        parent_window_token = politics_tab
+        context_type = player_context
+
+        effects = {
+            show_corporations_button_click = {
+                if = {
+                    limit = {
+                        has_country_flag = display_corporations_tab
+                    }
+                    clr_country_flag = display_corporations_tab
+                }
+                else = {
+                    set_country_flag = display_corporations_tab
+                }
+                clr_country_flag = display_finances_tab
+                clr_country_flag = display_government_tab
+                clr_country_flag = display_elections_tab
+
+                #Needed for Finance tab to function properly!!
+                set_variable = {
+                    var = curr_tax_rate_var
+                    value = 0
+                }
+            }
+		}
+
+        visible = {
+            always = yes
+        }
+
+        #AI STUFF
+        #ai_enabled = {
+        #    always = yes
+        #}
+#
+        #ai_test_interval = 2
+        #ai_test_variance = 0.2
+        #ai_max_weight_taken_per_test = 1 
+#
+        #ai_check = {
+        #    check_variable = {
+        #        var = current_investment_points
+        #        value = 1
+        #        compare = greater_than_or_equals
+        #    }
+        #    OR = {
+        #        AND = {
+        #            has_government = liberalism_ideology
+        #            has_political_power > 14
+        #        }
+        #        AND = {
+        #            NOT = { has_government = liberalism_ideology }
+        #            has_political_power > 29
+        #        }
+        #    }
+        #    taxes_are_all_in_order = yes
+        #}
+#
+        #ai_weights = {
+        #    show_corporations_button_click = {
+        #        ai_will_do = {
+        #            base = 1
+#
+        #            modifier = {
+        #                factor = 0
+#
+        #                has_country_flag = display_corporations_tab
+        #            }
+        #        }
+        #    }
+        #}
+    }
+}

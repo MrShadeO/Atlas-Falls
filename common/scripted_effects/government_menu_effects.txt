@@ -1,0 +1,431 @@
+set_government_federal_republic = {
+    custom_effect_tooltip = CHANGE_TO_FEDERAL_REPUBLIC
+    hidden_effect = {
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_federal_republic
+
+        remove_ideas = {
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = federal_republic_idea
+    }
+    end_coalition = yes
+}
+
+set_government_parliamentary_republic = {
+    custom_effect_tooltip = CHANGE_TO_PARLIAMENTARY_REPUBLIC
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_parliamentary_republic
+
+        remove_ideas = {
+            federal_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = parliamentary_republic_idea
+    }
+    end_coalition = yes
+}
+
+set_government_oligarchy = {
+    custom_effect_tooltip = CHANGE_TO_OLIGARCHY
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_oligarchy
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = oligarchy_idea
+    }
+    end_coalition = yes
+}
+
+set_government_socialist_republic = {
+    custom_effect_tooltip = CHANGE_TO_SOCIALIST_REPUBLIC
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_socialist_republic
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = socialist_republic_idea
+    }
+    end_coalition = yes
+}
+
+set_government_constitutional_monarchy = {
+    custom_effect_tooltip = CHANGE_TO_CONSTITUTIONAL_MONARCHY
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_constitutional_monarchy
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = constitutional_monarchy_idea
+    }
+    end_coalition = yes
+}
+
+set_government_absolute_monarchy = {
+    custom_effect_tooltip = CHANGE_TO_ABSOLUTE_MONARCHY
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_absolute_monarchy
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = absolute_monarchy_idea
+    }
+    end_coalition = yes
+}
+
+set_government_dictatorship = {
+    custom_effect_tooltip = CHANGE_TO_DICTATORSHIP
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_dictatorship
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = dictatorship_idea
+    }
+    end_coalition = yes
+}
+
+set_government_one_party_state = {
+    custom_effect_tooltip = CHANGE_TO_ONE_PARTY_STATE
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_one_party_state
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = one_party_state_idea
+    }
+    end_coalition = yes
+}
+
+set_government_anarcho_communist = {
+    custom_effect_tooltip = CHANGE_TO_ANARCHO_COMMUNIST
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_anarcho_communist
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = anarcho_communist_idea
+    }
+    end_coalition = yes
+}
+
+set_government_anarcho_capitalist = {
+    custom_effect_tooltip = CHANGE_TO_ANARCHO_CAPITALIST
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_provisional_government
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_anarcho_capitalist
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            provisional_government_idea
+            colonial_government_idea
+        }
+
+        add_ideas = anarcho_capitalist_idea
+    }
+    end_coalition = yes
+}
+
+set_government_provisional_government = {
+    custom_effect_tooltip = CHANGE_TO_PROVISIONAL_GOVERNMENT
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_colonial_government
+
+        set_country_flag = is_provisional_government
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            colonial_government_idea
+        }
+
+        add_ideas = provisional_government_idea
+    }
+    end_coalition = yes
+} 
+
+set_government_colonial_government = {
+    custom_effect_tooltip = CHANGE_TO_COLONIAL_GOVERNMENT
+    hidden_effect = {
+        clr_country_flag = is_federal_republic
+        clr_country_flag = is_parliamentary_republic
+        clr_country_flag = is_oligarchy
+        clr_country_flag = is_socialist_republic
+        clr_country_flag = is_constitutional_monarchy
+        clr_country_flag = is_absolute_monarchy
+        clr_country_flag = is_dictatorship
+        clr_country_flag = is_one_party_state
+        clr_country_flag = is_anarcho_communist
+        clr_country_flag = is_anarcho_capitalist
+        clr_country_flag = is_provisional_government
+
+        set_country_flag = is_colonial_government
+
+        remove_ideas = {
+            federal_republic_idea
+            parliamentary_republic_idea
+            oligarchy_idea
+            socialist_republic_idea
+            constitutional_monarchy_idea
+            absolute_monarchy_idea
+            dictatorship_idea
+            one_party_state_idea
+            anarcho_communist_idea
+            anarcho_capitalist_idea
+            provisional_government_idea
+        }
+
+        add_ideas = colonial_government_idea
+    }
+    end_coalition = yes
+} 

@@ -1,0 +1,55 @@
+﻿capital = 301
+
+set_research_slots = 3
+set_stability = 0.5	
+set_war_support = 0.50
+
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = {
+	name = "Eligio Ayala" 
+	picture = "" 
+	expire = "1935.1.1" 
+	ideology = liberalism_sub
+	traits = {}
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1920.8.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 60
+	conservatism_ideology = 40
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	very_low_tax_rate
+	agrarian_industry
+	aristocrats_only
+	corporate_ownership
+	traditional
+	male_suffrage
+	underfunded_police
+	market_economy
+	army_poor_funding
+	navy_minimal_funding
+	navy_untrained
+	air_minimal_funding
+	air_untrained
+}
+
+	
+
+

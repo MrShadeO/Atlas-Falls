@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+XSM_MA_CLIQUE:0 "Ma Clique"
+
+XSM_anarchism_ideology:0 "Chinese Free State"
+XSM_anarchism_ideology_DEF:0 "the Chinese Free State"
+XSM_totalism_ideology:0 "Ma Clique"
+XSM_totalism_ideology_DEF:0 "the Ma Clique"
+XSM_socialism_ideology:0 "Ma Clique"
+XSM_socialism_ideology_DEF:0 "the Ma Clique"
+XSM_social_democracy_ideology:0 "Ma Clique"
+XSM_social_democracy_ideology_DEF:0 "the Ma Clique"
+XSM_liberalism_ideology:0 "Ma Clique"
+XSM_liberalism_ideology_DEF:0 "the Ma Clique"
+XSM_conservatism_ideology:0 "Ma Clique"
+XSM_conservatism_ideology_DEF:0 "the Ma Clique"
+XSM_authoritarianism_ideology:0 "Ma Clique"
+XSM_authoritarianism_ideology_DEF:0 "the Ma Clique"
+XSM_ultranationalism_ideology:0 "Ma Clique"
+XSM_ultranationalism_ideology_DEF:0 "the Ma Clique"
+XSM_anarchism_ideology_ADJ:0 "Chinese"
+XSM_totalism_ideology_ADJ:0 "Chinese"
+XSM_socialism_ideology_ADJ:0 "Chinese"
+XSM_social_democracy_ideology_ADJ:0 "Chinese"
+XSM_liberalism_ideology_ADJ:0 "Chinese"
+XSM_conservatism_ideology_ADJ:0 "Chinese"
+XSM_authoritarianism_ideology_ADJ:0 "Chinese"
+XSM_ultranationalism_ideology_ADJ:0 "Chinese"
+XSM:0 "Xibei San Ma"
+XSM_DEF:0 "Xibei San Ma"
+XSM_ADJ:0 "Chinese"
+#Political Parties
+XSM_authoritarianism_ideology_party:0 "Ma Clique"
+XSM_authoritarianism_ideology_party_long:0 "Ma Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

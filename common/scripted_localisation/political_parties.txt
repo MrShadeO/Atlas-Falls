@@ -1,0 +1,1814 @@
+#If there isn't a unique party name for an ideology, do NOT make an entry below. It will automatically default to the ideology name instead.
+
+defined_text = {
+    name = GetAnarchistParty
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_anarchism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_anarchism_ideology_party
+	}
+    text = {
+		localization_key = ANARCHIST_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetTotalistParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PAR
+		}
+		localization_key = PAR_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = URG
+		}
+		localization_key = URG_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GEO
+		}
+		localization_key = GEO_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_totalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_totalism_ideology_party
+	}
+    text = {
+		localization_key = TOTALIST_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetSocialistParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GEO
+		}
+		localization_key = GEO_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_socialism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_socialism_ideology_party
+	}
+    text = {
+		localization_key = SOCIALIST_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetSocialDemocraticParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = URG
+		}
+		localization_key = URG_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NZL
+		}
+		localization_key = NZL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GEO
+		}
+		localization_key = GEO_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_social_democracy_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_social_democracy_ideology_party
+	}
+    text = {
+		localization_key = SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetLiberalParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = COL
+		}
+		localization_key = COL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ECU
+		}
+		localization_key = ECU_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BOL
+		}
+		localization_key = BOL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PAR
+		}
+		localization_key = PAR_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = URG
+		}
+		localization_key = URG_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ALB
+		}
+		localization_key = ALB_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NZL
+		}
+		localization_key = NZL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GEO
+		}
+		localization_key = GEO_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EGY
+		}
+		localization_key = EGY_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_liberalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_liberalism_ideology_party
+	}
+    text = {
+		localization_key = LIBERAL_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetConservativeParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = COL
+		}
+		localization_key = COL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ECU
+		}
+		localization_key = ECU_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BOL
+		}
+		localization_key = BOL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PAR
+		}
+		localization_key = PAR_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ALB
+		}
+		localization_key = ALB_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NZL
+		}
+		localization_key = NZL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EGY
+		}
+		localization_key = EGY_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_conservatism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_conservatism_ideology_party
+	}
+    text = {
+		localization_key = CONSERVATIVE_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetAuthoritarianParty
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ECU
+		}
+		localization_key = ECU_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EGY
+		}
+		localization_key = EGY_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_authoritarianism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_authoritarianism_ideology_party
+	}
+    text = {
+		localization_key = AUTHORITARIAN_PARTY_KEY
+	}
+}
+
+defined_text = {
+    name = GetUltranationalistParty
+	text = {
+		trigger = {
+			OR = {
+				has_cosmetic_tag = ELS_FRCA
+				tag = ELS_FRCA
+			}
+		}
+		localization_key = ELS_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = EGY
+		}
+		localization_key = EGY_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_ultranationalism_ideology_party
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_ultranationalism_ideology_party
+	}
+    text = {
+		localization_key = ULTRANATIONALIST_PARTY_KEY
+	}
+}
+
+defined_text = { #The font color will be yellow for all of these keys.
+    name = GetRulingPartyName
+	text = {
+		trigger = {
+			has_government = anarchism_ideology
+		}
+		localization_key = FIND_ANARCHIST_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = totalism_ideology
+		}
+		localization_key = FIND_TOTALISM_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = socialism_ideology
+		}
+		localization_key = FIND_SOCIALISM_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = social_democracy_ideology
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = liberalism_ideology
+		}
+		localization_key = FIND_LIBERALISM_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = conservatism_ideology
+		}
+		localization_key = FIND_CONSERVATISM_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = authoritarianism_ideology
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_1
+	}
+	text = {
+		trigger = {
+			has_government = ultranationalism_ideology
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_1
+	}
+}
+
+defined_text = {
+    name = GetRulingPartyNameWhite
+	text = {
+		trigger = {
+			has_government = anarchism_ideology
+		}
+		localization_key = FIND_ANARCHIST_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = totalism_ideology
+		}
+		localization_key = FIND_TOTALISM_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = socialism_ideology
+		}
+		localization_key = FIND_SOCIALISM_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = social_democracy_ideology
+		}
+		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = liberalism_ideology
+		}
+		localization_key = FIND_LIBERALISM_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = conservatism_ideology
+		}
+		localization_key = FIND_CONSERVATISM_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = authoritarianism_ideology
+		}
+		localization_key = FIND_AUTHORITARIANISM_KEY_2
+	}
+	text = {
+		trigger = {
+			has_government = ultranationalism_ideology
+		}
+		localization_key = FIND_ULTRANATIONALISM_KEY_2
+	}
+}

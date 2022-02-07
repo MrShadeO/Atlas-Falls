@@ -1,0 +1,21 @@
+
+state = {
+	id = 10
+	name = "STATE_10"
+	manpower = 3100000
+	state_category = large_city
+	provinces = { 467 548 3482 3544 6511 9400 9508 11492 }
+
+	history = {
+		victory_points = { 3544 20 }
+		victory_points = { 9508 5 }
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			arms_factory = 1
+		}
+	}
+}

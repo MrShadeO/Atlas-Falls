@@ -1,0 +1,19 @@
+state = {
+	id = 799
+	name = "STATE_799"
+	manpower = 3252291
+	state_category = town
+	provinces = { 906 912 978 3912 4052 6963 7171 9790 9795 9918 10083 11770 11775 11828 11835 11896 }
+
+	history = {
+		victory_points = { 7171 3 }
+		victory_points = { 11835 1 }
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+}

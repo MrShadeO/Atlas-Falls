@@ -1,0 +1,495 @@
+#This should NOT be used outside of finance menu scripted gui!!
+
+update_finances = {
+    if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 1
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 1
+        }
+        add_ideas = no_tax_rate
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 2
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 2
+        }
+        add_ideas = very_low_tax_rate
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 3
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 3
+        }
+        add_ideas = low_tax_rate
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 4
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 4
+        }
+        add_ideas = medium_tax_rate
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 5
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 5
+        }
+        add_ideas = high_tax_rate
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = curr_tax_rate_var
+                value = 6
+                compare = equals
+            }
+        }
+        set_variable = {
+            var = static_curr_tax_rate_var
+            value = 6
+        }
+        add_ideas = very_high_tax_rate
+    }
+    set_variable = { net_tax_var = modifier@tax_revenue }
+    set_variable = { net_tax_var_display = net_tax_var }
+}
+
+check_surplus_deficit = {
+    if = {
+        limit = {
+            check_variable = {
+                var = net_tax_var
+                value = 0
+                compare = greater_than
+            }
+            NOT = { has_idea = budget_surplus }
+        }
+        add_ideas = budget_surplus
+        remove_ideas = budget_deficit
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = net_tax_var
+                value = 0
+                compare = equals
+            }
+            OR = {
+                has_idea = budget_surplus
+                has_idea = budget_deficit
+            }
+        }
+        remove_ideas = {
+            budget_surplus
+            budget_deficit
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = net_tax_var
+                value = 0
+                compare = less_than
+            }
+            NOT = { has_idea = budget_deficit }
+        }
+        add_ideas = budget_deficit
+        remove_ideas = budget_surplus
+    }
+}
+
+#The following is legacy code and is not currently used.
+tax_revenue_increase_1 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 1
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 1
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_2 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 2
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 2
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_3 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 3
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 3
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_4 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 4
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 4
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_5 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 5
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 5
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_6 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 6
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 6
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_7 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 7
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 7
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_8 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 8
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 8
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_9 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 9
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 9
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_10 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 10
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 10
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_11 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 11
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 11
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_12 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 12
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 12
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_13 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 13
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 13
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_14 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 14
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 14
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_increase_15 = {
+    add_to_variable = {
+        var = net_tax_var
+        value = 15
+    }
+    add_to_variable = {
+        var = net_tax_var_display
+        value = 15
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_1 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 1
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 1
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_2 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 2
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 2
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_3 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 3
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 3
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_4 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 4
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 4
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_5 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 5
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 5
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_6 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 6
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 6
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_7 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 7
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 7
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_8 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 8
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 8
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_9 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 9
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 9
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_10 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 10
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 10
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_11 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 11
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 11
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_12 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 12
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 12
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_13 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 13
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 13
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_14 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 14
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 14
+    }
+    check_surplus_deficit = yes
+}
+
+tax_revenue_decrease_15 = {
+    subtract_from_variable = {
+        var = net_tax_var
+        value = 15
+    }
+    subtract_from_variable = {
+        var = net_tax_var_display
+        value = 15
+    }
+    check_surplus_deficit = yes
+}

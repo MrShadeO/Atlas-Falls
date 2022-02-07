@@ -1,0 +1,21 @@
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 369166
+	state_category = town
+	provinces = { 3959 9909 }
+
+	history = {
+		victory_points = { 9909 5 }
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 1
+			9909 = { 
+				naval_base = 2 
+				bunker = 2
+			}
+		}
+	}
+}

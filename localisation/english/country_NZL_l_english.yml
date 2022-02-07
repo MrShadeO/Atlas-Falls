@@ -1,0 +1,55 @@
+﻿l_english:
+#Countries, Leaders, Factions
+NZL_WILLIAM_MASSEY:0 "William Massey"
+
+NZL_anarchism_ideology:0 "New Zealand Free State"
+NZL_anarchism_ideology_DEF:0 "the New Zealand Free State"
+NZL_totalism_ideology:0 "Socialist Republic of New Zealand"
+NZL_totalism_ideology_DEF:0 "the Socialist Republic of New Zealand"
+NZL_socialism_ideology:0 "New Zealand"
+NZL_socialism_ideology_DEF:0 "New Zealand"
+NZL_social_democracy_ideology:0 "New Zealand"
+NZL_social_democracy_ideology_DEF:0 "New Zealand"
+NZL_liberalism_ideology:0 "New Zealand"
+NZL_liberalism_ideology_DEF:0 "New Zealand"
+NZL_conservatism_ideology:0 "New Zealand"
+NZL_conservatism_ideology_DEF:0 "New Zealand"
+NZL_authoritarianism_ideology:0 "New Zealand"
+NZL_authoritarianism_ideology_DEF:0 "New Zealand"
+NZL_ultranationalism_ideology:0 "New Zealand"
+NZL_ultranationalism_ideology_DEF:0 "New Zealand"
+NZL_anarchism_ideology_ADJ:0 "New Zealand"
+NZL_totalism_ideology_ADJ:0 "New Zealand"
+NZL_socialism_ideology_ADJ:0 "New Zealand"
+NZL_social_democracy_ideology_ADJ:0 "New Zealand"
+NZL_liberalism_ideology_ADJ:0 "New Zealand"
+NZL_conservatism_ideology_ADJ:0 "New Zealand"
+NZL_authoritarianism_ideology_ADJ:0 "New Zealand"
+NZL_ultranationalism_ideology_ADJ:0 "New Zealand"
+NZL:0 "New Zealand"
+NZL_DEF:0 "New Zealand"
+NZL_ADJ:0 "New Zealand"
+#Political Parties
+NZL_social_democracy_ideology_party:0 "NZLP"
+NZL_social_democracy_ideology_party_long:0 "New Zealand Labour Party"
+NZL_liberalism_ideology_party:0 "Liberal Party"
+NZL_liberalism_ideology_party_long:0 "New Zealand Liberal Party"
+NZL_conservatism_ideology_party:0 "Reform Party"
+NZL_conservatism_ideology_party_long:0 "New Zealand Political Reform League"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

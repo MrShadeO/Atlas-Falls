@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+DEN_NIELS_NEERGAARD:0 "Niels Neergaard"
+
+DEN_anarchism_ideology:0 "Danish Free State"
+DEN_anarchism_ideology_DEF:0 "the Danish Free State"
+DEN_totalism_ideology:0 "Danish Socialist Republic"
+DEN_totalism_ideology_DEF:0 "the Danish Socialist Republic"
+DEN_socialism_ideology:0 "Danish Socialist Republic"
+DEN_socialism_ideology_DEF:0 "the Danish Socialist Republic"
+DEN_social_democracy_ideology:0 "Kingdom of Denmark"
+DEN_social_democracy_ideology_DEF:0 "the Kingdom of Denmark"
+DEN_liberalism_ideology:0 "Kingdom of Denmark"
+DEN_liberalism_ideology_DEF:0 "the Kingdom of Denmark"
+DEN_conservatism_ideology:0 "Kingdom of Denmark"
+DEN_conservatism_ideology_DEF:0 "the Kingdom of Denmark"
+DEN_authoritarianism_ideology:0 "Kingdom of Denmark"
+DEN_authoritarianism_ideology_DEF:0 "the Kingdom of Denmark"
+DEN_ultranationalism_ideology:0 "Kingdom of Denmark"
+DEN_ultranationalism_ideology_DEF:0 "the Kingdom of Denmark"
+DEN_anarchism_ideology_ADJ:0 "Danish"
+DEN_totalism_ideology_ADJ:0 "Danish"
+DEN_socialism_ideology_ADJ:0 "Danish"
+DEN_social_democracy_ideology_ADJ:0 "Danish"
+DEN_liberalism_ideology_ADJ:0 "Danish"
+DEN_conservatism_ideology_ADJ:0 "Danish"
+DEN_authoritarianism_ideology_ADJ:0 "Danish"
+DEN_ultranationalism_ideology_ADJ:0 "Danish"
+DEN:0 "Denmark"
+DEN_DEF:0 "Denmark"
+DEN_ADJ:0 "Danish"
+#Political Parties
+DEN_totalism_ideology_party:0 "VSP-R"
+DEN_totalism_ideology_party_long:0 "Left-Socialist Party (Radical Wing)"
+DEN_socialism_ideology_party:0 "VSP-M"
+DEN_socialism_ideology_party_long:0 "Left-Socialist Party (Moderate Wing)"
+DEN_social_democracy_ideology_party:0 "SD"
+DEN_social_democracy_ideology_party_long:0 "Social Democrats"
+DEN_liberalism_ideology_party:0 "V"
+DEN_liberalism_ideology_party_long:0 "Venstre"
+DEN_conservatism_ideology_party:0 "DKF"
+DEN_conservatism_ideology_party_long:0 "Conservative Peoples' Party"
+DEN_authoritarianism_ideology_party:0 "House Glücksburg"
+DEN_authoritarianism_ideology_party_long:0 "House Glücksburg Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

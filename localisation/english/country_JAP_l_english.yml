@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+JAP_HARA_TAKASHI:0 "Hara Takashi"
+
+JAP_anarchism_ideology:0 "Japanese Communes"
+JAP_anarchism_ideology_DEF:0 "the Japanese Communes"
+JAP_totalism_ideology:0 "Japanese Socialist Republic"
+JAP_totalism_ideology_DEF:0 "the Japanese Socialist Republic"
+JAP_socialism_ideology:0 "Japanese Empire"
+JAP_socialism_ideology_DEF:0 "the Japanese Empire"
+JAP_social_democracy_ideology:0 "Japanese Empire"
+JAP_social_democracy_ideology_DEF:0 "the Japanese Empire"
+JAP_liberalism_ideology:0 "Japanese Empire"
+JAP_liberalism_ideology_DEF:0 "the Japanese Empire"
+JAP_conservatism_ideology:0 "Japanese Empire"
+JAP_conservatism_ideology_DEF:0 "the Japanese Empire"
+JAP_authoritarianism_ideology:0 "Japanese Empire"
+JAP_authoritarianism_ideology_DEF:0 "the Japanese Empire"
+JAP_ultranationalism_ideology:0 "Japanese Empire"
+JAP_ultranationalism_ideology_DEF:0 "the Japanese Empire"
+JAP_anarchism_ideology_ADJ:0 "Japanese"
+JAP_totalism_ideology_ADJ:0 "Japanese"
+JAP_socialism_ideology_ADJ:0 "Japanese"
+JAP_social_democracy_ideology_ADJ:0 "Japanese"
+JAP_liberalism_ideology_ADJ:0 "Japanese"
+JAP_conservatism_ideology_ADJ:0 "Japanese"
+JAP_authoritarianism_ideology_ADJ:0 "Japanese"
+JAP_ultranationalism_ideology_ADJ:0 "Japanese"
+JAP:0 "Japan"
+JAP_DEF:0 "Japan"
+JAP_ADJ:0 "Japanese"
+
+#Political Parties
+JAP_anarchism_ideology_party:0 "Zenkoku Jiren"
+JAP_anarchism_ideology_party_long:0 "Zenkoku Jiren"
+JAP_totalism_ideology_party:0 "JCP-L"
+JAP_totalism_ideology_party_long:0 "Japanese Communist Party (Left-Wing)"
+JAP_socialism_ideology_party:0 "JCP-R"
+JAP_socialism_ideology_party_long:0 "Japanese Communist Party (Right-Wing)"
+JAP_social_democracy_ideology_party:0 "Kakushin Club"
+JAP_social_democracy_ideology_party_long:0 "Reformist Club"
+JAP_liberalism_ideology_party:0 "Kenseikai"
+JAP_liberalism_ideology_party_long:0 "Constitutional Politics Association"
+JAP_conservatism_ideology_party:0 "Rikken Seiyūkai"
+JAP_conservatism_ideology_party_long:0 "Association of Friends of Constitutional Government"
+JAP_authoritarianism_ideology_party:0 "Military Junta"
+JAP_authoritarianism_ideology_party_long:0 "Military Junta"
+JAP_ultranationalism_ideology_party:0 "Imperialists"
+JAP_ultranationalism_ideology_party_long:0 "Imperialists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

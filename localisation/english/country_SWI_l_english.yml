@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SWI_FEDERAL_ASSEMBLY:0 "Federal Assembly"
+
+SWI_anarchism_ideology:0 "Swiss Confederation"
+SWI_anarchism_ideology_DEF:0 "the Swiss Confederation"
+SWI_totalism_ideology:0 "Swiss Confederation"
+SWI_totalism_ideology_DEF:0 "the Swiss Confederation"
+SWI_socialism_ideology:0 "Swiss Confederation"
+SWI_socialism_ideology_DEF:0 "the Swiss Confederation"
+SWI_social_democracy_ideology:0 "Swiss Confederation"
+SWI_social_democracy_ideology_DEF:0 "the Swiss Confederation"
+SWI_liberalism_ideology:0 "Swiss Confederation"
+SWI_liberalism_ideology_DEF:0 "the Swiss Confederation"
+SWI_conservatism_ideology:0 "Swiss Confederation"
+SWI_conservatism_ideology_DEF:0 "the Swiss Confederation"
+SWI_authoritarianism_ideology:0 "Swiss Confederation"
+SWI_authoritarianism_ideology_DEF:0 "the Swiss Confederation"
+SWI_ultranationalism_ideology:0 "Swiss Confederation"
+SWI_ultranationalism_ideology_DEF:0 "the Swiss Confederation"
+SWI_anarchism_ideology_ADJ:0 "Swiss"
+SWI_totalism_ideology_ADJ:0 "Swiss"
+SWI_socialism_ideology_ADJ:0 "Swiss"
+SWI_social_democracy_ideology_ADJ:0 "Swiss"
+SWI_liberalism_ideology_ADJ:0 "Swiss"
+SWI_conservatism_ideology_ADJ:0 "Swiss"
+SWI_authoritarianism_ideology_ADJ:0 "Swiss"
+SWI_ultranationalism_ideology_ADJ:0 "Swiss"
+SWI:0 "Switzerland"
+SWI_DEF:0 "Switzerland"
+SWI_ADJ:0 "Swiss"
+#Political Parties
+SWI_totalism_ideology_party:0 "KPS"
+SWI_totalism_ideology_party_long:0 "Communist Party of Switzerland"
+SWI_socialism_ideology_party:0 "SP-L"
+SWI_socialism_ideology_party_long:0 "Social Democratic Party of Switzerland (Left-Wing)"
+SWI_social_democracy_ideology_party:0 "SP-R"
+SWI_social_democracy_ideology_party_long:0 "Social Democratic Party of Switzerland (Right-Wing)"
+SWI_liberalism_ideology_party:0 "PLD"
+SWI_liberalism_ideology_party_long:0 "Radical Democratic Party"
+SWI_conservatism_ideology_party:0 "KKP"
+SWI_conservatism_ideology_party_long:0 "Catholic Conservative Party"
+SWI_ultranationalism_ideology_party:0 "NF"
+SWI_ultranationalism_ideology_party_long:0 "National Front"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

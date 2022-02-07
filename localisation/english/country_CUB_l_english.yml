@@ -1,0 +1,55 @@
+﻿l_english:
+#Countries, Leaders, Factions
+CUB_FRANCISCO_MORALES:0 "Francisco Morales"
+
+CUB_anarchism_ideology:0 "Cuban Free State"
+CUB_anarchism_ideology_DEF:0 "the Cuban Free State"
+CUB_totalism_ideology:0 "Socialist Republic of Cuba"
+CUB_totalism_ideology_DEF:0 "the Socialist Republic of Cuba"
+CUB_socialism_ideology:0 "Socialist Republic of Cuba"
+CUB_socialism_ideology_DEF:0 "the Socialist Republic of Cuba"
+CUB_social_democracy_ideology:0 "Republic of Cuba"
+CUB_social_democracy_ideology_DEF:0 "the Republic of Cuba"
+CUB_liberalism_ideology:0 "Republic of Cuba"
+CUB_liberalism_ideology_DEF:0 "the Republic of Cuba"
+CUB_conservatism_ideology:0 "Republic of Cuba"
+CUB_conservatism_ideology_DEF:0 "the Republic of Cuba"
+CUB_authoritarianism_ideology:0 "Republic of Cuba"
+CUB_authoritarianism_ideology_DEF:0 "the Republic of Cuba"
+CUB_ultranationalism_ideology:0 "Republic of Cuba"
+CUB_ultranationalism_ideology_DEF:0 "the Republic of Cuba"
+CUB_anarchism_ideology_ADJ:0 "Cuban"
+CUB_totalism_ideology_ADJ:0 "Cuban"
+CUB_socialism_ideology_ADJ:0 "Cuban"
+CUB_social_democracy_ideology_ADJ:0 "Cuban"
+CUB_liberalism_ideology_ADJ:0 "Cuban"
+CUB_conservatism_ideology_ADJ:0 "Cuban"
+CUB_authoritarianism_ideology_ADJ:0 "Cuban"
+CUB_ultranationalism_ideology_ADJ:0 "Cuban"
+CUB:0 "Cuba"
+CUB_DEF:0 "Cuba"
+CUB_ADJ:0 "Cuban"
+#Political Parties
+CUB_totalism_ideology_party:0 "PSP"
+CUB_totalism_ideology_party_long:0 "Popular Socialist Party"
+CUB_liberalism_ideology_party:0 "PLC"
+CUB_liberalism_ideology_party_long:0 "Liberal Party of Cuba"
+CUB_conservatism_ideology_party:0 "PCN"
+CUB_conservatism_ideology_party_long:0 "National Conservative Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

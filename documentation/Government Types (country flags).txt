@@ -1,0 +1,20 @@
+#Use "set_government_[government type] = yes" in an effect block to change a country's government type.
+#Example: set_government_federal_republic = yes
+
+Federal Republic - is_federal_republic
+Parliamentary Republic - is_parliamentary_republic
+Socialist Republic - is_socialist_republic
+
+Constitutional Monarchy - is_constitutional_monarchy
+Absolute Monarchy - is_absolute_monarchy
+
+Dictatorship - is_dictatorship
+Oligarchy - is_oligarchy
+One-Party State - is_one_party_state
+
+Anarcho-Communist - is_anarcho_communist
+Anarcho-Capitalist - is_anarcho_capitalist
+
+Provisional Government - is_provisional_government
+
+Colonial Government - is_colonial_government

@@ -1,0 +1,1990 @@
+ideas = {
+
+	hidden_ideas = {
+
+		federal_republic_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		parliamentary_republic_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+
+		oligarchy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+		socialist_republic_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.15
+			}
+		}
+
+		constitutional_monarchy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		absolute_monarchy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.10
+			}
+		}
+
+		dictatorship_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+
+		one_party_state_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				operation_cost = -0.33
+				operative_slot = 11
+			}
+		}
+
+		anarcho_communist_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		anarcho_capitalist_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+		provisional_government_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+			}
+		}
+
+		colonial_government_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				tax_revenue = -1
+			}
+		}
+
+		bully_pulpit_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		bully_pulpit_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+		snap_elections_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		embezzlement_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		embezzlement_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				tax_revenue = -2
+			}
+		}
+
+		nationalized_industry_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		royal_decree_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		royal_decree_stability_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		royal_decree_war_support_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.15
+			}
+		}
+
+		royal_decree_mobilization_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				mobilization_speed = 0.15
+			}
+		}
+
+		great_purge_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		great_purge_bonus_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		great_purge_bonus_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+
+		great_purge_bonus_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		great_purge_bonus_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.20
+			}
+		}
+
+		great_purge_bonus_5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.25
+			}
+		}
+
+		great_purge_bonus_6 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.30
+			}
+		}
+
+		great_purge_bonus_7 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.35
+			}
+		}
+
+		great_purge_bonus_8 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.40
+			}
+		}
+
+		secret_police_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		secret_police_stability_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		secret_police_resistance_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				resistance_target_on_our_occupied_states = -0.15
+			}
+		}
+
+		liberty_or_death_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		liberty_or_death_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+			}
+		}
+
+		no_gods_or_kings_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		no_gods_or_kings_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		emergency_powers_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		colonial_wealth_cooldown = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			on_remove = {
+				clear_variable = cooldown_duration_remaining
+			}
+		}
+
+		colonial_wealth_resource_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.15
+			}
+		}
+
+		colonial_wealth_construction_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		no_tax_rate = { # +0 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = very_low_tax_rate }
+					remove_ideas = very_low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					remove_ideas = low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					remove_ideas = medium_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					remove_ideas = high_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					remove_ideas = very_high_tax_rate
+				}
+			}
+        }
+
+		very_low_tax_rate = { # +3 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = 0.10
+				stability_factor = -0.10
+				tax_revenue = 3
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = no_tax_rate }
+					remove_ideas = no_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					remove_ideas = low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					remove_ideas = medium_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					remove_ideas = high_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					remove_ideas = very_high_tax_rate
+				}
+			}
+        }
+
+        low_tax_rate = { # +6 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = 0.20
+				stability_factor = -0.20
+				tax_revenue = 6
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = no_tax_rate }
+					remove_ideas = no_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_low_tax_rate }
+					remove_ideas = very_low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					remove_ideas = medium_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					remove_ideas = high_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					remove_ideas = very_high_tax_rate
+				}
+			}
+        }
+
+        medium_tax_rate = { # +9 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = 0.30
+				stability_factor = -0.30
+				tax_revenue = 9
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = no_tax_rate }
+					remove_ideas = no_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_low_tax_rate }
+					remove_ideas = very_low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					remove_ideas = low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					remove_ideas = high_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					remove_ideas = very_high_tax_rate
+				}
+			}
+        }
+
+        high_tax_rate = { # +12 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = 0.40
+				stability_factor = -0.40
+				tax_revenue = 12
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = no_tax_rate }
+					remove_ideas = no_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_low_tax_rate }
+					remove_ideas = very_low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					remove_ideas = low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					remove_ideas = medium_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					remove_ideas = very_high_tax_rate
+				}
+			}
+        }
+
+        very_high_tax_rate = { # +15 Income Tax
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = 0.50
+				stability_factor = -0.50
+				tax_revenue = 15
+			}
+			
+			cancel_if_invalid = no
+
+			on_add = {
+				if = {
+					limit = { has_idea = no_tax_rate }
+					remove_ideas = no_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = very_low_tax_rate }
+					remove_ideas = very_low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					remove_ideas = low_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					remove_ideas = medium_tax_rate
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					remove_ideas = high_tax_rate
+				}
+			}
+        }
+
+		budget_surplus = { 
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+        }
+
+		budget_deficit = { 
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = -0.50
+				industrial_capacity_factory = -0.33
+				industrial_capacity_dockyard = -0.33
+			}
+			
+			cancel_if_invalid = no
+        }
+
+		social_democracy_idea = { 
+			removal_cost = -1
+
+			modifier = {
+                tax_revenue = 3
+			}
+			
+			cancel_if_invalid = no
+        }
+	}
+
+	country = {
+		national_spirit_test_idea = {
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				jet_fighter_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				CAS_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				scout_plane_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				jet_tac_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					reliability = 0.03 
+					instant = yes
+				}
+			}
+
+			research_bonus = {
+				armor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		universal_healthcare_idea = {
+			picture = generic_research_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.25
+				stability_factor = 0.10
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				conscription_factor = 0.10
+				tax_revenue = -3
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		anarchist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		totalist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		socialist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		social_democratic_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		liberal_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		conservative_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		authoritarian_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		ultranationalist_coalition_idea = {
+			picture = generic_disjointed_gov
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		over_division_limit_tier_1 = {
+			picture = SPR_disbanded_army
+
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = -0.50
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+				consumer_goods_factor = 0.25
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		over_division_limit_tier_2 = {
+			picture = SPR_disbanded_army
+
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = -0.75
+				stability_weekly = -0.02
+				war_support_weekly = -0.02
+				consumer_goods_factor = 0.50
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		over_division_limit_tier_3 = {
+			picture = SPR_disbanded_army
+
+			removal_cost = -1
+			
+			modifier = {
+                political_power_factor = -1.00
+				stability_weekly = -0.03
+				war_support_weekly = -0.03
+				consumer_goods_factor = 0.75
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+#    agriculture_minister = {
+#
+#        generic_environmentalist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = environmentalist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { environmentalist }
+#
+#			on_add = {
+#				set_variable = { agriculture_cabinet_var = token:generic_environmentalist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = agriculture_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_food_inspector = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = food_inspector limit = 1 }
+#				}
+#			}
+#			
+#			traits = { food_inspector }
+#
+#			on_add = {
+#				set_variable = { agriculture_cabinet_var = token:generic_food_inspector }
+#			}
+#
+#			on_remove = {
+#				clear_variable = agriculture_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_productive_farmer = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = productive_farmer limit = 1 }
+#				}
+#			}
+#			
+#			traits = { productive_farmer }
+#
+#			on_add = {
+#				set_variable = { agriculture_cabinet_var = token:generic_productive_farmer }
+#			}
+#
+#			on_remove = {
+#				clear_variable = agriculture_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_agrarian_tycoon = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = agrarian_tycoon limit = 1 }
+#				}
+#			}
+#			
+#			traits = { agrarian_tycoon }
+#
+#			on_add = {
+#				set_variable = { agriculture_cabinet_var = token:generic_agrarian_tycoon }
+#			}
+#
+#			on_remove = {
+#				clear_variable = agriculture_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    commerce_minister = {
+#
+#        generic_tax_collector = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = tax_collector limit = 1 }
+#				}
+#			}
+#			
+#			traits = { tax_collector }
+#
+#			on_add = {
+#				set_variable = { commerce_cabinet_var = token:generic_tax_collector }
+#			}
+#
+#			on_remove = {
+#				clear_variable = commerce_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_welfare_enthusiast = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = welfare_enthusiast limit = 1 }
+#				}
+#			}
+#			
+#			traits = { welfare_enthusiast }
+#
+#			on_add = {
+#				set_variable = { commerce_cabinet_var = token:generic_welfare_enthusiast }
+#			}
+#
+#			on_remove = {
+#				clear_variable = commerce_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_corrupt_lobbyist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = corrupt_lobbyist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { corrupt_lobbyist }
+#
+#			on_add = {
+#				set_variable = { commerce_cabinet_var = token:generic_corrupt_lobbyist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = commerce_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_modern_innovator = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = modern_innovator limit = 1 }
+#				}
+#			}
+#			
+#			traits = { modern_innovator }
+#
+#			on_add = {
+#				set_variable = { commerce_cabinet_var = token:generic_modern_innovator }
+#			}
+#
+#			on_remove = {
+#				clear_variable = commerce_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    defense_minister = {
+#
+#        generic_war_hawk_minister = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = war_hawk_minister limit = 1 }
+#				}
+#			}
+#			
+#			traits = { war_hawk_minister }
+#
+#			on_add = {
+#				set_variable = { defense_cabinet_var = token:generic_war_hawk_minister }
+#			}
+#
+#			on_remove = {
+#				clear_variable = defense_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_bean_counter = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = bean_counter limit = 1 }
+#				}
+#			}
+#			
+#			traits = { bean_counter }
+#
+#			on_add = {
+#				set_variable = { defense_cabinet_var = token:generic_bean_counter }
+#			}
+#
+#			on_remove = {
+#				clear_variable = defense_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_old_general = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = old_general limit = 1 }
+#				}
+#			}
+#			
+#			traits = { old_general }
+#
+#			on_add = {
+#				set_variable = { defense_cabinet_var = token:generic_old_general }
+#			}
+#
+#			on_remove = {
+#				clear_variable = defense_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#        generic_shipbuilder = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = shipbuilder limit = 1 }
+#				}
+#			}
+#			
+#			traits = { shipbuilder }
+#
+#			on_add = {
+#				set_variable = { defense_cabinet_var = token:generic_shipbuilder }
+#			}
+#
+#			on_remove = {
+#				clear_variable = defense_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    education_minister = {
+#		
+#        generic_propagandist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = propagandist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { propagandist }
+#
+#			on_add = {
+#				set_variable = { education_cabinet_var = token:generic_propagandist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = education_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_devoted_teacher = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = devoted_teacher limit = 1 }
+#				}
+#			}
+#			
+#			traits = { devoted_teacher }
+#
+#			on_add = {
+#				set_variable = { education_cabinet_var = token:generic_devoted_teacher }
+#			}
+#
+#			on_remove = {
+#				clear_variable = education_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_practical_instructor = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = practical_instructor limit = 1 }
+#				}
+#			}
+#			
+#			traits = { practical_instructor }
+#
+#			on_add = {
+#				set_variable = { education_cabinet_var = token:generic_practical_instructor }
+#			}
+#
+#			on_remove = {
+#				clear_variable = education_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_private_school_elitist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = private_school_elitist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { private_school_elitist }
+#
+#			on_add = {
+#				set_variable = { education_cabinet_var = token:generic_private_school_elitist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = education_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    energy_minister = {
+#        
+#		generic_oil_baron = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = oil_baron limit = 1 }
+#				}
+#			}
+#			
+#			traits = { oil_baron }
+#
+#			on_add = {
+#				set_variable = { energy_cabinet_var = token:generic_oil_baron }
+#			}
+#
+#			on_remove = {
+#				clear_variable = energy_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_chemical_engineer = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = chemical_engineer limit = 1 }
+#				}
+#			}
+#			
+#			traits = { chemical_engineer }
+#
+#			on_add = {
+#				set_variable = { energy_cabinet_var = token:generic_chemical_engineer }
+#			}
+#
+#			on_remove = {
+#				clear_variable = energy_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_nuclear_engineer = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = nuclear_engineer limit = 1 }
+#				}
+#			}
+#			
+#			traits = { nuclear_engineer }
+#
+#			on_add = {
+#				set_variable = { energy_cabinet_var = token:generic_nuclear_engineer }
+#			}
+#
+#			on_remove = {
+#				clear_variable = energy_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_conservationist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = conservationist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { conservationist }
+#
+#			on_add = {
+#				set_variable = { energy_cabinet_var = token:generic_conservationist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = energy_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    foreign_minister = {
+#
+#        generic_smooth_talker = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = smooth_talker limit = 1 }
+#				}
+#			}
+#			
+#			traits = { smooth_talker }
+#
+#			on_add = {
+#				set_variable = { foreign_cabinet_var = token:generic_smooth_talker }
+#			}
+#
+#			on_remove = {
+#				clear_variable = foreign_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_bank_executive = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = bank_executive limit = 1 }
+#				}
+#			}
+#			
+#			traits = { bank_executive }
+#
+#			on_add = {
+#				set_variable = { foreign_cabinet_var = token:generic_bank_executive }
+#			}
+#
+#			on_remove = {
+#				clear_variable = foreign_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_spymaster = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = spymaster limit = 1 }
+#				}
+#			}
+#			
+#			traits = { spymaster }
+#
+#			on_add = {
+#				set_variable = { foreign_cabinet_var = token:generic_spymaster }
+#			}
+#
+#			on_remove = {
+#				clear_variable = foreign_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_submissive_diplomat = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = submissive_diplomat limit = 1 }
+#				}
+#			}
+#			
+#			traits = { submissive_diplomat }
+#
+#			on_add = {
+#				set_variable = { foreign_cabinet_var = token:generic_submissive_diplomat }
+#			}
+#
+#			on_remove = {
+#				clear_variable = foreign_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    industry_minister = {
+#
+#        generic_captain_of_industry_minister = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = captain_of_industry_minister limit = 1 }
+#				}
+#			}
+#			
+#			traits = { captain_of_industry_minister }
+#
+#			on_add = {
+#				set_variable = { industry_cabinet_var = token:generic_captain_of_industry_minister }
+#			}
+#
+#			on_remove = {
+#				clear_variable = industry_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_arms_salesman = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = arms_salesman limit = 1 }
+#				}
+#			}
+#			
+#			traits = { arms_salesman }
+#
+#			on_add = {
+#				set_variable = { industry_cabinet_var = token:generic_arms_salesman }
+#			}
+#
+#			on_remove = {
+#				clear_variable = industry_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_keynesian_economist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = keynesian_economist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { keynesian_economist }
+#
+#			on_add = {
+#				set_variable = { industry_cabinet_var = token:generic_keynesian_economist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = industry_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_laissez_faire_economist = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = laissez_faire_economist limit = 1 }
+#				}
+#			}
+#			
+#			traits = { laissez_faire_economist }
+#
+#			on_add = {
+#				set_variable = { industry_cabinet_var = token:generic_laissez_faire_economist }
+#			}
+#
+#			on_remove = {
+#				clear_variable = industry_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+#
+#    justice_minister = {
+#        
+#		generic_sympathetic_judge = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = sympathetic_judge limit = 1 }
+#				}
+#			}
+#			
+#			traits = { sympathetic_judge }
+#
+#			on_add = {
+#				set_variable = { justice_cabinet_var = token:generic_sympathetic_judge }
+#			}
+#
+#			on_remove = {
+#				clear_variable = justice_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_tough_cop = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = tough_cop limit = 1 }
+#				}
+#			}
+#			
+#			traits = { tough_cop }
+#
+#			on_add = {
+#				set_variable = { justice_cabinet_var = token:generic_tough_cop }
+#			}
+#
+#			on_remove = {
+#				clear_variable = justice_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_hotheaded_prosecutor = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = hotheaded_prosecutor limit = 1 }
+#				}
+#			}
+#			
+#			traits = { hotheaded_prosecutor }
+#
+#			on_add = {
+#				set_variable = { justice_cabinet_var = token:generic_hotheaded_prosecutor }
+#			}
+#
+#			on_remove = {
+#				clear_variable = justice_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#
+#		generic_civil_liberties_lawyer = {
+#			
+#			allowed = {
+#				NOT = {
+#					has_available_idea_with_traits = { idea = civil_liberties_lawyer limit = 1 }
+#				}
+#			}
+#			
+#			traits = { civil_liberties_lawyer }
+#
+#			on_add = {
+#				set_variable = { justice_cabinet_var = token:generic_civil_liberties_lawyer }
+#			}
+#
+#			on_remove = {
+#				clear_variable = justice_cabinet_var
+#			}
+#	
+#			ai_will_do = {
+#				factor = 1
+#			}
+#		}
+#    }
+}

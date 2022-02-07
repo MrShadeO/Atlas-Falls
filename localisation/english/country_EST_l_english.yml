@@ -1,0 +1,62 @@
+﻿l_english:
+#Countries, Leaders, Factions
+EST_DEPUTY_CHAIRMAN_TITLE:0 "Deputy Chairman"
+EST_JURI_VILMS:0 "Jüri Vilms"
+
+EST_anarchism_ideology:0 "Estonian Free State"
+EST_anarchism_ideology_DEF:0 "the Estonian Free State"
+EST_totalism_ideology:0 "Estonian Socialist Republic"
+EST_totalism_ideology_DEF:0 "the Estonian Socialist Republic"
+EST_socialism_ideology:0 "Republic of Estonia"
+EST_socialism_ideology_DEF:0 "the Republic of Estonia"
+EST_social_democracy_ideology:0 "Republic of Estonia"
+EST_social_democracy_ideology_DEF:0 "the Republic of Estonia"
+EST_liberalism_ideology:0 "Republic of Estonia"
+EST_liberalism_ideology_DEF:0 "the Republic of Estonia"
+EST_conservatism_ideology:0 "Republic of Estonia"
+EST_conservatism_ideology_DEF:0 "the Republic of Estonia"
+EST_authoritarianism_ideology:0 "Republic of Estonia"
+EST_authoritarianism_ideology_DEF:0 "the Republic of Estonia"
+EST_ultranationalism_ideology:0 "Republic of Estonia"
+EST_ultranationalism_ideology_DEF:0 "the Republic of Estonia"
+EST_anarchism_ideology_ADJ:0 "Estonian"
+EST_totalism_ideology_ADJ:0 "Estonian"
+EST_socialism_ideology_ADJ:0 "Estonian"
+EST_social_democracy_ideology_ADJ:0 "Estonian"
+EST_liberalism_ideology_ADJ:0 "Estonian"
+EST_conservatism_ideology_ADJ:0 "Estonian"
+EST_authoritarianism_ideology_ADJ:0 "Estonian"
+EST_ultranationalism_ideology_ADJ:0 "Estonian"
+GER:0 "Estonia"
+EST_DEF:0 "Estonia"
+EST_ADJ:0 "Estonian"
+#Political Parties
+EST_totalism_ideology_party:0 "TUV"
+EST_totalism_ideology_party_long:0 "Workers' United Party"
+EST_socialism_ideology_party:0 "ETE"
+EST_socialism_ideology_party_long:0 "Labour Party"
+EST_social_democracy_ideology_party:0 "ESTP"
+EST_social_democracy_ideology_party_long:0 "Social Democratic Workers' Party"
+EST_liberalism_ideology_party:0 "RVP"
+EST_liberalism_ideology_party_long:0 "National Liberal Party"
+EST_conservatism_ideology_party:0 "PK"
+EST_conservatism_ideology_party_long:0 "Farmers' Assemblies"
+EST_authoritarianism_ideology_party:0 "IL"
+EST_authoritarianism_ideology_party_long:0 "Patriotic League"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

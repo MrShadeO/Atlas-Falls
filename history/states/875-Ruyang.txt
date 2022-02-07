@@ -1,0 +1,17 @@
+state = {
+	id = 875
+	name = "STATE_875"
+	manpower = 22690000
+	state_category = rural 
+	provinces = { 4066 4158 7126 7540 7568 10364 10434 10446 12012 12426 }
+
+	history = {
+		victory_points = { 10446 1 }
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+}

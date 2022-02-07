@@ -1,0 +1,64 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ENG_HH_ASQUITH:0 "H. H. Asquith"
+
+ENG_anarchism_ideology:0 "British Free State"
+ENG_anarchism_ideology_DEF:0 "the British Free State"
+ENG_totalism_ideology:0 "British Socialist Republic"
+ENG_totalism_ideology_DEF:0 "the British Socialist Republic"
+ENG_socialism_ideology:0 "United Kingdom"
+ENG_socialism_ideology_DEF:0 "the United Kingdom"
+ENG_social_democracy_ideology:0 "United Kingdom"
+ENG_social_democracy_ideology_DEF:0 "the United Kingdom"
+ENG_liberalism_ideology:0 "United Kingdom"
+ENG_liberalism_ideology_DEF:0 "the United Kingdom"
+ENG_conservatism_ideology:0 "United Kingdom"
+ENG_conservatism_ideology_DEF:0 "the United Kingdom"
+ENG_authoritarianism_ideology:0 "United Kingdom"
+ENG_authoritarianism_ideology_DEF:0 "the United Kingdom"
+ENG_ultranationalism_ideology:0 "United Kingdom"
+ENG_ultranationalism_ideology_DEF:0 "the United Kingdom"
+ENG_anarchism_ideology_ADJ:0 "British"
+ENG_totalism_ideology_ADJ:0 "British"
+ENG_socialism_ideology_ADJ:0 "British"
+ENG_social_democracy_ideology_ADJ:0 "British"
+ENG_liberalism_ideology_ADJ:0 "British"
+ENG_conservatism_ideology_ADJ:0 "British"
+ENG_authoritarianism_ideology_ADJ:0 "British"
+ENG_ultranationalism_ideology_ADJ:0 "British"
+ENG:0 "Britain"
+ENG_DEF:0 "Britain"
+ENG_ADJ:0 "British"
+
+#Political Parties
+ENG_totalism_ideology_party:0 "CPGB-L"
+ENG_totalism_ideology_party_long:0 "Communist Party of Great Britain (Left-Wing)"
+ENG_socialism_ideology_party:0 "CPGB-R"
+ENG_socialism_ideology_party_long:0 "Communist Party of Great Britain (Right-Wing)"
+ENG_social_democracy_ideology_party:0 "Labour"
+ENG_social_democracy_ideology_party_long:0 "Labour Party"
+ENG_liberalism_ideology_party:0 "Liberals"
+ENG_liberalism_ideology_party_long:0 "Liberal Party"
+ENG_conservatism_ideology_party:0 "Conservatives"
+ENG_conservatism_ideology_party_long:0 "Conservative and Unionist Party"
+ENG_authoritarianism_ideology_party:0 "BUN-M"
+ENG_authoritarianism_ideology_party_long:0 "British Union of Nationalists (Monarchist Wing)"
+ENG_ultranationalism_ideology_party:0 "BUN-C"
+ENG_ultranationalism_ideology_party_long:0 "British Union of Nationalists (Corporatist Wing)"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,18 @@
+
+state = {
+	id = 821
+	name = "STATE_821"
+	manpower = 48934
+	state_category = pastoral 
+	provinces = { 11868 11857 }
+
+	history = {
+    	victory_points = { 11868 1 }
+		owner = SER
+		add_core_of = SER
+        add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

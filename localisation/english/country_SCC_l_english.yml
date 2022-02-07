@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SCC_SICHUAN_CLIQUE:0 "Sichuan Clique"
+
+SCC_anarchism_ideology:0 "Chinese Free State"
+SCC_anarchism_ideology_DEF:0 "the Chinese Free State"
+SCC_totalism_ideology:0 "Sichuan Clique"
+SCC_totalism_ideology_DEF:0 "the Sichuan Clique"
+SCC_socialism_ideology:0 "Sichuan Clique"
+SCC_socialism_ideology_DEF:0 "the Sichuan Clique"
+SCC_social_democracy_ideology:0 "Sichuan Clique"
+SCC_social_democracy_ideology_DEF:0 "the Sichuan Clique"
+SCC_liberalism_ideology:0 "Sichuan Clique"
+SCC_liberalism_ideology_DEF:0 "the Sichuan Clique"
+SCC_conservatism_ideology:0 "Sichuan Clique"
+SCC_conservatism_ideology_DEF:0 "the Sichuan Clique"
+SCC_authoritarianism_ideology:0 "Sichuan Clique"
+SCC_authoritarianism_ideology_DEF:0 "the Sichuan Clique"
+SCC_ultranationalism_ideology:0 "Sichuan Clique"
+SCC_ultranationalism_ideology_DEF:0 "the Sichuan Clique"
+SCC_anarchism_ideology_ADJ:0 "Chinese"
+SCC_totalism_ideology_ADJ:0 "Chinese"
+SCC_socialism_ideology_ADJ:0 "Chinese"
+SCC_social_democracy_ideology_ADJ:0 "Chinese"
+SCC_liberalism_ideology_ADJ:0 "Chinese"
+SCC_conservatism_ideology_ADJ:0 "Chinese"
+SCC_authoritarianism_ideology_ADJ:0 "Chinese"
+SCC_ultranationalism_ideology_ADJ:0 "Chinese"
+SCC:0 "Sichuan"
+SCC_DEF:0 "Sichuan"
+SCC_ADJ:0 "Chinese"
+#Political Parties
+SCC_authoritarianism_ideology_party:0 "Sichuan Clique"
+SCC_authoritarianism_ideology_party_long:0 "Sichuan Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

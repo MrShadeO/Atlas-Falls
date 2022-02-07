@@ -1,0 +1,42 @@
+guiTypes = {
+    containerWindowType = {
+		name = "action_btn_container"
+		position = { x = 0 y = 0 }	
+		size = { width = 164 height = 44 }
+		
+		buttonType = {
+			name = "action_btn"
+			position = { x = 13 y = 332 }
+			spriteType ="GFX_action_btn"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "ACTION_BTN_TOOLTIP"
+		}
+
+        instantTextboxType = {
+			name = "action_btn_text"
+			position = { x = -75 y = 347 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ACTION_BTN_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "action_btn_text_small"
+			position = { x = -74 y = 348 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ACTION_BTN_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+    }
+}

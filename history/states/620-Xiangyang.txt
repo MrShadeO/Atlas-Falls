@@ -1,0 +1,19 @@
+state = {
+	id = 620
+	name = "STATE_620" # Hubei
+	manpower = 21420000
+	state_category = town
+	provinces = { 1612 4009 4130 7019 7580 7596 7609 7625 8072 9934 10474 12408 }
+	resources = {
+		steel = 10
+	}
+
+	history = {
+		victory_points = { 1612 1 }
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

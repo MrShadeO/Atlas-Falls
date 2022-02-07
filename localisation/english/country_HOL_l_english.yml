@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+HOL_CHARLES_BEERENBROUCK:0 "Charles Beerenbrouck"
+
+HOL_anarchism_ideology:0 "Dutch Free State"
+HOL_anarchism_ideology_DEF:0 "the Dutch Free State"
+HOL_totalism_ideology:0 "Dutch Socialist Republic"
+HOL_totalism_ideology_DEF:0 "the Dutch Socialist Republic"
+HOL_socialism_ideology:0 "Dutch Socialist Republic"
+HOL_socialism_ideology_DEF:0 "the Dutch Socialist Republic"
+HOL_social_democracy_ideology:0 "Netherlands"
+HOL_social_democracy_ideology_DEF:0 "the Netherlands"
+HOL_liberalism_ideology:0 "Netherlands"
+HOL_liberalism_ideology_DEF:0 "the Netherlands"
+HOL_conservatism_ideology:0 "Netherlands"
+HOL_conservatism_ideology_DEF:0 "the Netherlands"
+HOL_authoritarianism_ideology:0 "Netherlands"
+HOL_authoritarianism_ideology_DEF:0 "the Netherlands"
+HOL_ultranationalism_ideology:0 "Netherlands"
+HOL_ultranationalism_ideology_DEF:0 "the Netherlands"
+HOL_anarchism_ideology_ADJ:0 "Dutch"
+HOL_totalism_ideology_ADJ:0 "Dutch"
+HOL_socialism_ideology_ADJ:0 "Dutch"
+HOL_social_democracy_ideology_ADJ:0 "Dutch"
+HOL_liberalism_ideology_ADJ:0 "Dutch"
+HOL_conservatism_ideology_ADJ:0 "Dutch"
+HOL_authoritarianism_ideology_ADJ:0 "Dutch"
+HOL_ultranationalism_ideology_ADJ:0 "Dutch"
+HOL:0 "Netherlands"
+HOL_DEF:0 "the Netherlands"
+HOL_ADJ:0 "Dutch"
+#Political Parties
+HOL_totalism_ideology_party:0 "CPH"
+HOL_totalism_ideology_party_long:0 "Communist Party Holland"
+HOL_socialism_ideology_party:0 "SP"
+HOL_socialism_ideology_party_long:0 "Socialist Party"
+HOL_social_democracy_ideology_party:0 "SDAP"
+HOL_social_democracy_ideology_party_long:0 "Social Democratic Workers' Party"
+HOL_liberalism_ideology_party:0 "LSP"
+HOL_liberalism_ideology_party_long:0 "Liberal State Party"
+HOL_conservatism_ideology_party:0 "ABRKK"
+HOL_conservatism_ideology_party_long:0 "General League"
+HOL_authoritarianism_ideology_party:0 "Royalists"
+HOL_authoritarianism_ideology_party_long:0 "Royalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

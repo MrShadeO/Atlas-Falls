@@ -1,0 +1,15 @@
+state = {
+	id = 853
+	name = "STATE_853"
+	manpower = 962500
+	state_category = town
+	provinces = { 4023 7044 7192 10050 10105 11983 12023 }
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

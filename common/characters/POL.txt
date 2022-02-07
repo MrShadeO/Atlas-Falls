@@ -1,0 +1,539 @@
+characters = {
+    #COUNTRY LEADERS
+    POL_jozef_pilsudski = {
+		name = "Józef Piłsudski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/Portrait_POL_Jozef_Pilsudski.dds"
+			}
+            army = {
+				large = "gfx/leaders/POL/Portrait_POL_Jozef_Pilsudski.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        field_marshal = {
+			traits = { politically_connected inspirational_leader } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+		}
+    }
+    #MINISTERS
+
+	#THEORISTS
+
+    #ARMY
+    POL_jozef_dowbor_musnicki = {
+		name = "Józef Dowbor-Muśnicki"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Józef_Dowbor-Muśnicki.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { organizer organisational_leader } 
+            skill = 4
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 4
+		}
+	}
+
+    POL_tadeusz_rozwadowski = {
+		name = "Tadeusz Rozwadowski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Tadeusz_Rozwadowski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { brilliant_strategist organizer } 
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    POL_karol_durski_trzaska = {
+		name = "Karol Durski-Trzaska"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Karol_Durski-Trzaska.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { old_guard } 
+            skill = 4
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 4
+		}
+	}
+
+    POL_edward_rydz_smigly = {
+		name = "Edward Rydz-Śmigły"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Edward_Rydz-Śmigły.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer infantry_leader } 
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+    POL_stanislaw_szeptycki = {
+		name = "Stanisław Szeptycki"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Stanisław_Szeptycki.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { artillery_leader } 
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    POL_jozef_haller = {
+		name = "Józef Haller"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Józef_Haller.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer artillery_leader } 
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+    POL_kazimierz_sosnkowski = {
+		name = "Kazimierz Sosnkowski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Kazimierz_Sosnkowski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { inflexible_strategist trait_cautious } 
+            skill = 3
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    POL_wladyslaw_sikorski = {
+		name = "Władysław Sikorski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Władysław_Sikorski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer organizer } 
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+	POL_stanislaw_haller = {
+		name = "Stanisław Haller"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Stanisław_Haller.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { artillery_leader } 
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+		}
+	}
+
+    POL_leonard_skierski = {
+		name = "Leonard Skierski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Leonard_Skierski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { brilliant_strategist infantry_officer } 
+            skill = 2
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+		}
+	}
+
+    POL_waclaw_iwaszkiewicz = {
+		name = "Wacław Iwaszkiewicz"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Wacław_Iwaszkiewicz.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_leader } 
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+    POL_boleslaw_roja = {
+		name = "Bolesław Roja"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Bolesław_Roja.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_reckless infantry_officer } 
+            skill = 2
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+    POL_franciszek_latinik = {
+		name = "Franciszek Latinik"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Franciszek_Latinik.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_officer urban_assault_specialist } 
+            skill = 2
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+    POL_franciszek_kleeberg = {
+		name = "Franciszek Kleeberg"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Franciszek_Kleeberg.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer artillery_leader } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+    POL_tadeusz_kutrzeba = {
+		name = "Tadeusz Kutrzeba"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Tadeusz_Kutrzeba.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_engineer } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+		}
+	}
+
+	POL_wincenty_kowalski = {
+		name = "Wincenty Kowalski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Wincenty_Kowalski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { career_officer infantry_officer } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+	POL_emil_przedrzymirski = {
+		name = "Emil Przedrzymirski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Emil_Przedrzymirski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { artillery_leader } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+	POL_tadeusz_piskor = {
+		name = "Tadeusz Piskor"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Tadeusz_Piskor.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { skilled_staffer } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+	POL_wladyslaw_anders = {
+		name = "Władysław Anders"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Władysław_Anders.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader armor_officer } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+	POL_wladyslaw_bortnowski = {
+		name = "Władysław Bortnowski"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Władysław_Bortnowski.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_leader } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+	POL_antoni_szylling = {
+		name = "Antoni Szylling"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Antoni_Szylling.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+
+	POL_stanislaw_maczek = {
+		name = "Stanisław Maczek"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Stanisław_Maczek.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_mountaineer armor_officer } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+		}
+	}
+
+	POL_wiktor_thommee = {
+		name = "Wiktor Thommée"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Wiktor_Thommée.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { media_personality harsh_leader } 
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+		}
+	}
+
+    POL_juliusz_rommel = {
+		name = "Juliusz Rómmel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/Portrait_POL_Juliusz_Rómmel.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader } 
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+
+    #NAVY
+    POL_kazimierz_porebski = {
+		name = "Kazimierz Porębski"
+		portraits = {
+            navy = {
+				large = "gfx/leaders/POL/Portrait_POL_Kazimierz_Porębski.dds"
+			}
+		}	
+        navy_leader = {
+			traits = { mine_layer torpedo_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+
+    POL_jozef_unrug = {
+		name = "Józef Unrug"
+		portraits = {
+            navy = {
+				large = "gfx/leaders/POL/Portrait_POL_Józef_Unrug.dds"
+			}
+		}	
+        navy_leader = {
+			traits = { seawolf silent_hunter }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+
+    POL_jerzy_swirski = {
+		name = "Jerzy Świrski"
+		portraits = {
+            navy = {
+				large = "gfx/leaders/POL/Portrait_POL_Jerzy_Świrski.dds"
+			}
+		}	
+        navy_leader = {
+			traits = { spotter fleet_protector }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+    POL_xawery_czernicki = { #This character will not show up, despite having no errors in the error log and it being functionally identical to other characters. Thanks, Paradox!
+		name = "Xawery Czernicki"
+		portraits = {
+            navy = {
+				large = "gfx/leaders/POL/Portrait_POL_Xawery_Czernicki.dds"
+			}
+		}	
+        navy_leader = {
+			traits = { chief_engineer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}
+

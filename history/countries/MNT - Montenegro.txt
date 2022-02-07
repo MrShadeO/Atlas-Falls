@@ -1,0 +1,96 @@
+﻿capital = 105
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 1
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader={ 
+	name = "Danilo I" 
+	picture="" 
+	expire="1940.1.1" 
+	ideology = social_democracy_sub  
+	traits = {}
+}
+
+create_country_leader={ 
+	name = "Danilo I" 
+	picture="" 
+	expire="1940.1.1" 
+	ideology = liberalism_sub 
+	traits = {}
+}
+
+create_country_leader={ 
+	name = "Danilo I" 
+	picture="" 
+	expire="1940.1.1" 
+	ideology = conservatism_sub  
+	traits = {}
+}
+
+create_country_leader={ 
+	name = "Danilo I" 
+	picture="" 
+	expire="1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}
+}
+
+create_corps_commander={ 
+	name = "Janko Vukotić"
+	traits={ } 
+	picture="MNT_janko_vukotic.dds"
+	skill=3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander={
+	name = "Crown Prince Danilo"
+	traits={ old_guard } 
+	picture = "MNT_Danilo_I.dds"
+	skill=1 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+	    ruling_party = authoritarianism_ideology
+	    last_election = "1907.11.1"
+	    election_frequency = 48
+	    elections_allowed = no
+	}
+	
+	set_popularities = {
+	    anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 0
+		social_democracy_ideology = 0
+		liberalism_ideology = 0
+		conservatism_ideology = 50
+		authoritarianism_ideology = 50
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+        agrarian_industry
+		orthodoxy
+		army_poor_funding
+		navy_minimal_funding
+		navy_untrained
+		air_minimal_funding
+		air_untrained
+		aristocratic_suffrage
+	}	
+}

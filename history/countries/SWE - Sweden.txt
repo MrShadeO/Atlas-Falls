@@ -1,0 +1,170 @@
+﻿capital = 141
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.50
+set_convoys = 25
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = {
+	name = "Zeth Höglund"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = totalism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Zeth Höglund"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = socialism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = social_democracy_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = liberalism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = ultranationalism_sub
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "von Matern"
+	traits = {
+		winter_specialist
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Fallenius"
+	traits = {
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Mörcke"
+	traits = {
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Nordenskjöld"
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Uggla"
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Hasselroth"
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "von Platen"
+	traits = {
+	}
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Schmidt"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 2
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+		ruling_party = social_democracy_ideology
+		last_election = "1921.9.19"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 6
+		socialism_ideology = 3
+		social_democracy_ideology = 40
+		liberalism_ideology = 21
+		conservatism_ideology = 29
+		authoritarianism_ideology = 1
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		lower_secondary_education
+		protestantism
+		universal_suffrage
+		eight_hour_workday
+		limited_conscription
+		navy_lavish_funding
+		air_poor_funding
+	}	
+}
+
+

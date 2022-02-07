@@ -1,0 +1,50 @@
+﻿l_english:
+#Countries, Leaders, Factions
+
+SAU_anarchism_ideology:0 "Saudi Free State"
+SAU_anarchism_ideology_DEF:0 "the Saudi Free State"
+SAU_totalism_ideology:0 "Saudi Socialist Republic"
+SAU_totalism_ideology_DEF:0 "the Saudi Socialist Republic"
+SAU_socialism_ideology:0 "Saudi Socialist Republic"
+SAU_socialism_ideology_DEF:0 "the Saudi Socialist Republic"
+SAU_social_democracy_ideology:0 "Emirate of Nejd"
+SAU_social_democracy_ideology_DEF:0 "the Emirate of Nejd"
+SAU_liberalism_ideology:0 "Emirate of Nejd"
+SAU_liberalism_ideology_DEF:0 "the Emirate of Nejd"
+SAU_conservatism_ideology:0 "Emirate of Nejd"
+SAU_conservatism_ideology_DEF:0 "the Emirate of Nejd"
+SAU_authoritarianism_ideology:0 "Emirate of Nejd"
+SAU_authoritarianism_ideology_DEF:0 "the Emirate of Nejd"
+SAU_ultranationalism_ideology:0 "Emirate of Nejd"
+SAU_ultranationalism_ideology_DEF:0 "the Emirate of Nejd"
+SAU_anarchism_ideology_ADJ:0 "Saudi"
+SAU_totalism_ideology_ADJ:0 "Saudi"
+SAU_socialism_ideology_ADJ:0 "Saudi"
+SAU_social_democracy_ideology_ADJ:0 "Saudi"
+SAU_liberalism_ideology_ADJ:0 "Saudi"
+SAU_conservatism_ideology_ADJ:0 "Saudi"
+SAU_authoritarianism_ideology_ADJ:0 "Saudi"
+SAU_ultranationalism_ideology_ADJ:0 "Saudi"
+SAU:0 "Nejd"
+SAU_DEF:0 "Nejd"
+SAU_ADJ:0 "Saudi"
+#Political Parties
+SAU_authoritarianism_ideology_party:0 "Saud Dynasty"
+SAU_authoritarianism_ideology_party_long:0 "Saud Dynasty Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

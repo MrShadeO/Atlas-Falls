@@ -1,0 +1,20 @@
+
+state = {
+	id = 226
+	name = "STATE_226"
+	manpower = 2391047
+	state_category = town
+	provinces = { 429 453 472 486 3399 3449 6423 9433 9463 9479 11405 11422 11437 11452 11461 }
+
+	history = {
+		victory_points = { 11405 1 }
+		victory_points = { 11437 10 }
+		owner = VLN
+		add_core_of = VLN
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

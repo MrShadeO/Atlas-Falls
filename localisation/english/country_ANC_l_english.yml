@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ANC_ANHUI_CLIQUE:0 "Anhui Clique"
+
+ANC_anarchism_ideology:0 "Chinese Free State"
+ANC_anarchism_ideology_DEF:0 "the Chinese Free State"
+ANC_totalism_ideology:0 "Anhui Clique"
+ANC_totalism_ideology_DEF:0 "the Anhui Clique"
+ANC_socialism_ideology:0 "Anhui Clique"
+ANC_socialism_ideology_DEF:0 "the Anhui Clique"
+ANC_social_democracy_ideology:0 "Anhui Clique"
+ANC_social_democracy_ideology_DEF:0 "the Anhui Clique"
+ANC_liberalism_ideology:0 "Anhui Clique"
+ANC_liberalism_ideology_DEF:0 "the Anhui Clique"
+ANC_conservatism_ideology:0 "Anhui Clique"
+ANC_conservatism_ideology_DEF:0 "the Anhui Clique"
+ANC_authoritarianism_ideology:0 "Anhui Clique"
+ANC_authoritarianism_ideology_DEF:0 "the Anhui Clique"
+ANC_ultranationalism_ideology:0 "Anhui Clique"
+ANC_ultranationalism_ideology_DEF:0 "the Anhui Clique"
+ANC_anarchism_ideology_ADJ:0 "Chinese"
+ANC_totalism_ideology_ADJ:0 "Chinese"
+ANC_socialism_ideology_ADJ:0 "Chinese"
+ANC_social_democracy_ideology_ADJ:0 "Chinese"
+ANC_liberalism_ideology_ADJ:0 "Chinese"
+ANC_conservatism_ideology_ADJ:0 "Chinese"
+ANC_authoritarianism_ideology_ADJ:0 "Chinese"
+ANC_ultranationalism_ideology_ADJ:0 "Chinese"
+ANC:0 "Anhui Clique"
+ANC_DEF:0 "the Anhui Clique"
+ANC_ADJ:0 "Chinese"
+#Political Parties
+ANC_authoritarianism_ideology_party:0 "Anhui Clique"
+ANC_authoritarianism_ideology_party_long:0 "Anhui Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

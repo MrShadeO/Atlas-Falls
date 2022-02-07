@@ -1,0 +1,137 @@
+﻿capital = 854
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 13
+
+set_country_flag = has_chairman
+set_country_flag = is_provisional_government
+
+create_country_leader = {
+	name = "Sun Yat-sen"
+	picture = "gfx/leaders/CHI/CHI_sun_wen.dds"
+	expire = "1935.1.1"
+	ideology = socialism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sun Yat-sen"
+	picture = "gfx/leaders/CHI/CHI_sun_wen.dds"
+	expire = "1935.1.1"
+	ideology = social_democracy_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sun Yat-sen"
+	picture = "gfx/leaders/CHI/CHI_sun_wen.dds"
+	expire = "1935.1.1"
+	ideology = liberalism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sun Yat-sen"
+	picture = "gfx/leaders/CHI/CHI_sun_wen.dds"
+	expire = "1935.1.1"
+	ideology = conservatism_sub
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sun Yat-sen"
+	picture = "gfx/leaders/CHI/CHI_sun_wen.dds"
+	expire = "1935.1.1"
+	ideology = authoritarianism_sub
+	traits = {}
+}
+
+create_field_marshal={  
+	name = "Huang Xing"
+	traits={ 
+		defensive_doctrine
+		politically_connected
+	} 
+	skill= 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+#Guominjun
+create_corps_commander = {
+	name = "Yang Hucheng"
+	portrait_path = "gfx/leaders/CHI/CHI_yang_hucheng.dds"
+	id=15096 
+	traits = {
+		inflexible_strategist
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+#Shanxi
+create_corps_commander = {
+	name = "Yan Xishan"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
+	id=15097
+	traits = {
+		fast_planner
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Cai E"
+	portrait_path = "gfx/leaders/CHI/CHI_cai_e.dds"
+	id=15098
+	traits = {
+		ranger
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+# oob = "CHI_1910"
+
+set_politics = {
+	ruling_party = authoritarianism_ideology
+	last_election = "1907.2.15" 
+	election_frequency = 60 
+	elections_allowed = no
+}	
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 15
+	social_democracy_ideology = 15
+	liberalism_ideology = 20
+	conservatism_ideology = 10
+	authoritarianism_ideology = 40
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	low_tax_rate
+	early_industrialization
+	aristocrats_only
+	traditional
+	state_ownership
+	army_lavish_funding
+	navy_poor_funding
+	air_minimal_funding
+	air_untrained
+}

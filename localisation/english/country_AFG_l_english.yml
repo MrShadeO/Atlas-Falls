@@ -1,0 +1,53 @@
+﻿l_english:
+#Countries, Leaders, Factions
+AFG_SHIR_AHMAD:0 "Shir Ahmad"
+
+AFG_anarchism_ideology:0 "Afghan Free State"
+AFG_anarchism_ideology_DEF:0 "the Afghan Free State"
+AFG_totalism_ideology:0 "Socialist Republic of Afghanistan"
+AFG_totalism_ideology_DEF:0 "the Socialist Republic of Afghanistan"
+AFG_socialism_ideology:0 "Socialist Republic of Afghanistan"
+AFG_socialism_ideology_DEF:0 "the Socialist Republic of Afghanistan"
+AFG_social_democracy_ideology:0 "Emirate of Afghanistan"
+AFG_social_democracy_ideology_DEF:0 "the Emirate of Afghanistan"
+AFG_liberalism_ideology:0 "Emirate of Afghanistan"
+AFG_liberalism_ideology_DEF:0 "the Emirate of Afghanistan"
+AFG_conservatism_ideology:0 "Emirate of Afghanistan"
+AFG_conservatism_ideology_DEF:0 "the Emirate of Afghanistan"
+AFG_authoritarianism_ideology:0 "Emirate of Afghanistan"
+AFG_authoritarianism_ideology_DEF:0 "the Emirate of Afghanistan"
+AFG_ultranationalism_ideology:0 "Emirate of Afghanistan"
+AFG_ultranationalism_ideology_DEF:0 "the Emirate of Afghanistan"
+AFG_anarchism_ideology_ADJ:0 "Afghan"
+AFG_totalism_ideology_ADJ:0 "Afghan"
+AFG_socialism_ideology_ADJ:0 "Afghan"
+AFG_social_democracy_ideology_ADJ:0 "Afghan"
+AFG_liberalism_ideology_ADJ:0 "Afghan"
+AFG_conservatism_ideology_ADJ:0 "Afghan"
+AFG_authoritarianism_ideology_ADJ:0 "Afghan"
+AFG_ultranationalism_ideology_ADJ:0 "Afghan"
+AFG:0 "Afghanistan"
+AFG_DEF:0 "Afghanistan"
+AFG_ADJ:0 "Afghan"
+#Political Parties
+AFG_authoritarianism_ideology_party:0 "House Barakzai"
+AFG_authoritarianism_ideology_party_long:0 "House Barakzai Loyalists"
+AFG_ultranationalism_ideology_party:0 "Saqqawists"
+AFG_ultranationalism_ideology_party_long:0 "Saqqawists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

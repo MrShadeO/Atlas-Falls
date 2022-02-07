@@ -1,0 +1,119 @@
+capital = 111
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 30
+
+set_country_flag = has_grand_duke
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = {
+	name = "Kullervo Manner" 
+	desc = "FIN_KULLERVO_MANNER_DESC"
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Kullervo Manner" 
+	desc = "FIN_KULLERVO_MANNER_DESC"
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Nicholas II" 
+	desc = "FIN_NICHOLAS_II_DESC"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Nicholas II" 
+	desc = "FIN_NICHOLAS_II_DESC"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Nicholas II" 
+	desc = "FIN_NICHOLAS_II_DESC"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Nicholas II" 
+	desc = "FIN_NICHOLAS_II_DESC"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = {
+	name = "Nicholas II" 
+	desc = "FIN_NICHOLAS_II_DESC"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+create_corps_commander = {
+	name = "Carl Gustaf Mannerheim" 
+	portrait_path = "gfx/leaders/FIN/FIN_carl_mannerheim.dds" 
+	traits = { inflexible_strategist war_hero trickster winter_specialist } 
+	id = 100
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ernst Linder" 
+	id = 101
+	portrait_path = "gfx/leaders/FIN/FIN_ernst_linder.dds" 
+	 
+	skill = 2
+}
+
+	set_politics = {
+		ruling_party = liberalism_ideology
+		last_election = "1922.6.1" 
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 10
+		socialism_ideology = 15
+		social_democracy_ideology = 30
+		liberalism_ideology = 20
+		conservatism_ideology = 20
+		authoritarianism_ideology = 5
+		ultranationalism_ideology = 0
+	}
+	add_ideas = {
+		low_tax_rate
+		low_economic_mobilisation
+		limited_conscription
+		early_industrialization
+		universal_suffrage
+		lower_secondary_education
+		eight_hour_workday
+		navy_minimal_funding
+		air_minimal_funding
+	}

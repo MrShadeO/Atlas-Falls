@@ -1,0 +1,25 @@
+state = {
+	id = 345
+	name = "STATE_345"
+	manpower = 857000
+	state_category = city
+	provinces = { 895 3936 11818 12733 }
+	resources = {
+		steel = 3
+		chromium = 5
+		tungsten = 4
+	}
+
+	history = {
+		victory_points = { 11818 10 }
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 2
+			arms_factory = 1
+			11818 = { naval_base = 3 } 
+		}
+	}
+}

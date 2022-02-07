@@ -1,0 +1,23 @@
+
+state = {
+	id = 404
+	name = "STATE_404"
+	manpower = 170337
+	state_category = rural
+	provinces = { 362 }
+
+	history = {
+		victory_points = { 362 10 }
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			362 = {
+				naval_base = 5
+				coastal_bunker = 6 
+			}
+		}
+	}
+}

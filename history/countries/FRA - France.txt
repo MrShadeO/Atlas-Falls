@@ -1,0 +1,269 @@
+﻿capital = 16
+
+set_research_slots = 4
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 273
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = { 
+	name = "Léon Jouhaux" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = anarchism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Marcel Cachin" 
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "Philippe VIII" 
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_VIII.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+create_field_marshal = {
+	name = "Joseph Joffre" id=32007
+	portrait_path="gfx/leaders/FRA/FRA_joseph_joffre.dds"
+	traits={ offensive_doctrine old_guard }
+	skill=4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal={
+	name = "Joseph Gallieni" id=32019
+	portrait_path="gfx/leaders/FRA/FRA_joseph_gallieni.dds"
+	traits={ defensive_doctrine old_guard }
+	skill=4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal={
+	name = "Ferdinand Foch" id=32006
+	portrait_path="gfx/leaders/FRA/FRA_ferdinand_foch.dds"
+	traits={ offensive_doctrine }
+	skill=4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander={
+	name = "Philippe Pétain" id=32009
+	portrait_path="gfx/leaders/FRA/FRA_philippe_petain.dds"
+	traits={ trickster }
+	skill=3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander={
+	name = "Robert Nivelle" id=32031
+	portrait_path="gfx/leaders/FRA/FRA_robert_nivelle.dds"
+	traits={ }
+	skill=2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander={
+    name = "Charles Lanrezac" id=3200
+    portrait_path="gfx/leaders/FRA/FRA_charles_lanrezac.dds"
+    traits={ inflexible_strategist war_hero career_officer }
+    skill=3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 1
+    }
+
+create_corps_commander={
+	name = "Louis Franchet d'Espèrey" id=32003
+	portrait_path="gfx/leaders/FRA/FRA_louis_franchet_d_esperey.dds"
+	traits={ }
+	skill=3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander={
+	name = "Émile Fayolle" id=32293
+	portrait_path="gfx/leaders/FRA/FRA_emile_fayolle.dds"
+	traits={ }
+	skill=2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander={
+	name = "Hubert Lyautey" id=32004
+	portrait_path="gfx/leaders/FRA/FRA_hubert_lyautey.dds"
+	traits={ }
+	skill=2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander={
+	name = "Michel Maunoury" id=32033
+	portrait_path="gfx/leaders/FRA/FRA_michel_maunoury.dds"
+	traits={ }
+	skill=3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Paul Leblois"
+	portrait_path = "gfx/leaders/FRA/FRA_paul_leblois.dds"
+	traits = {
+		infantry_officer
+		inflexible_strategist
+		trait_mountaineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader={
+	name = "Auguste Boué de Lapeyrère" id=32302
+	portrait_path="gfx/leaders/FRA/FRA_de_lapeyrere.dds"
+	traits={ }
+	skill=3
+	attack_skill = 1
+	defense_skill = 2
+}
+
+create_navy_leader={
+	name = "Jean Merveilleux du Vignaux" id=32306
+	portrait_path="gfx/leaders/FRA/FRA_du_vignaux.dds"
+	traits={ old_guard }
+	skill=2
+	attack_skill = 1
+	defense_skill = 2
+}
+
+create_navy_leader={
+	name = "Lucien Lacaze" id=32329
+	portrait_path="gfx/leaders/FRA/FRA_lucien_lacaze.dds"
+	traits={ }
+	skill=3
+	attack_skill = 1
+	defense_skill = 2
+}
+
+create_navy_leader={
+	name = "Pierre-Alexis Ronarc'h" id=32341
+	portrait_path="gfx/leaders/FRA/FRA_ronarc_h.dds"
+	traits={ }
+	skill=3
+	attack_skill = 1
+	defense_skill = 1
+}
+
+set_politics = {
+	ruling_party = authoritarianism_ideology
+	last_election = "1922.2.1" 
+	election_frequency = 72
+	elections_allowed = yes
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 5
+	liberalism_ideology = 5
+	conservatism_ideology = 10
+	authoritarianism_ideology = 40
+	ultranationalism_ideology = 40
+}
+
+add_ideas = {
+	medium_tax_rate
+	partial_economic_mobilisation
+	limited_conscription
+	police_state
+	lower_secondary_education
+	catholicism
+	no_citizenship
+	basic_pensions
+	army_lavish_funding
+	army_veteran
+	state_ownership
+	census_suffrage
+	minimum_wage
+	air_veteran
+	colonial_exploitation
+}

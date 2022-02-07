@@ -1,0 +1,773 @@
+scripted_gui = {
+    display_action_menu_gui = {
+        window_name = "action_menu_container"
+        context_type = player_context
+
+        effects = {
+            cancel_button_click = {
+                clr_country_flag = display_action_menu
+            }
+
+            option_1_click = { #Note: every government type has an Option 1
+                clr_country_flag = display_action_menu
+                if = {
+                    limit = { has_country_flag = is_federal_republic }
+                    add_timed_idea = {
+                        idea = bully_pulpit_cooldown
+                        days = 180
+                    }
+                    add_timed_idea = {
+                        idea = bully_pulpit_bonus
+                        days = 30
+                    }
+                    set_variable = { cooldown_duration_remaining = 180 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_parliamentary_republic }
+                    add_timed_idea = {
+                        idea = snap_elections_cooldown
+                        days = 365
+                    }
+                    add_political_power = -150
+                    set_variable = { cooldown_duration_remaining = 365 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_oligarchy }
+                    add_timed_idea = {
+                        idea = embezzlement_cooldown
+                        days = 180
+                    }
+                    add_timed_idea = {
+                        idea = embezzlement_bonus
+                        days = 90
+                    }
+                    add_political_power = 150
+                    set_variable = { cooldown_duration_remaining = 180 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_socialist_republic }
+                    add_timed_idea = {
+                        idea = nationalized_industry_cooldown
+                        days = 90
+                    }
+                    add_political_power = -50
+                    random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 1
+                            instant_build = yes
+                        }
+                    }
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_constitutional_monarchy }
+                    add_timed_idea = {
+                        idea = snap_elections_cooldown
+                        days = 365
+                    }
+                    add_political_power = -150
+                    set_variable = { cooldown_duration_remaining = 365 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_absolute_monarchy }
+                    add_timed_idea = {
+                        idea = royal_decree_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = royal_decree_mobilization_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_dictatorship }
+                    set_country_flag = display_great_purge_menu
+                    set_variable = { agriculture_checkbox_var = 1 }
+                    set_variable = { commerce_checkbox_var = 1 }
+                    set_variable = { defense_checkbox_var = 1 }
+                    set_variable = { education_checkbox_var = 1 }
+                    set_variable = { energy_checkbox_var = 1 }
+                    set_variable = { foreign_checkbox_var = 1 }
+                    set_variable = { industry_checkbox_var = 1 }
+                    set_variable = { justice_checkbox_var = 1 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_one_party_state }
+                    add_timed_idea = {
+                        idea = secret_police_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = secret_police_resistance_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_anarcho_communist }
+                    add_timed_idea = {
+                        idea = liberty_or_death_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = liberty_or_death_bonus
+                        days = 90
+                    }
+                    add_political_power = -100
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_anarcho_capitalist }
+                    add_timed_idea = {
+                        idea = no_gods_or_kings_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = no_gods_or_kings_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_provisional_government }
+                    add_timed_idea = {
+                        idea = emergency_powers_cooldown
+                        days = 90
+                    }
+                    random_list = {
+                        50 = {
+                            random_owned_controlled_state = {
+                                add_extra_state_shared_building_slots = 1
+                                add_building_construction = {
+                                    type = arms_factory
+                                    level = 1
+                                    instant_build = yes
+                                }
+                            }
+                        }
+                        50 = {
+                            random_owned_controlled_state = {
+                                add_extra_state_shared_building_slots = 1
+                                add_building_construction = {
+                                    type = industrial_complex
+                                    level = 1
+                                    instant_build = yes
+                                }
+                            }
+                        }
+                    }
+                    add_stability = -0.05
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_colonial_government }
+                    add_timed_idea = {
+                        idea = colonial_wealth_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = colonial_wealth_construction_bonus
+                        days = 90
+                    }
+                    add_political_power = -75
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+            }
+
+            option_2_click = {
+                clr_country_flag = display_action_menu
+                set_variable = { cooldown_start_date = num_days }
+                if = {
+                    limit = { has_country_flag = is_socialist_republic }
+                    add_timed_idea = {
+                        idea = nationalized_industry_cooldown
+                        days = 90
+                    }
+                    add_political_power = -50
+                    random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 1
+                            instant_build = yes
+                        }
+                    }
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_absolute_monarchy }
+                    add_timed_idea = {
+                        idea = royal_decree_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = royal_decree_war_support_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_one_party_state }
+                    add_timed_idea = {
+                        idea = secret_police_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = secret_police_stability_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_provisional_government }
+                    add_timed_idea = {
+                        idea = emergency_powers_cooldown
+                        days = 90
+                    }
+                    add_manpower = 10000
+                    add_stability = -0.05
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_colonial_government }
+                    add_timed_idea = {
+                        idea = colonial_wealth_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = colonial_wealth_resource_bonus
+                        days = 90
+                    }
+                    add_political_power = -75
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+            }
+
+            option_3_click = {
+                clr_country_flag = display_action_menu
+                set_variable = { cooldown_start_date = num_days }
+                if = {
+                    limit = { has_country_flag = is_absolute_monarchy }
+                    add_timed_idea = {
+                        idea = royal_decree_cooldown
+                        days = 90
+                    }
+                    add_timed_idea = {
+                        idea = royal_decree_stability_bonus
+                        days = 90
+                    }
+                    add_political_power = -50
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+                else_if = {
+                    limit = { has_country_flag = is_provisional_government }
+                    add_timed_idea = {
+                        idea = emergency_powers_cooldown
+                        days = 90
+                    }
+                    add_political_power = 100
+                    add_stability = -0.05
+                    set_variable = { cooldown_duration_remaining = 90 }
+                }
+            }
+		}
+
+        triggers = {
+            option_2_visible = {
+                OR = {
+                    has_country_flag = is_socialist_republic
+                    has_country_flag = is_absolute_monarchy
+                    has_country_flag = is_one_party_state
+                    has_country_flag = is_provisional_government
+                    has_country_flag = is_colonial_government
+                }
+            }
+
+            option_3_visible = {
+                OR = {
+                    has_country_flag = is_absolute_monarchy
+                    has_country_flag = is_provisional_government
+                }
+            }
+
+            option_1_click_enabled = {
+                OR = {
+                    has_country_flag = is_federal_republic
+                    has_country_flag = is_oligarchy
+                    AND = {
+                        OR = {
+                            has_country_flag = is_parliamentary_republic
+                            has_country_flag = is_constitutional_monarchy
+                        }
+                        has_political_power > 149
+                    }
+                    AND = {
+                        has_country_flag = is_socialist_republic
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_one_party_state
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_communist
+                        has_political_power > 99
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_capitalist
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_provisional_government
+                        has_stability > 0.05
+                    }
+                    AND = {
+                        has_country_flag = is_colonial_government
+                        has_political_power > 74
+                    }
+                    AND = {
+                        has_country_flag = is_dictatorship
+                        any_character = {
+                            OR = {
+                                has_character_flag = is_agriculture_minister
+                                has_character_flag = is_commerce_minister
+                                has_character_flag = is_defense_minister
+                                has_character_flag = is_education_minister
+                                has_character_flag = is_energy_minister
+                                has_character_flag = is_foreign_minister
+                                has_character_flag = is_industry_minister
+                                has_character_flag = is_justice_minister
+                            }
+                        }
+                    }
+                }
+            }
+
+            option_2_click_enabled = {
+                OR = {
+                    has_country_flag = is_federal_republic
+                    has_country_flag = is_oligarchy
+                    AND = {
+                        OR = {
+                            has_country_flag = is_parliamentary_republic
+                            has_country_flag = is_constitutional_monarchy
+                        }
+                        has_political_power > 149
+                    }
+                    AND = {
+                        has_country_flag = is_socialist_republic
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_one_party_state
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_communist
+                        has_political_power > 99
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_capitalist
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_provisional_government
+                        has_stability > 0.05
+                    }
+                    AND = {
+                        has_country_flag = is_colonial_government
+                        has_political_power > 74
+                    }
+                    AND = {
+                        has_country_flag = is_dictatorship
+                        
+                    }
+                }
+            }
+
+            option_3_click_enabled = {
+                OR = {
+                    has_country_flag = is_federal_republic
+                    has_country_flag = is_oligarchy
+                    AND = {
+                        OR = {
+                            has_country_flag = is_parliamentary_republic
+                            has_country_flag = is_constitutional_monarchy
+                        }
+                        has_political_power > 149
+                    }
+                    AND = {
+                        has_country_flag = is_socialist_republic
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_one_party_state
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_communist
+                        has_political_power > 99
+                    }
+                    AND = {
+                        has_country_flag = is_anarcho_capitalist
+                        has_political_power > 49
+                    }
+                    AND = {
+                        has_country_flag = is_provisional_government
+                        has_stability > 0.05
+                    }
+                    AND = {
+                        has_country_flag = is_colonial_government
+                        has_political_power > 74
+                    }
+                    AND = {
+                        has_country_flag = is_dictatorship
+                        
+                    }
+                }
+            }
+        }
+
+        visible = {
+            has_country_flag = display_action_menu
+        }
+
+        #AI STUFF
+        ai_enabled = {
+            always = yes
+        }
+
+        ai_test_interval = 24
+        ai_test_variance = 0.2
+        ai_max_weight_taken_per_test = 1
+
+        ai_check = {
+            has_country_flag = display_action_menu
+
+            #The following must be true for the AI to even open the finances tab.
+            #OR = {
+            #    #Federal Republic check
+            #    AND = {
+            #        has_country_flag = is_federal_republic
+            #        has_political_power > 49
+            #        OR = {
+            #            AND = {
+            #                has_government = anarchism_ideology
+            #                anarchism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = totalism_ideology
+            #                totalism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = socialism_ideology
+            #                socialism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = social_democracy_ideology
+            #                social_democracy_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = liberalism_ideology
+            #                liberalism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = conservatism_ideology
+            #                conservatism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = authoritarianism_ideology
+            #                authoritarianism_ideology > 0.40
+            #            }
+            #            AND = {
+            #                has_government = ultranationalism_ideology
+            #                ultranationalism_ideology > 0.40
+            #            }
+            #        }
+            #    }
+            #    #Oligarchy check
+            #    AND = {
+            #        has_country_flag = is_oligarchy
+            #        check_variable = {
+            #            var = net_tax_var
+            #            value = 2
+            #            compare = equals
+            #        }
+            #        has_political_power < 100
+            #    }
+            #    #Socialist Republic check
+            #    AND = {
+            #        has_country_flag = is_socialist_republic
+            #        has_political_power > 49
+            #    }
+            #    #Absolute Monarchy check
+            #    AND = {
+            #        has_country_flag = is_absolute_monarchy
+            #        has_political_power > 49
+            #        OR = {
+            #            has_stability < 0.50
+            #            has_war_support < 0.50
+            #            has_war = yes
+            #        }
+            #    }
+            #    #One-Party State check
+            #    AND = {
+            #        has_country_flag = is_one_party_state
+            #        has_political_power > 49
+            #        OR = {
+            #            has_stability < 0.50
+            #            has_war = yes
+            #        }
+            #    }
+            #    #Anarcho-Communist check
+            #    AND = {
+            #        has_country_flag = is_anarcho_communist
+            #        has_political_power > 99
+            #    }
+            #    #Anarcho-Capitalist check
+            #    AND = {
+            #        has_country_flag = is_anarcho_capitalist
+            #        has_political_power > 49
+            #    }
+            #    #Provisional Government check
+            #    AND = {
+            #        has_country_flag = is_provisional_government
+            #        OR = {
+            #            AND = {
+            #                has_stability > 0.90
+            #                has_political_power < 50
+            #            }
+            #            AND = {
+            #                has_war = yes
+            #                has_stability > 0.50
+            #            }
+            #            AND = {
+            #                has_war = yes
+            #                has_manpower < 10000
+            #            }
+            #        }
+            #    }
+            #    #Colonial Government check
+            #    AND = {
+            #        has_country_flag = is_colonial_government
+            #        has_political_power > 74
+            #    }
+            #
+            #    #Constitutional Monarchy / Parliamentary Republic check
+            #        #Might script this one in the future for specific countries, but this would be incredibly difficult to code dynamically.
+            #
+            #    #Dictatorship check
+            #        #Might script this one in the future for specific countries, but this would be incredibly difficult to code dynamically. The AI might kill off ministers that it really shouldn't.
+            #}
+        }
+
+        ai_weights = {
+            option_1_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = { #Federal Republic
+                        add = 100
+
+                        has_country_flag = is_federal_republic
+                        has_political_power > 49
+                    }
+
+                    modifier = { #Oligarchy
+                        add = 100
+
+                        has_country_flag = is_oligarchy
+                        check_variable = {
+                            var = net_tax_var
+                            value = 2
+                            compare = equals
+                        }
+                        has_political_power < 100
+                    }
+
+                    modifier = { #Socialist Republic (Military Factory Option)
+                        add = 100
+
+                        has_country_flag = is_socialist_republic
+                        has_political_power > 49
+                        check_variable = {
+                            var = num_of_available_civilian_factories 
+                            value = num_of_military_factories
+                            compare = greater_than_or_equals
+                        }
+                    }
+
+                    modifier = { #Absolute Monarchy (Mobilization Option)
+                        add = 100
+
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                        has_stability > 0.50
+                        has_war_support > 0.50
+                        has_war = yes
+                    }
+
+                    modifier = { #One-Party State (Resistance Option)
+                        add = 100
+
+                        has_country_flag = is_one_party_state
+                        has_political_power > 49
+                        has_stability > 0.50
+                        has_war = yes
+                    }
+
+                    modifier = { #Anarcho-Communist
+                        add = 100
+
+                        has_country_flag = is_anarcho_communist
+                        has_political_power > 99
+                    }
+
+                    modifier = { #Anarcho-Capitalist
+                        add = 100
+
+                        has_country_flag = is_anarcho_capitalist
+                        has_political_power > 49
+                    }
+
+                    modifier = { #Provisional Government (Factory Option)
+                        add = 100
+
+                        has_country_flag = is_provisional_government
+                        has_manpower > 10000
+                        OR = {
+                            AND = {
+                                has_war = yes
+                                has_stability > 0.50
+                            }
+                            AND = {
+                                has_war = no
+                                has_stability > 0.90
+                            }
+                        }
+                    }
+
+                    modifier = { #Colonial Government (Construction Bonus Option)
+                        add = 100
+
+                        has_country_flag = is_colonial_government
+                        set_temp_variable = { temp_half_civ_factories = num_of_civilian_factories }
+                        divide_temp_variable = { temp_half_civ_factories = 2 }
+                        check_variable = {
+                            var = num_of_available_civilian_factories 
+                            value = temp_half_civ_factories
+                            compare = greater_than_or_equals
+                        }
+                    }
+                }
+            }
+
+            option_2_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = { #Socialist Republic (Civilian Factory Option)
+                        add = 100
+
+                        has_country_flag = is_socialist_republic
+                        has_political_power > 49
+                        check_variable = {
+                            var = num_of_available_civilian_factories 
+                            value = num_of_military_factories
+                            compare = less_than
+                        }
+                    }
+
+                    modifier = { #Absolute Monarchy (War Support Option)
+                        add = 100
+
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                        has_stability > 0.50
+                        has_war_support < 0.50
+                    }
+
+                    modifier = { #One-Party State (Stability Option)
+                        add = 100
+
+                        has_country_flag = is_one_party_state
+                        has_political_power > 49
+                        has_stability < 0.50
+                    }
+
+                    modifier = { #Provisional Government (Manpower Option)
+                        add = 100
+
+                        has_country_flag = is_provisional_government
+                        has_war = yes
+                        has_manpower < 10000
+                    }
+
+                    modifier = { #Colonial Government (Resource Bonus Option)
+                        add = 100
+
+                        has_country_flag = is_colonial_government
+                        set_temp_variable = { temp_half_civ_factories = num_of_civilian_factories }
+                        divide_temp_variable = { temp_half_civ_factories = 2 }
+                        check_variable = {
+                            var = num_of_available_civilian_factories 
+                            value = temp_half_civ_factories
+                            compare = less_than
+                        }
+                    }
+                }
+            }
+
+            option_3_click = {
+                ai_will_do = {
+                    base = 0
+
+                    modifier = { #Absolute Monarchy (Stability Option)
+                        add = 100
+
+                        has_country_flag = is_absolute_monarchy
+                        has_political_power > 49
+                        has_stability < 0.50
+                    }
+
+                    modifier = { #Provisional Government (Political Power Option)
+                        add = 100
+
+                        has_country_flag = is_provisional_government
+                        has_war = yes
+                        has_stability > 0.90
+                        has_manpower > 10000
+                    }
+                }
+            }
+
+            cancel_button_click = {
+                ai_will_do = {
+                    base = 1
+
+
+                }
+            }
+        }
+    }
+}

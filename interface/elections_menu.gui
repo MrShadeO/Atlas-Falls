@@ -1,0 +1,228 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "elections_tab_window"
+		position = { x = 719 y = 80 }	
+		size = { width= 549 height=600 }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+
+        iconType ={
+			name ="elections_tab_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "elections_title"
+			position = { x = 37 y = 5 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_TAB_HEADER"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+		}
+
+		buttonType = {
+			name = "elections_tab_close_button"
+			position = { x = -41 y = 7 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "elections_tab_help_button"
+			position = { x = -94 y = 6 }
+			spriteType ="GFX_basic_circle_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "ELECTIONS_TUTORIAL_KEY"
+		}
+
+		iconType = {
+			name ="elections_tab_help_button_icon"
+			spriteType = "GFX_icon_atlas_cog"
+			position = { x = -85 y = 14 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "update_election_polls_btn"
+			position = { x = 35 y = 538 }
+			spriteType ="GFX_action_btn"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "UPDATE_ELECTIONS_BTN_TT"
+		}
+
+		instantTextboxType = {
+			name = "update_election_polls_text"
+			position = { x = 56 y = 552 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "UPDATE_ELECTION_POLLS_TEXT_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "toggle_view_btn"
+			position = { x = 330 y = 538 }
+			spriteType ="GFX_action_btn"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "TOGGLE_BTN_TT"
+		}
+
+		instantTextboxType = {
+			name = "toggle_view_text"
+			position = { x = 376 y = 552 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "TOGGLE_VIEW_TEXT_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "elections_summary_container"
+			position = { x = 10 y = 40 }	
+			size = { width = 518 height = 500 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_plain_bg"
+			}
+
+			instantTextboxType = {
+				name = "chamber_title"
+				position = { x = 0 y = 15 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "CHAMBER_TITLE_KEY"
+				maxWidth = 517
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "elections_labels"
+				position = { x = 21 y = 65 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "ELECTIONS_LABELS_KEY"
+				maxWidth = 517
+				maxHeight = 20
+				format = left
+			}
+
+			gridboxtype = {
+				name = "elections_parties_main_grid"
+				position = { x = 27 y = 105 }
+				size = { width = 0 height = 0 }
+				slotsize = { width = 0 height = 50 }
+				add_horizontal = no
+			}
+		}
+    }
+
+	containerWindowType = {
+		name = "elections_party_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 517 height = 40 }
+
+		iconType ={
+			name ="party_color_icon"
+			spriteType = "GFX_elections_parties_icons"
+			position = { x = -18 y = 0 }
+		}
+
+		instantTextboxType = {
+			name = "elections_party_name"
+			position = { x = 6 y = 0 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_PARTY_NAME_KEY"
+			maxWidth = 517
+			maxHeight = 20
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "elections_popularity"
+			position = { x = -64 y = 0 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_POPULARITY_KEY"
+			maxWidth = 517
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "elections_seats"
+			position = { x = 70 y = 0 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_SEATS_KEY"
+			maxWidth = 517
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "elections_results"
+			position = { x = 171 y = 0 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_RESULTS_KEY"
+			maxWidth = 517
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "elections_crown_icon"
+			position = { x = 198 y = -1 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_CROWN_KEY"
+			maxWidth = 517
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "line_break"
+			position = { x = -17 y = -36 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "ELECTIONS_LINE_BREAK"
+			maxWidth = 517
+			maxHeight = 20
+			format = left
+		}
+	}
+}

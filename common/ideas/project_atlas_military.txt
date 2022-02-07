@@ -1,0 +1,642 @@
+ideas = {
+
+    pensions = {
+        law = yes
+		use_list_view = yes
+
+        no_pensions = {
+            default = yes
+
+			cost = 100
+			
+			modifier = {
+                
+			}
+			
+            default = yes
+			cancel_if_invalid = no
+		}
+
+        basic_pensions = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -2
+                experience_gain_army_unit_factor = 0.05
+                experience_gain_army_factor = 0.05
+                experience_gain_navy_factor = 0.05
+                experience_gain_navy_unit_factor = 0.05
+                experience_gain_air_factor = 0.05
+                air_mission_xp_gain_factor = 0.05
+                air_training_xp_gain_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        generous_pensions = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -4
+                experience_gain_army_unit_factor = 0.10
+                experience_gain_army_factor = 0.10
+                experience_gain_navy_factor = 0.10
+                experience_gain_navy_unit_factor = 0.10
+                experience_gain_air_factor = 0.10
+                air_mission_xp_gain_factor = 0.10
+                air_training_xp_gain_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    army_funding_law = {
+        law = yes
+		use_list_view = yes
+
+        army_minimal_funding = {
+			cost = 100
+			
+			
+			modifier = {
+                army_morale_factor = -0.10
+                attrition = 0.20
+                army_fuel_consumption_factor = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_poor_funding = {
+			cost = 100
+			
+			
+			modifier = {
+                standing_army_limit = 6
+                tax_revenue = -1
+                army_morale_factor = -0.05
+                attrition = 0.10
+                army_fuel_consumption_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_sufficient_funding = {
+            default = yes
+
+			cost = 100
+			
+			
+			modifier = {
+                standing_army_limit = 12
+                tax_revenue = -2
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_lavish_funding = {
+			cost = 100
+			
+			modifier = {
+                standing_army_limit = 18
+                tax_revenue = -3
+                army_morale_factor = 0.05
+                attrition = -0.10
+                army_fuel_consumption_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_massive_funding = {
+			cost = 100
+			
+			modifier = {
+                standing_army_limit = 24
+                tax_revenue = -4
+                army_morale_factor = 0.10
+                attrition = -0.20
+                army_fuel_consumption_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    troop_quality = {
+        law = yes
+		use_list_view = yes
+
+        army_untrained = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                training_time_factor = -0.25
+                minimum_training_level = -0.10
+                army_org_factor = -0.15
+                army_morale_factor = -0.15
+                army_attack_factor = -0.10
+                army_defence_factor = -0.10
+                army_speed_factor = -0.10
+                ground_attack_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_professional = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                
+			}
+
+            default = yes
+			
+			cancel_if_invalid = no
+		}
+
+        army_veteran = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                training_time_factor = 0.10
+                minimum_training_level = 0.10
+                army_org_factor = 0.05
+                army_morale_factor = 0.05
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        army_elite = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_mil_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                training_time_factor = 0.20
+                minimum_training_level = 0.20
+                army_org_factor = 0.10
+                army_morale_factor = 0.10
+                army_attack_factor = 0.10
+                army_defence_factor = 0.10
+                ground_attack_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    navy_funding_law = {
+        law = yes
+		use_list_view = yes
+
+        navy_minimal_funding = {
+			cost = 100
+			
+			modifier = {
+                naval_morale_factor = -0.10
+                naval_attrition = 0.20
+                navy_fuel_consumption_factor = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_poor_funding = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -1
+                naval_morale_factor = -0.05
+                naval_attrition = 0.10
+                navy_fuel_consumption_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_sufficient_funding = {
+            default = yes
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -2
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_lavish_funding = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -3
+                naval_morale_factor = 0.05
+                naval_attrition = -0.10
+                navy_fuel_consumption_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_massive_funding = {
+            cost = 100
+			
+			modifier = {
+                tax_revenue = -4
+                naval_morale_factor = 0.10
+                naval_attrition = -0.20
+                navy_fuel_consumption_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    sailor_quality = {
+        law = yes
+		use_list_view = yes
+
+        navy_untrained = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                naval_coordination = -0.15
+                naval_morale_factor = -0.15
+                naval_damage_factor = -0.10
+                naval_defense_factor = -0.10
+                naval_speed_factor = -0.10
+                air_nav_efficiency = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_professional = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                
+			}
+
+            default = yes
+			
+			cancel_if_invalid = no
+		}
+
+        navy_veteran = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                naval_coordination = 0.05
+                naval_morale_factor = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                naval_speed_factor = 0.05
+                air_nav_efficiency = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        navy_elite = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_navy_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                naval_coordination = 0.10
+                naval_morale_factor = 0.10
+                naval_damage_factor = 0.10
+                naval_defense_factor = 0.10
+                naval_speed_factor = 0.10
+                air_nav_efficiency = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    air_funding_law = {
+        law = yes
+		use_list_view = yes
+
+        air_minimal_funding = {
+			cost = 100
+			
+			modifier = {
+                air_fuel_consumption_factor = 0.20
+                air_maximum_speed_factor = -0.10
+                air_agility_factor = -0.06
+                air_attack_factor = -0.06
+                air_defence_factor = -0.06
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_poor_funding = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -1
+                air_fuel_consumption_factor = 0.10
+                air_maximum_speed_factor = -0.05
+                air_agility_factor = -0.03
+                air_attack_factor = -0.03
+                air_defence_factor = -0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_sufficient_funding = {
+            default = yes
+
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -2
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_lavish_funding = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -3
+                air_fuel_consumption_factor = -0.10
+                air_maximum_speed_factor = 0.05
+                air_agility_factor = 0.03
+                air_attack_factor = 0.03
+                air_defence_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_massive_funding = {
+			cost = 100
+			
+			modifier = {
+                tax_revenue = -4
+                air_fuel_consumption_factor = -0.20
+                air_maximum_speed_factor = 0.10
+                air_agility_factor = 0.06
+                air_attack_factor = 0.06
+                air_defence_factor = 0.06
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    pilot_quality = {
+        law = yes
+		use_list_view = yes
+        
+        air_untrained = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                air_accidents_factor = 0.10
+                air_bombing_targetting = -0.10
+                air_cas_efficiency = -0.10
+                air_mission_efficiency = -0.15
+                air_night_penalty = 0.10
+                air_weather_penalty = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_professional = {
+            default = yes
+
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_veteran = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                air_accidents_factor = -0.05
+                air_bombing_targetting = 0.05
+                air_cas_efficiency = 0.05
+                air_mission_efficiency = 0.075
+                air_night_penalty = -0.05
+                air_weather_penalty = -0.05 
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        air_elite = {
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+            }
+
+            allowed_to_remove = {
+				custom_trigger_tooltip = {
+                    tooltip = custom_trg_air_training
+                    always = no
+                }
+			}
+
+			cost = 0
+			
+			
+			modifier = {
+                air_accidents_factor = -0.10
+                air_bombing_targetting = 0.10
+                air_cas_efficiency = 0.10
+                air_mission_efficiency = 0.15
+                air_night_penalty = -0.10
+                air_weather_penalty = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+    }
+}

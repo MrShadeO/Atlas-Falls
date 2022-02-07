@@ -1,0 +1,18 @@
+state = {
+	id = 434
+	name = "STATE_434"
+	manpower = 200000
+	state_category = wasteland
+	provinces = { 1996 10810 12730 }
+	resources = {
+		tungsten = 1
+	}
+
+	history = {
+		owner = RAJ
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

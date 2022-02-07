@@ -1,0 +1,17 @@
+state = {
+	id = 621
+	name = "STATE_621" # Suiyuan
+	manpower = 2080000
+	state_category = pastoral
+	provinces = { 2087 4525 7048 7158 7631 10424 10629 12331 12403 12609 12880 }
+	
+	history = {
+		victory_points = { 7158 1 }
+		victory_points = { 10424 1 }
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

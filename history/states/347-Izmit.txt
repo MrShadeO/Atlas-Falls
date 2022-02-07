@@ -1,0 +1,25 @@
+state = {
+	id = 347
+	name = "STATE_347" 
+	manpower = 1222700
+	state_category = metropolis 
+	provinces = { 2064 9833 10907 11829 }
+	resources = {
+		steel = 12
+		chromium = 30
+	}
+
+	history = {
+		victory_points = {9833 25 }
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			dockyard = 2
+			industrial_complex = 2
+			arms_factory = 2
+			9833 = {naval_base = 8 }
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 277
+	name = "STATE_277"
+	manpower = 1710263
+	state_category = large_city
+	provinces = { 2011 12755 13262 13263 13264 13265 13266 }
+	resources = {
+		steel = 14
+	}
+
+	history = {
+		victory_points = { 12755 25 }
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+
+state = {
+	id = 801
+	name = "STATE_801"
+	manpower = 3226101
+	state_category = town
+	provinces = { 1100 4913 7204 7943 8128 10917 11992 }
+
+	history = {
+		victory_points = { 4913 1 }
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

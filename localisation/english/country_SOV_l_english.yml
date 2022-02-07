@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SOV_PAVEL_MILYUKOV:0 "Pavel Milyukov"
+
+SOV_anarchism_ideology:0 "Disunited Russian Communes"
+SOV_anarchism_ideology_DEF:0 "the Disunited Russian Communes"
+SOV_totalism_ideology:0 "Soviet Union"
+SOV_totalism_ideology_DEF:0 "the Soviet Union"
+SOV_socialism_ideology:0 "Russian Republic"
+SOV_socialism_ideology_DEF:0 "the Russian Republic"
+SOV_social_democracy_ideology:0 "Russian Republic"
+SOV_social_democracy_ideology_DEF:0 "the Russian Republic"
+SOV_liberalism_ideology:0 "Russian Republic"
+SOV_liberalism_ideology_DEF:0 "the Russian Republic"
+SOV_conservatism_ideology:0 "Russian Republic"
+SOV_conservatism_ideology_DEF:0 "the Russian Republic"
+SOV_authoritarianism_ideology:0 "Russian Republic"
+SOV_authoritarianism_ideology_DEF:0 "the Russian Republic"
+SOV_ultranationalism_ideology:0 "Russian Republic"
+SOV_ultranationalism_ideology_DEF:0 "the Russian Republic"
+SOV_anarchism_ideology_ADJ:0 "Russian"
+SOV_totalism_ideology_ADJ:0 "Russian"
+SOV_socialism_ideology_ADJ:0 "Russian"
+SOV_social_democracy_ideology_ADJ:0 "Russian"
+SOV_liberalism_ideology_ADJ:0 "Russian"
+SOV_conservatism_ideology_ADJ:0 "Russian"
+SOV_authoritarianism_ideology_ADJ:0 "Russian"
+SOV_ultranationalism_ideology_ADJ:0 "Russian"
+SOV:0 "Russia"
+SOV_DEF:0 "Russia"
+SOV_ADJ:0 "Russian"
+
+#Political Parties
+SOV_anarchism_ideology_party:0 "Peasant Unions"
+SOV_anarchism_ideology_party_long:0 "Agrarian Socialist Communes"
+SOV_totalism_ideology_party:0 "Maximalists"
+SOV_totalism_ideology_party_long:0 "Socialist-Revolutionary Maximalists"
+SOV_socialism_ideology_party:0 "Popular Socialists"
+SOV_socialism_ideology_party_long:0 "Labourist Popular-Socialist Party"
+SOV_social_democracy_ideology_party:0 "Trudoviks"
+SOV_social_democracy_ideology_party_long:0 "Labour Group"
+SOV_liberalism_ideology_party:0 "Kadets"
+SOV_liberalism_ideology_party_long:0 "Constitutional Democratic Party"
+SOV_conservatism_ideology_party:0 "Octobrists"
+SOV_conservatism_ideology_party_long:0 "Union of October 17"
+SOV_authoritarianism_ideology_party:0 "Royalists"
+SOV_authoritarianism_ideology_party_long:0 "Imperial Inner Circle"
+SOV_ultranationalism_ideology_party:0 "Black-Hundredists"
+SOV_ultranationalism_ideology_party_long:0 "Union of the Russian People"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

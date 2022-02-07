@@ -1,0 +1,62 @@
+﻿l_english:
+#Countries, Leaders, Factions
+CHL_INTERIOR_MINISTER_TITLE:0 "Interior Minister"
+CHL_PEDRO_AGUIRRE_CERDA:0 "Pedro Aguirre Cerda"
+
+CHL_anarchism_ideology:0 "Chilean Free State"
+CHL_anarchism_ideology_DEF:0 "the Chilean Free State"
+CHL_totalism_ideology:0 "Socialist Republic of Chile"
+CHL_totalism_ideology_DEF:0 "the Socialist Republic of Chile"
+CHL_socialism_ideology:0 "Socialist Republic of Chile"
+CHL_socialism_ideology_DEF:0 "the Socialist Republic of Chile"
+CHL_social_democracy_ideology:0 "Republic of Chile"
+CHL_social_democracy_ideology_DEF:0 "the Republic of Chile"
+CHL_liberalism_ideology:0 "Republic of Chile"
+CHL_liberalism_ideology_DEF:0 "the Republic of Chile"
+CHL_conservatism_ideology:0 "Republic of Chile"
+CHL_conservatism_ideology_DEF:0 "the Republic of Chile"
+CHL_authoritarianism_ideology:0 "Republic of Chile"
+CHL_authoritarianism_ideology_DEF:0 "the Republic of Chile"
+CHL_ultranationalism_ideology:0 "Republic of Chile"
+CHL_ultranationalism_ideology_DEF:0 "the Republic of Chile"
+CHL_anarchism_ideology_ADJ:0 "Chilean"
+CHL_totalism_ideology_ADJ:0 "Chilean"
+CHL_socialism_ideology_ADJ:0 "Chilean"
+CHL_social_democracy_ideology_ADJ:0 "Chilean"
+CHL_liberalism_ideology_ADJ:0 "Chilean"
+CHL_conservatism_ideology_ADJ:0 "Chilean"
+CHL_authoritarianism_ideology_ADJ:0 "Chilean"
+CHL_ultranationalism_ideology_ADJ:0 "Chilean"
+CHL:0 "Chile"
+CHL_DEF:0 "Chile"
+CHL_ADJ:0 "Chilean"
+#Political Parties
+CHL_totalism_ideology_party:0 "POS"
+CHL_totalism_ideology_party_long:0 "Socialist Workers' Party"
+CHL_socialism_ideology_party:0 "USRACh"
+CHL_socialism_ideology_party_long:0 "Social-Republican Union of the Wage Earners of Chile"
+CHL_social_democracy_ideology_party:0 "PD"
+CHL_social_democracy_ideology_party_long:0 "Democrat Party"
+CHL_liberalism_ideology_party:0 "PL"
+CHL_liberalism_ideology_party_long:0 "Liberal Party"
+CHL_conservatism_ideology_party:0 "PCon"
+CHL_conservatism_ideology_party_long:0 "Conservative Party"
+CHL_authoritarianism_ideology_party:0 "Government Junta"
+CHL_authoritarianism_ideology_party_long:0 "Government Junta of Chile"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

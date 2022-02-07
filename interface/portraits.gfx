@@ -1,0 +1,85 @@
+spriteTypes = {
+	###GER###
+    spriteType = {
+		name = "GFX_Portrait_GER_Franz_von_Papen"
+		textureFile = "gfx/leaders/GER/Portrait_GER_Franz_von_Papen.dds"
+	}
+
+	###FRA###
+	spriteType = {
+		name = "GFX_Portrait_FRA_Charles_Maurras"
+		textureFile = "gfx/leaders/FRA/Portrait_FRA_Charles_Maurras.dds"
+	}
+
+	###SPR###
+	spriteType = {
+		name = "GFX_Portrait_SPR_Miguel_Primo_de_Rivera"
+		textureFile = "gfx/leaders/SPR/Portrait_SPR_Miguel_Primo_de_Rivera.dds"
+	}
+
+	###SWI###
+	spriteType = {
+		name = "GFX_Portrait_Switzerland_Federal_council"
+		textureFile = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
+	}
+
+	###POL###
+	spriteType = {
+		name = "GFX_Portrait_POL_Józef_Dowbor-Muśnicki"
+		textureFile = "gfx/leaders/POL/Portrait_POL_Józef_Dowbor-Muśnicki.dds"
+	}
+
+	###VLN###
+	spriteType = {
+		name = "GFX_Portrait_VLN_Soldier_Committees"
+		textureFile = "gfx/leaders/VLN/Portrait_VLN_Soldier_Committees.dds"
+	}
+
+	###SOV###
+	spriteType = {
+		name = "GFX_Portrait_SOV_Pavel_Milyukov"
+		textureFile = "gfx/leaders/SOV/Portrait_SOV_Pavel_Milyukov.dds"
+	}
+
+	###RUS###
+	spriteType = {
+		name = "GFX_Portrait_RUS_Nikolai_Markov"
+		textureFile = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Markov.dds"
+	}
+
+	###FIN###
+	spriteType = {
+		name = "GFX_Portrait_FIN_Carl_Gustav_Mannerheim"
+		textureFile = "gfx/leaders/FIN/Portrait_FIN_Carl_Gustav_Mannerheim.dds"
+	}
+
+	###UKR###
+	spriteType = {
+		name = "GFX_Portrait_UKR_Symon_Petliura"
+		textureFile = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.dds"
+	}
+
+	###GEO###
+	spriteType = {
+		name = "GFX_Portrait_GEO_Akaki_Chkhenkeli"
+		textureFile = "gfx/leaders/GEO/Portrait_GEO_Akaki_Chkhenkeli.dds"
+	}
+
+	###LIT###
+	spriteType = {
+		name = "GFX_Portrait_LIT_Augustinas_Voldemaras"
+		textureFile = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras.dds"
+	}
+
+	###LAT###
+	spriteType = {
+		name = "GFX_Portrait_LAT_Karlis_Ulmanis"
+		textureFile = "gfx/leaders/LAT/Portrait_LAT_Karlis_Ulmanis.dds"
+	}
+
+	###EST###
+	spriteType = {
+		name = "GFX_Portrait_EST_Juri_Vilms"
+		textureFile = "gfx/leaders/EST/Portrait_EST_Juri_Vilms.dds"
+	}
+}

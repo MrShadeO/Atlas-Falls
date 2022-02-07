@@ -1,0 +1,10 @@
+#Add an entry below for all corporations // ex: <id> - <Corporation Name> (<TAG>)
+
+1 - Generic Industry Corporation #1
+2 - Generic Industry Corporation #2
+3 - Generic Arms Corporation
+4 - Generic Artillery Corporation
+5 - Generic Truck Corporation
+6 - Generic Aircraft Corporation
+7 - Generic Shipbuilding Corporation
+8 - Generic Tank Corporation

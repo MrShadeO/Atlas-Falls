@@ -1,0 +1,18 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	manpower = 1825000
+	state_category=town
+	provinces = { 1991 2014 2098 4900 5033 8121 12807 }
+
+	history = {
+		victory_points = { 5033 5 }
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+}

@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+
+JBS_anarchism_ideology:0 "Shammari Free State"
+JBS_anarchism_ideology_DEF:0 "Shammari Free State"
+JBS_totalism_ideology:0 "Shammari Socialist Republic"
+JBS_totalism_ideology_DEF:0 "the Shammari Socialist Republic"
+JBS_socialism_ideology:0 "Shammari Socialist Republic"
+JBS_socialism_ideology_DEF:0 "the Shammari Socialist Republic"
+JBS_social_democracy_ideology:0 "Emirate of Jabal Shammar"
+JBS_social_democracy_ideology_DEF:0 "the Emirate of Jabal Shammar"
+JBS_liberalism_ideology:0 "Emirate of Jabal Shammar"
+JBS_liberalism_ideology_DEF:0 "the Emirate of Jabal Shammar"
+JBS_conservatism_ideology:0 "Emirate of Jabal Shammar"
+JBS_conservatism_ideology_DEF:0 "the Emirate of Jabal Shammar"
+JBS_authoritarianism_ideology:0 "Emirate of Jabal Shammar"
+JBS_authoritarianism_ideology_DEF:0 "the Emirate of Jabal Shammar"
+JBS_ultranationalism_ideology:0 "Emirate of Jabal Shammar"
+JBS_ultranationalism_ideology_DEF:0 "the Emirate of Jabal Shammar"
+JBS_anarchism_ideology_ADJ:0 "Shammari"
+JBS_totalism_ideology_ADJ:0 "Shammari"
+JBS_socialism_ideology_ADJ:0 "Shammari"
+JBS_social_democracy_ideology_ADJ:0 "Shammari"
+JBS_liberalism_ideology_ADJ:0 "Shammari"
+JBS_conservatism_ideology_ADJ:0 "Shammari"
+JBS_authoritarianism_ideology_ADJ:0 "Shammari"
+JBS_ultranationalism_ideology_ADJ:0 "Shammari"
+JBS:0 "Jabal Shammar"
+JBS_DEF:0 "Jabal Shammar"
+JBS_ADJ:0 "Shammari"
+
+#Political Parties
+JBS_authoritarianism_ideology_party:0 "Rashidi Dynasty"
+JBS_authoritarianism_ideology_party_long:0 "Rashidi Dynasty Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

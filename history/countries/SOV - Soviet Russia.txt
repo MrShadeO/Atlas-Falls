@@ -1,0 +1,71 @@
+﻿capital = 571
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 28
+
+set_country_flag = has_president
+set_country_flag = is_provisional_government
+
+oob = "SOV_1936"
+
+set_politics = {
+	ruling_party = social_democracy_ideology
+	election_frequency = 48 
+	elections_allowed = no 
+}
+
+set_popularities = {
+    anarchism_ideology = 0
+	totalism_ideology = 20
+	socialism_ideology = 30
+	social_democracy_ideology = 35
+	liberalism_ideology = 15
+	conservatism_ideology = 0
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	very_low_tax_rate
+	partial_economic_mobilisation
+	limited_conscription
+	state_ownership
+	legalized_trade_unions
+	early_industrialization
+	army_untrained
+	navy_poor_funding
+	navy_untrained
+	air_poor_funding
+	air_untrained
+}	
+
+#LEADERS
+recruit_character = SOV_alexander_kerensky
+
+#ARMY
+recruit_character = SOV_aleksei_brusilov #Field Marshal
+recruit_character = SOV_sergey_kamenev #Field Marshal
+recruit_character = SOV_leonid_artamonov
+recruit_character = SOV_nikolai_drozdov
+recruit_character = SOV_aleksandr_samoylo
+recruit_character = SOV_jukums_vacietis
+recruit_character = SOV_ivan_romanovsky
+recruit_character = SOV_pavel_lebedev
+recruit_character = SOV_valdislav_klembovsky
+recruit_character = SOV_dmitry_nadyozhny
+recruit_character = SOV_mikhail_bonch_bruyevich
+recruit_character = SOV_alexander_von_taube
+recruit_character = SOV_alexander_svechin
+recruit_character = SOV_nikolay_rattel
+recruit_character = SOV_alexei_polivanov
+recruit_character = SOV_vasily_novitsky
+recruit_character = SOV_andrejs_auzans
+recruit_character = SOV_pavel_dybenko
+recruit_character = SOV_nikolay_potapov
+
+#NAVY
+recruit_character = SOV_aleksandr_nemitz
+recruit_character = SOV_pyotr_kitkin
+recruit_character = SOV_aleksandr_razvozov

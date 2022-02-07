@@ -1,0 +1,182 @@
+﻿capital = 517
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 100
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+
+#ARMY
+create_corps_commander = {  
+	name = "Harold Elliott"
+	portrait_path = "gfx/leaders/AST/AST_Harold_Elliott.dds" 
+	traits = { brilliant_strategist desert_fox } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "James W. McCay"
+	portrait_path = "gfx/leaders/AST/AST_James_McCay.dds" 
+	traits = { infantry_officer } 
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {  
+	name = "William Bridges"
+	portrait_path = "gfx/leaders/AST/AST_William_Bridges.dds" 
+	traits = { trait_reckless } 
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Charles Cox"
+	traits = { infantry_officer } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Charles Rosenthal"
+	 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "William Holmes"
+	traits = { harsh_leader infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {  
+	name = "Charles Brand"
+	 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {  
+	name = "Harry Chauvel"
+	traits = { cavalry_officer } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+#NAVY
+create_navy_leader = {  
+	name = "George Hyde"
+	traits = { gentlemanly } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+1924.1.1 = {
+
+	set_politics = {
+	    ruling_party = conservatism_ideology
+		last_election = "1922.12.16"
+	    election_frequency = 36 
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 1
+		social_democracy_ideology = 42
+		liberalism_ideology = 5
+		conservatism_ideology = 52
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		low_tax_rate
+		early_industrialization
+		private_ownership
+		census_suffrage
+		eight_hour_workday
+		navy_poor_funding
+		air_poor_funding
+	}
+}
+

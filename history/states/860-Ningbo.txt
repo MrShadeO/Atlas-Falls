@@ -1,0 +1,18 @@
+state = {
+	id = 860
+	name = "STATE_860"
+	manpower = 1730000
+	state_category = large_town
+	provinces = { 9974 }
+
+	history = {
+		victory_points = { 9974 1 }
+		owner = ANC
+		add_core_of = ANC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9974 = { naval_base = 3 }
+		}
+	}
+}

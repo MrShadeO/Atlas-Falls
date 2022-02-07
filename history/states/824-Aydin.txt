@@ -1,0 +1,17 @@
+state = {
+	id = 824
+	name = "STATE_824" # Aydin
+	manpower = 200000 
+	state_category = rural
+	provinces = { 9929 10038 }
+
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			10038 = { naval_base = 3 }
+		}
+	}
+}

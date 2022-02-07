@@ -1,0 +1,136 @@
+﻿capital = 112
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 100
+
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = {
+	name = "Manuel Ribeiro"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = anarchism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Manuel Ribeiro"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = totalism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Manuel Gomes"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Manuel Gomes"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Manuel Gomes"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+create_country_leader = {
+	name = "Manuel Gomes"
+	picture = "" 
+	expire = "1935.1.1"
+	ideology = authoritarianism_sub
+	traits = {} 
+}
+
+create_corps_commander = {  
+	name = "Óscar F. Carmona" 
+	portrait_path = "gfx/leaders/POR/POR_oscar_carmona.dds"
+	 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {  
+	name = "Manuel Gomes da Costa"
+	 
+	portrait_path = "gfx/leaders/POR/POR_manuel_gomes.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {  
+	name = "Jose Vicente de Freitas"
+	 
+	portrait_path = "gfx/leaders/POR/POR_jose_vicente.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {  
+	name = "Artur Ivens Ferraz"
+	 
+	portrait_path = "gfx/leaders/POR/POR_artur_ferraz.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "José M. Cabeçadas" 
+	portrait_path = "gfx/leaders/POR/POR_jose_mendes.dds"
+	 
+	skill = 2 
+}
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = liberalism_ideology
+		last_election = "1910.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		anarchism_ideology = 10
+		totalism_ideology = 10
+		socialism_ideology = 3
+		social_democracy_ideology = 2
+		liberalism_ideology = 50
+		conservatism_ideology = 15
+		authoritarianism_ideology = 10
+		ultranationalism_ideology = 0
+	}
+	add_ideas = {
+		medium_tax_rate
+		early_industrialization
+		aristocrats_only
+		corporate_ownership
+		male_suffrage
+		air_poor_funding
+		colonial_troops
+	}
+}

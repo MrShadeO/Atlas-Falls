@@ -1,0 +1,15 @@
+state = {
+	id = 891
+	name = "STATE_891"
+	manpower = 1340000
+	state_category = pastoral
+	provinces = { 1959 3427 4960 4986 8081 10451 10854 12706 }
+
+	history = {
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

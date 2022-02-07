@@ -1,0 +1,49 @@
+﻿l_english:
+#Countries, Leaders, Factions
+
+BLR_anarchism_ideology:0 "Belarusian Free State"
+BLR_anarchism_ideology_DEF:0 "the Belarusian Free State"
+BLR_totalism_ideology:0 "Soviet Republic of Byelorussia"
+BLR_totalism_ideology_DEF:0 "the Soviet Republic of Belarus"
+BLR_socialism_ideology:0 "Soviet Republic of Byelorussia"
+BLR_socialism_ideology_DEF:0 "the Soviet Republic of Belarus"
+BLR_social_democracy_ideology:0 "Belarusian People's Republic"
+BLR_social_democracy_ideology_DEF:0 "the Belarusian People's Republic"
+BLR_liberalism_ideology:0 "Belarusian People's Republic"
+BLR_liberalism_ideology_DEF:0 "the Belarusian People's Republic"
+BLR_conservatism_ideology:0 "Belarusian People's Republic"
+BLR_conservatism_ideology_DEF:0 "the Belarusian People's Republic"
+BLR_authoritarianism_ideology:0 "Belarusian People's Republic"
+BLR_authoritarianism_ideology_DEF:0 "the Belarusian People's Republic"
+BLR_ultranationalism_ideology:0 "Belarusian People's Republic"
+BLR_ultranationalism_ideology_DEF:0 "the Belarusian People's Republic"
+BLR_anarchism_ideology_ADJ:0 "Belarusian"
+BLR_totalism_ideology_ADJ:0 "Belarusian"
+BLR_socialism_ideology_ADJ:0 "Belarusian"
+BLR_social_democracy_ideology_ADJ:0 "Belarusian"
+BLR_liberalism_ideology_ADJ:0 "Belarusian"
+BLR_conservatism_ideology_ADJ:0 "Belarusian"
+BLR_authoritarianism_ideology_ADJ:0 "Belarusian"
+BLR_ultranationalism_ideology_ADJ:0 "Belarusian"
+BLR:0 "Belarus"
+BLR_DEF:0 "Belarus"
+BLR_ADJ:0 "Belarusian"
+#Political Parties
+
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

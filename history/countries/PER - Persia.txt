@@ -1,0 +1,108 @@
+﻿capital = 266
+
+set_politics = {
+    ruling_party = social_democracy_ideology
+    last_election = "1922.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+    anarchism_ideology = 0
+	totalism_ideology = 2
+	socialism_ideology = 3
+	social_democracy_ideology = 41
+	liberalism_ideology = 5
+	conservatism_ideology = 39
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 10
+}
+
+set_stability = 0.50
+set_war_support = 0.50
+set_research_slots = 3
+
+set_country_flag = has_shah
+set_country_flag = is_constitutional_monarchy
+
+add_ideas = { 
+	very_low_tax_rate
+	early_industrialization
+	islam
+	state_ownership
+	male_suffrage
+	legalized_trade_unions
+	navy_poor_funding
+	air_minimal_funding
+	air_untrained
+}
+
+set_convoys = 10
+
+create_country_leader = { 
+	name = "Ahmad Shah Qajar"
+	picture = "gfx/leaders/PER/PER_ahmad_shah_qajar.dds" 
+	expire = "1939.1.1" 
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Ahmad Shah Qajar"
+	picture = "gfx/leaders/PER/PER_ahmad_shah_qajar.dds" 
+	expire = "1939.1.1" 
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Ahmad Shah Qajar"
+	picture = "gfx/leaders/PER/PER_ahmad_shah_qajar.dds" 
+	expire = "1939.1.1" 
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Ahmad Shah Qajar"
+	picture = "gfx/leaders/PER/PER_ahmad_shah_qajar.dds" 
+	expire = "1939.1.1" 
+	ideology = authoritarianism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Ahmad Shah Qajar"
+	picture = "gfx/leaders/PER/PER_ahmad_shah_qajar.dds" 
+	expire = "1939.1.1" 
+	ideology = ultranationalism_sub
+	traits = {} 
+}
+
+create_corps_commander = {  
+	name = "Salat ed-Dauleh" 
+	traits = {   } 
+	skill = 2 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {  
+	name = "Azod Soltan Mirza" 
+	traits = { politically_connected } 
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {  
+	name = "Malek Mansour Mirza"
+	traits = { politically_connected } 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}

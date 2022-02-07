@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SHX_SHANXI_CLIQUE:0 "Shanxi Clique"
+
+SHX_anarchism_ideology:0 "Chinese Free State"
+SHX_anarchism_ideology_DEF:0 "the Chinese Free State"
+SHX_totalism_ideology:0 "Shanxi Clique"
+SHX_totalism_ideology_DEF:0 "the Shanxi Clique"
+SHX_socialism_ideology:0 "Shanxi Clique"
+SHX_socialism_ideology_DEF:0 "the Shanxi Clique"
+SHX_social_democracy_ideology:0 "Shanxi Clique"
+SHX_social_democracy_ideology_DEF:0 "the Shanxi Clique"
+SHX_liberalism_ideology:0 "Shanxi Clique"
+SHX_liberalism_ideology_DEF:0 "the Shanxi Clique"
+SHX_conservatism_ideology:0 "Shanxi Clique"
+SHX_conservatism_ideology_DEF:0 "the Shanxi Clique"
+SHX_authoritarianism_ideology:0 "Shanxi Clique"
+SHX_authoritarianism_ideology_DEF:0 "the Shanxi Clique"
+SHX_ultranationalism_ideology:0 "Shanxi Clique"
+SHX_ultranationalism_ideology_DEF:0 "the Shanxi Clique"
+SHX_anarchism_ideology_ADJ:0 "Chinese"
+SHX_totalism_ideology_ADJ:0 "Chinese"
+SHX_socialism_ideology_ADJ:0 "Chinese"
+SHX_social_democracy_ideology_ADJ:0 "Chinese"
+SHX_liberalism_ideology_ADJ:0 "Chinese"
+SHX_conservatism_ideology_ADJ:0 "Chinese"
+SHX_authoritarianism_ideology_ADJ:0 "Chinese"
+SHX_ultranationalism_ideology_ADJ:0 "Chinese"
+SHX:0 "China"
+SHX_DEF:0 "China"
+SHX_ADJ:0 "Chinese"
+#Political Parties
+SHX_authoritarianism_ideology_party:0 "Shanxi Clique"
+SHX_authoritarianism_ideology_party_long:0 "Shanxi Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

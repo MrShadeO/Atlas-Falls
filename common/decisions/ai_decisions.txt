@@ -1,0 +1,1682 @@
+#These decisions help the AI interact with the corporation mechanics. Due to how arrays and scripted guis work, there isn't a good way to have the AI interact with the corporations gui.
+ai_decision_category = {
+    increase_corporation_1 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 1
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^0 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^0 }
+            add_to_variable = { investment_point_cost_array^0 = 1 }
+            add_to_variable = { investment_benefits_array^0 = investment_benefits_scaling_array^0 }
+            set_temp_variable = { temp_corporation_target = corporations_array^0 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_2 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 2
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^1
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^1
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^1 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^1 }
+            add_to_variable = { investment_point_cost_array^1 = 1 }
+            add_to_variable = { investment_benefits_array^1 = investment_benefits_scaling_array^1 }
+            set_temp_variable = { temp_corporation_target = corporations_array^1 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_3 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 3
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^2
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^2
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^2 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^2 }
+            add_to_variable = { investment_point_cost_array^2 = 1 }
+            add_to_variable = { investment_benefits_array^2 = investment_benefits_scaling_array^2 }
+            set_temp_variable = { temp_corporation_target = corporations_array^2 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_4 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 4
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^3
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^3 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^3 }
+            add_to_variable = { investment_point_cost_array^3 = 1 }
+            add_to_variable = { investment_benefits_array^3 = investment_benefits_scaling_array^3 }
+            set_temp_variable = { temp_corporation_target = corporations_array^3 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_5 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 5
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^4
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^4 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^4 }
+            add_to_variable = { investment_point_cost_array^4 = 1 }
+            add_to_variable = { investment_benefits_array^4 = investment_benefits_scaling_array^4 }
+            set_temp_variable = { temp_corporation_target = corporations_array^4 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_6 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 6
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^5
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^5 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^5 }
+            add_to_variable = { investment_point_cost_array^5 = 1 }
+            add_to_variable = { investment_benefits_array^5 = investment_benefits_scaling_array^5 }
+            set_temp_variable = { temp_corporation_target = corporations_array^5 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_7 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 7
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^6
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^6 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^6 }
+            add_to_variable = { investment_point_cost_array^6 = 1 }
+            add_to_variable = { investment_benefits_array^6 = investment_benefits_scaling_array^6 }
+            set_temp_variable = { temp_corporation_target = corporations_array^6 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_8 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 8
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^7
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^7 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^7 }
+            add_to_variable = { investment_point_cost_array^7 = 1 }
+            add_to_variable = { investment_benefits_array^7 = investment_benefits_scaling_array^7 }
+            set_temp_variable = { temp_corporation_target = corporations_array^7 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_9 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 9
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^8
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^8 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^8 }
+            add_to_variable = { investment_point_cost_array^8 = 1 }
+            add_to_variable = { investment_benefits_array^8 = investment_benefits_scaling_array^8 }
+            set_temp_variable = { temp_corporation_target = corporations_array^8 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_10 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 10
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^9
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^9 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^9 }
+            add_to_variable = { investment_point_cost_array^9 = 1 }
+            add_to_variable = { investment_benefits_array^9 = investment_benefits_scaling_array^9 }
+            set_temp_variable = { temp_corporation_target = corporations_array^9 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_11 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 11
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^10
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^10 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^10 }
+            add_to_variable = { investment_point_cost_array^10 = 1 }
+            add_to_variable = { investment_benefits_array^10 = investment_benefits_scaling_array^10 }
+            set_temp_variable = { temp_corporation_target = corporations_array^10 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_12 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 12
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^11
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^11 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^11 }
+            add_to_variable = { investment_point_cost_array^11 = 1 }
+            add_to_variable = { investment_benefits_array^11 = investment_benefits_scaling_array^11 }
+            set_temp_variable = { temp_corporation_target = corporations_array^11 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_13 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 13
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^12
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^12 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^12 }
+            add_to_variable = { investment_point_cost_array^12 = 1 }
+            add_to_variable = { investment_benefits_array^12 = investment_benefits_scaling_array^12 }
+            set_temp_variable = { temp_corporation_target = corporations_array^12 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_14 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 14
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^13
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^13 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^13 }
+            add_to_variable = { investment_point_cost_array^13 = 1 }
+            add_to_variable = { investment_benefits_array^13 = investment_benefits_scaling_array^13 }
+            set_temp_variable = { temp_corporation_target = corporations_array^13 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_15 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 15
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^14
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^14 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^14 }
+            add_to_variable = { investment_point_cost_array^14 = 1 }
+            add_to_variable = { investment_benefits_array^14 = investment_benefits_scaling_array^14 }
+            set_temp_variable = { temp_corporation_target = corporations_array^14 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_16 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 16
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^15
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^15 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^15 }
+            add_to_variable = { investment_point_cost_array^15 = 1 }
+            add_to_variable = { investment_benefits_array^15 = investment_benefits_scaling_array^15 }
+            set_temp_variable = { temp_corporation_target = corporations_array^15 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_17 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 17
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^16
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^16 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^16 }
+            add_to_variable = { investment_point_cost_array^16 = 1 }
+            add_to_variable = { investment_benefits_array^16 = investment_benefits_scaling_array^16 }
+            set_temp_variable = { temp_corporation_target = corporations_array^16 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_18 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 18
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^17
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^17 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^17 }
+            add_to_variable = { investment_point_cost_array^17 = 1 }
+            add_to_variable = { investment_benefits_array^17 = investment_benefits_scaling_array^17 }
+            set_temp_variable = { temp_corporation_target = corporations_array^17 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_19 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 19
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^18
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^18 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^18 }
+            add_to_variable = { investment_point_cost_array^18 = 1 }
+            add_to_variable = { investment_benefits_array^18 = investment_benefits_scaling_array^18 }
+            set_temp_variable = { temp_corporation_target = corporations_array^18 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_20 = {
+		available = {
+            NOT = { has_government = liberalism_ideology }
+            check_variable = {
+                var = corporations_array^num
+                value = 20
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^19
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 30
+
+		complete_effect = {
+			add_to_variable = { investment_array^19 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^19 }
+            add_to_variable = { investment_point_cost_array^19 = 1 }
+            add_to_variable = { investment_benefits_array^19 = investment_benefits_scaling_array^19 }
+            set_temp_variable = { temp_corporation_target = corporations_array^19 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_1 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 1
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^0 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^0 }
+            add_to_variable = { investment_point_cost_array^0 = 1 }
+            add_to_variable = { investment_benefits_array^0 = investment_benefits_scaling_array^0 }
+            set_temp_variable = { temp_corporation_target = corporations_array^0 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_2 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 2
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^1
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^1
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^1 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^1 }
+            add_to_variable = { investment_point_cost_array^1 = 1 }
+            add_to_variable = { investment_benefits_array^1 = investment_benefits_scaling_array^1 }
+            set_temp_variable = { temp_corporation_target = corporations_array^1 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_3 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 3
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^2
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^2
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^2 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^2 }
+            add_to_variable = { investment_point_cost_array^2 = 1 }
+            add_to_variable = { investment_benefits_array^2 = investment_benefits_scaling_array^2 }
+            set_temp_variable = { temp_corporation_target = corporations_array^2 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_4 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 4
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^3
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^3 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^3 }
+            add_to_variable = { investment_point_cost_array^3 = 1 }
+            add_to_variable = { investment_benefits_array^3 = investment_benefits_scaling_array^3 }
+            set_temp_variable = { temp_corporation_target = corporations_array^3 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_5 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 5
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^4
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^4 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^4 }
+            add_to_variable = { investment_point_cost_array^4 = 1 }
+            add_to_variable = { investment_benefits_array^4 = investment_benefits_scaling_array^4 }
+            set_temp_variable = { temp_corporation_target = corporations_array^4 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_6 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 6
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^5
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^5 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^5 }
+            add_to_variable = { investment_point_cost_array^5 = 1 }
+            add_to_variable = { investment_benefits_array^5 = investment_benefits_scaling_array^5 }
+            set_temp_variable = { temp_corporation_target = corporations_array^5 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_7 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 7
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^6
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^6 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^6 }
+            add_to_variable = { investment_point_cost_array^6 = 1 }
+            add_to_variable = { investment_benefits_array^6 = investment_benefits_scaling_array^6 }
+            set_temp_variable = { temp_corporation_target = corporations_array^6 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_8 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 8
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^7
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^7 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^7 }
+            add_to_variable = { investment_point_cost_array^7 = 1 }
+            add_to_variable = { investment_benefits_array^7 = investment_benefits_scaling_array^7 }
+            set_temp_variable = { temp_corporation_target = corporations_array^7 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_9 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 9
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^8
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^8 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^8 }
+            add_to_variable = { investment_point_cost_array^8 = 1 }
+            add_to_variable = { investment_benefits_array^8 = investment_benefits_scaling_array^8 }
+            set_temp_variable = { temp_corporation_target = corporations_array^8 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_10 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 10
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^9
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^9 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^9 }
+            add_to_variable = { investment_point_cost_array^9 = 1 }
+            add_to_variable = { investment_benefits_array^9 = investment_benefits_scaling_array^9 }
+            set_temp_variable = { temp_corporation_target = corporations_array^9 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_11 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 11
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^10
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^10 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^10 }
+            add_to_variable = { investment_point_cost_array^10 = 1 }
+            add_to_variable = { investment_benefits_array^10 = investment_benefits_scaling_array^10 }
+            set_temp_variable = { temp_corporation_target = corporations_array^10 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_12 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 12
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^11
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^11 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^11 }
+            add_to_variable = { investment_point_cost_array^11 = 1 }
+            add_to_variable = { investment_benefits_array^11 = investment_benefits_scaling_array^11 }
+            set_temp_variable = { temp_corporation_target = corporations_array^11 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_13 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 13
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^12
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^12 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^12 }
+            add_to_variable = { investment_point_cost_array^12 = 1 }
+            add_to_variable = { investment_benefits_array^12 = investment_benefits_scaling_array^12 }
+            set_temp_variable = { temp_corporation_target = corporations_array^12 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_14 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 14
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^13
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^13 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^13 }
+            add_to_variable = { investment_point_cost_array^13 = 1 }
+            add_to_variable = { investment_benefits_array^13 = investment_benefits_scaling_array^13 }
+            set_temp_variable = { temp_corporation_target = corporations_array^13 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_15 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 15
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^14
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^14 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^14 }
+            add_to_variable = { investment_point_cost_array^14 = 1 }
+            add_to_variable = { investment_benefits_array^14 = investment_benefits_scaling_array^14 }
+            set_temp_variable = { temp_corporation_target = corporations_array^14 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_16 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 16
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^15
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^15 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^15 }
+            add_to_variable = { investment_point_cost_array^15 = 1 }
+            add_to_variable = { investment_benefits_array^15 = investment_benefits_scaling_array^15 }
+            set_temp_variable = { temp_corporation_target = corporations_array^15 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_17 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 17
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^16
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^16 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^16 }
+            add_to_variable = { investment_point_cost_array^16 = 1 }
+            add_to_variable = { investment_benefits_array^16 = investment_benefits_scaling_array^16 }
+            set_temp_variable = { temp_corporation_target = corporations_array^16 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_18 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 18
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^17
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^17 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^17 }
+            add_to_variable = { investment_point_cost_array^17 = 1 }
+            add_to_variable = { investment_benefits_array^17 = investment_benefits_scaling_array^17 }
+            set_temp_variable = { temp_corporation_target = corporations_array^17 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_19 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 19
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^18
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^18 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^18 }
+            add_to_variable = { investment_point_cost_array^18 = 1 }
+            add_to_variable = { investment_benefits_array^18 = investment_benefits_scaling_array^18 }
+            set_temp_variable = { temp_corporation_target = corporations_array^18 }
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+
+    increase_corporation_liberal_20 = {
+		available = {
+            has_government = liberalism_ideology
+            check_variable = {
+                var = corporations_array^num
+                value = 20
+                compare = greater_than_or_equals
+            }
+			check_variable = {
+                var = current_investment_points
+                value = investment_point_cost_array^19
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = investment_array^0
+                value = 5
+                compare = less_than
+            }
+		}
+
+		cost = 15
+
+		complete_effect = {
+			add_to_variable = { investment_array^19 = 1 }
+            subtract_from_variable = { current_investment_points = investment_point_cost_array^19 }
+            add_to_variable = { investment_point_cost_array^19 = 1 }
+            add_to_variable = { investment_benefits_array^19 = investment_benefits_scaling_array^19 }
+            set_temp_variable = { temp_corporation_target = corporations_array^19}
+            increase_investment_tier_benefits = yes
+		}
+
+		ai_will_do = {
+			base = 10
+
+            modifier = {
+                factor = 0
+
+                taxes_are_all_in_order = no
+            }
+		}
+	}
+}

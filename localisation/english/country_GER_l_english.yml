@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+GER_CHANCELLOR_TITLE:0 "Chancellor"
+GER_FRANZ_VON_PAPEN:0 "Franz von Papen"
+
+GER_anarchism_ideology:0 "German Free State"
+GER_anarchism_ideology_DEF:0 "the German Free State"
+GER_totalism_ideology:0 "German Socialist Republic"
+GER_totalism_ideology_DEF:0 "the German Socialist Republic"
+GER_socialism_ideology:0 "German Socialist Republic"
+GER_socialism_ideology_DEF:0 "the German Socialist Republic"
+GER_social_democracy_ideology:0 "German Empire"
+GER_social_democracy_ideology_DEF:0 "the German Empire"
+GER_liberalism_ideology:0 "German Empire"
+GER_liberalism_ideology_DEF:0 "the German Empire"
+GER_conservatism_ideology:0 "German Empire"
+GER_conservatism_ideology_DEF:0 "the German Empire"
+GER_authoritarianism_ideology:0 "German Empire"
+GER_authoritarianism_ideology_DEF:0 "the German Empire"
+GER_ultranationalism_ideology:0 "German Empire"
+GER_ultranationalism_ideology_DEF:0 "the German Empire"
+GER_anarchism_ideology_ADJ:0 "German"
+GER_totalism_ideology_ADJ:0 "German"
+GER_socialism_ideology_ADJ:0 "German"
+GER_social_democracy_ideology_ADJ:0 "German"
+GER_liberalism_ideology_ADJ:0 "German"
+GER_conservatism_ideology_ADJ:0 "German"
+GER_authoritarianism_ideology_ADJ:0 "German"
+GER_ultranationalism_ideology_ADJ:0 "German"
+GER:0 "Germany"
+GER_DEF:0 "Germany"
+GER_ADJ:0 "German"
+#Political Parties
+GER_anarchism_ideology_party:0 "FAUD-(AS)"
+GER_anarchism_ideology_party_long:0 "Free Workers' Union of Germany"
+GER_totalism_ideology_party:0 "Spartacists"
+GER_totalism_ideology_party_long:0 "Spartacus League"
+GER_socialism_ideology_party:0 "KPD"
+GER_socialism_ideology_party_long:0 "Communist Party of Germany"
+GER_social_democracy_ideology_party:0 "SPD"
+GER_social_democracy_ideology_party_long:0 "Social Democratic Party of Germany"
+GER_liberalism_ideology_party:0 "NP"
+GER_liberalism_ideology_party_long:0 "National Liberal Party"
+GER_conservatism_ideology_party:0 "Zentrum"
+GER_conservatism_ideology_party_long:0 "German Centre Party"
+GER_authoritarianism_ideology_party:0 "DkP"
+GER_authoritarianism_ideology_party_long:0 "German Conservative Party"
+GER_ultranationalism_ideology_party:0 "DSP"
+GER_ultranationalism_ideology_party_long:0 "German Social Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

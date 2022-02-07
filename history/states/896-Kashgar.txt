@@ -1,0 +1,17 @@
+state = {
+	id = 896
+	name = "STATE_896"
+	manpower = 1420000
+	state_category = pastoral
+	provinces = { 1766 1970 2015 4828 5042 5087 7949 8112 12119 }
+
+	history = {
+		victory_points = { 2015 1 }
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

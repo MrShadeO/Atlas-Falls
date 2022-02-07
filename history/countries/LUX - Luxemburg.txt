@@ -1,0 +1,71 @@
+﻿capital = 8
+
+set_research_slots = 2
+set_stability = 0.50
+set_war_support = 0.50
+
+set_country_flag = has_grand_duchess
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = { 
+    name = "Marie-Adélaïde" 
+    picture=""
+	expire="1940.1.1" 
+	ideology = socialism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+    name = "Marie-Adélaïde" 
+    picture=""
+	expire="1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+    name = "Marie-Adélaïde" 
+    picture=""
+	expire="1940.1.1" 
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+    name = "Marie-Adélaïde" 
+    picture=""
+	expire="1940.1.1" 
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+1924.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism_ideology
+		last_election = "1922.5.28"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 1
+		socialism_ideology = 5
+		social_democracy_ideology = 5
+		liberalism_ideology = 24
+		conservatism_ideology = 65
+		authoritarianism_ideology = 0
+		ultranationalism_ideology = 0
+	}
+
+	add_ideas = {
+		very_low_tax_rate
+		lower_secondary_education
+		navy_minimal_funding
+		air_minimal_funding
+		navy_untrained
+		universal_suffrage
+		legalized_trade_unions
+	}
+}

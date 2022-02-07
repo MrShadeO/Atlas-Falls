@@ -1,0 +1,20 @@
+
+state = {
+	id = 678
+	name = "STATE_678"
+	manpower = 3804
+	state_category = wasteland
+	impassable = yes
+	provinces = { 5081 }
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 0
+		}
+	}	
+}

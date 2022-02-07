@@ -1,0 +1,20 @@
+state = {
+	id = 874
+	name = "STATE_874"
+	manpower = 1980000
+	state_category = city 
+	provinces = { 1036 4619 4631 7167 7637 9959 10462 12467 }
+
+	history = {
+		victory_points = { 4619 5 }
+		victory_points = { 7167 1 }
+		victory_points = { 12467 1 }
+		owner = ZHC
+		add_core_of = ZHC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+}

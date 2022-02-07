@@ -1,0 +1,21 @@
+scripted_gui = {
+    topbar_new_variables_gui = {
+        window_name = "topbar_new_variables_container"
+        context_type = player_context
+        parent_window_token = top_bar
+
+        effects = {
+            
+		}
+
+        triggers = {
+            
+        }
+
+        properties = {
+            standing_army_available = {
+                x = division_limit_x_position
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 746
+	name = "STATE_746"
+	manpower = 45000
+	state_category = enclave
+	provinces = { 4205 }
+
+	history = {
+		victory_points = { 4205 1 }
+		owner = ENG
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			4205 = { naval_base = 2 }
+		}
+	}
+}

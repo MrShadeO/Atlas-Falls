@@ -1,0 +1,214 @@
+﻿capital = 48
+
+set_research_slots = 3
+set_stability = 0.66
+set_war_support = 0.75
+set_convoys = 5
+
+set_country_flag = has_tsar
+set_country_flag = is_constitutional_monarchy
+
+create_country_leader = {
+	name = "Georgi Dimitrov"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = totalism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = socialism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}   
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture="" 
+	expire="1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}   
+}
+
+create_corps_commander={
+    name = "Vladimir Vazov" 
+	portrait_path="gfx/leaders/BUL/BUL_Vladimir_Vazov.dds" 
+	traits={ commando trickster} 
+	skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander={  
+    name = "Ivan Lukov" 
+	portrait_path="gfx/leaders/BUL/BUL_Ivan_Lukov.dds" 
+	traits={  infantry_officer } 
+	skill=2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander={
+    name = "Nikola Zhekov" 
+	portrait_path="gfx/leaders/BUL/BUL_Nikola_Zhekov.dds" 
+	traits={ career_officer skilled_staffer} 
+	skill=3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander={
+    name = "Todor Kantardzhiev" 
+	portrait_path="gfx/leaders/BUL/BUL_Todor_Kantardzhiev.dds" 
+	traits={ } 
+	skill=1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander={
+    name = "Panteley Kiselov" 	
+	portrait_path="gfx/leaders/BUL/BUL_Panteley_Kiselov.dds" 
+	traits={ trait_reckless trait_engineer } 
+	skill=2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Radko Dimitriev" 
+	portrait_path = "gfx/leaders/BUL/BUL_radko_dimitriev.dds" 
+	traits = { infantry_leader hidden_sympathies trait_cautious} 
+	id = 12032
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kliment Boyadzhiev" 
+	portrait_path = "gfx/leaders/BUL/BUL_Kliment_Boyadzhiev.dds" 
+	traits = { career_officer trait_engineer war_hero}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal={  
+    name = "Ivan Fichev" 
+	portrait_path="gfx/leaders/BUL/BUL_fichev.dds" 
+	traits={ offensive_doctrine war_hero } 
+	skill=3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_field_marshal={  
+    name = "Vasil Kutinchev" 
+	portrait_path="gfx/leaders/BUL/BUL_Vasil_Kutinchev.dds" 
+	traits={ old_guard war_hero} 
+	skill=3 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader={
+	name = "Dmitry Dobrev" 
+	portrait_path="gfx/leaders/BUL/BUL_dmitry_dobrev.dds" 
+	traits={ war_hero } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 3
+}
+create_navy_leader={ 
+	name = "Rashko Serafimov" 
+	portrait_path="gfx/leaders/BUL/BUL_rashko_serafimov.dds" 
+	traits={   } 
+	skill=1 
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1922.2.23" 
+	election_frequency = 48 
+	elections_allowed = yes
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 5
+	socialism_ideology = 5
+	social_democracy_ideology = 15
+	liberalism_ideology = 45
+	conservatism_ideology = 20
+	authoritarianism_ideology = 5
+	ultranationalism_ideology = 5
+}
+
+add_ideas = {
+	medium_tax_rate
+	limited_conscription
+	early_industrialization
+	male_suffrage
+	orthodoxy
+	army_lavish_funding
+	army_veteran
+	navy_minimal_funding
+	air_poor_funding
+	basic_pensions
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 866
+	name = "STATE_866"
+	manpower = 2620000
+	state_category = pastoral
+	provinces = { 1776 4809 4852 7697 7832 7848 7873 10541 10567 10675 12537 }
+
+	history = {
+		victory_points = { 7832 1 }
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

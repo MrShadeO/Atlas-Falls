@@ -1,0 +1,65 @@
+﻿l_english:
+#Countries, Leaders, Factions
+TUR_GRAND_VIZIER_TITLE:0 "Grand Vizier"
+TUR_TALAAT_PASHA:0 "Talaat Pasha"
+
+TUR_anarchism_ideology:0 "Ottoman Free State"
+TUR_anarchism_ideology_DEF:0 "the Ottoman Free State"
+TUR_totalism_ideology:0 "Ottoman Socialist Republic"
+TUR_totalism_ideology_DEF:0 "the Ottoman Socialist Republic"
+TUR_socialism_ideology:0 "Ottoman Empire"
+TUR_socialism_ideology_DEF:0 "the Ottoman Empire"
+TUR_social_democracy_ideology:0 "Ottoman Empire"
+TUR_social_democracy_ideology_DEF:0 "the Ottoman Empire"
+TUR_liberalism_ideology:0 "Ottoman Empire"
+TUR_liberalism_ideology_DEF:0 "the Ottoman Empire"
+TUR_conservatism_ideology:0 "Ottoman Empire"
+TUR_conservatism_ideology_DEF:0 "the Ottoman Empire"
+TUR_authoritarianism_ideology:0 "Ottoman Empire"
+TUR_authoritarianism_ideology_DEF:0 "the Ottoman Empire"
+TUR_ultranationalism_ideology:0 "Ottoman Empire"
+TUR_ultranationalism_ideology_DEF:0 "the Ottoman Empire"
+TUR_anarchism_ideology_ADJ:0 "Ottoman"
+TUR_totalism_ideology_ADJ:0 "Ottoman"
+TUR_socialism_ideology_ADJ:0 "Ottoman"
+TUR_social_democracy_ideology_ADJ:0 "Ottoman"
+TUR_liberalism_ideology_ADJ:0 "Ottoman"
+TUR_conservatism_ideology_ADJ:0 "Ottoman"
+TUR_authoritarianism_ideology_ADJ:0 "Ottoman"
+TUR_ultranationalism_ideology_ADJ:0 "Ottoman"
+TUR:0 "Turkey"
+TUR_DEF:0 "Turkey"
+TUR_ADJ:0 "Turkish"
+
+#Political Parties
+TUR_totalism_ideology_party:0 "OKP"
+TUR_totalism_ideology_party_long:0 "Ottoman Communist Party"
+TUR_socialism_ideology_party:0 "SSF"
+TUR_socialism_ideology_party_long:0 "Socialist Workers' Federation"
+TUR_social_democracy_ideology_party:0 "Social Democrat Party"
+TUR_social_democracy_ideology_party_long:0 "Social Democrat Party"
+TUR_liberalism_ideology_party:0 "Freedom and Accord Party"
+TUR_liberalism_ideology_party_long:0 "Freedom and Accord Party"
+TUR_conservatism_ideology_party:0 "CUP-L"
+TUR_conservatism_ideology_party_long:0 "Committee of Union and Progress (Left-Wing)"
+TUR_authoritarianism_ideology_party:0 "CUP-M"
+TUR_authoritarianism_ideology_party_long:0 "Committee of Union and Progress (Moderate-Wing)"
+TUR_ultranationalism_ideology_party:0 "CUP-R"
+TUR_ultranationalism_ideology_party_long:0 "Committee of Union and Progress (Right-Wing)"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

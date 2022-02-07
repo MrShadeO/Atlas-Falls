@@ -1,0 +1,65 @@
+﻿l_english:
+#Countries, Leaders, Factions
+BUL_VASIL_RADOSLAVOV:0 "Vasil Radoslavov"
+POLITICS_VASIL_RADOSLAVOV_DESC:0 ""
+
+BUL_anarchism_ideology:0 "Bulgarian Free State"
+BUL_anarchism_ideology_DEF:0 "the Bulgarian Free State"
+BUL_totalism_ideology:0 "People's Republic of Bulgaria"
+BUL_totalism_ideology_DEF:0 "the People's Republic of Bulgaria"
+BUL_socialism_ideology:0 "Tsardom of Bulgaria"
+BUL_socialism_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_social_democracy_ideology:0 "Tsardom of Bulgaria"
+BUL_social_democracy_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_liberalism_ideology:0 "Tsardom of Bulgaria"
+BUL_liberalism_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_conservatism_ideology:0 "Tsardom of Bulgaria"
+BUL_conservatism_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_authoritarianism_ideology:0 "Tsardom of Bulgaria"
+BUL_authoritarianism_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_ultranationalism_ideology:0 "Tsardom of Bulgaria"
+BUL_ultranationalism_ideology_DEF:0 "the Tsardom of Bulgaria"
+BUL_anarchism_ideology_ADJ:0 "Bulgarian"
+BUL_totalism_ideology_ADJ:0 "Bulgarian"
+BUL_socialism_ideology_ADJ:0 "Bulgarian"
+BUL_social_democracy_ideology_ADJ:0 "Bulgarian"
+BUL_liberalism_ideology_ADJ:0 "Bulgarian"
+BUL_conservatism_ideology_ADJ:0 "Bulgarian"
+BUL_authoritarianism_ideology_ADJ:0 "Bulgarian"
+BUL_ultranationalism_ideology_ADJ:0 "Bulgarian"
+BUL:0 "Bulgaria"
+BUL_DEF:0 "Bulgaria"
+BUL_ADJ:0 "Bulgarian"
+
+#Political Parties
+BUL_totalism_ideology_party:0 "BKP"
+BUL_totalism_ideology_party_long:0 "Bulgarian Communist Party"
+BUL_socialism_ideology_party:0 "BRSP-L"
+BUL_socialism_ideology_party_long:0 "Bulgarian Social Democratic Workers Party (Left Wing)"
+BUL_social_democracy_ideology_party:0 "BRSP-R"
+BUL_social_democracy_ideology_party_long:0 "Bulgarian Social Democratic Workers Party (Right Wing)"
+BUL_liberalism_ideology_party:0 "LP"
+BUL_liberalism_ideology_party_long:0 "Liberal Party"
+BUL_conservatism_ideology_party:0 "BZNS"
+BUL_conservatism_ideology_party_long:0 "Bulgarian Agrarian National Union"
+BUL_authoritarianism_ideology_party:0 "People's Alliance"
+BUL_authoritarianism_ideology_party_long:0 "People's Alliance"
+BUL_ultranationalism_ideology_party:0 "IMRO"
+BUL_ultranationalism_ideology_party_long:0 "Internal Macedonian Revolutionary Organization"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,18 @@
+
+state = {
+	id = 146
+	name = "STATE_146"
+	manpower = 418635
+	state_category = town
+	provinces = { 52 139 2332 3050 3060 3133 3187 6052 6082 6150 6153 6186 9100 9105 9150 9176 9206 11046 11056 11156 11162 13105 }
+
+	history = {
+		victory_points = { 9206 3 }
+		owner = FIN
+		add_core_of = RUS
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

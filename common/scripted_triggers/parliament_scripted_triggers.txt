@@ -1,0 +1,1609 @@
+###### LOWER HOUSE ######
+get_lower_house_required_seats_10_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_10
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_20_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_20
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_30_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_30
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_40_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_40
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_50_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_50
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_60_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_60
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_70_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_70
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_80_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_80
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_lower_house_required_seats_90_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_90
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = lower_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = lower_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = lower_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = lower_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = lower_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = lower_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = lower_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = lower_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_lower_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = lower_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+###### UPPER HOUSE ######
+get_upper_house_required_seats_10_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_10
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_10_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_20_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_20
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_20_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_30_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_30
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_30_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_40_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_40
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_40_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_50_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_50
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_50_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_60_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_60
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_70_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_70
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_70_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_80_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_80
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_80_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+get_upper_house_required_seats_90_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_90
+        OR = {
+            AND = {
+                has_government = anarchism_ideology
+                set_temp_variable = { temp_anarchism_seats = upper_chamber_seat_array^0 }
+                add_to_temp_variable = { temp_anarchism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_anarchism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = totalism_ideology
+                set_temp_variable = { temp_totalism_seats = upper_chamber_seat_array^1 }
+                add_to_temp_variable = { temp_totalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_totalism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = socialism_ideology
+                set_temp_variable = { temp_socialism_seats = upper_chamber_seat_array^2 }
+                add_to_temp_variable = { temp_socialism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_socialism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = social_democracy_ideology
+                set_temp_variable = { temp_social_democracy_seats = upper_chamber_seat_array^3 }
+                add_to_temp_variable = { temp_social_democracy_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_social_democracy_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = liberalism_ideology
+                set_temp_variable = { temp_liberalism_seats = upper_chamber_seat_array^4 }
+                add_to_temp_variable = { temp_liberalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_liberalism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = conservatism_ideology
+                set_temp_variable = { temp_conservatism_seats = upper_chamber_seat_array^5 }
+                add_to_temp_variable = { temp_conservatism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_conservatism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = authoritarianism_ideology
+                set_temp_variable = { temp_authoritarianism_seats = upper_chamber_seat_array^6 }
+                add_to_temp_variable = { temp_authoritarianism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_authoritarianism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+            AND = {
+                has_government = ultranationalism_ideology
+                set_temp_variable = { temp_ultranationalism_seats = upper_chamber_seat_array^7 }
+                add_to_temp_variable = { temp_ultranationalism_seats = coalition_partner_upper_house_seats }
+                check_variable = {
+                    var = temp_ultranationalism_seats
+                    value = upper_chamber_required_seats_90_var
+                    compare = greater_than_or_equals
+                }
+            }
+        }
+    }
+}
+
+has_upper_chamber = {
+    custom_trigger_tooltip = {
+        tooltip = has_upper_chamber_tt
+        check_variable = {
+            var = upper_chamber_seat_array^num
+            value = 2
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+no_upper_chamber = {
+    custom_trigger_tooltip = {
+        tooltip = no_upper_chamber_tt
+        NOT = {
+            check_variable = {
+                var = upper_chamber_seat_array^num
+                value = 2
+                compare = greater_than_or_equals
+            }
+        }
+    }
+}

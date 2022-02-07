@@ -1,0 +1,19 @@
+state = {
+	id = 882
+	name = "STATE_882"
+	manpower = 18250000
+	state_category = town 
+	provinces = { 1893 4141 4431 6999 9939 }
+
+	history = {
+		victory_points = { 6999 20 }
+		owner = SCC
+		add_core_of = SCC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+}

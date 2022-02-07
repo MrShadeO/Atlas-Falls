@@ -1,0 +1,73 @@
+government_test_decisions = {
+  set_gov_federal_republic_decision = {
+    complete_effect = {
+      set_government_federal_republic = yes
+    }
+  }
+
+  set_gov_parliamentary_republic_decision = {
+    complete_effect = {
+      set_government_parliamentary_republic = yes
+    }
+  }
+
+  set_gov_oligarchy_decision = {
+    complete_effect = {
+      set_government_oligarchy = yes
+    }
+  }
+
+  set_gov_socialist_republic_decision = {
+    complete_effect = {
+      set_government_socialist_republic = yes
+    }
+  }
+
+  set_gov_constitutional_monarchy_decision = {
+    complete_effect = {
+      set_government_constitutional_monarchy = yes
+    }
+  }
+
+  set_gov_absolute_monarchy_decision = {
+    complete_effect = {
+      set_government_absolute_monarchy = yes
+    }
+  }
+
+  set_gov_dictatorship_decision = {
+    complete_effect = {
+      set_government_dictatorship = yes
+    }
+  }
+
+  set_gov_one_party_state_decision = {
+    complete_effect = {
+      set_government_one_party_state = yes
+    }
+  }
+
+  set_gov_anarcho_communist_decision = {
+    complete_effect = {
+      set_government_anarcho_communist = yes
+    }
+  }
+
+  set_gov_anarcho_capitalist_decision = {
+    complete_effect = {
+      set_government_anarcho_capitalist = yes
+    }
+  }
+
+  set_gov_provisional_government_decision = {
+    complete_effect = {
+      set_government_provisional_government = yes
+    }
+  }
+  
+  set_gov_colonial_government_decision = {
+    complete_effect = {
+      set_government_colonial_government = yes
+    }
+  }
+}

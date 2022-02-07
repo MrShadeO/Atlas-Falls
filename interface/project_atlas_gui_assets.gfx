@@ -1,0 +1,241 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_parliament_button"
+		textureFile = "gfx/interface/parliament_button.dds"
+	}
+
+    spriteType = {
+		name = "GFX_generic_parliament_background"
+		textureFile = "gfx/interface/generic_parliament_background.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ruling_party_background"
+		textureFile = "gfx/interface/ruling_party_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_popularity_bg"
+		textureFile = "gfx/interface/pol_popularity_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_political"
+		texturefile = "gfx/interface/header_bg_political.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_header_bg"
+		texturefile = "gfx/interface/diplo_header_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bg_blank"
+		texturefile = "gfx/interface/portrait_bg_blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_leader_frame_2"
+		texturefile = "gfx/interface/diplo_leader_frame_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bg_transparent"
+		texturefile = "gfx/interface/portrait_bg_transparent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_tab_extender"
+		texturefile = "gfx/interface/diplo_tab_extender.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_148x31"
+		texturefile = "gfx/interface/button_148x31.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_icon_government_button"
+		texturefile = "gfx/interface/icon_government_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_finances_button"
+		texturefile = "gfx/interface/icon_finances_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_corporations_button"
+		texturefile = "gfx/interface/icon_corporations_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_elections_button"
+		texturefile = "gfx/interface/icon_elections_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_elections_off_button"
+		texturefile = "gfx/interface/icon_elections_off_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_atlas_cog"
+		texturefile = "gfx/interface/icon_atlas_cog.dds"
+	}
+
+	spriteType = {
+		name = "GFX_scroll_up_gold"
+		texturefile = "gfx/interface/scroll_up_gold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_scroll_down_gold"
+		texturefile = "gfx/interface/scroll_down_gold.dds"
+	}
+
+	spriteType = {
+		name = "GFX_scroll_up_white"
+		texturefile = "gfx/interface/scroll_up_white.dds"
+	}
+
+	spriteType = {
+		name = "GFX_scroll_down_white"
+		texturefile = "gfx/interface/scroll_down_white.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tiled_window_1_scrollbar_top_piece"
+		texturefile = "gfx/interface/tiled_window_1_scrollbar_top_piece.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tiled_window_1_scrollbar_bottom_piece"
+		texturefile = "gfx/interface/tiled_window_1_scrollbar_bottom_piece.dds"
+	}
+
+	spriteType = {
+		name = "GFX_slider_box"
+		texturefile = "gfx/interface/slider_box.dds"
+	}
+
+	spriteType = {
+		name = "GFX_text_black_bg"
+		texturefile = "gfx/interface/text_black_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unselected_box_button"
+		texturefile = "gfx/interface/unselected_box_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_selected_box_button"
+		texturefile = "gfx/interface/selected_box_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_elections_parties_icons"
+		texturefile = "gfx/interface/elections_parties_icons.dds"
+		noOfFrames = 8
+	}
+
+	spriteType = {
+		name = "GFX_filter_btn"
+		texturefile = "gfx/interface/trade_filter_btn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_corporation_unknown"
+		texturefile = "gfx/interface/corporation_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_full_circle_icon"
+		texturefile = "gfx/interface/full_circle_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_empty_circle_icon"
+		texturefile = "gfx/interface/empty_circle_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unavailable_circle_icon"
+		texturefile = "gfx/interface/unavailable_circle_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_investment_texticon"
+		texturefile = "gfx/texticons/investment_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_investment_mini_texticon"
+		texturefile = "gfx/texticons/investment_mini_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_action_btn"
+		texturefile = "gfx/interface/action_btn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_standing_army_symbol"
+		texturefile = "gfx/texticons/standing_army_symbol.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_basic_circle_button"
+		texturefile = "gfx/interface/basic_circle_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pie_chart_segment"
+		texturefile = "gfx//interface//pie_chart_segment.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_pol_pie_chart_overlay"
+		textureFile = "gfx/interface/pol_pie_chart_overlay.dds"
+		alwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_segment"
+		texturefile = "gfx/interface/scale_graph_segment.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_segment_alt"
+		texturefile = "gfx/interface/scale_graph_segment_alt.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_overlay"
+		texturefile = "gfx/interface/scale_graph_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_border_frame_chambers_menu"
+		texturefile = "gfx/interface/border_frame_chambers_menu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_locked_page_icon"
+		texturefile = "gfx/interface/locked_page_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unlocked_page_icon"
+		texturefile = "gfx/interface/unlocked_page_icon.dds"
+	}
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 4110000
+	state_category = rural 
+	provinces = { 4099 7086 7174 9944 9972 10086 11920 11947 }
+
+	history = {
+		victory_points = { 11920 1 }
+		owner = ANC
+		add_core_of = ANC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

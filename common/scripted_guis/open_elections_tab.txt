@@ -1,0 +1,48 @@
+scripted_gui = {
+    open_elections_tab = {
+        window_name = "elections_button_container"
+        parent_window_token = politics_tab
+        context_type = player_context
+
+        effects = {
+            show_elections_button_click = {
+                if = {
+                    limit = {
+                        has_country_flag = display_elections_tab
+                    }
+                    clr_country_flag = display_elections_tab
+                }
+                else = {
+                    set_country_flag = display_elections_tab
+                }
+                clr_country_flag = display_finances_tab
+                clr_country_flag = display_corporations_tab
+                clr_country_flag = display_government_tab
+
+                clr_country_flag = upper_chamber_view
+
+                #Needed for Finance tab to function properly!!
+                set_variable = {
+                    var = curr_tax_rate_var
+                    value = 0
+                }
+            }
+		}
+
+        triggers = {
+            show_elections_button_click_enabled = {
+                has_elections = yes
+            }
+        }
+
+        properties = {
+            icon_elections_button = {
+                image = "[GetElectionsIcon]"
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+    }
+}

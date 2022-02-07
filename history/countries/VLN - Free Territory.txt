@@ -1,0 +1,70 @@
+﻿capital = 226
+# ЭХ, ЯБЛОЧКО!
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+set_country_flag = is_anarcho_communist
+
+create_country_leader = {
+	name = "Nestor Makhno"
+	picture = "gfx/leaders/VLN/Portrait_VLN_Nestor_Makhno.dds"
+	expire = "1940.1.1"
+	ideology = anarchism_sub
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Nestor Makhno"
+	portrait_path = "gfx/leaders/VLN/Portrait_VLN_Nestor_Makhno.dds"
+	traits = {
+		media_personality
+		inspirational_leader
+		cavalry_expert
+		cavalry_leader
+		offensive_doctrine
+		inspirational_leader
+		trait_reckless
+		trickster
+		guerilla_fighter
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = anarchism_ideology
+	last_election = "1910.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism_ideology = 100
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 0
+	conservatism_ideology = 0
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	closed_economy
+	war_economy
+	early_industrialization
+	volunteer_militias
+	army_untrained
+	navy_untrained
+	navy_minimal_funding
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 592
+	name = "STATE_592"
+	manpower = 16750000
+	state_category = large_town
+	provinces = { 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 }
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

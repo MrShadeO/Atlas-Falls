@@ -1,0 +1,91 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ELS_JULIO_GARCIA:0 "Julio García"
+
+ELS_anarchism_ideology:0 "Free State of El Salvador"
+ELS_anarchism_ideology_DEF:0 "the Free State of El Salvador"
+ELS_totalism_ideology:0 "Socialist Republic of Central America"
+ELS_totalism_ideology_DEF:0 "the Socialist Republic of Central America"
+ELS_socialism_ideology:0 "Socialist Republic of Central America"
+ELS_socialism_ideology_DEF:0 "the Socialist Republic of Central America"
+ELS_social_democracy_ideology:0 "Republic of El Salvador"
+ELS_social_democracy_ideology_DEF:0 "the Republic of El Salvador"
+ELS_liberalism_ideology:0 "Republic of El Salvador"
+ELS_liberalism_ideology_DEF:0 "the Republic of El Salvador"
+ELS_conservatism_ideology:0 "Republic of El Salvador"
+ELS_conservatism_ideology_DEF:0 "the Republic of El Salvador"
+ELS_authoritarianism_ideology:0 "Republic of El Salvador"
+ELS_authoritarianism_ideology_DEF:0 "the Republic of El Salvador"
+ELS_ultranationalism_ideology:0 "Republic of El Salvador"
+ELS_ultranationalism_ideology_DEF:0 "the Republic of El Salvador"
+ELS_anarchism_ideology_ADJ:0 "Salvadoran"
+ELS_totalism_ideology_ADJ:0 "Salvadoran"
+ELS_socialism_ideology_ADJ:0 "Salvadoran"
+ELS_social_democracy_ideology_ADJ:0 "Salvadoran"
+ELS_liberalism_ideology_ADJ:0 "Salvadoran"
+ELS_conservatism_ideology_ADJ:0 "Salvadoran"
+ELS_authoritarianism_ideology_ADJ:0 "Salvadoran"
+ELS_ultranationalism_ideology_ADJ:0 "Salvadoran"
+ELS:0 "El Salvador"
+ELS_DEF:0 "El Salvador"
+ELS_ADJ:0 "Salvadoran"
+
+ELS_FRCA_anarchism_ideology:0 "Central American Communes"
+ELS_FRCA_anarchism_ideology_DEF:0 "the Central American Communes"
+ELS_FRCA_totalism_ideology:0 "Socialist Republic of Central America"
+ELS_FRCA_totalism_ideology_DEF:0 "the Socialist Republic of Central America"
+ELS_FRCA_socialism_ideology:0 "Socialist Republic of Central America"
+ELS_FRCA_socialism_ideology_DEF:0 "the Socialist Republic of Central America"
+ELS_FRCA_social_democracy_ideology:0 "Federal Republic of Central America"
+ELS_FRCA_social_democracy_ideology_DEF:0 "the Federal Republic of Central America"
+ELS_FRCA_liberalism_ideology:0 "Federal Republic of Central America"
+ELS_FRCA_liberalism_ideology_DEF:0 "the Federal Republic of Central America"
+ELS_FRCA_conservatism_ideology:0 "Federal Republic of Central America"
+ELS_FRCA_conservatism_ideology_DEF:0 "the Federal Republic of Central America"
+ELS_FRCA_authoritarianism_ideology:0 "Federal Republic of Central America"
+ELS_FRCA_authoritarianism_ideology_DEF:0 "the Federal Republic of Central America"
+ELS_FRCA_ultranationalism_ideology:0 "Federal Republic of Central America"
+ELS_FRCA_ultranationalism_ideology_DEF:0 "the Federal Republic of Central America"
+ELS_FRCA_anarchism_ideology_ADJ:0 "Central American"
+ELS_FRCA_totalism_ideology_ADJ:0 "Central American"
+ELS_FRCA_socialism_ideology_ADJ:0 "Central American"
+ELS_FRCA_social_democracy_ideology_ADJ:0 "Central American"
+ELS_FRCA_liberalism_ideology_ADJ:0 "Central American"
+ELS_FRCA_conservatism_ideology_ADJ:0 "Central American"
+ELS_FRCA_authoritarianism_ideology_ADJ:0 "Central American"
+ELS_FRCA_ultranationalism_ideology_ADJ:0 "Central American"
+ELS_FRCA:0 "Central America"
+ELS_FRCA_DEF:0 "Central America"
+ELS_FRCA_ADJ:0 "Central American"
+#Political Parties
+ELS_totalism_ideology_party:0 "PMR"
+ELS_totalism_ideology_party_long:0 "Revolutionary Marxists Party"
+ELS_socialism_ideology_party:0 "PS"
+ELS_socialism_ideology_party_long:0 "Socialist Party"
+ELS_social_democracy_ideology_party:0 "PT"
+ELS_social_democracy_ideology_party_long:0 "Workers' Party"
+ELS_liberalism_ideology_party:0 "PND"
+ELS_liberalism_ideology_party_long:0 "National Democratic Party"
+ELS_conservatism_ideology_party:0 "PP"
+ELS_conservatism_ideology_party_long:0 "Progessive Party"
+ELS_authoritarianism_ideology_party:0 "Military Junta"
+ELS_authoritarianism_ideology_party_long:0 "Military Junta"
+ELS_ultranationalism_ideology_party:0 "SC"
+ELS_ultranationalism_ideology_party_long:0 "Soldiers of Christ"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

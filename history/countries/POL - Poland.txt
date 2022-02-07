@@ -1,0 +1,75 @@
+﻿capital = 10
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 10
+
+set_country_flag = has_chief_of_state
+set_country_flag = is_provisional_government
+
+add_ideas = {
+	very_low_tax_rate
+	partial_economic_mobilisation
+	early_industrialization
+	limited_conscription
+	state_ownership
+	legalized_trade_unions
+	army_untrained
+	navy_minimal_funding
+	navy_untrained
+	air_poor_funding
+	air_untrained
+}
+
+set_politics = {
+    ruling_party = social_democracy_ideology
+    last_election = "1910.1.1"
+    election_frequency = 36
+    elections_allowed = no
+}
+set_popularities = {
+    anarchism_ideology = 0
+		totalism_ideology = 10
+		socialism_ideology = 15
+		social_democracy_ideology = 40
+		liberalism_ideology = 2
+		conservatism_ideology = 10
+		authoritarianism_ideology = 3
+		ultranationalism_ideology = 20
+}
+
+#LEADERS
+recruit_character = POL_jozef_pilsudski #Field Marshal
+
+#ARMY
+recruit_character = POL_jozef_dowbor_musnicki #Field Marshal
+recruit_character = POL_tadeusz_rozwadowski
+recruit_character = POL_karol_durski_trzaska
+recruit_character = POL_edward_rydz_smigly
+recruit_character = POL_stanislaw_szeptycki
+recruit_character = POL_jozef_haller
+recruit_character = POL_kazimierz_sosnkowski
+recruit_character = POL_wladyslaw_sikorski
+recruit_character = POL_stanislaw_haller
+recruit_character = POL_leonard_skierski
+recruit_character = POL_waclaw_iwaszkiewicz
+recruit_character = POL_boleslaw_roja
+recruit_character = POL_franciszek_latinik
+recruit_character = POL_franciszek_kleeberg
+recruit_character = POL_tadeusz_kutrzeba
+recruit_character = POL_wincenty_kowalski
+recruit_character = POL_emil_przedrzymirski
+recruit_character = POL_tadeusz_piskor
+recruit_character = POL_wladyslaw_anders
+recruit_character = POL_wladyslaw_bortnowski
+recruit_character = POL_antoni_szylling
+recruit_character = POL_stanislaw_maczek
+recruit_character = POL_wiktor_thommee
+recruit_character = POL_juliusz_rommel
+
+#NAVY
+recruit_character = POL_kazimierz_porebski
+recruit_character = POL_jozef_unrug
+recruit_character = POL_jerzy_swirski
+recruit_character = POL_xawery_czernicki

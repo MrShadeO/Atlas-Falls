@@ -1,0 +1,118 @@
+﻿capital = 446
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_country_flag = has_sultan
+set_country_flag = is_co`nstitutional_monarchy
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = social_democracy_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = liberalism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = conservatism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = authoritarianism_sub
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = ""
+	expire = "1939.1.1"
+	ideology = ultranationalism_sub
+	traits = {
+		
+	}
+}
+
+1924.1.1 = {
+	set_politics = {
+		ruling_party = conservatism_ideology
+		last_election = "1910.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 0
+		socialism_ideology = 0
+		social_democracy_ideology = 0
+		liberalism_ideology = 30
+		conservatism_ideology = 45
+		authoritarianism_ideology = 10
+		ultranationalism_ideology = 15
+	}
+
+	add_ideas = {
+		very_low_tax_rate
+		early_industrialization
+		aristocrats_only
+		islam
+		state_ownership
+		male_suffrage
+		traditional
+		navy_minimal_funding
+		air_minimal_funding
+		air_untrained
+	}
+}
+
+create_field_marshal = {
+	name = "Archibald Murray"
+	portrait_path = "gfx/leaders/EGY/EGY_archibald_murray.dds"
+	traits = {
+		logistics_wizard
+		
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Arthur Lynden-Bell"
+	portrait_path = "gfx/leaders/EGY/EGY_lynden_bell.dds"
+	traits = {
+		
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

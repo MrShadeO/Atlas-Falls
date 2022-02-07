@@ -1,0 +1,911 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			has_country_flag = has_tsar
+		}
+		localization_key = TSAR_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_president
+		}
+		localization_key = PRESIDENT_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_kaiser
+		}
+		localization_key = KAISER_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_king
+		}
+		localization_key = KING_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_queen
+		}
+		localization_key = QUEEN_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_sultan
+		}
+		localization_key = SULTAN_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_emperor
+		}
+		localization_key = EMPEROR_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_executive
+		}
+		localization_key = EXECUTIVE_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_grand_duchess
+		}
+		localization_key = GRAND_DUCHESS_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_chief_of_state
+		}
+		localization_key = CHIEF_OF_STATE_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_commander_in_chief
+		}
+		localization_key = COMMANDER_IN_CHIEF_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = VLN
+		}
+		localization_key = VLN_BATKO_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_grand_duke
+		}
+		localization_key = GRAND_DUKE_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_chairman
+		}
+		localization_key = CHAIRMAN_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_maharajadhiraja
+		}
+		localization_key = NEP_MAHARAJADHIRAJA
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_dragon_king
+		}
+		localization_key = BHU_DRAGON_KING
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_dalai_lama
+		}
+		localization_key = TIB_DALAI_LAMA_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_khan
+		}
+		localization_key = MON_KHAN_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_emir
+		}
+		localization_key = EMIR_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_shah
+		}
+		localization_key = SHAH_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_military_governor
+		}
+		localization_key = MILITARY_GOVERNOR_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_warlord
+		}
+		localization_key = WARLORD_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_CHANCELLOR_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_MINISTER_PRESIDENT_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_GRAND_VIZIER_TITLE
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = LIB
+				original_tag = CUB
+				original_tag = DOM
+				original_tag = VEN
+				original_tag = COL
+				original_tag = ECU
+				original_tag = BOL
+				original_tag = ARG
+				original_tag = PAR
+				original_tag = URG
+				original_tag = BRA
+			}
+		}
+		localization_key = USA_VICE_PRESIDENT
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_GENERAL_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = VLN
+		}
+		localization_key = VLN_HIGH_COMMAND_TITLE
+	}
+	text = {
+		trigger = {
+			has_country_flag = has_legislature
+		}
+		localization_key = LEGISLATURE_TITLE
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = FIN
+				original_tag = INS
+			}
+		}
+		localization_key = FIN_GOVERNOR_GENERAL_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_DEPUTY_CHAIRMAN_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_VICEROY_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = MAL
+		}
+		localization_key = MAL_GOVERNOR_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = TIB
+		}
+		localization_key = TIB_KASHAG_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_PRES_CHAMBER_OF_DEP_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = HAI
+		}
+		localization_key = HAI_HIGH_COMMISSIONER
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_INTERIOR_MINISTER_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = CHI
+		}
+		localization_key = CHI_VICE_CHAIRMAN_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = GXC
+		}
+		localization_key = GXC_DEPUTY_COMMANDER_TITLE
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = YUN
+				original_tag = GZC
+				original_tag = HNC
+				original_tag = SCC
+				original_tag = SIK
+				original_tag = XSM
+				original_tag = SHX
+				original_tag = ANC
+				original_tag = FNG
+			}
+		}
+		localization_key = YUN_MILITARY_COUNCIL_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = KUM
+		}
+		localization_key = KUM_BAIG_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_SECOND_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			tag = ROM
+		}
+		localization_key = ROM_IONEL_BRATIANU
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_HH_ASQUITH
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = RUS_NIKOLAI_MARKOV
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = FRA_CHARLES_MAURRAS
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_FRANZ_VON_PAPEN
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+		}
+		localization_key = AUH_IGNAZ_SEIPEL
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_GIOVANNI_GIOLITTI
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+		}
+		localization_key = SPR_MIGUEL_RIVERA
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_HH_ASQUITH
+	}
+	text = {
+		trigger = {
+			original_tag = TUR
+		}
+		localization_key = TUR_TALAAT_PASHA
+	}
+	text = {
+		trigger = {
+			original_tag = JAP
+		}
+		localization_key = JAP_HARA_TAKASHI
+	}
+	text = {
+		trigger = {
+			original_tag = SER
+		}
+		localization_key = SER_NIKOLA_PASIC
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_IONEL_BRATIANU
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+		}
+		localization_key = BUL_VASIL_RADOSLAVOV
+	}
+	text = {
+		trigger = {
+			original_tag = GRE
+		}
+		localization_key = GRE_ELEFTHERIOS_VENIZELOS
+	}
+	text = {
+		trigger = {
+			original_tag = MNT
+		}
+		localization_key = MNT_LAZAR_MIJUSKOVIC
+	}
+	text = {
+		trigger = {
+			original_tag = ALB
+		}
+		localization_key = ALB_LUIGJ_GURAKUQI
+	}
+	text = {
+		trigger = {
+			original_tag = POR
+		}
+		localization_key = POR_ALVARO_CASTRO
+	}
+	text = {
+		trigger = {
+			original_tag = LUX
+		}
+		localization_key = LUX_EMILE_REUTER
+	}
+	text = {
+		trigger = {
+			original_tag = SWI
+		}
+		localization_key = SWI_FEDERAL_ASSEMBLY
+	}
+	text = {
+		trigger = {
+			original_tag = BEL
+		}
+		localization_key = BEL_GEORGES_THEUNIS
+	}
+	text = {
+		trigger = {
+			original_tag = HOL
+		}
+		localization_key = HOL_CHARLES_BEERENBROUCK
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+		}
+		localization_key = POL_JOZEF_DOWBOR-MUSNICKI
+	}
+	text = {
+		trigger = {
+			original_tag = SOV
+		}
+		localization_key = SOV_PAVEL_MILYUKOV
+	}
+	text = {
+		trigger = {
+			original_tag = VLN
+		}
+		localization_key = VLN_SOLDIER_COMMITTEES
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_SYMON_PETLIURA
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+		}
+		localization_key = FIN_CARL_GUSTAV_MANNERHEIM
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+		}
+		localization_key = LIT_AUGUSTINAS_MOLDEMARAS
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+		}
+		localization_key = LAT_KARLIS_ULMANIS
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+		}
+		localization_key = EST_JURI_VILMS
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+		}
+		localization_key = SWE_HJALMAR_BRANTING
+	}
+	text = {
+		trigger = {
+			original_tag = NOR
+		}
+		localization_key = NOR_ABRAHAM_BERGE
+	}
+	text = {
+		trigger = {
+			original_tag = DEN
+		}
+		localization_key = DEN_NIELS_NEERGAARD
+	}
+	text = {
+		trigger = {
+			original_tag = IRE
+		}
+		localization_key = IRE_JOSEPH_DEVLIN
+	}
+	text = {
+		trigger = {
+			original_tag = GEO
+		}
+		localization_key = GEO_AKAKI_CHKHENKELI
+	}
+	text = {
+		trigger = {
+			original_tag = CAN
+		}
+		localization_key = CAN_MACKENZIE_KING
+	}
+	text = {
+		trigger = {
+			original_tag = SAF
+		}
+		localization_key = SAF_JAN_SMUTS
+	}
+	text = {
+		trigger = {
+			original_tag = AST
+		}
+		localization_key = AST_BILLY_HUGHES
+	}
+	text = {
+		trigger = {
+			original_tag = NZL
+		}
+		localization_key = NZL_WILLIAM_MASSEY
+	}
+	text = {
+		trigger = {
+			original_tag = RAJ
+		}
+		localization_key = RAJ_RUFUS_ISAACS
+	}
+	text = {
+		trigger = {
+			original_tag = MAL
+		}
+		localization_key = MAL_LAURENCE_GUILLEMARD
+	}
+	text = {
+		trigger = {
+			original_tag = NEP
+		}
+		localization_key = NEP_CHANDRA_SHUMSHER
+	}
+	text = {
+		trigger = {
+			original_tag = BHU
+		}
+		localization_key = BHU_TOPGAY_DORJI
+	}
+	text = {
+		trigger = {
+			original_tag = TIB
+		}
+		localization_key = TIB_FOUR_KALONS
+	}
+	text = {
+		trigger = {
+			original_tag = AFG
+		}
+		localization_key = AFG_SHIR_AHMAD
+	}
+	text = {
+		trigger = {
+			original_tag = PER
+		}
+		localization_key = PER_HASSAN_PIRNIA
+	}
+	text = {
+		trigger = {
+			original_tag = EGY
+		}
+		localization_key = EGY_SAAD_ZAGHLOUL
+	}
+	text = {
+		trigger = {
+			original_tag = ETH
+		}
+		localization_key = ETH_HABTE_GIYORGIS
+	}
+	text = {
+		trigger = {
+			original_tag = LIB
+		}
+		localization_key = LIB_HENRY_WESLEY
+	}
+	text = {
+		trigger = {
+			original_tag = INS
+		}
+		localization_key = INS_DIRK_FOCK
+	}
+	text = {
+		trigger = {
+			original_tag = MEX
+		}
+		localization_key = MEX_ALFREDO_ROMO
+	}
+	text = {
+		trigger = {
+			original_tag = ELS
+		}
+		localization_key = ELS_JULIO_GARCIA
+	}
+	text = {
+		trigger = {
+			original_tag = CUB
+		}
+		localization_key = CUB_FRANCISCO_MORALES
+	}
+	text = {
+		trigger = {
+			original_tag = HAI
+		}
+		localization_key = HAI_JOHN_RUSSEL
+	}
+	text = {
+		trigger = {
+			original_tag = PRU
+		}
+		localization_key = PRU_JULIO_AGUIRRE
+	}
+	text = {
+		trigger = {
+			original_tag = CHL
+		}
+		localization_key = CHL_PEDRO_AGUIRRE_CERDA
+	}
+	text = {
+		trigger = {
+			original_tag = ARG
+		}
+		localization_key = ARG_ELPIDIO_GONZALEZ
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+		}
+		localization_key = BRA_ESTACIO_COIMBRA
+	}
+	text = {
+		trigger = {
+			original_tag = GXC
+		}
+		localization_key = GXC_HUANG_SHAOHONG
+	}
+	text = {
+		trigger = {
+			original_tag = YUN
+		}
+		localization_key = YUN_YUNNAN_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = SCC
+		}
+		localization_key = SCC_SICHUAN_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = GZC
+		}
+		localization_key = GZC_GUIZHOU_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = HNC
+		}
+		localization_key = HNC_HUNAN_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = SIK
+		}
+		localization_key = SIK_XINJIANG_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = XSM
+		}
+		localization_key = XSM_MA_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = SHX
+		}
+		localization_key = SHX_SHANXI_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = ANC
+		}
+		localization_key = ANC_ANHUI_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = FNG
+		}
+		localization_key = FNG_FENGTIAN_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = ZHC
+		}
+		localization_key = ZHC_ZHILI_CLIQUE
+	}
+	text = {
+		trigger = {
+			original_tag = KUM
+		}
+		localization_key = KUM_YULBARS_KHAN
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+        trigger = {
+			original_tag = GER
+        }
+        localization_key = "GFX_Portrait_GER_Franz_von_Papen"
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+        }
+        localization_key = "GFX_Portrait_FRA_Charles_Maurras"
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+        }
+        localization_key = "GFX_Portrait_SPR_Miguel_Primo_de_Rivera"
+	}
+	text = {
+        trigger = {
+			original_tag = SWI
+        }
+        localization_key = "GFX_Portrait_Switzerland_Federal_council"
+	}
+	text = {
+        trigger = {
+			original_tag = POL
+        }
+        localization_key = "GFX_Portrait_POL_Józef_Dowbor-Muśnicki"
+	}
+	text = {
+        trigger = {
+			original_tag = VLN
+        }
+        localization_key = "GFX_Portrait_VLN_Soldier_Committees"
+	}
+	text = {
+        trigger = {
+			original_tag = SOV
+        }
+        localization_key = "GFX_Portrait_SOV_Pavel_Milyukov"
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+        }
+        localization_key = "GFX_Portrait_RUS_Nikolai_Markov"
+	}
+	text = {
+        trigger = {
+			original_tag = FIN
+        }
+        localization_key = "GFX_Portrait_FIN_Carl_Gustav_Mannerheim"
+	}
+	text = {
+        trigger = {
+			original_tag = UKR
+        }
+        localization_key = "GFX_Portrait_UKR_Symon_Petliura"
+	}
+	text = {
+        trigger = {
+			original_tag = GEO
+        }
+        localization_key = "GFX_Portrait_GEO_Akaki_Chkhenkeli"
+	}
+	text = {
+        trigger = {
+			original_tag = LIT
+        }
+        localization_key = "GFX_Portrait_LIT_Augustinas_Voldemaras"
+	}
+	text = {
+        trigger = {
+			original_tag = LAT
+        }
+        localization_key = "GFX_Portrait_LAT_Karlis_Ulmanis"
+	}
+	text = {
+        trigger = {
+			original_tag = EST
+        }
+        localization_key = "GFX_Portrait_EST_Juri_Vilms"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+        }
+        localization_key = "POLITICS_NIKOLAI_MARKOV_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = GER
+        }
+        localization_key = "POLITICS_FRANZ_VON_PAPEN_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = AUS
+        }
+        localization_key = "POLITICS_IGNAZ_SEIPEL_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+        }
+        localization_key = "POLITICS_CHARLES_MAURRAS_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = ITA
+        }
+        localization_key = "POLITICS_GIOVANNI_GIOLITTI_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+        }
+        localization_key = "POLITICS_MIGUEL_RIVERA_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "POLITICS_HH_ASQUITH_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = TUR
+        }
+        localization_key = "POLITICS_TALAAT_PASHA_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = JAP
+        }
+        localization_key = "POLITICS_HARA_TAKASHI_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = SER
+        }
+        localization_key = "POLITICS_NIKOLA_PASIC_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = ROM
+        }
+        localization_key = "POLITICS_IONEL_BRATIANU_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = BUL
+        }
+        localization_key = "POLITICS_VASIL_RADOSLAVOV_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = MNT
+        }
+        localization_key = "POLITICS_LAZAR_MIJUSKOVIC_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = ALB
+        }
+        localization_key = "POLITICS_LUIGJ_GURAKUQI_DESC"
+	}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "FIRST_LEADER_DESC_TEST"
+	}
+}

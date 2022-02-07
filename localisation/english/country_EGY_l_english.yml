@@ -1,0 +1,57 @@
+﻿l_english:
+#Countries, Leaders, Factions
+EGY_SAAD_ZAGHLOUL:0 "Saad Zaghloul"
+
+EGY_anarchism_ideology:0 "Egyptian Free State"
+EGY_anarchism_ideology_DEF:0 "the Egyptian Free State"
+EGY_totalism_ideology:0 "Egyptian Socialist Republic"
+EGY_totalism_ideology_DEF:0 "the Egyptian Socialist Republic"
+EGY_socialism_ideology:0 "Egyptian Socialist Republic"
+EGY_socialism_ideology_DEF:0 "the Egyptian Socialist Republic"
+EGY_social_democracy_ideology:0 "Sultanate of Egypt"
+EGY_social_democracy_ideology_DEF:0 "the Sultanate of Egypt"
+EGY_liberalism_ideology:0 "Sultanate of Egypt"
+EGY_liberalism_ideology_DEF:0 "the Sultanate of Egypt"
+EGY_conservatism_ideology:0 "Sultanate of Egypt"
+EGY_conservatism_ideology_DEF:0 "the Sultanate of Egypt"
+EGY_authoritarianism_ideology:0 "Sultanate of Egypt"
+EGY_authoritarianism_ideology_DEF:0 "the Sultanate of Egypt"
+EGY_ultranationalism_ideology:0 "Sultanate of Egypt"
+EGY_ultranationalism_ideology_DEF:0 "the Sultanate of Egypt"
+EGY_anarchism_ideology_ADJ:0 "Egyptian"
+EGY_totalism_ideology_ADJ:0 "Egyptian"
+EGY_socialism_ideology_ADJ:0 "Egyptian"
+EGY_social_democracy_ideology_ADJ:0 "Egyptian"
+EGY_liberalism_ideology_ADJ:0 "Egyptian"
+EGY_conservatism_ideology_ADJ:0 "Egyptian"
+EGY_authoritarianism_ideology_ADJ:0 "Egyptian"
+EGY_ultranationalism_ideology_ADJ:0 "Egyptian"
+EGY:0 "Egypt"
+EGY_DEF:0 "Egypt"
+EGY_ADJ:0 "Egyptian"
+#Political Parties
+EGY_liberalism_ideology_party:0 "Liberal Constitutional Party"
+EGY_liberalism_ideology_party_long:0 "Liberal Constitutional Party"
+EGY_conservatism_ideology_party:0 "Wafd Party"
+EGY_conservatism_ideology_party_long:0 "Wafd Party"
+EGY_authoritarianism_ideology_party:0 "Ittihad Party"
+EGY_authoritarianism_ideology_party_long:0 "Ittihad Party"
+EGY_ultranationalism_ideology_party:0 "Watani Party"
+EGY_ultranationalism_ideology_party_long:0 "Watani Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

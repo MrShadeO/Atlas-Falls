@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+SIK_XINJIANG_CLIQUE:0 "Xinjiang Clique"
+
+SIK_anarchism_ideology:0 "Chinese Free State"
+SIK_anarchism_ideology_DEF:0 "the Chinese Free State"
+SIK_totalism_ideology:0 "Xinjiang Clique"
+SIK_totalism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_socialism_ideology:0 "Xinjiang Clique"
+SIK_socialism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_social_democracy_ideology:0 "Xinjiang Clique"
+SIK_social_democracy_ideology_DEF:0 "the Xinjiang Clique"
+SIK_liberalism_ideology:0 "Xinjiang Clique"
+SIK_liberalism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_conservatism_ideology:0 "Xinjiang Clique"
+SIK_conservatism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_authoritarianism_ideology:0 "Xinjiang Clique"
+SIK_authoritarianism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_ultranationalism_ideology:0 "Xinjiang Clique"
+SIK_ultranationalism_ideology_DEF:0 "the Xinjiang Clique"
+SIK_anarchism_ideology_ADJ:0 "Chinese"
+SIK_totalism_ideology_ADJ:0 "Chinese"
+SIK_socialism_ideology_ADJ:0 "Chinese"
+SIK_social_democracy_ideology_ADJ:0 "Chinese"
+SIK_liberalism_ideology_ADJ:0 "Chinese"
+SIK_conservatism_ideology_ADJ:0 "Chinese"
+SIK_authoritarianism_ideology_ADJ:0 "Chinese"
+SIK_ultranationalism_ideology_ADJ:0 "Chinese"
+SIK:0 "Xinjiang"
+SIK_DEF:0 "Xinjiang"
+SIK_ADJ:0 "Chinese"
+#Political Parties
+SIK_authoritarianism_ideology_party:0 "Xinjiang Clique"
+SIK_authoritarianism_ideology_party_long:0 "Xinjiang Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

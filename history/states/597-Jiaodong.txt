@@ -1,0 +1,18 @@
+state = {
+	id = 597
+	name = "STATE_597"
+	manpower = 8370000
+	state_category = rural
+	provinces = { 1104 1184 1200 4071 4089 4157 4186 5095 7089 7105 10018 10102 12074 12093 }
+
+	history = {
+		victory_points = { 1104 1 }
+		victory_points = { 1184 1 }
+		owner = ANC
+		add_core_of = ANC
+		buildings = {
+			infrastructure = 1
+			1104 = { naval_base = 1 }
+		}
+	}
+}

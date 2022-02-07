@@ -1,0 +1,20 @@
+
+state = {
+	id = 407
+	name = "STATE_407"
+	manpower = 711345
+	state_category = rural
+	provinces = { 432 508 554 566 576 1247 1290 1318 3502 3618 4254 4351 6491 6551 6615 7322 7370 7438 9420 9453 9462 9526 9528 9538 11433 11442 11455 11469 11473 11480 11510 11524 11537 11552 11591 12235 12254 }
+
+	history = {
+		victory_points = { 3618 1 }
+		victory_points = { 9526 1 }
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

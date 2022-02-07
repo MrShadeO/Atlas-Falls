@@ -1,0 +1,49 @@
+﻿l_english:
+#Countries, Leaders, Factions
+DOM_anarchism_ideology:0 "Dominican Free State"
+DOM_anarchism_ideology_DEF:0 "the Dominican Free State"
+DOM_totalism_ideology:0 "Dominican Socialist Republic"
+DOM_totalism_ideology_DEF:0 "the Dominican Socialist Republic"
+DOM_socialism_ideology:0 "Dominican Socialist Republic"
+DOM_socialism_ideology_DEF:0 "the Dominican Socialist Republic"
+DOM_social_democracy_ideology:0 "Dominican Republic"
+DOM_social_democracy_ideology_DEF:0 "the Dominican Republic"
+DOM_liberalism_ideology:0 "Dominican Republic"
+DOM_liberalism_ideology_DEF:0 "the Dominican Republic"
+DOM_conservatism_ideology:0 "Dominican Republic"
+DOM_conservatism_ideology_DEF:0 "the Dominican Republic"
+DOM_authoritarianism_ideology:0 "Dominican Republic"
+DOM_authoritarianism_ideology_DEF:0 "the Dominican Republic"
+DOM_ultranationalism_ideology:0 "Dominican Republic"
+DOM_ultranationalism_ideology_DEF:0 "the Dominican Republic"
+DOM_anarchism_ideology_ADJ:0 "Dominican"
+DOM_totalism_ideology_ADJ:0 "Dominican"
+DOM_socialism_ideology_ADJ:0 "Dominican"
+DOM_social_democracy_ideology_ADJ:0 "Dominican"
+DOM_liberalism_ideology_ADJ:0 "Dominican"
+DOM_conservatism_ideology_ADJ:0 "Dominican"
+DOM_authoritarianism_ideology_ADJ:0 "Dominican"
+DOM_ultranationalism_ideology_ADJ:0 "Dominican"
+DOM:0 "Dominican Republic"
+DOM_DEF:0 "the Dominican Republic"
+DOM_ADJ:0 "Dominican"
+#Political Parties
+DOM_authoritarianism_ideology_party:0 "Provisional Government"
+DOM_authoritarianism_ideology_party_long:0 "Provisional Government"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

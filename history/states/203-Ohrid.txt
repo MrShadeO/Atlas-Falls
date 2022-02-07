@@ -1,0 +1,19 @@
+
+state = {
+	id = 203
+	name = "STATE_203"
+	manpower = 654123
+	state_category = rural
+	provinces = { 974 3833 3865 11856 }
+
+	history = {
+		victory_points = { 11856 3 }
+		owner = SER
+		add_core_of = SER
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 1
+			arms_factory=1
+		}
+	}
+}

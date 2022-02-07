@@ -1,0 +1,15 @@
+state = {
+	id = 761
+	name = "STATE_761"
+	manpower = 90000
+	state_category = pastoral 
+	provinces = { 937 }
+
+	history = {
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

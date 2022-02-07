@@ -1,0 +1,16 @@
+
+state = {
+	id = 726
+	name = "STATE_726"
+	manpower = 6607
+	state_category = small_island
+	provinces = { 13080 }
+
+	history = {
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			13080 = { naval_base = 1 }
+		}
+	}
+}

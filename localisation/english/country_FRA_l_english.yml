@@ -1,0 +1,66 @@
+﻿l_english:
+#Countries, Leaders, Factions
+FRA_CHARLES_MAURRAS:0 "Charles Maurras"
+
+FRA_anarchism_ideology:0 "French Commune"
+FRA_anarchism_ideology_DEF:0 "the French Commune"
+FRA_totalism_ideology:0 "French Commune"
+FRA_totalism_ideology_DEF:0 "the French Commune"
+FRA_socialism_ideology:0 "Kingdom of France"
+FRA_socialism_ideology_DEF:0 "the Kingdom of France"
+FRA_social_democracy_ideology:0 "Kingdom of France"
+FRA_social_democracy_ideology_DEF:0 "the Kingdom of France"
+FRA_liberalism_ideology:0 "Kingdom of France"
+FRA_liberalism_ideology_DEF:0 "the Kingdom of France"
+FRA_conservatism_ideology:0 "Kingdom of France"
+FRA_conservatism_ideology_DEF:0 "the Kingdom of France"
+FRA_authoritarianism_ideology:0 "Kingdom of France"
+FRA_authoritarianism_ideology_DEF:0 "the Kingdom of France"
+FRA_ultranationalism_ideology:0 "Kingdom of France"
+FRA_ultranationalism_ideology_DEF:0 "the Kingdom of France"
+FRA_anarchism_ideology_ADJ:0 "French"
+FRA_totalism_ideology_ADJ:0 "French"
+FRA_socialism_ideology_ADJ:0 "French"
+FRA_social_democracy_ideology_ADJ:0 "French"
+FRA_liberalism_ideology_ADJ:0 "French"
+FRA_conservatism_ideology_ADJ:0 "French"
+FRA_authoritarianism_ideology_ADJ:0 "French"
+FRA_ultranationalism_ideology_ADJ:0 "French"
+FRA:0 "France"
+FRA_DEF:0 "France"
+FRA_ADJ:0 "French"
+
+#Political Parties
+FRA_anarchism_ideology_party:0 "CGT"
+FRA_anarchism_ideology_party_long:0 "General Confederation of Labour"
+FRA_totalism_ideology_party:0 "PCF"
+FRA_totalism_ideology_party_long:0 "French Communist Party"
+FRA_socialism_ideology_party:0 "SFIO-L"
+FRA_socialism_ideology_party_long:0 "French Section of the Workers' International (Left-Wing)"
+FRA_social_democracy_ideology_party:0 "SFIO-R"
+FRA_social_democracy_ideology_party_long:0 "French Section of the Workers' International (Right-Wing)"
+FRA_liberalism_ideology_party:0 "PR"
+FRA_liberalism_ideology_party_long:0 "Radical Party"
+FRA_conservatism_ideology_party:0 "AD"
+FRA_conservatism_ideology_party_long:0 "Democratic Alliance"
+FRA_authoritarianism_ideology_party:0 "AF"
+FRA_authoritarianism_ideology_party_long:0 "French Action"
+FRA_ultranationalism_ideology_party:0 "League of Patriots"
+FRA_ultranationalism_ideology_party_long:0 "League of Patriots"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

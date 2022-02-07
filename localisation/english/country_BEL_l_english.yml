@@ -1,0 +1,61 @@
+﻿l_english:
+#Countries, Leaders, Factions
+BEL_GEORGES_THEUNIS:0 "Georges Theunis"
+
+BEL_anarchism_ideology:0 "Belgian Free State"
+BEL_anarchism_ideology_DEF:0 "the Belgian Free State"
+BEL_totalism_ideology:0 "Belgian Socialist Republic"
+BEL_totalism_ideology_DEF:0 "the Belgian Socialist Republic"
+BEL_socialism_ideology:0 "Kingdom of Belgium"
+BEL_socialism_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_social_democracy_ideology:0 "Kingdom of Belgium"
+BEL_social_democracy_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_liberalism_ideology:0 "Kingdom of Belgium"
+BEL_liberalism_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_conservatism_ideology:0 "Kingdom of Belgium"
+BEL_conservatism_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_authoritarianism_ideology:0 "Kingdom of Belgium"
+BEL_authoritarianism_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_ultranationalism_ideology:0 "Kingdom of Belgium"
+BEL_ultranationalism_ideology_DEF:0 "the Kingdom of Belgium"
+BEL_anarchism_ideology_ADJ:0 "Belgian"
+BEL_totalism_ideology_ADJ:0 "Belgian"
+BEL_socialism_ideology_ADJ:0 "Belgian"
+BEL_social_democracy_ideology_ADJ:0 "Belgian"
+BEL_liberalism_ideology_ADJ:0 "Belgian"
+BEL_conservatism_ideology_ADJ:0 "Belgian"
+BEL_authoritarianism_ideology_ADJ:0 "Belgian"
+BEL_ultranationalism_ideology_ADJ:0 "Belgian"
+BEL:0 "Belgium"
+BEL_DEF:0 "Belgium"
+BEL_ADJ:0 "Belgian"
+#Political Parties
+BEL_totalism_ideology_party:0 "KPB"
+BEL_totalism_ideology_party_long:0 "Communist Party of Belgium"
+BEL_socialism_ideology_party:0 "BWP-L"
+BEL_socialism_ideology_party_long:0 "Belgian Labour Party (Left Wing)"
+BEL_social_democracy_ideology_party:0 "BWP-R"
+BEL_social_democracy_ideology_party_long:0 "Belgian Labour Party (Right Wing)"
+BEL_liberalism_ideology_party:0 "LP"
+BEL_liberalism_ideology_party_long:0 "Liberal Party"
+BEL_conservatism_ideology_party:0 "KP"
+BEL_conservatism_ideology_party_long:0 "Catholic Party"
+BEL_authoritarianism_ideology_party:0 "Royalists"
+BEL_authoritarianism_ideology_party_long:0 "Monarchist Union"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

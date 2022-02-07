@@ -1,0 +1,220 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "corporations_tab_window"
+		position = { x = 719 y = 80 }	
+		size = { width= 549 height=640 }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+
+        iconType = {
+			name ="corporations_tab_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "corporations_title"
+			position = { x = 37 y = 5 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "CORPORATIONS_TAB_HEADER"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+		}
+
+		buttonType = {
+			name = "corporations_tab_close_button"
+			position = { x = -41 y = 7 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "corporations_tab_help_button"
+			position = { x = -94 y = 6 }
+			spriteType ="GFX_basic_circle_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "CORPORATIONS_TUTORIAL_KEY"
+		}
+
+		iconType = {
+			name ="corporations_tab_help_button_icon"
+			spriteType = "GFX_icon_atlas_cog"
+			position = { x = -85 y = 14 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "corporation_list"
+			position = { x = 9 y = 42 }	
+			size = { width = 540 height = 584 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "corporation_grid"
+				position = { x = -275 y = 0}
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 262 height = 170 }
+				max_slots_vertical = 100
+				add_horizontal = no
+			}
+		}
+	}
+
+
+	containerWindowType = {
+		name = "corporation_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 517 height = 150 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+
+		iconType = {
+			name ="corporation_logo"
+			spriteType = "GFX_corporation_unknown"
+			position = { x= 15 y = 25 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "corporation_name"
+			position = { x = 120 y = 10 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "COPORATION_NAME_KEY"
+			maxWidth = 250
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "corporation_type"
+			position = { x = 120 y = 40 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "COPORATION_TYPE_KEY"
+			maxWidth = 250
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "investment_cost"
+			position = { x = 120 y = 70 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "INVESTMENT_COST_KEY"
+			maxWidth = 250
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "decrease_investment_btn"
+			position = { x = 151 y = 95 }
+			spriteType ="GFX_production_line_arrow_down"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			pdx_tooltip = "DECREASE_INVESTMENT"
+		}
+
+		buttonType = {
+			name = "increase_investment_btn"
+			position = { x = 312 y = 95 }
+			spriteType ="GFX_production_line_arrow_up"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			pdx_tooltip = "INCREASE_INVESTMENT"
+		}
+
+		containerWindowType = {
+			name = "investment_icon_container"
+			position = { x = 0 y = 0 }	
+			size = { width = 540 height = 584 }
+
+			gridboxtype = {
+				name = "investment_icon_grid"
+				position = { x = -146 y = 100 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 25 height = 10 }
+				max_slots_vertical = 100
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "benefits_summary_container"
+			position = { x = 370 y = 10 }	
+			size = { width = 135 height = 130 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "benefits_summary"
+				position = { x = 10 y = 10 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "CORPORATION_BENEFITS_KEY"
+				maxWidth = 115
+				maxHeight = 110
+				format = left
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "investment_icons_list"
+		position = { x = 0 y = 0 }	
+		size = { width = 517 height = 150 }
+
+		iconType = {
+			name ="investment_icon_empty"
+			spriteType = "GFX_empty_circle_icon"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="investment_icon_full"
+			spriteType = "GFX_full_circle_icon"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="investment_icon_unavailable"
+			spriteType = "GFX_unavailable_circle_icon"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

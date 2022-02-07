@@ -1,0 +1,476 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "government_tab_window"
+		position = { x = 719 y = 80 }	
+		size = { width = 549 height = 640 }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+
+		iconType ={
+			name ="goverment_tab_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "government_title"
+			position = { x = 37 y = 5 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "GOVERNMENT_TAB_HEADER"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+		}
+
+		buttonType = {
+			name = "government_tab_close_btn"
+			position = { x = -41 y = 7 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "government_tab_help_button"
+			position = { x = -94 y = 6 }
+			spriteType ="GFX_basic_circle_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "GOV_TUTORIAL_KEY"
+		}
+
+		iconType = {
+			name ="government_tab_help_button_icon"
+			spriteType = "GFX_icon_atlas_cog"
+			position = { x = -85 y = 14 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "gov_page_left_btn"
+			position = { x = 60 y = 590 }
+			spriteType ="GFX_production_line_arrow_left"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = ""
+		}
+
+		instantTextboxType = {
+			name = "gov_page_left_text"
+			position = { x = -90 y = 565 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "GOV_PAGE_LEFT_TEXT_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "gov_page_right_btn"
+			position = { x = 440 y = 590 }
+			spriteType ="GFX_production_line_arrow_right"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = ""
+		}
+
+		instantTextboxType = {
+			name = "gov_page_right_text"
+			position = { x = 285 y = 565 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "GOV_PAGE_RIGHT_TEXT_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "gov_curr_page_title"
+			position = { x = 99 y = 565 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "GOV_CURR_PAGE_TITLE_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "gov_curr_page_display"
+			position = { x = 99 y = 592 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "GOV_CURR_PAGE_DISPLAY_KEY"
+			maxWidth = 340
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "lock_page_btn"
+			position = { x = 413 y = 6 }
+			spriteType ="GFX_basic_circle_button"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = "LOCK_PAGE_BTN_TT"
+			pdx_tooltip_delayed = "LOCK_PAGE_BTN_TT_DELAYED"
+		}
+
+		iconType ={
+			name ="unlocked_page_icon"
+			spriteType = "GFX_unlocked_page_icon"
+			position = { x = 421 y = 9 }
+			alwaystransparent = yes
+		}
+
+		iconType ={
+			name ="locked_page_icon"
+			spriteType = "GFX_locked_page_icon"
+			position = { x = 421 y = 9 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "government_desc_window"
+		position = { x = 10 y = 40 }	
+		size = { width = 517 height = 525 }
+
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+
+		instantTextboxType = {
+			name = "government_type"
+			position = { x = 180 y = 20 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "DISPLAY_GOV_TYPE"
+			maxWidth = 330
+		}
+
+		instantTextboxType = {
+			name = "special_rules"
+			position = { x = 180 y = 55 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "DISPLAY_SPECIAL_RULES"
+			maxWidth = 330
+			maxHeight = 20
+		}
+
+		instantTextboxType = {
+			name = "display_rules_text"
+			position = { x = 200 y = 85 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "DISPLAY_RULES"
+			maxWidth = 300
+		}
+
+		containerWindowType = {
+			name = "lower_house_seat_breakdown_window_1"
+			position = { x = 13 y = 340 }	
+			size = { width = 240 height = 170 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "lower_house_block_title"
+				position = { x = 9 y = 4 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "LOWER_HOUSE_TITLE_KEY"
+				format = center
+				maxWidth = 220
+				maxHeight = 20
+			}
+
+			instantTextboxType = {
+				name = "lower_house_block_desc"
+				position = { x = 12 y = 30 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "LOWER_HOUSE_DESC_KEY"
+				format = left
+				maxWidth = 220
+				maxHeight = 20
+			}
+		}
+
+		containerWindowType = {
+			name = "upper_house_seat_breakdown_window_1"
+			position = { x = 265 y = 340 }	
+			size = { width = 240 height = 170 }
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "upper_house_block_title"
+				position = { x = 8 y = 4 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "UPPER_HOUSE_TITLE_KEY"
+				format = center
+				maxWidth = 220
+				maxHeight = 20
+			}
+
+			instantTextboxType = {
+				name = "upper_house_block_desc"
+				position = { x = 12 y = 30 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "UPPER_HOUSE_DESC_KEY"
+				format = left
+				maxWidth = 220
+				maxHeight = 20
+			}
+		}
+
+		containerWindowType = {
+			name = "dual_leader_politics_view_container"
+			position = { x = -185 y = -37 }
+			
+			iconType ={
+				name ="dual_leader_portrait"
+				spriteType = "GFX_portrait_bg_blank"
+				position = { x = 193 y = 84 }
+
+				pdx_tooltip = second_leader_tt
+				pdx_tooltip_delayed = dual_leader_desc_tt
+			}
+			
+			iconType ={
+				name ="dual_leader_bg"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 185 y = 44 }
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name ="second_leader_title_text"
+				position = { x = 193 y = 57 }
+				font = "hoi_16mbs"
+				text = "second_leader_title"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+
+			instantTextBoxType = {
+				name ="dual_leader_name_text"
+				position = { x = 193 y = 298 }
+				font = "hoi_18mbs"
+				text = "dual_leader_name"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+
+				pdx_tooltip = second_leader_tt
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "parliament_gui_container"
+		position = { x = 10 y = 40 }
+		size = { width = 400 height = 375 }
+
+		containerWindowType = {
+			name = "parliament_semicircle_main_container"
+			position = { x = 0 y = 0 }
+			size = { width = 517 height = 525 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_plain_bg"
+			}
+
+			instantTextBoxType = {
+				name = "lower_chamber_title_text"
+				position = { x = -74 y = 15 }
+				font = "hoi_24header"
+				text = "GOV_LOWER_HOUSE_KEY"
+				maxWidth = 400
+				maxHeight = 24
+				format = center
+			}
+
+			instantTextBoxType = {
+				name = "upper_chamber_title_text"
+				position = { x = 180 y = 15 }
+				font = "hoi_24header"
+				text = "GOV_UPPER_HOUSE_KEY"
+				maxWidth = 400
+				maxHeight = 24
+				format = center
+			}
+
+			containerWindowType = {
+				name = "lower_house_seat_breakdown_window_2"
+				position = { x = 13 y = 340 }	
+				size = { width = 240 height = 170 }
+
+				background = {
+					name = "Background"		
+					quadTextureSprite ="GFX_tiled_decisions_bg_small"
+				}
+
+				instantTextboxType = {
+					name = "lower_house_block_title"
+					position = { x = 9 y = 4 }
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "LOWER_HOUSE_TITLE_KEY"
+					format = center
+					maxWidth = 220
+					maxHeight = 20
+				}
+
+				instantTextboxType = {
+					name = "lower_house_block_desc"
+					position = { x = 12 y = 30 }
+					font = "hoi_18mbs"
+					borderSize = {x = 0 y = 0}
+					text = "LOWER_HOUSE_DESC_KEY"
+					format = left
+					maxWidth = 220
+					maxHeight = 20
+				}
+			}
+
+			containerWindowType = {
+				name = "upper_house_seat_breakdown_window_2"
+				position = { x = 265 y = 340 }	
+				size = { width = 240 height = 170 }
+
+				background = {
+					name = "Background"		
+					quadTextureSprite ="GFX_tiled_decisions_bg_small"
+				}
+
+				instantTextboxType = {
+					name = "upper_house_block_title"
+					position = { x = 8 y = 4 }
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "UPPER_HOUSE_TITLE_KEY"
+					format = center
+					maxWidth = 220
+					maxHeight = 20
+				}
+
+				instantTextboxType = {
+					name = "upper_house_block_desc"
+					position = { x = 12 y = 30 }
+					font = "hoi_18mbs"
+					borderSize = {x = 0 y = 0}
+					text = "UPPER_HOUSE_DESC_KEY"
+					format = left
+					maxWidth = 220
+					maxHeight = 20
+				}
+			}
+		}
+
+		gridboxtype = {
+			name = "lower_chamber_member_grid"
+			position = { x = -50 y = 55 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 257 height = 25 }
+			max_slots_vertical = 8
+			add_horizontal = no
+		}
+
+		gridboxtype = {
+			name = "upper_chamber_member_grid"
+			position = { x = 457 y = 55 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 257 height = 25 }
+			max_slots_vertical = 8
+			add_horizontal = no
+		}
+
+		iconType = {
+			name ="border_frame"
+			spriteType = "GFX_border_frame_chambers_menu"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "lower_chamber_member_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 200 height = 18 }
+
+		iconType = {
+			name = "lower_chamber_member_icon"
+			spriteType = "GFX_parliament_party_icon"
+			position = { x = -20 y = 0 }
+		}
+		instantTextboxType = {
+			name = "lower_chamber_member_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_18mbs"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+			text = "LOWER_CHAMBER_MEMBER_TEXT_KEY"
+		}
+	}
+
+	containerWindowType = {
+		name = "upper_chamber_member_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 200 height = 18 }
+
+		iconType = {
+			name = "upper_chamber_member_icon"
+			spriteType = "GFX_parliament_party_icon"
+			position = { x = -20 y = 0 }
+		}
+
+		instantTextboxType = {
+			name = "upper_chamber_member_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_18mbs"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+			text = "UPPER_CHAMBER_MEMBER_TEXT_KEY"
+		}
+	}
+}

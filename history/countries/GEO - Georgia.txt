@@ -1,0 +1,57 @@
+﻿capital = 231
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+
+set_cosmetic_tag = GEO_TRANSCAUCASUS
+
+set_country_flag = has_president
+set_country_flag = is_provisional_government
+
+set_politics = {
+	ruling_party = social_democracy_ideology
+	elections_allowed = no
+	last_election = "1909.2.14"
+	election_frequency = 60 
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 13
+	socialism_ideology = 27
+	social_democracy_ideology = 30
+	liberalism_ideology = 30
+	conservatism_ideology = 0
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	very_low_tax_rate
+	partial_economic_mobilisation
+	limited_conscription
+	early_industrialization
+	legalized_trade_unions
+	state_ownership
+	army_untrained
+	navy_untrained
+	navy_minimal_funding
+	air_poor_funding
+	air_untrained
+}
+
+#LEADERS
+recruit_character = GEO_nikolay_chkheidze
+recruit_character = GEO_joseph_stalin
+
+#ARMY
+recruit_character = GEO_giorgi_kvinitadze #Field Marshal
+recruit_character = GEO_samad_bey_mehmandarov
+recruit_character = GEO_andranik_ozanian
+recruit_character = GEO_movses_silikyan
+recruit_character = GEO_ali_agha_shikhlinski
+recruit_character = GEO_georgy_mazniashvili
+recruit_character = GEO_kristapor_araratian
+recruit_character = GEO_garegin_nzhdeh
+recruit_character = GEO_abdulhamid_bey_gaytabashi

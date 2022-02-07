@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+FNG_FENGTIAN_CLIQUE:0 "Fengtian Clique"
+
+FNG_anarchism_ideology:0 "Chinese Free State"
+FNG_anarchism_ideology_DEF:0 "the Chinese Free State"
+FNG_totalism_ideology:0 "Fengtian Clique"
+FNG_totalism_ideology_DEF:0 "the Fengtian Clique"
+FNG_socialism_ideology:0 "Fengtian Clique"
+FNG_socialism_ideology_DEF:0 "the Fengtian Clique"
+FNG_social_democracy_ideology:0 "Fengtian Clique"
+FNG_social_democracy_ideology_DEF:0 "the Fengtian Clique"
+FNG_liberalism_ideology:0 "Fengtian Clique"
+FNG_liberalism_ideology_DEF:0 "the Fengtian Clique"
+FNG_conservatism_ideology:0 "Fengtian Clique"
+FNG_conservatism_ideology_DEF:0 "the Fengtian Clique"
+FNG_authoritarianism_ideology:0 "Fengtian Clique"
+FNG_authoritarianism_ideology_DEF:0 "the Fengtian Clique"
+FNG_ultranationalism_ideology:0 "Fengtian Clique"
+FNG_ultranationalism_ideology_DEF:0 "the Fengtian Clique"
+FNG_anarchism_ideology_ADJ:0 "Chinese"
+FNG_totalism_ideology_ADJ:0 "Chinese"
+FNG_socialism_ideology_ADJ:0 "Chinese"
+FNG_social_democracy_ideology_ADJ:0 "Chinese"
+FNG_liberalism_ideology_ADJ:0 "Chinese"
+FNG_conservatism_ideology_ADJ:0 "Chinese"
+FNG_authoritarianism_ideology_ADJ:0 "Chinese"
+FNG_ultranationalism_ideology_ADJ:0 "Chinese"
+FNG:0 "Manchuria"
+FNG_DEF:0 "Manchuria"
+FNG_ADJ:0 "Chinese"
+#Political Parties
+FNG_authoritarianism_ideology_party:0 "Fengtian Clique"
+FNG_authoritarianism_ideology_party_long:0 "Fengtian Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

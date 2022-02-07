@@ -1,0 +1,21 @@
+
+state = {
+	id = 68
+	name = "STATE_68"
+	manpower = 1244525
+	state_category = town
+	provinces = { 444 537 3473 3572 6236 9387 9496 9535 11415 11478 }
+	resources = {
+		aluminium = 15
+	}
+	
+	history = {
+		victory_points = { 3473 1 }
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

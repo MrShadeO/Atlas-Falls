@@ -1,0 +1,51 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ZHC_ZHILI_CLIQUE:0 "Zhili Clique"
+
+ZHC_anarchism_ideology:0 "Chinese Free State"
+ZHC_anarchism_ideology_DEF:0 "the Chinese Free State"
+ZHC_totalism_ideology:0 "Zhili Clique"
+ZHC_totalism_ideology_DEF:0 "the Zhili Clique"
+ZHC_socialism_ideology:0 "Zhili Clique"
+ZHC_socialism_ideology_DEF:0 "the Zhili Clique"
+ZHC_social_democracy_ideology:0 "Zhili Clique"
+ZHC_social_democracy_ideology_DEF:0 "the Zhili Clique"
+ZHC_liberalism_ideology:0 "Zhili Clique"
+ZHC_liberalism_ideology_DEF:0 "the Zhili Clique"
+ZHC_conservatism_ideology:0 "Zhili Clique"
+ZHC_conservatism_ideology_DEF:0 "the Zhili Clique"
+ZHC_authoritarianism_ideology:0 "Zhili Clique"
+ZHC_authoritarianism_ideology_DEF:0 "the Zhili Clique"
+ZHC_ultranationalism_ideology:0 "Zhili Clique"
+ZHC_ultranationalism_ideology_DEF:0 "the Zhili Clique"
+ZHC_anarchism_ideology_ADJ:0 "Chinese"
+ZHC_totalism_ideology_ADJ:0 "Chinese"
+ZHC_socialism_ideology_ADJ:0 "Chinese"
+ZHC_social_democracy_ideology_ADJ:0 "Chinese"
+ZHC_liberalism_ideology_ADJ:0 "Chinese"
+ZHC_conservatism_ideology_ADJ:0 "Chinese"
+ZHC_authoritarianism_ideology_ADJ:0 "Chinese"
+ZHC_ultranationalism_ideology_ADJ:0 "Chinese"
+ZHC:0 "Zhili"
+ZHC_DEF:0 "Zhili"
+ZHC_ADJ:0 "Chinese"
+#Political Parties
+ZHC_authoritarianism_ideology_party:0 "Zhili Clique"
+ZHC_authoritarianism_ideology_party_long:0 "Zhili Clique"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

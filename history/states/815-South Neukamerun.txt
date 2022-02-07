@@ -1,0 +1,15 @@
+state = {
+	id = 815
+	name = "STATE_815"
+	manpower = 132456
+	state_category = rural
+	provinces = { 3109 4903 5035 10948 }
+
+	history = {
+		owner = GER
+		add_core_of = RCG
+		buildings = {
+			infrastructure = 1
+		}
+	}	
+}

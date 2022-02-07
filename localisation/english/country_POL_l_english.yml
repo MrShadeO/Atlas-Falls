@@ -1,0 +1,64 @@
+﻿l_english:
+#Countries, Leaders, Factions
+POL_GENERAL_TITLE:0 "General"
+POL_JOZEF_DOWBOR-MUSNICKI:0 "Józef Dowbor-Muśnicki"
+
+POL_anarchism_ideology:0 "Polish Free State"
+POL_anarchism_ideology_DEF:0 "the Polish Free State"
+POL_totalism_ideology:0 "Polish Socialist Republic"
+POL_totalism_ideology_DEF:0 "the Polish Socialist Republic"
+POL_socialism_ideology:0 "Polish Socialist Republic"
+POL_socialism_ideology_DEF:0 "the Polish Socialist Republic"
+POL_social_democracy_ideology:0 "Polish Legions"
+POL_social_democracy_ideology_DEF:0 "the Polish Legions"
+POL_liberalism_ideology:0 "Polish Legions"
+POL_liberalism_ideology_DEF:0 "the Polish Legions"
+POL_conservatism_ideology:0 "Polish Legions"
+POL_conservatism_ideology_DEF:0 "the Polish Legions"
+POL_authoritarianism_ideology:0 "Polish Legions"
+POL_authoritarianism_ideology_DEF:0 "the Polish Legions"
+POL_ultranationalism_ideology:0 "Polish Legions"
+POL_ultranationalism_ideology_DEF:0 "the Polish Legions"
+POL_anarchism_ideology_ADJ:0 "Polish"
+POL_totalism_ideology_ADJ:0 "Polish"
+POL_socialism_ideology_ADJ:0 "Polish"
+POL_social_democracy_ideology_ADJ:0 "Polish"
+POL_liberalism_ideology_ADJ:0 "Polish"
+POL_conservatism_ideology_ADJ:0 "Polish"
+POL_authoritarianism_ideology_ADJ:0 "Polish"
+POL_ultranationalism_ideology_ADJ:0 "Polish"
+POL:0 "Poland"
+POL_DEF:0 "Poland"
+POL_ADJ:0 "Polish"
+#Political Parties
+POL_totalism_ideology_party:0 "KPP"
+POL_totalism_ideology_party_long:0 "Communist Party of Poland"
+POL_socialism_ideology_party:0 "PPS"
+POL_socialism_ideology_party_long:0 "Polish Socialist Party"
+POL_social_democracy_ideology_party:0 "PSL"
+POL_social_democracy_ideology_party_long:0 "Polish People's Party"
+POL_liberalism_ideology_party:0 "PSChD"
+POL_liberalism_ideology_party_long:0 "Polish Christian Democratic Party"
+POL_conservatism_ideology_party:0 "ZLN"
+POL_conservatism_ideology_party_long:0 "Popular National Union"
+POL_authoritarianism_ideology_party:0 "Military Junta"
+POL_authoritarianism_ideology_party_long:0 "Military Junta"
+POL_ultranationalism_ideology_party:0 "ND"
+POL_ultranationalism_ideology_party_long:0 "National Democracy"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

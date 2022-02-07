@@ -1,0 +1,18 @@
+
+state = {
+	id = 225
+	name = "STATE_225"
+	manpower = 35000
+	state_category = wasteland
+	provinces = { 10104 }
+
+	history = {
+		victory_points = { 10104 1 }
+		owner = BUL
+		add_core_of = SER
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+state = {
+	id = 586
+	name = "STATE_586"
+	manpower = 1000000
+	state_category = rural
+	provinces = { 1216 1554 1919 4629 7501 7682 11687 12430 }
+
+	history = {
+		victory_points = { 1216 3 }
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

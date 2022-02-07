@@ -1,0 +1,18 @@
+state = {
+	id = 328
+	name = "STATE_328" # Kirin
+	manpower = 8040000
+	state_category = town
+	provinces = { 800 861 927 944 946 1567 3913 3929 3932 3947 4503 4572 6905 6947 6964 7523 7591 7652 7663 9782 9841 9866 9883 9913 9928 10433 11744 11781 11823 11850 11862 11864 11893 }
+
+	history = {
+		victory_points = { 4572 1 }
+		victory_points = { 10433 2 }
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+}

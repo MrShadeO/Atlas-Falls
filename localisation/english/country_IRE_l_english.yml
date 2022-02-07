@@ -1,0 +1,59 @@
+﻿l_english:
+#Countries, Leaders, Factions
+IRE_JOSEPH_DEVLIN:0 "Joseph Devlin"
+
+IRE_anarchism_ideology:0 "Irish Free State"
+IRE_anarchism_ideology_DEF:0 "the Irish Free State"
+IRE_totalism_ideology:0 "Irish Socialist Republic"
+IRE_totalism_ideology_DEF:0 "the Irish Socialist Republic"
+IRE_socialism_ideology:0 "Irish Socialist Republic"
+IRE_socialism_ideology_DEF:0 "the Irish Socialist Republic"
+IRE_social_democracy_ideology:0 "Southern Ireland"
+IRE_social_democracy_ideology_DEF:0 "Southern Ireland"
+IRE_liberalism_ideology:0 "Southern Ireland"
+IRE_liberalism_ideology_DEF:0 "Southern Ireland"
+IRE_conservatism_ideology:0 "Southern Ireland"
+IRE_conservatism_ideology_DEF:0 "Southern Ireland"
+IRE_authoritarianism_ideology:0 "Southern Ireland"
+IRE_authoritarianism_ideology_DEF:0 "Southern Ireland"
+IRE_ultranationalism_ideology:0 "Southern Ireland"
+IRE_ultranationalism_ideology_DEF:0 "Southern Ireland"
+IRE_anarchism_ideology_ADJ:0 "Irish"
+IRE_totalism_ideology_ADJ:0 "Irish"
+IRE_socialism_ideology_ADJ:0 "Irish"
+IRE_social_democracy_ideology_ADJ:0 "Irish"
+IRE_liberalism_ideology_ADJ:0 "Irish"
+IRE_conservatism_ideology_ADJ:0 "Irish"
+IRE_authoritarianism_ideology_ADJ:0 "Irish"
+IRE_ultranationalism_ideology_ADJ:0 "Irish"
+IRE:0 "Ireland"
+IRE_DEF:0 "Ireland"
+IRE_ADJ:0 "Irish"
+#Political Parties
+IRE_socialism_ideology_party:0 "PLO"
+IRE_socialism_ideology_party_long:0 "Labour Party"
+IRE_social_democracy_ideology_party:0 "SF"
+IRE_social_democracy_ideology_party_long:0 "Sinn Féin"
+IRE_liberalism_ideology_party:0 "PF"
+IRE_liberalism_ideology_party_long:0 "Farmers' Union"
+IRE_conservatism_ideology_party:0 "CG"
+IRE_conservatism_ideology_party_long:0 "Gaelic Society"
+IRE_ultranationalism_ideology_party:0 "IRA"
+IRE_ultranationalism_ideology_party_long:0 "Irish Republican Army"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

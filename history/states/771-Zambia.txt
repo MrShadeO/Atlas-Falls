@@ -1,0 +1,19 @@
+state = {
+	id = 771
+	name = "STATE_771" # Zambia
+	manpower = 770000
+	state_category  =  rural
+	provinces = { 697 1846 5199 5221 7872 10538 10594 10930 12504 12677 13173 }
+	resources = {
+		chromium = 35
+		tungsten = 8
+	}
+	history = {
+		victory_points = { 5199 1 }
+		owner = ENG
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+
+state = {
+	id = 97
+	name = "STATE_97"
+	manpower = 631000
+	state_category = rural
+	provinces = { 290 347 400 3254 11247 11301 11357 }
+
+	history = {
+		owner = RUS
+		add_core_of = POL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

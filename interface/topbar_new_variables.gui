@@ -1,0 +1,78 @@
+guiTypes = {
+    containerWindowType = {
+		name = "topbar_new_variables_container"
+		position = { x = 970 y = 0 }	
+		size = { width = 500 height = 100 }
+		orientation = UPPER_LEFT
+		
+        containerWindowType = {
+			name = "standing_army_container"
+			position = { x= 2 y = 5 }
+			clipping = no
+			size = { width = 56 height = 30 }
+			Orientation = UPPER_LEFT
+			
+			background = {
+				name = "bg"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+
+			iconType = {
+				name ="standing_army_icon"
+				spriteType = "GFX_standing_army_symbol"
+				position = { x= 5 y = 8 }
+				Orientation = "UPPER_LEFT"
+                pdx_tooltip = "STANDING_ARMY_DESC_TT"
+                pdx_tooltip_delayed = "STANDING_ARMY_DESC_TT_DELAYED"
+			}		
+			
+			instantTextBoxType = {
+				name ="standing_army_available"
+				position = { x= 23 y = 5 }
+				font = "hoi_18mbs"
+				text = "DISPLAY_STANDING_ARMY_AVAILABLE"
+				format = left
+				maxWidth = 40
+				maxHeight = 24
+				fixedsize = yes
+                pdx_tooltip = "STANDING_ARMY_DESC_TT"
+                pdx_tooltip_delayed = "STANDING_ARMY_DESC_TT_DELAYED"
+			}
+		}
+
+        containerWindowType = {
+			name = "investment_points_container"
+			position = { x= 60 y = 5 }
+			clipping = no
+			size = { width = 56 height = 30 }
+			Orientation = UPPER_LEFT
+			
+			background = {
+				name = "bg"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+
+			iconType = {
+				name ="investment_points_icon"
+				spriteType = "GFX_investment_mini_texticon"
+				position = { x= 5 y = 8 }
+				Orientation = "UPPER_LEFT"
+                pdx_tooltip = "INVESTMENT_POINTS_DEC_TT"
+                pdx_tooltip_delayed = "INVESTMENT_POINTS_DEC_TT_DELAYED"
+			}		
+			
+			instantTextBoxType = {
+				name ="curr_investment_points"
+				position = { x= 23 y = 5 }
+				font = "hoi_18mbs"
+				text = "CURRENT_INVESTMENT_POINTS"
+				format = left
+				maxWidth = 30
+				maxHeight = 24
+				fixedsize = yes
+                pdx_tooltip = "INVESTMENT_POINTS_DEC_TT"
+                pdx_tooltip_delayed = "INVESTMENT_POINTS_DEC_TT_DELAYED"
+			}
+		}
+    }
+}

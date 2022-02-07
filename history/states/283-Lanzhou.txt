@@ -1,0 +1,21 @@
+
+state = {
+	id = 283
+	name = "STATE_283"
+	manpower = 4590000
+	state_category = town
+	provinces = { 531 556 1647 1933 1985 2022 3742 3745 4313 4939 5025 6638 7397 7911 12797 12882 }
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		victory_points = { 2045 1 }
+		owner = XSM
+		add_core_of = XSM
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+}

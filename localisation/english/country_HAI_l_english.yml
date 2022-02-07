@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+HAI_HIGH_COMMISSIONER:0 "High Commissioner"
+HAI_JOHN_RUSSEL:0 "John Russel"
+
+HAI_anarchism_ideology:0 "Haitian Free State"
+HAI_anarchism_ideology_DEF:0 "the Haitian Free State"
+HAI_totalism_ideology:0 "Socialist Republic of Haiti"
+HAI_totalism_ideology_DEF:0 "the Socialist Republic of Haiti"
+HAI_socialism_ideology:0 "Socialist Republic of Haiti"
+HAI_socialism_ideology_DEF:0 "the Socialist Republic of Haiti"
+HAI_social_democracy_ideology:0 "Republic of Haiti"
+HAI_social_democracy_ideology_DEF:0 "the Republic of Haiti"
+HAI_liberalism_ideology:0 "Republic of Haiti"
+HAI_liberalism_ideology_DEF:0 "the Republic of Haiti"
+HAI_conservatism_ideology:0 "Republic of Haiti"
+HAI_conservatism_ideology_DEF:0 "the Republic of Haiti"
+HAI_authoritarianism_ideology:0 "Republic of Haiti"
+HAI_authoritarianism_ideology_DEF:0 "the Republic of Haiti"
+HAI_ultranationalism_ideology:0 "Republic of Haiti"
+HAI_ultranationalism_ideology_DEF:0 "the Republic of Haiti"
+HAI_anarchism_ideology_ADJ:0 "Haitian"
+HAI_totalism_ideology_ADJ:0 "Haitian"
+HAI_socialism_ideology_ADJ:0 "Haitian"
+HAI_social_democracy_ideology_ADJ:0 "Haitian"
+HAI_liberalism_ideology_ADJ:0 "Haitian"
+HAI_conservatism_ideology_ADJ:0 "Haitian"
+HAI_authoritarianism_ideology_ADJ:0 "Haitian"
+HAI_ultranationalism_ideology_ADJ:0 "Haitian"
+HAI:0 "Haiti"
+HAI_DEF:0 "Haiti"
+HAI_ADJ:0 "Haitian"
+#Political Parties
+HAI_authoritarianism_ideology_party:0 "USA Occupation"
+HAI_authoritarianism_ideology_party_long:0 "USA Occupation Forces"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

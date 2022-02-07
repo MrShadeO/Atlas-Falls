@@ -1,0 +1,657 @@
+defined_text = {
+    name = GetCurrTaxRate
+	text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = SHOW_NO_TAX
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = SHOW_VERY_LOW_TAX
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = SHOW_LOW_TAX
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = SHOW_MEDIUM_TAX
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = SHOW_HIGH_TAX
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = SHOW_VERY_HIGH_TAX
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetFinalizationCost
+	text = {
+		trigger = {
+			has_political_power > 49
+		}
+		localization_key = FINALIZE_CAN_AFFORD
+	}
+    text = {
+		localization_key = FINALIZE_CANNOT_AFFORD
+	}
+}
+
+defined_text = {
+    name = GetFinalizationCostTT
+	text = {
+		trigger = {
+			has_political_power > 49
+		}
+		localization_key = FINALIZE_TT_CAN_AFFORD
+	}
+    text = {
+		localization_key = FINALIZE_TT_CANNOT_AFFORD
+	}
+}
+
+defined_text = {
+    name = GetTaxRateEffects
+	text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = NO_TAXES_EFFECTS
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = VERY_LOW_TAXES_EFFECTS
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = LOW_TAXES_EFFECTS
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = MEDIUM_TAXES_EFFECTS
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = HIGH_TAXES_EFFECTS
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = VERY_HIGH_TAXES_EFFECTS
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetSurplusDeficitEffects
+	text = {
+		trigger = {
+			check_variable = {
+                var = net_tax_var_display
+                value = 0
+                compare = greater_than
+            }
+		}
+		localization_key = SHOW_BUDGET_SURPLUS
+	}
+	text = {
+		trigger = {
+			check_variable = {
+                var = net_tax_var_display
+                value = 0
+                compare = less_than
+            }
+		}
+		localization_key = SHOW_BUDGET_DEFICIT
+	}
+	text = {
+		trigger = {
+			check_variable = {
+                var = net_tax_var_display
+                value = 0
+                compare = equals
+            }
+		}
+		localization_key = SHOW_NOTHING
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetTaxRateDisplay
+	text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = SHOW_NO_TAX_BREAKDOWN
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = SHOW_VERY_LOW_TAX_BREAKDOWN
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = SHOW_LOW_TAX_BREAKDOWN
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = SHOW_MEDIUM_TAX_BREAKDOWN
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = SHOW_HIGH_TAX_BREAKDOWN
+	}
+    text = {
+		trigger = {
+			check_variable = {
+                var = curr_tax_rate_var
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = SHOW_VERY_HIGH_TAX_BREAKDOWN
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = CheckPartyModifier
+	text = {
+		trigger = {
+			has_government = social_democracy_ideology
+		}
+		localization_key = SHOW_SOC_DEM_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckGovModifier
+	text = {
+		trigger = {
+			has_country_flag = is_colonial_government
+		}
+		localization_key = SHOW_COLONIAL_GOV_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckActionModifier
+	text = {
+		trigger = {
+			has_idea = embezzlement_bonus
+		}
+		localization_key = SHOW_EMBEZZLEMENT_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckIndustrializationModifier
+	text = {
+		trigger = {
+			has_idea = early_industrialization
+		}
+		localization_key = SHOW_EARLY_INDUSTRIALIZATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = modern_industrialization
+		}
+		localization_key = SHOW_MODERN_INDUSTRIALIZATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = advanced_industrialization
+		}
+		localization_key = SHOW_ADVANCED_INDUSTRIALIZATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = peak_industrialization
+		}
+		localization_key = SHOW_PEAK_INDUSTRIALIZATION_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckDevelopmentFocusModifier
+	text = {
+		trigger = {
+			has_idea = urban_focus
+		}
+		localization_key = SHOW_URBAN_FOCUS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = suburban_focus
+		}
+		localization_key = SHOW_SUBURBAN_FOCUS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = rural_focus
+		}
+		localization_key = SHOW_RURAL_FOCUS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = capitol_focus
+		}
+		localization_key = SHOW_CAPITOL_FOCUS_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckColonialPolicyModifier
+	text = {
+		trigger = {
+			has_idea = colonial_synergy
+		}
+		localization_key = SHOW_COLONIAL_SYNERGY_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = colonial_development
+		}
+		localization_key = SHOW_COLONIAL_DEVELOPMENT_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = colonial_troops
+		}
+		localization_key = SHOW_COLONIAL_TROOPS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = tax_the_natives
+		}
+		localization_key = SHOW_TAX_THE_NATIVES_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = colonial_exploitation
+		}
+		localization_key = SHOW_COLONIAL_EXPLOITATION_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckTaxSystemModifier
+	text = {
+		trigger = {
+			has_idea = set_maximum_income
+		}
+		localization_key = SHOW_SET_MAXIMUM_INCOME_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = wealth_tax
+		}
+		localization_key = SHOW_WEALTH_TAX_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = flat_tax_rate
+		}
+		localization_key = SHOW_FLAT_TAX_RATE_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = no_wealth_tax
+		}
+		localization_key = SHOW_TAX_EXEMPT_ARISTOCRATS_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckNaturalResourcesModifier
+	text = {
+		trigger = {
+			has_idea = state_ownership
+		}
+		localization_key = SHOW_STATE_OWNERSHIP_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckImmigrationModifier
+	text = {
+		trigger = {
+			has_idea = closed_borders
+		}
+		localization_key = SHOW_CLOSED_BORDERS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = refugees_only
+		}
+		localization_key = SHOW_REFUGEES_ONLY_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = limited_immigration
+		}
+		localization_key = SHOW_LIMITED_IMMIRGRATION_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckLawEnforcementModifier
+	text = {
+		trigger = {
+			has_idea = underfunded_police
+		}
+		localization_key = SHOW_UNDERFUNDED_POLICE_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = professional_police
+		}
+		localization_key = SHOW_PROFESSIONAL_POLICE_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = secret_police
+		}
+		localization_key = SHOW_SECRET_POLICE_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = police_state
+		}
+		localization_key = SHOW_POLICE_STATE_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckEducationSystemModifier
+	text = {
+		trigger = {
+			has_idea = primary_education
+		}
+		localization_key = SHOW_PRIMARY_EDUCATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = lower_secondary_education
+		}
+		localization_key = SHOW_LOWER_SECONDARY_EDUCATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = upper_secondary_education
+		}
+		localization_key = SHOW_UPPER_SECONDARY_EDUCATION_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = free_universities
+		}
+		localization_key = SHOW_FREE_UNIVERSITIES_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckPensionSystemModifier
+	text = {
+		trigger = {
+			has_idea = basic_pensions
+		}
+		localization_key = SHOW_BASIC_PENSIONS_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = generous_pensions
+		}
+		localization_key = SHOW_GENEROUS_PENSIONS_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckArmyFundingModifier
+	text = {
+		trigger = {
+			has_idea = army_poor_funding
+		}
+		localization_key = SHOW_ARMY_POOR_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = army_sufficient_funding
+		}
+		localization_key = SHOW_ARMY_SUFFICIENT_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = army_lavish_funding
+		}
+		localization_key = SHOW_ARMY_LAVISH_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = army_massive_funding
+		}
+		localization_key = SHOW_ARMY_MASSIVE_FUNDING_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckNavyFundingModifier
+	text = {
+		trigger = {
+			has_idea = navy_poor_funding
+		}
+		localization_key = SHOW_NAVY_POOR_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = navy_sufficient_funding
+		}
+		localization_key = SHOW_NAVY_SUFFICIENT_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = navy_lavish_funding
+		}
+		localization_key = SHOW_NAVY_LAVISH_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = navy_massive_funding
+		}
+		localization_key = SHOW_NAVY_MASSIVE_FUNDING_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckAirFundingModifier
+	text = {
+		trigger = {
+			has_idea = air_poor_funding
+		}
+		localization_key = SHOW_AIR_POOR_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = air_sufficient_funding
+		}
+		localization_key = SHOW_AIR_SUFFICIENT_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = air_lavish_funding
+		}
+		localization_key = SHOW_AIR_LAVISH_FUNDING_MODIFIER
+	}
+	text = {
+		trigger = {
+			has_idea = air_massive_funding
+		}
+		localization_key = SHOW_AIR_MASSIVE_FUNDING_MODIFIER
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckUniversalHealthcare
+	text = {
+		trigger = {
+			has_idea = universal_healthcare_idea
+		}
+		localization_key = SHOW_UNIVERSAL_HEALTHCARE_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

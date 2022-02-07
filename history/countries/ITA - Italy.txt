@@ -1,0 +1,268 @@
+capital = 2
+
+set_research_slots = 4
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 175
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+#LEADERS
+create_country_leader = { 
+	name = "Alceste De Ambris"
+	picture = "" 
+	expire="1940.1.1" 
+	ideology = anarchism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Nicola Bombacci"
+	picture = "" 
+	expire="1940.1.1" 
+	ideology = totalism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds" 
+	expire="1940.1.1" 
+	ideology = socialism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds" 
+	expire="1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+	expire="1940.1.1" 
+	ideology = liberalism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+	expire="1940.1.1" 
+	ideology = conservatism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+	expire="1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+	expire="1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {} 
+}
+
+#ARMY
+create_field_marshal = {
+	name = "Luigi Cadorna" 
+	portrait_path = "gfx/leaders/ITA/ITA_Luigi_Cadorna.dds" 
+	traits = { politically_connected old_guard hill_fighter} 
+	id = 55001
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Armando Diaz" 
+	portrait_path = "gfx/leaders/ITA/ITA_Armando_Diaz.dds" 
+	traits = { politically_connected career_officer } 
+	id = 55002
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Pecori Giraldi" 
+	portrait_path = "gfx/leaders/ITA/ITA_Pecori_Giraldi.dds" 
+	traits = { old_guard career_officer } 
+	id = 55003
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Carlo Caneva" 
+	portrait_path = "gfx/leaders/ITA/ITA_Carlo_Caneva.dds" 
+	traits = { trait_cautious } 
+	id = 55004
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Emanuele Filiberto" 
+	portrait_path = "gfx/leaders/ITA/ITA_Emanuele_Filiberto.dds" 
+	traits = { politically_connected } 
+	skill = 2 
+	id = 55005
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Maurizio Ferrante Gonzaga" 
+	portrait_path = "gfx/leaders/ITA/ITA_maurizio_gonzaga.dds" 
+	traits = { politically_connected trait_reckless } 
+	skill = 2 
+	id = 55006
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Pietro Badoglio" 
+	portrait_path = "gfx/leaders/ITA/ITA_pietro_badoglio.dds" 
+	traits = { hill_fighter career_officer } 
+	id = 55007
+	skill = 1 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Luigi Capello" 
+	portrait_path = "gfx/leaders/ITA/ITA_luigi_capello.dds" 
+	traits = { inflexible_strategist trait_cautious } 
+	id = 55008
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Giorgio Emo Capodilista" 
+	portrait_path = "gfx/leaders/ITA/ITA_giorgio_capodilista.dds" 
+	traits = { cavalry_officer hill_fighter } 
+	id = 55009
+	skill = 1 
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Pietro Frugoni" 
+	portrait_path = "gfx/leaders/ITA/ITA_pietro_frugoni.dds" 
+	id = 55011
+	traits = {}
+	skill = 1 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Alberto Cavaciocchi" 
+	portrait_path = "gfx/leaders/ITA/ITA_alberto_cavaciocchi.dds" 
+	traits = { harsh_leader } 
+	id = 55012
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+#NAVY
+create_navy_leader = {
+	name = "Thaon di Revel"
+	portrait_path="gfx/leaders/ITA/ITA_thaon_di_revel.dds" 
+	traits = { gentlemanly ironside } 
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Umberto Cagni"
+	portrait_path="gfx/leaders/ITA/ITA_umberto_cagni.dds" 
+	traits = { navy_media_personality gentlemanly blockade_runner } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Luigi Amedeo"
+	portrait_path="gfx/leaders/ITA/ITA_luigi_amedeo.dds" 
+	traits = { gentlemanly } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Marcello Amero d'Aste-Stella"
+	portrait_path="gfx/leaders/ITA/ITA_marcello_aste_stella.dds" 
+	traits = { old_guard_navy gunnery_expert } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = liberalism_ideology
+		last_election = "1924.10.26"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		anarchism_ideology = 5
+		totalism_ideology = 15
+		socialism_ideology = 10
+		social_democracy_ideology = 15
+		liberalism_ideology = 20
+		conservatism_ideology = 15
+		authoritarianism_ideology = 15
+		ultranationalism_ideology = 5
+	}
+
+	add_ideas = {
+		medium_tax_rate
+		early_industrialization
+		catholicism
+		colonial_troops
+		census_suffrage
+		legalized_trade_unions
+	}
+}

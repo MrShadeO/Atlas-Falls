@@ -1,0 +1,24 @@
+state = {
+	id = 485
+	name = "STATE_485"
+	manpower = 594278
+	state_category = rural
+	provinces = { 5066 10730 13226 13227 13228 13229 }
+	resources = {
+		steel = 20
+		oil = 6
+		tungsten = 4
+	}
+
+	history = {
+		victory_points = { 5066 1 }
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			10730 = { naval_base = 3 }
+		}
+	}
+}

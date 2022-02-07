@@ -1,0 +1,57 @@
+﻿l_english:
+#Countries, Leaders, Factions
+UKR_SYMON_PETLIURA:0 "Symon Petliura"
+
+UKR_anarchism_ideology:0 "Ukrainian Free State"
+UKR_anarchism_ideology_DEF:0 "the Ukrainian Free State"
+UKR_totalism_ideology:0 "Ukrainian Soviet Republic"
+UKR_totalism_ideology_DEF:0 "the Ukrainian Soviet Republic"
+UKR_socialism_ideology:0 "Ukrainian People's Republic"
+UKR_socialism_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_social_democracy_ideology:0 "Ukrainian People's Republic"
+UKR_social_democracy_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_liberalism_ideology:0 "Ukrainian People's Republic"
+UKR_liberalism_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_conservatism_ideology:0 "Ukrainian People's Republic"
+UKR_conservatism_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_authoritarianism_ideology:0 "Ukrainian People's Republic"
+UKR_authoritarianism_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_ultranationalism_ideology:0 "Ukrainian People's Republic"
+UKR_ultranationalism_ideology_DEF:0 "the Ukrainian People's Republic"
+UKR_anarchism_ideology_ADJ:0 "Ukrainian"
+UKR_totalism_ideology_ADJ:0 "Ukrainian"
+UKR_socialism_ideology_ADJ:0 "Ukrainian"
+UKR_social_democracy_ideology_ADJ:0 "Ukrainian"
+UKR_liberalism_ideology_ADJ:0 "Ukrainian"
+UKR_conservatism_ideology_ADJ:0 "Ukrainian"
+UKR_authoritarianism_ideology_ADJ:0 "Ukrainian"
+UKR_ultranationalism_ideology_ADJ:0 "Ukrainian"
+UKR:0 "Ukraine"
+UKR_DEF:0 "Ukraine"
+UKR_ADJ:0 "Ukrainian"
+#Political Parties
+UKR_totalism_ideology_party:0 "Borotbists"
+UKR_totalism_ideology_party_long:0 "Ukrainian Communist Party"
+UKR_socialism_ideology_party:0 "USRP"
+UKR_socialism_ideology_party_long:0 "Ukrainian Socialist-Revolutionary Party"
+UKR_social_democracy_ideology_party:0 "USDLP"
+UKR_social_democracy_ideology_party_long:0 "Ukrainian Social Democratic Labour Party"
+UKR_liberalism_ideology_party:0 "URDP"
+UKR_liberalism_ideology_party_long:0 "Ukrainian Radical Democratic Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

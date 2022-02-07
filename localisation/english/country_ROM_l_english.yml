@@ -1,0 +1,65 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ROM_IONEL_BRATIANU:0 "Ionel Brătianu"
+POLITICS_IONEL_BRATIANU_DESC:0 ""
+
+ROM_anarchism_ideology:0 "Romanian Free State"
+ROM_anarchism_ideology_DEF:0 "the Romanian Free State"
+ROM_totalism_ideology:0 "Socialist Republic of Romania"
+ROM_totalism_ideology_DEF:0 "the Socialist Republic of Romania"
+ROM_socialism_ideology:0 "Kingdom of Romania"
+ROM_socialism_ideology_DEF:0 "the Kingdom of Romania"
+ROM_social_democracy_ideology:0 "Kingdom of Romania"
+ROM_social_democracy_ideology_DEF:0 "the Kingdom of Romania"
+ROM_liberalism_ideology:0 "Kingdom of Romania"
+ROM_liberalism_ideology_DEF:0 "the Kingdom of Romania"
+ROM_conservatism_ideology:0 "Kingdom of Romania"
+ROM_conservatism_ideology_DEF:0 "the Kingdom of Romania"
+ROM_authoritarianism_ideology:0 "Kingdom of Romania"
+ROM_authoritarianism_ideology_DEF:0 "the Kingdom of Romania"
+ROM_ultranationalism_ideology:0 "Kingdom of Romania"
+ROM_ultranationalism_ideology_DEF:0 "the Kingdom of Romania"
+ROM_anarchism_ideology_ADJ:0 "Romanian"
+ROM_totalism_ideology_ADJ:0 "Romanian"
+ROM_socialism_ideology_ADJ:0 "Romanian"
+ROM_social_democracy_ideology_ADJ:0 "Romanian"
+ROM_liberalism_ideology_ADJ:0 "Romanian"
+ROM_conservatism_ideology_ADJ:0 "Romanian"
+ROM_authoritarianism_ideology_ADJ:0 "Romanian"
+ROM_ultranationalism_ideology_ADJ:0 "Romanian"
+ROM:0 "Romania"
+ROM_DEF:0 "Romania"
+ROM_ADJ:0 "Romanian"
+
+#Political Parties
+ROM_totalism_ideology_party:0 "PCR"
+ROM_totalism_ideology_party_long:0 "Romanian Communist Party"
+ROM_socialism_ideology_party:0 "FPSR"
+ROM_socialism_ideology_party_long:0 "Federation of Romanian Socialist Parties"
+ROM_social_democracy_ideology_party:0 "PT"
+ROM_social_democracy_ideology_party_long:0 "Peasants' Party"
+ROM_liberalism_ideology_party:0 "PNL"
+ROM_liberalism_ideology_party_long:0 "National Liberal Party"
+ROM_conservatism_ideology_party:0 "PC"
+ROM_conservatism_ideology_party_long:0 "Conservative Party"
+ROM_authoritarianism_ideology_party:0 "PND"
+ROM_authoritarianism_ideology_party_long:0 "Democratic Nationalist Party"
+ROM_ultranationalism_ideology_party:0 "LANC"
+ROM_ultranationalism_ideology_party_long:0 "National-Christian Defense League"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

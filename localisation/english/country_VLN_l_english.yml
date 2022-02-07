@@ -1,0 +1,32 @@
+﻿l_english:
+#Countries, Leaders, Factions
+VLN_BATKO_TITLE:0 "Batko"
+VLN_HIGH_COMMAND_TITLE:0 "High Command"
+VLN_SOLDIER_COMMITTEES:0 "Soldier Committees"
+
+VLN_anarchism_ideology:0 "Free Territory"
+VLN_anarchism_ideology_DEF:0 "the Free Territory"
+VLN_anarchism_ideology_ADJ:0 "Makhnovist"
+VLN:0 "Free Territory"
+VLN_DEF:0 "the Free Territory"
+VLN_ADJ:0 "Makhnovist"
+#Political Parties
+VLN_anarchism_ideology_party:0 "Black Army"
+VLN_anarchism_ideology_party_long:0 "Revolutionary Insurrectionary Army of Ukraine"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

@@ -1,0 +1,41 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_generic_industry_corporation"
+		textureFile = "gfx/interface/corporations/generic_industry_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_electronics_corporation"
+		textureFile = "gfx/interface/corporations/generic_electronics_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_arms_corporation"
+		textureFile = "gfx/interface/corporations/generic_arms_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_artillery_corporation"
+		textureFile = "gfx/interface/corporations/generic_artillery_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_vehicle_corporation"
+		textureFile = "gfx/interface/corporations/generic_vehicle_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_aircraft_corporation"
+		textureFile = "gfx/interface/corporations/generic_aircraft_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_ship_corporation"
+		textureFile = "gfx/interface/corporations/generic_ship_corporation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_tank_corporation"
+		textureFile = "gfx/interface/corporations/generic_tank_corporation.dds"
+	}
+}

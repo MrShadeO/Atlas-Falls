@@ -1,0 +1,25 @@
+
+state = {
+	id = 202
+	name = "STATE_202"
+	manpower = 4148900
+	state_category = city
+	provinces = { 441 458 488 504 525 550 3494 3543 6497 9451 9465 9568 11424 11438 11454 11464 11490 }
+	resources = {
+		aluminium = 4
+	}
+
+	history = {
+		victory_points = { 488 5 }
+		victory_points = { 525 25 }
+		owner = UKR
+		add_core_of = UKR
+		add_core_of = VLN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			arms_factory = 1
+		}
+	}
+}

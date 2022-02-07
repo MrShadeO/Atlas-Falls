@@ -1,0 +1,105 @@
+capital = 11
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 10
+
+set_country_flag = has_president
+set_country_flag = is_provisional_government
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader = { 
+	name = "Vincas Mickevičius" 
+	picture = "" 
+	expire = "1935.1.1" 
+	ideology = totalism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = socialism_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = social_democracy_sub
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = liberalism_sub 
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = conservatism_sub 
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = authoritarianism_sub 
+	traits = {} 
+}
+
+create_country_leader = { 
+	name = "Antanas Smetona" 
+	picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds" 
+	expire = "1935.1.1" 
+	ideology = ultranationalism_sub 
+	traits = {} 
+}
+
+#Elections held every 3 years.
+1924.1.1 = {
+	set_politics = {
+	    ruling_party = conservatism_ideology
+	    last_election = "1910.1.1"
+	    election_frequency = 120
+	    elections_allowed = no
+	}
+	set_popularities = {
+	    anarchism_ideology = 0
+		totalism_ideology = 6
+		socialism_ideology = 15
+		social_democracy_ideology = 17
+		liberalism_ideology = 24
+		conservatism_ideology = 28
+		authoritarianism_ideology = 2
+		ultranationalism_ideology = 8
+	}
+
+	add_ideas = {
+		very_low_tax_rate
+		limited_conscription
+		partial_economic_mobilisation
+		early_industrialization
+		state_ownership
+		army_untrained
+		navy_untrained
+		navy_minimal_funding
+		air_untrained
+		air_minimal_funding
+	}
+}

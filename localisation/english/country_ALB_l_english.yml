@@ -1,0 +1,54 @@
+﻿l_english:
+#Countries, Leaders, Factions
+ALB_LUIGJ_GURAKUQI:0 "Luigj Gurakuqi"
+
+ALB_anarchism_ideology:0 "Albanian Free State"
+ALB_anarchism_ideology_DEF:0 "Albanian Free State"
+ALB_totalism_ideology:0 "Socialist Republic of Albania"
+ALB_totalism_ideology_DEF:0 "the Socialist Republic of Albania"
+ALB_socialism_ideology:0 "Socialist Republic of Albania"
+ALB_socialism_ideology_DEF:0 "the Socialist Republic of Albania"
+ALB_social_democracy_ideology:0 "Republic of Albania"
+ALB_social_democracy_ideology_DEF:0 "the Republic of Albania"
+ALB_liberalism_ideology:0 "Republic of Albania"
+ALB_liberalism_ideology_DEF:0 "the Republic of Albania"
+ALB_conservatism_ideology:0 "Republic of Albania"
+ALB_conservatism_ideology_DEF:0 "the Republic of Albania"
+ALB_authoritarianism_ideology:0 "Republic of Albania"
+ALB_authoritarianism_ideology_DEF:0 "the Republic of Albania"
+ALB_ultranationalism_ideology:0 "Republic of Albania"
+ALB_ultranationalism_ideology_DEF:0 "the Republic of Albania"
+ALB_anarchism_ideology_ADJ:0 "Albanian"
+ALB_totalism_ideology_ADJ:0 "Albanian"
+ALB_socialism_ideology_ADJ:0 "Albanian"
+ALB_social_democracy_ideology_ADJ:0 "Albanian"
+ALB_liberalism_ideology_ADJ:0 "Albanian"
+ALB_conservatism_ideology_ADJ:0 "Albanian"
+ALB_authoritarianism_ideology_ADJ:0 "Albanian"
+ALB_ultranationalism_ideology_ADJ:0 "Albanian"
+ALB:0 "Albania"
+ALB_DEF:0 "Albania"
+ALB_ADJ:0 "Albanian"
+
+#Political Parties
+ALB_liberalism_ideology_party:0 "People's' Party"
+ALB_liberalism_ideology_party_long:0 "The People's' Party"
+ALB_conservatism_ideology_party:0 "Progressive Party"
+ALB_conservatism_ideology_party_long:0 "The Progressive Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

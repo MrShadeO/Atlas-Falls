@@ -1,0 +1,153 @@
+scripted_gui = {
+    open_finances_tab = {
+        window_name = "finances_button_container"
+        parent_window_token = politics_tab
+        context_type = player_context
+
+        effects = {
+            show_finances_button_click = {
+                if = {
+                    limit = {
+                        has_country_flag =  display_finances_tab
+                    }
+                    clr_country_flag =  display_finances_tab
+                }
+                else = {
+                    set_country_flag =  display_finances_tab
+                }
+                clr_country_flag = display_government_tab
+                clr_country_flag = display_corporations_tab
+                clr_country_flag = display_elections_tab
+
+                #This lets us dynamically change the display without editing the actual important variable.
+                set_variable = { net_tax_var_display = net_tax_var }
+
+                # 0 = empty, 1 = No Taxes, 2 = Very Low Taxes, 3 = Low Taxes, 4 = Medium Taxes, 5 = High Taxes, 6 = Very High Taxes
+                if = { 
+                    limit = {
+                        check_variable = {
+                            var = curr_tax_rate_var
+                            value = 0
+                            compare = not_equals
+                        }
+                    }
+                    set_variable = {
+                        var = curr_tax_rate_var
+                        value = 0
+                    }
+                }
+                else = {
+                    if = {
+                        limit = { has_idea = no_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 1
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 1
+                        }
+                    }
+                    else_if = {
+                        limit = { has_idea = very_low_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 2
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 2
+                        }
+                    }
+                    else_if = {
+                        limit = { has_idea = low_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 3
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 3
+                        }
+                    }
+                    else_if = {
+                        limit = { has_idea = medium_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 4
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 4
+                        }
+                    }
+                    else_if = {
+                        limit = { has_idea = high_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 5
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 5
+                        }
+                    }
+                    else_if = {
+                        limit = { has_idea = very_high_tax_rate }
+                        set_variable = {
+                            var = curr_tax_rate_var
+                            value = 6
+                        }
+                        set_variable = {
+                            var = static_curr_tax_rate_var
+                            value = 6
+                        }
+                    }
+                }
+            }
+		}
+
+        visible = {
+            always = yes
+        }
+
+        #AI STUFF
+        ai_enabled = {
+            always = yes
+        }
+
+        ai_test_interval = 24
+        ai_test_variance = 0.2
+        ai_max_weight_taken_per_test = 1
+
+        ai_check = {
+            has_political_power > 49
+            OR = {
+                check_variable = {
+                    var = net_tax_var
+                    value = 3
+                    compare = greater_than_or_equals
+                }
+                check_variable = {
+                    var = net_tax_var
+                    value = 0
+                    compare = less_than
+                }
+            }
+        }
+
+        ai_weights = {
+            show_finances_button_click = {
+                ai_will_do = {
+                    base = 1
+
+                    modifier = {
+                        factor = 0
+
+                        has_country_flag = display_finances_tab
+                    }
+                }
+            }
+        }
+    }
+}

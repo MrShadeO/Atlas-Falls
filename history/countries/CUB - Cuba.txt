@@ -1,0 +1,90 @@
+﻿capital = 315
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 20
+
+set_country_flag = monroe_doctrine
+set_country_flag = has_president
+set_country_flag = is_parliamentary_republic
+
+create_country_leader = { 
+	name = "Jorge Vivo"
+	picture="" 
+	expire="1939.1.1" 
+	ideology=totalism_sub
+	traits = {}
+}
+
+create_country_leader = { 
+	name = "Alfredo Zayas"
+	picture="" 
+	expire="1939.1.1" 
+	ideology=social_democracy_sub
+	traits = {}
+}
+
+create_country_leader = { 
+	name = "Alfredo Zayas"
+	picture="" 
+	expire="1939.1.1" 
+	ideology=liberalism_sub
+	traits = {}
+}
+
+create_country_leader = { 
+	name = "Alfredo Zayas"
+	picture="" 
+	expire="1939.1.1" 
+	ideology=conservatism_sub
+	traits = {}
+}
+
+
+create_corps_commander = {  
+	name = "José Miguel Gómez"
+	traits = { harsh_leader politically_connected }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_navy_leader = {  
+	name = "Carricarte"
+	traits = { gentlemanly } 
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1921.5.20" 
+	election_frequency = 48 
+	elections_allowed = yes
+}	
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 10
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 55
+	conservatism_ideology = 35
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
+
+add_ideas = {
+	low_tax_rate
+	agrarian_industry
+	male_suffrage
+	army_poor_funding
+	navy_minimal_funding
+	air_minimal_funding
+	underfunded_police
+}

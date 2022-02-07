@@ -1,0 +1,59 @@
+﻿l_english:
+#Countries, Leaders, Factions
+BRA_ESTACIO_COIMBRA:0 "Estácio Coimbra"
+
+BRA_anarchism_ideology:0 "Brazilian Free State"
+BRA_anarchism_ideology_DEF:0 "the Brazilian Free State"
+BRA_totalism_ideology:0 "Brazilian Socialist Republic"
+BRA_totalism_ideology_DEF:0 "the Brazilian Socialist Republic"
+BRA_socialism_ideology:0 "Brazilian Socialist Republic"
+BRA_socialism_ideology_DEF:0 "the Brazilian Socialist Republic"
+BRA_social_democracy_ideology:0 "United States of Brazil"
+BRA_social_democracy_ideology_DEF:0 "the United States of Brazil"
+BRA_liberalism_ideology:0 "United States of Brazil"
+BRA_liberalism_ideology_DEF:0 "the United States of Brazil"
+BRA_conservatism_ideology:0 "United States of Brazil"
+BRA_conservatism_ideology_DEF:0 "the United States of Brazil"
+BRA_authoritarianism_ideology:0 "United States of Brazil"
+BRA_authoritarianism_ideology_DEF:0 "the United States of Brazil"
+BRA_ultranationalism_ideology:0 "United States of Brazil"
+BRA_ultranationalism_ideology_DEF:0 "the United States of Brazil"
+BRA_anarchism_ideology_ADJ:0 "Brazilian"
+BRA_totalism_ideology_ADJ:0 "Brazilian"
+BRA_socialism_ideology_ADJ:0 "Brazilian"
+BRA_social_democracy_ideology_ADJ:0 "Brazilian"
+BRA_liberalism_ideology_ADJ:0 "Brazilian"
+BRA_conservatism_ideology_ADJ:0 "Brazilian"
+BRA_authoritarianism_ideology_ADJ:0 "Brazilian"
+BRA_ultranationalism_ideology_ADJ:0 "Brazilian"
+BRA:0 "Brazil"
+BRA_DEF:0 "Brazil"
+BRA_ADJ:0 "Brazilian"
+#Political Parties
+BRA_socialism_ideology_party:0 "PCB"
+BRA_socialism_ideology_party_long:0 "Communist Party of Brazil"
+BRA_social_democracy_ideology_party:0 "House Braganza"
+BRA_social_democracy_ideology_party_long:0 "House Braganza Loyalists"
+BRA_liberalism_ideology_party:0 "PRM-L"
+BRA_liberalism_ideology_party_long:0 "Minas Republican Party (Left-Wing)"
+BRA_conservatism_ideology_party:0 "PRM-R"
+BRA_conservatism_ideology_party_long:0 "Minas Republican Party (Right-Wing)"
+BRA_authoritarianism_ideology_party:0 "Military Junta"
+BRA_authoritarianism_ideology_party_long:0 "Military Junta"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

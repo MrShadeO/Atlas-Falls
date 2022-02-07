@@ -1,0 +1,54 @@
+﻿l_english:
+#Countries, Leaders, Factions
+MON_KHAN_TITLE:0 "Khan"
+MON_TSERENDORJ:0 "Sambadondogiin Tserendorj"
+
+MON_anarchism_ideology:0 "Mongolian Free State"
+MON_anarchism_ideology_DEF:0 "the Mongolian Free State"
+MON_totalism_ideology:0 "Mongolian People's Republic"
+MON_totalism_ideology_DEF:0 "the Mongolian People's Republic"
+MON_socialism_ideology:0 "Mongolian People's Republic"
+MON_socialism_ideology_DEF:0 "the Mongolian People's Republic"
+MON_social_democracy_ideology:0 "Bogd Khanate of Mongolia"
+MON_social_democracy_ideology_DEF:0 "the Bogd Khanate of Mongolia"
+MON_liberalism_ideology:0 "Bogd Khanate of Mongolia"
+MON_liberalism_ideology_DEF:0 "the Bogd Khanate of Mongolia"
+MON_conservatism_ideology:0 "Bogd Khanate of Mongolia"
+MON_conservatism_ideology_DEF:0 "the Bogd Khanate of Mongolia"
+MON_authoritarianism_ideology:0 "Bogd Khanate of Mongolia"
+MON_authoritarianism_ideology_DEF:0 "the Bogd Khanate of Mongolia"
+MON_ultranationalism_ideology:0 "Bogd Khanate of Mongolia"
+MON_ultranationalism_ideology_DEF:0 "the Bogd Khanate of Mongolia"
+MON_anarchism_ideology_ADJ:0 "Mongolian"
+MON_totalism_ideology_ADJ:0 "Mongolian"
+MON_socialism_ideology_ADJ:0 "Mongolian"
+MON_social_democracy_ideology_ADJ:0 "Mongolian"
+MON_liberalism_ideology_ADJ:0 "Mongolian"
+MON_conservatism_ideology_ADJ:0 "Mongolian"
+MON_authoritarianism_ideology_ADJ:0 "Mongolian"
+MON_ultranationalism_ideology_ADJ:0 "Mongolian"
+MON:0 "Mongolia"
+MON_DEF:0 "Mongolia"
+MON_ADJ:0 "Mongolian"
+#Political Parties
+MON_totalism_ideology_party:0 "MAH"
+MON_totalism_ideology_party_long:0 "Mongolian People's Party"
+MON_authoritarianism_ideology_party:0 "Loyalists"
+MON_authoritarianism_ideology_party_long:0 "Khanate Loyalists"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment

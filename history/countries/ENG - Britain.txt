@@ -1,0 +1,563 @@
+﻿capital = 126
+
+set_research_slots = 4
+set_stability = 0.50
+set_war_support = 0.50
+set_convoys = 638
+
+set_country_flag = has_king
+set_country_flag = is_constitutional_monarchy
+
+# Protectorates - countries with own ruler under british protection and diplomatic dependence. Colonies - countries with british administration.
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.43
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.15
+	}
+	set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_puppet
+        freedom_level = 1.5
+	}
+    set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.3
+	}
+	else = {
+		puppet = SAF
+		puppet = RAJ
+		puppet = CAN
+		puppet = AST
+		puppet = NZL
+		puppet = EGY
+		puppet = IRE
+		puppet = MAL
+		puppet = EGY
+	}
+}
+
+give_guarantee = BEL # Treaty of London 1839
+
+create_country_leader = { 
+	name = "Albert Inkpin"
+	picture = "" 
+	expire = "1940.1.1" 
+	ideology = totalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = socialism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = social_democracy_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = liberalism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = conservatism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = authoritarianism_sub
+	traits = {}  
+}
+
+create_country_leader = { 
+	name = "George V"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds" 
+	expire = "1940.1.1" 
+	ideology = ultranationalism_sub
+	traits = {}  
+}
+
+#ID range is 800-899... Kitchener is 899 because I was testing a thing
+#Turns out you can't end IDs in 0!!!
+
+#high ID cus he was originally right at the bottom as a general- turns out he was actually a field marshal!
+create_field_marshal = {
+	name = "Garnet Wolseley" 
+	portrait_path = "gfx/leaders/ENG/ENG_garnet_wolseley.dds" 
+	traits = { politically_connected skilled_staffer expert_delegator logistics_wizard  }
+	id = 824
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Herbert Kitchener" 
+	portrait_path = "gfx/leaders/ENG/ENG_herbert_kitchener.dds" 
+	traits = { politically_connected logistics_wizard skilled_staffer expert_delegator organisational_leader  } 
+	id = 899
+	skill = 4 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "John French" 
+	portrait_path = "gfx/leaders/ENG/ENG_john_french.dds" 
+	traits = { old_guard politically_connected defensive_doctrine  } 
+	id = 801
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Douglas Haig" 
+	portrait_path = "gfx/leaders/ENG/ENG_douglas_haig.dds" 
+	traits = { politically_connected offensive_doctrine inflexible_strategist cavalry_officer  } 
+	id = 802
+	skill = 4 
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Ian Hamilton" 
+	portrait_path = "gfx/leaders/ENG/ENG_ian_hamilton.dds" 
+	traits = { old_guard career_officer inflexible_strategist  } 
+	id = 803
+	skill = 3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Rudolph Lambart" 
+	portrait_path = "gfx/leaders/ENG/ENG_rudolph_lambart.dds" 
+	traits = { old_guard politically_connected  } 
+	id = 804
+	skill = 3 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Edmund Allenby" 
+	portrait_path = "gfx/leaders/ENG/ENG_edmund_allenby.dds" 
+	traits = { trickster politically_connected cavalry_officer  } 
+	id = 805
+	skill = 2 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Aylmer Hunter-Weston" 
+	portrait_path = "gfx/leaders/ENG/ENG_aylmer_hunter.dds" 
+	traits = { career_officer politically_connected  } 
+	id = 806
+	skill = 3 
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Leslie Rundle" 
+	portrait_path = "gfx/leaders/ENG/ENG_leslie_rundle.dds" 
+	traits = {  } 
+	id = 807
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Robert Baden-Powell" 
+	portrait_path = "gfx/leaders/ENG/ENG_baden_powell.dds" 
+	traits = { old_guard ranger trickster  } 
+	id = 808
+	skill = 3 
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "George Harper" 
+	portrait_path = "gfx/leaders/ENG/ENG_george_harper.dds" 
+	traits = { old_guard trait_engineer  } 
+	id = 809
+	skill = 3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Hugh Elles" 
+	portrait_path = "gfx/leaders/ENG/ENG_hugh_elles.dds" 
+	traits = { armor_officer panzer_leader brilliant_strategist  } 
+	id = 811
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "James Grierson" 
+	portrait_path = "gfx/leaders/ENG/ENG_james_grierson.dds" 
+	traits = {  } 
+	id = 812
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Henry Horne" 
+	portrait_path = "gfx/leaders/ENG/ENG_henry_horne.dds" 
+	traits = { fortress_buster bearer_of_artillery  } 
+	id = 813
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Herbert Plumer" 
+	portrait_path = "gfx/leaders/ENG/ENG_herbert_plumer.dds" 
+	traits = {  }
+	id = 814
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Frederick Maude" 
+	portrait_path = "gfx/leaders/ENG/ENG_frederick_maude.dds" 
+	traits = {  }
+	id = 815
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Anthony Ashley-Cooper" 
+	portrait_path = "gfx/leaders/ENG/ENG_anthony_cooper.dds" 
+	traits = { politically_connected cavalry_officer  }
+	id = 816
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ivor Maxse" 
+	portrait_path = "gfx/leaders/ENG/ENG_ivor_maxse.dds" 
+	traits = { armor_officer  }
+	id = 817
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Henry Rawlinson" 
+	portrait_path = "gfx/leaders/ENG/ENG_henry_rawlinson.dds" 
+	traits = { old_guard  }
+	id = 818
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Thomas Snow" 
+	portrait_path = "gfx/leaders/ENG/ENG_thomas_snow.dds" 
+	
+	id = 819
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "William Hickie" 
+	portrait_path = "gfx/leaders/ENG/ENG_william_hickie.dds" 
+	traits = { aggressive_assaulter harsh_leader }
+	id = 821
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "John Capper" 
+	portrait_path = "gfx/leaders/ENG/ENG_john_capper.dds" 
+	traits = { camouflage_expert panzer_leader  }
+	id = 822
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Oliver Nugent" 
+	portrait_path = "gfx/leaders/ENG/ENG_oliver_nugent.dds" 
+	traits = {  }
+	id = 823
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "George Cockerill" 
+	portrait_path = "gfx/leaders/ENG/ENG_george_cockerill.dds" 
+	traits = { politically_connected  }
+	id = 825
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+#NAVY
+create_navy_leader = {
+	name = "David Beatty"
+	portrait_path="gfx/leaders/ENG/ENG_david_beatty.dds" 
+	traits = { navy_media_personality superior_tactician gentlemanly } 
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader = {
+	name = "Francis Bridgeman"
+	portrait_path="gfx/leaders/ENG/ENG_francis_bridgeman.dds" 
+	traits = { ironside gentlemanly old_guard_navy } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader = {
+	name = "Percy Scott"
+	portrait_path="gfx/leaders/ENG/ENG_percy_scott.dds" 
+	traits = { gunnery_expert old_guard_navy } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "John Jellicoe"
+	portrait_path="gfx/leaders/ENG/ENG_john_jellicoe.dds" 
+	traits = { superior_tactician gentlemanly } 
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "William May"
+	portrait_path="gfx/leaders/ENG/ENG_william_may.dds" 
+	traits = { gunnery_expert old_guard_navy arctic_water_expert } 
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "William Pakenham"
+	portrait_path="gfx/leaders/ENG/ENG_william_pakenham.dds" 
+	traits = { gunnery_expert fleet_protector superior_tactician } 
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "Horace Hood"
+	portrait_path="gfx/leaders/ENG/ENG_horace_hood.dds" 
+	traits = { gunnery_expert } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "William Goodenough"
+	portrait_path="gfx/leaders/ENG/ENG_william_goodenough.dds" 
+	traits = { superior_tactician } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Roger Keyes"
+	portrait_path="gfx/leaders/ENG/ENG_roger_keyes.dds" 
+	traits = { gunnery_expert } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Reginald Tyrwhitt"
+	portrait_path="gfx/leaders/ENG/ENG_reginald_tyrwhitt.dds" 
+	traits = { gentlemanly green_water_expert } 
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+
+1924.1.1 = {
+
+	set_politics = {
+		ruling_party = liberalism_ideology
+		last_election = "1920.12.1" 
+		election_frequency = 48
+		elections_allowed = yes
+	}	
+
+	set_popularities = {
+		anarchism_ideology = 0
+		totalism_ideology = 2
+		socialism_ideology = 3
+		social_democracy_ideology = 10
+		liberalism_ideology = 40
+		conservatism_ideology = 35
+		authoritarianism_ideology = 5
+		ultranationalism_ideology = 5
+	}
+	
+	add_ideas = {
+		high_tax_rate
+		lower_secondary_education
+		protestantism
+		basic_pensions
+		navy_veteran
+		census_suffrage
+		eight_hour_workday
+		colonial_troops
+	}
+
+	#set_country_flag = monroe_doctrine ???????????????????????????????????????????????????????????
+
+}
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	#Give player chance to build it.
+	create_operative_leader = {
+		name = "Sidney Reilly"
+		GFX = ENG_Sidney_Reilly
+		traits = { operative_double_agent operative_tough operative_infiltrator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG GER JAP RUS } #originally had UKR too but was removed as it felt pretty redundant
+	}
+	create_operative_leader = {
+		name = "Harry Houdini"
+		GFX = ENG_harry_houdini
+		traits = { operative_infiltrator operative_safe_cracker operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = no
+		nationalities = { USA AUH HUN }
+	}
+	create_operative_leader = {
+		name = "Oswald Rayner"
+		GFX = ENG_oswald_rayner
+		traits = { operative_infiltrator operative_linguist operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG }
+	}
+}

@@ -1,0 +1,52 @@
+﻿l_english:
+#Countries, Leaders, Factions
+BOL_anarchism_ideology:0 "Bolivian Free State"
+BOL_anarchism_ideology_DEF:0 "the Bolivian Free State"
+BOL_totalism_ideology:0 "Bolivian Socialist Republic"
+BOL_totalism_ideology_DEF:0 "the Bolivian Socialist Republic"
+BOL_socialism_ideology:0 "Bolivian Socialist Republic"
+BOL_socialism_ideology_DEF:0 "the Bolivian Socialist Republic"
+BOL_social_democracy_ideology:0 "Republic of Bolivia"
+BOL_social_democracy_ideology_DEF:0 "the Republic of Bolivia"
+BOL_liberalism_ideology:0 "Republic of Bolivia"
+BOL_liberalism_ideology_DEF:0 "the Republic of Bolivia"
+BOL_conservatism_ideology:0 "Republic of Bolivia"
+BOL_conservatism_ideology_DEF:0 "the Republic of Bolivia"
+BOL_authoritarianism_ideology:0 "Republic of Bolivia"
+BOL_authoritarianism_ideology_DEF:0 "the Republic of Bolivia"
+BOL_ultranationalism_ideology:0 "Republic of Bolivia"
+BOL_ultranationalism_ideology_DEF:0 "the Republic of Bolivia"
+BOL_anarchism_ideology_ADJ:0 "Bolivian"
+BOL_totalism_ideology_ADJ:0 "Bolivian"
+BOL_socialism_ideology_ADJ:0 "Bolivian"
+BOL_social_democracy_ideology_ADJ:0 "Bolivian"
+BOL_liberalism_ideology_ADJ:0 "Bolivian"
+BOL_conservatism_ideology_ADJ:0 "Bolivian"
+BOL_authoritarianism_ideology_ADJ:0 "Bolivian"
+BOL_ultranationalism_ideology_ADJ:0 "Bolivian"
+BOL:0 "Bolivia"
+BOL_DEF:0 "Bolivia"
+BOL_ADJ:0 "Bolivian"
+#Political Parties
+
+BOL_liberalism_ideology_party:0 "PL"
+BOL_liberalism_ideology_party_long:0 "Liberal Party"
+BOL_conservatism_ideology_party:0 "PRS"
+BOL_conservatism_ideology_party_long:0 "Socialist Republican Party"
+#Leader Traits
+
+#National Focuses
+
+#Ideas
+
+#Ministers,Theorists, Companies, High Command
+
+#Events
+
+#Custom Tooltips
+
+#Opinion/Relation Modifiers
+
+#Decisions
+
+#Equipment
