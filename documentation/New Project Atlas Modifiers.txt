@@ -1,5 +1,0 @@
-##COUNTRY SCOPE##
-
-tax_revenue  -  Increases(+) or decreases(-) the tax revenue for a country
-
-standing_army_limit  -  Increases(+) or decreases(-) the peactime division limit of a country

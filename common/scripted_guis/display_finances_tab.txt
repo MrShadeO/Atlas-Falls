@@ -45,7 +45,6 @@ scripted_gui = {
             finalize_btn_click = {
                 add_political_power = -50
                 update_finances = yes
-                check_surplus_deficit = yes
                 clr_country_flag = ai_flag_edited_tax
             }
 		}

@@ -3,7 +3,7 @@ ai_division_limit = {
 		has_war = no
         check_variable = {
             var = num_divisions
-            value = division_limit
+            value = standing_army_limit
             compare = greater_than
         }
 	}
