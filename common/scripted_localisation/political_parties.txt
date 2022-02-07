@@ -51,7 +51,7 @@ defined_text = {
 		localization_key = SOV_anarchism_ideology_party
 	}
     text = {
-		localization_key = ANARCHIST_PARTY_KEY
+		localization_key = anarchism_ideology
 	}
 }
 
@@ -289,7 +289,7 @@ defined_text = {
 		localization_key = PER_totalism_ideology_party
 	}
     text = {
-		localization_key = TOTALIST_PARTY_KEY
+		localization_key = totalism_ideology
 	}
 }
 
@@ -509,7 +509,7 @@ defined_text = {
 		localization_key = TUR_socialism_ideology_party
 	}
     text = {
-		localization_key = SOCIALIST_PARTY_KEY
+		localization_key = socialism_ideology
 	}
 }
 
@@ -765,7 +765,7 @@ defined_text = {
 		localization_key = PER_social_democracy_ideology_party
 	}
     text = {
-		localization_key = SOCIAL_DEMOCRATIC_PARTY_KEY
+		localization_key = social_democracy_ideology
 	}
 }
 
@@ -1063,7 +1063,7 @@ defined_text = {
 		localization_key = PER_liberalism_ideology_party
 	}
     text = {
-		localization_key = LIBERAL_PARTY_KEY
+		localization_key = liberalism_ideology
 	}
 }
 
@@ -1337,7 +1337,7 @@ defined_text = {
 		localization_key = PER_conservatism_ideology_party
 	}
     text = {
-		localization_key = CONSERVATIVE_PARTY_KEY
+		localization_key = conservatism_ideology
 	}
 }
 
@@ -1563,7 +1563,7 @@ defined_text = {
 		localization_key = PER_authoritarianism_ideology_party
 	}
     text = {
-		localization_key = AUTHORITARIAN_PARTY_KEY
+		localization_key = authoritarianism_ideology
 	}
 }
 
@@ -1705,110 +1705,6 @@ defined_text = {
 		localization_key = PER_ultranationalism_ideology_party
 	}
     text = {
-		localization_key = ULTRANATIONALIST_PARTY_KEY
-	}
-}
-
-defined_text = { #The font color will be yellow for all of these keys.
-    name = GetRulingPartyName
-	text = {
-		trigger = {
-			has_government = anarchism_ideology
-		}
-		localization_key = FIND_ANARCHIST_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = totalism_ideology
-		}
-		localization_key = FIND_TOTALISM_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = socialism_ideology
-		}
-		localization_key = FIND_SOCIALISM_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = social_democracy_ideology
-		}
-		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = liberalism_ideology
-		}
-		localization_key = FIND_LIBERALISM_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = conservatism_ideology
-		}
-		localization_key = FIND_CONSERVATISM_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = authoritarianism_ideology
-		}
-		localization_key = FIND_AUTHORITARIANISM_KEY_1
-	}
-	text = {
-		trigger = {
-			has_government = ultranationalism_ideology
-		}
-		localization_key = FIND_ULTRANATIONALISM_KEY_1
-	}
-}
-
-defined_text = {
-    name = GetRulingPartyNameWhite
-	text = {
-		trigger = {
-			has_government = anarchism_ideology
-		}
-		localization_key = FIND_ANARCHIST_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = totalism_ideology
-		}
-		localization_key = FIND_TOTALISM_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = socialism_ideology
-		}
-		localization_key = FIND_SOCIALISM_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = social_democracy_ideology
-		}
-		localization_key = FIND_SOCIAL_DEMOCRACY_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = liberalism_ideology
-		}
-		localization_key = FIND_LIBERALISM_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = conservatism_ideology
-		}
-		localization_key = FIND_CONSERVATISM_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = authoritarianism_ideology
-		}
-		localization_key = FIND_AUTHORITARIANISM_KEY_2
-	}
-	text = {
-		trigger = {
-			has_government = ultranationalism_ideology
-		}
-		localization_key = FIND_ULTRANATIONALISM_KEY_2
+		localization_key = ultranationalism_ideology
 	}
 }

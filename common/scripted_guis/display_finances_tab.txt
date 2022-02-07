@@ -2,7 +2,6 @@ scripted_gui = {
     display_finances_tab = {
         window_name = "finances_tab_window"
         context_type = player_context
-        parent_window_token = politics_tab
 
         visible = {
             has_country_flag = display_finances_tab
@@ -45,7 +44,6 @@ scripted_gui = {
             finalize_btn_click = {
                 add_political_power = -50
                 update_finances = yes
-                check_surplus_deficit = yes
                 clr_country_flag = ai_flag_edited_tax
             }
 		}

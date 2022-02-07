@@ -2,7 +2,6 @@ scripted_gui = {
     display_elections_tab = {
         window_name = "elections_tab_window"
         context_type = player_context
-        parent_window_token = politics_tab
 
         visible = {
             has_country_flag = display_elections_tab
@@ -25,30 +24,10 @@ scripted_gui = {
                     value = 0
                 }
             }
-
-            toggle_view_btn_click = {
-                if = {
-                    limit = { has_country_flag = upper_chamber_view }
-                    clr_country_flag = upper_chamber_view
-                }
-                else = {
-                    set_country_flag = upper_chamber_view
-                }
-            }
-
-            update_election_polls_btn_click = {
-                update_election_polls = yes
-            }
 		}
 
         triggers = {
-            toggle_view_btn_click_enabled = {
-                has_upper_chamber = yes
-            }
-
-            update_election_polls_btn_click_enabled = {
-                has_political_power > 24
-            }
+            
         }
 
         properties = {

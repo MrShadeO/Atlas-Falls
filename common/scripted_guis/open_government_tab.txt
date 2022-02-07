@@ -19,13 +19,6 @@ scripted_gui = {
                 clr_country_flag = display_corporations_tab
                 clr_country_flag = display_elections_tab
 
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = gov_menu_save_last_page }
-                    }
-                    set_variable = { gov_menu_current_page = 0 }
-                }
-
                 #Needed for Finance tab to function properly!!
                 set_variable = {
                     var = curr_tax_rate_var

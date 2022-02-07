@@ -1,6 +1,10 @@
 #This should NOT be used outside of finance menu scripted gui!!
 
 update_finances = {
+    set_variable = {
+        var = net_tax_var_display
+        value = net_tax_var
+    }
     if = {
         limit = {
             check_variable = {
@@ -85,11 +89,31 @@ update_finances = {
         }
         add_ideas = very_high_tax_rate
     }
-    set_variable = { net_tax_var = modifier@tax_revenue }
-    set_variable = { net_tax_var_display = net_tax_var }
 }
 
 check_surplus_deficit = {
+    if = {
+        limit = {
+            check_variable = {
+                var = net_tax_var
+                value = 0
+                compare = less_than_or_equals
+            }
+            has_idea = budget_surplus
+        }
+        remove_ideas = budget_surplus
+    }
+    if = {
+        limit = {
+            check_variable = {
+                var = net_tax_var
+                value = 0
+                compare = greater_than_or_equals
+            }
+            has_idea = budget_deficit
+        }
+        remove_ideas = budget_deficit
+    }
     if = {
         limit = {
             check_variable = {
@@ -100,26 +124,8 @@ check_surplus_deficit = {
             NOT = { has_idea = budget_surplus }
         }
         add_ideas = budget_surplus
-        remove_ideas = budget_deficit
     }
-    else_if = {
-        limit = {
-            check_variable = {
-                var = net_tax_var
-                value = 0
-                compare = equals
-            }
-            OR = {
-                has_idea = budget_surplus
-                has_idea = budget_deficit
-            }
-        }
-        remove_ideas = {
-            budget_surplus
-            budget_deficit
-        }
-    }
-    else_if = {
+    if = {
         limit = {
             check_variable = {
                 var = net_tax_var
@@ -129,11 +135,10 @@ check_surplus_deficit = {
             NOT = { has_idea = budget_deficit }
         }
         add_ideas = budget_deficit
-        remove_ideas = budget_surplus
     }
 }
 
-#The following is legacy code and is not currently used.
+#net_tax_var_display is also included, just in case net tax is ever edited while the finance tab is open.
 tax_revenue_increase_1 = {
     add_to_variable = {
         var = net_tax_var

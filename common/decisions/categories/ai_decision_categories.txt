@@ -1,0 +1,8 @@
+ai_decision_category = {
+	visible = {
+        OR = {
+		    is_debug = yes
+            is_ai = yes
+        }
+	}
+}

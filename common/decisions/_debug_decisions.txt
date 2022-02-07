@@ -1,66 +1,6 @@
 debug_decisions = {
 
-	create_scale_graph_command = {
-		available = {
-			always = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		cost = 0
-
-		complete_effect = {
-			create_scale_graph = yes
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-
-	update_lower_chamber_command = {
-		available = {
-			always = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		cost = 0
-
-		complete_effect = {
-			update_lower_chamber_poll = yes
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-
-	update_upper_chamber_command = {
-		available = {
-			always = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		cost = 0
-
-		complete_effect = {
-			update_upper_chamber_poll = yes
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-
-	check_variables_command = {
+	check_variables_decision = {
 		available = {
 			always = yes
 		}
