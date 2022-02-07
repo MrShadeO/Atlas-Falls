@@ -9,732 +9,113 @@ initialize_parties_array = {
 	add_to_array = { elections_parties_array = 8 }
 }
 
-update_election_polls = {
-	update_lower_chamber_poll = yes
-	if = {
-		limit = {
-			has_upper_chamber = yes
-		}
-		update_upper_chamber_poll = yes
-	}
-}
-
-#Helper 1 is the unrounded variable, Helper 2 is the rounded variable. Helper 2 needs to be less than Helper 1 so that the remainder can be extracted correctly. Don't worry, the code already accounts for if Helper 2 is bigger than Helper 1, and fixes things accordingly.
-update_lower_chamber_poll = {
-	set_temp_variable = { unassigned_seats = 0 }
-	set_variable = { lower_chamber_first_place = 0 }
-	clear_array = lower_chamber_results_array
-
-	#HANDLE ANARCHISTS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@anarchism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = { #If Helper 2 was rounded up, run the following effects.
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } #Helper 2 needs to be less than helper 1, this ensures that happens.
-	}
-
-	set_variable = { lower_chamber_anarchist_seats = temp_lower_chamber_helper2 } #We want the actual seats variable to be Helper 2, since it was rounded down.
-	set_variable = { lower_chamber_anarchist_seat_change = lower_chamber_anarchist_seats }
-	subtract_from_variable = { lower_chamber_anarchist_seat_change = lower_chamber_seat_array^0 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_anarchist_seats }
-
-	#HANDLE TOTALISTS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@totalism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_totalist_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_totalist_seat_change = lower_chamber_totalist_seats }
-	subtract_from_variable = { lower_chamber_totalist_seat_change = lower_chamber_seat_array^1 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_totalist_seats }
-
-	#HANDLE SOCIALISTS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@socialism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_socialist_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_socialist_seat_change = lower_chamber_socialist_seats }
-	subtract_from_variable = { lower_chamber_socialist_seat_change = lower_chamber_seat_array^2 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_socialist_seats }
-
-	#HANDLE SOCIAL DEMOCRATS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@social_democracy_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_social_democrat_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_social_democrat_seat_change = lower_chamber_social_democrat_seats }
-	subtract_from_variable = { lower_chamber_social_democrat_seat_change = lower_chamber_seat_array^3 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_social_democrat_seats }
-
-	#HANDLE LIBERALS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@liberalism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_liberal_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_liberal_seat_change = lower_chamber_liberal_seats }
-	subtract_from_variable = { lower_chamber_liberal_seat_change = lower_chamber_seat_array^4 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_liberal_seats }
-
-	#HANDLE CONSERVATIVES
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@conservatism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_conservative_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_conservative_seat_change = lower_chamber_conservative_seats }
-	subtract_from_variable = { lower_chamber_conservative_seat_change = lower_chamber_seat_array^5 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_conservative_seats }
-
-	#HANDLE AUTHORITARIANS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@authoritarianism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_authoritarian_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_authoritarian_seat_change = lower_chamber_authoritarian_seats }
-	subtract_from_variable = { lower_chamber_authoritarian_seat_change = lower_chamber_seat_array^6 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_authoritarian_seats }
-
-	#HANDLE ULTRANATIONALISTS
-	set_temp_variable = { temp_lower_chamber_helper1 = party_popularity@ultranationalism_ideology }
-	multiply_temp_variable = { temp_lower_chamber_helper1 = lower_chamber_total_seats }
-	set_temp_variable = { temp_lower_chamber_helper2 = temp_lower_chamber_helper1 }
-	round_temp_variable = temp_lower_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_lower_chamber_helper2
-				value = temp_lower_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_lower_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { lower_chamber_ultranationalist_seats = temp_lower_chamber_helper2 } 
-	set_variable = { lower_chamber_ultranationalist_seat_change = lower_chamber_ultranationalist_seats }
-	subtract_from_variable = { lower_chamber_ultranationalist_seat_change = lower_chamber_seat_array^7 }
-
-	add_to_temp_variable = { unassigned_seats = lower_chamber_ultranationalist_seats }
-
-	#DEALING WITH THE REMAINDER (without this, the remainders can seriously mess with the election math's and you will sometimes end up with seats being added to the total in parliament)
-	subtract_from_temp_variable = { unassigned_seats = lower_chamber_total_seats }
-	
-	if = {
-		limit = {
-			check_variable = {
-				var = unassigned_seats
-				value = 0
-				compare = less_than
-			}
-		}
-		multiply_temp_variable = { unassigned_seats = -1 } #Make it positive
-
-		while_loop_effect = {
-			limit = {
-				check_variable = {
-					var = unassigned_seats
-					value = 0
-					compare = greater_than
-				}
-			}
-			random_list = {
-				12 = {
-					add_to_variable = { lower_chamber_anarchist_seats = 1 }
-					add_to_variable = { lower_chamber_anarchist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_anarchist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_totalist_seats = 1 }
-					add_to_variable = { lower_chamber_totalist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_totalist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_socialist_seats = 1 }
-					add_to_variable = { lower_chamber_socialist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_socialist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_social_democrat_seats = 1 }
-					add_to_variable = { lower_chamber_social_democrat_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_social_democrat_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_liberal_seats = 1 }
-					add_to_variable = { lower_chamber_liberal_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_liberal_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_conservative_seats = 1 }
-					add_to_variable = { lower_chamber_conservative_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_conservative_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_authoritarian_seats = 1 }
-					add_to_variable = { lower_chamber_authoritarian_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_authoritarian_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { lower_chamber_ultranationalist_seats = 1 }
-					add_to_variable = { lower_chamber_ultranationalist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = lower_chamber_ultranationalist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				4 = {
-					modifier = {
-						factor = 0
-					}
-				}
-			}
-		}
-	}
-
-	#Find highest value and save it for later when we need to assign a crown to the first place party.
-	add_to_array = { lower_chamber_results_array = lower_chamber_anarchist_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_totalist_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_socialist_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_social_democrat_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_liberal_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_conservative_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_authoritarian_seats }
-	add_to_array = { lower_chamber_results_array = lower_chamber_ultranationalist_seats }
-
-	for_each_loop = {
-		array = lower_chamber_results_array
-		value = v
-		index = i
-
-		if = {
-			limit = {
-				check_variable = {
-					var = v
-					value = lower_chamber_first_place
-					compare = greater_than
-				}
-			}
-			set_variable = { lower_chamber_first_place = v }
-		}
-	}
-}
-
-#Helper 1 is the unrounded variable, Helper 2 is the rounded variable. Helper 2 needs to be less than Helper 1 so that the remainder can be extracted correctly. Don't worry, the code already accounts for if Helper 2 is bigger than Helper 1, and fixes things accordingly.
-update_upper_chamber_poll = {
-	set_temp_variable = { unassigned_seats = 0 }
-	clear_array = upper_chamber_results_array
-
-	#HANDLE ANARCHISTS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@anarchism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = { #If Helper 2 was rounded up, run the following effects.
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } #Helper 2 needs to be less than helper 1, this ensures that happens.
-	}
-
-	set_variable = { upper_chamber_anarchist_seats = temp_upper_chamber_helper2 } #We want the actual seats variable to be Helper 2, since it was rounded down.
-	set_variable = { upper_chamber_anarchist_seat_change = upper_chamber_anarchist_seats }
-	subtract_from_variable = { upper_chamber_anarchist_seat_change = upper_chamber_seat_array^0 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_anarchist_seats }
-
-	#HANDLE TOTALISTS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@totalism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_totalist_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_totalist_seat_change = upper_chamber_totalist_seats }
-	subtract_from_variable = { upper_chamber_totalist_seat_change = upper_chamber_seat_array^1 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_totalist_seats }
-
-	#HANDLE SOCIALISTS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@socialism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_socialist_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_socialist_seat_change = upper_chamber_socialist_seats }
-	subtract_from_variable = { upper_chamber_socialist_seat_change = upper_chamber_seat_array^2 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_socialist_seats }
-
-	#HANDLE SOCIAL DEMOCRATS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@social_democracy_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_social_democrat_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_social_democrat_seat_change = upper_chamber_social_democrat_seats }
-	subtract_from_variable = { upper_chamber_social_democrat_seat_change = upper_chamber_seat_array^3 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_social_democrat_seats }
-
-	#HANDLE LIBERALS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@liberalism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_liberal_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_liberal_seat_change = upper_chamber_liberal_seats }
-	subtract_from_variable = { upper_chamber_liberal_seat_change = upper_chamber_seat_array^4 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_liberal_seats }
-
-	#HANDLE CONSERVATIVES
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@conservatism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_conservative_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_conservative_seat_change = upper_chamber_conservative_seats }
-	subtract_from_variable = { upper_chamber_conservative_seat_change = upper_chamber_seat_array^5 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_conservative_seats }
-
-	#HANDLE AUTHORITARIANS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@authoritarianism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_authoritarian_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_authoritarian_seat_change = upper_chamber_authoritarian_seats }
-	subtract_from_variable = { upper_chamber_authoritarian_seat_change = upper_chamber_seat_array^6 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_authoritarian_seats }
-
-	#HANDLE ULTRANATIONALISTS
-	set_temp_variable = { temp_upper_chamber_helper1 = party_popularity@ultranationalism_ideology }
-	multiply_temp_variable = { temp_upper_chamber_helper1 = upper_chamber_total_seats }
-	set_temp_variable = { temp_upper_chamber_helper2 = temp_upper_chamber_helper1 }
-	round_temp_variable = temp_upper_chamber_helper2
-
-	if = {
-		limit = {
-			check_variable = {
-				var = temp_upper_chamber_helper2
-				value = temp_upper_chamber_helper1
-				compare = greater_than
-			}
-		}
-		subtract_from_temp_variable = { temp_upper_chamber_helper2 = 1 } 
-	}
-
-	set_variable = { upper_chamber_ultranationalist_seats = temp_upper_chamber_helper2 } 
-	set_variable = { upper_chamber_ultranationalist_seat_change = upper_chamber_ultranationalist_seats }
-	subtract_from_variable = { upper_chamber_ultranationalist_seat_change = upper_chamber_seat_array^7 }
-
-	add_to_temp_variable = { unassigned_seats = upper_chamber_ultranationalist_seats }
-
-	#DEALING WITH THE REMAINDER (without this, the remainders can seriously mess with the election math's and you will sometimes end up with seats being added to the total in parliament)
-	subtract_from_temp_variable = { unassigned_seats = upper_chamber_total_seats }
-	
-	if = {
-		limit = {
-			check_variable = {
-				var = unassigned_seats
-				value = 0
-				compare = less_than
-			}
-		}
-		multiply_temp_variable = { unassigned_seats = -1 } #Make it positive
-
-		while_loop_effect = {
-			limit = {
-				check_variable = {
-					var = unassigned_seats
-					value = 0
-					compare = greater_than
-				}
-			}
-			random_list = {
-				12 = {
-					add_to_variable = { upper_chamber_anarchist_seats = 1 }
-					add_to_variable = { upper_chamber_anarchist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_anarchist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_totalist_seats = 1 }
-					add_to_variable = { upper_chamber_totalist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_totalist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_socialist_seats = 1 }
-					add_to_variable = { upper_chamber_socialist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_socialist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_social_democrat_seats = 1 }
-					add_to_variable = { upper_chamber_social_democrat_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_social_democrat_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_liberal_seats = 1 }
-					add_to_variable = { upper_chamber_liberal_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_liberal_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_conservative_seats = 1 }
-					add_to_variable = { upper_chamber_conservative_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_conservative_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_authoritarian_seats = 1 }
-					add_to_variable = { upper_chamber_authoritarian_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_authoritarian_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				12 = {
-					add_to_variable = { upper_chamber_ultranationalist_seats = 1 }
-					add_to_variable = { upper_chamber_ultranationalist_seat_change = 1 }
-					subtract_from_temp_variable = { unassigned_seats = 1 }
-
-					modifier = {
-						factor = 0
-						check_variable = {
-							var = upper_chamber_ultranationalist_seat_change
-							value = 0
-							compare = equals
-						}
-					}
-				}
-				4 = {
-					modifier = {
-						factor = 0
-					}
-				}
-			}
-		}
-	}
-
-	#Find highest value and save it for later when we need to assign a crown to the first place party.
-	add_to_array = { upper_chamber_results_array = upper_chamber_totalist_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_socialist_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_social_democrat_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_liberal_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_conservative_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_authoritarian_seats }
-	add_to_array = { upper_chamber_results_array = upper_chamber_ultranationalist_seats }
-
-	for_each_loop = {
-		array = upper_chamber_results_array
-		value = v
-		index = i
-
-		if = {
-			limit = {
-				check_variable = {
-					var = v
-					value = upper_chamber_first_place
-					compare = greater_than
-				}
-			}
-			set_variable = { upper_chamber_first_place = v }
-		}
-	}
-}
+#####Found a far better way to do this, but keeping this just in case.#####
+#update_election_forecast = {
+#	set_temp_variable = { anarchist_temp = party_popularity@anarchism_ideology } 
+#	set_temp_variable = { totalist_temp = party_popularity@totalism_ideology } 
+#	set_temp_variable = { socialist_temp = party_popularity@socialism_ideology } 
+#	set_temp_variable = { social_democrat_temp = party_popularity@social_democracy_ideology }
+#	set_temp_variable = { liberal_temp = party_popularity@liberalism_ideology } 
+#	set_temp_variable = { conservative_temp = party_popularity@conservatism_ideology } 
+#	set_temp_variable = { authoritarian_temp = party_popularity@authoritarianism_ideology }
+#	set_temp_variable = { ultranationalist_temp = party_popularity@ultranationalism_ideology }
+#
+#	if = {
+#		limit = { 
+#			original_tag = USA 
+#			is_debug = yes
+#		}
+#		log = "anarchist_temp = [?anarchist_temp]"
+#		log = "totalist_temp = [?totalist_temp]"
+#		log = "socialist_temp = [?socialist_temp]"
+#		log = "social_democrat_temp = [?social_democrat_temp]"
+#		log = "liberal_temp = [?liberal_temp]"
+#		log = "conservative_temp = [?conservative_temp]"
+#		log = "authoritarian_temp = [?authoritarian_temp]"
+#		log = "ultranationalist_temp = [?ultranationalist_temp]"
+#	}
+#
+#	set_temp_variable = { anarchist_curr = parliament_seat_array^0 } 
+#	set_temp_variable = { totalist_curr = parliament_seat_array^1 } 
+#	set_temp_variable = { socialist_curr = parliament_seat_array^2 } 
+#	set_temp_variable = { social_democrat_curr = parliament_seat_array^3 }
+#	set_temp_variable = { liberal_curr = parliament_seat_array^4 } 
+#	set_temp_variable = { conservative_curr = parliament_seat_array^5 } 
+#	set_temp_variable = { authoritarian_curr = parliament_seat_array^6 }
+#	set_temp_variable = { ultranationalist_curr = parliament_seat_array^7 }
+#
+#	if = {
+#		limit = { 
+#			original_tag = USA 
+#			is_debug = yes
+#		}
+#		log = "anarchist_curr = [?anarchist_curr] "
+#		log = "totalist_curr = [?totalist_curr]"
+#		log = "socialist_curr = [?socialist_curr]"
+#		log = "social_democrat_curr = [?social_democrat_curr]"
+#		log = "liberal_curr = [?liberal_curr]"
+#		log = "conservative_curr = [?conservative_curr]"
+#		log = "authoritarian_curr = [?authoritarian_curr]"
+#		log = "ultranationalist_curr = [?ultranationalist_curr]"
+#	}
+#
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^0 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^1 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^2 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^3 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^4 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^5 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^6 }
+#	add_to_temp_variable = { parliament_total_seats = parliament_seat_array^7 }
+#
+#	multiply_temp_variable = { anarchist_temp = parliament_total_seats }
+#	multiply_temp_variable = { totalist_temp = parliament_total_seats }
+#	multiply_temp_variable = { socialist_temp = parliament_total_seats }
+#	multiply_temp_variable = { social_democrat_temp = parliament_total_seats }
+#	multiply_temp_variable = { liberal_temp = parliament_total_seats }
+#	multiply_temp_variable = { conservative_temp = parliament_total_seats }
+#	multiply_temp_variable = { authoritarian_temp = parliament_total_seats }
+#	multiply_temp_variable = { ultranationalist_temp = parliament_total_seats }
+#
+#	if = {
+#		limit = { 
+#			original_tag = USA 
+#			is_debug = yes
+#		}
+#		log = "parliament_total_seats = [?parliament_total_seats]"
+#		log = "anarchist_temp = [?anarchist_temp]"
+#		log = "totalist_temp = [?totalist_temp]"
+#		log = "socialist_temp = [?socialist_temp]"
+#		log = "social_democrat_temp = [?social_democrat_temp]"
+#		log = "liberal_temp = [?liberal_temp]"
+#		log = "conservative_temp = [?conservative_temp]"
+#		log = "authoritarian_temp = [?authoritarian_temp]"
+#		log = "ultranationalist_temp = [?ultranationalist_temp]"
+#	}
+#
+#	subtract_from_temp_variable = { anarchist_temp = anarchist_curr }
+#	subtract_from_temp_variable = { totalist_temp = totalist_curr }
+#	subtract_from_temp_variable = { socialist_temp = socialist_curr }
+#	subtract_from_temp_variable = { social_democrat_temp = social_democrat_curr }
+#	subtract_from_temp_variable = { liberal_temp = liberal_curr }
+#	subtract_from_temp_variable = { conservative_temp = conservative_curr }
+#	subtract_from_temp_variable = { authoritarian_temp = authoritarian_curr }
+#	subtract_from_temp_variable = { ultranationalist_temp = ultranationalist_curr }
+#
+#	set_variable = { anarchist_seat_change = anarchist_temp }
+#	set_variable = { totalist_seat_change = totalist_temp }
+#	set_variable = { socialist_seat_change = socialist_temp }
+#	set_variable = { social_democrat_seat_change = social_democrat_temp }
+#	set_variable = { liberal_seat_change = liberal_temp }
+#	set_variable = { conservative_seat_change = conservative_temp }
+#	set_variable = { authoritarian_seat_change = authoritarian_temp }
+#	set_variable = { ultranationalist_seat_change = ultranationalist_temp }
+#
+#	if = {
+#		limit = { 
+#			original_tag = USA 
+#			is_debug = yes
+#		}
+#		log = "----------------------------------"
+#	}
+#}

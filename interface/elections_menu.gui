@@ -3,7 +3,7 @@ guiTypes = {
     containerWindowType = {
 		name = "elections_tab_window"
 		position = { x = 719 y = 80 }	
-		size = { width= 549 height=600 }
+		size = { width= 549 height=505 }
 		show_sound = open_sub_window
 
 		background = {
@@ -42,8 +42,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "elections_tab_help_button"
-			position = { x = -94 y = 6 }
-			spriteType ="GFX_basic_circle_button"
+			position = { x = -90 y = 9 }
+			spriteType ="GFX_icon_atlas_cog"
 			buttonText = ""
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
@@ -52,64 +52,10 @@ guiTypes = {
 			pdx_tooltip = "ELECTIONS_TUTORIAL_KEY"
 		}
 
-		iconType = {
-			name ="elections_tab_help_button_icon"
-			spriteType = "GFX_icon_atlas_cog"
-			position = { x = -85 y = 14 }
-			Orientation = "UPPER_RIGHT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "update_election_polls_btn"
-			position = { x = 35 y = 538 }
-			spriteType ="GFX_action_btn"
-			buttonText = ""
-			buttonFont = "Main_14_black"
-			clicksound = click_ok
-			oversound = ui_menu_over
-			pdx_tooltip = "UPDATE_ELECTIONS_BTN_TT"
-		}
-
-		instantTextboxType = {
-			name = "update_election_polls_text"
-			position = { x = 56 y = 552 }
-			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0}
-			text = "UPDATE_ELECTION_POLLS_TEXT_KEY"
-			maxWidth = 340
-			maxHeight = 20
-			format = left
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "toggle_view_btn"
-			position = { x = 330 y = 538 }
-			spriteType ="GFX_action_btn"
-			buttonText = ""
-			buttonFont = "Main_14_black"
-			clicksound = click_ok
-			oversound = ui_menu_over
-			pdx_tooltip = "TOGGLE_BTN_TT"
-		}
-
-		instantTextboxType = {
-			name = "toggle_view_text"
-			position = { x = 376 y = 552 }
-			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0}
-			text = "TOGGLE_VIEW_TEXT_KEY"
-			maxWidth = 340
-			maxHeight = 20
-			format = left
-			alwaystransparent = yes
-		}
-
 		containerWindowType = {
 			name = "elections_summary_container"
 			position = { x = 10 y = 40 }	
-			size = { width = 518 height = 500 }
+			size = { width = 518 height = 455 }
 
 			background = {
 				name = "Background"		
@@ -117,19 +63,8 @@ guiTypes = {
 			}
 
 			instantTextboxType = {
-				name = "chamber_title"
-				position = { x = 0 y = 15 }
-				font = "hoi_24header"
-				borderSize = {x = 0 y = 0}
-				text = "CHAMBER_TITLE_KEY"
-				maxWidth = 517
-				maxHeight = 20
-				format = center
-			}
-
-			instantTextboxType = {
 				name = "elections_labels"
-				position = { x = 21 y = 65 }
+				position = { x = 21 y = 15 }
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS_LABELS_KEY"
@@ -140,7 +75,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "elections_parties_main_grid"
-				position = { x = 27 y = 105 }
+				position = { x = 27 y = 65 }
 				size = { width = 0 height = 0 }
 				slotsize = { width = 0 height = 50 }
 				add_horizontal = no

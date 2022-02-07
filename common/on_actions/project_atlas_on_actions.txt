@@ -4,72 +4,28 @@ on_actions = {
 			###PARLIAMENT SETUP - Make sure to add an entry below for a country getting cusom content
 			#Make sure that each country has seats assigned to all 8 ideologies, even if some of them have 0 seats
 			every_country = {
-				limit = {
-					NOT = { tag = USA }
-				}
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@anarchism_ideology } # Anarchism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@totalism_ideology } # Totalism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@socialism_ideology } # Socialism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@social_democracy_ideology } # Social Democracy
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@liberalism_ideology } # Liberalism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@conservatism_ideology } # Conservatism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@authoritarianism_ideology } # Authoritarianism
-				add_to_array = { lower_chamber_seat_array = party_popularity_100@ultranationalism_ideology } # Ultranationalism
+				add_to_array = { parliament_seat_array = party_popularity_100@anarchism_ideology } # Anarchism
+				add_to_array = { parliament_seat_array = party_popularity_100@totalism_ideology } # Totalism
+				add_to_array = { parliament_seat_array = party_popularity_100@socialism_ideology } # Socialism
+				add_to_array = { parliament_seat_array = party_popularity_100@social_democracy_ideology } # Social Democracy
+				add_to_array = { parliament_seat_array = party_popularity_100@liberalism_ideology } # Liberalism
+				add_to_array = { parliament_seat_array = party_popularity_100@conservatism_ideology } # Conservatism
+				add_to_array = { parliament_seat_array = party_popularity_100@authoritarianism_ideology } # Authoritarianism
+				add_to_array = { parliament_seat_array = party_popularity_100@ultranationalism_ideology } # Ultranationalism
 				d_parliament_gui_initial = yes
-				initialize_parties_array = yes #Initialize Election Polls menu
-				create_scale_graph = yes
-			}
 
-			###STARTING IDEAS###
-			every_country = {
-				if = {
-					limit = { has_country_flag = is_federal_republic }
-					add_ideas = federal_republic_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_parliamentary_republic }
-					add_ideas = parliamentary_republic_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_socialist_republic }
-					add_ideas = socialist_republic_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_constitutional_monarchy }
-					add_ideas = constitutional_monarchy_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_absolute_monarchy }
-					add_ideas = absolute_monarchy_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_dictatorship }
-					add_ideas = dictatorship_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_oligarchy }
-					add_ideas = oligarchy_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_one_party_state }
-					add_ideas = one_party_state_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_anarcho_communist }
-					add_ideas = anarcho_communist_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_anarcho_capitalist }
-					add_ideas = anarcho_capitalist_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_provisional_government }
-					add_ideas = provisional_government_idea
-				}
-				else_if = {
-					limit = { has_country_flag = is_colonial_government }
-					add_ideas = colonial_government_idea
-				}
+				initialize_parties_array = yes
+
+				set_country_flag = show_government_info
+
+				set_temp_variable = { anarchist_seat_change = 0 }
+				set_temp_variable = { totalist_seat_change = 0 }
+				set_temp_variable = { socialist_seat_change = 0 }
+				set_temp_variable = { social_democrat_seat_change = 0 }
+				set_temp_variable = { liberal_seat_change = 0 }
+				set_temp_variable = { conservative_seat_change = 0 }
+				set_temp_variable = { authoritarian_seat_change = 0 }
+				set_temp_variable = { ultranationalist_seat_change = 0 }
 			}
 
 			###CORPORATIONS###
@@ -162,19 +118,269 @@ on_actions = {
 				add_to_array = { investment_benefits_scaling_array = 0.03 } #Generic Tank Corporation
 			}
 
-			#Tax, Division Limit, election polls, and government menu initialization
+			#CHECKS STARTING IDEAS AND APPLIES TAX VARIABLE AND DIVISION LIMIT VARIABLE OPERATIONS (on_add effects do not fire for ideas added in history files or in an on_startup block)
 			every_country = {
-				set_variable = { division_limit = modifier@standing_army_limit }
+				#Division Limit Initialization
+				set_variable = { standing_army_limit = 0 }
 				set_variable = { division_limit_x_position = 23 }
 
-				set_variable = { net_tax_var = modifier@tax_revenue }
+				#Tax Rate
+				if = {
+					limit = { has_idea = very_low_tax_rate }
+					tax_revenue_increase_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = low_tax_rate }
+					tax_revenue_increase_6 = yes
+				}
+				else_if = {
+					limit = { has_idea = medium_tax_rate }
+					tax_revenue_increase_9 = yes
+				}
+				else_if = {
+					limit = { has_idea = high_tax_rate }
+					tax_revenue_increase_12 = yes
+				}
+				else_if = {
+					limit = { has_idea = very_high_tax_rate }
+					tax_revenue_increase_15 = yes
+				}
 
-				#Each entry into the following array should be a "page id"
-				add_to_array = { gov_menu_pages_array = 0 } #Government Info Page
-				add_to_array = { gov_menu_pages_array = 1 } #Legislature Page
-				set_variable = { gov_menu_current_page = 0 } #Index for gov_menu_pages_array
+				#Ideology
+				if = {
+					limit = { has_government = social_democracy_ideology }
+					add_ideas = social_democracy_idea
+				}
 
-				update_election_polls = yes
+				#Government Type
+				if = {
+					limit = { has_country_flag = is_colonial_government }
+					tax_revenue_decrease_1 = yes
+				}
+
+				#Industrialization
+				if = {
+					limit = { has_idea = early_industrialization }
+					tax_revenue_increase_2 = yes
+					standing_army_increase_6 = yes
+				}
+				else_if = {
+					limit = { has_idea = modern_industrialization }
+					tax_revenue_increase_4 = yes
+					standing_army_increase_12 = yes
+				}
+				else_if = {
+					limit = { has_idea = advanced_industrialization }
+					tax_revenue_increase_6 = yes
+					standing_army_increase_18 = yes
+				}
+				else_if = {
+					limit = { has_idea = peak_industrialization }
+					tax_revenue_increase_8 = yes
+					standing_army_increase_24 = yes
+				}
+
+				#Mobilization
+				if = {
+					limit = { 
+						OR = {
+							has_idea = undisturbed_isolation 
+							has_idea = isolation
+							has_idea = civilian_economy
+						}
+					}
+					standing_army_increase_6 = yes
+				}
+				else_if = {
+					limit = { has_idea = low_economic_mobilisation }
+					standing_army_increase_24 = yes
+				}
+				else_if = {
+					limit = { has_idea = partial_economic_mobilisation }
+					standing_army_increase_48 = yes
+				}
+
+				#Development Focus
+				if = {
+					limit = { has_idea = urban_focus }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = suburban_focus }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = rural_focus }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = capitol_focus }
+					tax_revenue_decrease_1 = yes
+				}
+
+				#Colonial Policy
+				if = {
+					limit = { has_idea = colonial_synergy }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = colonial_development }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = colonial_troops }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = tax_the_natives }
+					tax_revenue_increase_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = colonial_exploitation }
+					tax_revenue_increase_2 = yes
+				}
+
+				#Tax System
+				if = {
+					limit = { has_idea = set_maximum_income }
+					tax_revenue_increase_4 = yes
+				}
+				else_if = {
+					limit = { has_idea = wealth_tax }
+					tax_revenue_increase_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = flat_tax_rate }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = no_wealth_tax }
+					tax_revenue_decrease_4 = yes
+				}
+
+				#Natural Resources
+				if = {
+					limit = { has_idea = state_ownership }
+					tax_revenue_increase_1 = yes
+				}
+
+				#Immigration
+				if = {
+					limit = { has_idea = closed_borders }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = refugees_only }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = limited_immigration }
+					tax_revenue_decrease_1 = yes
+				}
+
+				#Law Enforcement
+				if = {
+					limit = { has_idea = underfunded_police }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = professional_police }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = secret_police }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = police_state }
+					tax_revenue_decrease_4 = yes
+				}
+
+				#Education System
+				if = {
+					limit = { has_idea = primary_education }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = lower_secondary_education }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = upper_secondary_education }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = free_universities }
+					tax_revenue_decrease_4 = yes
+				}
+
+				#Pension System
+				if = {
+					limit = { has_idea = basic_pensions }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = generous_pensions }
+					tax_revenue_decrease_4 = yes
+				}
+
+				#Army Funding
+				if = {
+					limit = { has_idea = army_poor_funding }
+					tax_revenue_decrease_1 = yes
+					standing_army_increase_6 = yes
+				}
+				else_if = {
+					limit = { has_idea = army_sufficient_funding }
+					tax_revenue_decrease_2 = yes
+					standing_army_increase_12 = yes
+				}
+				else_if = {
+					limit = { has_idea = army_lavish_funding }
+					tax_revenue_decrease_3 = yes
+					standing_army_increase_18 = yes
+				}
+				else_if = {
+					limit = { has_idea = army_massive_funding }
+					tax_revenue_decrease_4 = yes
+					standing_army_increase_24 = yes
+				}
+				
+				#Navy Funding
+				if = {
+					limit = { has_idea = navy_poor_funding }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = navy_sufficient_funding }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = navy_lavish_funding }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = navy_massive_funding }
+					tax_revenue_decrease_4 = yes
+				}
+
+				#Air Force Funding
+				if = {
+					limit = { has_idea = air_poor_funding }
+					tax_revenue_decrease_1 = yes
+				}
+				else_if = {
+					limit = { has_idea = air_sufficient_funding }
+					tax_revenue_decrease_2 = yes
+				}
+				else_if = {
+					limit = { has_idea = air_lavish_funding }
+					tax_revenue_decrease_3 = yes
+				}
+				else_if = {
+					limit = { has_idea = air_massive_funding }
+					tax_revenue_decrease_4 = yes
+				}
 			}
 		}
 	}
@@ -258,54 +464,99 @@ on_actions = {
 				subtract_from_variable = { over_division_limit_countdown = 1 }
 			}
 
-			#Updates tax revenue, then checks for nations having a surplus or deficit in their tax revenue.
-			set_variable = { net_tax_var = modifier@tax_revenue }
-			check_surplus_deficit = yes
-
-			#Initialize and update division limit. If a player has gone over their limit and incurred penalties, the following will remove all penalties if the player goes to war or brings their total divisions below the limit.
-			set_variable = { division_limit = modifier@standing_army_limit }
+			#Check for nations being over their division limit while not at war.
 			if = {
+				limit = { #If true, gives warning and the initial penalty.
+					has_war = no
+					is_ai = no
+					check_variable = {
+						var = num_divisions
+						value = standing_army_limit
+						compare = greater_than
+					}
+					NOT = { 
+						has_country_flag = over_division_limit 
+						has_country_flag = post_war_buffer_flag
+					}
+				}
+				set_country_flag = over_division_limit
+				add_ideas = over_division_limit_tier_1
+				set_variable = { over_division_limit_countdown = 7 }
+				country_event = generic.26
+			}
+			else_if = {
+				limit = { #If true, increases the penalties.
+					has_war = no
+					is_ai = no
+					check_variable = {
+						var = num_divisions
+						value = standing_army_limit
+						compare = greater_than
+					}
+					check_variable = {
+						var = over_division_limit_countdown
+						value = 0
+						compare = less_than
+					}
+					has_country_flag = over_division_limit
+					NOT = { has_idea = over_division_limit_tier_3 }
+					NOT = { has_country_flag = post_war_buffer_flag }
+				}
+				if = {
+					limit = { has_idea = over_division_limit_tier_1 }
+					swap_ideas = {
+						remove_idea = over_division_limit_tier_1
+						add_idea = over_division_limit_tier_2
+					}
+					set_variable = { over_division_limit_countdown = 7 }
+				}
+				else_if = {
+					limit = { has_idea = over_division_limit_tier_2 }
+					swap_ideas = {
+						remove_idea = over_division_limit_tier_2
+						add_idea = over_division_limit_tier_3
+					}
+					clear_variable = over_division_limit_countdown
+				}
+			}
+			else_if = {
 				limit = { #If true, removes all penalties
 					has_war = no
 					is_ai = no
 					check_variable = {
 						var = num_divisions
-						value = division_limit
+						value = standing_army_limit
 						compare = less_than_or_equals
 					}
-					OR = {
-						has_idea = over_division_limit_tier_1
-						has_idea = over_division_limit_tier_2
-						has_idea = over_division_limit_tier_3
-					}
+					has_country_flag = over_division_limit
 				}
 				remove_ideas = {
 					over_division_limit_tier_1
 					over_division_limit_tier_2
 					over_division_limit_tier_3
 				}
+				clear_variable = over_division_limit_countdown
+				clr_country_flag = over_division_limit
 				country_event = generic.27
 			}
 			else_if = {
 				limit = { #If true, removes all penalties
 					is_ai = no
 					has_war = yes
-					OR = {
-						has_idea = over_division_limit_tier_1
-						has_idea = over_division_limit_tier_2
-						has_idea = over_division_limit_tier_3
-					}
+					has_country_flag = over_division_limit
 				}
 				remove_ideas = {
 					over_division_limit_tier_1
 					over_division_limit_tier_2
 					over_division_limit_tier_3
 				}
+				clear_variable = over_division_limit_countdown
+				clr_country_flag = over_division_limit
 				country_event = generic.28
 			}
 
 			#Adjust the position of the division limit info on the topbar if the value is negative (this prevents the number from clipping outside its area.)
-			set_temp_variable = { temp_available_divisions = division_limit }
+			set_temp_variable = { temp_available_divisions = standing_army_limit }
 			set_temp_variable = { temp_number_divisions = num_divisions }
 			subtract_from_temp_variable = { temp_available_divisions = temp_number_divisions }
 			if = {

@@ -5,11 +5,7 @@ scripted_gui = {
 		parent_window_name = government_tab_window
 		
 		visible = {
-			check_variable = {
-				var = gov_menu_pages_array^gov_menu_current_page
-				value = 0
-				compare = equals
-			}
+			has_country_flag = show_government_info
 		}
 
 		effects = {

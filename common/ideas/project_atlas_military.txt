@@ -21,7 +21,7 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -2
+                custom_modifier_tooltip = tax_minus_two
                 experience_gain_army_unit_factor = 0.05
                 experience_gain_army_factor = 0.05
                 experience_gain_navy_factor = 0.05
@@ -30,6 +30,14 @@ ideas = {
                 air_mission_xp_gain_factor = 0.05
                 air_training_xp_gain_factor = 0.05
 			}
+
+            on_add = {
+                tax_revenue_decrease_2 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_2 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -38,7 +46,7 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -4
+                custom_modifier_tooltip = tax_minus_four
                 experience_gain_army_unit_factor = 0.10
                 experience_gain_army_factor = 0.10
                 experience_gain_navy_factor = 0.10
@@ -47,6 +55,14 @@ ideas = {
                 air_mission_xp_gain_factor = 0.10
                 air_training_xp_gain_factor = 0.10
 			}
+
+            on_add = {
+                tax_revenue_decrease_4 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_4 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -74,12 +90,22 @@ ideas = {
 			
 			
 			modifier = {
-                standing_army_limit = 6
-                tax_revenue = -1
+                custom_modifier_tooltip = standing_army_increase_6_tt
+                custom_modifier_tooltip = tax_minus_one
                 army_morale_factor = -0.05
                 attrition = 0.10
                 army_fuel_consumption_factor = 0.10
 			}
+
+            on_add = {
+                tax_revenue_decrease_1 = yes
+                add_to_variable = { standing_army_limit = 6 }
+            }
+
+            on_remove = {
+                tax_revenue_increase_1 = yes
+                subtract_from_variable = { standing_army_limit = 6 }
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -91,9 +117,19 @@ ideas = {
 			
 			
 			modifier = {
-                standing_army_limit = 12
-                tax_revenue = -2
+                custom_modifier_tooltip = standing_army_increase_12_tt
+                custom_modifier_tooltip = tax_minus_two
 			}
+
+            on_add = {
+                tax_revenue_decrease_2 = yes
+                add_to_variable = { standing_army_limit = 12 }
+            }
+
+            on_remove = {
+                tax_revenue_increase_2 = yes
+                subtract_from_variable = { standing_army_limit = 12 }
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -102,12 +138,22 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                standing_army_limit = 18
-                tax_revenue = -3
+                custom_modifier_tooltip = standing_army_increase_18_tt
+                custom_modifier_tooltip = tax_minus_three
                 army_morale_factor = 0.05
                 attrition = -0.10
                 army_fuel_consumption_factor = -0.10
 			}
+
+            on_add = {
+                tax_revenue_decrease_3 = yes
+                add_to_variable = { standing_army_limit = 18 }
+            }
+
+            on_remove = {
+                tax_revenue_increase_3 = yes
+                subtract_from_variable = { standing_army_limit = 18 }
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -116,12 +162,22 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                standing_army_limit = 24
-                tax_revenue = -4
+                custom_modifier_tooltip = standing_army_increase_24_tt
+                custom_modifier_tooltip = tax_minus_four
                 army_morale_factor = 0.10
                 attrition = -0.20
                 army_fuel_consumption_factor = -0.20
 			}
+
+            on_add = {
+                tax_revenue_decrease_4 = yes
+                add_to_variable = { standing_army_limit = 24 }
+            }
+
+            on_remove = {
+                tax_revenue_increase_4 = yes
+                subtract_from_variable = { standing_army_limit = 24 }
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -272,11 +328,19 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -1
+                custom_modifier_tooltip = tax_minus_one
                 naval_morale_factor = -0.05
                 naval_attrition = 0.10
                 navy_fuel_consumption_factor = 0.10
 			}
+
+            on_add = {
+                tax_revenue_decrease_1 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_1 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -287,8 +351,16 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -2
+                custom_modifier_tooltip = tax_minus_two
 			}
+
+            on_add = {
+                tax_revenue_decrease_2 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_2 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -297,11 +369,19 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -3
+                custom_modifier_tooltip = tax_minus_three
                 naval_morale_factor = 0.05
                 naval_attrition = -0.10
                 navy_fuel_consumption_factor = -0.10
 			}
+
+            on_add = {
+                tax_revenue_decrease_3 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_3 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -310,11 +390,19 @@ ideas = {
             cost = 100
 			
 			modifier = {
-                tax_revenue = -4
+                custom_modifier_tooltip = tax_minus_four
                 naval_morale_factor = 0.10
                 naval_attrition = -0.20
                 navy_fuel_consumption_factor = -0.20
 			}
+
+            on_add = {
+                tax_revenue_decrease_4 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_4 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -464,13 +552,21 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -1
+                custom_modifier_tooltip = tax_minus_one
                 air_fuel_consumption_factor = 0.10
                 air_maximum_speed_factor = -0.05
                 air_agility_factor = -0.03
                 air_attack_factor = -0.03
                 air_defence_factor = -0.03
 			}
+
+            on_add = {
+                tax_revenue_decrease_1 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_1 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -481,8 +577,16 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -2
+                custom_modifier_tooltip = tax_minus_two
 			}
+
+            on_add = {
+                tax_revenue_decrease_2 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_2 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -491,13 +595,21 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -3
+                custom_modifier_tooltip = tax_minus_three
                 air_fuel_consumption_factor = -0.10
                 air_maximum_speed_factor = 0.05
                 air_agility_factor = 0.03
                 air_attack_factor = 0.03
                 air_defence_factor = 0.03
 			}
+
+            on_add = {
+                tax_revenue_decrease_3 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_3 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
@@ -506,13 +618,21 @@ ideas = {
 			cost = 100
 			
 			modifier = {
-                tax_revenue = -4
+                custom_modifier_tooltip = tax_minus_four
                 air_fuel_consumption_factor = -0.20
                 air_maximum_speed_factor = 0.10
                 air_agility_factor = 0.06
                 air_attack_factor = 0.06
                 air_defence_factor = 0.06
 			}
+
+            on_add = {
+                tax_revenue_decrease_4 = yes
+            }
+
+            on_remove = {
+                tax_revenue_increase_4 = yes
+            }
 			
 			cancel_if_invalid = no
 		}
