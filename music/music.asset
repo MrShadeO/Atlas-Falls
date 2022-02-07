@@ -1,7 +1,0 @@
-
-# MAIN THEME
-music = {
-	name = "maintheme"
-	file = "russian-white-army-song-civil-war-generals.ogg"
-	volume = 0.65
-}

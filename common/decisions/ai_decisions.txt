@@ -136,7 +136,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^3
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -178,7 +178,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^4
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -220,7 +220,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^5
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -262,7 +262,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^6
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -304,7 +304,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^7
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -341,12 +341,12 @@ ai_decision_category = {
             NOT = { has_government = liberalism_ideology }
             check_variable = {
                 var = corporations_array^num
-                value = 1
+                value = 9
                 compare = greater_than_or_equals
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^8
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -388,7 +388,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^9
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -430,7 +430,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^10
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -472,7 +472,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^11
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -514,7 +514,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^12
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -556,7 +556,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^13
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -598,7 +598,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^14
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -640,7 +640,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^15
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -682,7 +682,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^16
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -724,7 +724,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^17
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -766,7 +766,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^18
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -808,7 +808,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^19
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -976,7 +976,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^3
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1018,7 +1018,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^4
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1060,7 +1060,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^5
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1102,7 +1102,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^6
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1144,7 +1144,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^7
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1181,12 +1181,12 @@ ai_decision_category = {
             has_government = liberalism_ideology
             check_variable = {
                 var = corporations_array^num
-                value = 1
+                value = 9
                 compare = greater_than_or_equals
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^8
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1228,7 +1228,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^9
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1270,7 +1270,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^10
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1312,7 +1312,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^11
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1354,7 +1354,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^12
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1396,7 +1396,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^13
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1438,7 +1438,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^14
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1480,7 +1480,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^15
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1522,7 +1522,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^16
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1564,7 +1564,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^17
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1606,7 +1606,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^18
                 compare = greater_than_or_equals
             }
             check_variable = {
@@ -1648,7 +1648,7 @@ ai_decision_category = {
             }
 			check_variable = {
                 var = current_investment_points
-                value = investment_point_cost_array^0
+                value = investment_point_cost_array^19
                 compare = greater_than_or_equals
             }
             check_variable = {

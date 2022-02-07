@@ -1,0 +1,1622 @@
+ruling_party_popularity_add_1 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.01
+        }
+    }
+}
+
+ruling_party_popularity_add_2 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.02
+        }
+    }
+}
+
+ruling_party_popularity_add_3 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.03
+        }
+    }
+}
+
+ruling_party_popularity_add_4 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.04
+        }
+    }
+}
+
+ruling_party_popularity_add_5 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.05
+        }
+    }
+}
+
+ruling_party_popularity_add_6 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.06
+        }
+    }
+}
+
+ruling_party_popularity_add_7 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.07
+        }
+    }
+}
+
+ruling_party_popularity_add_8 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.08
+        }
+    }
+}
+
+ruling_party_popularity_add_9 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.09
+        }
+    }
+}
+
+ruling_party_popularity_add_10 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = 0.10
+        }
+    }
+}
+
+###################################################################################
+ruling_party_popularity_subtract_1 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.01
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.01
+        }
+    }
+}
+
+ruling_party_popularity_subtract_2 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.02
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.02
+        }
+    }
+}
+
+ruling_party_popularity_subtract_3 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.03
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.03
+        }
+    }
+}
+
+ruling_party_popularity_subtract_4 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.04
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.04
+        }
+    }
+}
+
+ruling_party_popularity_subtract_5 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.05
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.05
+        }
+    }
+}
+
+ruling_party_popularity_subtract_6 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.06
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.06
+        }
+    }
+}
+
+ruling_party_popularity_subtract_7 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.07
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.07
+        }
+    }
+}
+
+ruling_party_popularity_subtract_8 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.08
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.08
+        }
+    }
+}
+
+ruling_party_popularity_subtract_9 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.09
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.09
+        }
+    }
+}
+
+ruling_party_popularity_subtract_10 = {
+    if = {
+        limit = {
+            has_government = anarchism_ideology
+        }
+        add_popularity = {
+            ideology = anarchism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = totalism_ideology
+        }
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = socialism_ideology
+        }
+        add_popularity = {
+            ideology = socialism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = social_democracy_ideology
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = liberalism_ideology
+        }
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = conservatism_ideology
+        }
+        add_popularity = {
+            ideology = conservatism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = authoritarianism_ideology
+        }
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = -0.10
+        }
+    }
+    else_if = {
+        limit = {
+            has_government = ultranationalism_ideology
+        }
+        add_popularity = {
+            ideology = ultranationalism_ideology
+            popularity = -0.10
+        }
+    }
+}
+
+form_coalition = {
+    if = {
+        limit = {
+            check_variable = {
+				var = upper_chamber_seat_array^num
+				value = 2
+				compare = greater_than_or_equals
+			}
+        }
+        if = {
+            limit = { has_country_flag = is_in_coalition_with_anarchists }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^0 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_totalists }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^1 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_socialists }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^2 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_social_democrats }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^3 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_liberals }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^4 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_conservatives }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^5 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_authoritarians }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^6 }
+        }
+        else_if = {
+            limit = { has_country_flag = is_in_coalition_with_ultranationalists }
+            set_variable = { coalition_partner_upper_house_seats = upper_chamber_seat_array^7 }
+        }
+
+        find_highest_in_array = { 
+            array = upper_chamber_seat_array 
+            value = v 
+            index = i
+        }
+        set_variable = { upper_house_leading_party_index = i }
+        set_variable = { upper_house_leading_party_var = i }
+        set_variable = { leading_party_upper_house_total_seats = v }
+        add_to_variable = { leading_party_upper_house_total_seats = coalition_partner_upper_house_seats }
+    }
+
+    if = {
+        limit = { has_country_flag = is_in_coalition_with_anarchists }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^0 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_totalists }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^1 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_socialists }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^2 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_social_democrats }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^3 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_liberals }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^4 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_conservatives }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^5 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_authoritarians }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^6 }
+    }
+    else_if = {
+        limit = { has_country_flag = is_in_coalition_with_ultranationalists }
+        set_variable = { coalition_partner_lower_house_seats = lower_chamber_seat_array^7 }
+    }
+
+    find_highest_in_array = { 
+		array = lower_chamber_seat_array 
+		value = v 
+		index = i
+	}
+	set_variable = { lower_house_leading_party_index = i }
+	set_variable = { lower_house_leading_party_var = i }
+	set_variable = { leading_party_lower_house_total_seats = v }
+	add_to_variable = { leading_party_lower_house_total_seats = coalition_partner_lower_house_seats }
+}
+
+end_coalition = {
+    hidden_effect = {
+        clr_country_flag = is_in_coalition_with_anarchists
+        clr_country_flag = is_in_coalition_with_totalists
+        clr_country_flag = is_in_coalition_with_socialists
+        clr_country_flag = is_in_coalition_with_social_democrats
+        clr_country_flag = is_in_coalition_with_liberals
+        clr_country_flag = is_in_coalition_with_conservatives
+        clr_country_flag = is_in_coalition_with_authoritarians
+        clr_country_flag = is_in_coalition_with_ultranationalists
+        remove_ideas = {
+            anarchist_coalition_idea
+		    totalist_coalition_idea
+		    socialist_coalition_idea
+            social_democratic_coalition_idea
+            liberal_coalition_idea
+            conservative_coalition_idea
+            authoritarian_coalition_idea
+            ultranationalist_coalition_idea
+        }
+        set_variable = { coalition_partner_lower_house_seats = 0 }
+        set_variable = { coalition_partner_upper_house_seats = 0 }
+    }
+}

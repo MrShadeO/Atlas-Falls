@@ -1,0 +1,223 @@
+###### LOWER HOUSE ######
+get_lower_house_required_seats_10_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_10
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_10_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_20_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_20
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_20_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_30_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_30
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_30_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_40_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_40
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_40_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_50_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_50
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_50_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_60_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_60
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_60_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_70_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_70
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_70_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_80_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_80
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_80_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_lower_house_required_seats_90_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_lower_party_seats_90
+        check_variable = {
+            var = leading_party_lower_house_total_seats
+            value = lower_chamber_required_seats_90_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+###### UPPER HOUSE ######
+get_upper_house_required_seats_10_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_10
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_10_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_20_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_20
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_20_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_30_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_30
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_30_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_40_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_40
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_40_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_50_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_50
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_50_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_60_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_60
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_60_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_70_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_70
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_70_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_80_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_80
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_80_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+get_upper_house_required_seats_90_percent = {
+    custom_trigger_tooltip = {
+        tooltip = custom_trg_check_upper_party_seats_90
+        check_variable = {
+            var = leading_party_upper_house_total_seats
+            value = upper_chamber_required_seats_90_var
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+has_upper_chamber = {
+    custom_trigger_tooltip = {
+        tooltip = has_upper_chamber_tt
+        check_variable = {
+            var = upper_chamber_seat_array^num
+            value = 2
+            compare = greater_than_or_equals
+        }
+    }
+}
+
+no_upper_chamber = {
+    custom_trigger_tooltip = {
+        tooltip = no_upper_chamber_tt
+        NOT = {
+            check_variable = {
+                var = upper_chamber_seat_array^num
+                value = 2
+                compare = greater_than_or_equals
+            }
+        }
+    }
+}

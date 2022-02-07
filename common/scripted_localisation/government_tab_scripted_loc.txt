@@ -315,3 +315,427 @@ defined_text = {
 		localization_key = DEFAULT_LOWER_HOUSE
 	}
 }
+
+defined_text = {
+    name = GetLeadingPartyLowerHouse
+    text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = FIND_ANARCHIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = FIND_TOTALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 2
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 3
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 4
+				compare = equals
+			}
+		}
+		localization_key = FIND_LIBERAL_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 5
+				compare = equals
+			}
+		}
+		localization_key = FIND_CONSERVATIVE_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 6
+				compare = equals
+			}
+		}
+		localization_key = FIND_AUTHORITARIAN_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = lower_house_leading_party_var
+				value = 7
+				compare = equals
+			}
+		}
+		localization_key = FIND_ULTRANATIONALIST_PARTY_KEY
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetLeadingPartyUpperHouse
+    text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = FIND_ANARCHIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = FIND_TOTALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 2
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIALIST_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 3
+				compare = equals
+			}
+		}
+		localization_key = FIND_SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 4
+				compare = equals
+			}
+		}
+		localization_key = FIND_LIBERAL_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 5
+				compare = equals
+			}
+		}
+		localization_key = FIND_CONSERVATIVE_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 6
+				compare = equals
+			}
+		}
+		localization_key = FIND_AUTHORITARIAN_PARTY_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = upper_house_leading_party_var
+				value = 7
+				compare = equals
+			}
+		}
+		localization_key = FIND_ULTRANATIONALIST_PARTY_KEY
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetCoalitionLowerHouseDetails
+    text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+			OR = {
+				has_country_flag = is_in_coalition_with_anarchists
+				has_country_flag = is_in_coalition_with_totalists
+				has_country_flag = is_in_coalition_with_socialists
+				has_country_flag = is_in_coalition_with_social_democrats
+				has_country_flag = is_in_coalition_with_liberals
+				has_country_flag = is_in_coalition_with_conservatives
+				has_country_flag = is_in_coalition_with_authoritarians
+				has_country_flag = is_in_coalition_with_ultranationalists
+			}
+		}
+		localization_key = COALITION_LOWER_HOUSE_INFO_KEY
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+			NOT = {
+				has_country_flag = is_in_coalition_with_anarchists
+				has_country_flag = is_in_coalition_with_totalists
+				has_country_flag = is_in_coalition_with_socialists
+				has_country_flag = is_in_coalition_with_social_democrats
+				has_country_flag = is_in_coalition_with_liberals
+				has_country_flag = is_in_coalition_with_conservatives
+				has_country_flag = is_in_coalition_with_authoritarians
+				has_country_flag = is_in_coalition_with_ultranationalists
+			}
+		}
+		localization_key = NO_COALITION_KEY
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+		}
+		localization_key = SHOW_NOTHING
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetCoalitionUpperHouseDetails
+    text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+			OR = {
+				has_country_flag = is_in_coalition_with_anarchists
+				has_country_flag = is_in_coalition_with_totalists
+				has_country_flag = is_in_coalition_with_socialists
+				has_country_flag = is_in_coalition_with_social_democrats
+				has_country_flag = is_in_coalition_with_liberals
+				has_country_flag = is_in_coalition_with_conservatives
+				has_country_flag = is_in_coalition_with_authoritarians
+				has_country_flag = is_in_coalition_with_ultranationalists
+			}
+		}
+		localization_key = COALITION_UPPER_HOUSE_INFO_KEY
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+			NOT = {
+				has_country_flag = is_in_coalition_with_anarchists
+				has_country_flag = is_in_coalition_with_totalists
+				has_country_flag = is_in_coalition_with_socialists
+				has_country_flag = is_in_coalition_with_social_democrats
+				has_country_flag = is_in_coalition_with_liberals
+				has_country_flag = is_in_coalition_with_conservatives
+				has_country_flag = is_in_coalition_with_authoritarians
+				has_country_flag = is_in_coalition_with_ultranationalists
+			}
+		}
+		localization_key = NO_COALITION_KEY
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = is_parliamentary_republic
+				has_country_flag = is_constitutional_monarchy
+			}
+		}
+		localization_key = SHOW_NOTHING
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetCoalitionPartnerParty
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_anarchists
+		}
+		localization_key = FIND_ANARCHIST_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_totalists
+		}
+		localization_key = FIND_TOTALIST_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_socialists
+		}
+		localization_key = FIND_SOCIALIST_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_social_democrats
+		}
+		localization_key = FIND_SOCIAL_DEMOCRATIC_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_liberals
+		}
+		localization_key = FIND_LIBERAL_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_conservatives
+		}
+		localization_key = FIND_CONSERVATIVE_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_authoritarians
+		}
+		localization_key = FIND_AUTHORITARIAN_PARTY_KEY
+	}
+    text = {
+		trigger = {
+			has_country_flag = is_in_coalition_with_ultranationalists
+		}
+		localization_key = FIND_ULTRANATIONALIST_PARTY_KEY
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetLowerHouseDetails
+    text = {
+		trigger = {
+			has_elections = yes
+		}
+		localization_key = LOWER_HOUSE_DETAILS_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetUpperHouseDetails
+    text = {
+		trigger = {
+			has_upper_chamber = yes
+		}
+		localization_key = UPPER_HOUSE_DETAILS_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetCurrentPage
+    text = {
+		trigger = {
+			set_temp_variable = { temp_current_page = gov_menu_current_page }
+			add_to_temp_variable = { temp_current_page = 1 }
+		}
+		localization_key = CURRENT_PAGE_KEY
+	}
+}
+
+defined_text = {
+    name = GetPageTitle
+    text = {
+		trigger = {
+			check_variable = {
+				var = gov_menu_pages_array^gov_menu_current_page
+				value = 0
+				compare = equals
+			}
+		}
+		localization_key = GOVERNMENT_INFO_TITLE_KEY
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = gov_menu_pages_array^gov_menu_current_page
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = LEGISLATURE_TITLE_KEY
+	}
+}
+
+defined_text = {
+    name = GetLockStatus
+    text = {
+		trigger = {
+			has_country_flag = gov_menu_save_last_page
+		}
+		localization_key = UNLOCK_PAGE_KEY
+	}
+	text = {
+		localization_key = LOCK_PAGE_KEY
+	}
+}
+
+defined_text = {
+    name = GetLockStatusDesc
+    text = {
+		trigger = {
+			has_country_flag = gov_menu_save_last_page
+		}
+		localization_key = UNLOCK_PAGE_DESC_KEY
+	}
+	text = {
+		localization_key = LOCK_PAGE_DESC_KEY
+	}
+}

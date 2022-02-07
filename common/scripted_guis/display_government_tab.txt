@@ -2,43 +2,57 @@ scripted_gui = {
     display_government_tab_gui = {
         window_name = "government_tab_window"
         context_type = player_context
+        parent_window_token = politics_tab
 
         effects = {
             government_tab_close_btn_click = {
                 clr_country_flag = display_government_tab
             }
 
-            government_tab_close_btn2_click = {
-                clr_country_flag = display_government_tab
+            gov_page_left_btn_click = {
+                subtract_from_variable = { gov_menu_current_page = 1 }
             }
 
-            government_info_btn_click = {
-                set_country_flag = show_government_info
-                clr_country_flag = show_government_upper_house
-                clr_country_flag = show_government_lower_house
+            gov_page_right_btn_click = {
+                add_to_variable = { gov_menu_current_page = 1 }
             }
 
-            government_upper_house_btn_click = {
-                set_country_flag = show_government_upper_house
-                clr_country_flag = show_government_info
-                clr_country_flag = show_government_lower_house
-            }
-
-            government_lower_house_btn_click = {
-                set_country_flag = show_government_lower_house
-                clr_country_flag = show_government_info
-                clr_country_flag = show_government_upper_house
+            lock_page_btn_click = {
+                if = {
+                    limit = { has_country_flag = gov_menu_save_last_page }
+                    clr_country_flag = gov_menu_save_last_page
+                }
+                else = {
+                    set_country_flag = gov_menu_save_last_page
+                }
             }
 		}
 
         triggers = {
-            government_upper_house_btn_click_enabled = {
-                has_elections = yes
+            gov_page_left_btn_click_enabled = {
+                check_variable = {
+                    var = gov_menu_current_page
+                    value = 0
+                    compare = greater_than
+                }
             }
 
-            government_lower_house_btn_click_enabled = {
-                has_elections = yes
-                has_country_flag = has_government_lower_house
+            gov_page_right_btn_click_enabled = {
+                set_temp_variable = { temp_current_page = gov_menu_current_page }
+                add_to_temp_variable = { temp_current_page = 1 }
+                check_variable = {
+                    var = temp_current_page
+                    value = gov_menu_pages_array^num
+                    compare = less_than
+                }
+            }
+
+            unlocked_page_icon_visible = {
+                NOT = { has_country_flag = gov_menu_save_last_page }
+            }
+
+            locked_page_icon_visible = {
+                has_country_flag = gov_menu_save_last_page
             }
         }
 
