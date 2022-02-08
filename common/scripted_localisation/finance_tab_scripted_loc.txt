@@ -642,3 +642,16 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckUniversalHealthcare
+	text = {
+		trigger = {
+			has_idea = universal_healthcare_idea
+		}
+		localization_key = SHOW_UNIVERSAL_HEALTHCARE_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

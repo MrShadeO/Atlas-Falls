@@ -2,48 +2,62 @@ scripted_gui = {
 	parliament_gui = {
 		context_type = player_context
 		window_name = "parliament_gui_container"
-		parent_window_name = government_tab_window
+		parent_window_token = politics_tab
 		
 		visible = {
-			has_elections = yes
-			has_country_flag = show_government_upper_house
+			has_country_flag = display_government_tab
+			check_variable = {
+				var = gov_menu_pages_array^gov_menu_current_page
+				value = 1
+				compare = equals
+			}
 		}
 
 		dynamic_lists = {
-			parliament_semicircle_main_grid = {
-				array = parliament_main_array
-				index = parliament_main_index
-				change_scope = no
-				entry_container = parliament_semicircle_main_entry
-			}
-			parliament_member_grid = {
+			lower_chamber_member_grid = {
 				array = parliament_member_array
 				index = parliament_member_index
 				change_scope = no
-				entry_container = parliament_member_entry
+				entry_container = lower_chamber_member_entry
+			}
+
+			upper_chamber_member_grid = {
+				array = parliament_member_array
+				index = parliament_member_index
+				change_scope = no
+				entry_container = upper_chamber_member_entry
 			}
 		}
 
-		effects = { #Example code, doesn't actually have any implementation
-			parliament_modify_button_control_click = {
-				set_temp_variable = { temp_member = v }
-				set_temp_variable = { temp_seats = 5 }
-				modify_parliament_seat = yes
+		effects = { 
+		}
+
+		triggers = {
+			lower_chamber_member_icon_visible = {
+				has_elections = yes
 			}
-			parliament_modify_button_shift_click = {
-				set_temp_variable = { temp_member = v }
-				set_temp_variable = { temp_seats = -5 }
-				modify_parliament_seat = yes
+
+			lower_chamber_member_text_visible = {
+				has_elections = yes
+			}
+
+			upper_chamber_member_icon_visible = {
+				has_elections = yes
+				has_upper_chamber = yes
+			}
+
+			upper_chamber_member_text_visible = {
+				has_elections = yes
+				has_upper_chamber = yes
 			}
 		}
 
 		properties = {
-			parliament_semicircle_main_icon = {
+			lower_chamber_member_icon = {
 				frame = v
-				x = parliament_x_array^parliament_main_index
-				y = parliament_y_array^parliament_main_index
 			}
-			parliament_member_icon = {
+
+			upper_chamber_member_icon = {
 				frame = v
 			}
 		}

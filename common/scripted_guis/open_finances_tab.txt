@@ -20,10 +20,7 @@ scripted_gui = {
                 clr_country_flag = display_elections_tab
 
                 #This lets us dynamically change the display without editing the actual important variable.
-                set_variable = {
-                    var = net_tax_var_display
-                    value = net_tax_var
-                }
+                set_variable = { net_tax_var_display = net_tax_var }
 
                 # 0 = empty, 1 = No Taxes, 2 = Very Low Taxes, 3 = Low Taxes, 4 = Medium Taxes, 5 = High Taxes, 6 = Very High Taxes
                 if = { 

@@ -2,9 +2,8 @@ defined_text = {
     name = GetPartyName
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
@@ -14,9 +13,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
@@ -26,9 +24,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
@@ -38,9 +35,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
@@ -50,9 +46,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
@@ -62,9 +57,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
@@ -74,9 +68,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
@@ -86,9 +79,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
@@ -98,9 +90,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
@@ -109,9 +100,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
@@ -120,9 +110,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
@@ -131,9 +120,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
@@ -142,9 +130,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
@@ -153,9 +140,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
@@ -164,9 +150,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
@@ -175,9 +160,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
@@ -193,9 +177,8 @@ defined_text = {
     name = GetPartyPopularity
 	text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
@@ -204,9 +187,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
@@ -215,9 +197,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
@@ -226,9 +207,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
@@ -237,9 +217,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
@@ -248,9 +227,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
@@ -259,9 +237,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
@@ -270,9 +247,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
@@ -284,191 +260,283 @@ defined_text = {
 	}
 }
 
+
+
 defined_text = {
     name = GetSeatForecast
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = UPPER_CHAMBER_SEAT_FORECAST_KEY
+	}
+    text = {
+		localization_key = LOWER_CHAMBER_SEAT_FORECAST_KEY
+	}
+}
+
+defined_text = {
+    name = GetLowerChamberSeatForecast
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
-
-            set_temp_variable = { anarchist_temp = party_popularity@anarchism_ideology }
-            set_temp_variable = { anarchist_curr = parliament_seat_array^0 }
-            multiply_temp_variable = { anarchist_temp = parliament_total_seats }
-            subtract_from_temp_variable = { anarchist_temp = anarchist_curr }
-            round_temp_variable = anarchist_temp
-
-            set_temp_variable = { totalist_temp = party_popularity@totalism_ideology }
-            set_temp_variable = { totalist_curr = parliament_seat_array^1 }
-            multiply_temp_variable = { totalist_temp = parliament_total_seats }
-            subtract_from_temp_variable = { totalist_temp = totalist_curr }
-            round_temp_variable = totalist_temp
-
-            set_temp_variable = { socialist_temp = party_popularity@socialism_ideology }
-            set_temp_variable = { socialist_curr = parliament_seat_array^2 }
-            multiply_temp_variable = { socialist_temp = parliament_total_seats }
-            subtract_from_temp_variable = { socialist_temp = socialist_curr }
-            round_temp_variable = socialist_temp
-
-            set_temp_variable = { social_democrat_temp = party_popularity@social_democracy_ideology }
-            set_temp_variable = { social_democrat_curr = parliament_seat_array^3 }
-            multiply_temp_variable = { social_democrat_temp = parliament_total_seats }
-            subtract_from_temp_variable = { social_democrat_temp = social_democrat_curr }
-            round_temp_variable = social_democrat_temp
-
-            set_temp_variable = { liberal_temp = party_popularity@liberalism_ideology }
-            set_temp_variable = { liberal_curr = parliament_seat_array^4 }
-            multiply_temp_variable = { liberal_temp = parliament_total_seats }
-            subtract_from_temp_variable = { liberal_temp = liberal_curr }
-            round_temp_variable = liberal_temp
-
-            set_temp_variable = { conservative_temp = party_popularity@conservatism_ideology }
-            set_temp_variable = { conservative_curr = parliament_seat_array^5 }
-            multiply_temp_variable = { conservative_temp = parliament_total_seats }
-            subtract_from_temp_variable = { conservative_temp = conservative_curr }
-            round_temp_variable = conservative_temp
-
-            set_temp_variable = { authoritarian_temp = party_popularity@authoritarianism_ideology }
-            set_temp_variable = { authoritarian_curr = parliament_seat_array^6 }
-            multiply_temp_variable = { authoritarian_temp = parliament_total_seats }
-            subtract_from_temp_variable = { authoritarian_temp = authoritarian_curr }
-            round_temp_variable = authoritarian_temp
-
-            set_temp_variable = { ultranationalist_temp = party_popularity@ultranationalism_ideology }
-            set_temp_variable = { ultranationalist_curr = parliament_seat_array^7 }
-            multiply_temp_variable = { ultranationalist_temp = parliament_total_seats }
-            subtract_from_temp_variable = { ultranationalist_temp = ultranationalist_curr }
-            round_temp_variable = ultranationalist_temp
-
             check_variable = {
-                var = anarchist_temp
+                var = lower_chamber_anarchist_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = ANARCHIST_SEATS_KEY
+		localization_key = ANARCHIST_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
 
             check_variable = {
-                var = totalist_temp
+                var = lower_chamber_totalist_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = TOTALIST_SEATS_KEY
+		localization_key = TOTALIST_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
 
             check_variable = {
-                var = socialist_temp
+                var = lower_chamber_socialist_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = SOCIALIST_SEATS_KEY
+		localization_key = SOCIALIST_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
 
             check_variable = {
-                var = social_democrat_temp
+                var = lower_chamber_social_democrat_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = SOCIAL_DEMOCRAT_SEATS_KEY
+		localization_key = SOCIAL_DEMOCRAT_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
 
             check_variable = {
-                var = liberal_temp
+                var = lower_chamber_liberal_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = LIBERAL_SEATS_KEY
+		localization_key = LIBERAL_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
 
             check_variable = {
-                var = conservative_temp
+                var = lower_chamber_conservative_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = CONSERVATIVE_SEATS_KEY
+		localization_key = CONSERVATIVE_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
 
             check_variable = {
-                var = authoritarian_temp
+                var = lower_chamber_authoritarian_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = AUTHORITARIAN_SEATS_KEY
+		localization_key = AUTHORITARIAN_LOWER_CHAMBER_SEATS_KEY
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
 
             check_variable = {
-                var = ultranationalist_temp
+                var = lower_chamber_ultranationalist_seat_change
                 value = 0
                 compare = not_equals
             }
 		}
-		localization_key = ULTRANATIONALIST_SEATS_KEY
+		localization_key = ULTRANATIONALIST_LOWER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = GetUpperChamberSeatForecast
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+            check_variable = {
+                var = upper_chamber_anarchist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ANARCHIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_totalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = TOTALIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_socialist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIALIST_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_social_democrat_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = SOCIAL_DEMOCRAT_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_liberal_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = LIBERAL_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_conservative_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = CONSERVATIVE_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_authoritarian_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = AUTHORITARIAN_UPPER_CHAMBER_SEATS_KEY
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+
+            check_variable = {
+                var = upper_chamber_ultranationalist_seat_change
+                value = 0
+                compare = not_equals
+            }
+		}
+		localization_key = ULTRANATIONALIST_UPPER_CHAMBER_SEATS_KEY
 	}
     text = {
 		localization_key = SHOW_NOTHING
@@ -477,125 +545,185 @@ defined_text = {
 
 defined_text = {
     name = GetSeatResults
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = UPPER_CHAMBER_RESULTS_KEY
+	}
+    text = {
+		localization_key = LOWER_CHAMBER_RESULTS_KEY
+	}
+}
+
+defined_text = {
+    name = GetLowerChamberSeatResults
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
-
-            set_temp_variable = { anarchist_results_temp = anarchist_temp }
-            add_to_temp_variable = { anarchist_results_temp = parliament_seat_array^0 }
-            round_temp_variable = anarchist_results_temp
-
-            set_temp_variable = { totalist_results_temp = totalist_temp }
-            add_to_temp_variable = { totalist_results_temp = parliament_seat_array^1 }
-            round_temp_variable = totalist_results_temp
-
-            set_temp_variable = { socialist_results_temp = socialist_temp }
-            add_to_temp_variable = { socialist_results_temp = parliament_seat_array^2 }
-            round_temp_variable = socialist_results_temp
-
-            set_temp_variable = { social_democrat_results_temp = social_democrat_temp }
-            add_to_temp_variable = { social_democrat_results_temp = parliament_seat_array^3 }
-            round_temp_variable = social_democrat_results_temp
-
-            set_temp_variable = { liberal_results_temp = liberal_temp }
-            add_to_temp_variable = { liberal_results_temp = parliament_seat_array^4 }
-            round_temp_variable = liberal_results_temp
-
-            set_temp_variable = { conservative_results_temp = conservative_temp }
-            add_to_temp_variable = { conservative_results_temp = parliament_seat_array^5 }
-            round_temp_variable = conservative_results_temp
-
-            set_temp_variable = { authoritarian_results_temp = authoritarian_temp }
-            add_to_temp_variable = { authoritarian_results_temp = parliament_seat_array^6 }
-            round_temp_variable = authoritarian_results_temp
-
-            set_temp_variable = { ultranationalist_results_temp = ultranationalist_temp }
-            add_to_temp_variable = { ultranationalist_results_temp = parliament_seat_array^7 }
-            round_temp_variable = ultranationalist_results_temp
 		}
-		localization_key = [?anarchist_results_temp|0]
+		localization_key = [?lower_chamber_anarchist_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
 		}
-		localization_key = [?totalist_results_temp|0]
+		localization_key = [?lower_chamber_totalist_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
 		}
-		localization_key = [?socialist_results_temp|0]
+		localization_key = [?lower_chamber_socialist_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
 		}
-		localization_key = [?social_democrat_results_temp|0]
+		localization_key = [?lower_chamber_social_democrat_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
 		}
-		localization_key = [?liberal_results_temp|0]
+		localization_key = [?lower_chamber_liberal_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
 		}
-		localization_key = [?conservative_results_temp|0]
+		localization_key = [?lower_chamber_conservative_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
 		}
-		localization_key = [?authoritarian_results_temp|0]
+		localization_key = [?lower_chamber_authoritarian_seats|0]
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
 		}
-		localization_key = [?ultranationalist_results_temp|0]
+		localization_key = [?lower_chamber_ultranationalist_seats|0]
+	}
+    text = {
+		localization_key = ERROR
+	}
+}
+
+defined_text = {
+    name = GetUpperChamberSeatResults
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 1
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_anarchist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 2
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_totalist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 3
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_socialist_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 4
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_social_democrat_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 5
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_liberal_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 6
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_conservative_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 7
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_authoritarian_seats|0]
+	}
+    text = {
+		trigger = {
+            check_variable = {
+                var = elections_parties_array^elections_parties_index
+                value = 8
+                compare = equals
+            }
+		}
+		localization_key = [?upper_chamber_ultranationalist_seats|0]
 	}
     text = {
 		localization_key = ERROR
@@ -606,390 +734,224 @@ defined_text = {
     name = GetLeadingParty
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
-
-            check_variable = {
-                var = anarchist_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = anarchist_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
-            }
-            print_variables = {
-                file = log_file
-                text = header_text
-                append = yes
-                print_global = no
-                var_list = { anarchist_results_temp totalist_results_temp socialist_results_temp social_democrat_results_temp liberal_results_temp conservative_results_temp authoritarian_results_temp ultranationalist_results_temp }
+            OR = {
+                AND = { #We are looking at the upper chamber, so we want to use upper chamber info
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_anarchist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = { #and this is for the lower chamber.
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_anarchist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
-
-            check_variable = {
-                var = totalist_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = totalist_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
-            }
-            print_variables = {
-                file = log_file2
-                text = header_text
-                append = yes
-                print_global = no
-                var_list = { anarchist_results_temp totalist_results_temp socialist_results_temp social_democrat_results_temp liberal_results_temp conservative_results_temp authoritarian_results_temp ultranationalist_results_temp }
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_totalist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_totalist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
-
-            check_variable = {
-                var = socialist_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = socialist_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_socialist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_socialist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
-
-            check_variable = {
-                var = social_democrat_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = social_democrat_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_social_democrat_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_social_democrat_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
-
-            check_variable = {
-                var = liberal_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = liberal_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_liberal_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_liberal_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
-
-            check_variable = {
-                var = conservative_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = conservative_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_conservative_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_conservative_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
-
-            check_variable = {
-                var = authoritarian_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = authoritarian_results_temp
-                value = ultranationalist_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_authoritarian_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_authoritarian_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
-
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = anarchist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = totalist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = socialist_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = social_democrat_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = liberal_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = conservative_results_temp
-                compare = greater_than_or_equals
-            }
-            check_variable = {
-                var = ultranationalist_results_temp
-                value = authoritarian_results_temp
-                compare = greater_than_or_equals
+            OR = {
+                AND = {
+                    has_country_flag = upper_chamber_view
+                    check_variable = {
+                        var = upper_chamber_ultranationalist_seats
+                        value = upper_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
+                AND = {
+                    NOT = { has_country_flag = upper_chamber_view }
+                    check_variable = {
+                        var = lower_chamber_ultranationalist_seats
+                        value = lower_chamber_first_place
+                        compare = greater_than_or_equals
+                    }
+                }
             }
 		}
 		localization_key = BESTOW_CROWN
@@ -1003,9 +965,8 @@ defined_text = {
     name = GetPartyName
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
@@ -1015,9 +976,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
@@ -1027,9 +987,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
@@ -1039,9 +998,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
@@ -1051,9 +1009,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
@@ -1063,9 +1020,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
@@ -1075,9 +1031,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
@@ -1087,9 +1042,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
@@ -1099,9 +1053,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 1
                 compare = equals
             }
@@ -1110,9 +1063,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 2
                 compare = equals
             }
@@ -1121,9 +1073,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 3
                 compare = equals
             }
@@ -1132,9 +1083,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 4
                 compare = equals
             }
@@ -1143,9 +1093,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 5
                 compare = equals
             }
@@ -1154,9 +1103,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 6
                 compare = equals
             }
@@ -1165,9 +1113,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 7
                 compare = equals
             }
@@ -1176,9 +1123,8 @@ defined_text = {
 	}
     text = {
 		trigger = {
-            set_temp_variable = { party_val = elections_parties_array^elections_parties_index }
             check_variable = {
-                var = party_val
+                var = elections_parties_array^elections_parties_index
                 value = 8
                 compare = equals
             }
@@ -1232,5 +1178,63 @@ defined_text = {
 	}
     text = {
 		localization_key = "GFX_icon_elections_off_button"
+	}
+}
+
+defined_text = {
+    name = GetToggleBtnTT
+	text = {
+		trigger = {
+            has_upper_chamber = no
+		}
+		localization_key = NO_UPPER_CHAMBER_WARNING_KEY
+	}
+    text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = TOGGLE_TO_UPPER_CHAMBER_KEY
+	}
+    text = {
+		localization_key = TOGGLE_TO_LOWER_CHAMBER_KEY
+	}
+}
+
+defined_text = {
+    name = GetChamberName
+	text = {
+		trigger = {
+            has_country_flag = upper_chamber_view
+		}
+		localization_key = GET_SECOND_CHAMBER_KEY
+	}
+    text = {
+		localization_key = GET_FIRST_CHAMBER_KEY
+	}
+}
+
+defined_text = {
+    name = GetPollsUpdateCost
+	text = {
+		trigger = {
+            has_political_power > 24
+		}
+		localization_key = CAN_AFFORD_UPDATE_KEY
+	}
+    text = {
+		localization_key = CANNOT_AFFORD_UPDATE_KEY
+	}
+}
+
+defined_text = {
+    name = GetUpdateElectionPollsTT
+	text = {
+		trigger = {
+            has_political_power > 24
+		}
+		localization_key = CAN_AFFORD_UPDATE_TT_KEY
+	}
+    text = {
+		localization_key = CANNOT_AFFORD_UPDATE_TT_KEY
 	}
 }

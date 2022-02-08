@@ -189,4 +189,53 @@ spriteTypes = {
 		texturefile = "gfx/texticons/standing_army_symbol.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_basic_circle_button"
+		texturefile = "gfx/interface/basic_circle_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pie_chart_segment"
+		texturefile = "gfx//interface//pie_chart_segment.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_pol_pie_chart_overlay"
+		textureFile = "gfx/interface/pol_pie_chart_overlay.dds"
+		alwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_segment"
+		texturefile = "gfx/interface/scale_graph_segment.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_segment_alt"
+		texturefile = "gfx/interface/scale_graph_segment_alt.dds"
+		noOfFrames = 8 # change to how many frames you have, index starts at 1
+	}
+
+	spriteType = {
+		name = "GFX_scale_graph_overlay"
+		texturefile = "gfx/interface/scale_graph_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_border_frame_chambers_menu"
+		texturefile = "gfx/interface/border_frame_chambers_menu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_locked_page_icon"
+		texturefile = "gfx/interface/locked_page_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unlocked_page_icon"
+		texturefile = "gfx/interface/unlocked_page_icon.dds"
+	}
 }

@@ -183,6 +183,12 @@ defined_text = {
 
 defined_text = {
 	name = GetActionBonus
+	text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+		}
+		localization_key = FEDERAL_REPUBLIC_BONUS
+	}
     text = {
 		trigger = {
 			has_country_flag = is_oligarchy
@@ -363,6 +369,10 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
+				AND = {
+					has_country_flag = is_federal_republic
+					has_political_power < 49
+				}
 				AND = {
 					OR = {
 						has_country_flag = is_parliamentary_republic
@@ -627,5 +637,60 @@ defined_text = {
 	}
     text = {
 		localization_key = SHOW_VACANCY
+	}
+}
+
+defined_text = {
+	name = GetUpperHouseEffect
+	text = {
+		trigger = {
+			has_upper_chamber = yes
+		}
+		localization_key = ACTION_BTN_UPPER_HOUSE_EFFECT_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetLowerHouseBullyPulpitDetails
+	text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+			has_idea = bully_pulpit_bonus
+		}
+		localization_key = LOWER_HOUSE_BULLY_PULPIT_ACTIVE_KEY
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+			NOT = { has_idea = bully_pulpit_bonus }
+		}
+		localization_key = LOWER_HOUSE_BULLY_PULPIT_INACTIVE_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+	name = GetUpperHouseBullyPulpitDetails
+	text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+			has_idea = bully_pulpit_bonus
+		}
+		localization_key = UPPER_HOUSE_BULLY_PULPIT_ACTIVE_KEY
+	}
+	text = {
+		trigger = {
+			has_country_flag = is_federal_republic
+			NOT = { has_idea = bully_pulpit_bonus }
+		}
+		localization_key = UPPER_HOUSE_BULLY_PULPIT_INACTIVE_KEY
+	}
+    text = {
+		localization_key = SHOW_NOTHING
 	}
 }

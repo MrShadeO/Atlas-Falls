@@ -31,6 +31,7 @@ set_government_federal_republic = {
 
         add_ideas = federal_republic_idea
     }
+    end_coalition = yes
 }
 
 set_government_parliamentary_republic = {
@@ -66,6 +67,7 @@ set_government_parliamentary_republic = {
 
         add_ideas = parliamentary_republic_idea
     }
+    end_coalition = yes
 }
 
 set_government_oligarchy = {
@@ -101,6 +103,7 @@ set_government_oligarchy = {
 
         add_ideas = oligarchy_idea
     }
+    end_coalition = yes
 }
 
 set_government_socialist_republic = {
@@ -136,6 +139,7 @@ set_government_socialist_republic = {
 
         add_ideas = socialist_republic_idea
     }
+    end_coalition = yes
 }
 
 set_government_constitutional_monarchy = {
@@ -171,6 +175,7 @@ set_government_constitutional_monarchy = {
 
         add_ideas = constitutional_monarchy_idea
     }
+    end_coalition = yes
 }
 
 set_government_absolute_monarchy = {
@@ -206,6 +211,7 @@ set_government_absolute_monarchy = {
 
         add_ideas = absolute_monarchy_idea
     }
+    end_coalition = yes
 }
 
 set_government_dictatorship = {
@@ -241,6 +247,7 @@ set_government_dictatorship = {
 
         add_ideas = dictatorship_idea
     }
+    end_coalition = yes
 }
 
 set_government_one_party_state = {
@@ -276,6 +283,7 @@ set_government_one_party_state = {
 
         add_ideas = one_party_state_idea
     }
+    end_coalition = yes
 }
 
 set_government_anarcho_communist = {
@@ -311,6 +319,7 @@ set_government_anarcho_communist = {
 
         add_ideas = anarcho_communist_idea
     }
+    end_coalition = yes
 }
 
 set_government_anarcho_capitalist = {
@@ -346,6 +355,7 @@ set_government_anarcho_capitalist = {
 
         add_ideas = anarcho_capitalist_idea
     }
+    end_coalition = yes
 }
 
 set_government_provisional_government = {
@@ -381,6 +391,7 @@ set_government_provisional_government = {
 
         add_ideas = provisional_government_idea
     }
+    end_coalition = yes
 } 
 
 set_government_colonial_government = {
@@ -416,4 +427,5 @@ set_government_colonial_government = {
 
         add_ideas = colonial_government_idea
     }
+    end_coalition = yes
 } 

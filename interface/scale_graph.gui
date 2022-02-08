@@ -1,0 +1,97 @@
+guiTypes = {
+	containerWindowType = {
+		name = "scale_graph_container"
+		position = { x = 725 y = 0 }
+		clipping = no
+
+		containerWindowType = {
+			name = "lower_chamber_scale_graph_container"
+			position = { x = 36 y = 330 }
+
+			instantTextboxType = {
+				name = "lower_chamber_graph_title"
+				position = { x = -7 y = -18 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "GRAPH_TITLE_KEY"
+				format = center
+				maxWidth = 220
+				maxHeight = 20
+			}
+
+			gridboxtype = {
+				name = "lower_chamber_bars_grid"
+				position = { x = 2 y = 3 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 2 height = 0 }
+				max_slots_vertical = 100
+				add_horizontal = yes
+			}
+
+			iconType = {
+				name = "lower_chamber_scale_overlay"
+				quadTextureSprite = "GFX_scale_graph_overlay"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
+			}
+		}
+
+		containerWindowType = {
+			name = "upper_chamber_scale_graph_container"
+			position = { x = 290 y = 330 }
+
+			instantTextboxType = {
+				name = "upper_chamber_graph_title"
+				position = { x = -7 y = -18 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "GRAPH_TITLE_KEY"
+				format = center
+				maxWidth = 220
+				maxHeight = 20
+			}
+
+			gridboxtype = {
+				name = "upper_chamber_bars_grid"
+				position = { x = 2 y = 3 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 2 height = 0 }
+				max_slots_vertical = 100
+				add_horizontal = yes
+			}
+
+			iconType = {
+				name = "upper_chamber_scale_overlay"
+				quadTextureSprite = "GFX_scale_graph_overlay"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "lower_chamber_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "lower_chamber_bar"
+			quadTextureSprite = "GFX_scale_graph_segment"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "upper_chamber_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "upper_chamber_bar"
+			quadTextureSprite = "GFX_scale_graph_segment"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+}
