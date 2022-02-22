@@ -1,0 +1,21 @@
+state = {
+	id = 454
+	name = "STATE_454"
+	manpower = 341600
+	state_category = large_town
+	provinces = { 1015 1086 4088 4206 7176 11970 1 }
+
+	history = {
+		victory_points = { 1086 10 }
+		victory_points = { 4206 3 }
+		victory_points = { 4088 2 }
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			4206 = { naval_base = 3 }
+		}
+	}
+}

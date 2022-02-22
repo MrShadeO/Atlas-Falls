@@ -3,7 +3,7 @@ state = {
 	name = "STATE_609" # East Hebei
 	manpower = 2960000
 	state_category = town
-	provinces = { 900 1052 3830 3900 6969 9905 }
+	provinces = { 900 1052 3830 3900 6969 9905 11822 12043 }
 
 	history = {
 		victory_points = { 900 1 }

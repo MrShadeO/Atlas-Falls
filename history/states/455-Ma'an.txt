@@ -1,0 +1,18 @@
+state = {
+	id = 455
+	name = "STATE_455" 
+	manpower = 257940
+	state_category = pastoral
+	provinces = { 1544 4017 4574 4591 7001 7151 7170 10089 }
+
+	history = {
+		victory_points = { 4017 1 }
+		victory_points = { 7151 1 }
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

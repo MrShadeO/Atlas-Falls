@@ -1,0 +1,19 @@
+state = {
+	id = 291
+	name = "STATE_291" # Baghdad
+	manpower = 1212000
+	state_category = large_town
+	provinces = { 2097 3795 10647 12046 12372 12413 12839 12855 }
+
+	history = {
+		victory_points = { 2097 10 }
+		owner = TUR
+		add_core_of = IRQ
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+		}
+	}
+}

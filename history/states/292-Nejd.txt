@@ -1,0 +1,21 @@
+
+state = {
+	id = 292
+	name = "STATE_292"
+	manpower = 868080
+	state_category = rural
+	provinces = { 2090 5024 5093 7995 8004 8060 10748 10786 10835 10850 10892 10923 12727 12813 12870 }
+	resources = {
+		oil = 1
+	}
+
+	history = {
+		victory_points = { 12727 5 }
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

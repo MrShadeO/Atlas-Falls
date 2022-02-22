@@ -12,6 +12,7 @@ scripted_gui = {
 				value = 1
 				compare = equals
 			}
+			has_elections = yes
 		}
 
 		ai_enabled = {
@@ -37,30 +38,15 @@ scripted_gui = {
 		}
 
 		triggers = {
-			lower_chamber_bars_grid_visible = {
-				has_elections = yes
-			}
-
-			lower_chamber_scale_overlay_visible = {
-				has_elections = yes
-			}
-
-			lower_chamber_graph_title_visible = {
-				has_elections = yes
-			}
-
 			upper_chamber_bars_grid_visible = {
-				has_elections = yes
 				has_upper_chamber = yes
 			}
 
 			upper_chamber_scale_overlay_visible = {
-				has_elections = yes
 				has_upper_chamber = yes
 			}
 
 			upper_chamber_graph_title_visible = {
-				has_elections = yes
 				has_upper_chamber = yes
 			}
 		}

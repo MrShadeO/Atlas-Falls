@@ -1,0 +1,18 @@
+
+state = {
+	id = 747
+	name = "STATE_747"
+	manpower = 294300
+	state_category = Pastoral
+	provinces = { 1923 5006 8030 8073 }
+
+	history = {
+	    victory_points = { 8073 1 }
+		add_core_of = HJZ
+		add_core_of = TUR
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

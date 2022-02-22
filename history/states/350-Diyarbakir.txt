@@ -1,0 +1,19 @@
+state = {
+	id = 350
+	name = "STATE_350" # Diyarbakır
+	manpower = 1060000
+	state_category = Rural
+	provinces = { 1126 1549 3965 4512 5053 7530 9893 11739 11759 12387 12416}
+
+	history = {
+		victory_points = { 11759 5 }
+		victory_points = { 9860 1 }
+		victory_points = { 876 1 }
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

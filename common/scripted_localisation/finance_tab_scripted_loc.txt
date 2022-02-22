@@ -655,3 +655,29 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckSoldFactoryModifier
+	text = {
+		trigger = {
+			has_country_flag = has_sold_factory
+		}
+		localization_key = SHOW_SOLD_FACTORY_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckMakeItRain
+	text = {
+		trigger = {
+			has_country_flag = making_it_rain_baby
+		}
+		localization_key = SHOW_MAKE_IT_RAIN_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

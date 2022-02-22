@@ -1,0 +1,21 @@
+
+state = {
+	id = 662
+	name = "STATE_662"
+	manpower = 755060
+	state_category = town
+	provinces = { 2033 4981 5037 12883 }
+
+	history={
+	    victory_points = { 12883 1 }
+		victory_points = { 5037 5 }
+		owner = TUR
+		add_core_of = HJZ
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+		    industrial_complex = 1
+			12883 = { naval_base = 5 }
+		}
+	}
+}

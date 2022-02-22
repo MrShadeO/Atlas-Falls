@@ -1,0 +1,15 @@
+state = {
+	id = 418
+	name = "STATE_418"
+	manpower = 94110
+	state_category = small_island 
+	provinces = { 12018 }
+
+	history = {
+		owner = ENG
+		add_core_of = UAE
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

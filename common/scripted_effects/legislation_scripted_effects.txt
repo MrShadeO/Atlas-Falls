@@ -1547,7 +1547,7 @@ form_coalition = {
             index = i
         }
         set_variable = { upper_house_leading_party_index = i }
-        set_variable = { upper_house_leading_party_var = i }
+        set_variable = { upper_house_leading_party_var = v }
         set_variable = { leading_party_upper_house_total_seats = v }
         add_to_variable = { leading_party_upper_house_total_seats = coalition_partner_upper_house_seats }
     }
@@ -1591,7 +1591,7 @@ form_coalition = {
 		index = i
 	}
 	set_variable = { lower_house_leading_party_index = i }
-	set_variable = { lower_house_leading_party_var = i }
+	set_variable = { lower_house_leading_party_var = v }
 	set_variable = { leading_party_lower_house_total_seats = v }
 	add_to_variable = { leading_party_lower_house_total_seats = coalition_partner_lower_house_seats }
 }

@@ -1,0 +1,16 @@
+
+state = {
+	id = 49
+	name = "STATE_49" 
+	manpower = 924980
+	state_category = large_town
+	provinces = { 804 921 3807 3907 3964 6808 6908 6925 6977 9844 9871 9900 9901 11747 11784 11826 11839 11844  }
+
+	history = {
+		victory_points = { 11747 10 }
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			arms_factory = 1
+			air_base = 1
+			infrastructure = 2

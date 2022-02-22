@@ -1,0 +1,17 @@
+state = {
+	id = 816
+	name = "STATE_816"
+	manpower = 340920
+	state_category = Pastoral
+	provinces = { 7454 10403 10472 10725 }
+
+	history = {
+		victory_points = { 10725 2 }
+		owner = TUR
+		add_core_of=TUR
+		add_core_of = GEO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

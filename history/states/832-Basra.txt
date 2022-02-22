@@ -1,0 +1,21 @@
+state = {
+	id = 832
+	name = "STATE_832" 
+	manpower = 580500
+	state_category = rural
+	provinces = { 2089 4873 12726 }
+		resources = {
+		oil = 7
+	}
+
+	history = {
+	    victory_points = { 2089 5 }
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 1
+			2089 = { naval_base = 1 }
+		}
+	}
+}

@@ -321,7 +321,7 @@ defined_text = {
     text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 0
 				compare = equals
 			}
@@ -331,7 +331,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 1
 				compare = equals
 			}
@@ -341,7 +341,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 2
 				compare = equals
 			}
@@ -351,7 +351,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 3
 				compare = equals
 			}
@@ -361,7 +361,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 4
 				compare = equals
 			}
@@ -371,7 +371,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 5
 				compare = equals
 			}
@@ -381,7 +381,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 6
 				compare = equals
 			}
@@ -391,7 +391,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = lower_house_leading_party_var
+				var = lower_house_leading_party_index
 				value = 7
 				compare = equals
 			}
@@ -408,7 +408,7 @@ defined_text = {
     text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 0
 				compare = equals
 			}
@@ -418,7 +418,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 1
 				compare = equals
 			}
@@ -428,7 +428,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 2
 				compare = equals
 			}
@@ -438,7 +438,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 3
 				compare = equals
 			}
@@ -448,7 +448,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 4
 				compare = equals
 			}
@@ -458,7 +458,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 5
 				compare = equals
 			}
@@ -468,7 +468,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 6
 				compare = equals
 			}
@@ -478,7 +478,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = upper_house_leading_party_var
+				var = upper_house_leading_party_index
 				value = 7
 				compare = equals
 			}

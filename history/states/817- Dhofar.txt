@@ -1,0 +1,15 @@
+state = {
+	id = 817
+	name = "STATE_817"
+	manpower = 22130
+	state_category  = Pastoral
+	provinces = { 1140 2103 }
+
+	history = {
+		owner = ENG
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		
+	}
+}

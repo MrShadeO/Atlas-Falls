@@ -1,9 +1,9 @@
 state = {
 	id = 553
 	name = "STATE_553" # Lebanon
-	manpower = 733500
-	state_category = town
-	provinces = { 1088 792 1108 10087 11919 12029 }
+	manpower = 861810
+	state_category = Large_town
+	provinces = { 792 }
 
 	history = {
 		victory_points = { 792 5 }

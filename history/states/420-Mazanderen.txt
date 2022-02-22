@@ -1,0 +1,16 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	manpower = 2200000
+	state_category = town
+	provinces = { 4580 4609 4637 7602 10385 10768 }
+
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+		}
+	}
+}

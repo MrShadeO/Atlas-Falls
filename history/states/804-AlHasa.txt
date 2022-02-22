@@ -1,9 +1,9 @@
 state = {
 	id = 804
 	name = "STATE_804"
-	manpower = 112240
-	state_category = rural
-	provinces = { 1955 10791 12702 }
+	manpower = 114120
+	state_category = Pastoral
+	provinces = { 1955 10791 12702 12768 }
 
 	history = {
 		victory_points = { 10791 1 }
@@ -11,7 +11,8 @@ state = {
 		owner = SAU
 		add_core_of = SAU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
 		}
 	}
 }

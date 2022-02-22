@@ -1,9 +1,9 @@
 state = {
 	id = 412
 	name = "STATE_412"
-	manpower = 918619
-	state_category = rural
-	provinces = { 4959 4966 7982 8117 10797 10881 12780 12832 12863 }
+	manpower = 1230000
+	state_category = town
+	provinces = { 1889 4959 4966 5089 7982 8117 10797 10881 12832 }
 	resources = {
 		oil = 3
 	}
@@ -15,6 +15,7 @@ state = {
 		add_core_of = PER
 		buildings = {
 			infrastructure = 1
+			dockyard = 1
 			7982 = { naval_base = 4 }
 			12832 = { naval_base = 2 }
 		}

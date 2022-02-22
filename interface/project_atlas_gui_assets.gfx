@@ -238,4 +238,14 @@ spriteTypes = {
 		name = "GFX_unlocked_page_icon"
 		texturefile = "gfx/interface/unlocked_page_icon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_mini_atlas_icon"
+		texturefile = "gfx/interface/mini_atlas_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_atlas_falls_logo"
+		texturefile = "gfx/interface/atlas_falls_logo.dds"
+	}
 }

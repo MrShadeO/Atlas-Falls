@@ -2,13 +2,13 @@
 state = {
 	id = 765
 	name = "STATE_765"
-	manpower = 11600
-	state_category = pastoral
+	manpower = 19800
+	state_category = Enclave
 	provinces={ 8051 }
 
 	history = {
 		owner = ENG
-		add_core_of = QAT
+		add_core_of = UAE
 		victory_points = { 8051 1 }
 		buildings = {
 			infrastructure = 1

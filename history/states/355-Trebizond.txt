@@ -1,0 +1,23 @@
+state = {
+	id = 355
+	name = "STATE_355" # Samsun
+	manpower = 460500
+	state_category = town
+	provinces = { 975 3714 9932 3979 9915 11881 11894 }
+
+	history = {
+		victory_points = { 11881 10 }
+		victory_points = { 9932 3 }
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = PON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			11894 = { naval_base = 3 }	
+			9932 = {naval_base = 2 }
+			9932 = { naval_base = 2 }
+		}
+	}
+}

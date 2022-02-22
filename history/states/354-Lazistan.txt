@@ -1,0 +1,14 @@
+state = {
+	id = 354
+	name = "STATE_354" # Trabzon
+	manpower = 278380
+	state_category = Pastoral
+	provinces = { 10868 11753 }
+
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+			}
+		}

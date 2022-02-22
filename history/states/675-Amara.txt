@@ -1,0 +1,19 @@
+state = {
+	id = 675
+	name = "STATE_675" # Al Hajara
+	manpower = 850000
+	state_category = town
+	provinces = { 78 2004 7994 7977 8001 10876 }
+
+	history = {
+		victory_points = { 7994 1 }
+		victory_points = { 8001 3}
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

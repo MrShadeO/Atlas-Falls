@@ -1,17 +1,17 @@
 state = {
 	id = 340
 	name = "STATE_340" 
-	manpower = 4720000
+	manpower = 1580000
 	state_category = large_town
-	provinces = { 785 856 947 981 3786 3856 3927 6945 9921 10041 11778 11796 11831 11898 11917 12013 }
+	provinces = { 785 856 890 947 2064 3786 3851 6864 6871 6912 9799 9887 11778 11811 11829 11867  }
 	resources = {
 		chromium = 39
+		steel = 10
 	}
 
 	history = {
 		victory_points = { 947 5 }
-		victory_points = { 11796 1 }
-		victory_points = { 10041 3 }
+		victory_points = { 9887 5 }
 		owner = TUR
 		add_core_of = TUR
 		buildings = {

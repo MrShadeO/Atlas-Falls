@@ -1,0 +1,20 @@
+state = {
+	id = 356
+	name = "STATE_356"
+	manpower = 887160
+	state_category = town
+	provinces = { 904 979 3905 3919 3967 3982 6920 6938 6978 6995 9806 11866 11883  }
+
+	history = {
+		victory_points = { 6938 1 }
+		victory_points = { 904 3 }
+		victory_points = { 11883 1 }
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1	
+			industrial_complex = 1
+			904 = {naval_base = 2 }
+		}
+	}
+}

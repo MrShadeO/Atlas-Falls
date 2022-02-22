@@ -1,15 +1,14 @@
 state = {
 	id = 353
 	name = "STATE_353" # Erzurum
-	manpower = 145700
+	manpower = 709570
 	state_category = rural
-	provinces = { 6976 9886 11797 11853 }
+	provinces = { 876 9868 4562 6919 6976 9858 9860 9886 9954 10399 11853 }
 
 	history = {
 		victory_points = { 11853 3 }
 		owner = TUR
 		add_core_of = TUR
-		add_core_of = GEO
 		buildings = {
 			infrastructure = 1
 		}

@@ -1,0 +1,18 @@
+
+state = {
+	id = 654
+	name = "STATE_654"
+	manpower = 121940
+	state_category = Pastoral
+	provinces = { 5016 10785 10885 }
+
+	history = {
+		owner = ENG
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		
+	}
+}

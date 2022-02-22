@@ -12,7 +12,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-            has_stability < 0.70
+            has_stability < 0.60
             OR = {
                 AND = {
                     totalism_ideology > 0.03
@@ -63,7 +63,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     socialism_ideology > 0.03
@@ -114,7 +114,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     social_democracy_ideology > 0.03
@@ -165,7 +165,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     liberalism_ideology > 0.03
@@ -216,7 +216,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     conservatism_ideology > 0.03
@@ -267,7 +267,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     authoritarianism_ideology > 0.03
@@ -318,7 +318,7 @@ legislation_decisions_category = {
 		}
 
 		available = {
-			has_stability < 0.70
+			has_stability < 0.60
             OR = {
                 AND = {
                     ultranationalism_ideology > 0.03
@@ -861,6 +861,7 @@ legislation_decisions_category = {
 ###################  GOV TYPE DECISIONS  ###################
 ############################################################
 
+    #FEDERAL REPUBLIC DECISIONS
     veto_a_totalist_bill = {
 
 		icon = eng_trade_unions_demand
@@ -1140,7 +1141,8 @@ legislation_decisions_category = {
             }
 		}
 	}
-
+    
+    #PARLIAMENTARY REPUBLIC / CONSTITUTIONAL MONARCHY DECISIONS
     end_our_coalition = {
 
 		icon = hol_exchange_intelligence_data
@@ -1188,6 +1190,40 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_60_var
+                    compare = greater_than_or_equals
+                }
+            }
+
+            modifier = {
+                add = 100
+
+                OR = {
+                    check_variable = {
+                        var = leading_party_lower_house_total_seats
+                        value = lower_chamber_required_seats_40_var
+                        compare = less_than
+                    }
+
+                    check_variable = {
+                        var = leading_party_upper_house_total_seats
+                        value = upper_chamber_required_seats_40_var
+                        compare = less_than
+                    }
+                }
+            }
 		}
 	}
 
@@ -1232,6 +1268,49 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+             modifier = {
+                add = 10
+
+                has_government = socialism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^1
+                    value = lower_chamber_seat_array^3
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = socialism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^1
+                    value = upper_chamber_seat_array^3
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1279,6 +1358,56 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = social_democracy_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^2
+                    value = lower_chamber_seat_array^4
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 5
+
+                has_government = totalism_ideology
+            }
+
+            modifier = {
+                add = 60
+
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = social_democracy_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^2
+                    value = upper_chamber_seat_array^4
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1326,6 +1455,72 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = socialism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^3
+                    value = lower_chamber_seat_array^1
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = liberalism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^3
+                    value = lower_chamber_seat_array^5
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = socialism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^3
+                    value = upper_chamber_seat_array^1
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = liberalism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^3
+                    value = upper_chamber_seat_array^5
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1373,6 +1568,72 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = social_democracy_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^4
+                    value = lower_chamber_seat_array^2
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = conservatism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^4
+                    value = lower_chamber_seat_array^6
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = social_democracy_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^4
+                    value = upper_chamber_seat_array^2
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = conservatism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^4
+                    value = upper_chamber_seat_array^6
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1420,6 +1681,72 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = liberalism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^5
+                    value = lower_chamber_seat_array^3
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = authoritarianism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^5
+                    value = lower_chamber_seat_array^7
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = liberalism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^5
+                    value = upper_chamber_seat_array^3
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = authoritarianism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^5
+                    value = upper_chamber_seat_array^7
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1467,6 +1794,55 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = conservatism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^6
+                    value = lower_chamber_seat_array^4
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 5
+
+                has_government = ultranationalism_ideology
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = conservatism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^5
+                    value = upper_chamber_seat_array^4
+                    compare = less_than
+                }
+            }
 		}
 	}
 
@@ -1511,6 +1887,624 @@ legislation_decisions_category = {
 
 		ai_will_do = {
 			base = 1
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = lower_house_leading_party_var
+                    value = lower_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+             modifier = {
+                add = 10
+
+                has_government = authoritarianism_ideology
+                check_variable = {
+                    var = lower_chamber_seat_array^7
+                    value = lower_chamber_seat_array^5
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = upper_house_leading_party_var
+                    value = upper_chamber_required_seats_50_var
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 10
+
+                has_government = authoritarianism_ideology
+                has_upper_chamber = yes
+                check_variable = {
+                    var = upper_chamber_seat_array^7
+                    value = upper_chamber_seat_array^5
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    #OLIGARCHY DECISIONS
+    make_it_rain = {
+
+		icon = hol_attract_foreign_investors
+
+        visible = {
+            has_country_flag = is_oligarchy
+		}
+
+		available = {
+            
+		}
+
+		cost = 150
+
+        days_remove = 90
+
+        modifier = {
+            stability_factor = 0.20
+            tax_revenue = -1
+        }
+
+        complete_effect = {
+            set_country_flag = making_it_rain_baby
+		}
+
+        remove_effect = {
+            clr_country_flag = making_it_rain_baby
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 30
+
+                has_stability < 0.60
+            }
+
+            modifier = {
+                add = 30
+
+                has_stability < 0.40
+            }
+
+            modifier = {
+                add = 30
+
+                has_stability < 0.20
+            }
+
+            modifier = {
+                factor = 0
+
+                check_variable = {
+                    var = net_tax_var
+                    value = 1
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    sell_a_civilian_factory = {
+
+		icon = generic_merge_plant_materiel
+
+        visible = {
+            has_country_flag = is_oligarchy
+		}
+
+		available = {
+            num_of_civilian_factories > 0
+            custom_trigger_tooltip = {
+                tooltip = has_sold_factory_custom_trg
+                NOT = { has_country_flag = has_sold_factory }
+            }
+		}
+
+		cost = 0
+
+        days_remove = 60
+
+        modifier = {
+            political_power_gain = 1.50
+            tax_revenue = 1
+        }
+
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = {
+                    industrial_complex > 0
+                }
+                remove_building = {
+                    type = industrial_complex
+                    level = 1
+                }
+            }
+            set_country_flag = has_sold_factory
+		}
+
+        remove_effect = {
+            clr_country_flag = has_sold_factory
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                num_of_civilian_factories > 15
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_civilian_factories > 30
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_civilian_factories > 45
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = net_tax_var
+                    value = 0
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    sell_a_military_factory = {
+
+		icon = generic_merge_plant_tank
+
+        visible = {
+            has_country_flag = is_oligarchy
+		}
+
+		available = {
+            num_of_military_factories > 0
+            custom_trigger_tooltip = {
+                tooltip = has_sold_factory_custom_trg
+                NOT = { has_country_flag = has_sold_factory }
+            }
+		}
+
+		cost = 0
+
+        days_remove = 60
+
+        modifier = {
+            political_power_gain = 1.50
+            tax_revenue = 1
+        }
+
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = {
+                    arms_factory > 0
+                }
+                remove_building = {
+                    type = arms_factory
+                    level = 1
+                }
+            }
+            set_country_flag = has_sold_factory
+		}
+
+        remove_effect = {
+            clr_country_flag = has_sold_factory
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                num_of_military_factories > 15
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_military_factories > 30
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_military_factories > 45
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = net_tax_var
+                    value = 0
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    sell_a_dockyard = {
+
+		icon = generic_merge_plant_ship
+
+        visible = {
+            has_country_flag = is_oligarchy
+		}
+
+		available = {
+            num_of_naval_factories > 0
+            custom_trigger_tooltip = {
+                tooltip = has_sold_factory_custom_trg
+                NOT = { has_country_flag = has_sold_factory }
+            }
+		}
+
+		cost = 0
+
+        days_remove = 60
+
+        modifier = {
+            political_power_gain = 1.50
+            tax_revenue = 1
+        }
+
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = {
+                    dockyard > 0
+                }
+                remove_building = {
+                    type = dockyard
+                    level = 1
+                }
+            }
+            set_country_flag = has_sold_factory
+		}
+
+        remove_effect = {
+            clr_country_flag = has_sold_factory
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                num_of_naval_factories > 15
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_naval_factories > 30
+            }
+
+            modifier = {
+                add = 20
+
+                num_of_naval_factories > 45
+            }
+
+            modifier = {
+                add = 60
+
+                check_variable = {
+                    var = net_tax_var
+                    value = 0
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    #SOCIALIST REPUBLIC
+    dictatorship_of_the_proletariat = {
+
+		icon = generic_civil_support
+
+        visible = {
+            has_country_flag = is_socialist_republic
+		}
+
+		available = {
+            
+		}
+
+		cost = 0
+
+        days_remove = 180
+
+        modifier = {
+            consumer_goods_factor = 0.10
+            political_power_factor = 0.20
+        }
+
+        complete_effect = {
+            
+		}
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                has_political_power < 150
+            }
+
+            modifier = {
+                add = 20
+
+                has_political_power < 100
+            }
+
+            modifier = {
+                add = 20
+
+                has_political_power < 50
+            }
+		}
+	}
+
+    defend_the_revolution = {
+
+		icon = generic_military
+
+        visible = {
+            has_country_flag = is_socialist_republic
+		}
+
+		available = {
+            has_war = yes
+		}
+
+		cost = 75
+
+        days_remove = 90
+
+        modifier = {
+            army_core_defence_factor = 0.10
+        }
+
+        complete_effect = {
+            
+		}
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 60
+
+                any_owned_state = { #We are getting pushed back in at least one area.
+                    is_core_of = ROOT
+                    NOT = { is_controlled_by = ROOT }
+                }
+            }
+		}
+	}
+
+    production_quotas = {
+
+		icon = generic_industry
+
+        visible = {
+            has_country_flag = is_socialist_republic
+		}
+
+		available = {
+            
+		}
+
+		cost = 100
+
+        days_remove = 90
+
+        modifier = {
+            consumer_goods_factor = 0.05
+            stability_factor = -0.10
+            industrial_capacity_factory = 0.075
+            industrial_capacity_dockyard = 0.075
+        }
+
+        complete_effect = {
+            
+		}
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+
+            }
+		}
+	}
+
+    #Absolute Monarchy
+    patriotic_parade = {
+
+		icon = eng_support_imperialist_coup
+
+        visible = {
+            has_country_flag = is_absolute_monarchy
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = has_parade_custom_trg
+                NOT = { has_country_flag = has_parade }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 120
+
+        modifier = {
+            stability_factor = 0.10
+            war_support_factor = 0.10
+            experience_gain_army = 0.10
+        }
+
+        complete_effect = {
+            set_country_flag = has_parade
+        }
+
+        remove_effect = {
+            clr_country_flag = has_parade
+        }
+
+		ai_will_do = {
+			base = 60
+
+		}
+	}
+
+    commission_a_new_warship = {
+
+		icon = generic_naval
+
+        visible = {
+            has_country_flag = is_absolute_monarchy
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = has_parade_custom_trg
+                NOT = { has_country_flag = has_parade }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 120
+
+        modifier = {
+            stability_factor = 0.10
+            war_support_factor = 0.10
+            experience_gain_navy = 0.10
+        }
+
+        complete_effect = {
+            set_country_flag = has_parade
+        }
+
+        remove_effect = {
+            clr_country_flag = has_parade
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                has_navy_size = {
+                    size > 30
+                }
+            }
+
+            modifier = {
+                add = 20
+
+                has_navy_size = {
+                    size > 60
+                }
+            }
+
+            modifier = {
+                add = 20
+
+                has_navy_size = {
+                    size > 90
+                }
+            }
+		}
+	}
+
+    host_a_royal_air_show = {
+
+		icon = generic_air
+
+        visible = {
+            has_country_flag = is_absolute_monarchy
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = has_parade_custom_trg
+                NOT = { has_country_flag = has_parade }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 120
+
+        modifier = {
+            stability_factor = 0.10
+            war_support_factor = 0.10
+            experience_gain_air = 0.10
+        }
+
+        complete_effect = {
+            set_country_flag = has_parade
+        }
+
+        remove_effect = {
+            clr_country_flag = has_parade
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 20
+
+                has_deployed_air_force_size = {
+                    size > 100
+                }
+            }
+
+            modifier = {
+                add = 20
+
+                has_deployed_air_force_size = {
+                    size > 300
+                }
+            }
+
+            modifier = {
+                add = 20
+
+                has_deployed_air_force_size = {
+                    size > 600
+                }
+            }
 		}
 	}
 ############################################################

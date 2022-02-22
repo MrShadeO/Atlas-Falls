@@ -4,7 +4,7 @@ state = {
 	manpower = 30000
 	state_category = wasteland
 	impassable = yes
-	provinces = { 5016 7790 8042 8086 10885 12864 }
+	provinces = { 7790 8086 12864 }
 
 	history = {
 		owner = SIK

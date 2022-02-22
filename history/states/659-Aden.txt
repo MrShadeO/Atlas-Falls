@@ -1,0 +1,20 @@
+
+state = {
+	id = 659
+	name = "STATE_659"
+	manpower = 792470
+	state_category = Rural
+	provinces = { 5074 8000 12821 }
+
+	history = {
+		victory_points = { 5074 1 }
+		owner = ENG
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 1
+			 industrial_complex = 1
+			5074 = {naval_base = 3}
+			8000 = {naval_base = 1}
+		}
+	}
+}

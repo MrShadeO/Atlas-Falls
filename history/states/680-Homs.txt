@@ -1,0 +1,17 @@
+
+state = {
+	id = 680
+	name = "STATE_680"
+	manpower = 218290
+	state_category = Pastoral
+	provinces = { 1056 1072 3942 4550 7513 12316 12442 12764 }
+
+	history = {
+		owner = TUR
+		add_core_of = SYR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

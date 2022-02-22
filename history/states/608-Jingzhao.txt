@@ -3,7 +3,7 @@ state = {
 	name = "STATE_608"
 	manpower = 13940000
 	state_category = large_city
-	provinces = { 9843 10068 11761 11822 12043 }
+	provinces = { 9843 10068 11761 }
 	resources = {
 		steel = 1
 	}
