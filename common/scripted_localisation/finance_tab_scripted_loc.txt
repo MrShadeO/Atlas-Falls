@@ -681,3 +681,16 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckColonialInvestments
+	text = {
+		trigger = {
+			has_country_flag = has_colonial_investments
+		}
+		localization_key = SHOW_COLONIAL_INVESTMENTS_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

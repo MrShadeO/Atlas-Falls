@@ -1117,7 +1117,7 @@ ideas = {
 			}
 
 			modifier = {
-				tax_revenue = -1
+				tax_revenue = 1
 				civilian_intel_to_others = -10
 				local_resources_factor = -0.10
 			}

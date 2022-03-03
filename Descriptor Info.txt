@@ -1,12 +1,5 @@
-version="1.0"
-tags={
-	"Alternative History"
-	"Gameplay"
-	"National Focuses"
-	"Ideologies"
-	"Map"
-}
-name="Project Atlas"
+**COPY AND PASTE THE PATHS BELOW INTO YOUR DESCRIPTOR.MOD FILE, OTHERWISE THE MOD WILL NOT WORK**
+
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="history/units"
@@ -35,4 +28,3 @@ replace_path="common/country_tags"
 replace_path="common/characters"
 replace_path="map/strategicregions"
 replace_path="events"
-supported_version="1.11.5"

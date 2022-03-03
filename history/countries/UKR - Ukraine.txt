@@ -1,11 +1,11 @@
-﻿capital = 202
+﻿capital = 192
 
 set_research_slots = 3
 set_stability = 0.50
 set_war_support = 0.50
 set_convoys = 10
 
-set_country_flag = has_president
+set_country_flag = has_hetman
 set_country_flag = is_provisional_government
 
 add_ideas = {
@@ -23,28 +23,27 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = social_democracy_ideology
+	ruling_party = authoritarianism_ideology
 	last_election = "1910.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	anarchism_ideology = 0
-	totalism_ideology = 20
-	socialism_ideology = 30
-	social_democracy_ideology = 50
+	totalism_ideology = 10
+	socialism_ideology = 20
+	social_democracy_ideology = 20
 	liberalism_ideology = 0
-	conservatism_ideology = 0
-	authoritarianism_ideology = 0
+	conservatism_ideology = 15
+	authoritarianism_ideology = 35
 	ultranationalism_ideology = 0
 }
 
 #LEADERS
-recruit_character = UKR_mykhailo_hrushevsky
+recruit_character = UKR_pavlo_skoropadskyi #Also is a Field Marshal
 
 #ARMY
 recruit_character = UKR_viktor_zelinsky #Field Marshal
-recruit_character = UKR_pavlo_skoropadskyi #Field Marshal
 recruit_character = UKR_konstantin_prisovsky
 recruit_character = UKR_oleksander_hrekov
 recruit_character = UKR_myron_tarnavsky

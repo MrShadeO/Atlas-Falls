@@ -1,0 +1,171 @@
+characters = {
+    #COUNTRY LEADERS
+    LIT_antanas_smetona = {
+		name = "Antanas Smetona"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+
+
+    #THEORISTS
+
+
+    #ARMY
+    LIT_silvestras_zukauskas = {
+        name = "Silvestras Žukauskas"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/Portrait_LIT_Silvestras_Žukauskas.dds"
+            }
+        }
+        field_marshal = {
+            traits = { old_guard infantry_leader inspirational_leader }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+        }
+    }
+
+    LIT_stasys_pundzevicius = {
+        name = "Stasys Pundzevičius"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/Portrait_LIT_Stasys_Pundzevičius.dds"
+            }
+        }
+        corps_commander = {
+            traits = { infantry_leader }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 3
+        }
+    }
+
+    LIT_kazys_skucas = {
+        name = "Kazys Skučas"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/"
+            }
+        }
+        corps_commander = {
+            traits = { organizer }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+
+    LIT_evardas_adamkavicius = {
+        name = "Edvardas Adamkavičius"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/"
+            }
+        }
+        corps_commander = {
+            traits = { infantry_leader }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+
+    LIT_stasys_rastikis = {
+        name = "Stasys Raštikis"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/"
+            }
+        }
+        corps_commander = {
+            traits = { career_officer }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+        }
+    }
+
+    LIT_kazys_ladiga = {
+        name = "Kazys Ladiga"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/Portrait_LIT_Kazys_Ladiga.dds"
+            }
+        }
+        corps_commander = {
+            traits = { politically_connected }
+            skill = 1
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+
+    LIT_kazys_musteikis = {
+        name = "Kazys Musteikis"
+        portraits = {
+            army = {
+                large = "gfx/leaders/LIT/"
+            }
+        }
+        corps_commander = {
+            traits = { cavalry_leader }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+
+    #NAVY
+
+
+}

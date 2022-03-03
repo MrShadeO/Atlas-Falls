@@ -135,6 +135,12 @@ defined_text = {
 		localization_key = WARLORD_TITLE
 	}
 	text = {
+		trigger = {
+			has_country_flag = has_hetman
+		}
+		localization_key = HETMAN_TITLE
+	}
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -280,6 +286,12 @@ defined_text = {
 			original_tag = KUM
 		}
 		localization_key = KUM_BAIG_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+		}
+		localization_key = UKR_OPPOSITION_LEADER
 	}
 	text = {
 		localization_key = DEFAULT_SECOND_TITLE

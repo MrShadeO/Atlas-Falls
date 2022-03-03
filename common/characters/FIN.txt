@@ -1,0 +1,283 @@
+characters = {
+    #COUNTRY LEADERS
+    FIN_nicholas_ii = {
+		name = "Nicholas II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    FIN_kullervo_manner = {
+		name = "Kullervo Manner"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Kullervo_Manner.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = totalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+	
+	#THEORISTS
+
+    #ARMY
+    FIN_cg_mannerheim = {
+		name = "C. G. Mannerheim"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Carl_Gustav_Mannerheim.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { brilliant_strategist cavalry_leader organizer unyielding_defender } 
+            skill = 4
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    FIN_martin_wetzer = {
+		name = "Martin Wetzer"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Martin_Wetzer.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_leader } 
+            skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+    FIN_ernst_linder = {
+		name = "Ernst Linder"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Ernst_Linder.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader } 
+            skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    FIN_johannes_ignatius = {
+		name = "Johannes Ignatius"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Johannes_Ignatius.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader skilled_staffer } 
+            skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	FIN_karl_wilkama = {
+		name = "Karl Wilkama"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Karl_Wilkama.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { cavalry_leader infantry_leader } 
+            skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    FIN_karl_oesch = {
+		name = "Karl Oesch"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Karl_Oesch.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_cautious ranger infantry_leader } 
+            skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	FIN_ruben_lagus = {
+		name = "Ruben Lagus"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Ruben_Lagus.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer infantry_leader } 
+            skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+    FIN_erik_heinrichs = {
+		name = "Erik Heinrichs"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Erik_Heinrichs.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_leader } 
+            skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+    FIN_hugo_osterman = {
+		name = "Hugo Österman"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Hugo_Österman.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_officer } 
+            skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+    FIN_harald_ohquist = {
+		name = "Harald Ohquist"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Harald_Ohquist.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { infantry_officer } 
+            skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    FIN_woldemar_hagglund = {
+		name = "Woldemar Hägglund"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Woldemar_Hägglund.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer } 
+            skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    #NAVY
+    FIN_johannes_indrenius = {
+		name = "Johannes Indrenius"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Johannes_Indrenius.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { gunnery_expert }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+
+	FIN_gustav_von_schoultz = {
+		name = "Gustav von Schoultz"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/FIN/Portrait_FIN_Gustav_Von_Schoultz.dds"
+			}
+		}	
+		navy_leader = {
+			traits = { seawolf }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}
+

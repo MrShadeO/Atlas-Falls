@@ -2221,7 +2221,7 @@ legislation_decisions_category = {
 		}
 	}
 
-    #SOCIALIST REPUBLIC
+    #SOCIALIST REPUBLIC DECISIONS
     dictatorship_of_the_proletariat = {
 
 		icon = generic_civil_support
@@ -2344,7 +2344,7 @@ legislation_decisions_category = {
 		}
 	}
 
-    #Absolute Monarchy
+    #ABSOLUTE MONARCHY DECISIONS
     patriotic_parade = {
 
 		icon = eng_support_imperialist_coup
@@ -2505,6 +2505,328 @@ legislation_decisions_category = {
                     size > 600
                 }
             }
+		}
+	}
+
+    #DICTATORSHIP/OLIGARCHY DECISIONS
+    censor_the_press_dictatorship = {
+
+		icon = generic_police_action
+
+        visible = {
+            has_country_flag = is_dictatorship
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = ruling_party_less_than_70_popularity
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.70
+                    compare = less_than
+                }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 90
+
+        modifier = {
+            stability_factor = -0.15
+        }
+
+        complete_effect = {
+           if = {
+               limit = { has_government = totalism_ideology }
+               add_popularity = {
+                   ideology = totalism_ideology
+                   popularity = 0.05
+               }
+           } 
+           else_if = {
+               limit = { has_government = socialism_ideology }
+               add_popularity = {
+                   ideology = socialism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = social_democracy_ideology }
+               add_popularity = {
+                   ideology = social_democracy_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = liberalism_ideology }
+               add_popularity = {
+                   ideology = liberalism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = conservatism_ideology }
+               add_popularity = {
+                   ideology = conservatism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = authoritarianism_ideology }
+               add_popularity = {
+                   ideology = authoritarianism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = ultranationalism_ideology }
+               add_popularity = {
+                   ideology = ultranationalism_ideology
+                   popularity = 0.05
+               }
+           }
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 10
+
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.40
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 50
+
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.25
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    state_science_program_dictatorship = {
+
+		icon = generic_research
+
+        visible = {
+            has_country_flag = is_dictatorship
+		}
+
+		available = {
+            
+		}
+
+		cost = 100
+
+        days_remove = 90
+
+        modifier = {
+            consumer_goods_factor = 0.05
+            research_speed_factor = 0.05
+        }
+
+		ai_will_do = {
+			base = 50
+		}
+	}
+
+    censor_the_press_one_party_state = {
+
+		icon = generic_police_action
+
+        visible = {
+            has_country_flag = is_one_party_state
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = ruling_party_less_than_70_popularity
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.70
+                    compare = less_than
+                }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 90
+
+        modifier = {
+            stability_factor = -0.15
+        }
+
+        complete_effect = {
+           if = {
+               limit = { has_government = totalism_ideology }
+               add_popularity = {
+                   ideology = totalism_ideology
+                   popularity = 0.05
+               }
+           } 
+           else_if = {
+               limit = { has_government = socialism_ideology }
+               add_popularity = {
+                   ideology = socialism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = social_democracy_ideology }
+               add_popularity = {
+                   ideology = social_democracy_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = liberalism_ideology }
+               add_popularity = {
+                   ideology = liberalism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = conservatism_ideology }
+               add_popularity = {
+                   ideology = conservatism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = authoritarianism_ideology }
+               add_popularity = {
+                   ideology = authoritarianism_ideology
+                   popularity = 0.05
+               }
+           }
+           else_if = {
+               limit = { has_government = ultranationalism_ideology }
+               add_popularity = {
+                   ideology = ultranationalism_ideology
+                   popularity = 0.05
+               }
+           }
+        }
+
+		ai_will_do = {
+			base = 1
+
+            modifier = {
+                add = 10
+
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.40
+                    compare = less_than
+                }
+            }
+
+            modifier = {
+                add = 50
+
+                check_variable = {
+                    var = party_popularity@ruling_party
+                    value = 0.25
+                    compare = less_than
+                }
+            }
+		}
+	}
+
+    state_science_program_one_party_state = {
+
+		icon = generic_research
+
+        visible = {
+            has_country_flag = is_one_party_state
+		}
+
+		available = {
+            
+		}
+
+		cost = 100
+
+        days_remove = 90
+
+        modifier = {
+            consumer_goods_factor = 0.05
+            research_speed_factor = 0.05
+        }
+
+		ai_will_do = {
+			base = 50
+		}
+	}
+
+    #Provisional Government
+    rally_the_people = {
+
+		icon = generic_speech
+
+        visible = {
+            has_country_flag = is_provisional_government
+		}
+
+		available = {
+            
+		}
+
+		cost = 150
+
+        days_remove = 90
+
+        modifier = {
+            stability_weekly = 0.005
+        }
+
+		ai_will_do = {
+			base = 50
+		}
+	}
+
+    #Colonial Government
+    colonial_investments = {
+
+		icon = generic_construction
+
+        visible = {
+            has_country_flag = is_colonial_government
+		}
+
+		available = {
+            
+		}
+
+		cost = 100
+
+        days_remove = 120
+
+        modifier = {
+            tax_revenue = 3
+            political_power_factor = -0.15
+        }
+
+        complete_effect = {
+            set_country_flag = has_colonial_investments
+        }
+
+        remove_effect = {
+            clr_country_flag = has_colonial_investments
+        }
+
+		ai_will_do = {
+			base = 1
 		}
 	}
 ############################################################
