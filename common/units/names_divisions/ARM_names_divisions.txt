@@ -1,0 +1,230 @@
+﻿ARM_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-rd Hetevakayin Divizia"
+
+	ordered = {
+		1 = { "%d-rd Hetevakayin Divizia" }
+		2 = { "%d-rd Hetevakayin Divizia" }
+		3 = { "%d-rd Hetevakayin Divizia" }
+		4 = { "%d-rd Hetevakayin Divizia" }
+		5 = { "%d-rd Hetevakayin Divizia" }
+		6 = { "%d-rd Hetevakayin Divizia" }
+		7 = { "%d-rd Hetevakayin Divizia" }
+		8 = { "%d-rd Hetevakayin Divizia" }
+		9 = { "%d-rd Hetevakayin Divizia" }
+		10 = { "%d-rd Hetevakayin Divizia" }
+	}
+}
+
+ARM_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-rd Hetselazorayin Divizia"
+
+	ordered = {
+		1 = { "%d-rd Hetselazorayin Divizia" }
+		2 = { "%d-rd Hetselazorayin Divizia" }
+		3 = { "%d-rd Hetselazorayin Divizia" }
+		4 = { "%d-rd Hetselazorayin Divizia" }
+		5 = { "%d-rd Hetselazorayin Divizia" }
+		6 = { "%d-rd Hetselazorayin Divizia" }
+		7 = { "%d-rd Hetselazorayin Divizia" }
+		8 = { "%d-rd Hetselazorayin Divizia" }
+		9 = { "%d-rd Hetselazorayin Divizia" }
+		10 = { "%d-rd Hetselazorayin Divizia" }
+	}
+}
+
+ARM_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { ARM_INF_01 }
+
+	fallback_name = "%d-rd Sharzhich'ayin Divizia"
+
+	ordered = {
+		1 = { "%d-rd Sharzhich'ayin Divizia" }
+		2 = { "%d-rd Sharzhich'ayin Divizia" }
+		3 = { "%d-rd Sharzhich'ayin Divizia" }
+		4 = { "%d-rd Sharzhich'ayin Divizia" }
+		5 = { "%d-rd Sharzhich'ayin Divizia" }
+		6 = { "%d-rd Sharzhich'ayin Divizia" }
+		7 = { "%d-rd Sharzhich'ayin Divizia" }
+		8 = { "%d-rd Sharzhich'ayin Divizia" }
+		9 = { "%d-rd Sharzhich'ayin Divizia" }
+		10 = { "%d-rd Sharzhich'ayin Divizia" }
+	}
+}
+
+ARM_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-rd Tankayin Divizia"
+
+	ordered = {
+		1 = { "%d-rd Tankayin Divizia" }
+		2 = { "%d-rd Tankayin Divizia" }
+		3 = { "%d-rd Tankayin Divizia" }
+		4 = { "%d-rd Tankayin Divizia" }
+		5 = { "%d-rd Tankayin Divizia" }
+		6 = { "%d-rd Tankayin Divizia" }
+		7 = { "%d-rd Tankayin Divizia" }
+		8 = { "%d-rd Tankayin Divizia" }
+		9 = { "%d-rd Tankayin Divizia" }
+		10 = { "%d-rd Tankayin Divizia" }
+	}
+}
+
+ARM_MEC_01 = {
+	name = "Mechanized Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { ARM_INF_01 }
+
+	fallback_name = "%d-rd Mekhanizats'vats Divizia"
+
+	ordered = {
+		1 = { "%d-rd Mekhanizats'vats Divizia" }
+		2 = { "%d-rd Mekhanizats'vats Divizia" }
+		3 = { "%d-rd Mekhanizats'vats Divizia" }
+		4 = { "%d-rd Mekhanizats'vats Divizia" }
+		5 = { "%d-rd Mekhanizats'vats Divizia" }
+		6 = { "%d-rd Mekhanizats'vats Divizia" }
+		7 = { "%d-rd Mekhanizats'vats Divizia" }
+		8 = { "%d-rd Mekhanizats'vats Divizia" }
+		9 = { "%d-rd Mekhanizats'vats Divizia" }
+		10 = { "%d-rd Mekhanizats'vats Divizia" }
+	}
+}
+
+ARM_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { ARM_INF_01 }
+
+	fallback_name = "%d-rd Kayazori Divizia"
+
+	ordered = {
+		1 = { "%d-rd Kayazori Divizia" }
+		2 = { "%d-rd Kayazori Divizia" }
+		3 = { "%d-rd Kayazori Divizia" }
+		4 = { "%d-rd Kayazori Divizia" }
+		5 = { "%d-rd Kayazori Divizia" }
+		6 = { "%d-rd Kayazori Divizia" }
+		7 = { "%d-rd Kayazori Divizia" }
+		8 = { "%d-rd Kayazori Divizia" }
+		9 = { "%d-rd Kayazori Divizia" }
+		10 = { "%d-rd Kayazori Divizia" }
+	}
+}
+
+ARM_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-rd Tsovayin Divizia"
+
+	ordered ={
+		1 = { "%d-rd Tsovayin Divizia" }
+		2 = { "%d-rd Tsovayin Divizia" }
+		3 = { "%d-rd Tsovayin Divizia" }
+		4 = { "%d-rd Tsovayin Divizia" }
+		5 = { "%d-rd Tsovayin Divizia" }
+		6 = { "%d-rd Tsovayin Divizia" }
+		7 = { "%d-rd Tsovayin Divizia" }
+		8 = { "%d-rd Tsovayin Divizia" }
+		9 = { "%d-rd Tsovayin Divizia" }
+		10 = { "%d-rd Tsovayin Divizia" }
+	}
+}
+
+ARM_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d-rd Lerrnagnats'neri Divizia"
+
+	ordered = {
+		1 = { "%d-rd Lerrnagnats'neri Divizia" }
+		2 = { "%d-rd Lerrnagnats'neri Divizia" }
+		3 = { "%d-rd Lerrnagnats'neri Divizia" }
+		4 = { "%d-rd Lerrnagnats'neri Divizia" }
+		5 = { "%d-rd Lerrnagnats'neri Divizia" }
+		6 = { "%d-rd Lerrnagnats'neri Divizia" }
+		7 = { "%d-rd Lerrnagnats'neri Divizia" }
+		8 = { "%d-rd Lerrnagnats'neri Divizia" }
+		9 = { "%d-rd Lerrnagnats'neri Divizia" }
+		10 = { "%d-rd Lerrnagnats'neri Divizia" }
+	}
+}
+
+ARM_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { ARM }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-rd Desantayin Divizia"
+
+	ordered = {
+		1 = { "%d-rd Desantayin Divizia" }
+		2 = { "%d-rd Desantayin Divizia" }
+		3 = { "%d-rd Desantayin Divizia" }
+		4 = { "%d-rd Desantayin Divizia" }
+		5 = { "%d-rd Desantayin Divizia" }
+		6 = { "%d-rd Desantayin Divizia" }
+		7 = { "%d-rd Desantayin Divizia" }
+		8 = { "%d-rd Desantayin Divizia" }
+		9 = { "%d-rd Desantayin Divizia" }
+		10 = { "%d-rd Desantayin Divizia" }
+	}
+}

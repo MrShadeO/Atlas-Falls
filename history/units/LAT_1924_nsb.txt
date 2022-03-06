@@ -1,0 +1,170 @@
+##### Division Templates #####
+division_template = {
+	name = "Kājnieku Divīzija"		    #Infantry Division
+	division_names_group = LAT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kavalērijas Divīzija" 	        #Cavalry Division
+	division_names_group = LAT_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brīvprātīgo Brigāde"	    #Volunteer Brigade
+	division_names_group = LAT_VOL_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+##### OOB #####
+units = {	
+	
+    #Infantry Divisions
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10323
+		division_template = "Kājnieku Divīzija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11222
+		division_template = "Kājnieku Divīzija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3298
+		division_template = "Kājnieku Divīzija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    #Volunteer Brigades
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11358
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11358
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3255
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3255
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9340
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+    
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9262
+		division_template = "Brīvprātīgo Brigāde"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+}
+
+#Starting Production
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "LAT"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

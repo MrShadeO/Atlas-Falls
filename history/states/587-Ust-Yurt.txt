@@ -15,6 +15,12 @@ state = {
 		add_core_of = TMS
 		buildings = {
 			infrastructure = 1
+			642 = {
+				bunker = 2
+			}
+			13008 = {
+				bunker = 2
+			}
 		}
 	}
 }

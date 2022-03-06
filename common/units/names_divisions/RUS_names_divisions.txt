@@ -1,0 +1,277 @@
+﻿RUS_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ya Pekhotnaya Diviziya"
+	ordered = {
+		1 = { "%d-ya Pekhotnaya Diviziya" }
+		2 = { "%d-ya Pekhotnaya Diviziya" }
+		3 = { "%d-ya Pekhotnaya Diviziya" }
+		4 = { "%d-ya Pekhotnaya Diviziya" }
+		5 = { "%d-ya Pekhotnaya Diviziya" }
+		6 = { "%d-ya Pekhotnaya Diviziya" }
+		7 = { "%d-ya Pekhotnaya Diviziya" }
+		8 = { "%d-ya Pekhotnaya Diviziya" }
+		9 = { "%d-ya Pekhotnaya Diviziya" }
+		10 = { "%d-ya Pekhotnaya Diviziya" }
+	}
+}
+
+RUS_CAV_01 = {
+	name = "Cavalry Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-ya Kavaleriyskaya Diviziya"
+
+	ordered = {
+		1 = { "%d-ya Kavaleriyskaya Diviziya" }
+		3 = { "%d-ya Kavaleriyskaya Diviziya" }
+		4 = { "%d-ya Kavaleriyskaya Diviziya" }
+		5 = { "%d-ya Kavaleriyskaya Diviziya" }
+		6 = { "%d-ya Kavaleriyskaya Diviziya" }
+		7 = { "%d-ya Kavaleriyskaya Diviziya" }
+		8 = { "%d-ya Kavaleriyskaya Diviziya" }
+		9 = { "%d-ya Kavaleriyskaya Diviziya" }
+		10 = { "%d-ya Kavaleriyskaya Diviziya" }
+	}
+}
+
+RUS_MOT_01 = {
+	name = "Motorized Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d-ya Motostrelkovaya Diviziya"
+
+	ordered = {
+		1 = { "%d-ya Motostrelkovaya Diviziya" }
+		2 = { "%d-ya Motostrelkovaya Diviziya" }
+		3 = { "%d-ya Motostrelkovaya Diviziya" }
+		4 = { "%d-ya Motostrelkovaya Diviziya" }
+		5 = { "%d-ya Motostrelkovaya Diviziya" }
+		6 = { "%d-ya Motostrelkovaya Diviziya" }
+		7 = { "%d-ya Motostrelkovaya Diviziya" }
+		8 = { "%d-ya Motostrelkovaya Diviziya" }
+		9 = { "%d-ya Motostrelkovaya Diviziya" }
+		10 = { "%d-ya Motostrelkovaya Diviziya" }
+	}
+}
+
+RUS_MEC_01 = {
+	name = "Mechanized Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" "motorized" }
+
+	link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d-ya Mekhanizirovanaya Diviziya"
+
+	ordered = {
+		1 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		2 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		3 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		4 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		5 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		6 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		7 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		8 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		9 = { "%d-ya Mekhanizirovanaya Diviziya" }
+		10 = { "%d-ya Mekhanizirovanaya Diviziya" }
+	}
+}
+
+RUS_ARM_01 = {
+	name = "Tank Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-ya Tankovaya Diviziya"
+
+	ordered = {
+		1 = { "%d-ya Tankovaya Diviziya" }
+		2 = { "%d-ya Tankovaya Diviziya" }
+		3 = { "%d-ya Tankovaya Diviziya" }
+		4 = { "%d-ya Tankovaya Diviziya" }
+		5 = { "%d-ya Tankovaya Diviziya" }
+		6 = { "%d-ya Tankovaya Diviziya" }
+		7 = { "%d-ya Tankovaya Diviziya" }
+		8 = { "%d-ya Tankovaya Diviziya" }
+		9 = { "%d-ya Tankovaya Diviziya" }
+		10 = { "%d-ya Tankovaya Diviziya" }
+	}
+}
+
+RUS_ARM_04 = {
+	name = "Tank Brigade"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-ya Tankovaya Brigada"
+
+	ordered = {
+		1 = { "%d-ya Tankovaya Brigada" }
+		2 = { "%d-ya Tankovaya Brigada" }
+		3 = { "%d-ya Tankovaya Brigada" }
+		4 = { "%d-ya Tankovaya Brigada" }
+		5 = { "%d-ya Tankovaya Brigada" }
+		6 = { "%d-ya Tankovaya Brigada" }
+		7 = { "%d-ya Tankovaya Brigada" }
+		8 = { "%d-ya Tankovaya Brigada" }
+		9 = { "%d-ya Tankovaya Brigada" }
+		10 = { "%d-ya Tankovaya Brigada" }
+	}
+}
+
+RUS_PAR_01 = {
+	name = "Paratrooper Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-ya Vozdushno-Desantnaya Div."
+
+	ordered = {
+		1 = { "%d-ya Vozdushno-Desantnaya Div." }
+		2 = { "%d-ya Vozdushno-Desantnaya Div." }
+		3 = { "%d-ya Vozdushno-Desantnaya Div." }
+		4 = { "%d-ya Vozdushno-Desantnaya Div." }
+		5 = { "%d-ya Vozdushno-Desantnaya Div." }
+		6 = { "%d-ya Vozdushno-Desantnaya Div." }
+		7 = { "%d-ya Vozdushno-Desantnaya Div." }
+		8 = { "%d-ya Vozdushno-Desantnaya Div." }
+		9 = { "%d-ya Vozdushno-Desantnaya Div." }
+		10 = { "%d-ya Vozdushno-Desantnaya Div." }
+	}
+}
+
+RUS_MAR_01 = {
+	name = "Marine Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-ya Diviziya Morskoi Pekhoty"
+
+	ordered = {
+		1 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		2 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		3 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		4 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		5 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		6 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		7 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		8 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		9 = { "%d-ya Diviziya Morskoi Pekhoty" }
+		10 = { "%d-ya Diviziya Morskoi Pekhoty" }
+	}
+}
+
+RUS_MNT_01 = {
+	name = "Mountain Rifle Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d-ya Gornostrelkovaya Diviziya"
+
+	ordered = {
+		1 = { "%d-ya Gornostrelkovaya Diviziya" }
+		2 = { "%d-ya Gornostrelkovaya Diviziya" }
+		3 = { "%d-ya Gornostrelkovaya Diviziya" }
+		4 = { "%d-ya Gornostrelkovaya Diviziya" }
+		5 = { "%d-ya Gornostrelkovaya Diviziya" }
+		6 = { "%d-ya Gornostrelkovaya Diviziya" }
+		7 = { "%d-ya Gornostrelkovaya Diviziya" }
+		8 = { "%d-ya Gornostrelkovaya Diviziya" }
+		9 = { "%d-ya Gornostrelkovaya Diviziya" }
+		10 = { "%d-ya Gornostrelkovaya Diviziya" }
+	}
+}
+
+RUS_GAR_01 = {
+	name = "Garrison Brigade"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ya Prizyvnaya Brigada"
+
+	ordered = {
+		1 = { "%d-ya Prizyvnaya Brigada" }
+		2 = { "%d-ya Prizyvnaya Brigada" }
+		3 = { "%d-ya Prizyvnaya Brigada" }
+		4 = { "%d-ya Prizyvnaya Brigada" }
+		5 = { "%d-ya Prizyvnaya Brigada" }
+		6 = { "%d-ya Prizyvnaya Brigada" }
+		7 = { "%d-ya Prizyvnaya Brigada" }
+		8 = { "%d-ya Prizyvnaya Brigada" }
+		9 = { "%d-ya Prizyvnaya Brigada" }
+		10 = { "%d-ya Prizyvnaya Brigada" }
+	}
+}
+
+RUS_VOL_01 = {
+	name = "Volunteer Brigade"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ya Dobrovol'cheskaya Brigada"
+	ordered = {
+		1 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		2 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		3 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		4 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		5 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		6 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		7 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		8 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		9 = { "%d-ya Dobrovol'cheskaya Brigada" }
+		10 = { "%d-ya Dobrovol'cheskaya Brigada" }
+	}
+}

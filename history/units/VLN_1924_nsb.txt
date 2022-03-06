@@ -1,0 +1,312 @@
+##### Division Templates #####
+division_template = {
+	name = "Pikhotna Dyviziya"		    #Infantry Division
+	division_names_group = UKR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kavaleriys'ka Dyviziya" 	#Cavalry Division
+	division_names_group = UKR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Volonters'ka Bryhada"	    #Volunteer Brigade
+	division_names_group = UKR_VOL_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+##### OOB #####
+units = {	
+	
+	#Infantry Divisions
+	division = {		
+		name = "1-y Donets'kyy Korpus"
+		location = 3399
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}	
+
+    division = {		
+		name = "2-y Azovs'kyy Korpus"
+		location = 11405
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "3-y Katerynoslavs'kyy Korpus"
+		location = 11437
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "4-y Kryms'kyy Korpus"
+		location = 6474
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "5-y Khersons'kyy Korpus"
+		location = 9461
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "6-y Kyyivs'kyy Korpus"
+		location = 11422
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "7-y Chernihivs'kyy Korpus"
+		location = 11461
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		name = "8-y Poltavs'kyy Korpus"
+		location = 6505
+		division_template = "Pikhotna Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    #Cavalry Divisions
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 429
+		division_template = "Kavaleriys'ka Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3479
+		division_template = "Kavaleriys'ka Dyviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    #Volunteer Brigades
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3466
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11452
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9479
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9463
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9433
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6423
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 6420
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3421
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3399
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 11405
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11437
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6474
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 9461
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3449
+		division_template = "Volonters'ka Bryhada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.85
+	}
+}
+
+#Starting Production
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VLN"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

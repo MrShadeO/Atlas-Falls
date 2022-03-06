@@ -1,0 +1,229 @@
+﻿FIN_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Jalkaväkidivisioona"
+
+	ordered = {
+		1 = { "%d. Jalkaväkidivisioona" }
+		2 = { "%d. Jalkaväkidivisioona" }
+		3 = { "%d. Jalkaväkidivisioona" }
+		4 = { "%d. Jalkaväkidivisioona" }
+		5 = { "%d. Jalkaväkidivisioona" }
+		6 = { "%d. Jalkaväkidivisioona" }
+		7 = { "%d. Jalkaväkidivisioona" }
+		8 = { "%d. Jalkaväkidivisioona" }
+		9 = { "%d. Jalkaväkidivisioona" }
+		10 = { "%d. Jalkaväkidivisioona" }
+	}
+}
+
+FIN_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d. Ratsuväkidivisioona"
+
+	ordered = {
+		1 = { "%d. Ratsuväkidivisioona" }
+		2 = { "%d. Ratsuväkidivisioona" }
+		3 = { "%d. Ratsuväkidivisioona" }
+		4 = { "%d. Ratsuväkidivisioona" }
+		5 = { "%d. Ratsuväkidivisioona" }
+		6 = { "%d. Ratsuväkidivisioona" }
+		7 = { "%d. Ratsuväkidivisioona" }
+		8 = { "%d. Ratsuväkidivisioona" }
+		9 = { "%d. Ratsuväkidivisioona" }
+		10 = { "%d. Ratsuväkidivisioona" }
+	}
+}
+
+FIN_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d. Moottoroitu Divisioona"
+
+	ordered = {
+		1 = { "%d. Moottoroitu Divisioona" }
+		2 = { "%d. Moottoroitu Divisioona" }
+		3 = { "%d. Moottoroitu Divisioona" }
+		4 = { "%d. Moottoroitu Divisioona" }
+		5 = { "%d. Moottoroitu Divisioona" }
+		6 = { "%d. Moottoroitu Divisioona" }
+		7 = { "%d. Moottoroitu Divisioona" }
+		8 = { "%d. Moottoroitu Divisioona" }
+		9 = { "%d. Moottoroitu Divisioona" }
+		10 = { "%d. Moottoroitu Divisioona" }
+	}
+}
+
+FIN_ARM_01 = {
+	name = "Armoured Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	link_numbering_with = { FIN_MOT_01 }
+
+	fallback_name = "%d. Panssaridivisioona"
+
+	ordered = {
+		1 = { "%d. Panssaridivisioona" }
+		2 = { "%d. Panssaridivisioona" }
+		3 = { "%d. Panssaridivisioona" }
+		4 = { "%d. Panssaridivisioona" }
+		5 = { "%d. Panssaridivisioona" }
+		6 = { "%d. Panssaridivisioona" }
+		7 = { "%d. Panssaridivisioona" }
+		8 = { "%d. Panssaridivisioona" }
+		9 = { "%d. Panssaridivisioona" }
+		10 = { "%d. Panssaridivisioona" }
+	}
+}
+
+FIN_MEC_01 = {
+	name = "Mechanised Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { FIN_MOT_01 }
+
+	fallback_name = "%d. Moottoroitu Divisioona"
+	ordered = {
+		1 = { "%d. Moottoroitu Divisioona" }
+		2 = { "%d. Moottoroitu Divisioona" }
+		3 = { "%d. Moottoroitu Divisioona" }
+		4 = { "%d. Moottoroitu Divisioona" }
+		5 = { "%d. Moottoroitu Divisioona" }
+		6 = { "%d. Moottoroitu Divisioona" }
+		7 = { "%d. Moottoroitu Divisioona" }
+		8 = { "%d. Moottoroitu Divisioona" }
+		9 = { "%d. Moottoroitu Divisioona" }
+		10 = { "%d. Moottoroitu Divisioona" }
+	}
+}
+
+FIN_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { FIN_INF_01 }
+
+	fallback_name = "%d. Varuskunta"
+
+	ordered = {
+		1 = { "%d. Varuskunta" }
+		2 = { "%d. Varuskunta" }
+		3 = { "%d. Varuskunta" }
+		4 = { "%d. Varuskunta" }
+		5 = { "%d. Varuskunta" }
+		6 = { "%d. Varuskunta" }
+		7 = { "%d. Varuskunta" }
+		8 = { "%d. Varuskunta" }
+		9 = { "%d. Varuskunta" }
+		10 = { "%d. Varuskunta" }
+	}
+}
+
+FIN_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d. Merijalkaväen"
+
+	ordered = {
+		1 = { "%d. Merijalkaväen" }
+		2 = { "%d. Merijalkaväen" }
+		3 = { "%d. Merijalkaväen" }
+		4 = { "%d. Merijalkaväen" }
+		5 = { "%d. Merijalkaväen" }
+		6 = { "%d. Merijalkaväen" }
+		7 = { "%d. Merijalkaväen" }
+		8 = { "%d. Merijalkaväen" }
+		9 = { "%d. Merijalkaväen" }
+		10 = { "%d. Merijalkaväen" }
+	}
+}
+
+FIN_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d. Vuorikiipeilijät"
+
+	ordered = {
+		1 = { "%d. Vuorikiipeilijät" }
+		2 = { "%d. Vuorikiipeilijät" }
+		3 = { "%d. Vuorikiipeilijät" }
+		4 = { "%d. Vuorikiipeilijät" }
+		5 = { "%d. Vuorikiipeilijät" }
+		6 = { "%d. Vuorikiipeilijät" }
+		7 = { "%d. Vuorikiipeilijät" }
+		8 = { "%d. Vuorikiipeilijät" }
+		9 = { "%d. Vuorikiipeilijät" }
+		10 = { "%d. Vuorikiipeilijät" }
+	}
+}
+
+FIN_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d. Laskuvarjodivisioona"
+
+	ordered = {
+		1 = { "%d. Laskuvarjodivisioona" }
+		2 = { "%d. Laskuvarjodivisioona" }
+		3 = { "%d. Laskuvarjodivisioona" }
+		4 = { "%d. Laskuvarjodivisioona" }
+		5 = { "%d. Laskuvarjodivisioona" }
+		6 = { "%d. Laskuvarjodivisioona" }
+		7 = { "%d. Laskuvarjodivisioona" }
+		8 = { "%d. Laskuvarjodivisioona" }
+		9 = { "%d. Laskuvarjodivisioona" }
+		10 = { "%d. Laskuvarjodivisioona" }
+	}
+}

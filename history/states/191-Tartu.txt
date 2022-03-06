@@ -12,7 +12,8 @@ state = {
 		add_core_of = EST
 		buildings = {
 			infrastructure = 2
-			dockyard=1
+			dockyard = 1
+			arms_factory = 1
 		}
 	}
 }

@@ -18,6 +18,21 @@ state = {
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
+			10264 = {
+				bunker = 2
+			}
+			12179 = {
+				bunker = 2
+			}
+			10253 = {
+				bunker = 2
+			}
+			4294 = {
+				bunker = 2
+			}
+			1254 = {
+				bunker = 2
+			}
 		}
 	}	
 }

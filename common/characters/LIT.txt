@@ -84,7 +84,7 @@ characters = {
         name = "Kazys Skučas"
         portraits = {
             army = {
-                large = "gfx/leaders/LIT/"
+                large = "gfx/leaders/LIT/Portrait_LIT_Kazys_Skučas.dds"
             }
         }
         corps_commander = {
@@ -101,7 +101,7 @@ characters = {
         name = "Edvardas Adamkavičius"
         portraits = {
             army = {
-                large = "gfx/leaders/LIT/"
+                large = "gfx/leaders/LIT/Portrait_LIT_Edvardas_Adamkavičius.dds"
             }
         }
         corps_commander = {
@@ -118,7 +118,7 @@ characters = {
         name = "Stasys Raštikis"
         portraits = {
             army = {
-                large = "gfx/leaders/LIT/"
+                large = "gfx/leaders/LIT/Portrait_LIT_Stasys_Raštikis.dds"
             }
         }
         corps_commander = {
@@ -152,7 +152,7 @@ characters = {
         name = "Kazys Musteikis"
         portraits = {
             army = {
-                large = "gfx/leaders/LIT/"
+                large = "gfx/leaders/LIT/Portrait_LIT_Kazys_Musteikis.dds"
             }
         }
         corps_commander = {

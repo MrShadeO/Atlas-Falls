@@ -1,0 +1,54 @@
+characters = {
+    #COUNTRY LEADERS
+    LAT_janis_cakste = {
+		name = "Jānis Čakste"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAT/Portrait_LAT_Jānis_Čakste.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+
+
+    #THEORISTS
+
+
+    #ARMY
+    
+
+    #NAVY
+
+
+}

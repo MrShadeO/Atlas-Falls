@@ -1,0 +1,40 @@
+characters = {
+    #COUNTRY LEADERS
+    VLN_nestor_makhno = {
+		name = "Nestor Makhno"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VLN/Portrait_VLN_Nestor_Makhno.dds"
+			}
+            army = {
+				large = "gfx/leaders/VLN/Portrait_VLN_Nestor_Makhno.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        field_marshal = {
+			traits = { brilliant_strategist inspirational_leader trait_reckless cavalry_leader guerilla_fighter } 
+            skill = 4
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+		}
+	}
+
+    #MINISTERS
+
+
+    #THEORISTS
+
+
+    #ARMY
+    
+
+    #NAVY
+
+
+}

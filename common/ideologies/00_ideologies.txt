@@ -25,9 +25,10 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = no
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
-		
-		can_collaborate = yes
 		
 		modifiers = {
 			army_core_defence_factor = 0.10
@@ -66,9 +67,10 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
-		
-		can_collaborate = yes
 		
 		modifiers = {
 			industrial_capacity_factory = 0.10
@@ -107,9 +109,10 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
-		
-		can_collaborate = yes
 		
 		modifiers = {
 			consumer_goods_factor = 0.10
@@ -146,11 +149,14 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
 		
 		modifiers = {
 			political_power_factor = -0.10
-			custom_modifier_tooltip = tax_plus_three
+			tax_revenue = 3
 		}
 		
 		faction_modifiers = {
@@ -181,6 +187,9 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
 		
 		modifiers = {
@@ -217,6 +226,9 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
 		
 		modifiers = {
@@ -250,9 +262,10 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
-		
-		can_collaborate = yes
 		
 		modifiers = {
 			political_power_factor = 0.10
@@ -283,9 +296,10 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = no
+			can_join_factions = no
+			can_create_collaboration_government = no
 		}
-		
-		can_collaborate = yes
 		
 		modifiers = {
 			war_support_factor = 0.20

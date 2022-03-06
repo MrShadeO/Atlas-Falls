@@ -11,6 +11,36 @@ state = {
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 1
+			10216 = {
+				bunker = 2
+			}
+			4874 = {
+				bunker = 2
+			}
+			12659 = {
+				bunker = 2
+			}
+			7824 = {
+				bunker = 2
+			}
+			10551 = {
+				bunker = 2
+			}
+			12393 = {
+				bunker = 2
+			}
+			10677 = {
+				bunker = 2
+			}
+			11098 = {
+				bunker = 2
+			}
+			12502 = {
+				bunker = 2
+			}
+			13076 = {
+				bunker = 2
+			}
 		}
 	}
 }

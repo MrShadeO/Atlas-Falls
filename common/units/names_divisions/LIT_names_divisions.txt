@@ -1,0 +1,254 @@
+﻿LIT_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-oji Pėstininkų Divizija"
+
+	ordered = {
+		1 = { "%d-oji Pėstininkų Divizija" }
+		2 = { "%d-oji Pėstininkų Divizija" }
+		3 = { "%d-oji Pėstininkų Divizija" }
+		4 = { "%d-oji Pėstininkų Divizija" }
+		5 = { "%d-oji Pėstininkų Divizija" }
+		6 = { "%d-oji Pėstininkų Divizija" }
+		7 = { "%d-oji Pėstininkų Divizija" }
+		8 = { "%d-oji Pėstininkų Divizija" }
+		9 = { "%d-oji Pėstininkų Divizija" }
+		10 = { "%d-oji Pėstininkų Divizija" }
+	}
+}
+
+LIT_CAV_01 = {
+	name = "Cavalry Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-oji Kavalerijos Divizija"
+
+	ordered = {
+		1 = { "%d-oji Kavalerijos Divizija" }
+		2 = { "%d-oji Kavalerijos Divizija" }
+		3 = { "%d-oji Kavalerijos Divizija" }
+		4 = { "%d-oji Kavalerijos Divizija" }
+		5 = { "%d-oji Kavalerijos Divizija" }
+		6 = { "%d-oji Kavalerijos Divizija" }
+		7 = { "%d-oji Kavalerijos Divizija" }
+		8 = { "%d-oji Kavalerijos Divizija" }
+		9 = { "%d-oji Kavalerijos Divizija" }
+		10 = { "%d-oji Kavalerijos Divizija" }
+	}
+}
+
+LIT_MOT_01 = {
+	name = "Motorized Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d-oji Motorizuota Divizija"
+
+	ordered = {
+		1 = { "%d-oji Motorizuota Divizija" }
+		2 = { "%d-oji Motorizuota Divizija" }
+		3 = { "%d-oji Motorizuota Divizija" }
+		4 = { "%d-oji Motorizuota Divizija" }
+		5 = { "%d-oji Motorizuota Divizija" }
+		6 = { "%d-oji Motorizuota Divizija" }
+		7 = { "%d-oji Motorizuota Divizija" }
+		8 = { "%d-oji Motorizuota Divizija" }
+		9 = { "%d-oji Motorizuota Divizija" }
+		10 = { "%d-oji Motorizuota Divizija" }
+	}
+}
+
+LIT_MEC_01 = {
+	name = "Mechanized Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	fallback_name = "%d-oji Mechanizavimas Divizija"
+
+	ordered = {
+		1 = { "%d-oji Mechanizavimas Divizija" }
+		2 = { "%d-oji Mechanizavimas Divizija" }
+		3 = { "%d-oji Mechanizavimas Divizija" }
+		4 = { "%d-oji Mechanizavimas Divizija" }
+		5 = { "%d-oji Mechanizavimas Divizija" }
+		6 = { "%d-oji Mechanizavimas Divizija" }
+		7 = { "%d-oji Mechanizavimas Divizija" }
+		8 = { "%d-oji Mechanizavimas Divizija" }
+		9 = { "%d-oji Mechanizavimas Divizija" }
+		10 = { "%d-oji Mechanizavimas Divizija" }
+	}
+}
+
+LIT_ARM_01 = {
+	name = "Armored Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-oji Tankų Divizija"
+
+	ordered = {
+		1 = { "%d-oji Tankų Divizija" }
+		2 = { "%d-oji Tankų Divizija" }
+		3 = { "%d-oji Tankų Divizija" }
+		4 = { "%d-oji Tankų Divizija" }
+		5 = { "%d-oji Tankų Divizija" }
+		6 = { "%d-oji Tankų Divizija" }
+		7 = { "%d-oji Tankų Divizija" }
+		8 = { "%d-oji Tankų Divizija" }
+		9 = { "%d-oji Tankų Divizija" }
+		10 = { "%d-oji Tankų Divizija" }
+	}
+}
+
+LIT_PAR_01 = {
+	name = "Paratrooper Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-oji Desantininkų Divizija"
+
+	ordered = {
+		1 = { "%d-oji Desantininkų Divizija" }
+		2 = { "%d-oji Desantininkų Divizija" }
+		3 = { "%d-oji Desantininkų Divizija" }
+		4 = { "%d-oji Desantininkų Divizija" }
+		5 = { "%d-oji Desantininkų Divizija" }
+		6 = { "%d-oji Desantininkų Divizija" }
+		7 = { "%d-oji Desantininkų Divizija" }
+		8 = { "%d-oji Desantininkų Divizija" }
+		9 = { "%d-oji Desantininkų Divizija" }
+		10 = { "%d-oji Desantininkų Divizija" }
+	}
+}
+
+LIT_MAR_01 = {
+	name = "Marine Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-oji Juras Peizazas Divizija"
+
+	ordered = {
+		1 = { "%d-oji Juras Peizazas Divizija" }
+		2 = { "%d-oji Juras Peizazas Divizija" }
+		3 = { "%d-oji Juras Peizazas Divizija" }
+		4 = { "%d-oji Juras Peizazas Divizija" }
+		5 = { "%d-oji Juras Peizazas Divizija" }
+		6 = { "%d-oji Juras Peizazas Divizija" }
+		7 = { "%d-oji Juras Peizazas Divizija" }
+		8 = { "%d-oji Juras Peizazas Divizija" }
+		9 = { "%d-oji Juras Peizazas Divizija" }
+		10 = { "%d-oji Juras Peizazas Divizija" }
+	}
+}
+
+LIT_MNT_01 = {
+	name = "Mountain Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	link_numbering_with = { LIT_INF_01 }
+
+	fallback_name = "%s Kalnų Divizija"
+
+	ordered = {
+		1 = { "%d-oji Kalnų Divizija" }
+		2 = { "%d-oji Kalnų Divizija" }
+		3 = { "%d-oji Kalnų Divizija" }
+		4 = { "%d-oji Kalnų Divizija" }
+		5 = { "%d-oji Kalnų Divizija" }
+		6 = { "%d-oji Kalnų Divizija" }
+		7 = { "%d-oji Kalnų Divizija" }
+		8 = { "%d-oji Kalnų Divizija" }
+		9 = { "%d-oji Kalnų Divizija" }
+		10 = { "%d-oji Kalnų Divizija" }
+	}
+}
+
+LIT_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { LIT_INF_01 }
+
+	fallback_name = "%d-oji Garnizono Divizija"
+
+	ordered = {
+		1 = { "%d-oji Garnizono Divizija" }
+		2 = { "%d-oji Garnizono Divizija" }
+		3 = { "%d-oji Garnizono Divizija" }
+		4 = { "%d-oji Garnizono Divizija" }
+		5 = { "%d-oji Garnizono Divizija" }
+		6 = { "%d-oji Garnizono Divizija" }
+		7 = { "%d-oji Garnizono Divizija" }
+		8 = { "%d-oji Garnizono Divizija" }
+		9 = { "%d-oji Garnizono Divizija" }
+		10 = { "%d-oji Garnizono Divizija" }	
+	}
+}
+
+LIT_VOL_01 = {
+	name = "Volunteer Brigades"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-oji Savanorių Brigada"
+
+	ordered = {
+		1 = { "%d-oji Savanorių Brigada" }
+		2 = { "%d-oji Savanorių Brigada" }
+		3 = { "%d-oji Savanorių Brigada" }
+		4 = { "%d-oji Savanorių Brigada" }
+		5 = { "%d-oji Savanorių Brigada" }
+		6 = { "%d-oji Savanorių Brigada" }
+		7 = { "%d-oji Savanorių Brigada" }
+		8 = { "%d-oji Savanorių Brigada" }
+		9 = { "%d-oji Savanorių Brigada" }
+		10 = { "%d-oji Savanorių Brigada" }	
+	}
+}
+

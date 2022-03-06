@@ -1,0 +1,397 @@
+##### Division Templates #####
+division_template = {
+	name = "Dywizja Piechoty"		    #Infantry Division
+	division_names_group = POL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Kawalerii" 	        #Cavalry Division
+	division_names_group = POL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Garnizonowa"	    #Volunteer Brigade
+	division_names_group = POL_VOL_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+##### OOB #####
+units = {	
+	
+	#Polish Legions
+	division = {		
+		name = "1. Dywizja Piechoty Legionów"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		name = "2. Dywizja Piechoty Legionów"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		name = "3. Dywizja Piechoty Legionów"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}	
+
+    #Infantry Divisions
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11329
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11274
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11385
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 402
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6484
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9521
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11329
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11274
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 402
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9521
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 11385
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 6484
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    #Cavalry Divisions
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3230
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3544
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9546
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9508
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6484
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 402
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3458
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11430
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+    #Volunteer Brigades
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9521
+		division_template = "Dywizja Garnizonowa"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9544
+		division_template = "Dywizja Garnizonowa"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11274
+		division_template = "Dywizja Garnizonowa"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 524
+		division_template = "Dywizja Garnizonowa"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+}
+
+#Air Wings
+air_wings = {
+	10 = {
+		fighter_equipment_0 = {
+			owner = "POL" 
+			amount = 100
+		}
+        tac_bomber_equipment_0 =  {
+			owner = "POL" 
+			amount = 25
+		}
+	}
+}
+
+#Starting Production
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "POL"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

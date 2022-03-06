@@ -141,6 +141,12 @@ defined_text = {
 		localization_key = HETMAN_TITLE
 	}
 	text = {
+		trigger = {
+			has_country_flag = has_otaman
+		}
+		localization_key = OTAMAN_TITLE
+	}
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }

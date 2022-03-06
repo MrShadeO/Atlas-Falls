@@ -1,0 +1,251 @@
+﻿LAT_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Kājnieku Divīzija"
+
+	ordered = {
+		1 = { "%d. Kājnieku Divīzija" }
+		2 = { "%d. Kājnieku Divīzija" }
+		3 = { "%d. Kājnieku Divīzija" }
+		4 = { "%d. Kājnieku Divīzija" }
+		5 = { "%d. Kājnieku Divīzija" }
+		6 = { "%d. Kājnieku Divīzija" }
+		7 = { "%d. Kājnieku Divīzija" }
+		8 = { "%d. Kājnieku Divīzija" }
+		9 = { "%d. Kājnieku Divīzija" }
+		10 = { "%d. Kājnieku Divīzija" }		
+	}
+}
+
+LAT_CAV_01 = {
+	name = "Cavalry Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d. Kavalērijas Divīzija"
+
+	ordered = {
+		1 = { "%d. Kavalērijas Divīzija" }
+		2 = { "%d. Kavalērijas Divīzija" }
+		3 = { "%d. Kavalērijas Divīzija" }
+		4 = { "%d. Kavalērijas Divīzija" }
+		5 = { "%d. Kavalērijas Divīzija" }
+		6 = { "%d. Kavalērijas Divīzija" }
+		7 = { "%d. Kavalērijas Divīzija" }
+		8 = { "%d. Kavalērijas Divīzija" }
+		9 = { "%d. Kavalērijas Divīzija" }
+		10 = { "%d. Kavalērijas Divīzija" }
+	}
+}
+
+LAT_MOT_01 = {
+	name = "Motorized Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d. Motorizēto Strēlnieku Divīzija"
+
+	ordered = {
+		1 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		2 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		3 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		4 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		5 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		6 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		7 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		8 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		9 = { "%d. Motorizēto Strēlnieku Divīzija" }
+		10 = { "%d. Motorizēto Strēlnieku Divīzija" }
+	}
+}
+
+LAT_MEC_01 = {
+	name = "Mechanized Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	fallback_name = "%d. Mehanizēto Strēlnieku Divīzija"
+
+	ordered = {
+		1 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		2 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		3 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		4 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		5 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		6 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		7 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		8 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		9 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+		10 = { "%d. Mehanizēto Strēlnieku Divīzija" }
+	}
+}
+
+LAT_ARM_01 = {
+	name = "Tank Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. Tanku Divīzija"
+
+	ordered = {
+		1 = { "%d. Tanku Divīzija" }
+		2 = { "%d. Tanku Divīzija" }
+		3 = { "%d. Tanku Divīzija" }
+		4 = { "%d. Tanku Divīzija" }
+		5 = { "%d. Tanku Divīzija" }
+		6 = { "%d. Tanku Divīzija" }
+		7 = { "%d. Tanku Divīzija" }
+		8 = { "%d. Tanku Divīzija" }
+		9 = { "%d. Tanku Divīzija" }
+		10 = { "%d. Tanku Divīzija" }
+	}
+}
+
+LAT_PAR_01 = {
+	name = "Airborne Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d. Gaisa Desanta divizija"
+
+	ordered = {
+		1 = { "%d. Gaisa Desanta Divīzija" }
+		2 = { "%d. Gaisa Desanta Divīzija" }
+		3 = { "%d. Gaisa Desanta Divīzija" }
+		4 = { "%d. Gaisa Desanta Divīzija" }
+		5 = { "%d. Gaisa Desanta Divīzija" }
+		6 = { "%d. Gaisa Desanta Divīzija" }
+		7 = { "%d. Gaisa Desanta Divīzija" }
+		8 = { "%d. Gaisa Desanta Divīzija" }
+		9 = { "%d. Gaisa Desanta Divīzija" }
+		10 = { "%d. Gaisa Desanta Divīzija" }
+	}
+}
+
+LAT_MAR_01 = {
+	name = "Marine Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d. Jūras Kājnieku Divīzija"
+
+	ordered = {
+		1 = { "%d. Jūras Kājnieku Divīzija" }
+		2 = { "%d. Jūras Kājnieku Divīzija" }
+		3 = { "%d. Jūras Kājnieku Divīzija" }
+		4 = { "%d. Jūras Kājnieku Divīzija" }
+		5 = { "%d. Jūras Kājnieku Divīzija" }
+		6 = { "%d. Jūras Kājnieku Divīzija" }
+		7 = { "%d. Jūras Kājnieku Divīzija" }
+		8 = { "%d. Jūras Kājnieku Divīzija" }
+		9 = { "%d. Jūras Kājnieku Divīzija" }
+		10 = { "%d. Jūras Kājnieku Divīzija" }
+	}
+}
+
+LAT_MNT_01 = {
+	name = "Mountain Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	link_numbering_with = { LAT_INF_01 }
+
+	fallback_name = "%d. Kalnu Kājnieku Divīzija"
+
+	ordered = {
+		1 = { "%d. Kalnu Kājnieku Divīzija" }
+		2 = { "%d. Kalnu Kājnieku Divīzija" }
+		3 = { "%d. Kalnu Kājnieku Divīzija" }
+		4 = { "%d. Kalnu Kājnieku Divīzija" }
+		5 = { "%d. Kalnu Kājnieku Divīzija" }
+		6 = { "%d. Kalnu Kājnieku Divīzija" }
+		7 = { "%d. Kalnu Kājnieku Divīzija" }
+		8 = { "%d. Kalnu Kājnieku Divīzija" }
+		9 = { "%d. Kalnu Kājnieku Divīzija" }
+		10 = { "%d. Kalnu Kājnieku Divīzija" }
+	}
+}
+
+LAT_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Garnizona Divīzija"
+
+	ordered = {
+		1 = { "%d. Garnizona Divīzija" }
+		2 = { "%d. Garnizona Divīzija" }
+		3 = { "%d. Garnizona Divīzija" }
+		4 = { "%d. Garnizona Divīzija" }
+		5 = { "%d. Garnizona Divīzija" }
+		6 = { "%d. Garnizona Divīzija" }
+		7 = { "%d. Garnizona Divīzija" }
+		8 = { "%d. Garnizona Divīzija" }
+		9 = { "%d. Garnizona Divīzija" }
+		10 = { "%d. Garnizona Divīzija" }		
+	}
+}
+
+LAT_VOL_01 = {
+	name = "Volunteer Brigade"
+
+	for_countries = { LAT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Brīvprātīgo Brigāde"
+
+	ordered = {
+		1 = { "%d. Brīvprātīgo Brigāde" }
+		2 = { "%d. Brīvprātīgo Brigāde" }
+		3 = { "%d. Brīvprātīgo Brigāde" }
+		4 = { "%d. Brīvprātīgo Brigāde" }
+		5 = { "%d. Brīvprātīgo Brigāde" }
+		6 = { "%d. Brīvprātīgo Brigāde" }
+		7 = { "%d. Brīvprātīgo Brigāde" }
+		8 = { "%d. Brīvprātīgo Brigāde" }
+		9 = { "%d. Brīvprātīgo Brigāde" }
+		10 = { "%d. Brīvprātīgo Brigāde" }		
+	}
+}

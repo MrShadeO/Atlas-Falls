@@ -1,0 +1,292 @@
+##### Division Templates #####
+division_template = {
+	name = "Kveiti Divizia"			     #Infantry Division
+	division_names_group = GEO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Sak'avalerio Divizia" 	         #Cavalry Division
+	division_names_group = GEO_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mokhaliseta Brigada"			#Volunteer Brigade
+	division_names_group = GEO_VOL_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Hetevakayin Divizia (Armenian)"			#Armenian Infantry Division
+	division_names_group = ARM_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+    support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Piyada Diviziyasi (Azerbaijani)"			#Azerbaijani Infantry Division
+	division_names_group = AZR_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+    support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+##### OOB #####
+units = {	
+	
+	#Georgian Infantry Divisions
+	division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 672
+		division_template = "Kveiti Divizia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3667
+		division_template = "Kveiti Divizia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}	
+
+    #Armenian Infantry Divisions
+	division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9663
+		division_template = "Hetevakayin Divizia (Armenian)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11647
+		division_template = "Hetevakayin Divizia (Armenian)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    #Azerbaijani Infantry Divisions
+	division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4545
+		division_template = "Piyada Diviziyasi (Azerbaijani)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4458
+		division_template = "Piyada Diviziyasi (Azerbaijani)"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    #Cavalry Divisions
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1599
+		division_template = "Sak'avalerio Divizia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1599
+		division_template = "Sak'avalerio Divizia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+    #Volunteer Brigades
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11647
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3653
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12441
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12320
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 8061
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1962
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 6763
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 7661
+		division_template = "Mokhaliseta Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+}
+
+#STARTING PRODUCTION
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "GEO"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

@@ -1,0 +1,271 @@
+﻿capital = 195
+
+set_research_slots = 3
+set_stability = 0.78
+set_war_support = 0.40
+set_convoys = 200
+
+set_country_flag = has_tsar
+set_country_flag = is_absolute_monarchy
+
+#ARMY OOB
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_oob = "RUS_1924"
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_oob = "RUS_1924_nsb"
+}
+
+#NAVY OOB
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	
+}
+
+set_politics = {
+	ruling_party = ultranationalism_ideology
+	last_election = "1918.4.1"
+	election_frequency = 60 
+	elections_allowed = no 
+}
+
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 0
+	social_democracy_ideology = 0
+	liberalism_ideology = 10
+	conservatism_ideology = 10
+	authoritarianism_ideology = 30
+	ultranationalism_ideology = 50
+}
+
+add_ideas = {
+	low_tax_rate
+	export_focus 
+	limited_conscription
+	war_economy
+	aristocratic_suffrage
+	orthodoxy
+	early_industrialization
+	traditional
+	navy_poor_funding
+	air_poor_funding
+}
+
+#TECHNOLOGIES
+set_technology = { 
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_train = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+	}
+}
+
+#LEADERS
+recruit_character = RUS_nicholas_ii
+
+#MINISTERS
+recruit_character = RUS_dummy_agriculture_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_agriculture_2 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_commerce_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_defense_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_education_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_energy_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_foreign_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_industry_1 #This minister only exists for debugging purposes
+recruit_character = RUS_dummy_justice_1 #This minister only exists for debugging purposes
+
+#ARMY
+recruit_character = RUS_alexander_lukomsky #Field Marshal
+recruit_character = RUS_lavr_kornilov #Field Marshal
+recruit_character = RUS_pyotr_wrangel
+recruit_character = RUS_anton_denikin
+recruit_character = RUS_pyotr_popov
+recruit_character = RUS_abram_dragomirov
+recruit_character = RUS_mikhail_diterikhs
+recruit_character = RUS_vladimir_marushevsky
+recruit_character = RUS_yevgeny_miller
+recruit_character = RUS_mikhail_drozdovsky
+recruit_character = RUS_vladimir_kappel
+recruit_character = RUS_fedor_abramov
+recruit_character = RUS_pyotr_pisarev
+recruit_character = RUS_isaac_bykadorov
+recruit_character = RUS_vladimir_vitkovsky
+recruit_character = RUS_michael_alexandrovich
+recruit_character = RUS_sergey_markov
+recruit_character = RUS_pavel_shatilov
+recruit_character = RUS_konstantin_nechaev
+recruit_character = RUS_alexander_rodzyanko
+recruit_character = RUS_andrei_shkuro
+recruit_character = RUS_boris_shteifon
+recruit_character = RUS_anton_turkul
+recruit_character = RUS_pavel_avalov
+recruit_character = RUS_grigory_semyonov
+recruit_character = RUS_anatoly_pepelyayev
+recruit_character = RUS_vladimir_von_manstein
+
+#NAVY
+recruit_character = RUS_nikolai_kolomeitsev
+recruit_character = RUS_mikhail_kedrov
+recruit_character = RUS_alexander_kolchak
+recruit_character = RUS_mikhail_berens
+
+#RUSSIAN CIVIL WAR STUFF
+
+#puppet = FIN #This code is in Finland's history file.
+
+declare_war_on = {
+	target = SOV
+	type = annex_everything
+}
+declare_war_on = {
+	target = GEO
+	type = annex_everything
+}
+declare_war_on = {
+	target = POL
+	type = annex_everything
+}
+declare_war_on = {
+	target = UKR
+	type = annex_everything
+}
+declare_war_on = {
+	target = VLN
+	type = annex_everything
+}
+declare_war_on = {
+	target = LIT
+	type = annex_everything
+}
+declare_war_on = {
+	target = LAT
+	type = annex_everything
+}
+declare_war_on = {
+	target = EST
+	type = annex_everything
+}
+
+FIN = {
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = SOV 
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = GEO
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = POL
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = UKR
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = VLN 
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = SOV 
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = SOV 
+		hostility_reason = asked_to_join
+	}
+	add_to_war = { 
+		targeted_alliance = RUS 
+		enemy = SOV 
+		hostility_reason = asked_to_join
+	}
+}
+
+#ARMOR TEMPLATES
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Tsar Tank II"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 1
+		}
+		obsolete = no
+		icon = "GFX_gwtank_medium"
+	}
+}

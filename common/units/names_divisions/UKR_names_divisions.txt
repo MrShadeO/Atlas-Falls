@@ -1,0 +1,255 @@
+﻿UKR_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ya Pikhotna Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Pikhotna Dyviziya" }
+		2 = { "%d-ya Pikhotna Dyviziya" }
+		3 = { "%d-ya Pikhotna Dyviziya" }
+		4 = { "%d-ya Pikhotna Dyviziya" }
+		5 = { "%d-ya Pikhotna Dyviziya" }
+		6 = { "%d-ya Pikhotna Dyviziya" }
+		7 = { "%d-ya Pikhotna Dyviziya" }
+		8 = { "%d-ya Pikhotna Dyviziya" }
+		9 = { "%d-ya Pikhotna Dyviziya" }
+		10 = { "%d-ya Pikhotna Dyviziya" }
+	}
+}
+
+UKR_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-ya Kavaleriys'ka Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		2 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		3 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		4 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		5 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		6 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		7 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		8 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		9 = { "%d-ya Kavaleriys'ka Dyviziya" }
+		10 = { "%d-ya Kavaleriys'ka Dyviziya" }
+	}
+}
+
+UKR_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-ya Motoryzovana Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Motoryzovana Dyviziya" }
+		2 = { "%d-ya Motoryzovana Dyviziya" }
+		3 = { "%d-ya Motoryzovana Dyviziya" }
+		4 = { "%d-ya Motoryzovana Dyviziya" }
+		5 = { "%d-ya Motoryzovana Dyviziya" }
+		6 = { "%d-ya Motoryzovana Dyviziya" }
+		7 = { "%d-ya Motoryzovana Dyviziya" }
+		8 = { "%d-ya Motoryzovana Dyviziya" }
+		9 = { "%d-ya Motoryzovana Dyviziya" }
+		10 = { "%d-ya Motoryzovana Dyviziya" }
+	}
+}
+
+UKR_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-ya Tankova Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Tankova Dyviziya" }
+		2 = { "%d-ya Tankova Dyviziya" }
+		3 = { "%d-ya Tankova Dyviziya" }
+		4 = { "%d-ya Tankova Dyviziya" }
+		5 = { "%d-ya Tankova Dyviziya" }
+		6 = { "%d-ya Tankova Dyviziya" }
+		7 = { "%d-ya Tankova Dyviziya" }
+		8 = { "%d-ya Tankova Dyviziya" }
+		9 = { "%d-ya Tankova Dyviziya" }
+		10 = { "%d-ya Tankova Dyviziya" }
+	}
+}
+
+UKR_MEC_01 = {
+	name = "Mechanized Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-ya Mekhanizovanyy Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		2 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		3 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		4 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		5 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		6 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		7 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		8 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		9 = { "%d-ya Mekhanizovanyy Dyviziya" }
+		10 = { "%d-ya Mekhanizovanyy Dyviziya" }
+	}
+}
+
+UKR_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-ya Harnizonna Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Harnizonna Dyviziya" }
+		2 = { "%d-ya Harnizonna Dyviziya" }
+		3 = { "%d-ya Harnizonna Dyviziya" }
+		4 = { "%d-ya Harnizonna Dyviziya" }
+		5 = { "%d-ya Harnizonna Dyviziya" }
+		6 = { "%d-ya Harnizonna Dyviziya" }
+		7 = { "%d-ya Harnizonna Dyviziya" }
+		8 = { "%d-ya Harnizonna Dyviziya" }
+		9 = { "%d-ya Harnizonna Dyviziya" }
+		10 = { "%d-ya Harnizonna Dyviziya" }
+	}
+}
+
+UKR_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-ya Morskoi Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Morskoi Dyviziya" }
+		2 = { "%d-ya Morskoi Dyviziya" }
+		3 = { "%d-ya Morskoi Dyviziya" }
+		4 = { "%d-ya Morskoi Dyviziya" }
+		5 = { "%d-ya Morskoi Dyviziya" }
+		6 = { "%d-ya Morskoi Dyviziya" }
+		7 = { "%d-ya Morskoi Dyviziya" }
+		8 = { "%d-ya Morskoi Dyviziya" }
+		9 = { "%d-ya Morskoi Dyviziya" }
+		10 = { "%d-ya Morskoi Dyviziya" }
+	}
+}
+
+UKR_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d-ya Hornostrelkovaya Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		2 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		3 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		4 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		5 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		6 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		7 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		8 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		9 = { "%d-ya Hornostrelkovaya Dyviziya" }
+		10 = { "%d-ya Hornostrelkovaya Dyviziya" }
+	}
+}
+
+UKR_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-ya Povitryano-Desantna Dyviziya"
+
+	ordered = {
+		1 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		2 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		3 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		4 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		5 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		6 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		7 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		8 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		9 = { "%d-ya Povitryano-Desantna Dyviziya" }
+		10 = { "%d-ya Povitryano-Desantna Dyviziya" }
+	}
+}
+
+UKR_VOL_01 = {
+	name = "Volunteer Brigades"
+
+	for_countries = { UKR VLN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ya Volonters'ka Bryhada"
+
+	ordered = {
+		1 = { "%d-ya Volonters'ka Bryhada" }
+		2 = { "%d-ya Volonters'ka Bryhada" }
+		3 = { "%d-ya Volonters'ka Bryhada" }
+		4 = { "%d-ya Volonters'ka Bryhada" }
+		5 = { "%d-ya Volonters'ka Bryhada" }
+		6 = { "%d-ya Volonters'ka Bryhada" }
+		7 = { "%d-ya Volonters'ka Bryhada" }
+		8 = { "%d-ya Volonters'ka Bryhada" }
+		9 = { "%d-ya Volonters'ka Bryhada" }
+		10 = { "%d-ya Volonters'ka Bryhada" }
+	}
+}

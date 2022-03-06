@@ -1,12 +1,23 @@
 capital = 111
 
 set_research_slots = 3
-set_stability = 0.50
+set_stability = 0.82
 set_war_support = 0.50
 set_convoys = 30
 
 set_country_flag = has_grand_duke
 set_country_flag = is_constitutional_monarchy
+
+RUS = {
+	set_autonomy = {
+		target = FIN
+		autonomy_state = autonomy_dominion
+		end_wars = yes
+		end_civil_wars = yes
+	}
+}
+
+set_oob = "FIN_1924_nsb"
 
 set_politics = {
 	ruling_party = liberalism_ideology
@@ -14,6 +25,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
+
 set_popularities = {
 	anarchism_ideology = 0
 	totalism_ideology = 10
@@ -24,6 +36,7 @@ set_popularities = {
 	authoritarianism_ideology = 5
 	ultranationalism_ideology = 0
 }
+
 add_ideas = {
 	low_tax_rate
 	low_economic_mobilisation
@@ -34,6 +47,46 @@ add_ideas = {
 	eight_hour_workday
 	navy_minimal_funding
 	air_minimal_funding
+}
+
+#TECHNOLOGIES
+set_technology = { 
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_train = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+	}
 }
 
 #LEADERS
@@ -58,3 +111,4 @@ recruit_character = FIN_woldemar_hagglund
 #NAVY
 recruit_character = FIN_ivan_indrenius
 recruit_character = FIN_gustav_von_schoultz
+

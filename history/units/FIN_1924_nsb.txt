@@ -1,0 +1,112 @@
+##### Division Templates #####
+division_template = {
+	name = "Jalkaväkidivisioona"			#Infantry Division
+	division_names_group = FIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Ratsuväkidivisioona" 	#Cavalry Division
+	division_names_group = FIN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+##### OOB #####
+units = {	
+
+	#Infantry Divisions
+	division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11105
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.70
+	}		
+	
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3083
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.70
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3122
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.70
+	}
+
+    division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9206
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.70
+	}
+
+    #Cavalry Divisions
+	division = {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 197
+		division_template = "Ratsuväkidivisioona"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.70
+	}
+}
+
+#STARTING PRODUCTION
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "FIN"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

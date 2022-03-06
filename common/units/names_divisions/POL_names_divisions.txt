@@ -1,0 +1,259 @@
+﻿POL_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Dywizja Piechoty"
+
+	ordered = {
+		1 = { "%d. Dywizja Piechoty" }
+		2 = { "%d. Dywizja Piechoty" }
+		3 = { "%d. Dywizja Piechoty" }
+		4 = { "%d. Dywizja Piechoty" }
+		5 = { "%d. Dywizja Piechoty" }
+		6 = { "%d. Dywizja Piechoty" }
+		7 = { "%d. Dywizja Piechoty" }
+		8 = { "%d. Dywizja Piechoty" }
+		9 = { "%d. Dywizja Piechoty" }
+		10 = { "%d. Dywizja Piechoty" }
+	}
+}
+
+POL_CAV_01 = {
+	name = "Cavalry Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d. Dywizja Kawalerii"
+
+	ordered = {
+		1 = { "%d. Dywizja Kawalerii" }		
+		2 = { "%d. Dywizja Kawalerii" }		
+		3 = { "%d. Dywizja Kawalerii" }		
+		4 = { "%d. Dywizja Kawalerii" }		
+		5 = { "%d. Dywizja Kawalerii" }		
+		6 = { "%d. Dywizja Kawalerii" }		
+		7 = { "%d. Dywizja Kawalerii" }		
+		8 = { "%d. Dywizja Kawalerii" }		
+		9 = { "%d. Dywizja Kawalerii" }		
+		10 = { "%d. Dywizja Kawalerii" }			
+	}
+}
+
+POL_MOT_01 = {
+	name = "Motorized Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "%d. Dywizja Motorowa"
+
+	ordered = {
+		1 = { "%d. Dywizja Motorowa" }
+		2 = { "%d. Dywizja Motorowa" }
+		3 = { "%d. Dywizja Motorowa" }
+		4 = { "%d. Dywizja Motorowa" }
+		5 = { "%d. Dywizja Motorowa" }
+		6 = { "%d. Dywizja Motorowa" }
+		7 = { "%d. Dywizja Motorowa" }
+		8 = { "%d. Dywizja Motorowa" }
+		9 = { "%d. Dywizja Motorowa" }
+		10 = { "%d. Dywizja Motorowa" }	
+	}
+}
+
+POL_MEC_01 = {
+	name = "Mechanized Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "%d. Dywizja Zmechanizowana"
+
+	ordered = {
+		1 = { "%d. Dywizja Zmechanizowana" }
+		2 = { "%d. Dywizja Zmechanizowana" }
+		3 = { "%d. Dywizja Zmechanizowana" }
+		4 = { "%d. Dywizja Zmechanizowana" }
+		5 = { "%d. Dywizja Zmechanizowana" }
+		6 = { "%d. Dywizja Zmechanizowana" }
+		7 = { "%d. Dywizja Zmechanizowana" }
+		8 = { "%d. Dywizja Zmechanizowana" }
+		9 = { "%d. Dywizja Zmechanizowana" }
+		10 = { "%d. Dywizja Zmechanizowana" }	
+	}
+}
+
+POL_ARM_01 = {
+	name = "Armored Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. Dywizja Pancerna"
+
+	ordered = {
+		1 = { "%d. Dywizja Pancerna" }
+		2 = { "%d. Dywizja Pancerna" }
+		3 = { "%d. Dywizja Pancerna" }
+		4 = { "%d. Dywizja Pancerna" }
+		5 = { "%d. Dywizja Pancerna" }
+		6 = { "%d. Dywizja Pancerna" }
+		7 = { "%d. Dywizja Pancerna" }
+		8 = { "%d. Dywizja Pancerna" }
+		9 = { "%d. Dywizja Pancerna" }
+		10 = { "%d. Dywizja Pancerna" }
+	}
+}
+
+POL_PAR_01 = {
+	name = "Airborne Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "%d. Dywizja Spadochronowa"
+
+	ordered = {
+		1 = { "%d. Dywizja Spadochronowa" }
+		2 = { "%d. Dywizja Spadochronowa" }
+		3 = { "%d. Dywizja Spadochronowa" }
+		4 = { "%d. Dywizja Spadochronowa" }
+		5 = { "%d. Dywizja Spadochronowa" }
+		6 = { "%d. Dywizja Spadochronowa" }
+		7 = { "%d. Dywizja Spadochronowa" }
+		8 = { "%d. Dywizja Spadochronowa" }
+		9 = { "%d. Dywizja Spadochronowa" }
+		10 = { "%d. Dywizja Spadochronowa" }
+	}
+}
+
+POL_MAR_01 = {
+	name = "Marine Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "%d. Dywizja Piechoty Morskiej"
+
+	ordered = {
+		1 = { "%d. Dywizja Piechoty Morskiej" }
+		2 = { "%d. Dywizja Piechoty Morskiej" }
+		3 = { "%d. Dywizja Piechoty Morskiej" }
+		4 = { "%d. Dywizja Piechoty Morskiej" }
+		5 = { "%d. Dywizja Piechoty Morskiej" }
+		6 = { "%d. Dywizja Piechoty Morskiej" }
+		7 = { "%d. Dywizja Piechoty Morskiej" }
+		8 = { "%d. Dywizja Piechoty Morskiej" }
+		9 = { "%d. Dywizja Piechoty Morskiej" }
+		10 = { "%d. Dywizja Piechoty Morskiej" }
+	}
+}
+
+POL_MNT_01 = {
+	name = "Mountain Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	link_numbering_with = { POL_INF_01 }
+
+	fallback_name = "%d. Dywizja Piechoty Górskiej"
+
+	ordered = {	
+		1 = { "%d. Dywizja Piechoty Górskiej" }
+		2 = { "%d. Dywizja Piechoty Górskiej" }
+		3 = { "%d. Dywizja Piechoty Górskiej" }
+		4 = { "%d. Dywizja Piechoty Górskiej" }
+		5 = { "%d. Dywizja Piechoty Górskiej" }
+		6 = { "%d. Dywizja Piechoty Górskiej" }
+		7 = { "%d. Dywizja Piechoty Górskiej" }
+		8 = { "%d. Dywizja Piechoty Górskiej" }
+		9 = { "%d. Dywizja Piechoty Górskiej" }
+		10 = { "%d. Dywizja Piechoty Górskiej" }
+	}
+}
+
+POL_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Dywizja Garnizonowa"
+
+	ordered = {
+		1 = { "%d. Dywizja Garnizonowa" }
+		2 = { "%d. Dywizja Garnizonowa" }
+		3 = { "%d. Dywizja Garnizonowa" }
+		4 = { "%d. Dywizja Garnizonowa" }
+		5 = { "%d. Dywizja Garnizonowa" }
+		6 = { "%d. Dywizja Garnizonowa" }
+		7 = { "%d. Dywizja Garnizonowa" }
+		8 = { "%d. Dywizja Garnizonowa" }
+		9 = { "%d. Dywizja Garnizonowa" }
+		10 = { "%d. Dywizja Garnizonowa" }	
+	}
+}
+
+POL_VOL_01 = {
+	name = "Volunteer Brigade"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Brygada Ochotnicza"
+
+	ordered = {
+		1 = { "%d. Brygada Ochotnicza" }
+		2 = { "%d. Brygada Ochotnicza" }
+		3 = { "%d. Brygada Ochotnicza" }
+		4 = { "%d. Brygada Ochotnicza" }
+		5 = { "%d. Brygada Ochotnicza" }
+		6 = { "%d. Brygada Ochotnicza" }
+		7 = { "%d. Brygada Ochotnicza" }
+		8 = { "%d. Brygada Ochotnicza" }
+		9 = { "%d. Brygada Ochotnicza" }
+		10 = { "%d. Brygada Ochotnicza" }	
+	}
+}

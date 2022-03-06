@@ -1,0 +1,230 @@
+﻿AZR_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-ci Piyada Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Piyada Diviziyasi" }
+		2 = { "%d-ci Piyada Diviziyasi" }
+		3 = { "%d-ci Piyada Diviziyasi" }
+		4 = { "%d-ci Piyada Diviziyasi" }
+		5 = { "%d-ci Piyada Diviziyasi" }
+		6 = { "%d-ci Piyada Diviziyasi" }
+		7 = { "%d-ci Piyada Diviziyasi" }
+		8 = { "%d-ci Piyada Diviziyasi" }
+		9 = { "%d-ci Piyada Diviziyasi" }
+		10 = { "%d-ci Piyada Diviziyasi" }
+	}
+}
+
+AZR_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-ci Süvari Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Süvari Diviziyasi" }
+		2 = { "%d-ci Süvari Diviziyasi" }
+		3 = { "%d-ci Süvari Diviziyasi" }
+		4 = { "%d-ci Süvari Diviziyasi" }
+		5 = { "%d-ci Süvari Diviziyasi" }
+		6 = { "%d-ci Süvari Diviziyasi" }
+		7 = { "%d-ci Süvari Diviziyasi" }
+		8 = { "%d-ci Süvari Diviziyasi" }
+		9 = { "%d-ci Süvari Diviziyasi" }
+		10 = { "%d-ci Süvari Diviziyasi" }
+	}
+}
+
+AZR_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%d-ci Motorlu Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Motorlu Diviziyasi" }
+		2 = { "%d-ci Motorlu Diviziyasi" }
+		3 = { "%d-ci Motorlu Diviziyasi" }
+		4 = { "%d-ci Motorlu Diviziyasi" }
+		5 = { "%d-ci Motorlu Diviziyasi" }
+		6 = { "%d-ci Motorlu Diviziyasi" }
+		7 = { "%d-ci Motorlu Diviziyasi" }
+		8 = { "%d-ci Motorlu Diviziyasi" }
+		9 = { "%d-ci Motorlu Diviziyasi" }
+		10 = { "%d-ci Motorlu Diviziyasi" }
+	}
+}
+
+AZR_AZR_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-ci Zirehli Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Zirehli Diviziyasi" }
+		2 = { "%d-ci Zirehli Diviziyasi" }
+		3 = { "%d-ci Zirehli Diviziyasi" }
+		4 = { "%d-ci Zirehli Diviziyasi" }
+		5 = { "%d-ci Zirehli Diviziyasi" }
+		6 = { "%d-ci Zirehli Diviziyasi" }
+		7 = { "%d-ci Zirehli Diviziyasi" }
+		8 = { "%d-ci Zirehli Diviziyasi" }
+		9 = { "%d-ci Zirehli Diviziyasi" }
+		10 = { "%d-ci Zirehli Diviziyasi" }
+	}
+}
+
+AZR_MEC_01 = {
+	name = "Mechanized Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%d-ci Mexanikləşdirilmiş Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		2 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		3 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		4 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		5 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		6 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		7 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		8 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		9 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+		10 = { "%d-ci Mexanikləşdirilmiş Diviziyasi" }
+	}
+}
+
+AZR_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%d-ci Qarnizon Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Qarnizon Diviziyasi" }
+		2 = { "%d-ci Qarnizon Diviziyasi" }
+		3 = { "%d-ci Qarnizon Diviziyasi" }
+		4 = { "%d-ci Qarnizon Diviziyasi" }
+		5 = { "%d-ci Qarnizon Diviziyasi" }
+		6 = { "%d-ci Qarnizon Diviziyasi" }
+		7 = { "%d-ci Qarnizon Diviziyasi" }
+		8 = { "%d-ci Qarnizon Diviziyasi" }
+		9 = { "%d-ci Qarnizon Diviziyasi" }
+		10 = { "%d-ci Qarnizon Diviziyasi" }
+	}
+}
+
+AZR_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-ci Dəniz Korpusu"
+
+	ordered = {
+		1 = { "%d-ci Dəniz Korpusu" }
+		2 = { "%d-ci Dəniz Korpusu" }
+		3 = { "%d-ci Dəniz Korpusu" }
+		4 = { "%d-ci Dəniz Korpusu" }
+		5 = { "%d-ci Dəniz Korpusu" }
+		6 = { "%d-ci Dəniz Korpusu" }
+		7 = { "%d-ci Dəniz Korpusu" }
+		8 = { "%d-ci Dəniz Korpusu" }
+		9 = { "%d-ci Dəniz Korpusu" }
+		10 = { "%d-ci Dəniz Korpusu" }
+	}
+}
+
+AZR_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d-ci Dağ Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Dağ Diviziyasi" }
+		2 = { "%d-ci Dağ Diviziyasi" }
+		3 = { "%d-ci Dağ Diviziyasi" }
+		4 = { "%d-ci Dağ Diviziyasi" }
+		5 = { "%d-ci Dağ Diviziyasi" }
+		6 = { "%d-ci Dağ Diviziyasi" }
+		7 = { "%d-ci Dağ Diviziyasi" }
+		8 = { "%d-ci Dağ Diviziyasi" }
+		9 = { "%d-ci Dağ Diviziyasi" }
+		10 = { "%d-ci Dağ Diviziyasi" }
+	}
+}
+
+AZR_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-ci Paraşütçü Diviziyasi"
+
+	ordered = {
+		1 = { "%d-ci Paraşütçü Diviziyasi" }
+		2 = { "%d-ci Paraşütçü Diviziyasi" }
+		3 = { "%d-ci Paraşütçü Diviziyasi" }
+		4 = { "%d-ci Paraşütçü Diviziyasi" }
+		5 = { "%d-ci Paraşütçü Diviziyasi" }
+		6 = { "%d-ci Paraşütçü Diviziyasi" }
+		7 = { "%d-ci Paraşütçü Diviziyasi" }
+		8 = { "%d-ci Paraşütçü Diviziyasi" }
+		9 = { "%d-ci Paraşütçü Diviziyasi" }
+		10 = { "%d-ci Paraşütçü Diviziyasi" }
+	}
+}

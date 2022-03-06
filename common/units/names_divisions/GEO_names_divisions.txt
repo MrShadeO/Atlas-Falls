@@ -1,0 +1,255 @@
+﻿GEO_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-li Kveiti Divizia"
+
+	ordered = {
+		1 = { "%d-li Kveiti Divizia" }
+		2 = { "%d-li Kveiti Divizia" }
+		3 = { "%d-li Kveiti Divizia" }
+		4 = { "%d-li Kveiti Divizia" }
+		5 = { "%d-li Kveiti Divizia" }
+		6 = { "%d-li Kveiti Divizia" }
+		7 = { "%d-li Kveiti Divizia" }
+		8 = { "%d-li Kveiti Divizia" }
+		9 = { "%d-li Kveiti Divizia" }
+		10 = { "%d-li Kveiti Divizia" }
+	}
+}
+
+GEO_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d-li Sak'avalerio Divizia"
+
+	ordered = {
+		1 = { "%d-li Sak'avalerio Divizia" }
+		2 = { "%d-li Sak'avalerio Divizia" }
+		3 = { "%d-li Sak'avalerio Divizia" }
+		4 = { "%d-li Sak'avalerio Divizia" }
+		5 = { "%d-li Sak'avalerio Divizia" }
+		6 = { "%d-li Sak'avalerio Divizia" }
+		7 = { "%d-li Sak'avalerio Divizia" }
+		8 = { "%d-li Sak'avalerio Divizia" }
+		9 = { "%d-li Sak'avalerio Divizia" }
+		10 = { "%d-li Sak'avalerio Divizia" }
+	}
+}
+
+GEO_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d-li Saavt'omobilo Divizia"
+
+	ordered = {
+		1 = { "%d-li Saavt'omobilo Divizia" }
+		2 = { "%d-li Saavt'omobilo Divizia" }
+		3 = { "%d-li Saavt'omobilo Divizia" }
+		4 = { "%d-li Saavt'omobilo Divizia" }
+		5 = { "%d-li Saavt'omobilo Divizia" }
+		6 = { "%d-li Saavt'omobilo Divizia" }
+		7 = { "%d-li Saavt'omobilo Divizia" }
+		8 = { "%d-li Saavt'omobilo Divizia" }
+		9 = { "%d-li Saavt'omobilo Divizia" }
+		10 = { "%d-li Saavt'omobilo Divizia" }
+	}
+}
+
+GEO_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d-li Sat'ank'o Sammartvelo"
+
+	ordered = {
+		1 = { "%d-li Sat'ank'o Sammartvelo" }
+		2 = { "%d-li Sat'ank'o Sammartvelo" }
+		3 = { "%d-li Sat'ank'o Sammartvelo" }
+		4 = { "%d-li Sat'ank'o Sammartvelo" }
+		5 = { "%d-li Sat'ank'o Sammartvelo" }
+		6 = { "%d-li Sat'ank'o Sammartvelo" }
+		7 = { "%d-li Sat'ank'o Sammartvelo" }
+		8 = { "%d-li Sat'ank'o Sammartvelo" }
+		9 = { "%d-li Sat'ank'o Sammartvelo" }
+		10 = { "%d-li Sat'ank'o Sammartvelo" }
+	}
+}
+
+GEO_MEC_01 = {
+	name = "Mechanized Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d-li Mekanizebuli Sammartvelo"
+
+	ordered = {
+		1 = { "%d-li Mekanizebuli Sammartvelo" }
+		2 = { "%d-li Mekanizebuli Sammartvelo" }
+		3 = { "%d-li Mekanizebuli Sammartvelo" }
+		4 = { "%d-li Mekanizebuli Sammartvelo" }
+		5 = { "%d-li Mekanizebuli Sammartvelo" }
+		6 = { "%d-li Mekanizebuli Sammartvelo" }
+		7 = { "%d-li Mekanizebuli Sammartvelo" }
+		8 = { "%d-li Mekanizebuli Sammartvelo" }
+		9 = { "%d-li Mekanizebuli Sammartvelo" }
+		10 = { "%d-li Mekanizebuli Sammartvelo" }
+	}
+}
+
+GEO_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d-li Garnizonis Divizia"
+
+	ordered = {
+		1 = { "%d-li Garnizonis Divizia" }
+		2 = { "%d-li Garnizonis Divizia" }
+		3 = { "%d-li Garnizonis Divizia" }
+		4 = { "%d-li Garnizonis Divizia" }
+		5 = { "%d-li Garnizonis Divizia" }
+		6 = { "%d-li Garnizonis Divizia" }
+		7 = { "%d-li Garnizonis Divizia" }
+		8 = { "%d-li Garnizonis Divizia" }
+		9 = { "%d-li Garnizonis Divizia" }
+		10 = { "%d-li Garnizonis Divizia" }
+	}
+}
+
+GEO_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d-li Sazghvao Divizia"
+
+	ordered = {
+		1 = { "%d-li Sazghvao Divizia" }
+		2 = { "%d-li Sazghvao Divizia" }
+		3 = { "%d-li Sazghvao Divizia" }
+		4 = { "%d-li Sazghvao Divizia" }
+		5 = { "%d-li Sazghvao Divizia" }
+		6 = { "%d-li Sazghvao Divizia" }
+		7 = { "%d-li Sazghvao Divizia" }
+		8 = { "%d-li Sazghvao Divizia" }
+		9 = { "%d-li Sazghvao Divizia" }
+		10 = { "%d-li Sazghvao Divizia" }
+	}
+}
+
+GEO_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d-li Mtamsvlelta Sammartvelo"
+
+	ordered = {
+		1 = { "%d-li Mtamsvlelta Sammartvelo" }
+		2 = { "%d-li Mtamsvlelta Sammartvelo" }
+		3 = { "%d-li Mtamsvlelta Sammartvelo" }
+		4 = { "%d-li Mtamsvlelta Sammartvelo" }
+		5 = { "%d-li Mtamsvlelta Sammartvelo" }
+		6 = { "%d-li Mtamsvlelta Sammartvelo" }
+		7 = { "%d-li Mtamsvlelta Sammartvelo" }
+		8 = { "%d-li Mtamsvlelta Sammartvelo" }
+		9 = { "%d-li Mtamsvlelta Sammartvelo" }
+		10 = { "%d-li Mtamsvlelta Sammartvelo" }
+	}
+}
+
+GEO_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d-li Medesant'e Divizia"
+
+	ordered = {
+		1 = { "%d-li Medesant'e Divizia" }
+		2 = { "%d-li Medesant'e Divizia" }
+		3 = { "%d-li Medesant'e Divizia" }
+		4 = { "%d-li Medesant'e Divizia" }
+		5 = { "%d-li Medesant'e Divizia" }
+		6 = { "%d-li Medesant'e Divizia" }
+		7 = { "%d-li Medesant'e Divizia" }
+		8 = { "%d-li Medesant'e Divizia" }
+		9 = { "%d-li Medesant'e Divizia" }
+		10 = { "%d-li Medesant'e Divizia" }
+	}
+}
+
+GEO_VOL_01 = {
+	name = "Volunteer Brigades"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d-li Mokhaliseta Brigada"
+
+	ordered = {
+		1 = { "%d-li Mokhaliseta Brigada" }
+		2 = { "%d-li Mokhaliseta Brigada" }
+		3 = { "%d-li Mokhaliseta Brigada" }
+		4 = { "%d-li Mokhaliseta Brigada" }
+		5 = { "%d-li Mokhaliseta Brigada" }
+		6 = { "%d-li Mokhaliseta Brigada" }
+		7 = { "%d-li Mokhaliseta Brigada" }
+		8 = { "%d-li Mokhaliseta Brigada" }
+		9 = { "%d-li Mokhaliseta Brigada" }
+		10 = { "%d-li Mokhaliseta Brigada" }
+	}
+}

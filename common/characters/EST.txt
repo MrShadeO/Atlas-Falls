@@ -1,0 +1,54 @@
+characters = {
+    #COUNTRY LEADERS
+    EST_konstantin_pats = {
+		name = "Konstantin Päts"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EST/Portrait_EST_Konstantin_Päts.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = socialism_sub
+			traits = {  }
+			expire = "1950.1.1"
+		}
+	}
+
+    #MINISTERS
+
+
+    #THEORISTS
+
+
+    #ARMY
+    
+
+    #NAVY
+
+
+}

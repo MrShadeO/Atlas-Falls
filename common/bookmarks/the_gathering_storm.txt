@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1924.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "RUS"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = authoritarianism_ideology
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = ultranationalism_ideology
 			ideas = {
 				
 			}
@@ -17,49 +17,10 @@ bookmarks = {
 				
 			}
 		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+
+		"FIN"={
+			history = "FIN_GATHERING_STORM_DESC"
 			ideology = liberalism_ideology
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = liberalism_ideology
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = conservatism_ideology
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"AUH"={
-			history = "AUH_GATHERING_STORM_DESC"
-			ideology = conservatism_ideology
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = conservatism_ideology
 			ideas = {
 				
 			}	
@@ -67,9 +28,21 @@ bookmarks = {
 				
 			}			
 		}
-		"RUS"={
-			history = "RUS_GATHERING_STORM_DESC"
-			ideology = authoritarianism_ideology
+
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = social_democracy_ideology
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"GEO"={
+			history = "GEO_GATHERING_STORM_DESC"
+			ideology = social_democracy_ideology
 			ideas = {
 				
 			}
@@ -78,23 +51,52 @@ bookmarks = {
 			}	
 		}
 
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = social_democracy_ideology
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"UKR"={
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = authoritarianism_ideology
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"VLN"={
+			history = "VLN_GATHERING_STORM_DESC"
+			ideology = anarchism_ideology
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"LIT"={
+			history = "LIT_GATHERING_STORM_DESC"
+			ideology = conservatism_ideology
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 
 		### MINORS ###
-		"ITA"={
-			minor = yes
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = liberalism_ideology
-			ideas = {
-				
-			}	
-			focuses = {
-				
-			}		
-		}
 		
 		
 		effect = {

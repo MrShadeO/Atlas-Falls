@@ -1,16 +1,19 @@
 ﻿capital = 192
 
 set_research_slots = 3
-set_stability = 0.50
+set_stability = 0.90
 set_war_support = 0.50
-set_convoys = 10
+set_convoys = 15
 
-set_country_flag = has_hetman
+#ARMY OOB
+set_oob = "UKR_1924_nsb"
+
+set_country_flag = has_otaman
 set_country_flag = is_provisional_government
 
 add_ideas = {
 	very_low_tax_rate
-	limited_conscription
+	extensive_conscription
 	partial_economic_mobilisation
 	early_industrialization
 	legalized_trade_unions
@@ -31,16 +34,57 @@ set_politics = {
 set_popularities = {
 	anarchism_ideology = 0
 	totalism_ideology = 10
-	socialism_ideology = 20
-	social_democracy_ideology = 20
-	liberalism_ideology = 0
-	conservatism_ideology = 15
+	socialism_ideology = 12
+	social_democracy_ideology = 25
+	liberalism_ideology = 3
+	conservatism_ideology = 13
 	authoritarianism_ideology = 35
-	ultranationalism_ideology = 0
+	ultranationalism_ideology = 2
+}
+
+#TECHNOLOGIES
+set_technology = { 
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_train = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+	}
 }
 
 #LEADERS
 recruit_character = UKR_pavlo_skoropadskyi #Also is a Field Marshal
+recruit_character = UKR_symon_petliura
 
 #ARMY
 recruit_character = UKR_viktor_zelinsky #Field Marshal
@@ -68,8 +112,6 @@ recruit_character = UKR_arkhip_kmeta
 #NAVY
 recruit_character = UKR_andriy_pokrovskiy
 recruit_character = UKR_sviatoslav_shramchenko_navy
-
-
 
 	
 
