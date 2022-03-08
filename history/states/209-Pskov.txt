@@ -7,11 +7,15 @@ state = {
 
 	history = {
 		victory_points = { 11202 3 }
+		victory_points = { 126 1 }
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 3
+			126 = {
+				bunker = 5
+			}
 		}
 	}
 }

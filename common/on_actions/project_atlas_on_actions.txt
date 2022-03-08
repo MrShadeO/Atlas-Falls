@@ -176,6 +176,12 @@ on_actions = {
 
 				update_election_polls = yes
 			}
+
+			#Russian Civil War Stuff (This is here instead of a history file so that the Republic doesn't send faction invitations the player cannot accept anyways)
+			SOV = {
+				create_faction = sov_revolutionary_front
+				add_to_faction = GEO
+			}
 		}
 	}
 

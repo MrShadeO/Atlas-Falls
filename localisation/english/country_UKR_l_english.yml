@@ -39,6 +39,12 @@ UKR_social_democracy_ideology_party:0 "USDLP"
 UKR_social_democracy_ideology_party_long:0 "Ukrainian Social Democratic Labour Party"
 UKR_liberalism_ideology_party:0 "URDP"
 UKR_liberalism_ideology_party_long:0 "Ukrainian Radical Democratic Party"
+UKR_conservatism_ideology_party:0 "UDAP"
+UKR_conservatism_ideology_party_long:0 "Ukrainian Democratic Agrarian party"
+UKR_authoritarianism_ideology_party:0 "AUUoL"
+UKR_authoritarianism_ideology_party_long:0 "All-Ukrainian Union of Landowners"
+UKR_ultranationalism_ideology_party:0 "UVO"
+UKR_ultranationalism_ideology_party_long:0 "Ukrainian Military Organization"
 #Leader Traits
 
 #National Focuses

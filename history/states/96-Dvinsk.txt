@@ -12,6 +12,9 @@ state = {
 		add_core_of = LAT
 		buildings = {
 			infrastructure = 2
+			310 = {
+				bunker = 5
+			}
 		}
 	}
 }

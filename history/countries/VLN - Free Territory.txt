@@ -80,7 +80,11 @@ if = {
 recruit_character = VLN_nestor_makhno #Also is a Field Marshal
 
 #ARMY
-
+recruit_character = VLN_simon_karetnik
+recruit_character = VLN_viktor_belash
+recruit_character = VLN_panteleimon_belochub
+recruit_character = VLN_maria_nikiforova
+recruit_character = VLN_fedir_shchus
 
 #NAVY
 

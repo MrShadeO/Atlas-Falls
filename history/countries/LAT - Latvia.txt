@@ -85,7 +85,11 @@ recruit_character = LAT_janis_cakste
 
 
 #ARMY
-
+recruit_character = LAT_oskars_kalpaks #Field Marshal
+recruit_character = LAT_davids_simansons
+recruit_character = LAT_janis_balodis
+recruit_character = LAT_jorgis_zemitans
+recruit_character = LAT_roberts_dambitis
 
 #NAVY
 

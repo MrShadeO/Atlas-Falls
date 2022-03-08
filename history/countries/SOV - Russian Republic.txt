@@ -146,5 +146,3 @@ recruit_character = SOV_pyotr_kitkin
 recruit_character = SOV_aleksandr_razvozov
 
 #RUSSIAN CIVIL WAR STUFF
-create_faction = sov_revolutionary_front
-add_to_faction = GEO

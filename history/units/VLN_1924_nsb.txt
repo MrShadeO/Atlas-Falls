@@ -240,61 +240,6 @@ units = {
 		start_experience_factor = 0
 		start_equipment_factor = 0.85
 	}
-
-    division = {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 10
-		}
-		location = 11405
-		division_template = "Volonters'ka Bryhada"
-		start_experience_factor = 0
-		start_equipment_factor = 0.85
-	}
-
-    division = {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 11
-		}
-		location = 11437
-		division_template = "Volonters'ka Bryhada"
-		start_experience_factor = 0
-		start_equipment_factor = 0.85
-	}
-
-    division = {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 12
-		}
-		location = 6474
-		division_template = "Volonters'ka Bryhada"
-		start_experience_factor = 0
-		start_equipment_factor = 0.85
-	}
-
-    division = {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 13
-		}
-		location = 9461
-		division_template = "Volonters'ka Bryhada"
-		start_experience_factor = 0
-		start_equipment_factor = 0.85
-	}
-
-    division = {		
-		division_name = {
-			is_name_ordered = yes
-			name_order = 14
-		}
-		location = 3449
-		division_template = "Volonters'ka Bryhada"
-		start_experience_factor = 0
-		start_equipment_factor = 0.85
-	}
 }
 
 #Starting Production

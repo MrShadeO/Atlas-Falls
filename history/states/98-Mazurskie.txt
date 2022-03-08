@@ -10,8 +10,16 @@ state = {
 		owner = POL
 		add_core_of = POL
 		victory_points = { 3230 1 }
+		victory_points = { 6259 1 }
+		victory_points = { 6567 1 }
 		buildings = {
 			infrastructure = 3
+			6259 = {
+				bunker = 3
+			}
+			6567 = {
+				bunker = 3
+			}
 		}
 	}
 }

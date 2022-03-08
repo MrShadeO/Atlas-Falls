@@ -46,7 +46,90 @@ characters = {
 
 
     #ARMY
-    
+    LAT_oskars_kalpaks = {
+		name = "Oskars Kalpaks"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}	
+		field_marshal = {
+			traits = { infantry_leader inspirational_leader } 
+            skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LAT_davids_simansons = {
+		name = "Dāvids Sīmansons"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { old_guard infantry_leader } 
+            skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LAT_janis_balodis = {
+		name = "Jānis Balodis"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+            skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	LAT_jorgis_zemitans = {
+		name = "Jorģis Zemitāns"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+            skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	LAT_roberts_dambitis = {
+		name = "Roberts Dambītis"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+            skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 
     #NAVY
 

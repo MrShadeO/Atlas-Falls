@@ -85,7 +85,12 @@ recruit_character = EST_konstantin_pats
 
 
 #ARMY
-
+recruit_character = EST_johan_laidoner #Field Marshal
+recruit_character = EST_ernst_podder
+recruit_character = EST_aleksander_tonisson
+recruit_character = EST_andres_larka
+recruit_character = EST_karl_parts
+recruit_character = EST_jaan_soots
 
 #NAVY
 

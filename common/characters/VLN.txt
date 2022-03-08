@@ -27,12 +27,98 @@ characters = {
 
     #MINISTERS
 
+	#Lev Zadov - Military Intelligence
+	#Viktor Belash - 
+
 
     #THEORISTS
 
 
     #ARMY
-    
+    VLN_simon_karetnik = {
+		name = "Simon Karetnik"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLN/"
+			}
+		}	
+		corps_commander = {
+			traits = { trait_reckless infantry_leader } 
+            skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	VLN_viktor_belash = {
+		name = "Viktor Belash"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLN/Portrait_VLN_Viktor_Belash.dds"
+			}
+		}	
+		corps_commander = {
+			traits = { organizer } 
+            skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	VLN_panteleimon_belochub = {
+		name = "Panteleimon Belochub"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLN/"
+			}
+		}	
+		corps_commander = {
+			traits = { artillery_leader organizer } 
+            skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	VLN_maria_nikiforova = {
+		name = "Maria Nikiforova"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLN/"
+			}
+		}	
+		corps_commander = {
+			traits = {  } 
+            skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VLN_fedir_shchus = {
+		name = "Fedir Shchus"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VLN/"
+			}
+		}	
+		corps_commander = {
+			traits = { media_personality trait_reckless } 
+            skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
 
     #NAVY
 
