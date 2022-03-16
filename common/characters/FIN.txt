@@ -9,27 +9,27 @@ characters = {
 		}
 		country_leader = {
 			ideology = ultranationalism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = authoritarianism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = conservatism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = liberalism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = social_democracy_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
 	}

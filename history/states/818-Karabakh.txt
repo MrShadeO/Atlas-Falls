@@ -1,9 +1,9 @@
 state = {
 	id = 818
 	name = "STATE_818"
-	manpower = 500000
+	manpower = 744900
 	state_category = rural
-	provinces = { 1467 4660 8035 8061 9715 11708 }
+	provinces = { 1467 4660 6642 6997 8035 8061 8077 9702 9715 11708 13123 }
 
 	history = {
 		victory_points = { 8061 2 }

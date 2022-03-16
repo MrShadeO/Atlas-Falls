@@ -1,0 +1,70 @@
+add_namespace = Rrepublic
+
+#Rethinking Our Base of Operations
+country_event = {
+	id = Rrepublic.1
+	title = Rrepublic.1.t
+	desc = Rrepublic.1.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.1.a
+		swap_ideas = {
+            remove_idea = SOV_omsk_idea
+            add_idea = SOV_ekaterinburg_idea
+        }
+        set_victory_points = {
+            province = 10696
+            value = 5
+        }
+        set_victory_points = {
+            province = 1821
+            value = 15
+        }
+    }
+
+	option = {
+		name = Rrepublic.1.b
+	}
+
+    option = {
+		name = Rrepublic.1.c
+        swap_ideas = {
+            remove_idea = SOV_omsk_idea
+            add_idea = SOV_vladivostok_idea
+        }
+        set_victory_points = {
+            province = 10696
+            value = 5
+        }
+        set_victory_points = {
+            province = 957
+            value = 20
+        }
+	}
+}
+
+#The Exiles
+country_event = {
+	id = Rrepublic.2
+	title = Rrepublic.2.t
+	desc = Rrepublic.2.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.2.a
+		set_country_flag = SOV_accepted_bolshevik_exiles
+        custom_effect_tooltip = SOV_foc3_tt
+    }
+
+	option = {
+		name = Rrepublic.2.b
+        set_country_flag = SOV_refused_bolshevik_exiles
+        add_stability = 0.05
+        add_political_power = -25
+	}
+}

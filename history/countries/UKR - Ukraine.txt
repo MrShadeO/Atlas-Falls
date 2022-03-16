@@ -10,6 +10,14 @@ set_oob = "UKR_1924_nsb"
 
 set_country_flag = has_otaman
 set_country_flag = is_provisional_government
+set_country_flag = UKR_opposition_symon
+set_country_flag = UKR_opposition_leader_1
+
+add_dynamic_modifier = { modifier = UKR_army_of_many }
+set_variable = { UKR_army_conscription = 0.02 }
+set_variable = { UKR_army_land_reinforce_rate = -0.03 }
+set_variable = { UKR_army_army_org = -0.1 }
+set_variable = { UKR_army_army_attack_factor = 0.05 }
 
 add_ideas = {
 	very_low_tax_rate
@@ -23,6 +31,10 @@ add_ideas = {
 	navy_minimal_funding
 	air_poor_funding
 	air_untrained
+	UKR_army_of_many
+	UKR_Political_battel
+	UKR_For_ukraine
+	UKR_Breadbasket_damaged
 }
 
 set_politics = {
@@ -31,6 +43,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	anarchism_ideology = 0
 	totalism_ideology = 10

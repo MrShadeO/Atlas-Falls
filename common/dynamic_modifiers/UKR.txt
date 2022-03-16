@@ -1,0 +1,17 @@
+UKR_army_of_many = {
+	enable = { always = yes }
+
+	icon = GFX_idea_bul_zveno
+	
+	conscription = UKR_army_conscription
+	land_reinforce_rate = UKR_army_land_reinforce_rate
+	army_org_factor = UKR_army_army_org
+	army_attack_factor = UKR_army_army_attack_factor
+	army_defence_factor = UKR_army_army_defence_factor
+	max_planning = UKR_army_max_planning
+	planning_speed = UKR_army_planning_speed
+	army_infantry_attack_factor	= UKR_army_infantry_attack_factor
+	army_infantry_defence_factor = UKR_army_infantry_defenc_factor
+	cavalry_attack_factor = UKR_army_cavalry_attack_factor
+	cavalry_defence_factor = UKR_army_cavalry_defence_factor
+}

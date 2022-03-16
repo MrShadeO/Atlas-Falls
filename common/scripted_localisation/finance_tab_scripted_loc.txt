@@ -694,3 +694,16 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckRUSLaborCrisis
+	text = {
+		trigger = {
+			has_idea = RUS_labor_crisis_payment_idea
+		}
+		localization_key = SHOW_LABOR_CRISIS_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

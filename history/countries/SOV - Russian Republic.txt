@@ -45,7 +45,9 @@ set_popularities = {
 	ultranationalism_ideology = 0
 }
 
-add_ideas = {
+add_ideas = {   
+	SOV_the_land_rights_question_idea
+	RUS_famine_idea
 	very_low_tax_rate
 	war_economy
 	limited_conscription
@@ -75,6 +77,7 @@ if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
 		gwtank = 1
+		basic_heavy_tank = 1
 	}
 }
 if = {

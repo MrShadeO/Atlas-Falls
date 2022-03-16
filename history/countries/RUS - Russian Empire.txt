@@ -47,6 +47,11 @@ set_popularities = {
 }
 
 add_ideas = {
+	RUS_loyal_duma_idea
+	RUS_labor_crisis_idea
+	RUS_famine_idea
+	proper_heritage_spirit
+	fleet_in_being_navy_spirit
 	low_tax_rate
 	export_focus 
 	limited_conscription
@@ -75,6 +80,7 @@ if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
 		gwtank = 1
+		basic_heavy_tank = 1
 	}
 }
 if = {
@@ -117,7 +123,9 @@ if = {
 }
 
 #LEADERS
-recruit_character = RUS_nicholas_ii
+recruit_character = RUS_nicholas_ii #Starting leader
+recruit_character = RUS_kirill_i
+recruit_character = RUS_olga_i
 
 #MINISTERS
 recruit_character = RUS_dummy_agriculture_1 #This minister only exists for debugging purposes
@@ -146,7 +154,7 @@ recruit_character = RUS_fedor_abramov
 recruit_character = RUS_pyotr_pisarev
 recruit_character = RUS_isaac_bykadorov
 recruit_character = RUS_vladimir_vitkovsky
-recruit_character = RUS_michael_alexandrovich
+recruit_character = RUS_michael_alexandrovich #Also a possible country leader
 recruit_character = RUS_sergey_markov
 recruit_character = RUS_pavel_shatilov
 recruit_character = RUS_konstantin_nechaev

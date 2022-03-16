@@ -1,0 +1,300 @@
+add_namespace = Rimperial
+
+#A New Heir
+country_event = {
+	id = Rimperial.1
+	title = Rimperial.1.t
+	desc = Rimperial.1.d
+	picture = GFX_report_event_por_return_of_the_monarchy
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.1.a
+		set_country_flag = RUS_kirill_is_heir
+        add_stability = 0.05
+        add_political_power = 25
+    }
+
+	option = {
+		name = Rimperial.1.b
+		set_country_flag = RUS_michael_is_heir
+        add_stability = 0.05
+        add_political_power = -25
+	}
+
+    option = {
+		name = Rimperial.1.c
+        set_country_flag = RUS_olga_is_heir
+        add_stability = 0.05
+        add_political_power = -25
+	}
+}
+
+#Solve the Labor Crisis
+country_event = {
+	id = Rimperial.2
+	title = Rimperial.2.t
+	desc = Rimperial.2.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.2.a
+		swap_ideas = {
+            remove_idea = RUS_labor_crisis_idea
+            add_idea = RUS_labor_crisis_soldiers_idea
+        }
+    }
+
+	option = {
+		name = Rimperial.2.b
+		swap_ideas = {
+            remove_idea = RUS_labor_crisis_idea
+            add_idea = RUS_labor_crisis_payment_idea
+        }
+	}
+
+    option = {
+		name = Rimperial.2.c
+        swap_ideas = {
+            remove_idea = RUS_labor_crisis_idea
+            add_idea = RUS_labor_crisis_enforcement_idea
+        }
+	}
+}
+
+#(France) Russia Requests Aid
+country_event = {
+	id = Rimperial.3
+	title = Rimperial.3.t
+	desc = Rimperial.3.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.3.a
+		set_country_flag = FRA_providing_aid_to_russia
+		RUS = { 
+			set_country_flag = RUS_france_provides_aid 
+			add_opinion_modifier = {
+				target = FRA
+				modifier = FRA_gave_RUS_aid
+			}
+			country_event = { id = Rimperial.4 days = 1 }
+		}
+    }
+
+	option = {
+		name = Rimperial.3.b
+		RUS = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = FRA_refused_RUS_aid
+			}
+			country_event = { id = Rimperial.5 days = 1 }
+		}
+	}
+}
+
+#(Russia) France Accepts
+country_event = {
+	id = Rimperial.4
+	title = Rimperial.4.t
+	desc = Rimperial.4.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.4.a
+
+    }
+}
+
+#(Russia) France Refuses
+country_event = {
+	id = Rimperial.5
+	title = Rimperial.5.t
+	desc = Rimperial.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.5.a
+
+    }
+}
+
+#(Finland) Russia Presses Our Soldiers Into Service
+country_event = {
+	id = Rimperial.6
+	title = Rimperial.6.t
+	desc = Rimperial.6.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.6.a
+		effect_tooltip = {
+			add_manpower = -25000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -2500
+				producer = FIN
+			}
+			RUS = {
+				add_manpower = 25000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = FIN
+				}
+			}
+		}
+    }
+}
+
+#The Tsar is dead, long live the tsar!
+#Triggered by the civil war still going on by September 22, 1926 OR if surrender progress is >25%
+country_event = {
+	id = Rimperial.7
+	title = Rimperial.7.t
+	desc = Rimperial.7.d
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.7.a
+		#Kirill was chosen as heir OR no heir was chosen (if the player for some insane reason chose not to do their focus tree)
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = RUS_michael_is_heir
+					has_country_flag = RUS_olga_is_heir
+				}
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_kirill_i
+				Ideology = authoritarianism_sub
+			}
+			set_politics = {
+				ruling_party = authoritarianism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+		}
+		#Michael was chosen as heir
+		else_if = {
+			limit = {
+				has_country_flag = RUS_michael_is_heir
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_michael_alexandrovich
+				Ideology = liberalism_sub
+			}
+			set_politics = {
+				ruling_party = liberalism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+			hidden_effect = {
+				set_character_name = {
+					character = RUS_michael_alexandrovich
+					name = "Michael II"
+				}
+			}
+		}
+		#Olga was chosen as heir
+		else_if = {
+			limit = {
+				has_country_flag = RUS_olga_is_heir
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_olga_i
+				Ideology = conservatism_sub
+			}
+			set_politics = {
+				ruling_party = conservatism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = has_tsar
+			set_country_flag = has_tsarina
+		}
+    }
+}
+
+#The Tsar's Suicide
+country_event = {
+	id = Rimperial.8
+	title = Rimperial.8.t
+	desc = Rimperial.8.d
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.8.a
+		#Kirill was chosen as heir OR no heir was chosen (if the player for some insane reason chose not to do their focus tree)
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = RUS_michael_is_heir
+					has_country_flag = RUS_olga_is_heir
+				}
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_kirill_i
+				Ideology = authoritarianism_sub
+			}
+			set_politics = {
+				ruling_party = authoritarianism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+		}
+		#Michael was chosen as heir
+		else_if = {
+			limit = {
+				has_country_flag = RUS_michael_is_heir
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_michael_alexandrovich
+				Ideology = liberalism_sub
+			}
+			set_politics = {
+				ruling_party = liberalism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+			hidden_effect = {
+				set_character_name = {
+					character = RUS_michael_alexandrovich
+					name = "Michael II"
+				}
+			}
+		}
+		#Olga was chosen as heir
+		else_if = {
+			limit = {
+				has_country_flag = RUS_olga_is_heir
+			}
+			retire_character = RUS_nicholas_ii
+			promote_character = {
+				character = RUS_olga_i
+				Ideology = conservatism_sub
+			}
+			set_politics = {
+				ruling_party = conservatism_ideology
+			}
+			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = has_tsar
+			set_country_flag = has_tsarina
+		}
+    }
+}

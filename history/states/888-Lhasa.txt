@@ -3,10 +3,14 @@ state = {
 	name = "STATE_888"
 	manpower = 1825000
 	state_category=town
-	provinces = { 1991 2014 2098 4900 5033 8121 12807 }
+	provinces = { 1991 2014 2093 2098 4900 4994 5033 7926 8121 12784 12807 }
+		resources = {
+		tungsten = 1
+	}
 
 	history = {
 		victory_points = { 5033 5 }
+		victory_points = { 4994 1 }
 		owner = TIB
 		add_core_of = TIB
 		buildings = {

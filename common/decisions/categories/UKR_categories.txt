@@ -1,0 +1,7 @@
+UKR_decision_to_reclaim_our_home = {
+	icon = generic_crisis
+
+	allowed = {
+		always = yes
+	}
+}

@@ -1,0 +1,246 @@
+upgrade_brusilov_line = {
+    587 = {
+        if = {
+            limit = { SOV = { controls_province = 642 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 642
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 13008 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 13008
+            }
+        }
+    }
+    402 = {
+        if = {
+            limit = { SOV = { controls_province = 10264 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10264
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 12179 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 12179
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 10253 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10253
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 4294 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 4294
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 1254 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 1254
+            }
+        }
+    }
+    582 = {
+        if = {
+            limit = { SOV = { controls_province = 1406 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 1406
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 7373 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 7373
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 7300 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 7300
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 4265 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 4265
+            }
+        }
+    }
+    573 = {
+        if = {
+            limit = { SOV = { controls_province = 12117 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 12117
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 10136 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10136
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 361 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 361
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 237 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 237
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 278 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 278
+            }
+        }
+    }
+    581 = {
+        if = {
+            limit = { SOV = { controls_province = 10216 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10216
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 4874 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 4874
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 12659 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 12659
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 7824 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 7824
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 10551 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10551
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 12393 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 12393
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 10667 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 10667
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 11098 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 11098
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 12502 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 12502
+            }
+        }
+        if = {
+            limit = { SOV = { controls_province = 13076 } }
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+                province = 13076
+            }
+        }
+    }
+}

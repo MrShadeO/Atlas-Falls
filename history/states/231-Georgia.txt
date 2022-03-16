@@ -2,20 +2,22 @@
 state = {
 	id = 231
 	name = "STATE_231"
-	manpower = 2500000
-	state_category = town
-	provinces = { 654 672 772 1530 1599 3658 3667 4534 4605 4902 6436 6671 6674 9626 9702 9663 11599 11609 11617 11647 12309 }
+	manpower = 2670000
+	state_category = city
+	provinces = { 654 672 772 1530 1599 3653 3656 3658 3667 4534 4605 4902 6436 6671 6674 6669 9626 11599 11609 11617 12309 }
 
 	history = {
 		victory_points = { 1599 5 }
-		victory_points = { 11647 1 }
+		victory_points = { 3653 3 }
 		owner = GEO
 		add_core_of = GEO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
-			11647 = { naval_base = 1 }
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
 		}
 	}
 }

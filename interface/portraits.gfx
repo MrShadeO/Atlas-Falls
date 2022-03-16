@@ -59,6 +59,21 @@ spriteTypes = {
 		textureFile = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.dds"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_UKR_Pavlo_Skoropadskyi"
+		textureFile = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadskyi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_UKR_Viacheslav_Lypynsky"
+		textureFile = "gfx/leaders/UKR/Portrait_UKR_Viacheslav_Lypynsky.dds"
+	}
+
+	#spriteType = {
+	#	name = "GFX_Portrait_UKR_Opanas_Andriievsky"
+	#	textureFile = "gfx/leaders/UKR/Portrait_UKR_Opanas_Andriievsky.dds"
+	#}
+
 	###GEO###
 	spriteType = {
 		name = "GFX_Portrait_GEO_Akaki_Chkhenkeli"

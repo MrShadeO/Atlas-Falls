@@ -1,0 +1,494 @@
+ideas = {
+    country = {
+        SOV_omsk_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = can_wartime_prices_and_trade_board
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.05
+                stability_factor = -0.05
+			}
+		}
+
+        SOV_ekaterinburg_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = can_wartime_prices_and_trade_board
+
+			removal_cost = -1
+
+			modifier = {
+				supply_consumption_factor = -0.10
+                planning_speed = 0.05
+			}
+		}
+
+        SOV_vladivostok_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = can_wartime_prices_and_trade_board
+
+			removal_cost = -1
+
+			modifier = {
+                political_power_factor = 0.10
+				supply_consumption_factor = 0.10
+                planning_speed = -0.10
+			}
+		}
+
+        SOV_the_land_rights_question_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_agrarian_reform
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = -0.10
+                war_support_factor = -0.10
+                political_power_factor = -0.10
+			}
+		}
+
+        SOV_revolutionary_zeal_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = saf_soviet_advisers
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.15
+                army_morale_factor = 0.10
+			}
+		}
+
+        SOV_the_great_retreat_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = SOV_conspiracy_in_the_academy_airforce
+
+			removal_cost = -1
+
+			modifier = {
+                army_attack_factor = -0.10
+                army_defence_factor = 0.10
+                planning_speed = -0.15
+			}
+		}
+
+		SOV_american_support_1_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = usa_department_of_defense
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		SOV_american_support_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = usa_department_of_defense
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+				land_doctrine_cost_factor = -0.10
+			}
+		}
+
+		SOV_american_support_3_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = usa_department_of_defense
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+				land_doctrine_cost_factor = -0.10
+			}
+		}
+
+		SOV_american_support_4_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = usa_department_of_defense
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+			}
+		}
+
+		SOV_british_support_1_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = eng_guided_by_britain
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		SOV_british_support_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = eng_guided_by_britain
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+				max_planning_factor = 0.10
+			}
+		}
+
+		SOV_british_support_3_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = eng_guided_by_britain
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+				production_speed_buildings_factor = 0.075
+				industry_repair_factor = 0.15
+			}
+		}
+
+		SOV_british_support_4_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = eng_guided_by_britain
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+				max_planning_factor = 0.10
+			}
+		}
+
+		SOV_british_support_5_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = eng_guided_by_britain
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+				production_speed_buildings_factor = 0.075
+				industry_repair_factor = 0.15
+			}
+		}
+
+		SOV_japanese_support_1_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = jap_militarism_shogun
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		SOV_japanese_support_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = jap_militarism_shogun
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+				training_time_factor = -0.25
+			}
+		}
+
+		SOV_japanese_support_3_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = jap_militarism_shogun
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.05
+				war_support_factor = 0.05
+				air_ace_generation_chance_factor = 0.075
+				air_accidents_factor = -0.075
+				air_weather_penalty = -0.075
+			}
+		}
+
+		SOV_japanese_support_4_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = jap_militarism_shogun
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+				training_time_factor = -0.25
+			}
+		}
+
+		SOV_japanese_support_5_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = jap_militarism_shogun
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.10
+				war_support_factor = 0.10
+				air_ace_generation_chance_factor = 0.075
+				air_accidents_factor = -0.075
+				air_weather_penalty = -0.075
+			}
+		}
+    }
+}

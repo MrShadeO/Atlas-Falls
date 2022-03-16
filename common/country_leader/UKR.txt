@@ -1,0 +1,31 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+	
+	uniter_of_conservatives = {
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	honorary_otaman = {
+		random = no
+		cavalry_attack_factor = 0.10
+		cavalry_defence_factor = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heart_bleeding_ukrainian = {
+		random = no
+		political_power_gain = 0.10
+		stability_factor = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

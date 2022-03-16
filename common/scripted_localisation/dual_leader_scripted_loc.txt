@@ -10,6 +10,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_country_flag = has_tsarina
+		}
+		localization_key = TSARINA_TITLE
+	}
+	text = {
+		trigger = {
 			has_country_flag = has_president
 		}
 		localization_key = PRESIDENT_TITLE
@@ -296,6 +302,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = UKR
+			has_country_flag = UKR_opposition_leader_1
 		}
 		localization_key = UKR_OPPOSITION_LEADER
 	}
@@ -456,11 +463,34 @@ defined_text = {
 		}
 		localization_key = VLN_SOLDIER_COMMITTEES
 	}
+	###UKR###
 	text = {
 		trigger = {
 			original_tag = UKR
+			has_country_flag = UKR_opposition_symon
 		}
 		localization_key = UKR_SYMON_PETLIURA
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_opposition_pavlo
+		}
+		localization_key = UKR_PAVLO_SKOROPADSKYI
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_viacheslav_lypynsky
+		}
+		localization_key = UKR_VIACHESLAV_LYPYNSKY_KEY
+	}
+	text = {
+		trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_opanas_andriievsky
+		}
+		localization_key = UKR_OPANAS_ANDRIIEVSKY_KEY
 	}
 	text = {
 		trigger = {
@@ -787,11 +817,34 @@ defined_text = {
         }
         localization_key = "GFX_Portrait_FIN_Carl_Gustav_Mannerheim"
 	}
+	###UKR###
 	text = {
         trigger = {
 			original_tag = UKR
+			has_country_flag = UKR_opposition_symon
         }
         localization_key = "GFX_Portrait_UKR_Symon_Petliura"
+	}
+	text = {
+        trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_opposition_pavlo
+        }
+        localization_key = "GFX_Portrait_UKR_Pavlo_Skoropadskyi"
+	}
+	text = {
+        trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_viacheslav_lypynsky
+        }
+        localization_key = "GFX_Portrait_UKR_Viacheslav_Lypynsky"
+	}
+	text = {
+        trigger = {
+			original_tag = UKR
+			has_country_flag = UKR_opanas_andriievsky
+        }
+        localization_key = "GFX_Portrait_UKR_Opanas_Andriievsky"
 	}
 	text = {
         trigger = {

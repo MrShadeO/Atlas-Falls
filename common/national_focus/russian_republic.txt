@@ -1,0 +1,533 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = russian_republic_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+
+    continuous_focus_position = { x = 100 y = 50 }
+	
+	default = no
+
+    initial_show_position = {
+        focus = SOV_fortify_the_brusilov_line
+    }
+
+    focus = {
+		id = SOV_fortify_the_brusilov_line
+		icon = GFX_goal_generic_construct_military
+		x = 10
+		y = 0
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_brusilov_line_tt
+            hidden_effect = {
+                upgrade_brusilov_line = yes
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_mission_to_vladivostok
+		icon = GFX_goal_generic_position_armies
+		x = 12
+		y = 0
+		cost = 45
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+			army_experience = 20
+			add_manpower = -50
+		}		
+	}
+
+    focus = {
+		id = SOV_reassess_our_base_of_operations
+		icon = GFX_focus_generic_aircraft_production
+		prerequisite = { focus = SOV_fortify_the_brusilov_line }
+		prerequisite = { focus = SOV_mission_to_vladivostok }
+		x = 1
+		y = 1
+		relative_position_id = SOV_fortify_the_brusilov_line
+		cost = 45
+
+		completion_reward = {
+			country_event = Rrepublic.1
+		}		
+	}
+
+	focus = {
+		id = SOV_milyukovs_foreign_policy
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = SOV_reassess_our_base_of_operations }
+		x = 0
+		y = 1
+		relative_position_id = SOV_reassess_our_base_of_operations
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc2_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_the_exiles
+		icon = GFX_focus_SOV_the_path_of_marxism_leninism
+		prerequisite = { focus = SOV_milyukovs_foreign_policy }
+		x = 0
+		y = 1
+		relative_position_id = SOV_milyukovs_foreign_policy
+		cost = 45
+
+		completion_reward = {
+			country_event = Rrepublic.2
+		}		
+	}
+
+	focus = {
+		id = SOV_the_all_russian_constituent_assembly
+		icon = GFX_focus_POL_complete_april_constitution
+		prerequisite = { focus = SOV_the_exiles }
+		available = {
+			has_country_flag = SOV_refused_bolshevik_exiles
+		}
+		x = -6
+		y = 1
+		relative_position_id = SOV_the_exiles
+		cost = 45
+
+		completion_reward = {
+			
+		}		
+	}
+
+	focus = {
+		id = SOV_presidential_dictatorship
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
+		prerequisite = { focus = SOV_the_exiles }
+		available = {
+			has_country_flag = SOV_bolshevik_coup_unsuccessful
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_the_exiles
+		cost = 45
+
+		completion_reward = {
+			
+		}		
+	}
+
+	focus = {
+		id = SOV_rise_of_the_bolsheviks
+		icon = GFX_focus_SOV_the_supreme_soviet
+		prerequisite = { focus = SOV_the_exiles }
+		available = {
+			has_country_flag = SOV_bolshevik_coup_successful
+		}
+		x = 6
+		y = 1
+		relative_position_id = SOV_the_exiles
+		cost = 45
+
+		completion_reward = {
+			
+		}		
+	}
+
+	focus = {
+		id = SOV_american_support
+		icon = GFX_focus_chi_mission_to_the_us
+		prerequisite = { focus = SOV_milyukovs_foreign_policy }
+		available = {
+			has_country_flag = SOV_american_embassy_established
+		}
+		x = 11
+		y = 1
+		relative_position_id = SOV_milyukovs_foreign_policy
+		cost = 45
+
+		completion_reward = {
+			add_ideas = SOV_american_support_1_idea
+			custom_effect_tooltip = SOV_foc1_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_american_military_advisors
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SOV_american_support }
+		mutually_exclusive = { focus = SOV_american_trade_deal }
+		x = -1
+		y = 1
+		relative_position_id = SOV_american_support
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_american_support_1_idea
+				add_idea = SOV_american_support_2_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_american_trade_deal
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = SOV_american_support }
+		mutually_exclusive = { focus = SOV_american_military_advisors }
+		x = 1
+		y = 1
+		relative_position_id = SOV_american_support
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc4_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_american_volunteers
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { 
+			focus = SOV_american_military_advisors 
+			focus = SOV_american_trade_deal
+		}
+		mutually_exclusive = { focus = SOV_american_rifle_designs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_american_military_advisors
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc5_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_american_rifle_designs
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = SOV_american_military_advisors 
+			focus = SOV_american_trade_deal
+		}
+		mutually_exclusive = { focus = SOV_american_volunteers }
+		x = 0
+		y = 1
+		relative_position_id = SOV_american_trade_deal
+		cost = 30
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = infantry_weapons
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_american_alignment
+		icon = GFX_goal_sov_russian_american_alliance
+		prerequisite = { 
+			focus = SOV_american_volunteers
+			focus = SOV_american_rifle_designs
+		}
+		mutually_exclusive = {
+			focus = SOV_british_alignment
+			focus = SOV_japanese_alignment
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_american_volunteers
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SOV_american_support_2_idea }
+				swap_ideas = {
+					remove_idea = SOV_american_support_2_idea
+					add_idea = SOV_american_support_3_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SOV_american_support_1_idea
+					add_idea = SOV_american_support_4_idea
+				}
+			}
+			custom_effect_tooltip = SOV_foc6_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_british_support
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = SOV_milyukovs_foreign_policy }
+		available = {
+			has_country_flag = SOV_british_embassy_established
+		}
+		x = 16
+		y = 1
+		relative_position_id = SOV_milyukovs_foreign_policy
+		cost = 45
+
+		completion_reward = {
+			add_ideas = SOV_british_support_1_idea
+			custom_effect_tooltip = SOV_foc1_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_british_military_advisors
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		prerequisite = { focus = SOV_british_support }
+		mutually_exclusive = { focus = SOV_british_industrial_expertise }
+		x = -1
+		y = 1
+		relative_position_id = SOV_british_support
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_british_support_1_idea
+				add_idea = SOV_british_support_2_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_british_industrial_expertise
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = SOV_british_support }
+		mutually_exclusive = { focus = SOV_british_military_advisors }
+		x = 1
+		y = 1
+		relative_position_id = SOV_british_support
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_british_support_1_idea
+				add_idea = SOV_british_support_3_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_british_volunteers
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		prerequisite = { 
+			focus = SOV_british_military_advisors
+			focus = SOV_british_industrial_expertise
+		}
+		mutually_exclusive = { focus = SOV_british_tank_designs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_british_military_advisors
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc7_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_british_tank_designs
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { 
+			focus = SOV_british_military_advisors
+			focus = SOV_british_industrial_expertise
+		}
+		mutually_exclusive = { focus = SOV_british_volunteers }
+		x = 0
+		y = 1
+		relative_position_id = SOV_british_industrial_expertise
+		cost = 30
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = armor
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_british_alignment
+		icon = GFX_goal_sov_russian_british_alliance
+		prerequisite = { 
+			focus = SOV_british_volunteers
+			focus = SOV_british_tank_designs
+		}
+		mutually_exclusive = {
+			focus = SOV_american_alignment
+			focus = SOV_japanese_alignment
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_british_volunteers
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SOV_british_support_2_idea }
+				swap_ideas = {
+					remove_idea = SOV_british_support_2_idea
+					add_idea = SOV_british_support_4_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SOV_british_support_3_idea
+					add_idea = SOV_british_support_5_idea
+				}
+			}
+			custom_effect_tooltip = SOV_foc8_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_support
+		icon = GFX_goal_generic_diplomacy_with_japan
+		prerequisite = { focus = SOV_milyukovs_foreign_policy }
+		available = {
+			has_country_flag = SOV_japanese_embassy_established
+		}
+		x = 21
+		y = 1
+		relative_position_id = SOV_milyukovs_foreign_policy
+		cost = 45
+
+		completion_reward = {
+			add_ideas = SOV_japanese_support_1_idea
+			custom_effect_tooltip = SOV_foc1_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_military_advisors
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = SOV_japanese_support }
+		mutually_exclusive = { focus = SOV_japanese_flight_instructors }
+		x = -1
+		y = 1
+		relative_position_id = SOV_japanese_support
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_japanese_support_1_idea
+				add_idea = SOV_japanese_support_2_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_flight_instructors
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = SOV_japanese_support }
+		mutually_exclusive = { focus = SOV_japanese_military_advisors }
+		x = 1
+		y = 1
+		relative_position_id = SOV_japanese_support
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_japanese_support_1_idea
+				add_idea = SOV_japanese_support_3_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_volunteers
+		icon = GFX_focus_generic_japanese_imperial_glory
+		prerequisite = { 
+			focus = SOV_japanese_military_advisors
+			focus = SOV_japanese_flight_instructors
+		}
+		mutually_exclusive = { focus = SOV_japanese_aircraft_designs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_japanese_military_advisors
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc9_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_aircraft_designs
+		icon = GFX_focus_jap_zero
+		prerequisite = { 
+			focus = SOV_japanese_military_advisors
+			focus = SOV_japanese_flight_instructors
+		}
+		mutually_exclusive = { focus = SOV_japanese_volunteers }
+		x = 0
+		y = 1
+		relative_position_id = SOV_japanese_flight_instructors
+		cost = 30
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = air_equipment
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_japanese_alignment
+		icon = GFX_goal_sov_russian_japanese_alliance
+		prerequisite = { 
+			focus = SOV_japanese_volunteers
+			focus = SOV_japanese_aircraft_designs
+		}
+		mutually_exclusive = {
+			focus = SOV_american_alignment
+			focus = SOV_british_alignment
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_japanese_volunteers
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SOV_japanese_support_2_idea }
+				swap_ideas = {
+					remove_idea = SOV_japanese_support_2_idea
+					add_idea = SOV_japanese_support_4_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SOV_japanese_support_3_idea
+					add_idea = SOV_japanese_support_5_idea
+				}
+			}
+			custom_effect_tooltip = SOV_foc10_tt
+		}		
+	}
+}

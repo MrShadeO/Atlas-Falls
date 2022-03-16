@@ -3,7 +3,7 @@ state = {
 	name = "STATE_894"
 	manpower = 444000
 	state_category = pastoral
-	provinces = { 1698 1943 2074 4947 4973 5736 10315 10911 }
+	provinces = { 1698 1943 2074 4947 4973 5011 5736 8037 8068 10315 10755 10911 10918 }
 
 	history = {
 		victory_points = { 4973 1 }

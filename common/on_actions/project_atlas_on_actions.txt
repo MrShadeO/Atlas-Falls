@@ -178,9 +178,18 @@ on_actions = {
 			}
 
 			#Russian Civil War Stuff (This is here instead of a history file so that the Republic doesn't send faction invitations the player cannot accept anyways)
+			set_global_flag = russian_civil_war_active
 			SOV = {
 				create_faction = sov_revolutionary_front
 				add_to_faction = GEO
+				add_ideas = { #Has to be here because they instantly cancel at the start of the game and do not appear
+					SOV_omsk_idea
+					SOV_revolutionary_zeal_idea 
+				}
+				add_timed_idea = {
+					idea = SOV_the_great_retreat_idea
+					days = 180
+				}
 			}
 		}
 	}

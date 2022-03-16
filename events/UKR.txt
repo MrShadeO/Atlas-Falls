@@ -1,0 +1,251 @@
+add_namespace = UKR_event
+
+#Introduction
+country_event = {
+	id = UKR_event.1 
+	title = UKR_event.1.t
+	desc = UKR_event.1.d
+	picture = GFX_report_event_soldiers_marching
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = UKR_event.1.a
+	}
+}
+
+#Pavlo Introduction
+country_event = {
+	id = UKR_event.2 
+	title = UKR_event.2.t
+	desc = UKR_event.2.d
+	picture = GFX_report_event_baltic_entente
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.2.a
+	}
+}
+
+#Symon Introduction
+country_event = {
+	id = UKR_event.3 
+	title = UKR_event.3.t
+	desc = UKR_event.3.d
+	picture = GFX_report_event_bul_imro_chieftain
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.3.a
+	}
+}
+
+#Mykhailo Introduction
+country_event = {
+	id = UKR_event.4
+	title = UKR_event.4.t
+	desc = UKR_event.4.d
+	picture = GFX_report_event_tur_ataturk_writing_desk
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.4.a
+	}
+}
+
+#Yevhen Introduction
+country_event = {
+	id = UKR_event.5
+	title = UKR_event.5.t
+	desc = UKR_event.5.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = UKR_event.5.a
+	}
+}
+
+#Send a letter to Poland
+country_event = {
+	id = UKR_event.6
+	title = UKR_event.6.t
+	desc = UKR_event.6.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.6.a
+		UKR = {
+			country_event = { id = UKR_event.7 days = 3 }
+		}
+	}
+
+	option = {
+		name = UKR_event.6.b
+		UKR = { 
+			country_event = { id = UKR_event.8 days = 3 } 
+		}
+   }
+}
+
+#They say YES
+country_event = {
+	id = UKR_event.7
+	title = UKR_event.7.t
+	desc = UKR_event.7.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.7.a
+	}
+}
+
+#The say No
+country_event = {
+	id = UKR_event.8
+	title = UKR_event.8.t
+	desc = UKR_event.8.d
+	picture = GFX_report_event_fascists_posing
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.8.a
+		set_country_flag = UKR_poland_refuse
+		complete_national_focus = UKR_volyn_is_ours
+	}
+}
+
+#Peace over Volyn
+country_event = {
+	id = UKR_event.9
+	title = UKR_event.9.t
+	desc = UKR_event.9.d
+	picture = GFX_report_event_germany_politician_handshake
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.9.a
+		UKR = { 
+			country_event = { id = UKR_event.10 days = 3 } 
+		}
+	}
+
+	option = {
+		name = UKR_event.9.b
+		add_stability = -0.10
+		UKR = {
+			country_event = { id = UKR_event.11 days = 3 }
+		}
+    }
+}
+
+#They say YES
+country_event = {
+	id = UKR_event.10
+	title = UKR_event.10.t
+	desc = UKR_event.10.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.10.a
+		set_state_controller = 93
+		white_peace = POL
+	}
+}
+
+#The say No
+country_event = {
+	id = UKR_event.11
+	title = UKR_event.11.t
+	desc = UKR_event.11.d
+	picture = GFX_report_event_german_troops_paris 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.11.a
+	}
+}
+
+#Peace over Black sea
+country_event = {
+	id = UKR_event.12
+	title = UKR_event.12.t
+	desc = UKR_event.12.d
+	picture = GFX_report_event_germany_politician_handshake
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.12.a
+		UKR = {
+			country_event = { id = UKR_event.13 days = 3 }
+	    }
+	}
+
+	option = {
+		name = UKR_event.12.b
+		add_stability = -0.10
+		UKR = {
+			country_event = { id = UKR_event.14 days = 3 }
+	 	}
+    }
+}
+
+#They say YES
+country_event = {
+	id = UKR_event.13
+	title = UKR_event.13.t
+	desc = UKR_event.13.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.13.a
+		set_state_controller = 234
+		set_state_controller = 218
+		white_peace = SOV
+	}
+}
+
+#The say No
+country_event = {
+	id = UKR_event.14
+	title = UKR_event.14.t
+	desc = UKR_event.14.d
+	picture = GFX_report_event_german_troops_paris 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UKR_event.14.a
+	}
+}

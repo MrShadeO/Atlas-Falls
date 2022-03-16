@@ -1,0 +1,965 @@
+focus_tree = {
+	id = Ukraine_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 30
+			tag = UKR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 150 y = 2000 }
+
+
+	focus = {
+		id = UKR_curent_situation
+		icon = GFX_focus_POL_ukrainian_army
+		x = 27
+		y = 0
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			country_event = {
+				id = UKR_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_the_leaders
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = UKR_curent_situation }
+		x = 0
+		y = 1
+		relative_position_id = UKR_curent_situation
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		select_effect = {
+			country_event = { id = UKR_event.2 days = 7 }
+			country_event = { id = UKR_event.3 days = 17 }
+			country_event = { id = UKR_event.4 days = 27 }
+			country_event = { id = UKR_event.5 days = 37 }
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_trust_in_cossack
+		icon = GFX_focus_SOV_restore_cossack_units
+		prerequisite = { focus = UKR_the_leaders }
+		mutually_exclusive = { focus = UKR_work_with_the_left }
+		x = -1
+		y = 1
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			set_country_flag = UKR_cossacks
+			mark_focus_tree_layout_dirty = yes
+			add_to_variable = { UKR_army_cavalry_attack_factor = 0.05}
+			add_to_variable = { UKR_army_cavalry_defence_factor = 0.05}
+			custom_effect_tooltip = UKR_cavalry_attack
+		}
+	}
+
+	focus = {
+		id = UKR_improve_communication
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = UKR_trust_in_cossack }
+		x = -1
+		y = 2
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_to_variable = { UKR_Army_land_reinforce_rate = 0.05 }
+			custom_effect_tooltip = UKR_communication
+			set_technology = { radio = 1 }
+		}
+	}
+
+	focus = {
+		id = UKR_ally_landlords
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = UKR_improve_communication }
+		x = -1
+		y = 3
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_country_leader_trait = uniter_of_conservatives
+			swap_ideas = {
+				remove_idea = UKR_political_battle
+				add_idea = UKR_political_battle_1
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = conservatism_ideology
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = authoritarianism_ideology
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = ultranationalism_ideology
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = social_democracy_ideology
+					popularity = -0.15
+				}
+			}
+    	}
+	}
+
+	focus = {
+		id = UKR_germany_exports
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+		prerequisite = { focus = UKR_ally_landlords }
+		x = -1
+		y = 4
+		relative_position_id = UKR_the_leaders
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_breadbasket_damaged
+				add_idea = UKR_strained_agriculture
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_for_arms
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = UKR_germany_exports }
+		x = -1
+		y = 5
+		relative_position_id = UKR_the_leaders
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 3 
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_work_with_the_left
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = UKR_the_leaders }
+		mutually_exclusive = { focus = UKR_trust_in_cossack }
+		x = 1
+		y = 1
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_political_battle
+				add_idea = UKR_political_battle_1
+			}
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = UKR_coalition_against_tyranny
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = UKR_work_with_the_left }
+		x = 1
+		y = 2
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = social_democracy_ideology
+				elections_allowed = no
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = liberalism_ideology
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = authoritarianism_ideology
+					popularity = -0.20
+				}
+				add_popularity = {
+					ideology = socialism_ideology
+					popularity = 0.10
+				}
+				add_popularity = {
+					ideology = totalism_ideology
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = social_democracy_ideology
+					popularity = 0.15
+				}
+			}
+			mark_focus_tree_layout_dirty = yes
+			set_country_flag = UKR_president
+			clr_country_flag = has_otaman
+			set_country_flag = has_president
+			clr_country_flag = UKR_opposition_symon
+			set_country_flag = UKR_opposition_pavlo
+		}
+	}
+
+	focus = {
+		id = UKR_organize_the_army
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = UKR_coalition_against_tyranny }
+		x = 1
+		y = 3
+		relative_position_id = UKR_the_leaders
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = UKR_orginaze_the_army
+			add_to_variable = { UKR_army_army_org = 0.15 }
+		}
+	}
+
+	focus = {
+		id = UKR_seize_russian_grain
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = UKR_organize_the_army }
+		x = 1
+		y = 4
+		relative_position_id = UKR_the_leaders
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_Breadbasket_damaged
+				add_idea = UKR_strained_agriculture
+			} 
+		}
+	}
+
+	focus = {
+		id = UKR_for_our_soldiers
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = UKR_seize_russian_grain }
+		x = 1
+		y = 5
+		relative_position_id = UKR_the_leaders
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = UKR_arm_our_soldiers
+			add_offsite_building = { 
+				type = arms_factory 
+				level = 1 
+			}
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 1 
+			}
+			add_to_variable = { UKR_army_infantry_attack_factor = 0.05 }
+			add_to_variable = { UKR_army_infantry_defence_factor = 0.05 }
+		}
+	}
+
+	focus = {
+		id = UKR_west_question
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { 
+			focus = UKR_for_our_soldiers 
+			focus = UKR_for_arms
+		}
+		x = -4
+		y = 1
+		relative_position_id = UKR_for_arms
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = UKR_volyn_is_ours
+		icon = GFX_focus_POL_prussia_line
+		prerequisite = { focus = UKR_west_question }
+		mutually_exclusive = { focus = UKR_find_a_compromise }
+		x = -1
+		y = 1
+		relative_position_id = UKR_west_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			set_country_flag = UKR_volyn_aspiration
+			custom_effect_tooltip = UKR_volyn_will_be_ours
+		}
+	}
+
+	focus = {
+		id = UKR_find_a_compromise
+		icon = GFX_focus_generic_polish_deal
+		prerequisite = { focus = UKR_west_question }
+		mutually_exclusive = { focus = UKR_volyn_is_ours }
+		x = 1
+		y = 1
+		relative_position_id = UKR_west_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			POL = {
+				country_event = { id = UKR_event.6 days = 3 }
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_support_uvo
+		icon = GFX_focus_POL_beck_ribbentrop
+		prerequisite = { focus = UKR_volyn_is_ours }
+		x = -1
+		y = 2
+		relative_position_id = UKR_west_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = UKR_support_uvo_tt
+			add_to_variable = { UKR_army_conscription = -0.01 }
+			add_to_variable = { UKR_army_army_attack_factor = 0.05 }
+			add_popularity = {
+				ideology = ultranationalism_ideology
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = UKR_bring_uvo_home
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = UKR_find_a_compromise }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = UKR_poland_refuse_1
+				NOT = { has_country_flag = UKR_poland_refuse }
+			}
+		}
+		x = 1
+		y = 2
+		relative_position_id = UKR_west_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = UKR_bring_them_home_uvo
+			add_to_variable = { UKR_army_conscription = -0.01 }
+			add_to_variable = { UKR_army_army_defence_factor = 0.05 }
+			add_popularity = {
+				ideology = ultranationalism_ideology
+				popularity = -0.05
+			}
+			add_ideas = UKR_polish_ukraine_cooperation
+		}
+	}
+
+	focus = {
+		id = UKR_south_question
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { 
+			focus = UKR_for_our_soldiers 
+			focus = UKR_for_arms
+		}
+		x = 6
+		y = 1
+		relative_position_id = UKR_for_arms
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = UKR_control_the_black_sea
+		icon = GFX_focus_SOV_reinforce_southern_naval_bases
+		prerequisite = { focus = UKR_south_question }
+		mutually_exclusive = { focus = UKR_moderate_approach }
+		x = -1
+		y = 1
+		relative_position_id = UKR_south_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_state_claim = 234
+			add_state_claim = 218
+			custom_effect_tooltip = UKR_control_the_black_seaa
+			set_country_flag = UKR_black_sea_aspiration_1
+		}
+	}
+
+	focus = {
+		id = UKR_moderate_approach
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = UKR_south_question }
+		mutually_exclusive = { focus = UKR_control_the_black_sea }
+		x = 1
+		y = 1
+		relative_position_id = UKR_south_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = UKR_crush_ruskie
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = UKR_control_the_black_sea }
+		x = -1
+		y = 2
+		relative_position_id = UKR_south_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = UKR_against_russia
+				days = 240
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_defend_our_home
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = UKR_moderate_approach }
+		x = 1
+		y = 2
+		relative_position_id = UKR_south_question
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = UKR_defend_ukraine
+				days = 240
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_planing_boards
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { 
+			focus = UKR_for_our_soldiers 
+			focus = UKR_for_arms
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_for_arms
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_to_variable = { UKR_army_max_planning = 0.10 }
+			custom_effect_tooltip = UKR_planning_better
+		}
+	}
+
+	focus = {
+		id = UKR_prepare_strike
+		icon = GFX_focus_SOV_mobilization_plan
+		prerequisite = { focus = UKR_planing_boards }
+		x = 0
+		y = 1
+		relative_position_id = UKR_planing_boards
+		cost = 90
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = UKR_to_take_kiev
+				days = 180
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_solidify_kiev
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = UKR_prepare_strike }
+		x = 0
+		y = 2
+		relative_position_id = UKR_planing_boards
+		cost = 45
+		
+		available = { 
+		controls_state = 202}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = UKR_to_take_kiev
+			202 = {
+				add_building_construction = { 
+					type = bunker 
+					province = 535 
+					level = 3 
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = bunker 
+					province = 488 
+					level = 3 
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = bunker 
+					province = 3543 
+					level = 3 
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = bunker 
+					province = 3494 
+					level = 3 
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = bunker 
+					province = 9568 
+					level = 3 
+					instant_build = yes 
+				}
+				add_building_construction = { 
+					type = bunker 
+					province = 11454 
+					level = 3 
+					instant_build = yes 
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_think_fast
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { 
+			focus = UKR_for_our_soldiers 
+			focus = UKR_for_arms
+		}
+		x = 3
+		y = 1
+		relative_position_id = UKR_for_arms
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = UKR_think_fast_tt
+			add_to_variable = {
+				UKR_army_planning_speed = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_move_fast
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+		prerequisite = { focus = UKR_think_fast }
+		x = 0
+		y = 1
+		relative_position_id = UKR_think_fast
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = UKR_move_fast
+				days = 90
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_strike_fast
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = UKR_move_fast }
+		x = 0
+		y = 2
+		relative_position_id = UKR_think_fast
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+			NOT = { country_exists = VLN }
+		}
+
+		completion_reward = {
+			declare_war_on = {
+				target = VLN
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_internal_enemy
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { 
+			focus = UKR_for_our_soldiers 
+			focus = UKR_for_arms
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_for_arms
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = UKR_political_battle }
+				swap_ideas = {
+					remove_idea = UKR_political_battle
+					add_idea = UKR_political_battle_1
+				}
+			}
+			if = {
+				limit = { has_idea = UKR_political_battle_1 }
+				swap_ideas = {
+					remove_idea = UKR_political_battle_1
+					add_idea = UKR_political_battle_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_negotiate_with_agranian_party
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UKR_internal_enemy }
+		x = 0
+		y = 1
+		relative_position_id = UKR_internal_enemy
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		allow_branch = {
+			has_country_flag = UKR_cossacks
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+				ideology = conservatism_ideology
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_a_quick_takeover
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = UKR_negotiate_with_agranian_party }
+		x = 0
+		y = 2
+		relative_position_id = UKR_internal_enemy
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			retire_character = UKR_symon_petliura
+			hidden_effect = {
+				add_popularity = {
+					ideology = socialism_ideology
+					popularity = -0.20
+				}
+				add_popularity = {
+					ideology = totalism_ideology
+					popularity = -0.20
+				}
+				add_popularity = {
+					ideology = authoritarianism_ideology
+					popularity = 0.10
+				}
+			}
+			set_country_flag = UKR_viacheslav_lypynsky
+			set_country_flag = UKR_prime_minister_1
+			clr_country_flag = UKR_opposition_symon
+			clr_country_flag = UKR_opposition_leader_1
+		}
+	}
+
+	focus = {
+		id = UKR_demonize_the_otaman
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = UKR_internal_enemy }
+		x = 0
+		y = 1
+		relative_position_id = UKR_internal_enemy
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		allow_branch = {
+			has_country_flag = UKR_president
+		}		
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = authoritarianism_ideology
+				popularity = -0.10
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_exile_hetman
+		icon = GFX_focus_SOV_military_purge
+		prerequisite = { focus = UKR_demonize_the_otaman }
+		x = 0
+		y = 2
+		relative_position_id = UKR_internal_enemy
+		cost = 30
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			retire_character = UKR_pavlo_skoropadskyi
+			set_country_flag = UKR_opanas_andriievsky
+			set_country_flag = UKR_prime_minister_1
+			clr_country_flag = UKR_opposition_pavlo
+			clr_country_flag = UKR_opposition_leader_1
+		}
+	}
+
+	focus = {
+		id = UKR_glory_to_Ukraine
+		icon = GFX_focus_POL_ukrainian_army
+		prerequisite = { 
+			focus = UKR_exile_hetman
+			focus = UKR_a_quick_takeover 
+		}
+		prerequisite = { focus = UKR_solidify_kiev }
+		prerequisite = { focus = UKR_strike_fast}
+		prerequisite = { 
+			focus = UKR_defend_our_home
+			focus = UKR_crush_ruskie
+		}
+		prerequisite = { 
+			focus = UKR_support_uvo
+			focus = UKR_bring_uvo_home
+		}
+		
+		available = {
+			controls_state = 226
+			controls_state = 202
+			controls_state = 137
+			OR = {
+				controls_state = 93
+				custom_trigger_tooltip = {
+					tooltip = UKR_volyn_aspiration1
+					has_country_flag = UKR_volyn_aspiration
+				}
+			}
+			OR = {
+				controls_state = 218
+				controls_state = 234
+				custom_trigger_tooltip = {
+					tooltip = UKR_black_sea_aspiration_1
+					has_country_flag = UKR_Black_sea_aspiration
+				}
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_solidify_kiev
+		cost = 45
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		allow_branch = {
+			always = yes
+		}
+
+		completion_reward = {
+			white_peace = RUS
+			white_peace = SOV
+			remove_ideas = UKR_for_ukraine
+			remove_ideas = UKR_polish_ukraine_cooperation
+			hidden_effect = {
+				set_state_owner = 226
+				set_state_controller = 226
+				set_state_owner = 227
+				set_state_controller = 227
+				set_state_owner = 196
+				set_state_controller = 196
+				set_state_owner = 137
+				set_state_controller = 137
+				set_state_owner = 202
+				set_state_controller = 202
+				set_state_owner = 201
+				set_state_controller = 201
+				set_state_owner = 259
+				set_state_controller = 259
+				set_state_owner = 193
+				set_state_controller = 193
+				set_state_owner = 221
+				set_state_controller = 221
+				if = {
+					limit = { has_country_flag = UKR_black_sea_aspiration }
+					set_state_owner = 218
+					set_state_controller = 218
+					set_state_owner = 234
+					set_state_controller = 234
+				}
+			}
+			if = {
+				limit = { has_country_flag = UKR_volyn_aspiration } 
+				set_state_owner = 93
+				set_state_controller = 93
+			}
+		}
+	}
+}

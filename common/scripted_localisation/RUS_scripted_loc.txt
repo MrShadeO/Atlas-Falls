@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetTsarGenderTitle
+    text = {
+		trigger = {
+			has_country_flag = has_tsar
+		}
+		localization_key = TSAR_TITLE
+	}
+    text = {
+		trigger = {
+			has_country_flag = has_tsarina
+		}
+		localization_key = TSARINA_TITLE
+	}
+}

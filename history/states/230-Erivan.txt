@@ -1,0 +1,16 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	manpower = 828530
+	state_category = town
+	provinces = { 3564 12320 12380 12441 12450 }
+
+	history = {
+
+		victory_points = { 12320 5 }
+		victory_points = { 12441 2 }
+		owner = GEO
+		add_core_of = GEO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1

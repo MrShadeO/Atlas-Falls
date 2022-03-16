@@ -2,14 +2,11 @@ state = {
 	id = 322
 	name = "STATE_322"
 	manpower = 120000
-	state_category = pastoral
-	provinces = { 2010 2093 4994 5011 7926 8037 8068 10755 10918 12784 }
-	resources = {
-		tungsten = 1
-	}
+	state_category = wasteland
+	impassable = yes
+	provinces = { 2010 }
 
 	history = {
-		victory_points = { 4994 1 }
 		owner = TIB
 		add_core_of = TIB
 		buildings = {

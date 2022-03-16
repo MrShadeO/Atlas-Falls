@@ -1,0 +1,212 @@
+ideas = {
+    country = {
+
+		UKR_political_battle = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+		
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.1
+			}
+		}
+
+		UKR_political_battle_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+		
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.08
+			}
+		}
+
+		UKR_political_battle_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+		
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.05
+			}
+		}
+
+		UKR_for_ukraine = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = SOV_war_heroes	
+		
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+
+		UKR_breadbasket_damaged = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = LIT_invested_in_farms	
+		
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		UKR_strained_agriculture = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = POL_looming_peasants_strike	
+		
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				monthly_population = -0.3
+				stability_factor = -0.05
+			}
+		}
+
+		UKR_to_take_kiev = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_intel_bonus	
+
+			targeted_modifier = {
+				tag = RUS
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+		UKR_move_fast = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = FRA_motorized_focus	
+
+			modifier = {
+				army_speed_factor = 0.1
+			}
+		}
+
+		UKR_against_russia = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus	
+
+			modifier = {
+				army_core_attack_factor = 0.1
+			}
+		}
+
+		UKR_defend_ukraine = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = YUG_federal_defense_council	
+
+			modifier = {
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		UKR_polish_ukraine_cooperation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus	
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+  	}
+}

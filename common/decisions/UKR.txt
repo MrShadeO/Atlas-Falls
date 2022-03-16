@@ -1,0 +1,134 @@
+UKR_decision_to_reclaim_our_home = {
+	UKR_volyn_will_be_ours = {
+		icon = decision_border_war
+
+		cost = 0
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = UKR_volyn_aspiration
+			POL = {
+				controls_state = 93
+			}
+		}
+
+		days_remove = 30
+
+		remove_effect = {
+			declare_war_on = {
+				target = POL
+				type = take_state_focus
+				generator = { 93 }
+			}
+		}
+	}
+
+	UKR_give_up_volyn = {
+		icon = decision_eng_trade_unions_support
+
+		cost = 0
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = UKR_volyn_aspiration
+			POL = {
+				controls_state = 93
+		  	}
+		}
+
+		complete_effect = {
+			clr_country_flag = UKR_volyn_aspiration
+		}
+  	}
+
+	UKR_peace_with_poland = {
+		icon = decision_eng_trade_unions_support
+
+		cost = 0
+		
+		days_re_enable = 100
+
+		visible = {
+			has_country_flag = UKR_volyn_aspiration
+			UKR = {
+				controls_state = 93
+			}
+		}
+
+      	complete_effect = {
+			POL = { country_event = UKR_event.9 }
+		}
+	}
+
+ 	UKR_black_sea_domination = {
+		icon = decision_border_war
+
+		cost = 0
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = UKR_black_sea_aspiration
+			SOV = {
+				OR = {
+					controls_state = 234
+					controls_state = 218
+				}
+			}
+		}
+
+		days_remove = 30
+
+		remove_effect = {
+			declare_war_on = {
+				target = SOV
+				type = take_state_focus
+				generator = { 218 234 }
+			}
+		}
+	}
+
+	UKR_give_up_rostov = {
+		icon = decision_eng_trade_unions_support
+
+		cost = 0
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = UKR_Black_sea_asppiration
+			SOV = {
+				OR = {
+					controls_state = 234
+					controls_state = 218
+				}
+			}
+		}
+
+      	complete_effect = {
+	  		clr_country_flag = UKR_Black_sea_asppiration
+	  	}
+  	}
+
+	UKR_peace_with_russia_republic = {
+		icon = decision_eng_trade_unions_support
+
+		cost = 0
+		
+		days_re_enable = 100
+
+		visible = {
+			has_country_flag = UKR_Black_sea_asppiration
+			UKR = {
+				controls_state = 234
+				controls_state = 218
+			}
+		}
+
+		complete_effect = {
+			SOV = { country_event = UKR_event.12 }
+		}
+	}
+}

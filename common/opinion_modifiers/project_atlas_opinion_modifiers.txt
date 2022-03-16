@@ -1,0 +1,10 @@
+opinion_modifiers = {
+    FRA_gave_RUS_aid = {
+        value = 30
+    }
+
+    FRA_refused_RUS_aid = {
+        value = -15
+        months = 24
+    }
+}

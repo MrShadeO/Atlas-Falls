@@ -12,22 +12,22 @@ characters = {
 		}	
 		country_leader = {
 			ideology = liberalism_sub
-			traits = {  }
+			traits = { honorary_otaman }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = conservatism_sub
-			traits = {  }
+			traits = { honorary_otaman }
 			expire = "1950.1.1"
 		}
 		country_leader = {
 			ideology = authoritarianism_sub
-			traits = {  }
+			traits = { honorary_otaman }
 			expire = "1950.1.1"
 		}
 		country_leader = {
 			ideology = ultranationalism_sub
-			traits = {  }
+			traits = { honorary_otaman }
 			expire = "1950.1.1"
 		}
 		field_marshal = {
@@ -46,21 +46,32 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.dds"
 			}
+			army = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.dds"
+			}
 		}
 		country_leader = {
 			ideology = totalism_sub
-			traits = {  }
+			traits = { heart_bleeding_ukrainian }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = socialism_sub
-			traits = {  }
+			traits = { heart_bleeding_ukrainian }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = social_democracy_sub
-			traits = {  }
+			traits = { heart_bleeding_ukrainian }
 			expire = "1950.1.1"
+		}
+		field_marshal = {
+			traits = { politically_connected infantry_leader } 
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
 		}
 	}
 

@@ -2,8 +2,8 @@ state = {
 	id = 101
 	name = "STATE_101"
 	manpower = 13000
-	state_category = wasteland
-	provinces = { 10245 10636 12512 13058 13066 }
+	state_category = Enclave
+	provinces = { 10636 12512 13058 13066 }
 
 	history = {
 		owner = DEN

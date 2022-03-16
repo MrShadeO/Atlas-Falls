@@ -39,7 +39,7 @@ characters = {
 		name = "Simon Karetnik"
 		portraits = {
 			army = {
-				large = "gfx/leaders/VLN/"
+				large = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 			}
 		}	
 		corps_commander = {
@@ -73,7 +73,7 @@ characters = {
 		name = "Panteleimon Belochub"
 		portraits = {
 			army = {
-				large = "gfx/leaders/VLN/"
+				large = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 			}
 		}	
 		corps_commander = {
@@ -90,7 +90,7 @@ characters = {
 		name = "Maria Nikiforova"
 		portraits = {
 			army = {
-				large = "gfx/leaders/VLN/"
+				large = "gfx/leaders/VLN/Portrait_VLN_Maria_Nikiforova.dds"
 			}
 		}	
 		corps_commander = {
@@ -107,7 +107,7 @@ characters = {
 		name = "Fedir Shchus"
 		portraits = {
 			army = {
-				large = "gfx/leaders/VLN/"
+				large = "gfx/leaders/VLN/Portrait_VLN_Fedir_Shchus.dds"
 			}
 		}	
 		corps_commander = {

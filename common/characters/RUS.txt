@@ -9,22 +9,96 @@ characters = {
 		}
 		country_leader = {
 			ideology = ultranationalism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = authoritarianism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = conservatism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = liberalism_sub
-			traits = {  }
+			traits = { the_mad_tsar }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = social_democracy_sub
+			traits = { the_mad_tsar }
+			expire = "1950.1.1"
+		}
+	}
+
+	RUS_kirill_i = {
+		name = "Kirill I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vladimirovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = { patron_of_the_navy }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = { patron_of_the_navy }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = { patron_of_the_navy }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = { patron_of_the_navy }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = social_democracy_sub
+			traits = { patron_of_the_navy }
+			expire = "1950.1.1"
+		}
+	}
+
+	RUS_olga_i = {
+		name = "Olga I"
+		gender = female
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Olga_Nikolaevna.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = { trapped_in_a_gilded_cage }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = authoritarianism_sub
+			traits = { trapped_in_a_gilded_cage }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = conservatism_sub
+			traits = { trapped_in_a_gilded_cage }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = liberalism_sub
+			traits = { trapped_in_a_gilded_cage }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = social_democracy_sub
+			traits = { trapped_in_a_gilded_cage }
 			expire = "1950.1.1"
 		}
 	}
@@ -642,11 +716,36 @@ characters = {
 		name = "Michael Alexandrovich"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RUS/Portrait_RUS_Michael_Alexandrovich.dds"
+				large = "gfx/leaders/RUS/Portrait_RUS_Michael_II.dds"
 			}
 			army = {
 				large = "gfx/leaders/RUS/Portrait_RUS_Michael_Alexandrovich.dds"
 			}
+		}
+		country_leader = {
+			ideology = ultranationalism_sub
+			traits = { the_liberal_tsar }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = authoritarianism_sub
+			traits = { the_liberal_tsar }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = conservatism_sub
+			traits = { the_liberal_tsar }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = liberalism_sub
+			traits = { the_liberal_tsar }
+			expire = "1950.1.1"
+		}
+		country_leader = {
+			ideology = social_democracy_sub
+			traits = { the_liberal_tsar }
+			expire = "1950.1.1"
 		}	
 		corps_commander = {
 			traits = { politically_connected artillery_leader inspirational_leader } 
