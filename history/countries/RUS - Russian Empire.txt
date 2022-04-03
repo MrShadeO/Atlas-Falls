@@ -253,6 +253,26 @@ FIN = {
 	}
 }
 
+set_variable = {
+	var = peasant_popularity
+	value = 50
+}
+
+set_variable = {
+	var = worker_popularity
+	value = 25
+}
+
+set_variable = {
+	var = bourgeoisie_popularity
+	value = 20
+}
+
+set_variable = {
+	var = aristocrat_popularity
+	value = 90
+}
+
 #ARMOR TEMPLATES
 if = {
 	limit = {

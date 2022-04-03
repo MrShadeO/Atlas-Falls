@@ -43,4 +43,8 @@
  artillery_expert:0 "Artillery Expert"
  artillery_expert_desc:0 "An expert at fire-direction control."
  artillery_ratio_over_20:0 "Artillery ratio > §H20%§!"
+ young_officer:0 "Young Officer"
+ young_officer_desc:0 "A member of the Young Officers cadre."
+ red_napoleon:0 "Red Napoleon"
+ red_napoleon_desc:0 "A true master of the battlefield."
 

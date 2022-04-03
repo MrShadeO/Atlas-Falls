@@ -1,0 +1,15 @@
+on_actions = {
+    on_daily_SOV = {
+        effect = {
+            SOV = {
+                if = {
+                    limit = {
+                        has_character = SOV_aleksei_brusilov
+                        date > 1926.03.17
+                    }
+                    country_event = Rrepublic.14
+                }
+            }
+        }
+    }
+}

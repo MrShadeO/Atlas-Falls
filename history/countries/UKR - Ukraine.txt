@@ -32,9 +32,9 @@ add_ideas = {
 	air_poor_funding
 	air_untrained
 	UKR_army_of_many
-	UKR_Political_battel
-	UKR_For_ukraine
-	UKR_Breadbasket_damaged
+	UKR_political_battle
+	UKR_for_ukraine
+	UKR_breadbasket_damaged
 }
 
 set_politics = {

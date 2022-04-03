@@ -1,0 +1,66 @@
+scripted_gui = {
+    peoples_of_russia_gui = {
+        window_name = "peoples_of_russia_window"
+        context_type = decision_category
+
+        dynamic_lists = {
+			peasant_bars_grid = {
+				array = peasant_support_scale_graph_array
+				index = peasant_support_scale_graph_index
+				change_scope = no
+				entry_container = peasant_bars_entry
+			}
+
+            worker_bars_grid = {
+				array = worker_support_scale_graph_array
+				index = worker_support_scale_graph_index
+				change_scope = no
+				entry_container = worker_bars_entry
+			}
+
+            bourgeoisie_bars_grid = {
+				array = bourgeoisie_support_scale_graph_array
+				index = bourgeoisie_support_scale_graph_index
+				change_scope = no
+				entry_container = bourgeoisie_bars_entry
+			}
+
+            aristocrat_bars_grid = {
+				array = aristocrat_support_scale_graph_array
+				index = aristocrat_support_scale_graph_index
+				change_scope = no
+				entry_container = aristocrat_bars_entry
+			}
+		}
+
+        properties = {
+			republican_flag = {
+				image = "[SOV.GetCurrentFlag]"
+			}
+
+            peasant_bar = { 
+				frame = v
+			}
+
+            worker_bar = { 
+				frame = v
+			}
+
+            bourgeoisie_bar = { 
+				frame = v
+			}
+
+            aristocrat_bar = { 
+				frame = v
+			}
+		}
+
+        visible = {
+            has_global_flag = russian_civil_war_active
+            OR = {
+                original_tag = RUS
+                original_tag = SOV
+            }
+        }
+    }
+}

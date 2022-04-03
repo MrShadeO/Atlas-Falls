@@ -7,6 +7,7 @@ set_convoys = 28
 
 set_country_flag = has_president
 set_country_flag = is_provisional_government
+set_country_flag = SOV_pm_pavel_milyukov
 
 #ARMY OOB
 if = {
@@ -121,6 +122,7 @@ if = {
 
 #LEADERS
 recruit_character = SOV_alexander_kerensky
+recruit_character = SOV_leon_trotsky
 
 #ARMY
 recruit_character = SOV_aleksei_brusilov #Field Marshal
@@ -142,6 +144,10 @@ recruit_character = SOV_vasily_novitsky
 recruit_character = SOV_andrejs_auzans
 recruit_character = SOV_pavel_dybenko
 recruit_character = SOV_nikolay_potapov
+recruit_character = SOV_mikhail_tukhachevsky #Only becomes a general after completing the "Promote the Young Officers" national focus
+recruit_character = SOV_georgy_zhukov #Only becomes a general after completing the "Promote the Young Officers" national focus
+recruit_character = SOV_konstantin_rokossovsky #Only becomes a general after completing the "Promote the Young Officers" national focus
+recruit_character = SOV_aleksandr_vasilevsky #Only becomes a general after completing the "Promote the Young Officers" national focus
 
 #NAVY
 recruit_character = SOV_aleksandr_nemitz
@@ -149,3 +155,22 @@ recruit_character = SOV_pyotr_kitkin
 recruit_character = SOV_aleksandr_razvozov
 
 #RUSSIAN CIVIL WAR STUFF
+set_variable = {
+	var = peasant_popularity
+	value = 50
+}
+
+set_variable = {
+	var = worker_popularity
+	value = 75
+}
+
+set_variable = {
+	var = bourgeoisie_popularity
+	value = 80
+}
+
+set_variable = {
+	var = aristocrat_popularity
+	value = 10
+}

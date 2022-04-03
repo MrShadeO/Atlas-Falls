@@ -190,6 +190,7 @@ on_actions = {
 					idea = SOV_the_great_retreat_idea
 					days = 180
 				}
+				reload_peoples_of_russia_gui = yes
 			}
 		}
 	}

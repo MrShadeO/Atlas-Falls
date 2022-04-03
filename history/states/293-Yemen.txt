@@ -7,7 +7,7 @@ state = {
 	provinces = { 1920 1973 4924 10752 10840 }
 
 	history = {
-		victory_points = { 1973 3 }
+		victory_points = { 1973 5 }
 		add_core_of = YEM
 		owner = TUR
 		buildings = {

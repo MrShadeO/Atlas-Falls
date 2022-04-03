@@ -9,22 +9,46 @@ characters = {
 		}
         country_leader = {
 			ideology = totalism_sub
-			traits = {  }
+			traits = { skilled_orator }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = socialism_sub
-			traits = {  }
+			traits = { skilled_orator }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = social_democracy_sub
-			traits = {  }
+			traits = { skilled_orator }
 			expire = "1950.1.1"
 		}
         country_leader = {
 			ideology = liberalism_sub
-			traits = {  }
+			traits = { skilled_orator }
+			expire = "1950.1.1"
+		}
+	}
+
+	SOV_leon_trotsky = {
+		name = "Leon Trotsky"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Leon_Trotsky.dds"
+			}
+		}
+        country_leader = {
+			ideology = totalism_sub
+			traits = { revolutionary_vanguardist }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = socialism_sub
+			traits = { revolutionary_vanguardist }
+			expire = "1950.1.1"
+		}
+        country_leader = {
+			ideology = social_democracy_sub
+			traits = { revolutionary_vanguardist }
 			expire = "1950.1.1"
 		}
 	}
@@ -357,6 +381,77 @@ characters = {
 		}
 	}
 
+	SOV_mikhail_tukhachevsky = {
+		name = "Mikhail Tukhachevsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Tukhachevsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { red_napoleon young_officer organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	SOV_georgy_zhukov = {
+		name = "Georgy Zhukov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { young_officer armor_officer cavalry_leader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			visible = { has_completed_focus = SOV_promote_the_young_officers }
+		}
+	}
+
+	SOV_konstantin_rokossovsky = {
+		name = "Konstantin Rokossovsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Konstantin_Rokossovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { young_officer armor_officer cavalry_leader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			visible = { has_completed_focus = SOV_promote_the_young_officers }
+		}
+	}
+
+	SOV_aleksandr_vasilevsky = {
+		name = "Aleksandr Vasilevsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Aleksandr_Vasilevsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { young_officer organizer skilled_staffer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			visible = { has_completed_focus = SOV_promote_the_young_officers }
+		}
+	}
+
     #NAVY
 	SOV_aleksandr_nemitz = {
 		name = "Aleksandr Nemitz"
@@ -372,6 +467,7 @@ characters = {
             defense_skill = 2
             maneuvering_skill = 3
             coordination_skill = 2
+			visible = { has_completed_focus = SOV_promote_the_young_officers }
 		}
 	}
 

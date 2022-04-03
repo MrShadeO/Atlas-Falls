@@ -213,6 +213,41 @@ leader_traits = {
 		logistics_skill_factor = 1
 	}
 
+	young_officer = { 
+		type = land
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.20
+		}
+
+		new_commander_weight = {
+			factor = 0 #unique to only a few generals
+		}
+		
+		attack_skill_factor = 1
+		defense_skill_factor = 1
+		planning_skill_factor = 1
+		logistics_skill_factor = 1
+	}
+
+	red_napoleon = { 
+		type = land
+		trait_type = personality_trait
+
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+
+		new_commander_weight = {
+			factor = 0 #unique to only a few generals
+		}
+		
+		attack_skill_factor = 1
+		planning_skill_factor = 1
+	}
+
 	trait_cautious = { 
 		type = land
 		trait_type = personality_trait
@@ -610,7 +645,10 @@ leader_traits = {
 			always = no # not gainable
 		}
 		prerequisites = {
-			has_trait = brilliant_strategist
+			OR = {
+				has_trait = brilliant_strategist
+				has_trait = red_napoleon
+			}
 		}
 		cost = 1000
 		field_marshal_modifier = {

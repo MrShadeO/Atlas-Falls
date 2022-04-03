@@ -1,0 +1,385 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "peoples_of_russia_window"
+		position = { x = 0 y = 0 }	
+		size = { width = 420 height = 320 }
+
+        iconType = {
+			name = "imperial_flag"
+			quadTextureSprite ="GFX_imperial_flag"
+			position = { x = 12 y = 0 }
+            scale = 0.3
+            pdx_tooltip = "Test"
+		}
+
+        iconType = {
+			name = "republican_flag"
+			quadTextureSprite = "GFX_republican_flag"
+			position = { x = 260 y = 0 }
+            scale = 0.3
+            pdx_tooltip = "Test"
+		}
+
+        containerWindowType = {
+            name = "peasant_support_window"
+            position = { x = -20 y = 0 }	
+            size = { width = 200 height = 60 }
+
+            instantTextboxType = {
+                name = "peasant_support_title"
+                position = { x = 0 y = 0 }
+                font = "hoi_18mbs"
+                borderSize = {x = 0 y = 0}
+                text = "PEASANT_SUPPORT_TITLE_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+                pdx_tooltip = "Test"
+            }
+
+            gridboxtype = {
+                name = "peasant_bars_grid"
+                position = { x = -68 y = 23 }
+                size = { width = 100%% height = 100%% }
+                slotsize = { width = 2 height = 0 }
+                max_slots_vertical = 100
+                add_horizontal = yes
+            }
+
+            iconType = {
+                name = "peasant_scale_overlay"
+                quadTextureSprite = "GFX_scale_graph_overlay"
+                alwaystransparent = yes
+                position = { x = 65 y = 20 }
+            }
+
+            instantTextboxType = {
+                name = "imperial_peasant_support"
+                position = { x = -125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "IMPERIAL_PEASANT_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            instantTextboxType = {
+                name = "republican_peasant_support"
+                position = { x = 125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "REPUBLICAN_PEASANT_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+        }
+
+        containerWindowType = {
+			name = "peasant_support_benefits_container"
+			position = { x = 300 y = 5 }	
+			size = { width = 180 height = 55 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "peasant_benefits_summary"
+				position = { x = 10 y = 10 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "PEASANT_BENEFITS_KEY"
+				maxWidth = 160
+				maxHeight = 55
+				format = left
+			}
+		}
+
+        containerWindowType = {
+            name = "worker_support_window"
+            position = { x = -20 y = 80 }	
+            size = { width = 200 height = 60 }
+
+            instantTextboxType = {
+                name = "worker_support_title"
+                position = { x = 0 y = 0 }
+                font = "hoi_18mbs"
+                borderSize = {x = 0 y = 0}
+                text = "WORKER_SUPPORT_TITLE_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            gridboxtype = {
+                name = "worker_bars_grid"
+                position = { x = -68 y = 23 }
+                size = { width = 100%% height = 100%% }
+                slotsize = { width = 2 height = 0 }
+                max_slots_vertical = 100
+                add_horizontal = yes
+            }
+
+            iconType = {
+                name = "worker_scale_overlay"
+                quadTextureSprite = "GFX_scale_graph_overlay"
+                alwaystransparent = yes
+                position = { x = 65 y = 20 }
+            }
+
+            instantTextboxType = {
+                name = "imperial_worker_support"
+                position = { x = -125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "IMPERIAL_WORKER_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            instantTextboxType = {
+                name = "republican_worker_support"
+                position = { x = 125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "REPUBLICAN_WORKER_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+        }
+
+        containerWindowType = {
+			name = "worker_support_benefits_container"
+			position = { x = 300 y = 85 }	
+			size = { width = 180 height = 55 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "worker_benefits_summary"
+				position = { x = 10 y = 10 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "WORKER_BENEFITS_KEY"
+				maxWidth = 160
+				maxHeight = 55
+				format = left
+			}
+		}
+
+        containerWindowType = {
+            name = "bourgeoisie_support_window"
+            position = { x = -20 y = 160 }	
+            size = { width = 200 height = 60 }
+
+            instantTextboxType = {
+                name = "bourgeoisie_support_title"
+                position = { x = 0 y = 0 }
+                font = "hoi_18mbs"
+                borderSize = {x = 0 y = 0}
+                text = "BOURGEOISIE_SUPPORT_TITLE_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            gridboxtype = {
+                name = "bourgeoisie_bars_grid"
+                position = { x = -68 y = 23 }
+                size = { width = 100%% height = 100%% }
+                slotsize = { width = 2 height = 0 }
+                max_slots_vertical = 100
+                add_horizontal = yes
+            }
+
+            iconType = {
+                name = "bourgeoisie_scale_overlay"
+                quadTextureSprite = "GFX_scale_graph_overlay"
+                alwaystransparent = yes
+                position = { x = 65 y = 20 }
+            }
+
+            instantTextboxType = {
+                name = "imperial_bourgeoisie_support"
+                position = { x = -125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "IMPERIAL_BOURGEOISIE_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            instantTextboxType = {
+                name = "republican_bourgeoisie_support"
+                position = { x = 125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "REPUBLICAN_BOURGEOISIE_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+        }
+
+        containerWindowType = {
+			name = "bourgeoisie_support_benefits_container"
+			position = { x = 300 y = 165 }	
+			size = { width = 180 height = 55 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "bourgeoisie_benefits_summary"
+				position = { x = 10 y = 10 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "BOURGEOISIE_BENEFITS_KEY"
+				maxWidth = 160
+				maxHeight = 55
+				format = left
+			}
+		}
+
+        containerWindowType = {
+            name = "aristocrat_support_window"
+            position = { x = -20 y = 240 }	
+            size = { width = 200 height = 60 }
+
+            instantTextboxType = {
+                name = "aristocrat_support_title"
+                position = { x = 0 y = 0 }
+                font = "hoi_18mbs"
+                borderSize = {x = 0 y = 0}
+                text = "ARISTOCRAT_SUPPORT_TITLE_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            gridboxtype = {
+                name = "aristocrat_bars_grid"
+                position = { x = -68 y = 23 }
+                size = { width = 100%% height = 100%% }
+                slotsize = { width = 2 height = 0 }
+                max_slots_vertical = 100
+                add_horizontal = yes
+            }
+
+            iconType = {
+                name = "aristocrat_scale_overlay"
+                quadTextureSprite = "GFX_scale_graph_overlay"
+                alwaystransparent = yes
+                position = { x = 65 y = 20 }
+            }
+
+            instantTextboxType = {
+                name = "imperial_aristocrat_support"
+                position = { x = -125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "IMPERIAL_ARISTOCRAT_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+
+            instantTextboxType = {
+                name = "republican_aristocrat_support"
+                position = { x = 125 y = 28 }
+                font = "hoi_20bs"
+                borderSize = {x = 0 y = 0}
+                text = "REPUBLICAN_ARISTOCRAT_SUPPORT_KEY"
+                maxWidth = 340
+                maxHeight = 20
+                format = center
+            }
+        }
+
+        containerWindowType = {
+			name = "aristocrat_support_benefits_container"
+			position = { x = 300 y = 245 }	
+			size = { width = 180 height = 55 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
+			}
+
+			instantTextboxType = {
+				name = "aristocrat_benefits_summary"
+				position = { x = 10 y = 10 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "ARISTOCRAT_BENEFITS_KEY"
+				maxWidth = 160
+				maxHeight = 55
+				format = left
+			}
+		}
+    }
+
+    containerWindowType = {
+		name = "peasant_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "peasant_bar"
+			quadTextureSprite = "GFX_rcw_scale_graph_segments"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+
+    containerWindowType = {
+		name = "worker_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "worker_bar"
+			quadTextureSprite = "GFX_rcw_scale_graph_segments"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+
+    containerWindowType = {
+		name = "bourgeoisie_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "bourgeoisie_bar"
+			quadTextureSprite = "GFX_rcw_scale_graph_segments"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+
+    containerWindowType = {
+		name = "aristocrat_bars_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 100% }
+
+		iconType = {
+			name = "aristocrat_bar"
+			quadTextureSprite = "GFX_rcw_scale_graph_segments"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+	}
+}

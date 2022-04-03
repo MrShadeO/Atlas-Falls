@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_trotsky_army_speech"
+		texturefile = "gfx/event_pictures/report_event_trotsky_army_speech.dds"
+	}
+
+    spriteType = {
+		name = "GFX_report_event_red_volunteers"
+		texturefile = "gfx/event_pictures/report_event_red_volunteers.dds"
+	}
+
+}

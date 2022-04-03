@@ -6,6 +6,7 @@ state = {
 	provinces = { 2070 4891 10782 12895 13082 }
 
 	history = {
+		victory_points = { 2070 2 }
 		owner = PER
 		add_core_of = PER
 		buildings = {

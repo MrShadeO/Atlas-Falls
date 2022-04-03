@@ -6,6 +6,7 @@ state = {
 	provinces = { 10868 11753 }
 
 	history = {
+		victory_points = { 10868 2 }
 		owner = TUR
 		add_core_of = TUR
 		buildings = {

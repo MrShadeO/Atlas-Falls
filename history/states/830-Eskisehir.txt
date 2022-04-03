@@ -10,8 +10,7 @@ state = {
 	}
 
 	history = {
-		victory_points = { 11796 1 }
-		victory_points = { 10041 3 }
+		victory_points = { 909 3 }
 		owner = TUR
 		add_core_of = TUR
 		buildings = {

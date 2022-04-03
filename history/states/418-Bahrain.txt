@@ -6,6 +6,7 @@ state = {
 	provinces = { 12018 }
 
 	history = {
+		victory_points = { 12018 1 }
 		owner = ENG
 		add_core_of = UAE
 		buildings = {

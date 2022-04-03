@@ -6,6 +6,7 @@ state = {
 	provinces = { 652 789 4583 6991 11917 }
 
 	history = {
+		victory_points = { 789 2 }
 		owner = TUR
 		add_core_of = TUR
 		add_core_of = GEO

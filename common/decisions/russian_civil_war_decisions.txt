@@ -1,0 +1,126 @@
+the_peoples_of_russia_cat = {
+    support_the_peasants_decision = {
+
+		icon = generic_political_discourse
+
+		available = {
+            NOT = { has_country_flag = rcw_boosting_popularity }
+		}
+
+		cost = 0
+
+		days_remove = 60
+
+        modifier = {
+            consumer_goods_factor = 0.08
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_boosting_popularity
+		}
+
+        remove_effect = {
+            clr_country_flag = rcw_boosting_popularity
+            increase_peasant_popularity_5 = yes
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    support_the_workers_decision = {
+
+		icon = generic_merge_plant_materiel
+
+		available = {
+            NOT = { has_country_flag = rcw_boosting_popularity }
+		}
+
+		cost = 0
+
+		days_remove = 60
+
+        modifier = {
+            industrial_capacity_factory = -0.075
+            industrial_capacity_dockyard = -0.075
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_boosting_popularity
+		}
+
+        remove_effect = {
+            clr_country_flag = rcw_boosting_popularity
+            increase_worker_popularity_5 = yes
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}   
+
+    support_the_bourgeoisie_decision = {
+
+		icon = gre_investment_decisions
+
+		available = {
+            NOT = { has_country_flag = rcw_boosting_popularity }
+		}
+
+		cost = 0
+
+		days_remove = 60
+
+        modifier = {
+            tax_revenue = -2
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_boosting_popularity
+		}
+
+        remove_effect = {
+            clr_country_flag = rcw_boosting_popularity
+            increase_bourgeoisie_popularity_5 = yes
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	} 
+
+    support_the_aristocracy_decision = {
+
+		icon = eng_ally_imperialist_coup
+
+		available = {
+            NOT = { has_country_flag = rcw_boosting_popularity }
+		}
+
+		cost = 0
+
+		days_remove = 60
+
+        modifier = {
+            political_power_gain = -0.20
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_boosting_popularity
+		}
+
+        remove_effect = {
+            clr_country_flag = rcw_boosting_popularity
+            increase_aristocrat_popularity_5 = yes
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}

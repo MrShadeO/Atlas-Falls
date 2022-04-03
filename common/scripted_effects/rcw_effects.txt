@@ -1,0 +1,1882 @@
+reload_peoples_of_russia_gui = {
+    RUS = { 
+        create_peoples_of_russia_gui = yes 
+        apply_support_ideas = yes
+    }
+    SOV = { 
+        create_peoples_of_russia_gui = yes 
+        apply_support_ideas = yes
+    }
+}
+
+create_peoples_of_russia_gui = {
+    # PEASANT GRAPH
+    clear_array = peasant_support_scale_graph_array
+    set_temp_variable = { imp_peasant_pop = RUS.peasant_popularity }
+    set_temp_variable = { rep_peasant_pop = SOV.peasant_popularity }
+
+    while_loop_effect = {
+        limit = {
+            check_variable = {
+                var = imp_peasant_pop
+                value = 0
+                compare = greater_than
+            }
+        }
+
+        add_to_array = {
+            array = peasant_support_scale_graph_array
+            value = 1
+        }
+        subtract_from_temp_variable = { imp_peasant_pop = 1 }
+    }
+    if = {
+        limit = { NOT = { has_cosmetic_tag = SOV_bolshevik } }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_peasant_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = peasant_support_scale_graph_array
+                value = 2
+            }
+            subtract_from_temp_variable = { rep_peasant_pop = 1 }
+        }
+    }
+    else_if = {
+        limit = { has_cosmetic_tag = SOV_bolshevik }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_peasant_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = peasant_support_scale_graph_array
+                value = 3
+            }
+            subtract_from_temp_variable = { rep_peasant_pop = 1 }
+        }
+    }
+
+    # WORKER GRAPH
+    clear_array = worker_support_scale_graph_array
+    set_temp_variable = { imp_worker_pop = RUS.worker_popularity }
+    set_temp_variable = { rep_worker_pop = SOV.worker_popularity }
+
+    while_loop_effect = {
+        limit = {
+            check_variable = {
+                var = imp_worker_pop
+                value = 0
+                compare = greater_than
+            }
+        }
+
+        add_to_array = {
+            array = worker_support_scale_graph_array
+            value = 1
+        }
+        subtract_from_temp_variable = { imp_worker_pop = 1 }
+    }
+    if = {
+        limit = { NOT = { has_cosmetic_tag = SOV_bolshevik } }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_worker_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = worker_support_scale_graph_array
+                value = 2
+            }
+            subtract_from_temp_variable = { rep_worker_pop = 1 }
+        }
+    }
+    else_if = {
+        limit = { has_cosmetic_tag = SOV_bolshevik }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_worker_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = worker_support_scale_graph_array
+                value = 3
+            }
+            subtract_from_temp_variable = { rep_worker_pop = 1 }
+        }
+    }
+
+    # BOURGEOISIE GRAPH
+    clear_array = bourgeoisie_support_scale_graph_array
+    set_temp_variable = { imp_bourgeoisie_pop = RUS.bourgeoisie_popularity }
+    set_temp_variable = { rep_bourgeoisie_pop = SOV.bourgeoisie_popularity }
+
+    while_loop_effect = {
+        limit = {
+            check_variable = {
+                var = imp_bourgeoisie_pop
+                value = 0
+                compare = greater_than
+            }
+        }
+
+        add_to_array = {
+            array = bourgeoisie_support_scale_graph_array
+            value = 1
+        }
+        subtract_from_temp_variable = { imp_bourgeoisie_pop = 1 }
+    }
+    if = {
+        limit = { NOT = { has_cosmetic_tag = SOV_bolshevik } }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_bourgeoisie_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = bourgeoisie_support_scale_graph_array
+                value = 2
+            }
+            subtract_from_temp_variable = { rep_bourgeoisie_pop = 1 }
+        }
+    }
+    else_if = {
+        limit = { has_cosmetic_tag = SOV_bolshevik }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_bourgeoisie_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = bourgeoisie_support_scale_graph_array
+                value = 3
+            }
+            subtract_from_temp_variable = { rep_bourgeoisie_pop = 1 }
+        }
+    }
+
+    # ARISTOCRAT GRAPH
+    clear_array = aristocrat_support_scale_graph_array
+    set_temp_variable = { imp_aristocrat_pop = RUS.aristocrat_popularity }
+    set_temp_variable = { rep_aristocrat_pop = SOV.aristocrat_popularity }
+
+    while_loop_effect = {
+        limit = {
+            check_variable = {
+                var = imp_aristocrat_pop
+                value = 0
+                compare = greater_than
+            }
+        }
+
+        add_to_array = {
+            array = aristocrat_support_scale_graph_array
+            value = 1
+        }
+        subtract_from_temp_variable = { imp_aristocrat_pop = 1 }
+    }
+    if = {
+        limit = { NOT = { has_cosmetic_tag = SOV_bolshevik } }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_aristocrat_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = aristocrat_support_scale_graph_array
+                value = 2
+            }
+            subtract_from_temp_variable = { rep_aristocrat_pop = 1 }
+        }
+    }
+    else_if = {
+        limit = { has_cosmetic_tag = SOV_bolshevik }
+        while_loop_effect = {
+            limit = {
+                check_variable = {
+                    var = rep_aristocrat_pop
+                    value = 0
+                    compare = greater_than
+                }
+            }
+
+            add_to_array = {
+                array = aristocrat_support_scale_graph_array
+                value = 3
+            }
+            subtract_from_temp_variable = { rep_aristocrat_pop = 1 }
+        }
+    }
+}
+
+apply_support_ideas = {
+    #Start by cleaning the slate
+    remove_ideas = {
+        rcw_peasant_support_0_idea
+        rcw_peasant_support_10_idea
+        rcw_peasant_support_20_idea
+        rcw_peasant_support_30_idea
+        rcw_peasant_support_40_idea
+        rcw_peasant_support_60_idea
+        rcw_peasant_support_70_idea
+        rcw_peasant_support_80_idea
+        rcw_peasant_support_90_idea
+        rcw_peasant_support_100_idea
+        rcw_worker_support_0_idea
+        rcw_worker_support_10_idea
+        rcw_worker_support_20_idea
+        rcw_worker_support_30_idea
+        rcw_worker_support_40_idea
+        rcw_worker_support_60_idea
+        rcw_worker_support_70_idea
+        rcw_worker_support_80_idea
+        rcw_worker_support_90_idea
+        rcw_worker_support_100_idea
+        rcw_bourgeoisie_support_0_idea
+        rcw_bourgeoisie_support_10_idea
+        rcw_bourgeoisie_support_20_idea
+        rcw_bourgeoisie_support_30_idea
+        rcw_bourgeoisie_support_40_idea
+        rcw_bourgeoisie_support_60_idea
+        rcw_bourgeoisie_support_70_idea
+        rcw_bourgeoisie_support_80_idea
+        rcw_bourgeoisie_support_90_idea
+        rcw_bourgeoisie_support_100_idea
+        rcw_aristocrat_support_0_idea
+        rcw_aristocrat_support_10_idea
+        rcw_aristocrat_support_20_idea
+        rcw_aristocrat_support_30_idea
+        rcw_aristocrat_support_40_idea
+        rcw_aristocrat_support_60_idea
+        rcw_aristocrat_support_70_idea
+        rcw_aristocrat_support_80_idea
+        rcw_aristocrat_support_90_idea
+        rcw_aristocrat_support_100_idea
+    }
+
+    if = { #Popularity 0%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 0
+                compare = equals
+            }
+        }
+        add_ideas = rcw_peasant_support_0_idea
+    }
+    else_if = { #Popularity 1-10%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 0
+                compare = greater_than
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 10
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_peasant_support_10_idea
+    }
+    else_if = { #Popularity 11-20%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 10
+                compare = greater_than
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 20
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_peasant_support_20_idea
+    }
+    else_if = { #Popularity 21-30%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 20
+                compare = greater_than
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 30
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_peasant_support_30_idea
+    }
+    else_if = { #Popularity 31-40%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 30
+                compare = greater_than
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 40
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_peasant_support_40_idea
+    }
+    else_if = { #Popularity 60-69%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 60
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 70
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_peasant_support_60_idea
+    }
+    else_if = { #Popularity 70-79%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 70
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 80
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_peasant_support_70_idea
+    }
+    else_if = { #Popularity 80-89%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 80
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 90
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_peasant_support_80_idea
+    }
+    else_if = { #Popularity 90-99%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 90
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = peasant_popularity
+                value = 100
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_peasant_support_90_idea
+    }
+    else_if = { #Popularity 100%
+        limit = {
+            check_variable = {
+                var = peasant_popularity
+                value = 100
+                compare = equals
+            }
+        }
+        add_ideas = rcw_peasant_support_100_idea
+    }
+
+    if = { #Popularity 0%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 0
+                compare = equals
+            }
+        }
+        add_ideas = rcw_worker_support_0_idea
+    }
+    else_if = { #Popularity 1-10%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 0
+                compare = greater_than
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 10
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_worker_support_10_idea
+    }
+    else_if = { #Popularity 11-20%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 10
+                compare = greater_than
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 20
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_worker_support_20_idea
+    }
+    else_if = { #Popularity 21-30%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 20
+                compare = greater_than
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 30
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_worker_support_30_idea
+    }
+    else_if = { #Popularity 31-40%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 30
+                compare = greater_than
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 40
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_worker_support_40_idea
+    }
+    else_if = { #Popularity 60-69%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 60
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 70
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_worker_support_60_idea
+    }
+    else_if = { #Popularity 70-79%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 70
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 80
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_worker_support_70_idea
+    }
+    else_if = { #Popularity 80-89%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 80
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 90
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_worker_support_80_idea
+    }
+    else_if = { #Popularity 90-99%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 90
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = worker_popularity
+                value = 100
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_worker_support_90_idea
+    }
+    else_if = { #Popularity 100%
+        limit = {
+            check_variable = {
+                var = worker_popularity
+                value = 100
+                compare = equals
+            }
+        }
+        add_ideas = rcw_worker_support_100_idea
+    }
+
+    if = { #Popularity 0%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 0
+                compare = equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_0_idea
+    }
+    else_if = { #Popularity 1-10%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 0
+                compare = greater_than
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 10
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_10_idea
+    }
+    else_if = { #Popularity 11-20%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 10
+                compare = greater_than
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 20
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_20_idea
+    }
+    else_if = { #Popularity 21-30%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 20
+                compare = greater_than
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 30
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_30_idea
+    }
+    else_if = { #Popularity 31-40%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 30
+                compare = greater_than
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 40
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_40_idea
+    }
+    else_if = { #Popularity 60-69%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 60
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 70
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_60_idea
+    }
+    else_if = { #Popularity 70-79%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 70
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 80
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_70_idea
+    }
+    else_if = { #Popularity 80-89%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 80
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 90
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_80_idea
+    }
+    else_if = { #Popularity 90-99%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 90
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 100
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_90_idea
+    }
+    else_if = { #Popularity 100%
+        limit = {
+            check_variable = {
+                var = bourgeoisie_popularity
+                value = 100
+                compare = equals
+            }
+        }
+        add_ideas = rcw_bourgeoisie_support_100_idea
+    }
+
+    if = { #Popularity 0%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 0
+                compare = equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_0_idea
+    }
+    else_if = { #Popularity 1-10%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 0
+                compare = greater_than
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 10
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_10_idea
+    }
+    else_if = { #Popularity 11-20%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 10
+                compare = greater_than
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 20
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_20_idea
+    }
+    else_if = { #Popularity 21-30%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 20
+                compare = greater_than
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 30
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_30_idea
+    }
+    else_if = { #Popularity 31-40%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 30
+                compare = greater_than
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 40
+                compare = less_than_or_equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_40_idea
+    }
+    else_if = { #Popularity 60-69%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 60
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 70
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_aristocrat_support_60_idea
+    }
+    else_if = { #Popularity 70-79%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 70
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 80
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_aristocrat_support_70_idea
+    }
+    else_if = { #Popularity 80-89%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 80
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 90
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_aristocrat_support_80_idea
+    }
+    else_if = { #Popularity 90-99%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 90
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = aristocrat_popularity
+                value = 100
+                compare = less_than
+            }
+        }
+        add_ideas = rcw_aristocrat_support_90_idea
+    }
+    else_if = { #Popularity 100%
+        limit = {
+            check_variable = {
+                var = aristocrat_popularity
+                value = 100
+                compare = equals
+            }
+        }
+        add_ideas = rcw_aristocrat_support_100_idea
+    }
+}
+
+increase_peasant_popularity_5 = {
+    custom_effect_tooltip = rcw_increase_peasant_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = 5
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_peasant_popularity_10 = {
+    custom_effect_tooltip = rcw_increase_peasant_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = 10
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_peasant_popularity_15 = {
+    custom_effect_tooltip = rcw_increase_peasant_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = 15
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_worker_popularity_5 = {
+    custom_effect_tooltip = rcw_increase_worker_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = 5
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_worker_popularity_10 = {
+    custom_effect_tooltip = rcw_increase_worker_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = 10
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_worker_popularity_15 = {
+    custom_effect_tooltip = rcw_increase_worker_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = 15
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_bourgeoisie_popularity_5 = {
+    custom_effect_tooltip = rcw_increase_bourgeoisie_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = 5
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_bourgeoisie_popularity_10 = {
+    custom_effect_tooltip = rcw_increase_bourgeoisie_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = 10
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_bourgeoisie_popularity_15 = {
+    custom_effect_tooltip = rcw_increase_bourgeoisie_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = 15
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_aristocrat_popularity_5 = {
+    custom_effect_tooltip = rcw_increase_aristocrat_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = 5
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -5
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_aristocrat_popularity_10 = {
+    custom_effect_tooltip = rcw_increase_aristocrat_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = 10
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -10
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+increase_aristocrat_popularity_15 = {
+    custom_effect_tooltip = rcw_increase_aristocrat_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = 15
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = -15
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_peasant_popularity_5 = {
+    custom_effect_tooltip = rcw_decrease_peasant_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = -5
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_peasant_popularity_10 = {
+    custom_effect_tooltip = rcw_decrease_peasant_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = -10
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_peasant_popularity_15 = {
+    custom_effect_tooltip = rcw_decrease_peasant_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = peasant_popularity
+            value = -15
+        }
+        clamp_variable = {
+            var = peasant_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = peasant_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = peasant_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_worker_popularity_5 = {
+    custom_effect_tooltip = rcw_decrease_worker_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = -5
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_worker_popularity_10 = {
+    custom_effect_tooltip = rcw_decrease_worker_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = -10
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_worker_popularity_15 = {
+    custom_effect_tooltip = rcw_decrease_worker_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = worker_popularity
+            value = -15
+        }
+        clamp_variable = {
+            var = worker_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = worker_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = worker_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_bourgeoisie_popularity_5 = {
+    custom_effect_tooltip = rcw_decrease_bourgeoisie_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = -5
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_bourgeoisie_popularity_10 = {
+    custom_effect_tooltip = rcw_decrease_bourgeoisie_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = -10
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_bourgeoisie_popularity_15 = {
+    custom_effect_tooltip = rcw_decrease_bourgeoisie_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = bourgeoisie_popularity
+            value = -15
+        }
+        clamp_variable = {
+            var = bourgeoisie_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = bourgeoisie_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = bourgeoisie_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_aristocrat_popularity_5 = {
+    custom_effect_tooltip = rcw_decrease_aristocrat_support_5
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = -5
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 5
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_aristocrat_popularity_10 = {
+    custom_effect_tooltip = rcw_decrease_aristocrat_support_10
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = -10
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 10
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}
+
+decrease_aristocrat_popularity_15 = {
+    custom_effect_tooltip = rcw_decrease_aristocrat_support_15
+    hidden_effect = {
+        add_to_variable = {
+            var = aristocrat_popularity
+            value = -15
+        }
+        clamp_variable = {
+            var = aristocrat_popularity
+            min = 0
+            max = 100
+        }
+        if = {
+            limit = { original_tag = SOV }
+            RUS = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        else = {
+            SOV = {
+                add_to_variable = {
+                    var = aristocrat_popularity
+                    value = 15
+                }
+            }
+            clamp_variable = {
+                var = aristocrat_popularity
+                min = 0
+                max = 100
+            }
+        }
+        reload_peoples_of_russia_gui = yes
+    }
+}

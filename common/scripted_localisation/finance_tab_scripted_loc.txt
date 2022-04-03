@@ -707,3 +707,29 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckSOVFoodImports
+	text = {
+		trigger = {
+			has_idea = SOV_subsidized_food_imports_idea
+		}
+		localization_key = SHOW_FOOD_IMPORTS_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}
+
+defined_text = {
+    name = CheckRCWBourgeoisieSupport
+	text = {
+		trigger = {
+			has_decision = support_the_bourgeoisie_decision
+		}
+		localization_key = SHOW_BOURGEOISIE_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

@@ -181,7 +181,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_kirill_i
-				Ideology = authoritarianism_sub
+				ideology = authoritarianism_sub
 			}
 			set_politics = {
 				ruling_party = authoritarianism_ideology
@@ -196,7 +196,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_michael_alexandrovich
-				Ideology = liberalism_sub
+				ideology = liberalism_sub
 			}
 			set_politics = {
 				ruling_party = liberalism_ideology
@@ -217,7 +217,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_olga_i
-				Ideology = conservatism_sub
+				ideology = conservatism_sub
 			}
 			set_politics = {
 				ruling_party = conservatism_ideology
@@ -251,7 +251,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_kirill_i
-				Ideology = authoritarianism_sub
+				ideology = authoritarianism_sub
 			}
 			set_politics = {
 				ruling_party = authoritarianism_ideology
@@ -266,7 +266,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_michael_alexandrovich
-				Ideology = liberalism_sub
+				ideology = liberalism_sub
 			}
 			set_politics = {
 				ruling_party = liberalism_ideology
@@ -287,7 +287,7 @@ country_event = {
 			retire_character = RUS_nicholas_ii
 			promote_character = {
 				character = RUS_olga_i
-				Ideology = conservatism_sub
+				ideology = conservatism_sub
 			}
 			set_politics = {
 				ruling_party = conservatism_ideology

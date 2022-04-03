@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		victory_points = { 8117 1 }
-		victory_points = { 7982 3 }
+		victory_points = { 8117 5 }
+		victory_points = { 7982 5 }
 		owner = PER
 		add_core_of = PER
 		buildings = {

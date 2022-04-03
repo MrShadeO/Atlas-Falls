@@ -1,0 +1,813 @@
+ideas = {
+	hidden_ideas = {
+		rcw_peasant_support_0_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.25
+			}
+		}
+
+		rcw_peasant_support_10_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+		}
+
+		rcw_peasant_support_20_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		rcw_peasant_support_30_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}
+
+		rcw_peasant_support_40_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		rcw_peasant_support_60_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		rcw_peasant_support_70_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+
+		rcw_peasant_support_80_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		rcw_peasant_support_90_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.20
+			}
+		}
+
+		rcw_peasant_support_100_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.25
+			}
+		}
+
+        rcw_worker_support_0_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.15
+                industrial_capacity_dockyard = -0.15
+			}
+		}
+
+		rcw_worker_support_10_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.12
+                industrial_capacity_dockyard = -0.12
+			}
+		}
+
+		rcw_worker_support_20_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.09
+                industrial_capacity_dockyard = -0.09
+			}
+		}
+
+		rcw_worker_support_30_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.06
+                industrial_capacity_dockyard = -0.06
+			}
+		}
+
+		rcw_worker_support_40_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.03
+                industrial_capacity_dockyard = -0.03
+			}
+		}
+
+		rcw_worker_support_60_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.03
+                industrial_capacity_dockyard = 0.03
+			}
+		}
+
+		rcw_worker_support_70_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.06
+                industrial_capacity_dockyard = 0.06
+			}
+		}
+
+		rcw_worker_support_80_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.09
+                industrial_capacity_dockyard = 0.09
+			}
+		}
+
+		rcw_worker_support_90_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.12
+                industrial_capacity_dockyard = 0.12
+			}
+		}
+
+		rcw_worker_support_100_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+                industrial_capacity_dockyard = 0.15
+			}
+		}
+
+        rcw_bourgeoisie_support_0_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.10
+			}
+		}
+
+		rcw_bourgeoisie_support_10_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.08
+			}
+		}
+
+		rcw_bourgeoisie_support_20_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.06
+			}
+		}
+
+		rcw_bourgeoisie_support_30_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.04
+			}
+		}
+
+		rcw_bourgeoisie_support_40_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.02
+			}
+		}
+
+		rcw_bourgeoisie_support_60_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.02
+			}
+		}
+
+		rcw_bourgeoisie_support_70_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.04
+			}
+		}
+
+		rcw_bourgeoisie_support_80_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.06
+			}
+		}
+
+		rcw_bourgeoisie_support_90_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.08
+			}
+		}
+
+		rcw_bourgeoisie_support_100_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+
+        rcw_aristocrat_support_0_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+
+		rcw_aristocrat_support_10_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.12
+			}
+		}
+
+		rcw_aristocrat_support_20_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.09
+			}
+		}
+
+		rcw_aristocrat_support_30_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.06
+			}
+		}
+
+		rcw_aristocrat_support_40_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.03
+			}
+		}
+
+		rcw_aristocrat_support_60_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.03
+			}
+		}
+
+		rcw_aristocrat_support_70_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.06
+			}
+		}
+
+		rcw_aristocrat_support_80_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.09
+			}
+		}
+
+		rcw_aristocrat_support_90_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.12
+			}
+		}
+
+		rcw_aristocrat_support_100_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+	}
+}

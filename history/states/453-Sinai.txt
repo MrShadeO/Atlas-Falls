@@ -6,8 +6,6 @@ state = {
 	provinces = { 1112 4161 10002 10099 11922 11979 12073 }
 
 	history = {
-		victory_points = { 4161 3 }
-		victory_points = { 10099 1 }
 		owner = EGY
 		add_core_of = EGY
 		buildings = {

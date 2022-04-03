@@ -220,6 +220,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_rcw_scale_graph_segments"
+		texturefile = "gfx/interface/rcw_scale_graph_segments.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
 		name = "GFX_scale_graph_overlay"
 		texturefile = "gfx/interface/scale_graph_overlay.dds"
 	}
@@ -247,5 +253,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_atlas_falls_logo"
 		texturefile = "gfx/interface/atlas_falls_logo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_imperial_flag"
+		texturefile = "gfx/interface/imperial_flag.dds"
+	}
+
+	spriteType = {
+		name = "GFX_republican_flag"
+		texturefile = "gfx/interface/republican_flag.dds"
+	}
+
+	spriteType = {
+		name = "GFX_soviet_flag"
+		texturefile = "gfx/interface/soviet_flag.dds"
 	}
 }

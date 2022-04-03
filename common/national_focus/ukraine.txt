@@ -12,13 +12,13 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 150 y = 2000 }
+	continuous_focus_position = { x = 100 y = 50 }
 
 
 	focus = {
 		id = UKR_curent_situation
-		icon = GFX_focus_POL_ukrainian_army
-		x = 27
+		icon = GFX_goal_generic_demand_territory
+		x = 12
 		y = 0
 		cost = 45
 
@@ -77,7 +77,7 @@ focus_tree = {
 			mark_focus_tree_layout_dirty = yes
 			add_to_variable = { UKR_army_cavalry_attack_factor = 0.05}
 			add_to_variable = { UKR_army_cavalry_defence_factor = 0.05}
-			custom_effect_tooltip = UKR_cavalry_attack
+			custom_effect_tooltip = UKR_cavalry_attack_tt
 		}
 	}
 
@@ -96,7 +96,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { UKR_Army_land_reinforce_rate = 0.05 }
-			custom_effect_tooltip = UKR_communication
+			custom_effect_tooltip = UKR_communication_tt
 			set_technology = { radio = 1 }
 		}
 	}
@@ -271,7 +271,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = UKR_orginaze_the_army
+			custom_effect_tooltip = UKR_orginaze_the_army_tt
 			add_to_variable = { UKR_army_army_org = 0.15 }
 		}
 	}
@@ -313,7 +313,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = UKR_arm_our_soldiers
+			custom_effect_tooltip = UKR_arm_our_soldiers_tt
 			add_offsite_building = { 
 				type = arms_factory 
 				level = 1 
@@ -334,7 +334,7 @@ focus_tree = {
 			focus = UKR_for_our_soldiers 
 			focus = UKR_for_arms
 		}
-		x = -4
+		x = -5
 		y = 1
 		relative_position_id = UKR_for_arms
 		cost = 45
@@ -364,7 +364,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_country_flag = UKR_volyn_aspiration
-			custom_effect_tooltip = UKR_volyn_will_be_ours
+			custom_effect_tooltip = UKR_volyn_will_be_ours_tt
 		}
 	}
 
@@ -419,7 +419,7 @@ focus_tree = {
 		prerequisite = { focus = UKR_find_a_compromise }
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = UKR_poland_refuse_1
+				tooltip = UKR_poland_refuse_1_tt
 				NOT = { has_country_flag = UKR_poland_refuse }
 			}
 		}
@@ -433,7 +433,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = UKR_bring_them_home_uvo
+			custom_effect_tooltip = UKR_bring_them_home_uvo_tt
 			add_to_variable = { UKR_army_conscription = -0.01 }
 			add_to_variable = { UKR_army_army_defence_factor = 0.05 }
 			add_popularity = {
@@ -441,7 +441,10 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_ideas = UKR_polish_ukraine_cooperation
-		}
+			POL = {
+			  add_ideas = UKR_polish_ukraine_cooperation
+			  }
+		 }
 	}
 
 	focus = {
@@ -451,7 +454,7 @@ focus_tree = {
 			focus = UKR_for_our_soldiers 
 			focus = UKR_for_arms
 		}
-		x = 6
+		x = 7
 		y = 1
 		relative_position_id = UKR_for_arms
 		cost = 45
@@ -482,7 +485,7 @@ focus_tree = {
 		completion_reward = {
 			add_state_claim = 234
 			add_state_claim = 218
-			custom_effect_tooltip = UKR_control_the_black_seaa
+			custom_effect_tooltip = UKR_control_the_black_sea_tt
 			set_country_flag = UKR_black_sea_aspiration_1
 		}
 	}
@@ -551,13 +554,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UKR_planing_boards
+		id = UKR_planning_boards
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { 
 			focus = UKR_for_our_soldiers 
 			focus = UKR_for_arms
 		}
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = UKR_for_arms
 		cost = 45
@@ -568,17 +571,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { UKR_army_max_planning = 0.10 }
-			custom_effect_tooltip = UKR_planning_better
+			custom_effect_tooltip = UKR_planning_better_tt
 		}
 	}
 
 	focus = {
 		id = UKR_prepare_strike
 		icon = GFX_focus_SOV_mobilization_plan
-		prerequisite = { focus = UKR_planing_boards }
+		prerequisite = { focus = UKR_planning_boards }
 		x = 0
 		y = 1
-		relative_position_id = UKR_planing_boards
+		relative_position_id = UKR_planning_boards
 		cost = 90
 
 		ai_will_do = {
@@ -601,7 +604,7 @@ focus_tree = {
 		prerequisite = { focus = UKR_prepare_strike }
 		x = 0
 		y = 2
-		relative_position_id = UKR_planing_boards
+		relative_position_id = UKR_planning_boards
 		cost = 45
 		
 		available = { 
@@ -663,7 +666,7 @@ focus_tree = {
 			focus = UKR_for_our_soldiers 
 			focus = UKR_for_arms
 		}
-		x = 3
+		x = 4
 		y = 1
 		relative_position_id = UKR_for_arms
 		cost = 30
@@ -764,17 +767,17 @@ focus_tree = {
 		id = UKR_negotiate_with_agranian_party
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = UKR_internal_enemy }
-		x = 0
+		mutually_exclusive = { focus = UKR_demonize_the_otaman }
+		available = {
+			has_completed_focus = UKR_trust_in_cossack
+		}
+		x = 1
 		y = 1
 		relative_position_id = UKR_internal_enemy
 		cost = 30
 
 		ai_will_do = {
 			factor = 10
-		}
-
-		allow_branch = {
-			has_country_flag = UKR_cossacks
 		}
 
 		completion_reward = {
@@ -791,8 +794,8 @@ focus_tree = {
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = UKR_negotiate_with_agranian_party }
 		x = 0
-		y = 2
-		relative_position_id = UKR_internal_enemy
+		y = 1
+		relative_position_id = UKR_negotiate_with_agranian_party
 		cost = 30
 
 		ai_will_do = {
@@ -828,17 +831,17 @@ focus_tree = {
 		id = UKR_demonize_the_otaman
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = UKR_internal_enemy }
-		x = 0
+		mutually_exclusive = { focus = UKR_negotiate_with_agranian_party }
+		available = {
+			has_completed_focus = UKR_work_with_the_left
+		}
+		x = -1
 		y = 1
 		relative_position_id = UKR_internal_enemy
 		cost = 30
 
 		ai_will_do = {
 			factor = 10
-		}
-
-		allow_branch = {
-			has_country_flag = UKR_president
 		}		
 
 		completion_reward = {
@@ -855,8 +858,8 @@ focus_tree = {
 		icon = GFX_focus_SOV_military_purge
 		prerequisite = { focus = UKR_demonize_the_otaman }
 		x = 0
-		y = 2
-		relative_position_id = UKR_internal_enemy
+		y = 1
+		relative_position_id = UKR_demonize_the_otaman
 		cost = 30
 
 		ai_will_do = {
@@ -897,7 +900,7 @@ focus_tree = {
 			OR = {
 				controls_state = 93
 				custom_trigger_tooltip = {
-					tooltip = UKR_volyn_aspiration1
+					tooltip = UKR_volyn_aspiration_1_tt
 					has_country_flag = UKR_volyn_aspiration
 				}
 			}
@@ -905,12 +908,12 @@ focus_tree = {
 				controls_state = 218
 				controls_state = 234
 				custom_trigger_tooltip = {
-					tooltip = UKR_black_sea_aspiration_1
+					tooltip = UKR_black_sea_aspiration_1_tt
 					has_country_flag = UKR_Black_sea_aspiration
 				}
 			}
 		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = UKR_solidify_kiev
 		cost = 45

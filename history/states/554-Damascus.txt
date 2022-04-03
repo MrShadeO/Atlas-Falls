@@ -6,7 +6,7 @@ state = {
 	provinces = { 1074 4111 4486 7140 7184 10383 }
 
 	history = {
-		victory_points = { 4111 8 }
+		victory_points = { 4111 20 }
 		owner = TUR
 		add_core_of = TUR
 		add_core_of = SYR

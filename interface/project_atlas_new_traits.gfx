@@ -8,4 +8,14 @@ spriteTypes = {
 		name = "GFX_trait_artillery_leader"
 		texturefile = "gfx/interface/traits/trait_artillery_leader.dds"
 	}
+
+	spriteType = {
+		name = "GFX_trait_red_napoleon"
+		texturefile = "gfx/interface/traits/personal/trait_red_napoleon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_young_officer"
+		texturefile = "gfx/interface/traits/personal/trait_young_officer.dds"
+	}
 }

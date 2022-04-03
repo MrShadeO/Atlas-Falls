@@ -41,6 +41,16 @@ spriteTypes = {
 		textureFile = "gfx/leaders/SOV/Portrait_SOV_Pavel_Milyukov.dds"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_SOV_Nikolai_Avksentiev"
+		textureFile = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Avksentiev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_SOV_Central_Committee"
+		textureFile = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
+	}
+
 	###RUS###
 	spriteType = {
 		name = "GFX_Portrait_RUS_Nikolai_Markov"

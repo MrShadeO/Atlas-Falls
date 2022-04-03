@@ -29,7 +29,7 @@ focus_tree = {
     focus = {
 		id = SOV_fortify_the_brusilov_line
 		icon = GFX_goal_generic_construct_military
-		x = 10
+		x = 13
 		y = 0
 		cost = 45
 
@@ -44,7 +44,7 @@ focus_tree = {
 	focus = {
 		id = SOV_mission_to_vladivostok
 		icon = GFX_goal_generic_position_armies
-		x = 12
+		x = 15
 		y = 0
 		cost = 45
 
@@ -100,19 +100,479 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_the_all_russian_constituent_assembly
-		icon = GFX_focus_POL_complete_april_constitution
+		id = SOV_the_future_of_the_republic
+		icon = GFX_goal_support_democracy
 		prerequisite = { focus = SOV_the_exiles }
 		available = {
 			has_country_flag = SOV_refused_bolshevik_exiles
 		}
-		x = -6
+		x = -8
 		y = 1
 		relative_position_id = SOV_the_exiles
 		cost = 45
 
 		completion_reward = {
-			
+			country_event = Rrepublic.6
+		}		
+	}
+
+	focus = {
+		id = SOV_accept_self_determination
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = { focus = SOV_the_future_of_the_republic }
+		mutually_exclusive = { focus = SOV_reclaim_the_breakaway_states }
+		x = -5
+		y = 1
+		relative_position_id = SOV_the_future_of_the_republic
+		cost = 30
+
+		completion_reward = {
+			if = {
+				limit = { 
+					POL = { exists = yes } 
+				}
+				POL = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					UKR = { exists = yes } 
+				}
+				UKR = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					VLN = { exists = yes } 
+				}
+				VLN = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					LIT = { exists = yes } 
+				}
+				LIT = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					LAT = { exists = yes } 
+				}
+				LAT = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					EST = { exists = yes } 
+				}
+				EST = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			if = {
+				limit = { 
+					FIN = { 
+						exists = yes 
+						is_subject = no
+					} 
+				}
+				FIN = {
+					add_opinion_modifier = {
+						target = SOV
+						modifier = SOV_accepted_self_determination
+					}
+				}
+			}
+			custom_effect_tooltip = SOV_foc11_tt
+			set_country_flag = SOV_accepted_self_determination_flag
+		}		
+	}
+
+	focus = {
+		id = SOV_expand_the_revolutionary_front
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = SOV_accept_self_determination }
+		available = { is_faction_leader = yes }
+		x = 0
+		y = 1
+		relative_position_id = SOV_accept_self_determination
+		cost = 15
+
+		completion_reward = {
+			if = {
+				limit = { 
+					POL = { 
+						exists = yes
+						is_in_faction = no 
+					} 
+				}
+				POL = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					UKR = { 
+						exists = yes 
+						is_in_faction = no
+					} 
+				}
+				UKR = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					VLN = { 
+						exists = yes 
+						is_in_faction = no
+					} 
+				}
+				VLN = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					LIT = { 
+						exists = yes 
+						is_in_faction = no
+					} 
+				}
+				LIT = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					LAT = { 
+						exists = yes 
+						is_in_faction = no
+					} 
+				}
+				LAT = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					EST = { 
+						exists = yes
+						is_in_faction = no
+					} 
+				}
+				EST = {
+					country_event = Rrepublic.8
+				}
+			}
+			if = {
+				limit = { 
+					FIN = { 
+						exists = yes 
+						is_subject = no
+						is_in_faction = no
+					} 
+				}
+				FIN = {
+					country_event = Rrepublic.8
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_reclaim_the_breakaway_states
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = SOV_the_future_of_the_republic }
+		mutually_exclusive = { focus = SOV_accept_self_determination }
+		x = -3
+		y = 1
+		relative_position_id = SOV_the_future_of_the_republic
+		cost = 45
+
+		will_lead_to_war_with = POL
+		will_lead_to_war_with = UKR
+		will_lead_to_war_with = VLN
+		will_lead_to_war_with = LIT
+		will_lead_to_war_with = LAT
+		will_lead_to_war_with = EST
+
+		completion_reward = {
+			if = {
+				limit = { 
+					POL = { exists = yes } 
+				}
+				declare_war_on = {
+					target = POL
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					UKR = { exists = yes } 
+				}
+				declare_war_on = {
+					target = UKR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					VLN = { exists = yes } 
+				}
+				declare_war_on = {
+					target = VLN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					LIT = { exists = yes } 
+				}
+				declare_war_on = {
+					target = LIT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					LAT = { exists = yes } 
+				}
+				declare_war_on = {
+					target = LAT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					EST = { exists = yes } 
+				}
+				declare_war_on = {
+					target = EST
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					GEO = {
+						exists = yes
+						NOT = { is_in_faction_with = SOV }
+					}
+				}
+				declare_war_on = {
+					target = GEO
+					type = annex_everything
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_a_promise_to_the_people
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = SOV_the_future_of_the_republic }
+		x = 0
+		y = 1
+		relative_position_id = SOV_the_future_of_the_republic
+		cost = 45
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}		
+	}
+
+	focus = {
+		id = SOV_expand_vladivostoks_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = SOV_a_promise_to_the_people }
+		x = -1
+		y = 1
+		relative_position_id = SOV_a_promise_to_the_people
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { controls_state = 408 }
+				408 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { is_coastal = yes }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_improved_supply_lines
+		icon = GFX_focus_SOV_south_manchuria_railway
+		prerequisite = { focus = SOV_a_promise_to_the_people }
+		x = 1
+		y = 1
+		relative_position_id = SOV_a_promise_to_the_people
+		cost = 45
+
+		completion_reward = {
+			add_ideas = SOV_improved_supply_lines_idea
+			custom_effect_tooltip = SOV_foc1_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_the_all_russian_constituent_assembly
+		icon = GFX_focus_POL_complete_april_constitution
+		prerequisite = { focus = SOV_expand_vladivostoks_ports }
+		prerequisite = { focus = SOV_improved_supply_lines }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = RUS_end_of_civil_war_tt
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_expand_vladivostoks_ports
+		cost = 7
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_new_tree_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_subsidized_food_imports
+		icon = GFX_goal_generic_trade
+		prerequisite = { 
+			focus = SOV_a_promise_to_the_people 
+			focus = SOV_guardian_of_the_revolution
+		}
+		x = 4
+		y = 1
+		relative_position_id = SOV_a_promise_to_the_people
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_famine_idea
+				add_idea = SOV_subsidized_food_imports_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_compensate_landowners
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { 
+			focus = SOV_the_future_of_the_republic 
+			focus = SOV_presidential_dictatorship
+		}
+		mutually_exclusive = { focus = SOV_sieze_land_for_the_peasants }
+		available = {
+			has_political_power > 200
+		}
+		x = 3
+		y = 1
+		relative_position_id = SOV_the_future_of_the_republic
+		cost = 45
+
+		completion_reward = {
+			remove_ideas = SOV_the_land_rights_question_idea
+			add_political_power = -200
+			add_popularity = {
+				ideology = liberalism_ideology
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = social_democracy_ideology
+				popularity = 0.05
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_sieze_land_for_the_peasants
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+		prerequisite = { 
+			focus = SOV_the_future_of_the_republic 
+			focus = SOV_presidential_dictatorship
+		}
+		mutually_exclusive = { focus = SOV_compensate_landowners }
+		x = 5
+		y = 1
+		relative_position_id = SOV_the_future_of_the_republic
+		cost = 45
+
+		completion_reward = {
+			remove_ideas = SOV_the_land_rights_question_idea
+			add_stability = -0.05
+			add_popularity = {
+				ideology = socialism_ideology
+				popularity = 0.10
+			}
 		}		
 	}
 
@@ -129,7 +589,205 @@ focus_tree = {
 		cost = 45
 
 		completion_reward = {
-			
+			country_event = Rrepublic.11
+		}		
+	}
+
+	focus = {
+		id = SOV_guardian_of_the_revolution
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = SOV_presidential_dictatorship }
+		x = 0
+		y = 1
+		relative_position_id = SOV_presidential_dictatorship
+		cost = 45
+
+		completion_reward = {
+			swap_ruler_traits = {
+				remove = skilled_orator
+				add = guardian_of_the_revolution
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_invite_foreign_enterprises
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SOV_guardian_of_the_revolution }
+		x = -1
+		y = 1
+		relative_position_id = SOV_guardian_of_the_revolution
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { controls_state = 408 }
+				408 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_all_must_do_their_part
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = SOV_guardian_of_the_revolution }
+		x = 1
+		y = 1
+		relative_position_id = SOV_guardian_of_the_revolution
+		cost = 45
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_the_only_leader_russia_needs
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = SOV_invite_foreign_enterprises }
+		prerequisite = { focus = SOV_all_must_do_their_part }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = RUS_end_of_civil_war_tt
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_invite_foreign_enterprises
+		cost = 7
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_new_tree_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_one_revolutionary_state
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		prerequisite = { 
+			focus = SOV_presidential_dictatorship 
+			focus = SOV_rise_of_the_bolsheviks
+		}
+		x = 3
+		y = 1
+		relative_position_id = SOV_presidential_dictatorship
+		cost = 45
+
+		will_lead_to_war_with = POL
+		will_lead_to_war_with = UKR
+		will_lead_to_war_with = VLN
+		will_lead_to_war_with = LIT
+		will_lead_to_war_with = LAT
+		will_lead_to_war_with = EST
+
+		completion_reward = {
+			if = {
+				limit = { 
+					POL = { exists = yes } 
+				}
+				declare_war_on = {
+					target = POL
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					UKR = { exists = yes } 
+				}
+				declare_war_on = {
+					target = UKR
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					VLN = { exists = yes } 
+				}
+				declare_war_on = {
+					target = VLN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					LIT = { exists = yes } 
+				}
+				declare_war_on = {
+					target = LIT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					LAT = { exists = yes } 
+				}
+				declare_war_on = {
+					target = LAT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					EST = { exists = yes } 
+				}
+				declare_war_on = {
+					target = EST
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					GEO = {
+						exists = yes
+						NOT = { is_in_faction_with = SOV }
+					}
+				}
+				declare_war_on = {
+					target = GEO
+					type = annex_everything
+				}
+			}
 		}		
 	}
 
@@ -140,13 +798,417 @@ focus_tree = {
 		available = {
 			has_country_flag = SOV_bolshevik_coup_successful
 		}
-		x = 6
+		x = 8
 		y = 1
 		relative_position_id = SOV_the_exiles
 		cost = 45
 
 		completion_reward = {
-			
+			country_event = Rrepublic.12
+			custom_effect_tooltip = SOV_support_warning
+		}		
+	}
+
+	focus = {
+		id = SOV_the_end_of_agricultural_aristocracy
+		icon = GFX_focus_rom_parties_end
+		prerequisite = { focus = SOV_rise_of_the_bolsheviks }
+		x = -3
+		y = 1
+		relative_position_id = SOV_rise_of_the_bolsheviks
+		cost = 45
+
+		completion_reward = {
+			remove_ideas = SOV_the_land_rights_question_idea
+			add_popularity = {
+				ideology = totalism_ideology
+				popularity = 0.10
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_war_communism
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = SOV_rise_of_the_bolsheviks }
+		x = 0
+		y = 1
+		relative_position_id = SOV_rise_of_the_bolsheviks
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_revolutionary_zeal_idea
+				add_idea = SOV_revolutionary_zeal_2_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_the_kulaks
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		prerequisite = { focus = SOV_war_communism }
+		x = -4
+		y = 1
+		relative_position_id = SOV_war_communism
+		cost = 45
+
+		completion_reward = {
+			country_event = Rrepublic.13
+			custom_effect_tooltip = SOV_foc12_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_rally_the_workers
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = SOV_war_communism }
+		x = -1
+		y = 1
+		relative_position_id = SOV_war_communism
+		cost = 45
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_revolutionary_zeal_2_idea
+				add_idea = SOV_revolutionary_zeal_3_idea
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_industrialize_the_east
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = SOV_war_communism }
+		x = 1
+		y = 1
+		relative_position_id = SOV_war_communism
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc13_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_rise_of_the_soviet_union
+		icon = GFX_focus_SOV_socialism_in_one_country
+		prerequisite = { focus = SOV_rally_the_workers }
+		prerequisite = { focus = SOV_industrialize_the_east }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = RUS_end_of_civil_war_tt
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_rally_the_workers
+		cost = 7
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_new_tree_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_soldiers_of_the_revolution
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = SOV_the_exiles }
+		x = 15
+		y = 1
+		relative_position_id = SOV_the_exiles
+		cost = 45
+
+		completion_reward = {
+			add_ideas = SOV_soldiers_of_the_revolution_idea
+			custom_effect_tooltip = SOV_foc1_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_political_commissars
+		icon = GFX_focus_SOV_penal_battalions
+		prerequisite = { focus = SOV_rise_of_the_bolsheviks }
+		prerequisite = { focus = SOV_soldiers_of_the_revolution }
+		mutually_exclusive = { 
+			focus = SOV_improvization_and_adaptability
+			focus = SOV_tradition_and_discipline 
+		}
+		available = {
+			has_country_flag = SOV_bolshevik_coup_successful
+		}
+		x = -3
+		y = 1
+		relative_position_id = SOV_soldiers_of_the_revolution
+		cost = 45
+
+		completion_reward = {
+			add_ideas = ideological_loyalty_spirit
+		}		
+	}
+
+	focus = {
+		id = SOV_improvization_and_adaptability
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = SOV_soldiers_of_the_revolution }
+		mutually_exclusive = { 
+			focus = SOV_political_commissars
+			focus = SOV_tradition_and_discipline 
+		}
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_soldiers_of_the_revolution
+		cost = 45
+
+		completion_reward = {
+			add_ideas = quick_improvisation_spirit
+		}		
+	}
+
+	focus = {
+		id = SOV_tradition_and_discipline
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SOV_soldiers_of_the_revolution }
+		mutually_exclusive = { 
+			focus = SOV_improvization_and_adaptability
+			focus = SOV_political_commissars
+		}
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_soldiers_of_the_revolution
+		cost = 45
+
+		completion_reward = {
+			add_ideas = professional_officer_corps_spirit
+		}		
+	}
+
+	focus = {
+		id = SOV_scavenged_equipment
+		icon = GFX_focus_SOV_organize_wreckers
+		prerequisite = { 
+			focus = SOV_political_commissars
+			focus = SOV_improvization_and_adaptability
+			focus = SOV_tradition_and_discipline
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_improvization_and_adaptability
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SOV_soldiers_of_the_revolution_3_idea }
+				swap_ideas = {
+					remove_idea = SOV_soldiers_of_the_revolution_3_idea
+					add_idea = SOV_soldiers_of_the_revolution_4_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SOV_soldiers_of_the_revolution_idea
+					add_idea = SOV_soldiers_of_the_revolution_2_idea
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_decentralized_command
+		icon = GFX_focus_chi_army_reform
+		prerequisite = { 
+			focus = SOV_political_commissars 
+			focus = SOV_improvization_and_adaptability
+			focus = SOV_tradition_and_discipline
+		}
+		mutually_exclusive = { focus = SOV_bravery_is_all_that_is_needed }
+		x = 1
+		y = 2
+		relative_position_id = SOV_improvization_and_adaptability
+		cost = 45
+
+		completion_reward = {
+			add_ideas = flexible_organization_spirit
+		}		
+	}
+
+	focus = {
+		id = SOV_meritocracy
+		icon = GFX_focus_generic_license_production
+		prerequisite = { 
+			focus = SOV_political_commissars 
+			focus = SOV_improvization_and_adaptability
+			focus = SOV_tradition_and_discipline
+		}
+		x = 2
+		y = 1
+		relative_position_id = SOV_improvization_and_adaptability
+		cost = 45
+
+		completion_reward = {
+			army_experience = 50
+		}		
+	}
+
+	focus = {
+		id = SOV_the_red_army
+		icon = GFX_focus_SOV_organization_centralization_discipline
+		prerequisite = { focus = SOV_political_commissars }
+		x = 0
+		y = 1
+		relative_position_id = SOV_political_commissars
+		cost = 45
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = SOV_soldiers_of_the_revolution_2_idea }
+				swap_ideas = {
+					remove_idea = SOV_soldiers_of_the_revolution_2_idea
+					add_idea = SOV_soldiers_of_the_revolution_4_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SOV_soldiers_of_the_revolution_idea
+					add_idea = SOV_soldiers_of_the_revolution_3_idea
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = SOV_promote_the_young_officers
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = SOV_the_red_army }
+		x = -1
+		y = 1
+		relative_position_id = SOV_the_red_army
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc14_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_bravery_is_all_that_is_needed
+		icon = GFX_focus_hol_united_netherlands
+		prerequisite = { focus = SOV_the_red_army }
+		mutually_exclusive = { focus = SOV_decentralized_command }
+		x = 1
+		y = 1
+		relative_position_id = SOV_the_red_army
+		cost = 45
+
+		completion_reward = {
+			add_ideas = victory_or_death_spirit
+		}		
+	}
+
+	focus = {
+		id = SOV_self_reliance
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = SOV_promote_the_young_officers }
+		x = -1
+		y = 1
+		relative_position_id = SOV_promote_the_young_officers
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc15_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_arm_the_workers_and_peasants
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = SOV_promote_the_young_officers }
+		x = 1
+		y = 1
+		relative_position_id = SOV_promote_the_young_officers
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc16_tt
+		}		
+	}
+
+	focus = {
+		id = SOV_innovation_in_artillery
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = SOV_self_reliance }
+		x = -1
+		y = 1
+		relative_position_id = SOV_self_reliance
+		cost = 45
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = artillery
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_red_steel
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		prerequisite = { focus = SOV_self_reliance }
+		x = 0
+		y = 2
+		relative_position_id = SOV_self_reliance
+		cost = 45
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = armor
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_new_rifle_design
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = SOV_self_reliance }
+		x = 1
+		y = 1
+		relative_position_id = SOV_self_reliance
+		cost = 45
+
+		completion_reward = {
+			add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = infantry_weapons
+            }
+		}		
+	}
+
+	focus = {
+		id = SOV_socialist_uprisings
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = SOV_arm_the_workers_and_peasants }
+		prerequisite = { 
+			focus = SOV_bravery_is_all_that_is_needed
+			focus = SOV_decentralized_command
+		}
+		x = 2
+		y = 1
+		relative_position_id = SOV_arm_the_workers_and_peasants
+		cost = 45
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_foc17_tt
 		}		
 	}
 
@@ -156,8 +1218,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_milyukovs_foreign_policy }
 		available = {
 			has_country_flag = SOV_american_embassy_established
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
-		x = 11
+		x = 20
 		y = 1
 		relative_position_id = SOV_milyukovs_foreign_policy
 		cost = 45
@@ -173,6 +1236,9 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = SOV_american_support }
 		mutually_exclusive = { focus = SOV_american_trade_deal }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = -1
 		y = 1
 		relative_position_id = SOV_american_support
@@ -191,6 +1257,9 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = { focus = SOV_american_support }
 		mutually_exclusive = { focus = SOV_american_military_advisors }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 1
 		y = 1
 		relative_position_id = SOV_american_support
@@ -209,6 +1278,9 @@ focus_tree = {
 			focus = SOV_american_trade_deal
 		}
 		mutually_exclusive = { focus = SOV_american_rifle_designs }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_american_military_advisors
@@ -227,6 +1299,9 @@ focus_tree = {
 			focus = SOV_american_trade_deal
 		}
 		mutually_exclusive = { focus = SOV_american_volunteers }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_american_trade_deal
@@ -251,6 +1326,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_british_alignment
 			focus = SOV_japanese_alignment
+		}
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
 		x = 1
 		y = 1
@@ -281,8 +1359,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_milyukovs_foreign_policy }
 		available = {
 			has_country_flag = SOV_british_embassy_established
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
-		x = 16
+		x = 25
 		y = 1
 		relative_position_id = SOV_milyukovs_foreign_policy
 		cost = 45
@@ -298,6 +1377,9 @@ focus_tree = {
 		icon = GFX_focus_generic_commonwealth_build_infantry
 		prerequisite = { focus = SOV_british_support }
 		mutually_exclusive = { focus = SOV_british_industrial_expertise }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = -1
 		y = 1
 		relative_position_id = SOV_british_support
@@ -313,9 +1395,12 @@ focus_tree = {
 
 	focus = {
 		id = SOV_british_industrial_expertise
-		icon = GFX_goal_generic_production
+		icon = GFX_goal_generic_production2
 		prerequisite = { focus = SOV_british_support }
 		mutually_exclusive = { focus = SOV_british_military_advisors }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 1
 		y = 1
 		relative_position_id = SOV_british_support
@@ -337,6 +1422,9 @@ focus_tree = {
 			focus = SOV_british_industrial_expertise
 		}
 		mutually_exclusive = { focus = SOV_british_tank_designs }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_british_military_advisors
@@ -355,6 +1443,9 @@ focus_tree = {
 			focus = SOV_british_industrial_expertise
 		}
 		mutually_exclusive = { focus = SOV_british_volunteers }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_british_industrial_expertise
@@ -379,6 +1470,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_american_alignment
 			focus = SOV_japanese_alignment
+		}
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
 		x = 1
 		y = 1
@@ -409,8 +1503,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_milyukovs_foreign_policy }
 		available = {
 			has_country_flag = SOV_japanese_embassy_established
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
-		x = 21
+		x = 30
 		y = 1
 		relative_position_id = SOV_milyukovs_foreign_policy
 		cost = 45
@@ -426,6 +1521,9 @@ focus_tree = {
 		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = { focus = SOV_japanese_support }
 		mutually_exclusive = { focus = SOV_japanese_flight_instructors }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = -1
 		y = 1
 		relative_position_id = SOV_japanese_support
@@ -444,6 +1542,9 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = SOV_japanese_support }
 		mutually_exclusive = { focus = SOV_japanese_military_advisors }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 1
 		y = 1
 		relative_position_id = SOV_japanese_support
@@ -465,6 +1566,9 @@ focus_tree = {
 			focus = SOV_japanese_flight_instructors
 		}
 		mutually_exclusive = { focus = SOV_japanese_aircraft_designs }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_japanese_military_advisors
@@ -483,6 +1587,9 @@ focus_tree = {
 			focus = SOV_japanese_flight_instructors
 		}
 		mutually_exclusive = { focus = SOV_japanese_volunteers }
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+		}
 		x = 0
 		y = 1
 		relative_position_id = SOV_japanese_flight_instructors
@@ -507,6 +1614,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_american_alignment
 			focus = SOV_british_alignment
+		}
+		available = {
+			NOT = { has_country_flag = SOV_bolshevik_coup_successful }
 		}
 		x = 1
 		y = 1

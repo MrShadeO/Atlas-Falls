@@ -7,4 +7,8 @@ opinion_modifiers = {
         value = -15
         months = 24
     }
+
+    SOV_accepted_self_determination = {
+        value = 30
+    }
 }

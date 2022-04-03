@@ -59,6 +59,9 @@ country_event = {
 		name = Rrepublic.2.a
 		set_country_flag = SOV_accepted_bolshevik_exiles
         custom_effect_tooltip = SOV_foc3_tt
+        hidden_effect = {
+            country_event = { id = Rrepublic.3 days = 30 }
+        }
     }
 
 	option = {
@@ -67,4 +70,287 @@ country_event = {
         add_stability = 0.05
         add_political_power = -25
 	}
+}
+
+#Trotsky Trouble 1
+country_event = {
+	id = Rrepublic.3
+	title = Rrepublic.3.t
+	desc = Rrepublic.3.d
+	picture = GFX_report_event_trotsky_army_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.3.a
+        hidden_effect = {
+            country_event = { id = Rrepublic.4 days = 30 }
+        }
+    }
+}
+
+#Trotsky Trouble 2
+country_event = {
+	id = Rrepublic.4
+	title = Rrepublic.4.t
+	desc = Rrepublic.4.d
+	picture = GFX_report_event_red_volunteers
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.4.a
+        hidden_effect = {
+            country_event = { id = Rrepublic.5 days = 30 }
+        }
+    }
+}
+
+#Bolshevik Coup Attempt
+country_event = {
+	id = Rrepublic.5
+	title = Rrepublic.5.t
+	desc = Rrepublic.5.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.5.a
+        set_country_flag = SOV_bolshevik_coup_unsuccessful
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = -0.10
+        }
+        set_party_name = { 
+            ideology = authoritarianism_ideology
+            long_name = SOV_kerensky_authoritarianism_ideology_party_long 
+            name = SOV_kerensky_authoritarianism_ideology_party
+        }
+    }
+
+    option = {
+		name = Rrepublic.5.b
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.10
+        }
+        retire_character = SOV_alexander_kerensky
+        promote_character = {
+            character = SOV_leon_trotsky
+            ideology = totalism_sub
+        }
+        set_politics = {
+            ruling_party = totalism_ideology
+            elections_allowed = no
+        }
+        dismantle_faction = yes
+        set_cosmetic_tag = SOV_bolshevik
+        set_country_flag = SOV_bolshevik_coup_successful
+        set_country_flag = SOV_central_committee
+        clr_country_flag = SOV_pm_pavel_milyukov
+        hidden_effect = {
+            reload_peoples_of_russia_gui = yes
+        }
+    }
+}
+
+#The Future of the Republic
+country_event = {
+	id = Rrepublic.6
+	title = Rrepublic.6.t
+	desc = Rrepublic.6.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.6.a
+        set_government_federal_republic = yes
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.10
+        }
+    }
+
+    option = {
+		name = Rrepublic.6.b
+        set_government_socialist_republic = yes
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.05
+        }
+        hidden_effect = {
+            country_event = { id = Rrepublic.7 days = 1 }
+        }
+    }
+}
+
+#The Kadets Walk Out
+country_event = {
+	id = Rrepublic.7
+	title = Rrepublic.7.t
+	desc = Rrepublic.7.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.7.a
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.15
+        }
+        clr_country_flag = SOV_pm_pavel_milyukov
+        set_country_flag = SOV_pm_nikolai_avksentiev
+        set_country_flag = SOV_lost_kadet_support
+        custom_effect_tooltip = SOV_nikolai_avksentiev_becomes_pm_tt
+        custom_effect_tooltip = SOV_pp_warning_tt
+    }
+}
+
+#Invitation to Revolutionary Front
+country_event = {
+	id = Rrepublic.8
+	title = Rrepublic.8.t
+	desc = Rrepublic.8.d
+	picture = GFX_report_event_latvian_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.8.a
+        SOV = { 
+            add_to_faction = THIS 
+            hidden_effect = {
+                country_event = { id = Rrepublic.9 days = 1 }
+            }
+        }
+    }
+
+    option = {
+		name = Rrepublic.8.b
+        hidden_effect = {
+            SOV = {
+                country_event = { id = Rrepublic.10 days = 1 }
+            }
+        }
+    }
+}
+
+#They say yes.
+country_event = {
+	id = Rrepublic.9
+	title = Rrepublic.9.t
+	desc = Rrepublic.9.d
+	picture = GFX_report_event_latvian_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.9.a
+        effect_tooltip = {
+            add_to_faction = FROM
+        }
+    }
+}
+
+#They say no.
+country_event = {
+	id = Rrepublic.10
+	title = Rrepublic.10.t
+	desc = Rrepublic.10.d
+	picture = GFX_report_event_finnish_soldiers_snow
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.10.a
+    }
+}
+
+#Dissolution of the Provisional Council
+country_event = {
+	id = Rrepublic.11
+	title = Rrepublic.11.t
+	desc = Rrepublic.11.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.11.a
+        add_stability = 0.05
+        add_popularity = {
+            ideology = authoritarianism_ideology
+            popularity = 0.10
+        }
+        add_popularity = {
+            ideology = social_democracy_ideology
+            popularity = 0.10
+        }
+        set_government_dictatorship = yes
+    }
+}
+
+#The Vanguard
+country_event = {
+	id = Rrepublic.12
+	title = Rrepublic.12.t
+	desc = Rrepublic.12.d
+	picture = GFX_report_event_communists_cheer
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.12.a
+        add_popularity = {
+            ideology = totalism_ideology
+            popularity = 0.10
+        }
+        add_stability = 0.05
+        add_political_power = 75
+        set_government_one_party_state = yes
+    }
+}
+
+#Handling the Kulaks
+country_event = {
+	id = Rrepublic.13
+	title = Rrepublic.13.t
+	desc = Rrepublic.13.d
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.13.a
+        swap_ideas = {
+            remove_idea = RUS_famine_idea
+            add_idea = SOV_famine_allied_the_kulaks
+        }
+    }
+
+    option = {
+		name = Rrepublic.13.b
+        swap_ideas = {
+            remove_idea = RUS_famine_idea
+            add_idea = SOV_famine_crushed_the_kulaks
+        }
+    }
+}
+
+#The Death of Alexei Brusilov
+country_event = {
+	id = Rrepublic.14
+	title = Rrepublic.14.t
+	desc = Rrepublic.14.d
+	picture = GFX_report_event_europe_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.14.a
+        retire_character = SOV_aleksei_brusilov
+    }
 }

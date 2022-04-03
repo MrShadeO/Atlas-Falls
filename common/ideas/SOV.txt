@@ -118,6 +118,60 @@ ideas = {
 			}
 		}
 
+		SOV_revolutionary_zeal_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = saf_soviet_advisers
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.075
+				war_support_factor = 0.15
+                army_morale_factor = 0.10
+				industrial_capacity_factory = 0.10
+			}
+		}
+
+		SOV_revolutionary_zeal_3_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = saf_soviet_advisers
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = 0.075
+				war_support_factor = 0.15
+                army_morale_factor = 0.10
+				industrial_capacity_factory = 0.20
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15 
+			}
+		}
+
         SOV_the_great_retreat_idea = {
 			
 			allowed = {
@@ -488,6 +542,193 @@ ideas = {
 				air_ace_generation_chance_factor = 0.075
 				air_accidents_factor = -0.075
 				air_weather_penalty = -0.075
+			}
+		}
+
+		SOV_subsidized_food_imports_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_agrarian_society
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.10
+				tax_revenue = -2
+			}
+		}
+
+		SOV_improved_supply_lines_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = generic_build_infrastructure
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_rail_way_factor = 0.10
+				production_speed_supply_node_factor = 0.10
+				supply_node_range = 0.15
+			}
+		}
+
+		SOV_famine_allied_the_kulaks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_agrarian_society
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.10
+				production_speed_buildings_factor = -0.05
+				attrition = 0.05
+				stability_factor = 0.10
+			}
+		}
+
+		SOV_famine_crushed_the_kulaks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_agrarian_society
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.30
+				stability_factor = -0.10
+				army_morale_factor = 0.05
+				attrition = -0.05
+			}
+		}
+
+		SOV_soldiers_of_the_revolution_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = SOV_war_heroes
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				experience_gain_army_factor = 0.10
+			}
+		}
+
+		SOV_soldiers_of_the_revolution_2_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = SOV_war_heroes
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				experience_gain_army_factor = 0.10
+				equipment_capture_factor = 0.05
+			}
+		}
+
+		SOV_soldiers_of_the_revolution_3_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = generic_communist_army
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+				experience_gain_army_factor = 0.10
+			}
+		}
+
+		SOV_soldiers_of_the_revolution_4_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+            picture = generic_communist_army
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+				experience_gain_army_factor = 0.10
+				equipment_capture_factor = 0.05
 			}
 		}
     }

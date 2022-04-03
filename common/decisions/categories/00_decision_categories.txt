@@ -12,6 +12,8 @@ legislation_decisions_category = {
 	allowed = {
 		always = yes
 	}
+
+	priority = 1000
 }
 
 debug_decisions = {

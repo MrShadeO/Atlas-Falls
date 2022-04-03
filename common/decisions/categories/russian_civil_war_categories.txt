@@ -1,0 +1,22 @@
+the_peoples_of_russia_cat = {
+	icon = SOV_propaganda
+
+	allowed = {
+		OR = {
+            original_tag = RUS
+            original_tag = SOV
+        }
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        RUS = { exists = yes }
+        SOV = { exists = yes }
+    }
+
+    priority = {
+        base = 10
+    }
+
+    scripted_gui = peoples_of_russia_gui
+}

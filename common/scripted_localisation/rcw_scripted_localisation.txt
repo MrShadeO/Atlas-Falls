@@ -1,0 +1,420 @@
+defined_text = {
+	name = GetCurrentFlag
+    text = {
+		trigger = {
+			has_cosmetic_tag = SOV_bolshevik
+		}
+		localization_key = "GFX_soviet_flag"
+	}
+    text = {
+		localization_key = "GFX_republican_flag"
+	}
+}
+
+defined_text = {
+	name = GetImperialPeasantSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = RUS.peasant_popularity
+				value = SOV.peasant_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "IMPERIAL_PEASANT_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "IMPERIAL_PEASANT_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetRepublicanPeasantSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = SOV.peasant_popularity
+				value = RUS.peasant_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "REPUBLICAN_PEASANT_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "REPUBLICAN_PEASANT_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetImperialWorkerSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = RUS.worker_popularity
+				value = SOV.worker_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "IMPERIAL_WORKER_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "IMPERIAL_WORKER_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetRepublicanWorkerSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = SOV.worker_popularity
+				value = RUS.worker_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "REPUBLICAN_WORKER_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "REPUBLICAN_WORKER_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetImperialBourgeoisieSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = RUS.bourgeoisie_popularity
+				value = SOV.bourgeoisie_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "IMPERIAL_BOURGEOISIE_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "IMPERIAL_BOURGEOISIE_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetRepublicanBourgeoisieSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = SOV.bourgeoisie_popularity
+				value = RUS.bourgeoisie_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "REPUBLICAN_BOURGEOISIE_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "REPUBLICAN_BOURGEOISIE_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetImperialAristocratSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = RUS.aristocrat_popularity
+				value = SOV.aristocrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "IMPERIAL_ARISTOCRAT_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "IMPERIAL_ARISTOCRAT_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetRepublicanAristocratSupport
+    text = {
+		trigger = {
+			check_variable = {
+				var = SOV.aristocrat_popularity
+				value = RUS.aristocrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = "REPUBLICAN_ARISTOCRAT_SUPPORT_KEY_YELLOW"
+	}
+    text = {
+		localization_key = "REPUBLICAN_ARISTOCRAT_SUPPORT_KEY_WHITE"
+	}
+}
+
+defined_text = {
+	name = GetPeasantBenefits
+    text = {
+		trigger = {
+            has_idea = rcw_peasant_support_0_idea
+		}
+		localization_key = "PEASANT_BENEFITS_0_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_10_idea
+		}
+		localization_key = "PEASANT_BENEFITS_10_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_20_idea
+		}
+		localization_key = "PEASANT_BENEFITS_20_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_30_idea
+		}
+		localization_key = "PEASANT_BENEFITS_30_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_40_idea
+		}
+		localization_key = "PEASANT_BENEFITS_40_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_60_idea
+		}
+		localization_key = "PEASANT_BENEFITS_60_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_70_idea
+		}
+		localization_key = "PEASANT_BENEFITS_70_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_80_idea
+		}
+		localization_key = "PEASANT_BENEFITS_80_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_90_idea
+		}
+		localization_key = "PEASANT_BENEFITS_90_KEY"
+	}
+
+	text = {
+		trigger = {
+            has_idea = rcw_peasant_support_100_idea
+		}
+		localization_key = "PEASANT_BENEFITS_100_KEY"
+	}
+    text = {
+		localization_key = "No Bonuses."
+	}
+}
+
+defined_text = {
+	name = GetWorkerBenefits
+    text = {
+		trigger = {
+            has_idea = rcw_worker_support_0_idea
+		}
+		localization_key = "WORKER_BENEFITS_0_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_10_idea
+		}
+		localization_key = "WORKER_BENEFITS_10_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_20_idea
+		}
+		localization_key = "WORKER_BENEFITS_20_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_30_idea
+		}
+		localization_key = "WORKER_BENEFITS_30_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_40_idea
+		}
+		localization_key = "WORKER_BENEFITS_40_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_60_idea
+		}
+		localization_key = "WORKER_BENEFITS_60_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_70_idea
+		}
+		localization_key = "WORKER_BENEFITS_70_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_80_idea
+		}
+		localization_key = "WORKER_BENEFITS_80_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_90_idea
+		}
+		localization_key = "WORKER_BENEFITS_90_KEY"
+	}
+
+	text = {
+		trigger = {
+            has_idea = rcw_worker_support_100_idea
+		}
+		localization_key = "WORKER_BENEFITS_100_KEY"
+	}
+    text = {
+		localization_key = "No Bonuses."
+	}
+}
+
+defined_text = {
+	name = GetBourgeoisieBenefits
+    text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_0_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_0_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_10_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_10_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_20_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_20_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_30_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_30_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_40_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_40_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_60_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_60_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_70_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_70_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_80_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_80_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_90_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_90_KEY"
+	}
+
+	text = {
+		trigger = {
+            has_idea = rcw_bourgeoisie_support_100_idea
+		}
+		localization_key = "BOURGEOISIE_BENEFITS_100_KEY"
+	}
+    text = {
+		localization_key = "No Bonuses."
+	}
+}
+
+defined_text = {
+	name = GetAristocratBenefits
+    text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_0_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_0_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_10_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_10_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_20_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_20_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_30_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_30_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_40_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_40_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_60_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_60_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_70_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_70_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_80_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_80_KEY"
+	}
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_90_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_90_KEY"
+	}
+
+	text = {
+		trigger = {
+            has_idea = rcw_aristocrat_support_100_idea
+		}
+		localization_key = "ARISTOCRAT_BENEFITS_100_KEY"
+	}
+    text = {
+		localization_key = "No Bonuses."
+	}
+}
