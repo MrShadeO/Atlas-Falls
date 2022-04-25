@@ -112,3 +112,9 @@ recruit_character = FIN_woldemar_hagglund
 recruit_character = FIN_ivan_indrenius
 recruit_character = FIN_gustav_von_schoultz
 
+
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

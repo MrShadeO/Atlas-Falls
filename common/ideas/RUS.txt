@@ -612,5 +612,122 @@ ideas = {
 				tax_revenue = -1
 			}
 		}
+
+		RUS_prioritize_the_west_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			picture = FRA_army_of_aggression_focus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = UKR
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = VLN
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = LIT
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = LAT
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = EST
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+		}
+
+		RUS_prioritize_the_east_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			picture = FRA_army_of_aggression_focus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = RUS
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = GEO
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.05
+			}
+		}
+
+		RUS_killing_fields_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = { has_global_flag = russian_civil_war_active }
+			}
+
+			picture = FRA_fortification_focus
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.15
+			}
+		}
     }
 }

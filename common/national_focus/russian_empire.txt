@@ -63,7 +63,7 @@ focus_tree = {
 		cost = 45
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_todo_tt
+			ENG = { country_event = Rimperial.16 }
 		}		
 	}
 
@@ -182,8 +182,8 @@ focus_tree = {
 	}
 
     focus = {
-		id = RUS_western_battleplans
-		icon = GFX_goal_generic_position_armies
+		id = RUS_tsar_tank_model_iii
+		icon = GFX_focus_generic_tank_production
         prerequisite = { focus = RUS_the_russian_civil_war }
 		x = -3
 		y = 1
@@ -191,7 +191,11 @@ focus_tree = {
 		cost = 45
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_foc2_tt
+			add_tech_bonus = {
+                bonus = 0.5
+                uses = 1
+                category = armor
+            }
 		}		
 	}
 
@@ -231,8 +235,8 @@ focus_tree = {
 	}
 
     focus = {
-		id = RUS_eastern_battleplans
-		icon = GFX_goal_generic_position_armies
+		id = RUS_killing_fields
+		icon = GFX_focus_focus_fra_fascist_threat
         prerequisite = { focus = RUS_the_russian_civil_war }
 		x = 3
 		y = 1
@@ -240,18 +244,19 @@ focus_tree = {
 		cost = 45
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_foc4_tt
+			add_ideas = RUS_killing_fields_idea
+			custom_effect_tooltip = RUS_foc1_tt
 		}		
 	}
 
     focus = {
 		id = RUS_aggressive_stance
 		icon = GFX_focus_focus_fra_fascist_threat
-        prerequisite = { focus = RUS_western_battleplans }
+        prerequisite = { focus = RUS_tsar_tank_model_iii }
         prerequisite = { focus = RUS_mass_production }
 		x = 1
 		y = 1
-        relative_position_id = RUS_western_battleplans
+        relative_position_id = RUS_tsar_tank_model_iii
 		cost = 45
 
 		completion_reward = {
@@ -284,7 +289,7 @@ focus_tree = {
 		id = RUS_defensive_stance
 		icon = GFX_goal_generic_fortify_city
         prerequisite = { focus = RUS_modern_rifle_designs }
-        prerequisite = { focus = RUS_eastern_battleplans }
+        prerequisite = { focus = RUS_killing_fields }
 		x = 1
 		y = 1
         relative_position_id = RUS_modern_rifle_designs
@@ -298,15 +303,16 @@ focus_tree = {
 	focus = {
 		id = RUS_extensive_western_planning
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-        prerequisite = { focus = RUS_western_battleplans }
+        prerequisite = { focus = RUS_tsar_tank_model_iii }
 		prerequisite = { focus = RUS_aggressive_stance }
 		x = 0
 		y = 2
-        relative_position_id = RUS_western_battleplans
+        relative_position_id = RUS_tsar_tank_model_iii
 		cost = 45
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_foc3_tt
+			add_ideas = RUS_prioritize_the_west_idea
+			custom_effect_tooltip = RUS_foc1_tt
 		}		
 	}
 
@@ -329,14 +335,15 @@ focus_tree = {
 		id = RUS_extensive_eastern_planning
 		icon = GFX_goal_generic_occupy_states_ongoing_war
         prerequisite = { focus = RUS_defensive_stance }
-		prerequisite = { focus = RUS_eastern_battleplans }
+		prerequisite = { focus = RUS_killing_fields }
 		x = 0
 		y = 2
-        relative_position_id = RUS_eastern_battleplans
+        relative_position_id = RUS_killing_fields
 		cost = 45
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_foc5_tt
+			add_ideas = RUS_prioritize_the_east_idea
+			custom_effect_tooltip = RUS_foc1_tt
 		}		
 	}
 
@@ -916,9 +923,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = RUS_restore_trust_in_the_romanovs
 		cost = 45
+		bypass = {
+			SOV = { exists = no }
+		}
 
 		completion_reward = {
-			custom_effect_tooltip = RUS_todo_tt
+			SOV = { country_event = Rimperial.12 }
 		}		
 	}
 

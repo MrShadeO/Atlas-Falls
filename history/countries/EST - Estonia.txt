@@ -94,3 +94,9 @@ recruit_character = EST_jaan_soots
 
 #NAVY
 
+
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

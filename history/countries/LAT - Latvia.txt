@@ -93,3 +93,9 @@ recruit_character = LAT_roberts_dambitis
 
 #NAVY
 
+
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

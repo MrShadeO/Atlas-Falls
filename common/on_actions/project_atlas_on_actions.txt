@@ -112,14 +112,22 @@ on_actions = {
 				add_to_array = { circle_grid = 0 }
 
 				#IDs are assigned to each corporation. IDs MUST BE UNIQUE ACROSS THE ENTIRE MOD!! Check Documentation for a list of all Corporation IDs.
-				add_to_array = { corporations_array = 1 } #Generic Construction Corporation
-				add_to_array = { corporations_array = 2 } #Generic Electronics Corporation
-				add_to_array = { corporations_array = 3 } #Generic Arms Corporation
-				add_to_array = { corporations_array = 4 } #Generic Artillery Corporation
-				add_to_array = { corporations_array = 5 } #Generic Truck Corporation
-				add_to_array = { corporations_array = 6 } #Generic Aircraft Corporation
-				add_to_array = { corporations_array = 7 } #Generic Shipbuilding Corporation
-				add_to_array = { corporations_array = 8 } #Generic Tank Corporation
+				if = {
+					limit = {
+						NOT = { 
+							original_tag = RUS 
+							original_tag = SOV
+						}
+					}
+					add_to_array = { corporations_array = 1 } #Generic Construction Corporation
+					add_to_array = { corporations_array = 2 } #Generic Electronics Corporation
+					add_to_array = { corporations_array = 3 } #Generic Arms Corporation
+					add_to_array = { corporations_array = 4 } #Generic Artillery Corporation
+					add_to_array = { corporations_array = 5 } #Generic Truck Corporation
+					add_to_array = { corporations_array = 6 } #Generic Aircraft Corporation
+					add_to_array = { corporations_array = 7 } #Generic Shipbuilding Corporation
+					add_to_array = { corporations_array = 8 } #Generic Tank Corporation
+				}
 
 				#Investment quantity (from 0 - 5) is tracked by this array. The index for each entry MUST MATCH those of the corporation's ID.
 				add_to_array = { investment_array = 0 } #Generic Construction Corporation

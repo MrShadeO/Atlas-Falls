@@ -1,10 +1,18 @@
 #Add an entry below for all corporations // ex: <id> - <Corporation Name> (<TAG>)
 
-1 - Generic Industry Corporation #1
-2 - Generic Industry Corporation #2
+1 - Generic Construction Corporation
+2 - Generic Electronics Corporation
 3 - Generic Arms Corporation
 4 - Generic Artillery Corporation
 5 - Generic Truck Corporation
 6 - Generic Aircraft Corporation
 7 - Generic Shipbuilding Corporation
 8 - Generic Tank Corporation
+9 - Branobel (RUS)
+10 - OAO AEK Dinamo (RUS)
+11 - Izhevsk (RUS)
+12 - Tula Arsenal (RUS)
+13 - Russo-Balt (RUS)
+14 - Shchetinin (RUS)
+15 - Admiralty Shipyard (RUS)
+16 - NMZ (RUS)

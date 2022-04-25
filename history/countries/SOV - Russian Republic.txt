@@ -154,6 +154,16 @@ recruit_character = SOV_aleksandr_nemitz
 recruit_character = SOV_pyotr_kitkin
 recruit_character = SOV_aleksandr_razvozov
 
+#CORPORATIONS
+add_to_array = { corporations_array = 9 } #Branobel
+add_to_array = { corporations_array = 2 } #Generic Electronics Company
+add_to_array = { corporations_array = 11 } #Izhevsk
+add_to_array = { corporations_array = 12 } #Tula Arsenal
+add_to_array = { corporations_array = 13 } #Russo-Balt
+add_to_array = { corporations_array = 14 } #Shchetinin
+add_to_array = { corporations_array = 15 } #Admiralty Shipyard
+add_to_array = { corporations_array = 16 } #NMZ
+
 #RUSSIAN CIVIL WAR STUFF
 set_variable = {
 	var = peasant_popularity
@@ -173,4 +183,59 @@ set_variable = {
 set_variable = {
 	var = aristocrat_popularity
 	value = 10
+}
+
+set_variable = {
+	var = american_eq_support_charges
+	value = 8
+}
+
+set_variable = {
+	var = british_eq_support_charges
+	value = 5
+}
+
+set_variable = {
+	var = japanese_eq_support_charges
+	value = 6
+}
+
+set_variable = {
+	var = american_volunteer_support_charges
+	value = 5
+}
+
+set_variable = {
+	var = british_volunteer_support_charges
+	value = 5
+}
+
+set_variable = {
+	var = japanese_volunteer_support_charges
+	value = 5
+}
+
+set_variable = {
+	var = american_industrial_support_cost
+	value = 25
+}
+
+set_variable = {
+	var = british_industrial_support_cost
+	value = 25
+}
+
+set_variable = {
+	var = japanese_industrial_support_cost
+	value = 25
+}
+
+set_variable = { #Variable is used to remove all offmap factories purchased via decision
+	var = purchased_factories
+	value = 0
+}
+
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
 }

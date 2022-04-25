@@ -733,3 +733,16 @@ defined_text = {
 		localization_key = SHOW_NOTHING
 	}
 }
+
+defined_text = {
+    name = CheckSOVCompensatedLandowners
+	text = {
+		trigger = {
+			has_idea = SOV_compensated_landowners_idea
+		}
+		localization_key = SHOW_COMPENSATED_LANDOWNERS_MODIFIER
+	}
+	text = {
+		localization_key = SHOW_NOTHING
+	}
+}

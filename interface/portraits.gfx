@@ -47,6 +47,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Portrait_SOV_Aleksandr_Verkhovsky"
+		textureFile = "gfx/leaders/SOV/Portrait_SOV_Aleksandr_Verkhovsky.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Portrait_SOV_Central_Committee"
 		textureFile = "gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds"
 	}
@@ -55,6 +60,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_RUS_Nikolai_Markov"
 		textureFile = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Markov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_RUS_Dmitri_Golitsyn"
+		textureFile = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Golitsyn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_RUS_Alexander_Guchkov"
+		textureFile = "gfx/leaders/RUS/Portrait_RUS_Alexander_Guchkov.dds"
 	}
 
 	###FIN###

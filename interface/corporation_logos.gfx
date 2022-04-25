@@ -38,4 +38,34 @@ spriteTypes = {
 		name = "GFX_generic_tank_corporation"
 		textureFile = "gfx/interface/corporations/generic_tank_corporation.dds"
 	}
+
+	spriteType = {
+		name = "GFX_RUS_branobel"
+		textureFile = "gfx/interface/corporations/RUS_branobel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RUS_izhevsk"
+		textureFile = "gfx/interface/corporations/RUS_izhevsk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RUS_tula_arsenal"
+		textureFile = "gfx/interface/corporations/RUS_tula_arsenal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RUS_russo_balt"
+		textureFile = "gfx/interface/corporations/RUS_russo_balt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RUS_admiralty_shipyards"
+		textureFile = "gfx/interface/corporations/RUS_admiralty_shipyards.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RUS_nmz"
+		textureFile = "gfx/interface/corporations/RUS_nmz.dds"
+	}
 }

@@ -11,4 +11,8 @@ opinion_modifiers = {
     SOV_accepted_self_determination = {
         value = 30
     }
+
+    ENG_betrayed_by_london = {
+        value = -30
+    }
 }

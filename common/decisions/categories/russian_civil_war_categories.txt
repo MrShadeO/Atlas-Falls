@@ -20,3 +20,164 @@ the_peoples_of_russia_cat = {
 
     scripted_gui = peoples_of_russia_gui
 }
+
+rcw_russian_civil_war_decisions = {
+	icon = military_operation
+
+	allowed = {
+		OR = {
+            original_tag = RUS
+            original_tag = SOV
+            original_tag = FIN
+            original_tag = GEO
+            original_tag = POL
+            original_tag = UKR
+            original_tag = VLN
+            original_tag = LIT
+            original_tag = LAT
+            original_tag = EST
+        }
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        OR = {
+            has_war_with = RUS
+            has_war_with = SOV
+            has_war_with = FIN
+            has_war_with = GEO
+            has_war_with = POL
+            has_war_with = UKR
+            has_war_with = VLN
+            has_war_with = LIT
+            has_war_with = LAT
+            has_war_with = EST
+        }
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+RUS_diplomatic_sabotage_decisions = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = RUS
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_completed_focus = RUS_sabotage_republican_diplomacy
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+RUS_french_support_decisions = {
+	icon = intervention_overseas
+
+	allowed = {
+		original_tag = RUS
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_country_flag = RUS_france_provides_aid 
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+RUS_trans_ural_railway_decisions = {
+	icon = generic_industry
+
+	allowed = {
+		original_tag = RUS
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_completed_focus = RUS_trans_ural_railway_scheme
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+SOV_american_support_decisions = {
+	icon = hol_obtain_foreign_colonial_investments
+
+	allowed = {
+		original_tag = SOV
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_completed_focus = SOV_milyukovs_foreign_policy
+        NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+SOV_british_support_decisions = {
+	icon = hol_obtain_foreign_colonial_investments
+
+	allowed = {
+		original_tag = SOV
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_completed_focus = SOV_milyukovs_foreign_policy
+        NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+SOV_japanese_support_decisions = {
+	icon = hol_obtain_foreign_colonial_investments
+
+	allowed = {
+		original_tag = SOV
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_completed_focus = SOV_milyukovs_foreign_policy
+        NOT = { has_country_flag = SOV_bolshevik_coup_successful }
+    }
+
+    priority = {
+        base = 5
+    }
+}
+
+SOV_socialist_uprisings_decisions = {
+	icon = generic_communism
+
+	allowed = {
+		original_tag = SOV
+	}
+
+    visible = {
+        has_global_flag = russian_civil_war_active
+        has_country_flag = SOV_bolshevik_coup_successful
+    }
+
+    priority = {
+        base = 5
+    }
+}

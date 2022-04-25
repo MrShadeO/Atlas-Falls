@@ -113,3 +113,10 @@ recruit_character = POL_kazimierz_porebski
 recruit_character = POL_jozef_unrug
 recruit_character = POL_jerzy_swirski
 recruit_character = POL_xawery_czernicki
+
+
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

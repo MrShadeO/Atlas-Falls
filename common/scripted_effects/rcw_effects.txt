@@ -1838,45 +1838,127 @@ decrease_aristocrat_popularity_10 = {
     }
 }
 
-decrease_aristocrat_popularity_15 = {
-    custom_effect_tooltip = rcw_decrease_aristocrat_support_15
+change_to_soviet_union = {
     hidden_effect = {
-        add_to_variable = {
-            var = aristocrat_popularity
-            value = -15
+        if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_american_alignment
+            }
+            add_offsite_building = { type = industrial_complex level = purchased_factories }
         }
-        clamp_variable = {
-            var = aristocrat_popularity
-            min = 0
-            max = 100
+        else_if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_british_alignment
+            }
+            add_offsite_building = { type = dockyard level = purchased_factories }
+        }
+        else_if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_japanese_alignment
+            }
+            add_offsite_building = { type = arms_factory level = purchased_factories }
+        }
+
+        if = {
+            limit = { has_template = "American Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "American Volunteer Brigade"
+                disband = no
+            }
         }
         if = {
-            limit = { original_tag = SOV }
-            RUS = {
-                add_to_variable = {
-                    var = aristocrat_popularity
-                    value = 15
-                }
-            }
-            clamp_variable = {
-                var = aristocrat_popularity
-                min = 0
-                max = 100
+            limit = { has_template = "British Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "British Volunteer Brigade"
+                disband = no
             }
         }
-        else = {
-            SOV = {
-                add_to_variable = {
-                    var = aristocrat_popularity
-                    value = 15
-                }
-            }
-            clamp_variable = {
-                var = aristocrat_popularity
-                min = 0
-                max = 100
+        if = {
+            limit = { has_template = "Japanese Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "Japanese Volunteer Brigade"
+                disband = no
             }
         }
-        reload_peoples_of_russia_gui = yes
     }
 }
+
+end_of_civil_war_effects = {
+    SOV = {
+        if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_american_alignment
+            }
+            add_offsite_building = { type = industrial_complex level = purchased_factories }
+        }
+        else_if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_british_alignment
+            }
+            add_offsite_building = { type = dockyard level = purchased_factories }
+        }
+        else_if = {
+            limit = {
+                check_variable = {
+                    var = purchased_factories
+                    value = 0
+                    compare = less_than
+                }
+                has_completed_focus = SOV_japanese_alignment
+            }
+            add_offsite_building = { type = arms_factory level = purchased_factories }
+        }
+        
+        delete_unit_template_and_units = {
+            division_template = "Dobrovol'cheskaya Brigada"
+            disband = no
+        }
+        if = {
+            limit = { has_template = "American Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "American Volunteer Brigade"
+                disband = no
+            }
+        }
+        if = {
+            limit = { has_template = "British Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "British Volunteer Brigade"
+                disband = no
+            }
+        }
+        if = {
+            limit = { has_template = "Japanese Volunteer Brigade"}
+            delete_unit_template_and_units = {
+                division_template = "Japanese Volunteer Brigade"
+                disband = no
+            }
+        }
+    }
+}
+

@@ -20,7 +20,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Ratsuväkidivisioona" 	#Cavalry Division
+	name = "Ratsuväkidivisioona" 			#Cavalry Division
 	division_names_group = FIN_CAV_01
 
 	regiments = {
@@ -33,6 +33,22 @@ division_template = {
 		cavalry = { x = 2 y = 0 }
 		cavalry = { x = 2 y = 1 }
 		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vapaaehtoisprikaati"			#Volunteer Brigade
+	division_names_group = FIN_VOL_01
+	is_locked = yes
+	priority = 0
+	template_counter = 6
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
 	}
 }
 

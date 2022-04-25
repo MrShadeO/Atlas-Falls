@@ -227,3 +227,28 @@ FIN_PAR_01 = {
 		10 = { "%d. Laskuvarjodivisioona" }
 	}
 }
+
+FIN_VOL_01 = {
+	name = "Volunteer Brigades"
+
+	for_countries = { FIN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Vapaaehtoisprikaati"
+
+	ordered = {
+		1 = { "%d. Vapaaehtoisprikaati" }
+		2 = { "%d. Vapaaehtoisprikaati" }
+		3 = { "%d. Vapaaehtoisprikaati" }
+		4 = { "%d. Vapaaehtoisprikaati" }
+		5 = { "%d. Vapaaehtoisprikaati" }
+		6 = { "%d. Vapaaehtoisprikaati" }
+		7 = { "%d. Vapaaehtoisprikaati" }
+		8 = { "%d. Vapaaehtoisprikaati" }
+		9 = { "%d. Vapaaehtoisprikaati" }
+		10 = { "%d. Vapaaehtoisprikaati" }
+	}
+}

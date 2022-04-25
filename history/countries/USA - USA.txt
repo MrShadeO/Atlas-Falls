@@ -324,36 +324,43 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
-1924.1.1 = {
+set_politics = {
+	ruling_party = liberalism_ideology
+	last_election = "1920.11.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	anarchism_ideology = 0
+	totalism_ideology = 0
+	socialism_ideology = 5
+	social_democracy_ideology = 10
+	liberalism_ideology = 45
+	conservatism_ideology = 40
+	authoritarianism_ideology = 0
+	ultranationalism_ideology = 0
+}
 
-	set_politics = {
-		ruling_party = liberalism_ideology
-		last_election = "1920.11.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		anarchism_ideology = 0
-		totalism_ideology = 0
-		socialism_ideology = 5
-		social_democracy_ideology = 10
-		liberalism_ideology = 45
-		conservatism_ideology = 40
-		authoritarianism_ideology = 0
-		ultranationalism_ideology = 0
-	}
+add_ideas = {
+	low_tax_rate
+	disarmed_nation 
+	free_trade 
+	lower_secondary_education
+	universal_suffrage
+	legalized_trade_unions
+	army_poor_funding
+	air_poor_funding
+	market_economy
+}
 
-	add_ideas = {
-		low_tax_rate
-		disarmed_nation 
-		free_trade 
-		lower_secondary_education
-		universal_suffrage
-		legalized_trade_unions
-		army_poor_funding
-		air_poor_funding
-		market_economy
-	}
+#TECHNOLOGIES
+set_technology = { 
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_train = 1
 }
 
 if = {

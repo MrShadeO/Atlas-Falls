@@ -96,3 +96,9 @@ recruit_character = LIT_kazys_musteikis
 
 #NAVY
 
+
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

@@ -95,3 +95,8 @@ recruit_character = GEO_kristapor_araratian
 recruit_character = GEO_garegin_nzhdeh
 recruit_character = GEO_abdulhamid_bey_gaytabashi
 
+#Variables
+set_variable = {
+	var = rcw_volunteer_purchase_cost
+	value = 25
+}

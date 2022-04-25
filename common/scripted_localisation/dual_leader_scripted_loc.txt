@@ -335,8 +335,30 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = RUS
+			has_country_flag = RUS_pm_nikolai_markov
 		}
 		localization_key = RUS_NIKOLAI_MARKOV
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_dmitri_golitsyn
+        }
+        localization_key = RUS_DMITRI_GOLITSYN
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_pavel_milyukov
+        }
+        localization_key = RUS_PAVEL_MILYUKOV
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_alexander_guchkov
+        }
+        localization_key = RUS_ALEXANDER_GUCHKOV
 	}
 	text = {
 		trigger = {
@@ -472,6 +494,13 @@ defined_text = {
 			has_country_flag = SOV_pm_nikolai_avksentiev
 		}
 		localization_key = SOV_NIKOLAI_AVKSENTIEV
+	}
+	text = {
+        trigger = {
+			original_tag = SOV
+			has_country_flag = SOV_pm_aleksandr_verkhovsky
+        }
+        localization_key = SOV_ALEKSANDR_VERKHOVSKY
 	}
 	text = {
 		trigger = {
@@ -840,15 +869,45 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = SOV
+			has_country_flag = SOV_pm_aleksandr_verkhovsky
+        }
+        localization_key = "GFX_Portrait_SOV_Aleksandr_Verkhovsky"
+	}
+	text = {
+        trigger = {
+			original_tag = SOV
 			has_country_flag = SOV_central_committee
         }
         localization_key = "GFX_Portrait_SOV_Central_Committee"
 	}
+	### RUS ###
 	text = {
         trigger = {
 			original_tag = RUS
+			has_country_flag = RUS_pm_nikolai_markov
         }
         localization_key = "GFX_Portrait_RUS_Nikolai_Markov"
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_dmitri_golitsyn
+        }
+        localization_key = "GFX_Portrait_RUS_Dmitri_Golitsyn"
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_pavel_milyukov
+        }
+        localization_key = "GFX_Portrait_SOV_Pavel_Milyukov"
+	}
+	text = {
+        trigger = {
+			original_tag = RUS
+			has_country_flag = RUS_pm_alexander_guchkov
+        }
+        localization_key = "GFX_Portrait_RUS_Alexander_Guchkov"
 	}
 	text = {
         trigger = {

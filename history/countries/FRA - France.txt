@@ -267,3 +267,11 @@ add_ideas = {
 	air_veteran
 	colonial_exploitation
 }
+
+#TECHNOLOGIES
+set_technology = { 
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	basic_train = 1
+}

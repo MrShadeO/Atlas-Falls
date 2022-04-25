@@ -37,9 +37,8 @@ division_template = {
 }
 
 division_template = {
-	name = "Dywizja Garnizonowa"	    #Volunteer Brigade
+	name = "Brygada Ochotnicza"			#Volunteer Brigade
 	division_names_group = POL_VOL_01
-	is_locked = yes
 
 	regiments = {
 		infantry = { x = 0 y = 0 }

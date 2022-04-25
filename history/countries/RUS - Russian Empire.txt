@@ -7,6 +7,7 @@ set_convoys = 200
 
 set_country_flag = has_tsar
 set_country_flag = is_absolute_monarchy
+set_country_flag = RUS_pm_nikolai_markov
 
 #ARMY OOB
 if = {
@@ -273,6 +274,11 @@ set_variable = {
 	value = 90
 }
 
+set_variable = {
+	var = RUS_french_debt_var
+	value = 0
+}
+
 #ARMOR TEMPLATES
 if = {
 	limit = {
@@ -297,3 +303,13 @@ if = {
 		icon = "GFX_gwtank_medium"
 	}
 }
+
+#CORPORATIONS
+add_to_array = { corporations_array = 9 } #Branobel
+add_to_array = { corporations_array = 2 } #Generic Electronics Company
+add_to_array = { corporations_array = 11 } #Izhevsk
+add_to_array = { corporations_array = 12 } #Tula Arsenal
+add_to_array = { corporations_array = 13 } #Russo-Balt
+add_to_array = { corporations_array = 14 } #Shchetinin
+add_to_array = { corporations_array = 15 } #Admiralty Shipyard
+add_to_array = { corporations_array = 16 } #NMZ

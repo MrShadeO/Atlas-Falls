@@ -131,6 +131,7 @@ country_event = {
 
     option = {
 		name = Rrepublic.5.b
+        set_government_one_party_state = yes
         add_popularity = {
             ideology = totalism_ideology
             popularity = 0.10
@@ -148,10 +149,22 @@ country_event = {
         set_cosmetic_tag = SOV_bolshevik
         set_country_flag = SOV_bolshevik_coup_successful
         set_country_flag = SOV_central_committee
+        clr_country_flag = has_president
+        set_country_flag = has_chairman
+        if = {
+            limit = {
+                has_country_flag = SOV_pm_pavel_milyukov
+                RUS = { 
+                    RUS_michael_alexandrovich = { is_country_leader = yes }
+                }
+            }
+            RUS = { country_event = Rimperial.15 }
+        }
         clr_country_flag = SOV_pm_pavel_milyukov
         hidden_effect = {
             reload_peoples_of_russia_gui = yes
         }
+        change_to_soviet_union = yes
     }
 }
 
@@ -181,7 +194,10 @@ country_event = {
             popularity = -0.05
         }
         hidden_effect = {
-            country_event = { id = Rrepublic.7 days = 1 }
+            if = {
+                limit = { has_country_flag = SOV_pm_pavel_milyukov }
+                country_event = { id = Rrepublic.7 days = 1 }
+            }
         }
     }
 }
@@ -201,11 +217,19 @@ country_event = {
             ideology = liberalism_ideology
             popularity = -0.15
         }
+        custom_effect_tooltip = SOV_nikolai_avksentiev_becomes_pm_tt
+        if = {
+            limit = {
+                has_country_flag = SOV_pm_pavel_milyukov
+                RUS = { 
+                    RUS_michael_alexandrovich = { is_country_leader = yes }
+                }
+            }
+            RUS = { country_event = Rimperial.15 }
+        }
         clr_country_flag = SOV_pm_pavel_milyukov
         set_country_flag = SOV_pm_nikolai_avksentiev
         set_country_flag = SOV_lost_kadet_support
-        custom_effect_tooltip = SOV_nikolai_avksentiev_becomes_pm_tt
-        custom_effect_tooltip = SOV_pp_warning_tt
     }
 }
 
@@ -247,7 +271,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
+	option = { 
 		name = Rrepublic.9.a
         effect_tooltip = {
             add_to_faction = FROM
@@ -290,6 +314,9 @@ country_event = {
             popularity = 0.10
         }
         set_government_dictatorship = yes
+        hidden_effect = {
+            country_event = { id = Rrepublic.16 days = 1 }
+        }
     }
 }
 
@@ -352,5 +379,68 @@ country_event = {
 	option = {
 		name = Rrepublic.14.a
         retire_character = SOV_aleksei_brusilov
+    }
+}
+
+#Bolshevik Uprising Warning
+country_event = {
+	id = Rrepublic.15
+	title = Rrepublic.15.t
+	desc = Rrepublic.15.d
+	picture = GFX_report_event_spr_anarchist_uprising2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.15.a
+        
+    }
+}
+
+#Dictatorship path, New PM
+country_event = {
+	id = Rrepublic.16
+	title = Rrepublic.16.t
+	desc = Rrepublic.16.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.16.a
+        custom_effect_tooltip = SOV_aleksandr_verkhovsky_becomes_pm_tt
+        if = {
+            limit = {
+                has_country_flag = SOV_pm_pavel_milyukov
+                RUS = { 
+                    RUS_michael_alexandrovich = { is_country_leader = yes }
+                }
+            }
+            RUS = { country_event = Rimperial.15 }
+        }
+        clr_country_flag = SOV_pm_pavel_milyukov
+        set_country_flag = SOV_pm_aleksandr_verkhovsky
+    }
+}
+
+#Kadets Join the Empire
+country_event = {
+	id = Rrepublic.17
+	title = Rrepublic.17.t
+	desc = Rrepublic.17.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rrepublic.17.a
+        add_popularity = {
+            ideology = liberalism_ideology
+            popularity = -0.15
+        }
+        clr_country_flag = SOV_pm_pavel_milyukov
+        set_country_flag = SOV_pm_nikolai_avksentiev
+        set_country_flag = SOV_lost_kadet_support
+        custom_effect_tooltip = SOV_nikolai_avksentiev_becomes_pm_tt
     }
 }

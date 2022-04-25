@@ -124,3 +124,2001 @@ the_peoples_of_russia_cat = {
 		}
 	}
 }
+
+RUS_diplomatic_sabotage_decisions = {
+    RUS_sabotage_republican_diplomacy_with_uk = {
+        
+		icon = eng_abdication_crisis
+
+		available = {
+            NOT = { has_country_flag = RUS_blocking_republican_diplo }
+		}
+
+		cost = 125
+
+        days_remove = 60
+
+        complete_effect = {
+            SOV = { 
+                country_event = Rimperial.9
+                set_country_flag = SOV_blocked_british_diplo 
+            }
+            set_country_flag = RUS_blocking_republican_diplo
+		}
+
+        remove_effect = {
+            SOV = { clr_country_flag = SOV_blocked_british_diplo }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+    }
+
+    RUS_sabotage_republican_diplomacy_with_usa = {
+        
+		icon = eng_puppet_usa
+
+		available = {
+            NOT = { has_country_flag = RUS_blocking_republican_diplo }
+		}
+
+		cost = 125
+
+        days_remove = 60
+
+        complete_effect = {
+            SOV = { 
+                country_event = Rimperial.10
+                set_country_flag = SOV_blocked_american_diplo 
+            }
+            set_country_flag = RUS_blocking_republican_diplo
+		}
+
+        remove_effect = {
+            SOV = { clr_country_flag = SOV_blocked_american_diplo }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+    }
+
+    RUS_sabotage_republican_diplomacy_with_japan = {
+        
+		icon = jap_pacific_guardian
+
+		available = {
+            NOT = { has_country_flag = RUS_blocking_republican_diplo }
+		}
+
+		cost = 125
+
+        days_remove = 60
+
+        complete_effect = {
+            SOV = { 
+                country_event = Rimperial.11
+                set_country_flag = SOV_blocked_japanese_diplo 
+            }
+            set_country_flag = RUS_blocking_republican_diplo
+		}
+
+        remove_effect = {
+            SOV = { clr_country_flag = SOV_blocked_japanese_diplo }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+    }
+}
+
+SOV_american_support_decisions = {
+    SOV_establish_an_american_embassy_decision = {
+
+		icon = hol_exchange_intelligence_data
+
+		available = {
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 75
+
+        fire_only_once = yes
+
+        complete_effect = {
+            set_country_flag = SOV_american_embassy_established
+            custom_effect_tooltip = rcw_american_embassy_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_american_rifles_decision = {
+
+		icon = generic_industry
+
+        visible = {
+            NOT = { has_completed_focus = SOV_american_trade_deal }
+        }
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 50
+
+        days_remove = 60
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1000
+                producer = USA
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_american_rifles_alt_decision = {
+
+		icon = generic_industry
+
+        visible = {
+            has_completed_focus = SOV_american_trade_deal
+        }
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 50
+
+        days_remove = 60
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1250
+                producer = USA
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_american_artillery_decision = {
+
+		icon = ger_military_buildup
+
+        visible = {
+            NOT = { has_completed_focus = SOV_american_trade_deal }
+            check_variable = {
+                var = american_eq_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_american_support
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 30
+
+        days_remove = 60
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = artillery_equipment_1
+                amount = 80
+                producer = USA
+            }
+            subtract_from_variable = { american_eq_support_charges = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_american_artillery_alt_decision = {
+
+		icon = ger_military_buildup
+
+        visible = {
+            has_completed_focus = SOV_american_trade_deal
+            check_variable = {
+                var = american_eq_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_american_support
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 30
+
+        days_remove = 60
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = artillery_equipment_1
+                amount = 100
+                producer = USA
+            }
+            subtract_from_variable = { american_eq_support_charges = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_recruit_american_volunteers_decision = {
+
+		icon = generic_military
+
+        visible = {
+            check_variable = {
+                var = american_volunteer_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_american_volunteers
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 25
+
+        days_remove = 60
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_foc18_tt
+            subtract_from_variable = { american_volunteer_support_charges = 1 }
+            hidden_effect = {
+                division_template = {
+                    name = "American Volunteer Brigade"
+                    division_names_group = RUS_VOL_01
+                    is_locked = yes
+                    priority = 0
+                    template_counter = 6
+
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                        infantry = { x = 0 y = 4 }
+                    }
+                }
+                load_oob = "rcw_republic_american_volunteers"
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_american_industrial_support_decision = {
+
+		icon = generic_factory
+
+		available = {
+            has_country_flag = SOV_american_embassy_established
+            has_completed_focus = SOV_american_alignment
+            NOT = { has_country_flag = SOV_blocked_american_diplo }
+		}
+
+		cost = 25
+
+        complete_effect = {
+            add_offsite_building = { type = industrial_complex level = 1 }
+            add_to_variable = { american_industrial_support_cost = 25 }
+            add_to_variable = { purchased_factories = -1 }
+            custom_effect_tooltip = rcw_industrial_support_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+SOV_british_support_decisions = {
+    SOV_establish_a_british_embassy_decision = {
+
+		icon = hol_exchange_intelligence_data
+
+		available = {
+            NOT = { has_country_flag = SOV_blocked_british_diplo }
+		}
+
+		cost = 75
+
+        fire_only_once = yes
+
+        complete_effect = {
+            set_country_flag = SOV_british_embassy_established
+            custom_effect_tooltip = rcw_british_embassy_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_british_rifles_decision = {
+
+		icon = generic_industry
+
+		available = {
+            has_country_flag = SOV_british_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            NOT = { has_country_flag = SOV_blocked_british_diplo }
+		}
+
+		cost = 50
+
+        days_remove = 90
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1000
+                producer = ENG
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_british_tanks_decision = {
+
+		icon = generic_tank
+
+        visible = {
+            check_variable = {
+                var = british_eq_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_british_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_british_support
+            NOT = { has_country_flag = SOV_blocked_british_diplo }
+		}
+
+		cost = 30
+
+        days_remove = 90
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = heavy_tank_chassis_0
+                amount = 50
+                producer = ENG
+                variant_name = "Mark V"
+            }
+            subtract_from_variable = { british_eq_support_charges = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_recruit_british_volunteers_decision = {
+
+		icon = generic_military
+
+        visible = {
+            check_variable = {
+                var = british_volunteer_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_british_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_british_volunteers
+            NOT = { has_country_flag = SOV_blocked_british_diplo }
+		}
+
+		cost = 25
+
+        days_remove = 90
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_foc18_tt
+            subtract_from_variable = { british_volunteer_support_charges = 1 }
+            hidden_effect = {
+                division_template = {
+                    name = "British Volunteer Brigade"
+                    division_names_group = RUS_VOL_01
+                    is_locked = yes
+                    priority = 0
+                    template_counter = 6
+
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                        infantry = { x = 0 y = 4 }
+                    }
+                }
+                load_oob = "rcw_republic_british_volunteers"
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_british_industrial_support_decision = {
+
+		icon = generic_factory
+
+		available = {
+            has_country_flag = SOV_british_embassy_established
+            has_completed_focus = SOV_british_alignment
+            NOT = { has_country_flag = SOV_blocked_british_diplo }
+		}
+
+		cost = 25
+
+        complete_effect = {
+            add_offsite_building = { type = dockyard level = 1 }
+            add_to_variable = { british_industrial_support_cost = 25 }
+            add_to_variable = { purchased_factories = -1 }
+            custom_effect_tooltip = rcw_industrial_support_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+SOV_japanese_support_decisions = {
+    SOV_establish_a_japanese_embassy_decision = {
+
+		icon = hol_exchange_intelligence_data
+
+		available = {
+            NOT = { has_country_flag = SOV_blocked_japanese_diplo }
+		}
+
+		cost = 75
+
+        fire_only_once = yes
+
+        complete_effect = {
+            set_country_flag = SOV_japanese_embassy_established
+            custom_effect_tooltip = rcw_japanese_embassy_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_japanese_rifles_decision = {
+
+		icon = generic_industry
+
+		available = {
+            has_country_flag = SOV_japanese_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            NOT = { has_country_flag = SOV_blocked_japanese_diplo }
+		}
+
+		cost = 50
+
+        days_remove = 30
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1000
+                producer = JAP
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_purchase_japanese_fighters_decision = {
+
+		icon = generic_tank
+
+        visible = {
+            check_variable = {
+                var = japanese_eq_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_japanese_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_japanese_support
+            NOT = { has_country_flag = SOV_blocked_japanese_diplo }
+		}
+
+		cost = 30
+
+        days_remove = 30
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_0
+                amount = 50
+                producer = JAP
+            }
+            subtract_from_variable = { japanese_eq_support_charges = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_recruit_japanese_volunteers_decision = {
+
+		icon = generic_military
+
+        visible = {
+            check_variable = {
+                var = japanese_volunteer_support_charges
+                value = 0
+                compare = greater_than
+            }
+        }
+
+		available = {
+            has_country_flag = SOV_japanese_embassy_established
+            408 = { is_fully_controlled_by = SOV }
+            has_completed_focus = SOV_japanese_volunteers
+            NOT = { has_country_flag = SOV_blocked_japanese_diplo }
+		}
+
+		cost = 25
+
+        days_remove = 30
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_foc18_tt
+            subtract_from_variable = { japanese_volunteer_support_charges = 1 }
+            hidden_effect = {
+                division_template = {
+                    name = "Japanese Volunteer Brigade"
+                    division_names_group = RUS_VOL_01
+                    is_locked = yes
+                    priority = 0
+                    template_counter = 6
+
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 0 y = 3 }
+                        infantry = { x = 0 y = 4 }
+                    }
+                }
+                load_oob = "rcw_republic_japanese_volunteers"
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_japanese_industrial_support_decision = {
+
+		icon = generic_factory
+
+		available = {
+            has_country_flag = SOV_japanese_embassy_established
+            has_completed_focus = SOV_japanese_alignment
+            NOT = { has_country_flag = SOV_blocked_japanese_diplo }
+		}
+
+		cost = 25
+
+        complete_effect = {
+            add_offsite_building = { type = arms_factory level = 1 }
+            add_to_variable = { japanese_industrial_support_cost = 25 }
+            add_to_variable = { purchased_factories = -1 }
+            custom_effect_tooltip = rcw_industrial_support_tt
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+SOV_socialist_uprisings_decisions = {
+    SOV_orchestrate_a_russian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            RUS = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = RUS
+		}
+
+		cost = 150
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            RUS = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                RUS = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = RUS
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+                set_country_flag = SOV_preparing_uprising
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_a_caucasian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            GEO = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = GEO
+		}
+
+		cost = 125
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            GEO = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                GEO = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = GEO
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_an_ukrainian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            UKR = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = UKR
+		}
+
+		cost = 125
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            UKR = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                UKR = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = UKR
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_a_polish_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            POL = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = POL
+		}
+
+		cost = 125
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            POL = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                POL = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = POL
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_a_finnish_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            FIN = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = FIN
+		}
+
+		cost = 100
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            FIN = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                FIN = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = FIN
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_a_lithuanian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            LIT = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = LIT
+		}
+
+		cost = 100
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            LIT = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                LIT = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = LIT
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_a_latvian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            LAT = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = LAT
+		}
+
+		cost = 75
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            LAT = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                LAT = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = LAT
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_orchestrate_an_estonian_uprising_decision = {
+
+		icon = generic_ignite_civil_war
+
+        visible = {
+            EST = { exists = yes }
+        }
+
+		available = {
+            has_completed_focus = SOV_socialist_uprisings
+            NOT = { has_country_flag = SOV_preparing_uprising }
+            has_war_with = EST
+		}
+
+		cost = 75
+
+        fire_only_once = yes
+
+        days_remove = 60
+
+        complete_effect = {
+            set_country_flag = SOV_preparing_uprising
+            EST = { country_event = Rrepublic.15 }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = SOV_preparing_uprising_tt
+            hidden_effect = {
+                EST = {
+                    start_civil_war = {
+                        ideology = totalism_ideology
+                        size = 0.1
+                        navy_ratio = 0
+                        air_ratio = 0
+                        keep_political_leader = yes
+                        keep_political_party_members = yes
+                    }
+                }
+                every_country = {
+                    limit = {
+                        original_tag = EST
+                        has_government = totalism_ideology
+                    }
+                    ROOT = {
+                        annex_country = {
+                            target = PREV
+                            transfer_troops = yes
+                        }
+                    }
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+RUS_french_support_decisions = {
+    RUS_purchase_french_rifles_decision = {
+
+		icon = generic_industry
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = RUS_trg1_tt
+                check_variable = {
+                    var = RUS_french_debt_var
+                    value = 24
+                    compare = less_than
+                }
+            }
+            OR = {
+                195 = {
+                    is_fully_controlled_by = RUS
+                }
+                137 = {
+                    is_fully_controlled_by = RUS
+                }
+                214 = {
+                    is_fully_controlled_by = RUS
+                }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 30
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1000
+                producer = FRA
+            }
+            custom_effect_tooltip = RUS_foc10_tt
+            add_to_variable = { RUS_french_debt_var = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_purchase_french_supplies_decision = {
+
+		icon = generic_industry
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = RUS_trg1_tt
+                check_variable = {
+                    var = RUS_french_debt_var
+                    value = 24
+                    compare = less_than
+                }
+            }
+            OR = {
+                195 = {
+                    is_fully_controlled_by = RUS
+                }
+                137 = {
+                    is_fully_controlled_by = RUS
+                }
+                214 = {
+                    is_fully_controlled_by = RUS
+                }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 30
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 100
+                producer = FRA
+            }
+            custom_effect_tooltip = RUS_foc10_tt
+            add_to_variable = { RUS_french_debt_var = 1 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_purchase_french_artillery_decision = {
+
+		icon = generic_industry
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = RUS_trg2_tt
+                check_variable = {
+                    var = RUS_french_debt_var
+                    value = 23
+                    compare = less_than
+                }
+            }
+            OR = {
+                195 = {
+                    is_fully_controlled_by = RUS
+                }
+                137 = {
+                    is_fully_controlled_by = RUS
+                }
+                214 = {
+                    is_fully_controlled_by = RUS
+                }
+            }
+		}
+
+		cost = 75
+
+        days_remove = 30
+
+        remove_effect = {
+            add_equipment_to_stockpile = {
+                type = artillery_equipment_1
+                amount = 80
+                producer = FRA
+            }
+            custom_effect_tooltip = RUS_foc11_tt
+            add_to_variable = { RUS_french_debt_var = 2 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+RUS_trans_ural_railway_decisions = {
+    RUS_perm_railway_expansion = {
+
+		icon = generic_construction
+
+		available = {
+            398 = {
+                can_build_railway = {
+                    start_province = 1754
+                    target_province = 4802
+                }
+            }
+            num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 50
+
+        days_remove = 90
+
+        modifier = {
+            civilian_factory_use = 2
+        }
+
+        remove_effect = {
+            build_railway = {
+                level = 2
+                build_only_on_allied = yes
+                controller_priority = {
+                    base = 1
+                }
+                fallback = yes
+                start_province = 1754
+                target_province = 4802
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_syktyvkar_railway_expansion = {
+
+		icon = generic_construction
+
+		available = {
+            397 = {
+                can_build_railway = {
+                    start_province = 7898
+                    target_province = 7712
+                }
+            }
+            num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 50
+
+        days_remove = 60
+
+        modifier = {
+            civilian_factory_use = 2
+        }
+
+        remove_effect = {
+            build_railway = {
+                level = 2
+                build_only_on_allied = yes
+                controller_priority = {
+                    base = 1
+                }
+                fallback = yes
+                start_province = 7898
+                target_province = 7712
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_syktyvkar_railway_station = {
+
+		icon = generic_wreckers
+
+		available = {
+            397 = {
+                is_fully_controlled_by = RUS
+                supply_node < 1
+            }
+            num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 75
+
+        days_remove = 90
+
+        modifier = {
+            civilian_factory_use = 4
+        }
+
+        remove_effect = {
+            397 = {
+                add_building_construction = {
+                    type = supply_node
+                    level = 1
+                    instant_build = yes
+                    province = 7898
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_pechora_railway_expansion = {
+
+		icon = generic_construction
+
+		available = {
+            262 = {
+                can_build_railway = {
+                    start_province = 10723
+                    target_province = 198
+                }
+            }
+            num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 50
+
+        days_remove = 90
+
+        modifier = {
+            civilian_factory_use = 2
+        }
+
+        remove_effect = {
+            build_railway = {
+                level = 2
+                build_only_on_allied = yes
+                controller_priority = {
+                    base = 1
+                }
+                fallback = yes
+                start_province = 10723
+                target_province = 198
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    RUS_pechora_railway_station = {
+
+		icon = generic_wreckers
+
+		available = {
+            262 = {
+                is_fully_controlled_by = RUS
+                supply_node < 1
+            }
+            num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 75
+
+        days_remove = 90
+
+        modifier = {
+            civilian_factory_use = 4
+        }
+
+        remove_effect = {
+            262 = {
+                add_building_construction = {
+                    type = supply_node
+                    level = 1
+                    instant_build = yes
+                    province = 11119
+                }
+            }
+		}
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}
+
+rcw_russian_civil_war_decisions = {
+    rcw_general_offensive_decision = {
+
+		icon = jap_conquer_china
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+        priority = 5
+
+		cost = 75
+
+        days_remove = 60
+
+        modifier = {
+            army_attack_factor = 0.20
+            breakthrough_factor = 0.10
+            attrition = 0.10
+            dig_in_speed_factor = -0.10
+            weekly_manpower = -300
+            custom_modifier_tooltip = rcw_operation_generic_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    rcw_hold_the_line_decision = {
+
+		icon = eng_trade_unions_demand
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+        priority = 5
+
+		cost = 75
+
+        days_remove = 60
+
+        modifier = {
+            army_attack_factor = -0.10
+            army_defence_factor = 0.20
+            breakthrough_factor = -0.10
+            attrition = -0.10
+            weekly_manpower = -300
+            custom_modifier_tooltip = rcw_operation_generic_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = SOV
+        }
+
+		available = {
+            OR = {
+                AND = {
+                    has_idea = SOV_omsk_idea
+                    controls_province = 10696
+                }
+                AND = {
+                    has_idea = SOV_ekaterinburg_idea
+                    controls_province = 1821
+                }
+                AND = {
+                    has_idea = SOV_vladivostok_idea
+                    controls_province = 957
+                }
+            }
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = {
+                if = {
+                    limit = { has_idea = SOV_omsk_idea }
+                    load_oob = "rcw_republic_omsk_volunteers"
+                }
+                else_if = {
+                    limit = { has_idea = SOV_ekaterinburg_idea }
+                    load_oob = "rcw_republic_ekaterinburg_volunteers"
+                }
+                else_if = {
+                    limit = { has_idea = SOV_vladivostok_idea }
+                    load_oob = "rcw_republic_vladivostok_volunteers"
+                }
+            }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_operation_riposte_decision = {
+
+		icon = generic_operation
+
+        allowed = {
+            original_tag = SOV
+        }
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+		cost = 0
+
+        fire_only_once = yes
+
+        days_remove = 120
+
+        modifier = {
+            breakthrough_factor = 0.20
+            army_attack_factor = 0.05
+            army_speed_factor = 0.05
+            custom_modifier_tooltip = rcw_operation_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_operation_siberian_star_decision = {
+
+		icon = generic_operation
+
+        allowed = {
+            original_tag = SOV
+        }
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+		cost = 0
+
+        fire_only_once = yes
+
+        days_remove = 90
+
+        modifier = {
+            army_attack_factor = 0.10
+            army_defence_factor = 0.10
+            winter_attrition_factor = -0.33
+
+            custom_modifier_tooltip = rcw_operation_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_operation_anthill_decision = {
+
+		icon = generic_operation
+
+        allowed = {
+            original_tag = SOV
+        }
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+		cost = 0
+
+        fire_only_once = yes
+
+        days_remove = 120
+
+        modifier = {
+            army_infantry_attack_factor = 0.15
+            army_infantry_defence_factor = 0.15
+
+            custom_modifier_tooltip = rcw_operation_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    SOV_operation_bulavins_vengeance_decision = {
+
+		icon = generic_operation
+
+        allowed = {
+            original_tag = SOV
+        }
+
+		available = {
+            NOT = { has_country_flag = rcw_warplan_in_progress }
+		}
+
+		cost = 0
+
+        fire_only_once = yes
+
+        days_remove = 120
+
+        modifier = {
+            cavalry_attack_factor = 0.15
+            army_speed_factor = 0.10
+
+            custom_modifier_tooltip = rcw_operation_tt
+        }
+
+        complete_effect = {
+            set_country_flag = rcw_warplan_in_progress
+        }
+
+        remove_effect = {
+            clr_country_flag = rcw_warplan_in_progress
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    FIN_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = FIN
+        }
+
+		available = {
+            controls_province = 11105
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_finland_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    GEO_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = GEO
+        }
+
+		available = {
+            controls_province = 1599
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_transcaucasia_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    POL_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = POL
+        }
+
+		available = {
+            controls_province = 3544
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_poland_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    UKR_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = UKR
+        }
+
+		available = {
+            controls_province = 11670
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_ukraine_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    VLN_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = VLN
+        }
+
+		available = {
+            controls_province = 3399
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_free_territory_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    LIT_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = LIT
+        }
+
+		available = {
+            controls_province = 6296
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_lithuania_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    LAT_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = LAT
+        }
+
+		available = {
+            controls_province = 9340
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_latvia_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+
+    EST_recruit_volunteer_brigade_decision = {
+
+		icon = generic_military
+
+        allowed = {
+            original_tag = EST
+        }
+
+		available = {
+            controls_province = 3152
+		}
+
+        priority = 10
+
+		cost = rcw_volunteer_purchase_cost
+
+        complete_effect = {
+            add_to_variable = { rcw_volunteer_purchase_cost = 25 }
+            custom_effect_tooltip = rcw_volunteer_cost_tt
+            hidden_effect = { load_oob = "rcw_estonia_volunteers" }
+        }
+
+		ai_will_do = {
+			base = 1
+
+		}
+	}
+}

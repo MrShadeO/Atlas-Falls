@@ -187,6 +187,9 @@ country_event = {
 				ruling_party = authoritarianism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
+			set_country_flag = RUS_pm_dmitri_golitsyn
+			custom_effect_tooltip = RUS_dmitri_golitsyn_becomes_pm_tt
 		}
 		#Michael was chosen as heir
 		else_if = {
@@ -202,11 +205,20 @@ country_event = {
 				ruling_party = liberalism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
 			hidden_effect = {
 				set_character_name = {
 					character = RUS_michael_alexandrovich
 					name = "Michael II"
 				}
+			}
+			if = {
+				limit = {
+					SOV = { 
+						NOT = { has_country_flag = SOV_pm_pavel_milyukov }
+					}
+				}
+				country_event = Rimperial.15
 			}
 		}
 		#Olga was chosen as heir
@@ -223,8 +235,11 @@ country_event = {
 				ruling_party = conservatism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
+			set_country_flag = RUS_pm_alexander_guchkov
 			clr_country_flag = has_tsar
 			set_country_flag = has_tsarina
+			custom_effect_tooltip = RUS_alexander_guchkov_becomes_pm_tt
 		}
     }
 }
@@ -257,6 +272,9 @@ country_event = {
 				ruling_party = authoritarianism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
+			set_country_flag = RUS_pm_dmitri_golitsyn
+			custom_effect_tooltip = RUS_dmitri_golitsyn_becomes_pm_tt
 		}
 		#Michael was chosen as heir
 		else_if = {
@@ -272,11 +290,20 @@ country_event = {
 				ruling_party = liberalism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
 			hidden_effect = {
 				set_character_name = {
 					character = RUS_michael_alexandrovich
 					name = "Michael II"
 				}
+			}
+			if = {
+				limit = {
+					SOV = { 
+						NOT = { has_country_flag = SOV_pm_pavel_milyukov }
+					}
+				}
+				country_event = Rimperial.15
 			}
 		}
 		#Olga was chosen as heir
@@ -293,8 +320,290 @@ country_event = {
 				ruling_party = conservatism_ideology
 			}
 			set_country_flag = RUS_nicholas_is_dead
+			clr_country_flag = RUS_pm_nikolai_markov
+			set_country_flag = RUS_pm_alexander_guchkov
 			clr_country_flag = has_tsar
 			set_country_flag = has_tsarina
+			custom_effect_tooltip = RUS_alexander_guchkov_becomes_pm_tt
 		}
     }
+}
+
+#(Republic) The Empire is sabotaging our diplomacy with the UK
+country_event = {
+	id = Rimperial.9
+	title = Rimperial.9.t
+	desc = Rimperial.9.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.9.a
+
+    }
+}
+
+#(Republic) The Empire is sabotaging our diplomacy with the USA
+country_event = {
+	id = Rimperial.10
+	title = Rimperial.10.t
+	desc = Rimperial.10.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.10.a
+
+    }
+}
+
+#(Republic) The Empire is sabotaging our diplomacy with Japan
+country_event = {
+	id = Rimperial.11
+	title = Rimperial.11.t
+	desc = Rimperial.11.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.11.a
+
+    }
+}
+
+#(Republic) The Empire Asks for Peace Talks
+country_event = {
+	id = Rimperial.12
+	title = Rimperial.12.t
+	desc = Rimperial.12.d
+	picture = GFX_report_event_gre_diplomacy
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.12.a
+		effect_tooltip = {
+			dismantle_faction = yes
+			RUS = {
+				annex_country = {
+					target = GER
+					transfer_troops = yes
+				}
+			}
+		}
+		hidden_effect = {
+			RUS = { country_event = { id = Rimperial.13 days = 1 } }
+		}
+    }
+
+	option = {
+		name = Rimperial.12.b
+		if = {
+			limit = { has_country_flag = SOV_pm_pavel_milyukov }
+			custom_effect_tooltip = RUS_kadets_abandon_revolution_tt
+		}
+		effect_tooltip = {
+			RUS = {
+				increase_peasant_popularity_5 = yes
+				increase_worker_popularity_5 = yes
+				increase_bourgeoisie_popularity_5 = yes
+				increase_aristocrat_popularity_5 = yes
+			}
+		}
+		hidden_effect = {
+			RUS = { country_event = { id = Rimperial.14 days = 1 } }
+		}
+    }
+}
+
+#The Republic Agrees to Peace
+country_event = {
+	id = Rimperial.13
+	title = Rimperial.13.t
+	desc = Rimperial.13.d
+	picture = GFX_report_event_gre_diplomacy
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.12.a
+		SOV = { 
+			dismantle_faction = yes 
+			hidden_effect = {
+				delete_unit_template_and_units = {
+					division_template = "Dobrovol'cheskaya Brigada"
+					disband = no
+				}
+				if = {
+					limit = { has_template = "American Volunteer Brigade" }
+					delete_unit_template_and_units = {
+						division_template = "American Volunteer Brigade"
+						disband = no
+					}
+				}
+				if = {
+					limit = { has_template = "British Volunteer Brigade" }
+					delete_unit_template_and_units = {
+						division_template = "British Volunteer Brigade"
+						disband = no
+					}
+				}
+				if = {
+					limit = { has_template = "Japanese Volunteer Brigade" }
+					delete_unit_template_and_units = {
+						division_template = "Japanese Volunteer Brigade"
+						disband = no
+					}
+				}
+			}
+		}
+		annex_country = {
+			target = GER
+			transfer_troops = yes
+		}
+	}
+}
+
+#The Republic Rejects Peace
+country_event = {
+	id = Rimperial.14
+	title = Rimperial.14.t
+	desc = Rimperial.14.d
+	picture = GFX_report_event_gre_diplomacy
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.14.a
+		increase_peasant_popularity_5 = yes
+		increase_worker_popularity_5 = yes
+		increase_bourgeoisie_popularity_5 = yes
+		increase_aristocrat_popularity_5 = yes
+		if = {
+			limit = { 
+				SOV = { has_country_flag = SOV_pm_pavel_milyukov }
+			}
+			country_event = Rimperial.15
+			hidden_effect = {
+				SOV = { country_event = Rrepublic.17 }
+			}
+		}
+	}
+}
+
+#The Kadets Join Us
+country_event = {
+	id = Rimperial.15
+	title = Rimperial.15.t
+	desc = Rimperial.15.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.15.a
+		custom_effect_tooltip = RUS_pavel_milyukov_becomes_pm_tt
+		set_country_flag = RUS_pm_pavel_milyukov
+		add_popularity = {
+            ideology = liberalism_ideology
+            popularity = 0.15
+        }
+	}
+}
+
+#(United Kingdom) Appeal to London
+country_event = {
+	id = Rimperial.16
+	title = Rimperial.16.t
+	desc = Rimperial.16.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.16.a
+		custom_effect_tooltip = RUS_appeal_to_london_success_tt
+		SOV = { 
+			set_country_flag = SOV_betrayed_by_london 
+			add_opinion_modifier = {
+				target = ENG
+				modifier = ENG_betrayed_by_london
+			}
+		}
+		hidden_effect = {
+			RUS = { country_event = { id = Rimperial.17 days = 1 } }
+			SOV = { country_event = { id = Rimperial.19 days = 1 } }
+		}
+	}
+
+	option = {
+		name = Rimperial.16.b
+		RUS = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = ENG_betrayed_by_london
+			}
+			hidden_effect = {
+				country_event = { id = Rimperial.18 days = 1 }
+			}
+		}
+	}
+}
+
+#The UK Accepts
+country_event = {
+	id = Rimperial.17
+	title = Rimperial.17.t
+	desc = Rimperial.17.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.17.a
+		
+	}
+}
+
+#The UK Refuses
+country_event = {
+	id = Rimperial.18
+	title = Rimperial.18.t
+	desc = Rimperial.18.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.18.a
+		effect_tooltip = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = ENG_betrayed_by_london
+			}
+		}
+	}
+}
+
+#(Republic) The UK Betrays Us
+country_event = {
+	id = Rimperial.19
+	title = Rimperial.19.t
+	desc = Rimperial.19.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Rimperial.19.a
+		effect_tooltip = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = ENG_betrayed_by_london
+			}
+		}
+	}
 }

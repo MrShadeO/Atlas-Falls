@@ -16,6 +16,16 @@ legislation_decisions_category = {
 	priority = 1000
 }
 
+military_decisions_category = {
+	icon = army_reform
+
+	allowed = {
+		always = yes
+	}
+
+	priority = 2
+}
+
 debug_decisions = {
 	icon = generic_research
 	visible = {

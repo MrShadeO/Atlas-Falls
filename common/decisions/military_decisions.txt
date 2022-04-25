@@ -1,0 +1,208 @@
+military_decisions_category = {
+    generic_improve_army_quality_1_decision = {
+
+		icon = generic_army_support
+
+        visible = {
+            has_idea = army_untrained
+        }
+
+		available = {
+            has_army_experience > 200
+		}
+
+		cost = 0
+
+        complete_effect = {
+            army_experience = -200
+            swap_ideas = {
+                remove_idea = army_untrained
+                add_idea = army_professional
+            }
+        }
+    }
+
+    generic_improve_army_quality_2_decision = {
+
+		icon = generic_army_support
+
+        visible = {
+            has_idea = army_professional
+        }
+
+		available = {
+            has_army_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            army_experience = -350
+            swap_ideas = {
+                remove_idea = army_professional
+                add_idea = army_veteran
+            }
+        }
+    }
+
+    generic_improve_army_quality_3_decision = {
+
+		icon = generic_army_support
+
+        visible = {
+            has_idea = army_veteran
+        }
+
+		available = {
+            has_army_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            army_experience = -350
+            swap_ideas = {
+                remove_idea = army_veteran
+                add_idea = army_elite
+            }
+        }
+    }
+
+    generic_improve_navy_quality_1_decision = {
+
+		icon = generic_naval
+
+        visible = {
+            has_idea = navy_untrained
+        }
+
+		available = {
+            has_navy_experience > 200
+		}
+
+		cost = 0
+
+        complete_effect = {
+            navy_experience = -200
+            swap_ideas = {
+                remove_idea = navy_untrained
+                add_idea = navy_professional
+            }
+        }
+    }
+
+    generic_improve_navy_quality_2_decision = {
+
+		icon = generic_naval
+
+        visible = {
+            has_idea = navy_professional
+        }
+
+		available = {
+            has_navy_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            navy_experience = -350
+            swap_ideas = {
+                remove_idea = navy_professional
+                add_idea = navy_veteran
+            }
+        }
+    }
+
+    generic_improve_navy_quality_3_decision = {
+
+		icon = generic_naval
+
+        visible = {
+            has_idea = navy_veteran
+        }
+
+		available = {
+            has_navy_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            navy_experience = -350
+            swap_ideas = {
+                remove_idea = navy_veteran
+                add_idea = navy_elite
+            }
+        }
+    }
+
+    generic_improve_air_quality_1_decision = {
+
+		icon = generic_air
+
+        visible = {
+            has_idea = air_untrained
+        }
+
+		available = {
+            has_air_experience > 200
+		}
+
+		cost = 0
+
+        complete_effect = {
+            air_experience = -200
+            swap_ideas = {
+                remove_idea = air_untrained
+                add_idea = air_professional
+            }
+        }
+    }
+
+    generic_improve_air_quality_2_decision = {
+
+		icon = generic_air
+
+        visible = {
+            has_idea = air_professional
+        }
+
+		available = {
+            has_air_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            air_experience = -350
+            swap_ideas = {
+                remove_idea = air_professional
+                add_idea = air_veteran
+            }
+        }
+    }
+
+    generic_improve_air_quality_3_decision = {
+
+		icon = generic_air
+
+        visible = {
+            has_idea = air_veteran
+        }
+
+		available = {
+            has_air_experience > 350
+		}
+
+		cost = 0
+
+        complete_effect = {
+            air_experience = -350
+            swap_ideas = {
+                remove_idea = air_veteran
+                add_idea = air_elite
+            }
+        }
+    }
+}
